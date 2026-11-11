@@ -1,0 +1,2072 @@
+# Translation of farm_ai_decision to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_ai_decision 18.0.1.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_ai_decision
+msgid "%f kg N"
+msgstr "%f kg N"
+
+#. module: farm_ai_decision
+msgid "AI Action: Automatically created correction intervention %s"
+msgstr "AI Action: Automatically created correction intervention %s"
+
+#. module: farm_ai_decision
+msgid "AI Agent"
+msgstr "Agen AI"
+
+#. module: farm_ai_decision
+msgid "AI Agent Name"
+msgstr "AI Agen Nama"
+
+#. module: farm_ai_decision
+msgid "AI Agents"
+msgstr "AI Agents"
+
+#. module: farm_ai_decision
+msgid "AI Crop Growth Prediction"
+msgstr "AI Tanaman Pertumbuhan Prediksi"
+
+#. module: farm_ai_decision
+msgid "AI Crop Growth Predictions"
+msgstr "AI Crop Growth Predictions"
+
+#. module: farm_ai_decision
+msgid "AI Decision Cockpit"
+msgstr "AI Decision Cockpit"
+
+#. module: farm_ai_decision
+msgid "AI Decision Hub"
+msgstr "AI Decision Hub"
+
+#. module: farm_ai_decision
+msgid "AI Decision Summary"
+msgstr "AI Decision Summary"
+
+#. module: farm_ai_decision
+msgid "AI Decision Support"
+msgstr "AI Decision Support"
+
+#. module: farm_ai_decision
+msgid "AI Fertilization Decision"
+msgstr "AI Pemupukan Keputusan"
+
+#. module: farm_ai_decision
+msgid "AI Fertilization Decisions"
+msgstr "AI Fertilization Decisions"
+
+#. module: farm_ai_decision
+msgid "AI Harvest Timing"
+msgstr "AI Harvest Timing"
+
+#. module: farm_ai_decision
+msgid "AI Health and Welfare Monitoring"
+msgstr "AI Health and Welfare Monitoring"
+
+#. module: farm_ai_decision
+msgid "AI Irrigation Decision"
+msgstr "AI Irigasi Keputusan"
+
+#. module: farm_ai_decision
+msgid "AI Irrigation Decisions"
+msgstr "AI Irrigation Decisions"
+
+#. module: farm_ai_decision
+msgid "AI Market Prediction"
+msgstr "AI Pasar Prediksi"
+
+#. module: farm_ai_decision
+msgid "AI Market Predictions"
+msgstr "AI Market Predictions"
+
+#. module: farm_ai_decision
+msgid "AI Operation Path Optimization"
+msgstr "AI Operation Path Optimization"
+
+#. module: farm_ai_decision
+msgid "AI Pest and Disease Detection"
+msgstr "AI Pest and Disease Detection"
+
+#. module: farm_ai_decision
+msgid "AI Quality Grading"
+msgstr "AI Mutu Grading"
+
+#. module: farm_ai_decision
+msgid "AI Recommendations"
+msgstr "AI Recommendations"
+
+#. module: farm_ai_decision
+msgid "AI Recovery Plan generated for stress level %s"
+msgstr "AI Recovery Plan generated for stress level %s"
+
+#. module: farm_ai_decision
+msgid "AI Resource Optimization"
+msgstr "AI Sumber Daya Optimasi"
+
+#. module: farm_ai_decision
+msgid "AI Risk Assessment"
+msgstr "AI Risiko Penilaian"
+
+#. module: farm_ai_decision
+msgid "AI Suggestion"
+msgstr "AI Suggestion"
+
+#. module: farm_ai_decision
+msgid "AI suggested"
+msgstr "AI suggested"
+
+#. module: farm_ai_decision
+msgid "Active Skill Directive (JSON)"
+msgstr "Active Skill Directive (JSON)"
+
+#. module: farm_ai_decision
+msgid "Add your first AI Agent!"
+msgstr "Add your first AI Agent!"
+
+#. module: farm_ai_decision
+msgid "Affected Area (%)"
+msgstr "Affected Area (%)"
+
+#. module: farm_ai_decision
+msgid "Affected Locations"
+msgstr "Affected Locations"
+
+#. module: farm_ai_decision
+msgid "Allocation Efficiency (%)"
+msgstr "Allocation Efficiency (%)"
+
+#. module: farm_ai_decision
+msgid "Analysis Agent"
+msgstr "Analisis Agen"
+
+#. module: farm_ai_decision
+msgid "Analysis Results"
+msgstr "Analysis Results"
+
+#. module: farm_ai_decision
+msgid "Analysis of nutrient deficiencies"
+msgstr "Analysis of nutrient deficiencies"
+
+#. module: farm_ai_decision
+msgid "Analysis of seasonal, weather and macro factors..."
+msgstr "Analysis of seasonal, weather and macro factors..."
+
+#. module: farm_ai_decision
+msgid "Analyze"
+msgstr "Analyze"
+
+#. module: farm_ai_decision
+msgid "Animal ID"
+msgstr "Animal ID"
+
+#. module: farm_ai_decision
+msgid "Application Timing"
+msgstr "Application Timing"
+
+#. module: farm_ai_decision
+msgid "Applied"
+msgstr "Applied"
+
+#. module: farm_ai_decision
+msgid "Apply Allocation"
+msgstr "Apply Allocation"
+
+#. module: farm_ai_decision
+msgid "Apply Best"
+msgstr "Apply Best"
+
+#. module: farm_ai_decision
+msgid "Apply Care"
+msgstr "Apply Care"
+
+#. module: farm_ai_decision
+msgid "Apply Path"
+msgstr "Apply Path"
+
+#. module: farm_ai_decision
+msgid "Apply Recommendation"
+msgstr "Apply Recommendation"
+
+#. module: farm_ai_decision
+msgid "Apply Recovery Plan"
+msgstr "Apply Recovery Plan"
+
+#. module: farm_ai_decision
+msgid "Apply Sorting"
+msgstr "Apply Sorting"
+
+#. module: farm_ai_decision
+msgid "Apply Strategy"
+msgstr "Apply Strategy"
+
+#. module: farm_ai_decision
+msgid "Apply Timing"
+msgstr "Apply Timing"
+
+#. module: farm_ai_decision
+msgid "Approved AI recovery plan via Cockpit."
+msgstr "Approved AI recovery plan via Cockpit."
+
+#. module: farm_ai_decision
+msgid "Assess Risk"
+msgstr "Assess Risk"
+
+#. module: farm_ai_decision
+msgid "Available Quantity"
+msgstr "Available Quantity"
+
+#. module: farm_ai_decision
+msgid "Avg. Response Time (ms)"
+msgstr "Avg. Response Time (ms)"
+
+#. module: farm_ai_decision
+msgid "Basis (Spot - Futures)"
+msgstr "Basis (Spot - Futures)"
+
+#. module: farm_ai_decision
+msgid "Behavioral Metrics"
+msgstr "Behavioral Metrics"
+
+#. module: farm_ai_decision
+msgid "Behavioral metrics JSON data"
+msgstr "Behavioral metrics JSON data"
+
+#. module: farm_ai_decision
+msgid "Bulk Procurement Recommended"
+msgstr "Bulk Procurement Recommended"
+
+#. module: farm_ai_decision
+msgid "Calculate Needs"
+msgstr "Calculate Needs"
+
+#. module: farm_ai_decision
+msgid "Calculate Optimal Time"
+msgstr "Calculate Optimal Time"
+
+#. module: farm_ai_decision
+msgid "Calculate Optimization"
+msgstr "Calculate Optimization"
+
+#. module: farm_ai_decision
+msgid "Calculate Path"
+msgstr "Calculate Path"
+
+#. module: farm_ai_decision
+msgid "Calculate Prediction"
+msgstr "Calculate Prediction"
+
+#. module: farm_ai_decision
+msgid "Cattle"
+msgstr "Cattle"
+
+#. module: farm_ai_decision
+msgid "Classification Agent"
+msgstr "Classification Agent"
+
+#. module: farm_ai_decision
+msgid "Classification Metrics"
+msgstr "Classification Metrics"
+
+#. module: farm_ai_decision
+msgid "Combination"
+msgstr "Combination"
+
+#. module: farm_ai_decision
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_ai_decision
+msgid "Confidence Score (%)"
+msgstr "Confidence Score (%)"
+
+#. module: farm_ai_decision
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#. module: farm_ai_decision
+msgid "Contingency Plans"
+msgstr "Contingency Plans"
+
+#. module: farm_ai_decision
+msgid "Contingency plans"
+msgstr "Contingency plans"
+
+#. module: farm_ai_decision
+msgid "Cost Impact"
+msgstr "Cost Impact"
+
+#. module: farm_ai_decision
+msgid "Critical"
+msgstr "Critical"
+
+#. module: farm_ai_decision
+msgid "Critical Stress Alert"
+msgstr "Critical Stress Alert"
+
+#. module: farm_ai_decision
+msgid "Crop Growth Prediction"
+msgstr "Tanaman Pertumbuhan Prediksi"
+
+#. module: farm_ai_decision
+msgid "Crop Growth Stage"
+msgstr "Crop Growth Stage"
+
+#. module: farm_ai_decision
+msgid "Current Growth Stage"
+msgstr "Current Growth Stage"
+
+#. module: farm_ai_decision
+msgid "Current Market Price"
+msgstr "Current Market Price"
+
+#. module: farm_ai_decision
+msgid "Current Soil Moisture (%)"
+msgstr "Current Soil Moisture (%)"
+
+#. module: farm_ai_decision
+msgid "Daily"
+msgstr "Daily"
+
+#. module: farm_ai_decision
+msgid "Data &amp; Results"
+msgstr "Data &amp; Results"
+
+#. module: farm_ai_decision
+msgid "Data Schema"
+msgstr "Data Schema"
+
+#. module: farm_ai_decision
+msgid "Decision"
+msgstr "Keputusan"
+
+#. module: farm_ai_decision
+msgid "Decision Date"
+msgstr "Keputusan Tanggal"
+
+#. module: farm_ai_decision
+msgid "Decision Reasoning"
+msgstr "Decision Reasoning"
+
+#. module: farm_ai_decision
+msgid "Decisions"
+msgstr "Decisions"
+
+#. module: farm_ai_decision
+msgid "Deep Learning"
+msgstr "Deep Learning"
+
+#. module: farm_ai_decision
+msgid "Detailed fertilizer recommendations"
+msgstr "Detailed fertilizer recommendations"
+
+#. module: farm_ai_decision
+msgid "Detailed harvest timing recommendations"
+msgstr "Detailed harvest timing recommendations"
+
+#. module: farm_ai_decision
+msgid "Detailed path optimization recommendations"
+msgstr "Detailed path optimization recommendations"
+
+#. module: farm_ai_decision
+msgid "Detected high stress. Recommend boosting irrigation by 45 minutes."
+msgstr "Detected high stress. Recommend boosting irrigation by 45 minutes."
+
+#. module: farm_ai_decision
+msgid "Detection Date"
+msgstr "Detection Date"
+
+#. module: farm_ai_decision
+msgid "Downward Trend"
+msgstr "Downward Trend"
+
+#. module: farm_ai_decision
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_ai_decision
+msgid "Drip Irrigation"
+msgstr "Drip Irrigation"
+
+#. module: farm_ai_decision
+msgid "Economic Impact ($)"
+msgstr "Economic Impact ($)"
+
+#. module: farm_ai_decision
+msgid "Efficiency Gains"
+msgstr "Efficiency Gains"
+
+#. module: farm_ai_decision
+msgid "Efficiency improvement details"
+msgstr "Efficiency improvement details"
+
+#. module: farm_ai_decision
+msgid "Ensemble Method"
+msgstr "Ensemble Method"
+
+#. module: farm_ai_decision
+msgid "Entity Level"
+msgstr "Entity Level"
+
+#. module: farm_ai_decision
+msgid "Environmental"
+msgstr "Environmental"
+
+#. module: farm_ai_decision
+msgid "Environmental Factors Analysis"
+msgstr "Environmental Factors Analysis"
+
+#. module: farm_ai_decision
+msgid "Environmental factors JSON data"
+msgstr "Environmental factors JSON data"
+
+#. module: farm_ai_decision
+msgid "Equipment"
+msgstr "Peralatan"
+
+#. module: farm_ai_decision
+msgid "Estimated Duration (hours)"
+msgstr "Estimated Duration (hours)"
+
+#. module: farm_ai_decision
+msgid "Evapotranspiration Rate (mm/day)"
+msgstr "Evapotranspiration Rate (mm/day)"
+
+#. module: farm_ai_decision
+msgid "Execute Agent"
+msgstr "Execute Agent"
+
+#. module: farm_ai_decision
+msgid "Execution Count"
+msgstr "Execution Count"
+
+#. module: farm_ai_decision
+msgid "Execution Stats"
+msgstr "Execution Stats"
+
+#. module: farm_ai_decision
+msgid "Expected Harvest Date"
+msgstr "Expected Harvest Date"
+
+#. module: farm_ai_decision
+msgid "F1 Score"
+msgstr "F1 Score"
+
+#. module: farm_ai_decision
+msgid "Fertilization Decision"
+msgstr "Pemupukan Keputusan"
+
+#. module: farm_ai_decision
+msgid "Fertilizer Recommendation"
+msgstr "Fertilizer Recommendation"
+
+#. module: farm_ai_decision
+msgid "Fertilizing"
+msgstr "Fertilizing"
+
+#. module: farm_ai_decision
+msgid "Fetch IoT Shadow"
+msgstr "Fetch IoT Shadow"
+
+#. module: farm_ai_decision
+msgid "Financial"
+msgstr "Financial"
+
+#. module: farm_ai_decision
+msgid "Fish"
+msgstr "Fish"
+
+#. module: farm_ai_decision
+msgid "Flood"
+msgstr "Flood"
+
+#. module: farm_ai_decision
+msgid "Fuel Consumption (L/ha)"
+msgstr "Fuel Consumption (L/ha)"
+
+#. module: farm_ai_decision
+msgid "Furrow"
+msgstr "Furrow"
+
+#. module: farm_ai_decision
+msgid "Futures Price (Target Month)"
+msgstr "Futures Price (Target Month)"
+
+#. module: farm_ai_decision
+msgid "Generate AI Recovery"
+msgstr "Generate AI Recovery"
+
+#. module: farm_ai_decision
+msgid "Grade A"
+msgstr "Grade A"
+
+#. module: farm_ai_decision
+msgid "Grade B"
+msgstr "Grade B"
+
+#. module: farm_ai_decision
+msgid "Grade C"
+msgstr "Grade C"
+
+#. module: farm_ai_decision
+msgid "Grade Quality"
+msgstr "Grade Quality"
+
+#. module: farm_ai_decision
+msgid "Gradient Boosting"
+msgstr "Gradient Boosting"
+
+#. module: farm_ai_decision
+msgid "Grading Criteria"
+msgstr "Grading Criteria"
+
+#. module: farm_ai_decision
+msgid "Grading Criteria Applied"
+msgstr "Grading Criteria Applied"
+
+#. module: farm_ai_decision
+msgid "Grading criteria applied"
+msgstr "Grading criteria applied"
+
+#. module: farm_ai_decision
+msgid "Growth Analysis"
+msgstr "Pertumbuhan Analisis"
+
+#. module: farm_ai_decision
+msgid "Growth Curve Data"
+msgstr "Growth Curve Data"
+
+#. module: farm_ai_decision
+msgid "Growth Deviation"
+msgstr "Growth Deviation"
+
+#. module: farm_ai_decision
+msgid "Growth Optimization Recommendation"
+msgstr "Growth Optimization Recommendation"
+
+#. module: farm_ai_decision
+msgid "Growth curve analysis data"
+msgstr "Growth curve analysis data"
+
+#. module: farm_ai_decision
+msgid "Growth optimization recommendations"
+msgstr "Growth optimization recommendations"
+
+#. module: farm_ai_decision
+msgid "Harvest Dates"
+msgstr "Harvest Dates"
+
+#. module: farm_ai_decision
+msgid "Harvest Recommendation"
+msgstr "Harvest Recommendation"
+
+#. module: farm_ai_decision
+msgid "Harvest Timing"
+msgstr "Harvest Timing"
+
+#. module: farm_ai_decision
+msgid "Harvesting"
+msgstr "Harvesting"
+
+#. module: farm_ai_decision
+msgid "Health &amp; Welfare Monitoring"
+msgstr "Health &amp; Welfare Monitoring"
+
+#. module: farm_ai_decision
+msgid "Health Indicators"
+msgstr "Health Indicators"
+
+#. module: farm_ai_decision
+msgid "Health Recommendation"
+msgstr "Health Recommendation"
+
+#. module: farm_ai_decision
+msgid "Health indicators JSON data"
+msgstr "Health indicators JSON data"
+
+#. module: farm_ai_decision
+msgid "Health monitoring alerts"
+msgstr "Health monitoring alerts"
+
+#. module: farm_ai_decision
+msgid "Health recommendations"
+msgstr "Health recommendations"
+
+#. module: farm_ai_decision
+msgid "Hedging Recommendation"
+msgstr "Hedging Recommendation"
+
+#. module: farm_ai_decision
+msgid "Hedging Strategy"
+msgstr "Hedging Strategy"
+
+#. module: farm_ai_decision
+msgid "High"
+msgstr "High"
+
+#. module: farm_ai_decision
+msgid "High Volatility"
+msgstr "High Volatility"
+
+#. module: farm_ai_decision
+msgid "Hold/Wait (Price Peak)"
+msgstr "Hold/Wait (Price Peak)"
+
+#. module: farm_ai_decision
+msgid "Hourly"
+msgstr "Hourly"
+
+#. module: farm_ai_decision
+msgid "ISL Configuration"
+msgstr "ISL Configuration"
+
+#. module: farm_ai_decision
+msgid "ISL Integration"
+msgstr "ISL Integration"
+
+#. module: farm_ai_decision
+msgid "ISL Model Access"
+msgstr "ISL Model Access"
+
+#. module: farm_ai_decision
+msgid "Image Evidence"
+msgstr "Gambar Bukti"
+
+#. module: farm_ai_decision
+msgid "Image Name"
+msgstr "Gambar Nama"
+
+#. module: farm_ai_decision
+msgid "Image Recognition"
+msgstr "Image Recognition"
+
+#. module: farm_ai_decision
+msgid "Industry Level"
+msgstr "Industry Level"
+
+#. module: farm_ai_decision
+msgid "Input Data"
+msgstr "Input Data"
+
+#. module: farm_ai_decision
+msgid "Input Procurement Optimization"
+msgstr "Input Procurement Optimization"
+
+#. module: farm_ai_decision
+msgid "Input Schema"
+msgstr "Input Schema"
+
+#. module: farm_ai_decision
+msgid "Inputs"
+msgstr "Inputs"
+
+#. module: farm_ai_decision
+msgid "IoT Sync: Fetched NPK/pH from device %s"
+msgstr "IoT Sync: Fetched NPK/pH from device %s"
+
+#. module: farm_ai_decision
+msgid "IoT Sync: Fetched soil moisture %s%% from device %s"
+msgstr "IoT Sync: Fetched soil moisture %s%% from device %s"
+
+#. module: farm_ai_decision
+msgid "Irrigation"
+msgstr "Irigasi"
+
+#. module: farm_ai_decision
+msgid "Irrigation Advice"
+msgstr "Irrigation Advice"
+
+#. module: farm_ai_decision
+msgid "Irrigation Decision"
+msgstr "Irigasi Keputusan"
+
+#. module: farm_ai_decision
+msgid "Irrigation Efficiency (%)"
+msgstr "Irrigation Efficiency (%)"
+
+#. module: farm_ai_decision
+msgid "Irrigation System Type"
+msgstr "Irrigation System Type"
+
+#. module: farm_ai_decision
+msgid "Irrigation recommendations"
+msgstr "Irrigation recommendations"
+
+#. module: farm_ai_decision
+msgid "JSON coordinates for optimized path"
+msgstr "JSON coordinates for optimized path"
+
+#. module: farm_ai_decision
+msgid "Labor"
+msgstr "Labor"
+
+#. module: farm_ai_decision
+msgid "Land"
+msgstr "Land"
+
+#. module: farm_ai_decision
+msgid "Last Execution"
+msgstr "Last Execution"
+
+#. module: farm_ai_decision
+msgid "Last Trained"
+msgstr "Last Trained"
+
+#. module: farm_ai_decision
+msgid "Low"
+msgstr "Low"
+
+#. module: farm_ai_decision
+msgid "MSE Score"
+msgstr "MSE Score"
+
+#. module: farm_ai_decision
+msgid "Manual Observation"
+msgstr "Manual Observation"
+
+#. module: farm_ai_decision
+msgid "Mark Completed"
+msgstr "Mark Completed"
+
+#. module: farm_ai_decision
+msgid "Market"
+msgstr "Pasar"
+
+#. module: farm_ai_decision
+msgid "Market Factors Analysis"
+msgstr "Market Factors Analysis"
+
+#. module: farm_ai_decision
+msgid "Market Indicators"
+msgstr "Market Indicators"
+
+#. module: farm_ai_decision
+msgid "Market Prediction"
+msgstr "Pasar Prediksi"
+
+#. module: farm_ai_decision
+msgid "Market Price Factor"
+msgstr "Market Price Factor"
+
+#. module: farm_ai_decision
+msgid "Market Suggestion"
+msgstr "Market Suggestion"
+
+#. module: farm_ai_decision
+msgid "Market placement suggestions"
+msgstr "Market placement suggestions"
+
+#. module: farm_ai_decision
+msgid "Medium"
+msgstr "Medium"
+
+#. module: farm_ai_decision
+msgid "Minimal Purchase Only"
+msgstr "Minimal Purchase Only"
+
+#. module: farm_ai_decision
+msgid "Mitigation Strategies"
+msgstr "Mitigation Strategies"
+
+#. module: farm_ai_decision
+msgid "Model Configuration"
+msgstr "Model Konfigurasi"
+
+#. module: farm_ai_decision
+msgid "Model Parameters"
+msgstr "Model Parameters"
+
+#. module: farm_ai_decision
+msgid "Model Type"
+msgstr "Model Type"
+
+#. module: farm_ai_decision
+msgid "Monitor"
+msgstr "Monitor"
+
+#. module: farm_ai_decision
+msgid "Monitoring"
+msgstr "Pemantauan"
+
+#. module: farm_ai_decision
+msgid "Monitoring Agent"
+msgstr "Pemantauan Agen"
+
+#. module: farm_ai_decision
+msgid "Monitoring Alert"
+msgstr "Pemantauan Peringatan"
+
+#. module: farm_ai_decision
+msgid "Monthly"
+msgstr "Monthly"
+
+#. module: farm_ai_decision
+msgid "Name"
+msgstr "Nama"
+
+#. module: farm_ai_decision
+msgid "Neural Network"
+msgstr "Neural Network"
+
+#. module: farm_ai_decision
+msgid "No Isolation"
+msgstr "No Isolation"
+
+#. module: farm_ai_decision
+msgid "Nutrient Deficiency Analysis"
+msgstr "Nutrient Deficiency Analysis"
+
+#. module: farm_ai_decision
+msgid "Operational"
+msgstr "Operational"
+
+#. module: farm_ai_decision
+msgid "Optimal Harvest Date"
+msgstr "Optimal Harvest Date"
+
+#. module: farm_ai_decision
+msgid "Optimization"
+msgstr "Optimasi"
+
+#. module: farm_ai_decision
+msgid "Optimization Agent"
+msgstr "Optimasi Agen"
+
+#. module: farm_ai_decision
+msgid "Optimization Recommendation"
+msgstr "Optimization Recommendation"
+
+#. module: farm_ai_decision
+msgid "Optimized Allocation"
+msgstr "Optimized Allocation"
+
+#. module: farm_ai_decision
+msgid "Optimized Path"
+msgstr "Optimized Path"
+
+#. module: farm_ai_decision
+msgid "Output Data"
+msgstr "Output Data"
+
+#. module: farm_ai_decision
+msgid "Output Schema"
+msgstr "Output Schema"
+
+#. module: farm_ai_decision
+msgid "Overall recommendation"
+msgstr "Overall recommendation"
+
+#. module: farm_ai_decision
+msgid "Path Optimization"
+msgstr "Jalur Optimasi"
+
+#. module: farm_ai_decision
+msgid "Path Recommendation"
+msgstr "Path Recommendation"
+
+#. module: farm_ai_decision
+msgid "Performance Metrics"
+msgstr "Performance Metrics"
+
+#. module: farm_ai_decision
+msgid "Pest &amp; Disease Detection"
+msgstr "Pest &amp; Disease Detection"
+
+#. module: farm_ai_decision
+msgid "Pest/Disease"
+msgstr "Hama/Penyakit"
+
+#. module: farm_ai_decision
+msgid "Pest/Disease Name"
+msgstr "Hama/Penyakit Nama"
+
+#. module: farm_ai_decision
+msgid "Planning Agent"
+msgstr "Perencanaan Agen"
+
+#. module: farm_ai_decision
+msgid "Plant health is stable. No urgent intervention required."
+msgstr "Plant health is stable. No urgent intervention required."
+
+#. module: farm_ai_decision
+msgid "Planting Date"
+msgstr "Planting Date"
+
+#. module: farm_ai_decision
+msgid "Poultry"
+msgstr "Poultry"
+
+#. module: farm_ai_decision
+msgid "Precision Score"
+msgstr "Precision Score"
+
+#. module: farm_ai_decision
+msgid "Predicted Harvest Date"
+msgstr "Predicted Harvest Date"
+
+#. module: farm_ai_decision
+msgid "Predicted Price (30 days)"
+msgstr "Predicted Price (30 days)"
+
+#. module: farm_ai_decision
+msgid "Predicted Price (7 days)"
+msgstr "Predicted Price (7 days)"
+
+#. module: farm_ai_decision
+msgid "Predicted Price (90 days)"
+msgstr "Predicted Price (90 days)"
+
+#. module: farm_ai_decision
+msgid "Predicted Quality Score: %f"
+msgstr "Predicted Quality Score: %f"
+
+#. module: farm_ai_decision
+msgid "Predicted Yield"
+msgstr "Predicted Yield"
+
+#. module: farm_ai_decision
+msgid "Prediction Agent"
+msgstr "Prediksi Agen"
+
+#. module: farm_ai_decision
+msgid "Predictions"
+msgstr "Predictions"
+
+#. module: farm_ai_decision
+msgid "Premium"
+msgstr "Premium"
+
+#. module: farm_ai_decision
+msgid "Prevention Advice"
+msgstr "Prevention Advice"
+
+#. module: farm_ai_decision
+msgid "Prevention advice"
+msgstr "Prevention advice"
+
+#. module: farm_ai_decision
+msgid "Price Trend Forecast"
+msgstr "Price Trend Forecast"
+
+#. module: farm_ai_decision
+msgid "Procurement Optimizer"
+msgstr "Procurement Optimizer"
+
+#. module: farm_ai_decision
+msgid "Product/Input"
+msgstr "Product/Input"
+
+#. module: farm_ai_decision
+msgid "Quality Attributes"
+msgstr "Quality Attributes"
+
+#. module: farm_ai_decision
+msgid "Quality Grading"
+msgstr "Mutu Grading"
+
+#. module: farm_ai_decision
+msgid "Quality Metrics"
+msgstr "Quality Metrics"
+
+#. module: farm_ai_decision
+msgid "Quality Score"
+msgstr "Quality Score"
+
+#. module: farm_ai_decision
+msgid "Quality Score (0-100)"
+msgstr "Quality Score (0-100)"
+
+#. module: farm_ai_decision
+msgid "Quality attributes JSON data"
+msgstr "Quality attributes JSON data"
+
+#. module: farm_ai_decision
+msgid "Quality metrics JSON data"
+msgstr "Quality metrics JSON data"
+
+#. module: farm_ai_decision
+msgid "ROI Impact ($)"
+msgstr "ROI Impact ($)"
+
+#. module: farm_ai_decision
+msgid "Random Forest"
+msgstr "Random Forest"
+
+#. module: farm_ai_decision
+msgid "Reasoning behind the AI decision"
+msgstr "Reasoning behind the AI decision"
+
+#. module: farm_ai_decision
+msgid "Recall Score"
+msgstr "Recall Score"
+
+#. module: farm_ai_decision
+msgid "Recommendation"
+msgstr "Recommendation"
+
+#. module: farm_ai_decision
+msgid "Recommendation Agent"
+msgstr "Recommendation Agent"
+
+#. module: farm_ai_decision
+msgid "Recommendations"
+msgstr "Recommendations"
+
+#. module: farm_ai_decision
+msgid "Recommended"
+msgstr "Recommended"
+
+#. module: farm_ai_decision
+msgid "Recommended K (kg/ha)"
+msgstr "Recommended K (kg/ha)"
+
+#. module: farm_ai_decision
+msgid "Recommended N (kg/ha)"
+msgstr "Recommended N (kg/ha)"
+
+#. module: farm_ai_decision
+msgid "Recommended P (kg/ha)"
+msgstr "Recommended P (kg/ha)"
+
+#. module: farm_ai_decision
+msgid "Recommended Sales Ratio (%)"
+msgstr "Recommended Sales Ratio (%)"
+
+#. module: farm_ai_decision
+msgid "Recommended Time"
+msgstr "Recommended Time"
+
+#. module: farm_ai_decision
+msgid "Recommended Water Amount (mm)"
+msgstr "Recommended Water Amount (mm)"
+
+#. module: farm_ai_decision
+msgid "Regression Metrics"
+msgstr "Regression Metrics"
+
+#. module: farm_ai_decision
+msgid "Reject"
+msgstr "Reject"
+
+#. module: farm_ai_decision
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_ai_decision
+msgid "Required Quantity"
+msgstr "Required Quantity"
+
+#. module: farm_ai_decision
+msgid "Resource Conflicts"
+msgstr "Resource Conflicts"
+
+#. module: farm_ai_decision
+msgid "Resource Optimization"
+msgstr "Sumber Daya Optimasi"
+
+#. module: farm_ai_decision
+msgid "Resource conflict analysis"
+msgstr "Resource conflict analysis"
+
+#. module: farm_ai_decision
+msgid "Resource optimization recommendations"
+msgstr "Resource optimization recommendations"
+
+#. module: farm_ai_decision
+msgid "Results"
+msgstr "Results"
+
+#. module: farm_ai_decision
+msgid "Retrain Model"
+msgstr "Retrain Model"
+
+#. module: farm_ai_decision
+msgid "Revenue &amp; Hedging"
+msgstr "Revenue &amp; Hedging"
+
+#. module: farm_ai_decision
+msgid "Risk Assessment"
+msgstr "Risiko Penilaian"
+
+#. module: farm_ai_decision
+msgid "Risk Factors"
+msgstr "Risk Factors"
+
+#. module: farm_ai_decision
+msgid "Risk Impact (%)"
+msgstr "Risk Impact (%)"
+
+#. module: farm_ai_decision
+msgid "Risk Management"
+msgstr "Risk Management"
+
+#. module: farm_ai_decision
+msgid "Risk Probability (%)"
+msgstr "Risk Probability (%)"
+
+#. module: farm_ai_decision
+msgid "Risk Score"
+msgstr "Risk Score"
+
+#. module: farm_ai_decision
+msgid "Risk assessment details"
+msgstr "Risk assessment details"
+
+#. module: farm_ai_decision
+msgid "Risk factors JSON data"
+msgstr "Risk factors JSON data"
+
+#. module: farm_ai_decision
+msgid "Risk mitigation strategies"
+msgstr "Risk mitigation strategies"
+
+#. module: farm_ai_decision
+msgid "Rule-based System"
+msgstr "Rule-based System"
+
+#. module: farm_ai_decision
+msgid "Sales/Revenue Optimization"
+msgstr "Sales/Revenue Optimization"
+
+#. module: farm_ai_decision
+msgid "Sample Size"
+msgstr "Sample Size"
+
+#. module: farm_ai_decision
+msgid "Sensor Data"
+msgstr "Sensor Data"
+
+#. module: farm_ai_decision
+msgid "Sheep"
+msgstr "Sheep"
+
+#. module: farm_ai_decision
+msgid "Soil Analysis"
+msgstr "Tanah Analisis"
+
+#. module: farm_ai_decision
+msgid "Soil Nitrogen (ppm)"
+msgstr "Soil Nitrogen (ppm)"
+
+#. module: farm_ai_decision
+msgid "Soil Phosphorus (ppm)"
+msgstr "Soil Phosphorus (ppm)"
+
+#. module: farm_ai_decision
+msgid "Soil Potassium (ppm)"
+msgstr "Soil Potassium (ppm)"
+
+#. module: farm_ai_decision
+msgid "Soil analysis data"
+msgstr "Soil analysis data"
+
+#. module: farm_ai_decision
+msgid "Soil pH"
+msgstr "Soil pH"
+
+#. module: farm_ai_decision
+msgid "Sorting Recommendation"
+msgstr "Sorting Recommendation"
+
+#. module: farm_ai_decision
+msgid "Sorting and grading recommendations"
+msgstr "Sorting and grading recommendations"
+
+#. module: farm_ai_decision
+msgid "Source &amp; Execution"
+msgstr "Source &amp; Execution"
+
+#. module: farm_ai_decision
+msgid "Spraying"
+msgstr "Spraying"
+
+#. module: farm_ai_decision
+msgid "Sprinkler"
+msgstr "Sprinkler"
+
+#. module: farm_ai_decision
+msgid "Stable"
+msgstr "Stable"
+
+#. module: farm_ai_decision
+msgid "Strong Buy (Bottom Price)"
+msgstr "Strong Buy (Bottom Price)"
+
+#. module: farm_ai_decision
+msgid "Substandard"
+msgstr "Substandard"
+
+#. module: farm_ai_decision
+msgid "Suggested Recovery Plan (AI)"
+msgstr "Suggested Recovery Plan (AI)"
+
+#. module: farm_ai_decision
+msgid "Support Vector Machine"
+msgstr "Support Vector Machine"
+
+#. module: farm_ai_decision
+msgid "Swine"
+msgstr "Swine"
+
+#. module: farm_ai_decision
+msgid "Tillage"
+msgstr "Tillage"
+
+#. module: farm_ai_decision
+msgid "Total Distance (km)"
+msgstr "Total Distance (km)"
+
+#. module: farm_ai_decision
+msgid "Training Accuracy"
+msgstr "Training Accuracy"
+
+#. module: farm_ai_decision
+msgid "Training Data Source"
+msgstr "Training Data Source"
+
+#. module: farm_ai_decision
+msgid "Training Samples Count"
+msgstr "Training Samples Count"
+
+#. module: farm_ai_decision
+msgid "Treatment Cost ($)"
+msgstr "Treatment Cost ($)"
+
+#. module: farm_ai_decision
+msgid "Treatment Options"
+msgstr "Treatment Options"
+
+#. module: farm_ai_decision
+msgid "Treatment options and recommendations"
+msgstr "Treatment options and recommendations"
+
+#. module: farm_ai_decision
+msgid "Upward Trend"
+msgstr "Upward Trend"
+
+#. module: farm_ai_decision
+msgid "User Level"
+msgstr "User Level"
+
+#. module: farm_ai_decision
+msgid "Uses ISL Data"
+msgstr "Uses ISL Data"
+
+#. module: farm_ai_decision
+msgid "Vehicle Type"
+msgstr "Vehicle Type"
+
+#. module: farm_ai_decision
+msgid "View Cockpit"
+msgstr "View Cockpit"
+
+#. module: farm_ai_decision
+msgid "Water"
+msgstr "Air"
+
+#. module: farm_ai_decision
+msgid "Weather"
+msgstr "Cuaca"
+
+#. module: farm_ai_decision
+msgid "Weather Data"
+msgstr "Weather Data"
+
+#. module: farm_ai_decision
+msgid "Weather Forecast Data"
+msgstr "Weather Forecast Data"
+
+#. module: farm_ai_decision
+msgid "Weather Impact"
+msgstr "Weather Impact"
+
+#. module: farm_ai_decision
+msgid "Weather Impact Assessment"
+msgstr "Weather Impact Assessment"
+
+#. module: farm_ai_decision
+msgid "Weather forecast data"
+msgstr "Weather forecast data"
+
+#. module: farm_ai_decision
+msgid "Weather impact assessment"
+msgstr "Weather impact assessment"
+
+#. module: farm_ai_decision
+msgid "Weekly"
+msgstr "Weekly"
+
+#. module: farm_ai_decision
+msgid "Welfare Improvements"
+msgstr "Welfare Improvements"
+
+#. module: farm_ai_decision
+msgid "Welfare Score (0-100)"
+msgstr "Welfare Score (0-100)"
+
+#. module: farm_ai_decision
+msgid "Welfare improvement suggestions"
+msgstr "Welfare improvement suggestions"
+
+#. module: farm_ai_decision
+msgid "Yield Impact (%)"
+msgstr "Yield Impact (%)"
+
+#. module: farm_ai_decision
+msgid "[CRITICAL STRESS] Biological stress level is at"
+msgstr "[CRITICAL STRESS] Biological stress level is at"
+
+#. module: farm_ai_decision
+msgid "action_apply_recommendation"
+msgstr "action_apply_recommendation"
+
+#. module: farm_ai_decision
+msgid "action_approve_latest_ai_skill"
+msgstr "action_approve_latest_ai_skill"
+
+#. module: farm_ai_decision
+msgid "action_execute_agent"
+msgstr "action_execute_agent"
+
+#. module: farm_ai_decision
+msgid "action_fetch_iot_shadow"
+msgstr "action_fetch_iot_shadow"
+
+#. module: farm_ai_decision
+msgid "action_generate_recovery_plan"
+msgstr "action_generate_recovery_plan"
+
+#. module: farm_ai_decision
+msgid "action_mark_completed"
+msgstr "action_mark_completed"
+
+#. module: farm_ai_decision
+msgid "action_reject_recommendation"
+msgstr "action_reject_recommendation"
+
+#. module: farm_ai_decision
+msgid "action_train_model"
+msgstr "action_train_model"
+
+#. module: farm_ai_decision
+msgid "action_view_ai_cockpit"
+msgstr "action_view_ai_cockpit"
+
+#. module: farm_ai_decision
+msgid "active_skill_json"
+msgstr "active_skill_json"
+
+#. module: farm_ai_decision
+msgid "activity_ids"
+msgstr "activity_ids"
+
+#. module: farm_ai_decision
+msgid "affected_area_percentage"
+msgstr "affected_area_percentage"
+
+#. module: farm_ai_decision
+msgid "agent_type"
+msgstr "agent_type"
+
+#. module: farm_ai_decision
+msgid "ai.decision.engine"
+msgstr "ai.decision.engine"
+
+#. module: farm_ai_decision
+msgid "ai.decision.engine.form"
+msgstr "ai.decision.engine.form"
+
+#. module: farm_ai_decision
+msgid "ai.decision.engine.list"
+msgstr "ai.decision.engine.list"
+
+#. module: farm_ai_decision
+msgid "ai_recommendation_count"
+msgstr "ai_recommendation_count"
+
+#. module: farm_ai_decision
+msgid "allocation_efficiency"
+msgstr "allocation_efficiency"
+
+#. module: farm_ai_decision
+msgid "analyze_pest_disease_decision"
+msgstr "analyze_pest_disease_decision"
+
+#. module: farm_ai_decision
+msgid "animal_id"
+msgstr "animal_id"
+
+#. module: farm_ai_decision
+msgid "application_timing"
+msgstr "application_timing"
+
+#. module: farm_ai_decision
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_ai_decision
+msgid "available_quantity"
+msgstr "available_quantity"
+
+#. module: farm_ai_decision
+msgid "avg_response_time"
+msgstr "avg_response_time"
+
+#. module: farm_ai_decision
+msgid "basis_value"
+msgstr "basis_value"
+
+#. module: farm_ai_decision
+msgid "batch_lot_id"
+msgstr "batch_lot_id"
+
+#. module: farm_ai_decision
+msgid "behavioral_metrics"
+msgstr "behavioral_metrics"
+
+#. module: farm_ai_decision
+msgid "biological_stress_index"
+msgstr "biological_stress_index"
+
+#. module: farm_ai_decision
+msgid "button_box"
+msgstr "button_box"
+
+#. module: farm_ai_decision
+msgid "calculate_fertilization_needs"
+msgstr "calculate_fertilization_needs"
+
+#. module: farm_ai_decision
+msgid "calculate_growth_prediction"
+msgstr "calculate_growth_prediction"
+
+#. module: farm_ai_decision
+msgid "calculate_irrigation_needs"
+msgstr "calculate_irrigation_needs"
+
+#. module: farm_ai_decision
+msgid "calculate_market_prediction"
+msgstr "calculate_market_prediction"
+
+#. module: farm_ai_decision
+msgid "calculate_optimal_harvest"
+msgstr "calculate_optimal_harvest"
+
+#. module: farm_ai_decision
+msgid "calculate_optimization"
+msgstr "calculate_optimization"
+
+#. module: farm_ai_decision
+msgid "calculate_optimized_path"
+msgstr "calculate_optimized_path"
+
+#. module: farm_ai_decision
+msgid "confidence_score"
+msgstr "confidence_score"
+
+#. module: farm_ai_decision
+msgid "contingency_plans"
+msgstr "contingency_plans"
+
+#. module: farm_ai_decision
+msgid "cost_impact"
+msgstr "cost_impact"
+
+#. module: farm_ai_decision
+msgid "create_date"
+msgstr "create_date"
+
+#. module: farm_ai_decision
+msgid "crop_growth_stage"
+msgstr "crop_growth_stage"
+
+#. module: farm_ai_decision
+msgid "current_growth_stage"
+msgstr "current_growth_stage"
+
+#. module: farm_ai_decision
+msgid "current_price"
+msgstr "current_price"
+
+#. module: farm_ai_decision
+msgid "current_soil_moisture"
+msgstr "current_soil_moisture"
+
+#. module: farm_ai_decision
+msgid "data_isolation_level"
+msgstr "data_isolation_level"
+
+#. module: farm_ai_decision
+msgid "decision_reasoning"
+msgstr "decision_reasoning"
+
+#. module: farm_ai_decision
+msgid "decision_summary"
+msgstr "decision_summary"
+
+#. module: farm_ai_decision
+msgid "detection_date"
+msgstr "detection_date"
+
+#. module: farm_ai_decision
+msgid "detection_method"
+msgstr "detection_method"
+
+#. module: farm_ai_decision
+msgid "efficiency_gains"
+msgstr "efficiency_gains"
+
+#. module: farm_ai_decision
+msgid "environmental_factors"
+msgstr "environmental_factors"
+
+#. module: farm_ai_decision
+msgid "estimated_duration"
+msgstr "estimated_duration"
+
+#. module: farm_ai_decision
+msgid "evapotranspiration_rate"
+msgstr "evapotranspiration_rate"
+
+#. module: farm_ai_decision
+msgid "execution_count"
+msgstr "execution_count"
+
+#. module: farm_ai_decision
+msgid "expected_harvest_date"
+msgstr "expected_harvest_date"
+
+#. module: farm_ai_decision
+msgid "f1_score"
+msgstr "f1_score"
+
+#. module: farm_ai_decision
+msgid "factors"
+msgstr "factors"
+
+#. module: farm_ai_decision
+msgid "fertilizer_recommendation"
+msgstr "fertilizer_recommendation"
+
+#. module: farm_ai_decision
+msgid "fuel_consumption_rate"
+msgstr "fuel_consumption_rate"
+
+#. module: farm_ai_decision
+msgid "futures_price"
+msgstr "futures_price"
+
+#. module: farm_ai_decision
+msgid "grading_criteria"
+msgstr "grading_criteria"
+
+#. module: farm_ai_decision
+msgid "growth_curve_data"
+msgstr "growth_curve_data"
+
+#. module: farm_ai_decision
+msgid "growth_deviation"
+msgstr "growth_deviation"
+
+#. module: farm_ai_decision
+msgid "growth_recommendation"
+msgstr "growth_recommendation"
+
+#. module: farm_ai_decision
+msgid "growth_stage_id"
+msgstr "growth_stage_id"
+
+#. module: farm_ai_decision
+msgid "harvest_recommendation"
+msgstr "harvest_recommendation"
+
+#. module: farm_ai_decision
+msgid "health_indicators"
+msgstr "health_indicators"
+
+#. module: farm_ai_decision
+msgid "health_recommendation"
+msgstr "health_recommendation"
+
+#. module: farm_ai_decision
+msgid "health_risk_level"
+msgstr "health_risk_level"
+
+#. module: farm_ai_decision
+msgid "hedging"
+msgstr "hedging"
+
+#. module: farm_ai_decision
+msgid "hedging_recommendation"
+msgstr "hedging_recommendation"
+
+#. module: farm_ai_decision
+msgid "help"
+msgstr "help"
+
+#. module: farm_ai_decision
+msgid "image_attachment"
+msgstr "image_attachment"
+
+#. module: farm_ai_decision
+msgid "image_name"
+msgstr "image_name"
+
+#. module: farm_ai_decision
+msgid "industry_id"
+msgstr "industry_id"
+
+#. module: farm_ai_decision
+msgid "inherit_id"
+msgstr "inherit_id"
+
+#. module: farm_ai_decision
+msgid "input_data"
+msgstr "input_data"
+
+#. module: farm_ai_decision
+msgid "input_schema"
+msgstr "input_schema"
+
+#. module: farm_ai_decision
+msgid "intervention_id"
+msgstr "intervention_id"
+
+#. module: farm_ai_decision
+msgid "irrigation_advice"
+msgstr "irrigation_advice"
+
+#. module: farm_ai_decision
+msgid "irrigation_efficiency"
+msgstr "irrigation_efficiency"
+
+#. module: farm_ai_decision
+msgid "irrigation_method"
+msgstr "irrigation_method"
+
+#. module: farm_ai_decision
+msgid "irrigation_system"
+msgstr "irrigation_system"
+
+#. module: farm_ai_decision
+msgid "isl_model_access"
+msgstr "isl_model_access"
+
+#. module: farm_ai_decision
+msgid "land_location_id"
+msgstr "land_location_id"
+
+#. module: farm_ai_decision
+msgid "land_location_ids"
+msgstr "land_location_ids"
+
+#. module: farm_ai_decision
+msgid "last_execution"
+msgstr "last_execution"
+
+#. module: farm_ai_decision
+msgid "last_trained"
+msgstr "last_trained"
+
+#. module: farm_ai_decision
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_ai_decision
+msgid "market_factors"
+msgstr "market_factors"
+
+#. module: farm_ai_decision
+msgid "market_price_factor"
+msgstr "market_price_factor"
+
+#. module: farm_ai_decision
+msgid "market_suggestion"
+msgstr "market_suggestion"
+
+#. module: farm_ai_decision
+msgid "medium"
+msgstr "medium"
+
+#. module: farm_ai_decision
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_ai_decision
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_ai_decision
+msgid "mitigation_strategies"
+msgstr "mitigation_strategies"
+
+#. module: farm_ai_decision
+msgid "model"
+msgstr "model"
+
+#. module: farm_ai_decision
+msgid "monitor_health_welfare"
+msgstr "monitor_health_welfare"
+
+#. module: farm_ai_decision
+msgid "monitoring_alert"
+msgstr "monitoring_alert"
+
+#. module: farm_ai_decision
+msgid "monitoring_frequency"
+msgstr "monitoring_frequency"
+
+#. module: farm_ai_decision
+msgid "mse_score"
+msgstr "mse_score"
+
+#. module: farm_ai_decision
+msgid "name"
+msgstr "name"
+
+#. module: farm_ai_decision
+msgid "not specified"
+msgstr "not specified"
+
+#. module: farm_ai_decision
+msgid "nutrient_deficiency_analysis"
+msgstr "nutrient_deficiency_analysis"
+
+#. module: farm_ai_decision
+msgid "operation_type"
+msgstr "operation_type"
+
+#. module: farm_ai_decision
+msgid "optimal_harvest_date"
+msgstr "optimal_harvest_date"
+
+#. module: farm_ai_decision
+msgid "optimal_sales_ratio"
+msgstr "optimal_sales_ratio"
+
+#. module: farm_ai_decision
+msgid "optimization_recommendation"
+msgstr "optimization_recommendation"
+
+#. module: farm_ai_decision
+msgid "optimized_allocation"
+msgstr "optimized_allocation"
+
+#. module: farm_ai_decision
+msgid "optimized_path"
+msgstr "optimized_path"
+
+#. module: farm_ai_decision
+msgid "output_data"
+msgstr "output_data"
+
+#. module: farm_ai_decision
+msgid "output_schema"
+msgstr "output_schema"
+
+#. module: farm_ai_decision
+msgid "parameters"
+msgstr "parameters"
+
+#. module: farm_ai_decision
+msgid "path_recommendation"
+msgstr "path_recommendation"
+
+#. module: farm_ai_decision
+msgid "perform_quality_grading"
+msgstr "perform_quality_grading"
+
+#. module: farm_ai_decision
+msgid "perform_risk_assessment"
+msgstr "perform_risk_assessment"
+
+#. module: farm_ai_decision
+msgid "pest_disease_name"
+msgstr "pest_disease_name"
+
+#. module: farm_ai_decision
+msgid "planting_date"
+msgstr "planting_date"
+
+#. module: farm_ai_decision
+msgid "precision_score"
+msgstr "precision_score"
+
+#. module: farm_ai_decision
+msgid "predicted_grade"
+msgstr "predicted_grade"
+
+#. module: farm_ai_decision
+msgid "predicted_harvest_date"
+msgstr "predicted_harvest_date"
+
+#. module: farm_ai_decision
+msgid "predicted_price_30d"
+msgstr "predicted_price_30d"
+
+#. module: farm_ai_decision
+msgid "predicted_price_7d"
+msgstr "predicted_price_7d"
+
+#. module: farm_ai_decision
+msgid "predicted_price_90d"
+msgstr "predicted_price_90d"
+
+#. module: farm_ai_decision
+msgid "predicted_yield"
+msgstr "predicted_yield"
+
+#. module: farm_ai_decision
+msgid "prediction_type"
+msgstr "prediction_type"
+
+#. module: farm_ai_decision
+msgid "prevention_advice"
+msgstr "prevention_advice"
+
+#. module: farm_ai_decision
+msgid "price_trend"
+msgstr "price_trend"
+
+#. module: farm_ai_decision
+msgid "priority"
+msgstr "priority"
+
+#. module: farm_ai_decision
+msgid "procurement"
+msgstr "procurement"
+
+#. module: farm_ai_decision
+msgid "procurement_action"
+msgstr "procurement_action"
+
+#. module: farm_ai_decision
+msgid "product.template"
+msgstr "product.template"
+
+#. module: farm_ai_decision
+msgid "product_id"
+msgstr "product_id"
+
+#. module: farm_ai_decision
+msgid "quality_attributes"
+msgstr "quality_attributes"
+
+#. module: farm_ai_decision
+msgid "quality_metrics"
+msgstr "quality_metrics"
+
+#. module: farm_ai_decision
+msgid "quality_score"
+msgstr "quality_score"
+
+#. module: farm_ai_decision
+msgid "recall_score"
+msgstr "recall_score"
+
+#. module: farm_ai_decision
+msgid "recommendation"
+msgstr "recommendation"
+
+#. module: farm_ai_decision
+msgid "recommended_irrigation_time"
+msgstr "recommended_irrigation_time"
+
+#. module: farm_ai_decision
+msgid "recommended_k"
+msgstr "recommended_k"
+
+#. module: farm_ai_decision
+msgid "recommended_n"
+msgstr "recommended_n"
+
+#. module: farm_ai_decision
+msgid "recommended_p"
+msgstr "recommended_p"
+
+#. module: farm_ai_decision
+msgid "recommended_water_amount"
+msgstr "recommended_water_amount"
+
+#. module: farm_ai_decision
+msgid "recovery actions."
+msgstr "recovery actions."
+
+#. module: farm_ai_decision
+msgid "recovery_plan"
+msgstr "recovery_plan"
+
+#. module: farm_ai_decision
+msgid "required_quantity"
+msgstr "required_quantity"
+
+#. module: farm_ai_decision
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_ai_decision
+msgid "resource_conflicts"
+msgstr "resource_conflicts"
+
+#. module: farm_ai_decision
+msgid "resource_type"
+msgstr "resource_type"
+
+#. module: farm_ai_decision
+msgid "result_intervention_id"
+msgstr "result_intervention_id"
+
+#. module: farm_ai_decision
+msgid "risk_assessment"
+msgstr "risk_assessment"
+
+#. module: farm_ai_decision
+msgid "risk_category"
+msgstr "risk_category"
+
+#. module: farm_ai_decision
+msgid "risk_factors"
+msgstr "risk_factors"
+
+#. module: farm_ai_decision
+msgid "risk_impact"
+msgstr "risk_impact"
+
+#. module: farm_ai_decision
+msgid "risk_level"
+msgstr "risk_level"
+
+#. module: farm_ai_decision
+msgid "risk_location_id"
+msgstr "risk_location_id"
+
+#. module: farm_ai_decision
+msgid "risk_probability"
+msgstr "risk_probability"
+
+#. module: farm_ai_decision
+msgid "risk_score"
+msgstr "risk_score"
+
+#. module: farm_ai_decision
+msgid "sample_size"
+msgstr "sample_size"
+
+#. module: farm_ai_decision
+msgid "severity_level"
+msgstr "severity_level"
+
+#. module: farm_ai_decision
+msgid "soil_analysis"
+msgstr "soil_analysis"
+
+#. module: farm_ai_decision
+msgid "soil_nitrogen"
+msgstr "soil_nitrogen"
+
+#. module: farm_ai_decision
+msgid "soil_ph"
+msgstr "soil_ph"
+
+#. module: farm_ai_decision
+msgid "soil_phosphorus"
+msgstr "soil_phosphorus"
+
+#. module: farm_ai_decision
+msgid "soil_potassium"
+msgstr "soil_potassium"
+
+#. module: farm_ai_decision
+msgid "sorting_recommendation"
+msgstr "sorting_recommendation"
+
+#. module: farm_ai_decision
+msgid "species_type"
+msgstr "species_type"
+
+#. module: farm_ai_decision
+msgid "status"
+msgstr "status"
+
+#. module: farm_ai_decision
+msgid "stress_index"
+msgstr "stress_index"
+
+#. module: farm_ai_decision
+msgid "suggestion"
+msgstr "suggestion"
+
+#. module: farm_ai_decision
+msgid "total_distance"
+msgstr "total_distance"
+
+#. module: farm_ai_decision
+msgid "training_accuracy"
+msgstr "training_accuracy"
+
+#. module: farm_ai_decision
+msgid "training_data_source"
+msgstr "training_data_source"
+
+#. module: farm_ai_decision
+msgid "training_samples"
+msgstr "training_samples"
+
+#. module: farm_ai_decision
+msgid "treatment_cost"
+msgstr "treatment_cost"
+
+#. module: farm_ai_decision
+msgid "treatment_options"
+msgstr "treatment_options"
+
+#. module: farm_ai_decision
+msgid "unknown"
+msgstr "unknown"
+
+#. module: farm_ai_decision
+msgid "uses_isl_data"
+msgstr "uses_isl_data"
+
+#. module: farm_ai_decision
+msgid "various crops"
+msgstr "various crops"
+
+#. module: farm_ai_decision
+msgid "vehicle_type"
+msgstr "vehicle_type"
+
+#. module: farm_ai_decision
+msgid "view_mode"
+msgstr "view_mode"
+
+#. module: farm_ai_decision
+msgid "weather_forecast"
+msgstr "weather_forecast"
+
+#. module: farm_ai_decision
+msgid "weather_impact"
+msgstr "weather_impact"
+
+#. module: farm_ai_decision
+msgid "welfare_improvements"
+msgstr "welfare_improvements"
+
+#. module: farm_ai_decision
+msgid "welfare_score"
+msgstr "welfare_score"
+
+#. module: farm_ai_decision
+msgid "yield_impact"
+msgstr "yield_impact"

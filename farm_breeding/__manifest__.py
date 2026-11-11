@@ -1,0 +1,23 @@
+{
+    'name': 'Farm Breeding & Nursery',
+    'version': '18.0.1.0.0',
+    'category': 'Industries/Agriculture',
+    'summary': 'Nursery Batch Tracking and Breeding Pedigree',
+    'description': """
+        Breeding module for Odoo 18 Farm Management System.
+        - Nursery Factory Management (Seedling Age, Survival Rate) [US-020-02]
+        - Pedigree & Trait Tracking [US-020-05]
+    """,
+    'author': 'Jeffery',
+    'depends': ['farm_operation', 'farm_core'],
+    'data': [
+        'security/ir.model.access.csv',
+        'wizard/trait_comparison_wizard_views.xml',
+        'views/nursery_batch_views.xml',
+        'views/breeding_views.xml',
+    ],
+    'images': ['static/description/main_screenshot.png'],
+    'installable': True,
+    'application': False,
+    'license': 'AGPL-3',
+}

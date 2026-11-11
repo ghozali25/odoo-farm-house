@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="view_ai_pest_disease_detection_tree" model="ir.ui.view">
+        <field name="name">agri.ai.pest.disease.detection.tree</field>
+        <field name="model">agri.ai.pest.disease.detection</field>
+        <field name="arch" type="xml">
+            <list string="AI Pest &amp; Disease Detection">
+                <field name="name" />
+                <field name="crop_type" />
+                <field name="detection_type" />
+                <field name="detected_pest_disease" />
+                <field name="severity_level" />
+                <field name="ai_confidence_score" />
+                <field name="analysis_date" />
+                <field name="status" />
+            </list>
+        </field>
+    </record>
+
+    
+    <record id="view_ai_pest_disease_detection_form" model="ir.ui.view">
+        <field name="name">agri.ai.pest.disease.detection.form</field>
+        <field name="model">agri.ai.pest.disease.detection</field>
+        <field name="arch" type="xml">
+            <form string="AI Pest &amp; Disease Detection">
+                <header>
+                    <button name="action_process_image" type="object" string="Process Image" class="oe_highlight" />
+                    <field name="status" widget="statusbar" />
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Pest/Disease Detection Analysis" />
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="crop_type" />
+                            <field name="detection_type" />
+                            <field name="detected_pest_disease" />
+                            <field name="severity_level" />
+                        </group>
+                        <group>
+                            <field name="affected_area" />
+                            <field name="ai_confidence_score" />
+                            <field name="treatment_priority" />
+                            <field name="analysis_date" />
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Image">
+                            <group>
+                                <field name="image" filename="image_filename" />
+                                <field name="detection_confidence_map" filename="detection_confidence_map_filename" />
+                            </group>
+                        </page>
+                        <page string="Treatment &amp; Recommendations">
+                            <group>
+                                <field name="recommended_treatment" />
+                                <field name="prevention_tips" />
+                            </group>
+                        </page>
+                        <page string="Results &amp; Parameters">
+                            <group>
+                                <field name="input_parameters" widget="ace" options="{'mode': 'javascript'}" />
+                                <field name="output_data" widget="ace" options="{'mode': 'javascript'}" />
+                                <field name="analysis_result" />
+                                <field name="similar_cases" widget="ace" options="{'mode': 'javascript'}" />
+                            </group>
+                        </page>
+                        <page string="ISL Configuration">
+                            <group>
+                                <field name="industry_id" />
+                                <field name="uses_isl_data" />
+                                <field name="data_isolation_level" />
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" />
+                    <field name="activity_ids" />
+                    <field name="message_ids" />
+                </div>
+            </form>
+        </field>
+    </record>
+
+    
+    <record id="action_ai_pest_disease_detection" model="ir.actions.act_window">
+        <field name="name">Pest &amp; Disease Detection</field>
+        <field name="res_model">agri.ai.pest.disease.detection</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add your first pest &amp; disease detection!
+            </p>
+            <p>
+                AI-powered pest and disease detection from images. Upload images of crops
+                to detect pests, diseases, nutrient deficiencies, and environmental stress.
+            </p>
+        </field>
+    </record>
+</data>
+</odoo>

@@ -1,0 +1,196 @@
+# -*- coding: utf-8 -*-
+from odoo import models, fields, api, _
+from .gis_utils import GISCoordinateUtils
+from .common_fields import CommonAgriculturalFields
+import json
+import logging
+
+_logger = logging.getLogger(__name__)
+
+
+class StockLocation(models.Model):
+    """
+    Direct Agricultural, GIS, Terroir, and Volumetric safety extensions of standard Odoo stock.location records.
+    Enforces 'Location Scheme A' Convergence.
+    """
+    _name = 'stock.location'
+    _inherit = [
+        'stock.location',
+        'mail.thread', 
+        'mail.activity.mixin', 
+        'farm.core.gis.utils',
+        'agri.industry.planting.mixin',
+        'agri.certification.status.mixin',
+        'agri.geospatial.mixin',
+        'agri.sustainability.mixin',
+        'agri.embedding.mixin'
+    ]
+
+    # Link to the Domain Model (Optional for backward compatibility)
+    agri_location_id = fields.Many2one('agri.location', required=False, ondelete="cascade", 
+                                      string="Agri Domain Entity", help="The underlying physical entity in the Agri domain.")
+
+    # --- Inherited from agri.location for Convergence ---
+    location_type = fields.Selection([
+        ('field', 'Open Field / Plot'),
+        ('greenhouse', 'Greenhouse / CEA'),
+        ('barn', 'Barn / Stable'),
+        ('pond', 'Pond / Tank'),
+        ('processing', 'Processing Facility'),
+        ('other', 'Other Container')
+    ], string="Physical Type", required=True, default='field')
+
+    original_owner_id = fields.Many2one('res.partner', string="Original Land Rights Owner", 
+                                       help="The smallholder who originally owns this micro-plot.")
+
+    # --- Agricultural Identification ---
+    is_land_parcel = fields.Boolean("Is Land Parcel", default=False, tracking=True)
+
+    # Basic land nature classification
+    land_nature = fields.Selection([
+        ('basic_farmland', 'Permanent Basic Farmland'),
+        ('general_farmland', 'General Farmland'),
+        ('garden_land', 'Garden Land'),
+        ('forest_land', 'Forest Land'),
+        ('other_agri_land', 'Other Agricultural Land'),
+        ('construction_land', 'Construction Land'),
+    ], string="Land Nature", help="Classification based on national land use guidelines.")
+
+    land_area = fields.Float("Area (sqm/mu)", digits=(16, 2), help="Surface area of the parcel.")
+    land_area_uom_id = fields.Many2one('uom.uom', string="Area Unit")
+
+    # Core GIS Fields [US-001-03, US-TECH-04-01]
+    gps_lat = fields.Float("Latitude", digits=(10, 7), tracking=True)
+    gps_lng = fields.Float("Longitude", digits=(10, 7), tracking=True)
+    gps_coordinates = fields.Char("GPS Coordinates", help="GeoJSON or coordinates of the parcel.")
+    boundary_geojson = fields.Text("Boundary Coordinates (GeoJSON)", help="GeoJSON Polygon for the land parcel boundary.")
+    calculated_area_ha = fields.Float("Calculated Area (Ha)", digits=(16, 4), readonly=True, help="Area calculated from GeoJSON coordinates.")
+
+    def calculate_area(self):
+        """Calculate area using GIS utilities from GeoJSON boundary.
+
+        Porting note: the original ``@api.model`` decorator made this a
+        no-op when called from the "Update GIS Area" button (a model-method
+        receives an empty recordset, so the loop never ran). Dropped so the
+        button works on the selected parcels.
+        """
+        for location in self:
+            if location.boundary_geojson:
+                lat_avg = location.gps_lat if location.gps_lat else None
+                area_ha = self.calculate_area_from_geojson(location.boundary_geojson, lat_avg)
+                location.calculated_area_ha = area_ha
+                # Sync with generic land_area field
+                location.land_area = area_ha * 10000.0  # Ha to sqm
+
+    gis_map_url = fields.Char("Map Link", compute='_compute_gis_map_url')
+
+    # Basic soil classification
+    soil_type = fields.Selection([
+        ('clay', 'Clay'),
+        ('silt', 'Silt'),
+        ('sand', 'Sand'),
+        ('loam', 'Loam'),
+    ], string="Soil Type")
+
+    # Basic terroir attributes [US-062-01]
+    slope = fields.Float("Slope Gradient (%)", help="Slope of the land parcel.")
+    aspect = fields.Selection([
+        ('n', 'North'), ('ne', 'North-East'), ('e', 'East'), ('se', 'South-East'),
+        ('s', 'South'), ('sw', 'South-West'), ('w', 'West'), ('nw', 'North-West')
+    ], string="Aspect / Orientation")
+    water_source = fields.Selection([
+        ('river', 'River/Stream'),
+        ('well', 'Groundwater Well'),
+        ('reservoir', 'Reservoir'),
+        ('rain', 'Rain-fed')
+    ], string="Primary Water Source")
+
+    micro_climate_notes = fields.Text("Micro-climate Characteristics", help="Description of local climate factors.")
+
+    # US-063-01: Vertical Farming / High-density Storage
+    is_vertical_location = fields.Boolean("Is Vertical / Shelf", default=False)
+    shelf_id = fields.Char("Shelf ID")
+    shelf_level = fields.Integer("Level / Row")
+    shelf_slot = fields.Char("Slot / Position")
+
+    @api.depends('gps_lat', 'gps_lng')
+    def _compute_gis_map_url(self):
+        for loc in self:
+            if loc.gps_lat and loc.gps_lng:
+                # Generate OpenStreetMap link
+                loc.gis_map_url = f"https://www.openstreetmap.org/?mlat={loc.gps_lat}&mlon={loc.gps_lng}#map=17/{loc.gps_lat}/{loc.gps_lng}"
+            else:
+                loc.gis_map_url = False
+
+    # Basic aquaculture fields [US-001-02]
+    water_depth = fields.Float("Water Depth (m)")
+    water_depth_dm = fields.Float("Water Depth (dm)", compute='_compute_water_depth_dm', inverse='_inverse_water_depth_dm')
+
+    # Container management
+    is_vessel = fields.Boolean("Is Vessel/Tank", default=False)
+    vessel_capacity = fields.Float("Vessel Capacity (L)")
+    vessel_material = fields.Selection([
+        ('stainless', 'Stainless Steel'),
+        ('oak', 'Oak Barrel'),
+        ('ceramic', 'Ceramic')
+    ], string="Material")
+
+    # Multi-farm collaboration [US-040-09] - Using Odoo's native Company mechanism
+    farm_id = fields.Many2one('res.company', string="Belonging Farm", default=lambda self: self.env.company)
+
+    # Physical Capacity and Stocking Density Limits
+    max_capacity_volume_m3 = fields.Float(
+        string='Max Capacity Volume (m³)',
+        default=0.0,
+        help="Maximum capacity constraint for physical volumetric safety checks."
+    )
+
+    max_stocking_density = fields.Float(
+        string='Max Stocking Density (units/m²)',
+        default=0.0,
+        help="Maximum stocking density constraint (e.g. animals/sqm or plants/sqm)."
+    )
+
+    @api.depends('water_depth')
+    def _compute_water_depth_dm(self):
+        for loc in self:
+            loc.water_depth_dm = loc.water_depth * 10.0
+
+    def _inverse_water_depth_dm(self):
+        for loc in self:
+            loc.water_depth = loc.water_depth_dm / 10.0
+
+    # Dynamic attributes [US-001-02]
+    location_properties_definition = fields.Json('Location Properties Definition')
+    location_properties = fields.Json(
+        'Properties'
+    )
+
+
+class FarmLocation(models.Model):
+    """ Lightweight backward compatibility wrapper model for farm.location """
+    _name = 'farm.location'
+    _description = 'Farm Location Compatibility Wrapper'
+    _inherit = 'stock.location'
+
+    # Port fix (batch 7): stock.location.child_internal_location_ids is a
+    # computed Many2many to stock.location. On farm.location (prototype
+    # inheritance, separate table) the inherited compute does
+    # self.search(...) which returns farm.location records — assigning
+    # them to a stock.location M2M raises "Wrong value for
+    # farm.location.child_internal_location_ids" on ANY read (proven by
+    # the auto-generated farm.symbiotic.plot form, which lists the
+    # delegated location fields). Override the field to point at
+    # farm.location with a matching compute.
+    child_internal_location_ids = fields.Many2many(
+        'farm.location',
+        string='Internal locations among descendants',
+        compute='_compute_child_internal_location_ids',
+        recursive=True,
+        help="This location (if it's internal) and all its descendants filtered by type=Internal.")
+
+    @api.depends('child_ids.usage', 'child_ids.child_internal_location_ids')
+    def _compute_child_internal_location_ids(self):
+        for loc in self:
+            loc.child_internal_location_ids = self.search(
+                [('id', 'child_of', loc.id), ('usage', '=', 'internal')])

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="view_farm_biological_asset_list" model="ir.ui.view">
+        <field name="name">agri.biological.asset.list</field>
+        <field name="model">agri.biological.asset</field>
+        <field name="arch" type="xml">
+            <list string="Biological Assets">
+                <field name="name" />
+                <field name="agricultural_type" /> 
+                <field name="is_mature" widget="boolean_toggle" />
+            </list>
+        </field>
+    </record>
+
+    
+    <record id="view_farm_biological_asset_form" model="ir.ui.view">
+        <field name="name">agri.biological.asset.form</field>
+        <field name="model">agri.biological.asset</field>
+        <field name="arch" type="xml">
+            <form string="Biological Asset">
+                <header>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only" string="Operational Name" />
+                        <h1><field name="name" placeholder="e.g. Heifer #102" /></h1>
+                        <group>
+                        </group>
+                    </div>
+                    <group>
+                        <group string="Physical Identity (Agri Domain)">
+                            <field name="agricultural_type" />
+                            <field name="birth_date" />
+                            <field name="dna_marker" />
+                            <field name="growth_stage_id" />
+                        </group>
+                        <group string="Farm Management">
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Pedigree &amp; Biology" name="pedigree">
+                            <group>
+                                <group string="Ancestry">
+                                </group>
+                                <group string="Traits">
+                                    <field name="quality_grade" />
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Value &amp; Lifecycle" name="valuation">
+                            <group>
+                                <group string="Maturity Tracking">
+                                    <field name="maturity_date" />
+                                    <field name="is_mature" />
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Sustainability &amp; Evidence" name="evidence">
+                            <group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter>
+                    <message />
+                    <activity />
+                </chatter>
+            </form>
+        </field>
+    </record>
+
+    
+    <record id="action_farm_biological_asset" model="ir.actions.act_window">
+        <field name="name">Biological Assets</field>
+        <field name="res_model">agri.biological.asset</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+ web_icon="farm_core,static/description/icon.png"
+              sequence="40"/&gt;
+    
+              parent="menu_biological_asset_root"
+              action="action_farm_biological_asset"
+              sequence="10"/&gt;
+</data>
+</odoo>

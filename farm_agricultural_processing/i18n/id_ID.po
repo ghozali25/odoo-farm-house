@@ -1,0 +1,482 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * farm_agricultural_processing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 12:00+0000\n"
+"PO-Revision-Date: 2026-11-09 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (Indonesia)\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_farm_agricultural_processing_root
+msgid "Agricultural Processing"
+msgstr "Pengolahan Hasil Pertanian"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_agri_proc_operations
+msgid "Operations"
+msgstr "Operasional"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_agri_proc_master_data
+msgid "Master Data"
+msgstr "Data Master"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_agri_proc_reporting
+msgid "Reporting"
+msgstr "Pelaporan"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_processing_orders
+msgid "Processing Tasks"
+msgstr "Tugas Pengolahan"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_farm_ham_production
+msgid "Ham Curing"
+msgstr "Pengawetan Ham"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_farm_aquatic_production
+msgid "Aquatic Processing"
+msgstr "Pengolahan Hasil Perairan"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_farm_net_vegetable_production
+msgid "Net Veg Prep"
+msgstr "Penyiapan Sayur Bersih"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_processing_boms
+msgid "Agri-Recipes"
+msgstr "Resep Pertanian"
+
+#. module: farm_agricultural_processing
+#: model:farm.production.license,name:0
+msgid "Production License"
+msgstr "Izin Produksi"
+
+#. module: farm_agricultural_processing
+#: model:ir.ui.menu,name:farm_agricultural_processing.menu_farm_production_license
+msgid "Production Licenses"
+msgstr "Izin Produksi"
+
+#. module: farm_agricultural_processing
+#: model:farm.production.license,name:0
+msgid "License No."
+msgstr "No. Izin"
+
+#. module: farm_agricultural_processing
+#: model:farm.production.license,company_id:0
+msgid "Company"
+msgstr "Perusahaan"
+
+#. module: farm_agricultural_processing
+#: model:farm.production.license,expiry_date:0
+msgid "Expiry Date"
+msgstr "Tanggal Kedaluwarsa"
+
+#. module: farm_agricultural_processing
+#: model:farm.production.license,category_ids:0
+msgid "Permitted Categories"
+msgstr "Kategori yang Diizinkan"
+
+#. module: farm_agricultural_processing
+#: model:farm.production.license,is_active:0
+msgid "Is Active"
+msgstr "Aktif"
+
+#. module: farm_agricultural_processing
+#: model:farm.production.license,license_category_id:0
+msgid "License Category"
+msgstr "Kategori Izin"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,name:0
+msgid "License Check Record"
+msgstr "Catatan Pemeriksaan Izin"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,production_id:0
+msgid "Production Order"
+msgstr "Order Produksi"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,compliance_status:0
+msgid "Compliance Status"
+msgstr "Status Kepatuhan"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,compliance_status:0
+msgid "Compliant"
+msgstr "Patuh"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,compliance_status:0
+msgid "Warning"
+msgstr "Peringatan"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,compliance_status:0
+msgid "Non-Compliant"
+msgstr "Tidak Patuh"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,violations_found:0
+msgid "Violations Found"
+msgstr "Pelanggaran Ditemukan"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,is_production_blocked:0
+msgid "Production Blocked"
+msgstr "Produksi Diblokir"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,checked_by:0
+msgid "Checked By"
+msgstr "Diperiksa Oleh"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.license.check,checked_date:0
+msgid "Checked Date"
+msgstr "Tanggal Pemeriksaan"
+
+#. module: farm_agricultural_processing
+#: model:agri.seasonal.recipe,name:0
+msgid "Seasonal Recipe Name"
+msgstr "Nama Resep Musiman"
+
+#. module: farm_agricultural_processing
+#: model:agri.seasonal.recipe,season_name:0
+msgid "Season Name"
+msgstr "Nama Musim"
+
+#. module: farm_agricultural_processing
+#: model:agri.seasonal.recipe,season_start_date:0
+msgid "Season Start Date"
+msgstr "Tanggal Mulai Musim"
+
+#. module: farm_agricultural_processing
+#: model:agri.seasonal.recipe,season_end_date:0
+msgid "Season End Date"
+msgstr "Tanggal Akhir Musim"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.blind.input,blind_name:0
+msgid "Blind Name"
+msgstr "Nama Samaran"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.blind.input,hide_during_mixing:0
+msgid "Hide During Mixing"
+msgstr "Sembunyikan Saat Pencampuran"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.blind.input,authorized_users:0
+msgid "Authorized to View"
+msgstr "Berwenang Melihat"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.blind.input,name_get:0
+msgid "Confidential Input"
+msgstr "Input Rahasia"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.lot.tracking,name:0
+msgid "Traceability Record"
+msgstr "Catatan Ketertelusuran"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.lot.tracking,source_lot_id:0
+msgid "Source Lot"
+msgstr "Lot Sumber"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.lot.tracking,target_lot_id:0
+msgid "Target Lot"
+msgstr "Lot Tujuan"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.lot.tracking,trace_direction:0
+msgid "Trace Direction"
+msgstr "Arah Penelusuran"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.lot.tracking,trace_direction:0
+msgid "Upstream (Source to Parent)"
+msgstr "Hulu (Sumber ke Induk)"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.lot.tracking,trace_direction:0
+msgid "Downstream (Source to Child)"
+msgstr "Hilir (Sumber ke Turunan)"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.lot.tracking,transfer_quality_status:0
+msgid "Transfer Quality Status"
+msgstr "Status Mutu Transfer"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.lot.tracking,transfer_quality_status:0
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_agricultural_processing
+#: model:agri.processing.lot.tracking,transfer_quality_status:0
+msgid "Verified"
+msgstr "Terverifikasi"
+
+#. module: farm_agricultural_processing
+#: model:farm.ham.recipe,target_aging_months:0
+msgid "Target Aging (Months)"
+msgstr "Target Penuaan (Bulan)"
+
+#. module: farm_agricultural_processing
+#: model:farm.ham.recipe,target_dehydration_pct:0
+msgid "Expected Weight Loss (%)"
+msgstr "Susut Bobot yang Diharapkan (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.ham.recipe,salt_ratio_pct:0
+msgid "Salt Ratio (%)"
+msgstr "Rasio Garam (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.ham,source_pig_lot_id:0
+msgid "Source Pig Lot"
+msgstr "Lot Babi Asal"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.ham,fresh_weight:0
+msgid "Fresh Weight (kg)"
+msgstr "Bobot Segar (kg)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.ham,current_weight:0
+msgid "Current Weight (kg)"
+msgstr "Bobot Saat Ini (kg)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.ham,dehydration_rate:0
+msgid "Dehydration Rate (%)"
+msgstr "Laju Dehidrasi (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.ham,aging_start_date:0
+msgid "Aging Start Date"
+msgstr "Tanggal Mulai Penuaan"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.ham,aging_age_months:0
+msgid "Vintage (Months)"
+msgstr "Usia (Bulan)"
+
+#. module: farm_agricultural_processing
+#: model:farm.ham.production,cellar_humidity:0
+msgid "Current Humidity (%)"
+msgstr "Kelembapan Saat Ini (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.ham.production,cellar_temp:0
+msgid "Current Temp"
+msgstr "Suhu Saat Ini"
+
+#. module: farm_agricultural_processing
+#: model:farm.aquatic_processing.recipe,target_net_yield_percent:0
+msgid "Expected Net Yield (%)"
+msgstr "Rendemen Bersih yang Diharapkan (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.aquatic_processing.recipe,target_glazing_percent:0
+msgid "Target Glazing (%)"
+msgstr "Target Glazing (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.aquatic_processing.recipe,required_core_temp:0
+msgid "Required Core Temp"
+msgstr "Suhu Inti yang Disyaratkan"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.aquatic_product,source_catch_lot_id:0
+msgid "Source Catch Lot"
+msgstr "Lot Tangkapan Asal"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.aquatic_product,net_weight_kg:0
+msgid "Net Weight (kg)"
+msgstr "Bobot Bersih (kg)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.aquatic_product,ice_glaze_weight_kg:0
+msgid "Ice Glaze Weight (kg)"
+msgstr "Bobot Lapisan Es (kg)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.aquatic_product,actual_glazing_percent:0
+msgid "Actual Glazing (%)"
+msgstr "Glazing Aktual (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.aquatic_processing.production,actual_core_temp:0
+msgid "Measured Core Temp"
+msgstr "Suhu Inti Terukur"
+
+#. module: farm_agricultural_processing
+#: model:farm.aquatic_processing.production,freezer_exit_time:0
+msgid "Exit Time"
+msgstr "Waktu Keluar"
+
+#. module: farm_agricultural_processing
+#: model:farm.essential_oil.recipe,target_distillation_temp:0
+msgid "Target Temp"
+msgstr "Suhu Target"
+
+#. module: farm_agricultural_processing
+#: model:farm.essential_oil.recipe,target_pressure_bar:0
+msgid "Target Pressure (bar)"
+msgstr "Tekanan Target (bar)"
+
+#. module: farm_agricultural_processing
+#: model:farm.essential_oil.recipe,standard_yield_percent:0
+msgid "Standard Yield (%)"
+msgstr "Rendemen Standar (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.essential_oil.production,total_material_input_kg:0
+msgid "Material Input (kg)"
+msgstr "Input Bahan (kg)"
+
+#. module: farm_agricultural_processing
+#: model:farm.essential_oil.production,actual_oil_output_l:0
+msgid "Oil Output (L)"
+msgstr "Output Minyak (L)"
+
+#. module: farm_agricultural_processing
+#: model:farm.essential_oil.production,extraction_yield:0
+msgid "Extraction Yield (%)"
+msgstr "Rendemen Ekstraksi (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.essential_oil,terpene_content_percent:0
+msgid "Total Terpenes (%)"
+msgstr "Total Terpen (%)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.essential_oil,is_medical_grade:0
+msgid "Medical Grade"
+msgstr "Grade Medis"
+
+#. module: farm_agricultural_processing
+#: model:farm.tea.recipe,withering_hours:0
+msgid "Withering Duration (Hours)"
+msgstr "Durasi Pelayuan (Jam)"
+
+#. module: farm_agricultural_processing
+#: model:farm.tea.recipe,fixing_temperature:0
+msgid "Fixing Temp"
+msgstr "Suhu Fixing"
+
+#. module: farm_agricultural_processing
+#: model:farm.tea.recipe,fermentation_degree:0
+msgid "Fermentation Target"
+msgstr "Target Fermentasi"
+
+#. module: farm_agricultural_processing
+#: model:farm.tea.recipe,fermentation_degree:0
+msgid "None (Green)"
+msgstr "Tanpa Fermentasi (Hijau)"
+
+#. module: farm_agricultural_processing
+#: model:farm.tea.recipe,fermentation_degree:0
+msgid "Light"
+msgstr "Ringan"
+
+#. module: farm_agricultural_processing
+#: model:farm.tea.recipe,fermentation_degree:0
+msgid "Partial (Oolong)"
+msgstr "Sebagian (Oolong)"
+
+#. module: farm_agricultural_processing
+#: model:farm.tea.recipe,fermentation_degree:0
+msgid "Full (Red/Black)"
+msgstr "Penuh (Merah/Hitam)"
+
+#. module: farm_agricultural_processing
+#: model:farm.tea.recipe,rolling_cycles:0
+msgid "Rolling Rounds"
+msgstr "Putaran Penggilingan"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.tea,liquor_color_score:0
+msgid "Liquor Color (1-10)"
+msgstr "Warna Seduhan (1-10)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.tea,aroma_intensity:0
+msgid "Aroma Score (1-10)"
+msgstr "Skor Aroma (1-10)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.tea,taste_purity:0
+msgid "Taste Score (1-10)"
+msgstr "Skor Rasa (1-10)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.tea,leaf_appearance:0
+msgid "Dry Leaf Score (1-10)"
+msgstr "Skor Daun Kering (1-10)"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.tea,tea_grade:0
+msgid "Final Quality Grade"
+msgstr "Grade Mutu Akhir"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.tea,tea_grade:0
+msgid "Super Grade"
+msgstr "Grade Super"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.tea,tea_grade:0
+msgid "Grade 1"
+msgstr "Grade 1"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.tea,tea_grade:0
+msgid "Grade 2"
+msgstr "Grade 2"
+
+#. module: farm_agricultural_processing
+#: model:farm.lot.tea,tea_grade:0
+msgid "Commercial"
+msgstr "Komersial"
+
+#. module: farm_agricultural_processing
+#: model:mrp.workorder,actual_energy_consumption:0
+msgid "Actual Energy Consumption"
+msgstr "Konsumsi Energi Aktual"
+
+#. module: farm_agricultural_processing
+#: model:mrp.workorder,process_parameters:0
+msgid "Process Parameters (e.g. Temperature, Pressure)"
+msgstr "Parameter Proses (mis. Suhu, Tekanan)"
+
+#. module: farm_agricultural_processing
+#: model:farm.industry.workcenter,energy_type:0
+msgid "Primary Energy Type"
+msgstr "Jenis Energi Utama"
+
+#. module: farm_agricultural_processing
+#: model:farm.industry.workcenter,energy_cost_per_hour:0
+msgid "Energy Cost per Hour"
+msgstr "Biaya Energi per Jam"

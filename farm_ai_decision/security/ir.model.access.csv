@@ -1,0 +1,15 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_agri_ai_agent,agri.ai.agent,model_agri_ai_agent,base.group_user,1,1,1,1
+access_agri_ai_crop_growth_prediction,agri.ai.crop.growth.prediction,model_agri_ai_crop_growth_prediction,base.group_user,1,1,1,1
+access_agri_ai_decision_base,agri.ai.decision.base,model_agri_ai_decision_base,base.group_user,1,1,1,1
+access_agri_ai_fertilization_decision,agri.ai.fertilization.decision,model_agri_ai_fertilization_decision,base.group_user,1,1,1,1
+access_agri_ai_harvest_timing,agri.ai.harvest.timing,model_agri_ai_harvest_timing,base.group_user,1,1,1,1
+access_agri_ai_health_monitoring,agri.ai.health.monitoring,model_agri_ai_health_monitoring,base.group_user,1,1,1,1
+access_agri_ai_irrigation_decision,agri.ai.irrigation.decision,model_agri_ai_irrigation_decision,base.group_user,1,1,1,1
+access_agri_ai_market_prediction,agri.ai.market.prediction,model_agri_ai_market_prediction,base.group_user,1,1,1,1
+access_agri_ai_operation_path_optimization,agri.ai.operation.path.optimization,model_agri_ai_operation_path_optimization,base.group_user,1,1,1,1
+access_agri_ai_pest_disease_decision,agri.ai.pest.disease.decision,model_agri_ai_pest_disease_decision,base.group_user,1,1,1,1
+access_agri_ai_quality_grading,agri.ai.quality.grading,model_agri_ai_quality_grading,base.group_user,1,1,1,1
+access_agri_ai_resource_optimization,agri.ai.resource.optimization,model_agri_ai_resource_optimization,base.group_user,1,1,1,1
+access_agri_ai_risk_assessment,agri.ai.risk.assessment,model_agri_ai_risk_assessment,base.group_user,1,1,1,1
+access_ai_decision_engine,ai.decision.engine,model_ai_decision_engine,base.group_user,1,1,1,1

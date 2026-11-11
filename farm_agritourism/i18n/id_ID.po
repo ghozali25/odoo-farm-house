@@ -1,0 +1,572 @@
+# Translation of farm_agritourism to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_agritourism 18.0.1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_agritourism
+msgid "ACTIVITY SCHEDULED: %s from %.2f to %.2f. Expected visitors: %s"
+msgstr "ACTIVITY SCHEDULED: %s from %.2f to %.2f. Expected visitors: %s"
+
+#. module: farm_agritourism
+msgid "Activities"
+msgstr "Activities"
+
+#. module: farm_agritourism
+msgid "Activity Bookings"
+msgstr "Activity Bookings"
+
+#. module: farm_agritourism
+msgid "Activity Code"
+msgstr "Activity Code"
+
+#. module: farm_agritourism
+msgid "Activity Date"
+msgstr "Activity Date"
+
+#. module: farm_agritourism
+msgid "Activity Evaluation"
+msgstr "Activity Evaluation"
+
+#. module: farm_agritourism
+msgid "Activity Execution"
+msgstr "Activity Execution"
+
+#. module: farm_agritourism
+msgid "Activity Promotion"
+msgstr "Activity Promotion"
+
+#. module: farm_agritourism
+msgid "Activity Title..."
+msgstr "Activity Title..."
+
+#. module: farm_agritourism
+msgid "Activity completed. Ready for feedback collection."
+msgstr "Activity completed. Ready for feedback collection."
+
+#. module: farm_agritourism
+msgid "Actual Visitor Count"
+msgstr "Actual Visitor Count"
+
+#. module: farm_agritourism
+msgid "Adoption"
+msgstr "Adoption"
+
+#. module: farm_agritourism
+msgid "Agritainment Workshop"
+msgstr "Agritainment Workshop"
+
+#. module: farm_agritourism
+msgid "Agritourism"
+msgstr "Agritourism"
+
+#. module: farm_agritourism
+msgid "Agritourism Activities"
+msgstr "Agritourism Activities"
+
+#. module: farm_agritourism
+msgid "Agritourism Activity"
+msgstr "Agritourism Activity"
+
+#. module: farm_agritourism
+msgid "Auto-generated from Sale Order %s. Quantity: %s"
+msgstr "Auto-generated from Sale Order %s. Quantity: %s"
+
+#. module: farm_agritourism
+msgid "BBQ Area"
+msgstr "BBQ Area"
+
+#. module: farm_agritourism
+msgid "Backup Plan for Inclement Weather"
+msgstr "Backup Plan for Inclement Weather"
+
+#. module: farm_agritourism
+msgid "Basic"
+msgstr "Dasar"
+
+#. module: farm_agritourism
+msgid "Booking Analysis"
+msgstr "Pemesanan Analisis"
+
+#. module: farm_agritourism
+msgid "Booking Management"
+msgstr "Booking Management"
+
+#. module: farm_agritourism
+msgid "Booking QR Code"
+msgstr "Booking QR Code"
+
+#. module: farm_agritourism
+msgid "Booking Ref..."
+msgstr "Booking Ref..."
+
+#. module: farm_agritourism
+msgid "Booking Reference"
+msgstr "Pemesanan Referensi"
+
+#. module: farm_agritourism
+msgid "Booking for %s"
+msgstr "Booking for %s"
+
+#. module: farm_agritourism
+msgid "CHECK-IN: Visitor has arrived and booking is validated."
+msgstr "CHECK-IN: Visitor has arrived and booking is validated."
+
+#. module: farm_agritourism
+msgid "CONFLICT: The resource %s is already booked for this period."
+msgstr "CONFLICT: The resource %s is already booked for this period."
+
+#. module: farm_agritourism
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_agritourism
+msgid "Check-in failed: Booking is not confirmed."
+msgstr "Check-in failed: Booking is not confirmed."
+
+#. module: farm_agritourism
+msgid "Confirm"
+msgstr "Confirm"
+
+#. module: farm_agritourism
+msgid "Confirmed"
+msgstr "Confirmed"
+
+#. module: farm_agritourism
+msgid "Demand: %s for %s"
+msgstr "Demand: %s for %s"
+
+#. module: farm_agritourism
+msgid "Done"
+msgstr "Selesai"
+
+#. module: farm_agritourism
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_agritourism
+msgid "Educational Tour"
+msgstr "Educational Tour"
+
+#. module: farm_agritourism
+msgid "Emergency Contact"
+msgstr "Emergency Contact"
+
+#. module: farm_agritourism
+msgid "End Time"
+msgstr "End Time"
+
+#. module: farm_agritourism
+msgid "Experience Details"
+msgstr "Experience Details"
+
+#. module: farm_agritourism
+msgid "Experience Quality Score (1-5)"
+msgstr "Experience Quality Score (1-5)"
+
+#. module: farm_agritourism
+msgid "FEEDBACK RECORDED: Quality score %s/5. Feedback: %s %s"
+msgstr "FEEDBACK RECORDED: Quality score %s/5. Feedback: %s %s"
+
+#. module: farm_agritourism
+msgid "Family BBQ Zone (Family BBQ Zone)"
+msgstr "Family BBQ Zone (Family BBQ Zone)"
+
+#. module: farm_agritourism
+msgid "Family Event"
+msgstr "Family Event"
+
+#. module: farm_agritourism
+msgid "Family Farm Day Package (Family Farm Day Package)"
+msgstr "Family Farm Day Package (Family Farm Day Package)"
+
+#. module: farm_agritourism
+msgid "Farm Booking"
+msgstr "Pemesanan Wisata Tani"
+
+#. module: farm_agritourism
+msgid "Farm Bookings"
+msgstr "Farm Bookings"
+
+#. module: farm_agritourism
+msgid "Farm Resources"
+msgstr "Farm Resources"
+
+#. module: farm_agritourism
+msgid "Farm Stay"
+msgstr "Farm Stay"
+
+#. module: farm_agritourism
+msgid "Farm Visit"
+msgstr "Farm Visit"
+
+#. module: farm_agritourism
+msgid "Farm-to-Table Experience"
+msgstr "Farm-to-Table Experience"
+
+#. module: farm_agritourism
+msgid "Feedback Collection"
+msgstr "Feedback Collection"
+
+#. module: farm_agritourism
+msgid "Fishing Spot"
+msgstr "Fishing Spot"
+
+#. module: farm_agritourism
+msgid "Fishing Spot A (No. 1 Fishing Spot)"
+msgstr "Fishing Spot A (No. 1 Fishing Spot)"
+
+#. module: farm_agritourism
+msgid "Food & Beverage Sales (¥)"
+msgstr "Food & Beverage Sales (¥)"
+
+#. module: farm_agritourism
+msgid "Gold"
+msgstr "Gold"
+
+#. module: farm_agritourism
+msgid "Group Checked In for Workshop: %s"
+msgstr "Group Checked In for Workshop: %s"
+
+#. module: farm_agritourism
+msgid "Guest Feedback"
+msgstr "Guest Feedback"
+
+#. module: farm_agritourism
+msgid "Improvement Suggestions"
+msgstr "Improvement Suggestions"
+
+#. module: farm_agritourism
+msgid "Insurance Coverage Information"
+msgstr "Insurance Coverage Information"
+
+#. module: farm_agritourism
+msgid "Is Experience Package"
+msgstr "Is Experience Package"
+
+#. module: farm_agritourism
+msgid "LEAD-TIME WARNING: Crop '%s' requires %s days to grow, but delivery is requested in %s days!"
+msgstr "LEAD-TIME WARNING: Crop '%s' requires %s days to grow, but delivery is requested in %s days!"
+
+#. module: farm_agritourism
+msgid "Loyalty Points Earned"
+msgstr "Loyalty Points Earned"
+
+#. module: farm_agritourism
+msgid "Loyalty points awarded: %s points"
+msgstr "Loyalty points awarded: %s points"
+
+#. module: farm_agritourism
+msgid "Member Discount Applied"
+msgstr "Member Discount Applied"
+
+#. module: farm_agritourism
+msgid "Members"
+msgstr "Members"
+
+#. module: farm_agritourism
+msgid "Merchandise Sales (¥)"
+msgstr "Merchandise Sales (¥)"
+
+#. module: farm_agritourism
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_agritourism
+msgid "On-site Service"
+msgstr "On-site Service"
+
+#. module: farm_agritourism
+msgid "Operations"
+msgstr "Operations"
+
+#. module: farm_agritourism
+msgid "Optimization"
+msgstr "Optimasi"
+
+#. module: farm_agritourism
+msgid "Other"
+msgstr "Other"
+
+#. module: farm_agritourism
+msgid "Picking"
+msgstr "Picking"
+
+#. module: farm_agritourism
+msgid "Picking Activity"
+msgstr "Picking Activity"
+
+#. module: farm_agritourism
+msgid "Planned Visitor Count"
+msgstr "Planned Visitor Count"
+
+#. module: farm_agritourism
+msgid "Planning"
+msgstr "Perencanaan"
+
+#. module: farm_agritourism
+msgid "Platinum"
+msgstr "Platinum"
+
+#. module: farm_agritourism
+msgid "Plot/Animal Adoption"
+msgstr "Plot/Animal Adoption"
+
+#. module: farm_agritourism
+msgid "Product Sales"
+msgstr "Product Sales"
+
+#. module: farm_agritourism
+msgid "Ref:"
+msgstr "Ref:"
+
+#. module: farm_agritourism
+msgid "Requires Reservation"
+msgstr "Requires Reservation"
+
+#. module: farm_agritourism
+msgid "Resource & Calendar Setup"
+msgstr "Resource & Calendar Setup"
+
+#. module: farm_agritourism
+msgid "Resource Booking"
+msgstr "Sumber Daya Pemesanan"
+
+#. module: farm_agritourism
+msgid "Resource Name"
+msgstr "Sumber Daya Nama"
+
+#. module: farm_agritourism
+msgid "Resources"
+msgstr "Resources"
+
+#. module: farm_agritourism
+msgid "Risk Assessment Completed"
+msgstr "Risiko Penilaian Selesai"
+
+#. module: farm_agritourism
+msgid "Safety Measures"
+msgstr "Safety Measures"
+
+#. module: farm_agritourism
+msgid "Seasonal Festival"
+msgstr "Seasonal Festival"
+
+#. module: farm_agritourism
+msgid "Silver"
+msgstr "Silver"
+
+#. module: farm_agritourism
+msgid "Special Needs/Requirements"
+msgstr "Special Needs/Requirements"
+
+#. module: farm_agritourism
+msgid "Start Time"
+msgstr "Start Time"
+
+#. module: farm_agritourism
+msgid "Total Revenue (¥)"
+msgstr "Total Revenue (¥)"
+
+#. module: farm_agritourism
+msgid "Usage End Time"
+msgstr "Usage End Time"
+
+#. module: farm_agritourism
+msgid "Usage Notes"
+msgstr "Usage Notes"
+
+#. module: farm_agritourism
+msgid "Usage Start Time"
+msgstr "Usage Start Time"
+
+#. module: farm_agritourism
+msgid "Visitor Age Distribution"
+msgstr "Visitor Age Distribution"
+
+#. module: farm_agritourism
+msgid "Visitor Preparation"
+msgstr "Visitor Preparation"
+
+#. module: farm_agritourism
+msgid "Visitor count updated to: %s"
+msgstr "Visitor count updated to: %s"
+
+#. module: farm_agritourism
+msgid "Weather Impact Notes"
+msgstr "Weather Impact Notes"
+
+#. module: farm_agritourism
+msgid "Weather Suitable"
+msgstr "Weather Suitable"
+
+#. module: farm_agritourism
+msgid "Workshop Topic"
+msgstr "Workshop Topic"
+
+#. module: farm_agritourism
+msgid "Workshop/Course"
+msgstr "Workshop/Course"
+
+#. module: farm_agritourism
+msgid "action_confirm"
+msgstr "action_confirm"
+
+#. module: farm_agritourism
+msgid "active"
+msgstr "active"
+
+#. module: farm_agritourism
+msgid "activity_type"
+msgstr "activity_type"
+
+#. module: farm_agritourism
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_agritourism
+msgid "bbq"
+msgstr "bbq"
+
+#. module: farm_agritourism
+msgid "booking_date"
+msgstr "booking_date"
+
+#. module: farm_agritourism
+msgid "booking_type"
+msgstr "booking_type"
+
+#. module: farm_agritourism
+msgid "calendar,kanban,list,form,pivot"
+msgstr "calendar,kanban,list,form,pivot"
+
+#. module: farm_agritourism
+msgid "date_deadline"
+msgstr "date_deadline"
+
+#. module: farm_agritourism
+msgid "date_start"
+msgstr "date_start"
+
+#. module: farm_agritourism
+msgid "date_stop"
+msgstr "date_stop"
+
+#. module: farm_agritourism
+msgid "description"
+msgstr "description"
+
+#. module: farm_agritourism
+msgid "experience"
+msgstr "experience"
+
+#. module: farm_agritourism
+msgid "fishing"
+msgstr "fishing"
+
+#. module: farm_agritourism
+msgid "food_beverage_sales"
+msgstr "food_beverage_sales"
+
+#. module: farm_agritourism
+msgid "hr.employee"
+msgstr "hr.employee"
+
+#. module: farm_agritourism
+msgid "is_experience_package"
+msgstr "is_experience_package"
+
+#. module: farm_agritourism
+msgid "kanban-box"
+msgstr "kanban-box"
+
+#. module: farm_agritourism
+msgid "land_parcel_id"
+msgstr "land_parcel_id"
+
+#. module: farm_agritourism
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_agritourism
+msgid "list,kanban,form,calendar,pivot"
+msgstr "list,kanban,form,calendar,pivot"
+
+#. module: farm_agritourism
+msgid "list_price"
+msgstr "list_price"
+
+#. module: farm_agritourism
+msgid "model"
+msgstr "model"
+
+#. module: farm_agritourism
+msgid "name"
+msgstr "name"
+
+#. module: farm_agritourism
+msgid "partner_id"
+msgstr "partner_id"
+
+#. module: farm_agritourism
+msgid "project.tags"
+msgstr "project.tags"
+
+#. module: farm_agritourism
+msgid "project.task"
+msgstr "project.task"
+
+#. module: farm_agritourism
+msgid "project.task.type"
+msgstr "project.task.type"
+
+#. module: farm_agritourism
+msgid "project_id"
+msgstr "project_id"
+
+#. module: farm_agritourism
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_agritourism
+msgid "resource_id"
+msgstr "resource_id"
+
+#. module: farm_agritourism
+msgid "resource_type"
+msgstr "resource_type"
+
+#. module: farm_agritourism
+msgid "service"
+msgstr "service"
+
+#. module: farm_agritourism
+msgid "stage_id"
+msgstr "stage_id"
+
+#. module: farm_agritourism
+msgid "state"
+msgstr "state"
+
+#. module: farm_agritourism
+msgid "type"
+msgstr "type"
+
+#. module: farm_agritourism
+msgid "user_ids"
+msgstr "user_ids"
+
+#. module: farm_agritourism
+msgid "view_mode"
+msgstr "view_mode"

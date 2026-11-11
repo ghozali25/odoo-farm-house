@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="view_iiot_device_profile_tree" model="ir.ui.view">
+        <field name="name">iiot.device.profile.tree</field>
+        <field name="model">iiot.device.profile</field>
+        <field name="arch" type="xml">
+            <list string="Device Profile">
+                <field name="name" />
+                <field name="code" />
+                <field name="telemetry_topic_template" />
+                <field name="command_topic_template" />
+                <field name="ota_notify_topic_template" />
+                <field name="ota_status_topic_template" />
+            </list>
+        </field>
+    </record>
+
+    
+    <record id="view_iiot_device_profile_form" model="ir.ui.view">
+        <field name="name">iiot.device.profile.form</field>
+        <field name="model">iiot.device.profile</field>
+        <field name="arch" type="xml">
+            <form string="Device Profile">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="code" />
+                        </group>
+                        <group>
+                            <field name="telemetry_topic_template" />
+                            <field name="command_topic_template" />
+                        </group>
+                    </group>
+                    <group string="OTA Topic Configuration">
+                        <field name="ota_notify_topic_template" />
+                        <field name="ota_status_topic_template" />
+                    </group>
+                    <group string="Command Template">
+                        <field name="command_template" widget="ace" options="{'mode': 'javascript'}" />
+                    </group>
+                    <group string="Telemetry Rules">
+                        <!-- NOTE (Odoo 18 port): upstream left this group
+                             empty even though the profile owns the rules
+                             (One2many iiot_telemetry_rule_ids). Wired here
+                             so rules are manageable from the profile form. -->
+                        <field name="iiot_telemetry_rule_ids" nolabel="1">
+                            <list editable="bottom">
+                                <field name="sequence" widget="handle" />
+                                <field name="name" />
+                                <field name="json_path" />
+                                <field name="target_model" />
+                                <field name="target_field" />
+                                <field name="active" />
+                            </list>
+                        </field>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    
+    <record id="action_iiot_device_profile" model="ir.actions.act_window">
+        <field name="name">Device Profile</field>
+        <field name="res_model">iiot.device.profile</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</data>
+</odoo>

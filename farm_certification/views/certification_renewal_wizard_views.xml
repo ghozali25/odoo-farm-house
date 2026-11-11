@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Batch 6: form view for the renewal wizard (see
+     models/certification_renewal_wizard.py). -->
+<odoo>
+<data>
+    <record id="view_farm_certification_renewal_wizard_form" model="ir.ui.view">
+        <field name="name">farm.certification.renewal.wizard.form</field>
+        <field name="model">farm.certification.renewal.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Renew GAP Certificate">
+                <sheet>
+                    <group>
+                        <field name="certification_id" />
+                        <field name="new_expiry_date" />
+                    </group>
+                </sheet>
+                <footer>
+                    <button name="action_confirm_renewal" string="Renew" type="object" class="btn-primary" />
+                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+</data>
+</odoo>

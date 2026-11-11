@@ -1,0 +1,604 @@
+# Translation of farm_ai to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_ai 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_ai
+msgid "AI &amp; Intelligence"
+msgstr "AI &amp; Intelligence"
+
+#. module: farm_ai
+msgid "AI Confidence Score"
+msgstr "AI Confidence Score"
+
+#. module: farm_ai
+msgid "AI Configuration"
+msgstr "Konfigurasi AI"
+
+#. module: farm_ai
+msgid "AI Feedback Score"
+msgstr "AI Feedback Score"
+
+#. module: farm_ai
+msgid "AI Input Data"
+msgstr "AI Input Data"
+
+#. module: farm_ai
+msgid "AI Model Registry"
+msgstr "Registri Model AI"
+
+#. module: farm_ai
+msgid "AI Model Used"
+msgstr "AI Model Used"
+
+#. module: farm_ai
+msgid "AI Output Data"
+msgstr "AI Output Data"
+
+#. module: farm_ai
+msgid "AI analysis completed"
+msgstr "AI analysis completed"
+
+#. module: farm_ai
+msgid "AI processing failed: %s"
+msgstr "AI processing failed: %s"
+
+#. module: farm_ai
+msgid "AI service provided recommendations"
+msgstr "AI service provided recommendations"
+
+#. module: farm_ai
+msgid "API Key"
+msgstr "API Key"
+
+#. module: farm_ai
+msgid "Accuracy (%)"
+msgstr "Accuracy (%)"
+
+#. module: farm_ai
+msgid "Accuracy must be between 0 and 100."
+msgstr "Accuracy must be between 0 and 100."
+
+#. module: farm_ai
+msgid "Add your first AI Configuration!"
+msgstr "Add your first AI Configuration!"
+
+#. module: farm_ai
+msgid "Advanced Settings"
+msgstr "Lanjutan Pengaturan"
+
+#. module: farm_ai
+msgid "Anomaly Detection"
+msgstr "Anomaly Detection"
+
+#. module: farm_ai
+msgid "Audit Confidence"
+msgstr "Audit Confidence"
+
+#. module: farm_ai
+msgid "Audit failed: Suspected fraudulent evidence detected."
+msgstr "Audit failed: Suspected fraudulent evidence detected."
+
+#. module: farm_ai
+msgid "Avg Inference Time (ms)"
+msgstr "Avg Inference Time (ms)"
+
+#. module: farm_ai
+msgid "Base URL"
+msgstr "Base URL"
+
+#. module: farm_ai
+msgid "Classification"
+msgstr "Classification"
+
+#. module: farm_ai
+msgid "Clustering"
+msgstr "Clustering"
+
+#. module: farm_ai
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_ai
+msgid "Computer Vision"
+msgstr "Computer Vision"
+
+#. module: farm_ai
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#. module: farm_ai
+msgid "Configuration Name"
+msgstr "Konfigurasi Nama"
+
+#. module: farm_ai
+msgid "Configuration Parameters"
+msgstr "Configuration Parameters"
+
+#. module: farm_ai
+msgid "Configuration parameters in JSON format..."
+msgstr "Configuration parameters in JSON format..."
+
+#. module: farm_ai
+msgid "Content Generation"
+msgstr "Content Generation"
+
+#. module: farm_ai
+msgid "Custom AI Service"
+msgstr "Custom AI Service"
+
+#. module: farm_ai
+msgid "Data Analysis"
+msgstr "Data Analysis"
+
+#. module: farm_ai
+msgid "Default AI Model"
+msgstr "Default AI Model"
+
+#. module: farm_ai
+msgid "Default Model"
+msgstr "Default Model"
+
+#. module: farm_ai
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_ai
+msgid "Disputed"
+msgstr "Disputed"
+
+#. module: farm_ai
+msgid "Domain-specific Metrics"
+msgstr "Domain-specific Metrics"
+
+#. module: farm_ai
+msgid "Evaluate Model"
+msgstr "Evaluate Model"
+
+#. module: farm_ai
+msgid "F1 Score (%)"
+msgstr "F1 Score (%)"
+
+#. module: farm_ai
+msgid "F1 Score must be between 0 and 100."
+msgstr "F1 Score must be between 0 and 100."
+
+#. module: farm_ai
+msgid "Failed"
+msgstr "Gagal"
+
+#. module: farm_ai
+msgid "Failed Requests"
+msgstr "Failed Requests"
+
+#. module: farm_ai
+msgid "Hardware Requirements"
+msgstr "Hardware Requirements"
+
+#. module: farm_ai
+msgid "Image Segmentation"
+msgstr "Image Segmentation"
+
+#. module: farm_ai
+msgid "Inference Count"
+msgstr "Inference Count"
+
+#. module: farm_ai
+msgid "Input Format"
+msgstr "Input Format"
+
+#. module: farm_ai
+msgid "Is Active"
+msgstr "Is Active"
+
+#. module: farm_ai
+msgid "Is Agricultural Model"
+msgstr "Is Agricultural Model"
+
+#. module: farm_ai
+msgid "Is Default"
+msgstr "Is Default"
+
+#. module: farm_ai
+msgid "LLM Service"
+msgstr "Layanan LLM"
+
+#. module: farm_ai
+msgid "Last Trained"
+msgstr "Last Trained"
+
+#. module: farm_ai
+msgid "Last Used"
+msgstr "Last Used"
+
+#. module: farm_ai
+msgid "Machine Learning"
+msgstr "Machine Learning"
+
+#. module: farm_ai
+msgid "Max Retries"
+msgstr "Max Retries"
+
+#. module: farm_ai
+msgid "Mean Absolute Error"
+msgstr "Mean Absolute Error"
+
+#. module: farm_ai
+msgid "Mean Squared Error"
+msgstr "Mean Squared Error"
+
+#. module: farm_ai
+msgid "Model Benchmark"
+msgstr "Model Benchmark"
+
+#. module: farm_ai
+msgid "Model Evaluation"
+msgstr "Model Evaluation"
+
+#. module: farm_ai
+msgid "Model Export"
+msgstr "Model Export"
+
+#. module: farm_ai
+msgid "Model Inference"
+msgstr "Model Inference"
+
+#. module: farm_ai
+msgid "Model Name"
+msgstr "Model Nama"
+
+#. module: farm_ai
+msgid "Model Training"
+msgstr "Model Pelatihan"
+
+#. module: farm_ai
+msgid "Model Visualization"
+msgstr "Model Visualization"
+
+#. module: farm_ai
+msgid "Natural Language Processing"
+msgstr "Natural Language Processing"
+
+#. module: farm_ai
+msgid "Object Detection"
+msgstr "Object Detection"
+
+#. module: farm_ai
+msgid "Output Format"
+msgstr "Output Format"
+
+#. module: farm_ai
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_ai
+msgid "Pending Audit"
+msgstr "Menunggu Audit"
+
+#. module: farm_ai
+msgid "Performance Metrics"
+msgstr "Performance Metrics"
+
+#. module: farm_ai
+msgid "Postprocessing Steps"
+msgstr "Postprocessing Steps"
+
+#. module: farm_ai
+msgid "Potential Fraud"
+msgstr "Potential Fraud"
+
+#. module: farm_ai
+msgid "Precision (%)"
+msgstr "Precision (%)"
+
+#. module: farm_ai
+msgid "Precision must be between 0 and 100."
+msgstr "Precision must be between 0 and 100."
+
+#. module: farm_ai
+msgid "Preprocessing Steps"
+msgstr "Preprocessing Steps"
+
+#. module: farm_ai
+msgid "Processing"
+msgstr "Processing"
+
+#. module: farm_ai
+msgid "Processing Time (ms)"
+msgstr "Processing Time (ms)"
+
+#. module: farm_ai
+msgid "Recall (%)"
+msgstr "Penarikan (%)"
+
+#. module: farm_ai
+msgid "Recall must be between 0 and 100."
+msgstr "Recall must be between 0 and 100."
+
+#. module: farm_ai
+msgid "Recommendation System"
+msgstr "Recommendation System"
+
+#. module: farm_ai
+msgid "Recommended Use Cases"
+msgstr "Recommended Use Cases"
+
+#. module: farm_ai
+msgid "Register and manage AI models used in the system."
+msgstr "Register and manage AI models used in the system."
+
+#. module: farm_ai
+msgid "Register your first AI Model!"
+msgstr "Register your first AI Model!"
+
+#. module: farm_ai
+msgid "Regression Analysis"
+msgstr "Regression Analysis"
+
+#. module: farm_ai
+msgid "Root Mean Squared Error"
+msgstr "Root Mean Squared Error"
+
+#. module: farm_ai
+msgid "Statistics"
+msgstr "Statistics"
+
+#. module: farm_ai
+msgid "Steps required to preprocess input data..."
+msgstr "Steps required to preprocess input data..."
+
+#. module: farm_ai
+msgid "Successful Requests"
+msgstr "Successful Requests"
+
+#. module: farm_ai
+msgid "Target Conditions"
+msgstr "Target Conditions"
+
+#. module: farm_ai
+msgid "Target Crops"
+msgstr "Target Crops"
+
+#. module: farm_ai
+msgid "Test Connection"
+msgstr "Test Connection"
+
+#. module: farm_ai
+msgid "This method should be implemented by the specific AI module"
+msgstr "This method should be implemented by the specific AI module"
+
+#. module: farm_ai
+msgid "Time Series Prediction"
+msgstr "Time Series Prediction"
+
+#. module: farm_ai
+msgid "Timeout (seconds)"
+msgstr "Timeout (seconds)"
+
+#. module: farm_ai
+msgid "Total Requests"
+msgstr "Total Requests"
+
+#. module: farm_ai
+msgid "Training Dataset"
+msgstr "Training Dataset"
+
+#. module: farm_ai
+msgid "Training Information"
+msgstr "Pelatihan Informasi"
+
+#. module: farm_ai
+msgid "Training Samples Count"
+msgstr "Training Samples Count"
+
+#. module: farm_ai
+msgid "Usage Statistics"
+msgstr "Usage Statistics"
+
+#. module: farm_ai
+msgid "Verified"
+msgstr "Verified"
+
+#. module: farm_ai
+msgid "Version"
+msgstr "Version"
+
+#. module: farm_ai
+msgid "Visualize"
+msgstr "Visualize"
+
+#. module: farm_ai
+msgid "accuracy"
+msgstr "accuracy"
+
+#. module: farm_ai
+msgid "action_evaluate_model"
+msgstr "action_evaluate_model"
+
+#. module: farm_ai
+msgid "action_test_connection"
+msgstr "action_test_connection"
+
+#. module: farm_ai
+msgid "action_visualize_model"
+msgstr "action_visualize_model"
+
+#. module: farm_ai
+msgid "ai.configuration.form"
+msgstr "ai.configuration.form"
+
+#. module: farm_ai
+msgid "ai.configuration.tree"
+msgstr "ai.configuration.tree"
+
+#. module: farm_ai
+msgid "ai.model.registry.form"
+msgstr "ai.model.registry.form"
+
+#. module: farm_ai
+msgid "ai.model.registry.tree"
+msgstr "ai.model.registry.tree"
+
+#. module: farm_ai
+msgid "ai_provider"
+msgstr "ai_provider"
+
+#. module: farm_ai
+msgid "api_key"
+msgstr "api_key"
+
+#. module: farm_ai
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_ai
+msgid "avg_inference_time"
+msgstr "avg_inference_time"
+
+#. module: farm_ai
+msgid "base_url"
+msgstr "base_url"
+
+#. module: farm_ai
+msgid "button_box"
+msgstr "button_box"
+
+#. module: farm_ai
+msgid "config_params"
+msgstr "config_params"
+
+#. module: farm_ai
+msgid "default_model"
+msgstr "default_model"
+
+#. module: farm_ai
+msgid "description"
+msgstr "description"
+
+#. module: farm_ai
+msgid "f1_score"
+msgstr "f1_score"
+
+#. module: farm_ai
+msgid "failed_requests"
+msgstr "failed_requests"
+
+#. module: farm_ai
+msgid "hardware_requirements"
+msgstr "hardware_requirements"
+
+#. module: farm_ai
+msgid "help"
+msgstr "help"
+
+#. module: farm_ai
+msgid "inference_count"
+msgstr "inference_count"
+
+#. module: farm_ai
+msgid "input_format"
+msgstr "input_format"
+
+#. module: farm_ai
+msgid "is_active"
+msgstr "is_active"
+
+#. module: farm_ai
+msgid "is_default"
+msgstr "is_default"
+
+#. module: farm_ai
+msgid "last_trained"
+msgstr "last_trained"
+
+#. module: farm_ai
+msgid "last_used"
+msgstr "last_used"
+
+#. module: farm_ai
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_ai
+msgid "mae"
+msgstr "mae"
+
+#. module: farm_ai
+msgid "max_retries"
+msgstr "max_retries"
+
+#. module: farm_ai
+msgid "model"
+msgstr "model"
+
+#. module: farm_ai
+msgid "name"
+msgstr "name"
+
+#. module: farm_ai
+msgid "output_format"
+msgstr "output_format"
+
+#. module: farm_ai
+msgid "pending"
+msgstr "pending"
+
+#. module: farm_ai
+msgid "precision"
+msgstr "precision"
+
+#. module: farm_ai
+msgid "preprocessing_steps"
+msgstr "preprocessing_steps"
+
+#. module: farm_ai
+msgid "recall"
+msgstr "recall"
+
+#. module: farm_ai
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_ai
+msgid "successful_requests"
+msgstr "successful_requests"
+
+#. module: farm_ai
+msgid "timeout"
+msgstr "timeout"
+
+#. module: farm_ai
+msgid "toggle_active"
+msgstr "toggle_active"
+
+#. module: farm_ai
+msgid "total_requests"
+msgstr "total_requests"
+
+#. module: farm_ai
+msgid "training_dataset"
+msgstr "training_dataset"
+
+#. module: farm_ai
+msgid "training_samples_count"
+msgstr "training_samples_count"
+
+#. module: farm_ai
+msgid "version"
+msgstr "version"
+
+#. module: farm_ai
+msgid "view_mode"
+msgstr "view_mode"

@@ -1,0 +1,391 @@
+# Translation of Agri Intervention Engine (agri_intervention) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the module's
+# main labels/menus and field/selection strings (module has 0 CJK characters).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: agri_intervention 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 22:00+0700\n"
+"PO-Revision-Date: 2026-11-10 22:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: agri_intervention
+#: model:ir.model,name:agri_intervention.model_agri_intervention_base
+msgid "Agricultural Intervention Base Engine"
+msgstr "Mesin Dasar Intervensi Pertanian"
+
+#. module: agri_intervention
+#: model:ir.model,name:agri_intervention.model_agri_intervention_test
+msgid "Agricultural Intervention (Test)"
+msgstr "Intervensi Pertanian (Uji)"
+
+#. module: agri_intervention
+#: model:ir.model,name:agri_intervention.model_agri_intervention_plugin
+msgid "Intervention Plugin Interface"
+msgstr "Antarmuka Plugin Intervensi"
+
+#. module: agri_intervention
+#: model:ir.model,name:agri_intervention.model_agri_intervention_plugin
+msgid "Agricultural Intervention Plugin Interface"
+msgstr "Antarmuka Plugin Intervensi Pertanian"
+
+#. module: agri_intervention
+#: model:ir.model,name:agri_intervention.model_agri_dna_plugin
+msgid "DNA Inheritance Plugin Interface"
+msgstr "Antarmuka Plugin Pewarisan DNA"
+
+#. module: agri_intervention
+#: model:ir.model,name:agri_intervention.model_agri_valuation_plugin
+msgid "Valuation Plugin Interface"
+msgstr "Antarmuka Plugin Valuasi"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__name
+msgid "Intervention Reference"
+msgstr "Referensi Intervensi"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__state
+msgid "Status"
+msgstr "Status"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__intervention_type
+msgid "Intervention Type"
+msgstr "Jenis Intervensi"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__gs1_biz_step
+msgid "GS1 Business Step"
+msgstr "Tahap Bisnis GS1"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__location_id
+msgid "Target Location"
+msgstr "Lokasi Target"
+
+#. module: agri_intervention
+#: model:ir.model.fields,help:agri_intervention.field_agri_intervention_base__location_id
+msgid "Where the intervention takes place"
+msgstr "Tempat intervensi berlangsung"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__company_id
+msgid "Company"
+msgstr "Perusahaan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__date_planned_start
+msgid "Planned Start"
+msgstr "Rencana Mulai"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__date_planned_finished
+msgid "Planned Finish"
+msgstr "Rencana Selesai"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__date_start
+msgid "Actual Start"
+msgstr "Mulai Aktual"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__date_finished
+msgid "Actual Finish"
+msgstr "Selesai Aktual"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__responsible_id
+msgid "Responsible"
+msgstr "Penanggung Jawab"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__weather_gating_status
+msgid "Weather Window"
+msgstr "Jendela Cuaca"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__compliance_gating_status
+msgid "Regulatory Compliance"
+msgstr "Kepatuhan Regulasi"
+
+#. module: agri_intervention
+#: model:ir.model.fields,field_description:agri_intervention.field_agri_intervention_base__iot_status
+msgid "IoT Status"
+msgstr "Status IoT"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__state
+msgid "Draft"
+msgstr "Draf"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__state
+msgid "Confirmed/Planned"
+msgstr "Dikonfirmasi/Direncanakan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__state
+msgid "Executing"
+msgstr "Sedang Berjalan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__state
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__state
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__intervention_type
+msgid "Tillage"
+msgstr "Pengolahan Tanah"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__intervention_type
+msgid "Sowing"
+msgstr "Penaburan Benih"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__intervention_type
+msgid "Fertilizing"
+msgstr "Pemupukan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__intervention_type
+msgid "Protection"
+msgstr "Perlindungan Tanaman"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__intervention_type
+msgid "Aerial Spraying"
+msgstr "Penyemprotan Udara"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__intervention_type
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__gs1_biz_step
+msgid "Harvesting"
+msgstr "Panen"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__intervention_type
+msgid "Feeding"
+msgstr "Pemberian Pakan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__intervention_type
+msgid "Medical"
+msgstr "Pengobatan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__intervention_type
+msgid "General Process"
+msgstr "Proses Umum"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__gs1_biz_step
+msgid "Commissioning (Setup)"
+msgstr "Commissioning (Penyiapan)"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__gs1_biz_step
+msgid "Processing (Transformation)"
+msgstr "Processing (Transformasi)"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__gs1_biz_step
+msgid "Inspecting"
+msgstr "Inspeksi"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__gs1_biz_step
+msgid "Packing"
+msgstr "Pengemasan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__gs1_biz_step
+msgid "Shipping"
+msgstr "Pengiriman"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__gs1_biz_step
+msgid "Receiving"
+msgstr "Penerimaan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__weather_gating_status
+msgid "Optimal Conditions"
+msgstr "Kondisi Optimal"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__weather_gating_status
+msgid "Sub-optimal"
+msgstr "Kurang Optimal"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__weather_gating_status
+msgid "Hazardous/Blocked"
+msgstr "Berbahaya/Diblokir"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__weather_gating_status
+msgid "Not Applicable"
+msgstr "Tidak Berlaku"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__compliance_gating_status
+msgid "Fully Compliant"
+msgstr "Sepenuhnya Patuh"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__compliance_gating_status
+msgid "Caution/Minor Violation"
+msgstr "Perhatian/Pelanggaran Ringan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__compliance_gating_status
+msgid "Non-Compliant"
+msgstr "Tidak Patuh"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__compliance_gating_status
+msgid "Pending Review"
+msgstr "Menunggu Peninjauan"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__iot_status
+msgid "Connected/Active"
+msgstr "Terhubung/Aktif"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__iot_status
+msgid "Offline/Disconnected"
+msgstr "Luring/Terputus"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__iot_status
+msgid "Critical Sensor Alert"
+msgstr "Peringatan Sensor Kritis"
+
+#. module: agri_intervention
+#: model:ir.model.fields,selection:agri_intervention.field_agri_intervention_base__iot_status
+msgid "No Sensors"
+msgstr "Tanpa Sensor"
+
+#. module: agri_intervention
+#: model:ir.ui.menu,name:agri_intervention.menu_agri_intervention_root
+msgid "Interventions"
+msgstr "Intervensi"
+
+#. module: agri_intervention
+#: model:ir.actions.act_window,name:agri_intervention.action_agri_intervention_base
+msgid "Intervention Engine"
+msgstr "Mesin Intervensi"
+
+#. module: agri_intervention
+#: model_terms:ir.ui.view,arch_db:agri_intervention.view_agri_intervention_base_form
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#. module: agri_intervention
+#: model_terms:ir.ui.view,arch_db:agri_intervention.view_agri_intervention_base_form
+msgid "Start Work"
+msgstr "Mulai Kerja"
+
+#. module: agri_intervention
+#: model_terms:ir.ui.view,arch_db:agri_intervention.view_agri_intervention_base_form
+msgid "Mark Done"
+msgstr "Tandai Selesai"
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "WEATHER BLOCK: High rain probability (%s%%) detected for chemical application."
+msgstr "BLOKIR CUACA: Probabilitas hujan tinggi (%s%%) terdeteksi untuk aplikasi bahan kimia."
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "REGULATION VIOLATION: Input '%s' is Prohibited/Restricted. Reason: %s"
+msgstr "PELANGGARAN REGULASI: Input '%s' Dilarang/Dibatasi. Alasan: %s"
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "REAL-NAME REQUIRED: Operator ID Card No. is required for regulated inputs!"
+msgstr "WAJIB NAMA ASLI: Nomor Kartu Identitas operator wajib diisi untuk input yang diregulasi!"
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "COMPLIANCE ERROR: Invalid ID Card format for operator!"
+msgstr "KESALAHAN KEPATUHAN: Format Nomor Kartu Identitas operator tidak valid!"
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "COMPLIANCE ERROR: Product %s is not approved for organic production!"
+msgstr "KESALAHAN KEPATUHAN: Produk %s tidak disetujui untuk produksi organik!"
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "Harvest Output (%s)"
+msgstr "Hasil Panen (%s)"
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "Harvest QC: %s"
+msgstr "QC Panen: %s"
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "Source DNA: Originating from Supplier %s"
+msgstr "DNA Sumber: Berasal dari Pemasok %s"
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "Initial Quality DNA: Protein %s%%"
+msgstr "DNA Mutu Awal: Protein %s%%"
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "DNA Tainting: Lot certification downgraded to 'Green' due to non-organic inputs."
+msgstr "Pencemaran DNA: Sertifikasi lot diturunkan ke 'Hijau' karena input non-organik."
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "Trust DNA Alert: Lot associated with a '%s' status entity."
+msgstr "Peringatan DNA Kepercayaan: Lot terkait dengan entitas berstatus '%s'."
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "Fair Value based on %s%% growth progress."
+msgstr "Nilai Wajar berdasarkan progres pertumbuhan %s%%."
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "Ecological Premium (GEP %s) applied."
+msgstr "Premi Ekologi (GEP %s) diterapkan."
+
+#. module: agri_intervention
+#. odoo-python
+#: code:addons/agri_intervention/models/intervention_plugins.py:0
+msgid "Biological Stage '%s' (Coefficient %s) applied."
+msgstr "Tahap Biologis '%s' (Koefisien %s) diterapkan."

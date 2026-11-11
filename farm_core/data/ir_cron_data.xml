@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<!-- B31 (2026-11-10): cron DISABLED (active=False).
+     It called model._cron_check_maturity_and_transfer_asset() on stock.lot,
+     but that method does not exist anywhere: not in this port, and not in
+     the upstream odoo-farm repo itself (commit aaa0ab6) — the cron XML is
+     the only place referencing it, so upstream ships a dangling cron.
+     The intent cannot be recovered with confidence: maturity data that
+     exists (farm.biological.asset.maturity_date / is_mature, computed from
+     birth_date + product.maturity_age_days) is computed on write and has
+     no consumer, and there is no "transfer" logic anywhere — no
+     destination (location/account/category), no action, no test, no doc.
+     Inventing the transfer (e.g. flipping growth_stage to 'mature') would
+     fabricate business semantics with valuation side effects
+     (farm_biological_valuation stage coefficient 0.6 -> 1.0) on the
+     deprecated farm.biological.asset model. stock.lot itself has no
+     maturity fields, and the current agri.biological.asset has no lot
+     link, so a stock.lot cron cannot reach it either.
+     Re-enable only when the maturity-transfer behaviour is specified
+     (what "transfer" means and where the asset goes) and the method is
+     implemented. Until then the cron only produced one AttributeError
+     per day in the log and blocked no flow (SIMULASI.md §B31). -->
+<record id="ir_cron_check_biological_asset_maturity" model="ir.cron">
+        <field name="name">Check Biological Asset Maturity</field>
+        <field name="model_id" ref="model_stock_lot" />
+        <field name="state">code</field>
+        <field name="code">model._cron_check_maturity_and_transfer_asset()</field>
+        <field name="user_id" ref="base.user_root" />
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="active" eval="False" />
+    </record>
+</data>
+</odoo>

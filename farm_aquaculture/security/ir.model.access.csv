@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_aquaculture_operation,farm.aquaculture.operation,model_farm_aquaculture_operation,base.group_user,1,1,1,1
+access_farm_water_quality_log,farm.water.quality.log,model_farm_water_quality_log,base.group_user,1,1,1,1
+access_agri_isl_aquaculture_recipe,agri.isl.aquaculture.recipe,model_agri_isl_aquaculture_recipe,base.group_user,1,1,1,1
+access_agri_isl_lot_aquaculture,agri.isl.lot.aquaculture,model_agri_isl_lot_aquaculture,base.group_user,1,1,1,1
+access_agri_isl_aquaculture_task,agri.isl.aquaculture.task,model_agri_isl_aquaculture_task,base.group_user,1,1,1,1
+access_farm_aquaculture_lss,farm.aquaculture.lss,model_farm_aquaculture_lss,base.group_user,1,1,1,1
+access_agri_isl_ras_production,agri.isl.ras.production,model_agri_isl_ras_production,base.group_user,1,1,1,1
+access_farm_aquaculture_bom_line,farm.aquaculture.bom.line,model_farm_aquaculture_bom_line,base.group_user,1,1,1,1

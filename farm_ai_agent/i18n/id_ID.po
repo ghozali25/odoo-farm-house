@@ -1,0 +1,1948 @@
+# Translation of farm_ai_agent to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_ai_agent 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_ai_agent
+msgid "3D Digital Twin Cockpit"
+msgstr "3D Digital Twin Cockpit"
+
+#. module: farm_ai_agent
+msgid "A2A Negotiation"
+msgstr "A2A Negotiation"
+
+#. module: farm_ai_agent
+msgid "ACTIVE TELEMETRY PIPELINE"
+msgstr "ACTIVE TELEMETRY PIPELINE"
+
+#. module: farm_ai_agent
+msgid "AI Agent Re-Act Loops"
+msgstr "AI Agent Re-Act Loops"
+
+#. module: farm_ai_agent
+msgid "AI Agent Skill"
+msgstr "AI Agent Skill"
+
+#. module: farm_ai_agent
+msgid "AI Agent Skills"
+msgstr "AI Agent Skills"
+
+#. module: farm_ai_agent
+msgid "AI Agent Spatio-Temporal Vector Memory Sync Pipeline"
+msgstr "AI Agent Spatio-Temporal Vector Memory Sync Pipeline"
+
+#. module: farm_ai_agent
+msgid "AI Agent Workflow"
+msgstr "AI Agent Workflow"
+
+#. module: farm_ai_agent
+msgid "AI Agent Workflow Step"
+msgstr "AI Agent Workflow Step"
+
+#. module: farm_ai_agent
+msgid "AI Agent Workflows"
+msgstr "AI Agent Workflows"
+
+#. module: farm_ai_agent
+msgid "AI Coordination Layer"
+msgstr "AI Coordination Layer"
+
+#. module: farm_ai_agent
+msgid "AI Coordination Layers"
+msgstr "AI Coordination Layers"
+
+#. module: farm_ai_agent
+msgid "AI Coordination Step"
+msgstr "AI Coordination Step"
+
+#. module: farm_ai_agent
+msgid "AI Decision"
+msgstr "AI Keputusan"
+
+#. module: farm_ai_agent
+msgid "AI Decision Context"
+msgstr "AI Decision Context"
+
+#. module: farm_ai_agent
+msgid "AI Decision Contexts"
+msgstr "AI Decision Contexts"
+
+#. module: farm_ai_agent
+msgid "AI Decision Engine"
+msgstr "Mesin Keputusan AI"
+
+#. module: farm_ai_agent
+msgid "AI Decision Engines"
+msgstr "AI Decision Engines"
+
+#. module: farm_ai_agent
+msgid "AI Decision Rule"
+msgstr "AI Decision Rule"
+
+#. module: farm_ai_agent
+msgid "AI Decision Rules"
+msgstr "AI Decision Rules"
+
+#. module: farm_ai_agent
+msgid "AI Decision Step"
+msgstr "AI Decision Step"
+
+#. module: farm_ai_agent
+msgid "AI Decision System"
+msgstr "AI Decision System"
+
+#. module: farm_ai_agent
+msgid "AI Decision Workflow"
+msgstr "AI Decision Workflow"
+
+#. module: farm_ai_agent
+msgid "AI Decision Workflow Step"
+msgstr "AI Decision Workflow Step"
+
+#. module: farm_ai_agent
+msgid "AI Decision Workflows"
+msgstr "AI Decision Workflows"
+
+#. module: farm_ai_agent
+msgid "AI Financial"
+msgstr "AI Financial"
+
+#. module: farm_ai_agent
+msgid "AI Financial Step"
+msgstr "AI Financial Step"
+
+#. module: farm_ai_agent
+msgid "AI Re-Act Loop"
+msgstr "AI Re-Act Loop"
+
+#. module: farm_ai_agent
+msgid "AI Re-Act Loops"
+msgstr "AI Re-Act Loops"
+
+#. module: farm_ai_agent
+msgid "AI Services"
+msgstr "AI Services"
+
+#. module: farm_ai_agent
+msgid "AI Vision"
+msgstr "AI Visi"
+
+#. module: farm_ai_agent
+msgid "AI Vision Step"
+msgstr "AI Vision Step"
+
+#. module: farm_ai_agent
+msgid "AIRSPACE BREACH DETECTED!"
+msgstr "AIRSPACE BREACH DETECTED!"
+
+#. module: farm_ai_agent
+msgid "Accepted"
+msgstr "Accepted"
+
+#. module: farm_ai_agent
+msgid "Action %s not found on model %s"
+msgstr "Action %s not found on model %s"
+
+#. module: farm_ai_agent
+msgid "Action Code (Python)"
+msgstr "Action Code (Python)"
+
+#. module: farm_ai_agent
+msgid "Action Code (Python) for Custom Steps"
+msgstr "Action Code (Python) for Custom Steps"
+
+#. module: farm_ai_agent
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_ai_agent
+msgid "Active Airspaces"
+msgstr "Active Airspaces"
+
+#. module: farm_ai_agent
+msgid "Active Skill Directive (JSON)"
+msgstr "Active Skill Directive (JSON)"
+
+#. module: farm_ai_agent
+msgid "Active Skill payload must contain both 'model' and 'method' parameters."
+msgstr "Active Skill payload must contain both 'model' and 'method' parameters."
+
+#. module: farm_ai_agent
+msgid "Add your first AI Coordination Layer!"
+msgstr "Add your first AI Coordination Layer!"
+
+#. module: farm_ai_agent
+msgid "Add your first AI Decision Engine!"
+msgstr "Add your first AI Decision Engine!"
+
+#. module: farm_ai_agent
+msgid "Agent ID"
+msgstr "Agent ID"
+
+#. module: farm_ai_agent
+msgid "Agent Re-Act Loops"
+msgstr "Agent Re-Act Loops"
+
+#. module: farm_ai_agent
+msgid "Agent Skills"
+msgstr "Agent Skills"
+
+#. module: farm_ai_agent
+msgid "Agent Task Delegation Sequence"
+msgstr "Agent Task Delegation Sequence"
+
+#. module: farm_ai_agent
+msgid "Agent Workflows"
+msgstr "Agent Workflows"
+
+#. module: farm_ai_agent
+msgid "Applicable to All Industries"
+msgstr "Applicable to All Industries"
+
+#. module: farm_ai_agent
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_ai_agent
+msgid "Approved / Executing"
+msgstr "Approved / Executing"
+
+#. module: farm_ai_agent
+msgid "Aquaculture"
+msgstr "Aquaculture"
+
+#. module: farm_ai_agent
+msgid "Arbitration Decision: Fraudulent activity detected."
+msgstr "Arbitration Decision: Fraudulent activity detected."
+
+#. module: farm_ai_agent
+msgid "Auction Reference"
+msgstr "Auction Reference"
+
+#. module: farm_ai_agent
+msgid "Author or Upload your first AI Agent Skill!"
+msgstr "Author or Upload your first AI Agent Skill!"
+
+#. module: farm_ai_agent
+msgid "Auto Skill Tool: %s.%s"
+msgstr "Auto Skill Tool: %s.%s"
+
+#. module: farm_ai_agent
+msgid "Auto-Dispatch Threshold (Health)"
+msgstr "Auto-Dispatch Threshold (Health)"
+
+#. module: farm_ai_agent
+msgid "Auto-Harvest: %s"
+msgstr "Auto-Harvest: %s"
+
+#. module: farm_ai_agent
+msgid "Auto-Inflow: %s"
+msgstr "Auto-Inflow: %s"
+
+#. module: farm_ai_agent
+msgid "Autonomous Dispatch (L5)"
+msgstr "Autonomous Dispatch (L5)"
+
+#. module: farm_ai_agent
+msgid "Autonomous Dispatch Logs"
+msgstr "Autonomous Dispatch Logs"
+
+#. module: farm_ai_agent
+msgid "Autonomous Mission Orchestrators"
+msgstr "Autonomous Mission Orchestrators"
+
+#. module: farm_ai_agent
+msgid "Auxiliary Attachments List"
+msgstr "Auxiliary Attachments List"
+
+#. module: farm_ai_agent
+msgid "Average Confidence"
+msgstr "Average Confidence"
+
+#. module: farm_ai_agent
+msgid "Bargaining"
+msgstr "Bargaining"
+
+#. module: farm_ai_agent
+msgid "Bid Amount (Credits)"
+msgstr "Bid Amount (Credits)"
+
+#. module: farm_ai_agent
+msgid "Biological"
+msgstr "Biological"
+
+#. module: farm_ai_agent
+msgid "Camera Pitch:"
+msgstr "Camera Pitch:"
+
+#. module: farm_ai_agent
+msgid "Camera Yaw:"
+msgstr "Camera Yaw:"
+
+#. module: farm_ai_agent
+msgid "Cancelled & Refunded"
+msgstr "Cancelled & Refunded"
+
+#. module: farm_ai_agent
+msgid "Captured Time"
+msgstr "Captured Time"
+
+#. module: farm_ai_agent
+msgid "Carbon Credit"
+msgstr "Carbon Credit"
+
+#. module: farm_ai_agent
+msgid "Chemical"
+msgstr "Chemical"
+
+#. module: farm_ai_agent
+msgid "Closed"
+msgstr "Closed"
+
+#. module: farm_ai_agent
+msgid "Companion Attachments"
+msgstr "Companion Attachments"
+
+#. module: farm_ai_agent
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_ai_agent
+msgid "Completed & Cleared"
+msgstr "Completed & Cleared"
+
+#. module: farm_ai_agent
+msgid "Condition Expression (Python)"
+msgstr "Condition Expression (Python)"
+
+#. module: farm_ai_agent
+msgid "Conditions and Actions"
+msgstr "Conditions and Actions"
+
+#. module: farm_ai_agent
+msgid "Confidence Threshold"
+msgstr "Confidence Threshold"
+
+#. module: farm_ai_agent
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#. module: farm_ai_agent
+msgid "Confirmed"
+msgstr "Confirmed"
+
+#. module: farm_ai_agent
+msgid "Context Data (JSON)"
+msgstr "Context Data (JSON)"
+
+#. module: farm_ai_agent
+msgid "Context Description"
+msgstr "Context Description"
+
+#. module: farm_ai_agent
+msgid "Context Name"
+msgstr "Context Name"
+
+#. module: farm_ai_agent
+msgid "Contract Reference"
+msgstr "Contract Reference"
+
+#. module: farm_ai_agent
+msgid "Control Strategy (L5)"
+msgstr "Control Strategy (L5)"
+
+#. module: farm_ai_agent
+msgid "Coordination Configuration (JSON)"
+msgstr "Coordination Configuration (JSON)"
+
+#. module: farm_ai_agent
+msgid "Coordination Layer"
+msgstr "Coordination Layer"
+
+#. module: farm_ai_agent
+msgid "Coordination Layers"
+msgstr "Coordination Layers"
+
+#. module: farm_ai_agent
+msgid "Coordination Name"
+msgstr "Coordination Name"
+
+#. module: farm_ai_agent
+msgid "Create your first AI Agent Re-Act Loop!"
+msgstr "Create your first AI Agent Re-Act Loop!"
+
+#. module: farm_ai_agent
+msgid "Create your first AI Agent Workflow!"
+msgstr "Create your first AI Agent Workflow!"
+
+#. module: farm_ai_agent
+msgid "Create your first Decision Context!"
+msgstr "Create your first Decision Context!"
+
+#. module: farm_ai_agent
+msgid "Create your first Decision Rule!"
+msgstr "Create your first Decision Rule!"
+
+#. module: farm_ai_agent
+msgid "Create your first Decision Workflow!"
+msgstr "Create your first Decision Workflow!"
+
+#. module: farm_ai_agent
+msgid "Critical"
+msgstr "Critical"
+
+#. module: farm_ai_agent
+msgid "Crop Farming"
+msgstr "Crop Farming"
+
+#. module: farm_ai_agent
+msgid "Crop Recommendation"
+msgstr "Crop Recommendation"
+
+#. module: farm_ai_agent
+msgid "Cross-Module Workflow"
+msgstr "Cross-Module Workflow"
+
+#. module: farm_ai_agent
+msgid "Current Iteration"
+msgstr "Current Iteration"
+
+#. module: farm_ai_agent
+msgid "Current PlanAPI Payload"
+msgstr "Current PlanAPI Payload"
+
+#. module: farm_ai_agent
+msgid "Current System PSI"
+msgstr "Current System PSI"
+
+#. module: farm_ai_agent
+msgid "Custom Code"
+msgstr "Custom Code"
+
+#. module: farm_ai_agent
+msgid "Custom Code Step"
+msgstr "Custom Code Step"
+
+#. module: farm_ai_agent
+msgid "Custom Trajectory WKT..."
+msgstr "Custom Trajectory WKT..."
+
+#. module: farm_ai_agent
+msgid "Data Collection"
+msgstr "Data Collection"
+
+#. module: farm_ai_agent
+msgid "Data Collection Step"
+msgstr "Data Collection Step"
+
+#. module: farm_ai_agent
+msgid "Decision Configuration (JSON)"
+msgstr "Decision Configuration (JSON)"
+
+#. module: farm_ai_agent
+msgid "Decision Contexts"
+msgstr "Decision Contexts"
+
+#. module: farm_ai_agent
+msgid "Decision Count"
+msgstr "Decision Count"
+
+#. module: farm_ai_agent
+msgid "Decision Engine"
+msgstr "Keputusan Mesin"
+
+#. module: farm_ai_agent
+msgid "Decision Engines"
+msgstr "Decision Engines"
+
+#. module: farm_ai_agent
+msgid "Decision Logic (Python Code)"
+msgstr "Decision Logic (Python Code)"
+
+#. module: farm_ai_agent
+msgid "Decision Reasoning"
+msgstr "Decision Reasoning"
+
+#. module: farm_ai_agent
+msgid "Decision Result (JSON)"
+msgstr "Decision Result (JSON)"
+
+#. module: farm_ai_agent
+msgid "Decision Rules"
+msgstr "Decision Rules"
+
+#. module: farm_ai_agent
+msgid "Decision Validation Result"
+msgstr "Decision Validation Result"
+
+#. module: farm_ai_agent
+msgid "Decision Workflows"
+msgstr "Decision Workflows"
+
+#. module: farm_ai_agent
+msgid "Decisions"
+msgstr "Decisions"
+
+#. module: farm_ai_agent
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_ai_agent
+msgid "Detailed Description"
+msgstr "Detailed Description"
+
+#. module: farm_ai_agent
+msgid "Details"
+msgstr "Details"
+
+#. module: farm_ai_agent
+msgid "Discovery (Scouting)"
+msgstr "Discovery (Scouting)"
+
+#. module: farm_ai_agent
+msgid "Dispatched"
+msgstr "Dispatched"
+
+#. module: farm_ai_agent
+msgid "Dispute Reason"
+msgstr "Dispute Reason"
+
+#. module: farm_ai_agent
+msgid "Disputed"
+msgstr "Disputed"
+
+#. module: farm_ai_agent
+msgid "Done"
+msgstr "Selesai"
+
+#. module: farm_ai_agent
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_ai_agent
+msgid "ESCROW RELEASE: Sustainability credits settled for task delegation %s. MerkleProof=%s"
+msgstr "ESCROW RELEASE: Sustainability credits settled for task delegation %s. MerkleProof=%s"
+
+#. module: farm_ai_agent
+msgid "ESCROW RESERVE: Sustainability credits held for task delegation %s."
+msgstr "ESCROW RESERVE: Sustainability credits held for task delegation %s."
+
+#. module: farm_ai_agent
+msgid "Enable Workflow"
+msgstr "Enable Workflow"
+
+#. module: farm_ai_agent
+msgid "Engine Name"
+msgstr "Mesin Nama"
+
+#. module: farm_ai_agent
+msgid "Entity Level"
+msgstr "Entity Level"
+
+#. module: farm_ai_agent
+msgid "Environment"
+msgstr "Environment"
+
+#. module: farm_ai_agent
+msgid "Escrow Credits"
+msgstr "Escrow Credits"
+
+#. module: farm_ai_agent
+msgid "Escrow Locked"
+msgstr "Escrow Locked"
+
+#. module: farm_ai_agent
+msgid "Evidence Audit"
+msgstr "Bukti Audit"
+
+#. module: farm_ai_agent
+msgid "Exception Failed"
+msgstr "Exception Failed"
+
+#. module: farm_ai_agent
+msgid "Executable Blueprint (JSON)"
+msgstr "Executable Blueprint (JSON)"
+
+#. module: farm_ai_agent
+msgid "Execute Workflow"
+msgstr "Execute Workflow"
+
+#. module: farm_ai_agent
+msgid "Executed"
+msgstr "Executed"
+
+#. module: farm_ai_agent
+msgid "Executing"
+msgstr "Executing"
+
+#. module: farm_ai_agent
+msgid "Executing active skill directive."
+msgstr "Executing active skill directive."
+
+#. module: farm_ai_agent
+msgid "Execution"
+msgstr "Execution"
+
+#. module: farm_ai_agent
+msgid "Execution Condition (Python Expression)"
+msgstr "Execution Condition (Python Expression)"
+
+#. module: farm_ai_agent
+msgid "Execution Context (JSON)"
+msgstr "Execution Context (JSON)"
+
+#. module: farm_ai_agent
+msgid "Execution Count"
+msgstr "Execution Count"
+
+#. module: farm_ai_agent
+msgid "Execution Steps (Thought -> Action -> Observation)"
+msgstr "Execution Steps (Thought -> Action -> Observation)"
+
+#. module: farm_ai_agent
+msgid "Explain semantically when and how this skill is applied..."
+msgstr "Explain semantically when and how this skill is applied..."
+
+#. module: farm_ai_agent
+msgid "Export SKILL.md"
+msgstr "Export SKILL.md"
+
+#. module: farm_ai_agent
+msgid "FLIGHT AUDIT PASSED"
+msgstr "FLIGHT AUDIT PASSED"
+
+#. module: farm_ai_agent
+msgid "Failed"
+msgstr "Gagal"
+
+#. module: farm_ai_agent
+msgid "Failed to process the uploaded file:\\n%s"
+msgstr "Failed to process the uploaded file:\\n%s"
+
+#. module: farm_ai_agent
+msgid "Fertilization Advice"
+msgstr "Fertilization Advice"
+
+#. module: farm_ai_agent
+msgid "File Name"
+msgstr "File Name"
+
+#. module: farm_ai_agent
+msgid "Final Settled Credits"
+msgstr "Final Settled Credits"
+
+#. module: farm_ai_agent
+msgid "Financial Advice"
+msgstr "Financial Advice"
+
+#. module: farm_ai_agent
+msgid "Financial-Decision Integration"
+msgstr "Financial-Decision Integration"
+
+#. module: farm_ai_agent
+msgid "Finish Loop / Goal Reached"
+msgstr "Finish Loop / Goal Reached"
+
+#. module: farm_ai_agent
+msgid "Force Sync"
+msgstr "Force Sync"
+
+#. module: farm_ai_agent
+msgid "From Date"
+msgstr "From Date"
+
+#. module: farm_ai_agent
+msgid "GXP-DLG-"
+msgstr "GXP-DLG-"
+
+#. module: farm_ai_agent
+msgid "GXP-REQ-"
+msgstr "GXP-REQ-"
+
+#. module: farm_ai_agent
+msgid "Green (Read/Retrieve)"
+msgstr "Green (Read/Retrieve)"
+
+#. module: farm_ai_agent
+msgid "GxP Agent Request Sequence"
+msgstr "GxP Agent Request Sequence"
+
+#. module: farm_ai_agent
+msgid "GxP Contamination Incident Sequence"
+msgstr "GxP Contamination Incident Sequence"
+
+#. module: farm_ai_agent
+msgid "GxP Gate Action Ledger"
+msgstr "GxP Gate Action Ledger"
+
+#. module: farm_ai_agent
+msgid "GxP Red-Tier Physical Cutoff"
+msgstr "GxP Red-Tier Physical Cutoff"
+
+#. module: farm_ai_agent
+msgid "GxP Request Approved. Signature: %s"
+msgstr "GxP Request Approved. Signature: %s"
+
+#. module: farm_ai_agent
+msgid "GxP Request Rejected by operator."
+msgstr "GxP Request Rejected by operator."
+
+#. module: farm_ai_agent
+msgid "GxP Violated / Rolled Back"
+msgstr "GxP Violated / Rolled Back"
+
+#. module: farm_ai_agent
+msgid "GxP request payload successfully executed."
+msgstr "GxP request payload successfully executed."
+
+#. module: farm_ai_agent
+msgid "HTML Report"
+msgstr "HTML Report"
+
+#. module: farm_ai_agent
+msgid "Harvest & Value Clearing"
+msgstr "Harvest & Value Clearing"
+
+#. module: farm_ai_agent
+msgid "Harvest Timing"
+msgstr "Harvest Timing"
+
+#. module: farm_ai_agent
+msgid "Heavy Metal"
+msgstr "Heavy Metal"
+
+#. module: farm_ai_agent
+msgid "High"
+msgstr "High"
+
+#. module: farm_ai_agent
+msgid "Highest Bid"
+msgstr "Highest Bid"
+
+#. module: farm_ai_agent
+msgid "INC-"
+msgstr "INC-"
+
+#. module: farm_ai_agent
+msgid "ISA-88 COMPLIANT"
+msgstr "ISA-88 COMPLIANT"
+
+#. module: farm_ai_agent
+msgid "ISL Configuration"
+msgstr "ISL Configuration"
+
+#. module: farm_ai_agent
+msgid "In Arbitration"
+msgstr "In Arbitration"
+
+#. module: farm_ai_agent
+msgid "In Progress"
+msgstr "In Progress"
+
+#. module: farm_ai_agent
+msgid "Incident Date"
+msgstr "Incident Date"
+
+#. module: farm_ai_agent
+msgid "Incident Reference"
+msgstr "Incident Reference"
+
+#. module: farm_ai_agent
+msgid "Industry Level"
+msgstr "Industry Level"
+
+#. module: farm_ai_agent
+msgid "Input Data (JSON)"
+msgstr "Input Data (JSON)"
+
+#. module: farm_ai_agent
+msgid "Input Feedback & Actuation"
+msgstr "Input Feedback & Actuation"
+
+#. module: farm_ai_agent
+msgid "Insufficient credits on delegator account."
+msgstr "Insufficient credits on delegator account."
+
+#. module: farm_ai_agent
+msgid "Intrusion Breach: LINESTRING Z (5 5 5, 5 5 15)"
+msgstr "Intrusion Breach: LINESTRING Z (5 5 5, 5 5 15)"
+
+#. module: farm_ai_agent
+msgid "Invalid SFC Merkle Proof hash."
+msgstr "Invalid SFC Merkle Proof hash."
+
+#. module: farm_ai_agent
+msgid "Invalid target action format. Expected 'model_name,method_name'."
+msgstr "Invalid target action format. Expected 'model_name,method_name'."
+
+#. module: farm_ai_agent
+msgid "Investigating Evidence"
+msgstr "Investigating Evidence"
+
+#. module: farm_ai_agent
+msgid "Irrigation Optimization"
+msgstr "Irigasi Optimasi"
+
+#. module: farm_ai_agent
+msgid "Is Active"
+msgstr "Is Active"
+
+#. module: farm_ai_agent
+msgid "Is Quarantine Location"
+msgstr "Is Quarantine Location"
+
+#. module: farm_ai_agent
+msgid "Iteration Sequence"
+msgstr "Iteration Sequence"
+
+#. module: farm_ai_agent
+msgid "JSON"
+msgstr "JSON"
+
+#. module: farm_ai_agent
+msgid "JSON Context Payload"
+msgstr "JSON Context Payload"
+
+#. module: farm_ai_agent
+msgid "JSON Payload"
+msgstr "JSON Payload"
+
+#. module: farm_ai_agent
+msgid "LLM-Based Synthesis"
+msgstr "LLM-Based Synthesis"
+
+#. module: farm_ai_agent
+msgid "LLM-Enhanced Coordination"
+msgstr "LLM-Enhanced Coordination"
+
+#. module: farm_ai_agent
+msgid "Last Decision"
+msgstr "Last Decision"
+
+#. module: farm_ai_agent
+msgid "Last Execution"
+msgstr "Last Execution"
+
+#. module: farm_ai_agent
+msgid "Livestock"
+msgstr "Livestock"
+
+#. module: farm_ai_agent
+msgid "Logic"
+msgstr "Logic"
+
+#. module: farm_ai_agent
+msgid "Low"
+msgstr "Low"
+
+#. module: farm_ai_agent
+msgid "Majority Vote"
+msgstr "Majority Vote"
+
+#. module: farm_ai_agent
+msgid "Make Decision"
+msgstr "Make Decision"
+
+#. module: farm_ai_agent
+msgid "Markdown Specification"
+msgstr "Markdown Specification"
+
+#. module: farm_ai_agent
+msgid "Market Prediction"
+msgstr "Pasar Prediksi"
+
+#. module: farm_ai_agent
+msgid "Max Iterations"
+msgstr "Max Iterations"
+
+#. module: farm_ai_agent
+msgid "Medium"
+msgstr "Medium"
+
+#. module: farm_ai_agent
+msgid "Memory Abstract"
+msgstr "Memory Abstract"
+
+#. module: farm_ai_agent
+msgid "Message ID"
+msgstr "Message ID"
+
+#. module: farm_ai_agent
+msgid "Method Name"
+msgstr "Method Name"
+
+#. module: farm_ai_agent
+msgid "Method not found."
+msgstr "Method not found."
+
+#. module: farm_ai_agent
+msgid "Minimum Credit Bid"
+msgstr "Minimum Credit Bid"
+
+#. module: farm_ai_agent
+msgid "Missing signature verification."
+msgstr "Missing signature verification."
+
+#. module: farm_ai_agent
+msgid "Mission Failed"
+msgstr "Misi Gagal"
+
+#. module: farm_ai_agent
+msgid "Mission ID"
+msgstr "Mission ID"
+
+#. module: farm_ai_agent
+msgid "Mission Scouting: Found %d potential community agents."
+msgstr "Mission Scouting: Found %d potential community agents."
+
+#. module: farm_ai_agent
+msgid "Mission Scouting: No nearby agents found in grid %s."
+msgstr "Mission Scouting: No nearby agents found in grid %s."
+
+#. module: farm_ai_agent
+msgid "Mission Triggered: Harvest maturity reached (%s). Starting A2A harvesting coordination."
+msgstr "Mission Triggered: Harvest maturity reached (%s). Starting A2A harvesting coordination."
+
+#. module: farm_ai_agent
+msgid "Mission Triggered: Nutrient gap detected (%s). Starting A2A resource scouting."
+msgstr "Mission Triggered: Nutrient gap detected (%s). Starting A2A resource scouting."
+
+#. module: farm_ai_agent
+msgid "Model Name"
+msgstr "Model Nama"
+
+#. module: farm_ai_agent
+msgid "Model Weights Configuration (JSON)"
+msgstr "Model Weights Configuration (JSON)"
+
+#. module: farm_ai_agent
+msgid "Multi-AI Decision Coordination"
+msgstr "Multi-AI Decision Coordination"
+
+#. module: farm_ai_agent
+msgid "Multi-Company Task Delegation Isolation"
+msgstr "Multi-Company Task Delegation Isolation"
+
+#. module: farm_ai_agent
+msgid "N/A"
+msgstr "N/A"
+
+#. module: farm_ai_agent
+msgid "Negotiation ID"
+msgstr "Negotiation ID"
+
+#. module: farm_ai_agent
+msgid "Negotiation entered Arbitration: %s"
+msgstr "Negotiation entered Arbitration: %s"
+
+#. module: farm_ai_agent
+msgid "Neighborhood Service Exchange"
+msgstr "Neighborhood Service Exchange"
+
+#. module: farm_ai_agent
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_ai_agent
+msgid "No Isolation"
+msgstr "No Isolation"
+
+#. module: farm_ai_agent
+msgid "No decision result to validate."
+msgstr "No decision result to validate."
+
+#. module: farm_ai_agent
+msgid "No recent GxP requests found."
+msgstr "No recent GxP requests found."
+
+#. module: farm_ai_agent
+msgid "Notification"
+msgstr "Notification"
+
+#. module: farm_ai_agent
+msgid "Notification Step"
+msgstr "Notification Step"
+
+#. module: farm_ai_agent
+msgid "ONLINE"
+msgstr "ONLINE"
+
+#. module: farm_ai_agent
+msgid "Observation Result"
+msgstr "Observation Result"
+
+#. module: farm_ai_agent
+msgid "Odoo Tool Execution"
+msgstr "Odoo Tool Execution"
+
+#. module: farm_ai_agent
+msgid "Only approved requests can be executed."
+msgstr "Only approved requests can be executed."
+
+#. module: farm_ai_agent
+msgid "Only pending requests can be approved."
+msgstr "Only pending requests can be approved."
+
+#. module: farm_ai_agent
+msgid "Only pending requests can be rejected."
+msgstr "Only pending requests can be rejected."
+
+#. module: farm_ai_agent
+msgid "Open for Bidding"
+msgstr "Open for Bidding"
+
+#. module: farm_ai_agent
+msgid "Orchard/Horticulture"
+msgstr "Orchard/Horticulture"
+
+#. module: farm_ai_agent
+msgid "Orchestrator Name"
+msgstr "Orchestrator Name"
+
+#. module: farm_ai_agent
+msgid "Orchestrator Name..."
+msgstr "Orchestrator Name..."
+
+#. module: farm_ai_agent
+msgid "Overall Confidence Score"
+msgstr "Overall Confidence Score"
+
+#. module: farm_ai_agent
+msgid "Pause Animation"
+msgstr "Pause Animation"
+
+#. module: farm_ai_agent
+msgid "Paused"
+msgstr "Paused"
+
+#. module: farm_ai_agent
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_ai_agent
+msgid "Pending Review"
+msgstr "Pending Review"
+
+#. module: farm_ai_agent
+msgid "Performance"
+msgstr "Performance"
+
+#. module: farm_ai_agent
+msgid "Performance Metrics (JSON)"
+msgstr "Performance Metrics (JSON)"
+
+#. module: farm_ai_agent
+msgid "Pest/Disease Conditions (JSON)"
+msgstr "Pest/Disease Conditions (JSON)"
+
+#. module: farm_ai_agent
+msgid "Pest/Disease Management"
+msgstr "Pest/Disease Management"
+
+#. module: farm_ai_agent
+msgid "Physical Intervention"
+msgstr "Physical Intervention"
+
+#. module: farm_ai_agent
+msgid "Physical Twin Index"
+msgstr "Physical Twin Index"
+
+#. module: farm_ai_agent
+msgid "PlanAPI Payload"
+msgstr "PlanAPI Payload"
+
+#. module: farm_ai_agent
+msgid "PostGIS UAV Flight Gating"
+msgstr "PostGIS UAV Flight Gating"
+
+#. module: farm_ai_agent
+msgid "Priority"
+msgstr "Priority"
+
+#. module: farm_ai_agent
+msgid "Processed"
+msgstr "Processed"
+
+#. module: farm_ai_agent
+msgid "Processing"
+msgstr "Processing"
+
+#. module: farm_ai_agent
+msgid "Proposed"
+msgstr "Proposed"
+
+#. module: farm_ai_agent
+msgid "Proposed Credits"
+msgstr "Proposed Credits"
+
+#. module: farm_ai_agent
+msgid "Quality Assessment"
+msgstr "Mutu Penilaian"
+
+#. module: farm_ai_agent
+msgid "Quarantined"
+msgstr "Quarantined"
+
+#. module: farm_ai_agent
+msgid "Raw Context"
+msgstr "Raw Context"
+
+#. module: farm_ai_agent
+msgid "Received"
+msgstr "Received"
+
+#. module: farm_ai_agent
+msgid "Receiver Agent"
+msgstr "Receiver Agent"
+
+#. module: farm_ai_agent
+msgid "Red (Physical/Critical Control)"
+msgstr "Red (Physical/Critical Control)"
+
+#. module: farm_ai_agent
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: farm_ai_agent
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_ai_agent
+msgid "Requires GxP Gating / CCP"
+msgstr "Requires GxP Gating / CCP"
+
+#. module: farm_ai_agent
+msgid "Requires Manual Approval"
+msgstr "Requires Manual Approval"
+
+#. module: farm_ai_agent
+msgid "Resolved (Settled)"
+msgstr "Resolved (Settled)"
+
+#. module: farm_ai_agent
+msgid "Resolved (Slashed)"
+msgstr "Resolved (Slashed)"
+
+#. module: farm_ai_agent
+msgid "Resource Allocated"
+msgstr "Resource Allocated"
+
+#. module: farm_ai_agent
+msgid "Resource Optimization"
+msgstr "Sumber Daya Optimasi"
+
+#. module: farm_ai_agent
+msgid "Resource Unavailable"
+msgstr "Resource Unavailable"
+
+#. module: farm_ai_agent
+msgid "Results"
+msgstr "Results"
+
+#. module: farm_ai_agent
+msgid "Revision"
+msgstr "Revision"
+
+#. module: farm_ai_agent
+msgid "Risk Assessment"
+msgstr "Risiko Penilaian"
+
+#. module: farm_ai_agent
+msgid "Rule Description"
+msgstr "Rule Description"
+
+#. module: farm_ai_agent
+msgid "Rule Name"
+msgstr "Rule Name"
+
+#. module: farm_ai_agent
+msgid "Rule-Based Synthesis"
+msgstr "Rule-Based Synthesis"
+
+#. module: farm_ai_agent
+msgid "Run Active Skill"
+msgstr "Run Active Skill"
+
+#. module: farm_ai_agent
+msgid "Run Autonomous Scan (Manual)"
+msgstr "Run Autonomous Scan (Manual)"
+
+#. module: farm_ai_agent
+msgid "Run PostGIS Spatial Audit"
+msgstr "Run PostGIS Spatial Audit"
+
+#. module: farm_ai_agent
+msgid "Running"
+msgstr "Berjalan"
+
+#. module: farm_ai_agent
+msgid "SFC Merkle Verification Proof"
+msgstr "SFC Merkle Verification Proof"
+
+#. module: farm_ai_agent
+msgid "SFC-AGRI 3D DIGITAL TWIN COCKPIT"
+msgstr "SFC-AGRI 3D DIGITAL TWIN COCKPIT"
+
+#. module: farm_ai_agent
+msgid "Safe Corridor: LINESTRING Z (5 5 2, 5 5 8)"
+msgstr "Safe Corridor: LINESTRING Z (5 5 2, 5 5 8)"
+
+#. module: farm_ai_agent
+msgid "Season"
+msgstr "Musim"
+
+#. module: farm_ai_agent
+msgid "Selected Node"
+msgstr "Selected Node"
+
+#. module: farm_ai_agent
+msgid "Semantic Description"
+msgstr "Semantic Description"
+
+#. module: farm_ai_agent
+msgid "Sender Agent"
+msgstr "Sender Agent"
+
+#. module: farm_ai_agent
+msgid "Sent"
+msgstr "Sent"
+
+#. module: farm_ai_agent
+msgid "Sequence"
+msgstr "Sequence"
+
+#. module: farm_ai_agent
+msgid "Service Request (e.g. Harvest)"
+msgstr "Service Request (e.g. Harvest)"
+
+#. module: farm_ai_agent
+msgid "Skill Blueprint"
+msgstr "Skill Blueprint"
+
+#. module: farm_ai_agent
+msgid "Skill Name"
+msgstr "Skill Name"
+
+#. module: farm_ai_agent
+msgid "Skill Name e.g. Precision Temperature Correction"
+msgstr "Skill Name e.g. Precision Temperature Correction"
+
+#. module: farm_ai_agent
+msgid "Skill Payload (JSON)"
+msgstr "Skill Payload (JSON)"
+
+#. module: farm_ai_agent
+msgid "Soil Conditions (JSON)"
+msgstr "Soil Conditions (JSON)"
+
+#. module: farm_ai_agent
+msgid "Source ID"
+msgstr "Source ID"
+
+#. module: farm_ai_agent
+msgid "Source Model"
+msgstr "Source Model"
+
+#. module: farm_ai_agent
+msgid "Start Flight Sim"
+msgstr "Start Flight Sim"
+
+#. module: farm_ai_agent
+msgid "Step Configuration (JSON)"
+msgstr "Step Configuration (JSON)"
+
+#. module: farm_ai_agent
+msgid "Step Loop"
+msgstr "Step Loop"
+
+#. module: farm_ai_agent
+msgid "Step Name"
+msgstr "Step Name"
+
+#. module: farm_ai_agent
+msgid "Steps"
+msgstr "Steps"
+
+#. module: farm_ai_agent
+msgid "Structured Data"
+msgstr "Structured Data"
+
+#. module: farm_ai_agent
+msgid "Success"
+msgstr "Berhasil"
+
+#. module: farm_ai_agent
+msgid "Success Rate"
+msgstr "Success Rate"
+
+#. module: farm_ai_agent
+msgid "Target Goal"
+msgstr "Target Goal"
+
+#. module: farm_ai_agent
+msgid "Target Resource (model:id)"
+msgstr "Target Resource (model:id)"
+
+#. module: farm_ai_agent
+msgid "Target record not found."
+msgstr "Target record not found."
+
+#. module: farm_ai_agent
+msgid "Target record with ID %s not found."
+msgstr "Target record with ID %s not found."
+
+#. module: farm_ai_agent
+msgid "Thought Processes"
+msgstr "Thought Processes"
+
+#. module: farm_ai_agent
+msgid "To Date"
+msgstr "To Date"
+
+#. module: farm_ai_agent
+msgid "Tool Name"
+msgstr "Tool Name"
+
+#. module: farm_ai_agent
+msgid "Trade Proposal"
+msgstr "Trade Proposal"
+
+#. module: farm_ai_agent
+msgid "Trajectory is fully clear"
+msgstr "Trajectory is fully clear"
+
+#. module: farm_ai_agent
+msgid "Trigger Conditions (JSON)"
+msgstr "Trigger Conditions (JSON)"
+
+#. module: farm_ai_agent
+msgid "Trigger Emergency Shutoff (120 PSI)"
+msgstr "Trigger Emergency Shutoff (120 PSI)"
+
+#. module: farm_ai_agent
+msgid "UAV Flight LineString Z:"
+msgstr "UAV Flight LineString Z:"
+
+#. module: farm_ai_agent
+msgid "UAV path intersects restricted airspace"
+msgstr "UAV path intersects restricted airspace"
+
+#. module: farm_ai_agent
+msgid "Unknown coordination type: %s"
+msgstr "Unknown coordination type: %s"
+
+#. module: farm_ai_agent
+msgid "Upload Error"
+msgstr "Upload Error"
+
+#. module: farm_ai_agent
+msgid "Upload Skill / Attachment"
+msgstr "Upload Skill / Attachment"
+
+#. module: farm_ai_agent
+msgid "Upload Skill Files"
+msgstr "Upload Skill Files"
+
+#. module: farm_ai_agent
+msgid "Upload multiple files (including SKILL.md) at once"
+msgstr "Upload multiple files (including SKILL.md) at once"
+
+#. module: farm_ai_agent
+msgid "User Level"
+msgstr "User Level"
+
+#. module: farm_ai_agent
+msgid "Uses ISL Data"
+msgstr "Uses ISL Data"
+
+#. module: farm_ai_agent
+msgid "Validate Decision"
+msgstr "Validate Decision"
+
+#. module: farm_ai_agent
+msgid "Validation"
+msgstr "Validation"
+
+#. module: farm_ai_agent
+msgid "Validation Step"
+msgstr "Validation Step"
+
+#. module: farm_ai_agent
+msgid "Value Cleared"
+msgstr "Value Cleared"
+
+#. module: farm_ai_agent
+msgid "Value Clearing"
+msgstr "Value Clearing"
+
+#. module: farm_ai_agent
+msgid "Value Clearing Request"
+msgstr "Value Clearing Request"
+
+#. module: farm_ai_agent
+msgid "Vision-Decision Integration"
+msgstr "Vision-Decision Integration"
+
+#. module: farm_ai_agent
+msgid "Voided"
+msgstr "Voided"
+
+#. module: farm_ai_agent
+msgid "Water Credit"
+msgstr "Water Credit"
+
+#. module: farm_ai_agent
+msgid "Water Valves"
+msgstr "Water Valves"
+
+#. module: farm_ai_agent
+msgid "Weather Conditions (JSON)"
+msgstr "Weather Conditions (JSON)"
+
+#. module: farm_ai_agent
+msgid "WebGL Real-Time Space-Time Control Deck"
+msgstr "WebGL Real-Time Space-Time Control Deck"
+
+#. module: farm_ai_agent
+msgid "Weighted Average"
+msgstr "Weighted Average"
+
+#. module: farm_ai_agent
+msgid "Winning Agent"
+msgstr "Winning Agent"
+
+#. module: farm_ai_agent
+msgid "Workflow"
+msgstr "Workflow"
+
+#. module: farm_ai_agent
+msgid "Workflow Definition (JSON)"
+msgstr "Workflow Definition (JSON)"
+
+#. module: farm_ai_agent
+msgid "Workflow Description"
+msgstr "Workflow Description"
+
+#. module: farm_ai_agent
+msgid "Workflow Name"
+msgstr "Workflow Name"
+
+#. module: farm_ai_agent
+msgid "Workflows"
+msgstr "Workflows"
+
+#. module: farm_ai_agent
+msgid "Yellow (Low-Risk Config)"
+msgstr "Yellow (Low-Risk Config)"
+
+#. module: farm_ai_agent
+msgid "Yellow-Tier GxP Tool Auto-Executed by agent '%s'. Action: %s. Payload: %s"
+msgstr "Yellow-Tier GxP Tool Auto-Executed by agent '%s'. Action: %s. Payload: %s"
+
+#. module: farm_ai_agent
+msgid "action_code"
+msgstr "action_code"
+
+#. module: farm_ai_agent
+msgid "action_execute_active_skill"
+msgstr "action_execute_active_skill"
+
+#. module: farm_ai_agent
+msgid "action_execute_iteration"
+msgstr "action_execute_iteration"
+
+#. module: farm_ai_agent
+msgid "action_export_agent_skill"
+msgstr "action_export_agent_skill"
+
+#. module: farm_ai_agent
+msgid "action_farm_digital_twin_3d"
+msgstr "action_farm_digital_twin_3d"
+
+#. module: farm_ai_agent
+msgid "action_make_decision"
+msgstr "action_make_decision"
+
+#. module: farm_ai_agent
+msgid "action_run_autonomous_scan"
+msgstr "action_run_autonomous_scan"
+
+#. module: farm_ai_agent
+msgid "action_type"
+msgstr "action_type"
+
+#. module: farm_ai_agent
+msgid "action_validate_decision"
+msgstr "action_validate_decision"
+
+#. module: farm_ai_agent
+msgid "active"
+msgstr "active"
+
+#. module: farm_ai_agent
+msgid "active_skill_json"
+msgstr "active_skill_json"
+
+#. module: farm_ai_agent
+msgid "activity_ids"
+msgstr "activity_ids"
+
+#. module: farm_ai_agent
+msgid "ai.autonomous.mission.log"
+msgstr "ai.autonomous.mission.log"
+
+#. module: farm_ai_agent
+msgid "ai.autonomous.orchestrator"
+msgstr "ai.autonomous.orchestrator"
+
+#. module: farm_ai_agent
+msgid "ai.autonomous.orchestrator.form"
+msgstr "ai.autonomous.orchestrator.form"
+
+#. module: farm_ai_agent
+msgid "ai.autonomous.orchestrator.list"
+msgstr "ai.autonomous.orchestrator.list"
+
+#. module: farm_ai_agent
+msgid "ai_agent_id"
+msgstr "ai_agent_id"
+
+#. module: farm_ai_agent
+msgid "ai_decision_ids"
+msgstr "ai_decision_ids"
+
+#. module: farm_ai_agent
+msgid "ai_financial_ids"
+msgstr "ai_financial_ids"
+
+#. module: farm_ai_agent
+msgid "ai_financial_service_id"
+msgstr "ai_financial_service_id"
+
+#. module: farm_ai_agent
+msgid "ai_vision_ids"
+msgstr "ai_vision_ids"
+
+#. module: farm_ai_agent
+msgid "ai_vision_service_id"
+msgstr "ai_vision_service_id"
+
+#. module: farm_ai_agent
+msgid "applicable_to_all_industries"
+msgstr "applicable_to_all_industries"
+
+#. module: farm_ai_agent
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_ai_agent
+msgid "attachment_ids"
+msgstr "attachment_ids"
+
+#. module: farm_ai_agent
+msgid "auto_dispatch_threshold"
+msgstr "auto_dispatch_threshold"
+
+#. module: farm_ai_agent
+msgid "average_confidence"
+msgstr "average_confidence"
+
+#. module: farm_ai_agent
+msgid "button_box"
+msgstr "button_box"
+
+#. module: farm_ai_agent
+msgid "code"
+msgstr "code"
+
+#. module: farm_ai_agent
+msgid "company_id"
+msgstr "company_id"
+
+#. module: farm_ai_agent
+msgid "condition"
+msgstr "condition"
+
+#. module: farm_ai_agent
+msgid "condition_expression"
+msgstr "condition_expression"
+
+#. module: farm_ai_agent
+msgid "confidence_score"
+msgstr "confidence_score"
+
+#. module: farm_ai_agent
+msgid "confidence_threshold"
+msgstr "confidence_threshold"
+
+#. module: farm_ai_agent
+msgid "context_data"
+msgstr "context_data"
+
+#. module: farm_ai_agent
+msgid "coordination_config"
+msgstr "coordination_config"
+
+#. module: farm_ai_agent
+msgid "coordination_layer_id"
+msgstr "coordination_layer_id"
+
+#. module: farm_ai_agent
+msgid "coordination_type"
+msgstr "coordination_type"
+
+#. module: farm_ai_agent
+msgid "create_date"
+msgstr "create_date"
+
+#. module: farm_ai_agent
+msgid "crop_type"
+msgstr "crop_type"
+
+#. module: farm_ai_agent
+msgid "current"
+msgstr "current"
+
+#. module: farm_ai_agent
+msgid "current_iteration"
+msgstr "current_iteration"
+
+#. module: farm_ai_agent
+msgid "data_isolation_level"
+msgstr "data_isolation_level"
+
+#. module: farm_ai_agent
+msgid "date_from"
+msgstr "date_from"
+
+#. module: farm_ai_agent
+msgid "date_to"
+msgstr "date_to"
+
+#. module: farm_ai_agent
+msgid "decision_config"
+msgstr "decision_config"
+
+#. module: farm_ai_agent
+msgid "decision_count"
+msgstr "decision_count"
+
+#. module: farm_ai_agent
+msgid "decision_engine_id"
+msgstr "decision_engine_id"
+
+#. module: farm_ai_agent
+msgid "decision_logic"
+msgstr "decision_logic"
+
+#. module: farm_ai_agent
+msgid "decision_reasoning"
+msgstr "decision_reasoning"
+
+#. module: farm_ai_agent
+msgid "decision_result"
+msgstr "decision_result"
+
+#. module: farm_ai_agent
+msgid "decision_service_ids"
+msgstr "decision_service_ids"
+
+#. module: farm_ai_agent
+msgid "decision_type"
+msgstr "decision_type"
+
+#. module: farm_ai_agent
+msgid "decision_weights"
+msgstr "decision_weights"
+
+#. module: farm_ai_agent
+msgid "description"
+msgstr "description"
+
+#. module: farm_ai_agent
+msgid "detail"
+msgstr "detail"
+
+#. module: farm_ai_agent
+msgid "domain_force"
+msgstr "domain_force"
+
+#. module: farm_ai_agent
+msgid "e.g. LINESTRING Z (0 0 5, 10 10 25)"
+msgstr "e.g. LINESTRING Z (0 0 5, 10 10 25)"
+
+#. module: farm_ai_agent
+msgid "execute_workflow"
+msgstr "execute_workflow"
+
+#. module: farm_ai_agent
+msgid "execution_context"
+msgstr "execution_context"
+
+#. module: farm_ai_agent
+msgid "execution_count"
+msgstr "execution_count"
+
+#. module: farm_ai_agent
+msgid "farm_ai_agent.DigitalTwinCockpit"
+msgstr "farm_ai_agent.DigitalTwinCockpit"
+
+#. module: farm_ai_agent
+msgid "file_size"
+msgstr "file_size"
+
+#. module: farm_ai_agent
+msgid "financial_service_ids"
+msgstr "financial_service_ids"
+
+#. module: farm_ai_agent
+msgid "global"
+msgstr "global"
+
+#. module: farm_ai_agent
+msgid "goal"
+msgstr "goal"
+
+#. module: farm_ai_agent
+msgid "help"
+msgstr "help"
+
+#. module: farm_ai_agent
+msgid "industry_type"
+msgstr "industry_type"
+
+#. module: farm_ai_agent
+msgid "input_data"
+msgstr "input_data"
+
+#. module: farm_ai_agent
+msgid "interval_number"
+msgstr "interval_number"
+
+#. module: farm_ai_agent
+msgid "interval_type"
+msgstr "interval_type"
+
+#. module: farm_ai_agent
+msgid "is_active"
+msgstr "is_active"
+
+#. module: farm_ai_agent
+msgid "iteration"
+msgstr "iteration"
+
+#. module: farm_ai_agent
+msgid "last_decision"
+msgstr "last_decision"
+
+#. module: farm_ai_agent
+msgid "last_execution"
+msgstr "last_execution"
+
+#. module: farm_ai_agent
+msgid "line_ids"
+msgstr "line_ids"
+
+#. module: farm_ai_agent
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_ai_agent
+msgid "location_id"
+msgstr "location_id"
+
+#. module: farm_ai_agent
+msgid "log_ids"
+msgstr "log_ids"
+
+#. module: farm_ai_agent
+msgid "logs"
+msgstr "logs"
+
+#. module: farm_ai_agent
+msgid "max_iterations"
+msgstr "max_iterations"
+
+#. module: farm_ai_agent
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_ai_agent
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_ai_agent
+msgid "minutes"
+msgstr "minutes"
+
+#. module: farm_ai_agent
+msgid "model"
+msgstr "model"
+
+#. module: farm_ai_agent
+msgid "model.run_incremental_sync_pipeline()"
+msgstr "model.run_incremental_sync_pipeline()"
+
+#. module: farm_ai_agent
+msgid "name"
+msgstr "name"
+
+#. module: farm_ai_agent
+msgid "observation"
+msgstr "observation"
+
+#. module: farm_ai_agent
+msgid "output_format"
+msgstr "output_format"
+
+#. module: farm_ai_agent
+msgid "padding"
+msgstr "padding"
+
+#. module: farm_ai_agent
+msgid "performance_metrics"
+msgstr "performance_metrics"
+
+#. module: farm_ai_agent
+msgid "pest_conditions"
+msgstr "pest_conditions"
+
+#. module: farm_ai_agent
+msgid "prefix"
+msgstr "prefix"
+
+#. module: farm_ai_agent
+msgid "priority"
+msgstr "priority"
+
+#. module: farm_ai_agent
+msgid "product.template"
+msgstr "product.template"
+
+#. module: farm_ai_agent
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_ai_agent
+msgid "result_aggregation_method"
+msgstr "result_aggregation_method"
+
+#. module: farm_ai_agent
+msgid "season"
+msgstr "season"
+
+#. module: farm_ai_agent
+msgid "sequence"
+msgstr "sequence"
+
+#. module: farm_ai_agent
+msgid "skill_markdown"
+msgstr "skill_markdown"
+
+#. module: farm_ai_agent
+msgid "skill_payload"
+msgstr "skill_payload"
+
+#. module: farm_ai_agent
+msgid "soil_conditions"
+msgstr "soil_conditions"
+
+#. module: farm_ai_agent
+msgid "state"
+msgstr "state"
+
+#. module: farm_ai_agent
+msgid "status"
+msgstr "status"
+
+#. module: farm_ai_agent
+msgid "step_config"
+msgstr "step_config"
+
+#. module: farm_ai_agent
+msgid "step_ids"
+msgstr "step_ids"
+
+#. module: farm_ai_agent
+msgid "step_type"
+msgstr "step_type"
+
+#. module: farm_ai_agent
+msgid "success_rate"
+msgstr "success_rate"
+
+#. module: farm_ai_agent
+msgid "tag"
+msgstr "tag"
+
+#. module: farm_ai_agent
+msgid "target"
+msgstr "target"
+
+#. module: farm_ai_agent
+msgid "thought"
+msgstr "thought"
+
+#. module: farm_ai_agent
+msgid "tool_id"
+msgstr "tool_id"
+
+#. module: farm_ai_agent
+msgid "tree,form"
+msgstr "tree,form"
+
+#. module: farm_ai_agent
+msgid "trigger_conditions"
+msgstr "trigger_conditions"
+
+#. module: farm_ai_agent
+msgid "twin_id"
+msgstr "twin_id"
+
+#. module: farm_ai_agent
+msgid "type"
+msgstr "type"
+
+#. module: farm_ai_agent
+msgid "user_id"
+msgstr "user_id"
+
+#. module: farm_ai_agent
+msgid "uses_isl_data"
+msgstr "uses_isl_data"
+
+#. module: farm_ai_agent
+msgid "view_mode"
+msgstr "view_mode"
+
+#. module: farm_ai_agent
+msgid "vision_service_ids"
+msgstr "vision_service_ids"
+
+#. module: farm_ai_agent
+msgid "weather_conditions"
+msgstr "weather_conditions"
+
+#. module: farm_ai_agent
+msgid "workflow_definition"
+msgstr "workflow_definition"
+
+#. module: farm_ai_agent
+msgid "workflow_enabled"
+msgstr "workflow_enabled"
+
+#. module: farm_ai_agent
+msgid "workflow_id"
+msgstr "workflow_id"

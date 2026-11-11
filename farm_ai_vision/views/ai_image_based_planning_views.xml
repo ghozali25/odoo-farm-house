@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="view_ai_image_based_planning_tree" model="ir.ui.view">
+        <field name="name">agri.ai.image.based.planning.tree</field>
+        <field name="model">agri.ai.image.based.planning</field>
+        <field name="arch" type="xml">
+            <list string="AI Image-Based Planning">
+                <field name="name" />
+                <field name="land_location_id" />
+                <field name="crop_type" />
+                <field name="soil_condition" />
+                <field name="planting_season" />
+                <field name="ai_confidence_score" />
+                <field name="analysis_date" />
+                <field name="status" />
+            </list>
+        </field>
+    </record>
+
+    
+    <record id="view_ai_image_based_planning_form" model="ir.ui.view">
+        <field name="name">agri.ai.image.based.planning.form</field>
+        <field name="model">agri.ai.image.based.planning</field>
+        <field name="arch" type="xml">
+            <form string="AI Image-Based Planning">
+                <header>
+                    <button name="action_process_image" type="object" string="Process Image" class="oe_highlight" />
+                    <field name="status" widget="statusbar" />
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Image-Based Planting Plan" />
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="land_location_id" />
+                            <field name="crop_type" />
+                            <field name="planting_season" />
+                        </group>
+                        <group>
+                            <field name="soil_condition" />
+                            <field name="ai_confidence_score" />
+                            <field name="analysis_date" />
+                        </group>
+                    </group>
+                    <group>
+                        <field name="planting_density" />
+                        <field name="spacing_recommendation" />
+                    </group>
+                    <notebook>
+                        <page string="Image">
+                            <group>
+                                <field name="image" filename="image_filename" />
+                            </group>
+                        </page>
+                        <page string="Planning Recommendations">
+                            <group>
+                                <field name="field_preparation_needed" />
+                                <field name="special_considerations" />
+                            </group>
+                        </page>
+                        <page string="Results &amp; Parameters">
+                            <group>
+                                <field name="input_parameters" widget="ace" options="{'mode': 'javascript'}" />
+                                <field name="output_data" widget="ace" options="{'mode': 'javascript'}" />
+                                <field name="analysis_result" />
+                            </group>
+                        </page>
+                        <page string="ISL Configuration">
+                            <group>
+                                <field name="industry_id" />
+                                <field name="uses_isl_data" />
+                                <field name="data_isolation_level" />
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" />
+                    <field name="activity_ids" />
+                    <field name="message_ids" />
+                </div>
+            </form>
+        </field>
+    </record>
+
+    
+    <record id="action_ai_image_based_planning" model="ir.actions.act_window">
+        <field name="name">Image-Based Planning</field>
+        <field name="res_model">agri.ai.image.based.planning</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add your first image-based planning!
+            </p>
+            <p>
+                AI-powered planting recommendations based on field images. Upload images
+                of your field to get crop suggestions, soil condition analysis, and planting plans.
+            </p>
+        </field>
+    </record>
+</data>
+</odoo>

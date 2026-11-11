@@ -1,0 +1,112 @@
+# -*- coding: utf-8 -*-
+from odoo import models, fields, api, _
+from odoo.exceptions import UserError
+import logging
+
+_logger = logging.getLogger(__name__)
+
+class FarmLotHive(models.Model):
+    """
+    [ISL Layer] Digital Twin of a Bee Hive/Colony. [De-industrialized]
+    Proxies stock.lot to track biological population and queen lineage.
+    """
+    _name = 'farm.lot.hive'
+    _description = 'Bee Hive Asset'
+    _inherits = {'stock.lot': 'lot_id'}
+    _inherit = [
+        'agri.biological.inventory.mixin',
+        'agri.geospatial.mixin',
+        'agri.traceability.mixin'
+    ]
+
+    lot_id = fields.Many2one('stock.lot', string='Base Lot', required=True, ondelete='cascade')
+
+    # Queen Status [US-110-01]
+    queen_status = fields.Selection([
+        ('good', 'Good'),
+        ('queenless', 'Queenless'),
+        ('new_queen', 'New Queen'),
+        ('supersedure', 'Supersedure')
+    ], string="Queen Status", default='good')
+    
+    current_location = fields.Char("Current Location")
+    migration_schedule = fields.Char("Migration Schedule")
+    last_harvest_yield = fields.Float("Last Harvest Yield")
+    honey_production_rate = fields.Float("Honey Production Rate")
+    honey_store_level = fields.Float("Honey Store Level")
+    hive_location = fields.Char("Location")
+    colony_population = fields.Integer("Population")
+    bee_species = fields.Char("Species")
+    bee_breed = fields.Char("Breed")
+    queen_age_months = fields.Integer("Queen Age (Months)")
+    colony_strength = fields.Selection([
+        ('1', 'Weak'), ('2', 'Moderate'), ('3', 'Strong'), ('4', 'Very Strong')
+    ], string="Colony Strength", default='2')
+
+class FarmHoneyTask(models.Model):
+    """
+    [ISL Layer] Honey Flow / Collection Task. [De-industrialized]
+    Proxies mrp.production to manage the foraging and harvesting cycle.
+    """
+    _name = 'farm.honey.task'
+    _description = 'Honey Flow Task'
+    _inherits = {'mrp.production': 'intervention_id'}
+    _inherit = ['agri.intervention.mixin', 'agri.quality.gate.mixin']
+
+    intervention_id = fields.Many2one('mrp.production', string='Base Intervention', required=True, ondelete='cascade')
+
+    # Foraging Context [US-110-02]
+    target_nectar_source = fields.Char("Target Nectar Plant")
+    foraging_radius_km = fields.Float("Effective Radius (km)", default=3.0)
+    
+    honey_moisture_target = fields.Float("Target Moisture (%)", default=18.0)
+
+    def action_confirm(self):
+        """ [Level 2 DNA] Check hive health before deployment. """
+        self.validate_quality_gate()
+        return super(FarmHoneyTask, self).action_confirm()
+
+class FarmHiveInspection(models.Model):
+    """
+    [ISL Layer] Hive Inspection Task. [De-industrialized]
+    Proxies project.task for regular health and swarm checks.
+    """
+    _name = 'farm.hive.inspection'
+    _description = 'Hive Inspection'
+    _inherits = {'project.task': 'task_id'}
+    
+    task_id = fields.Many2one('project.task', required=True, ondelete='cascade')
+    hive_id = fields.Many2one('farm.lot.hive', string="Hive to Inspect")
+    current_location = fields.Char(related="hive_id.current_location", readonly=False)
+    migration_schedule = fields.Char(related="hive_id.migration_schedule", readonly=False)
+    last_harvest_yield = fields.Float(related="hive_id.last_harvest_yield", readonly=False)
+    honey_production_rate = fields.Float(related="hive_id.honey_production_rate", readonly=False)
+    honey_store_level = fields.Float(related="hive_id.honey_store_level", readonly=False)
+    hive_location = fields.Char(related="hive_id.hive_location", readonly=False)
+    colony_strength = fields.Selection(related="hive_id.colony_strength", readonly=False)
+    colony_population = fields.Integer(related="hive_id.colony_population", readonly=False)
+    queen_status = fields.Selection(related="hive_id.queen_status", readonly=False)
+    queen_age_months = fields.Integer(related="hive_id.queen_age_months", readonly=False)
+    bee_species = fields.Char(related="hive_id.bee_species", readonly=False)
+    bee_breed = fields.Char(related="hive_id.bee_breed", readonly=False)
+    nectar_sources = fields.Char("Nectar Sources")
+    flowering_plants = fields.Char("Flowering Plants")
+    nectar_availability = fields.Selection([('high', 'High'), ('medium', 'Medium'), ('low', 'Low')], "Nectar Availability", default='medium')
+    honey_production_stage = fields.Selection([('nectar', 'Nectar Flow'), ('capping', 'Capping'), ('ready', 'Ready for Harvest')], "Production Stage", default='nectar')
+    expected_yield_volume = fields.Float("Expected Yield")
+    last_harvest_date = fields.Date("Last Harvest")
+    weather_condition = fields.Char("Weather Condition")
+    temperature = fields.Float("Temperature")
+    humidity = fields.Float("Humidity")
+    pest_disease_status = fields.Char("Pest/Disease Status")
+    treatment_applied = fields.Char("Treatment Applied")
+    treatment_date = fields.Date("Treatment Date")
+
+    
+    is_swarm_prevented = fields.Boolean("Swarm Control Done")
+    disease_detected = fields.Boolean("Diseases Found", default=False)
+
+    def action_done(self):
+        """ Sync inspection results back to Hive Asset. """
+        self.ensure_one()
+        return self.task_id.action_fsm_validate()

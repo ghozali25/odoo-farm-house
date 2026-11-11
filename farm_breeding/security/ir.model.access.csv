@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_nursery_batch_user,access_farm_nursery_batch_user,model_farm_nursery_batch,base.group_user,1,1,1,1
+access_farm_breeding_order_user,access_farm_breeding_order_user,model_farm_breeding_order,base.group_user,1,1,1,1
+access_farm_trait_value_user,access_farm_trait_value_user,model_farm_trait_value,base.group_user,1,1,1,1
+access_farm_trait_comparison_wizard_user,access_farm_trait_comparison_wizard_user,model_farm_trait_comparison_wizard,base.group_user,1,1,1,1
+access_farm_trait_comparison_line_user,access_farm_trait_comparison_line_user,model_farm_trait_comparison_line,base.group_user,1,1,1,1

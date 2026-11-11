@@ -1,0 +1,221 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_breeding
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 21:00+0000\n"
+"PO-Revision-Date: 2026-11-09 21:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (Indonesia)\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_breeding
+msgid "Actual Germination (%)"
+msgstr "Daya Kecambah Aktual (%)"
+
+#. module: farm_breeding
+msgid "Analytics"
+msgstr "Analitik"
+
+#. module: farm_breeding
+msgid "Average Trait Score"
+msgstr "Skor Sifat Rata-rata"
+
+#. module: farm_breeding
+msgid "Base Lot"
+msgstr "Lot Dasar"
+
+#. module: farm_breeding
+msgid "Base Order"
+msgstr "Pesanan Dasar"
+
+#. module: farm_breeding
+msgid "Breeding"
+msgstr "Pemuliaan"
+
+#. module: farm_breeding
+msgid "Breeding & Traits"
+msgstr "Pemuliaan & Sifat"
+
+#. module: farm_breeding
+msgid "Breeding Nursery Batch"
+msgstr "Batch Pembibitan Pemuliaan"
+
+#. module: farm_breeding
+msgid "Breeding Trait Value"
+msgstr "Nilai Sifat Pemuliaan"
+
+#. module: farm_breeding
+msgid "Close"
+msgstr "Tutup"
+
+#. module: farm_breeding
+msgid "Company"
+msgstr "Perusahaan"
+
+#. module: farm_breeding
+msgid "Comparison Results"
+msgstr "Hasil Perbandingan"
+
+#. module: farm_breeding
+msgid "Comparison Table"
+msgstr "Tabel Perbandingan"
+
+#. module: farm_breeding
+msgid "Dam"
+msgstr "Induk Betina"
+
+#. module: farm_breeding
+msgid "Evaluation"
+msgstr "Evaluasi"
+
+#. module: farm_breeding
+msgid "Female"
+msgstr "Betina"
+
+#. module: farm_breeding
+msgid "Genetic Marker / DNA ID"
+msgstr "Penanda Genetik / ID DNA"
+
+#. module: farm_breeding
+msgid "INBREEDING RISK: Common ancestors found within %s generations: %s"
+msgstr "RISIKO INBREEDING: Ditemukan leluhur yang sama dalam %s generasi: %s"
+
+#. module: farm_breeding
+msgid "Inbreeding Risk: Sire and Dam share common ancestors within 3 generations."
+msgstr "Risiko Inbreeding: Pejantan dan Induk Betina memiliki leluhur yang sama dalam 3 generasi."
+
+#. module: farm_breeding
+msgid "Lethal Gene Collision: Both parents carry the recessive lethal marker %s."
+msgstr "Tabrakan Gen Letal: Kedua induk membawa penanda letal resesif %s."
+
+#. module: farm_breeding
+msgid "Lot"
+msgstr "Lot"
+
+#. module: farm_breeding
+msgid "Lot Trait Comparison Wizard"
+msgstr "Wizard Perbandingan Sifat Lot"
+
+#. module: farm_breeding
+msgid "Lot/Asset"
+msgstr "Lot/Aset"
+
+#. module: farm_breeding
+msgid "Lots to Compare"
+msgstr "Lot yang Dibandingkan"
+
+#. module: farm_breeding
+msgid "Male"
+msgstr "Jantan"
+
+#. module: farm_breeding
+msgid "Measured Value"
+msgstr "Nilai Terukur"
+
+#. module: farm_breeding
+msgid "Mixed/Unknown"
+msgstr "Campuran/Tidak Diketahui"
+
+#. module: farm_breeding
+msgid "Numeric score for comparison"
+msgstr "Skor numerik untuk perbandingan"
+
+#. module: farm_breeding
+msgid "Nursery Batch"
+msgstr "Batch Pembibitan"
+
+#. module: farm_breeding
+msgid "Nursery Batches"
+msgstr "Batch Pembibitan"
+
+#. module: farm_breeding
+msgid "Nursery Factory"
+msgstr "Pabrik Pembibitan"
+
+#. module: farm_breeding
+msgid "Nursery Growing Order"
+msgstr "Pesanan Tumbuh Pembibitan"
+
+#. module: farm_breeding
+msgid "Parent P1 (Sire/Male)"
+msgstr "Induk P1 (Pejantan/Jantan)"
+
+#. module: farm_breeding
+msgid "Parent P2 (Dam/Female)"
+msgstr "Induk P2 (Induk Betina/Betina)"
+
+#. module: farm_breeding
+msgid "Pedigree"
+msgstr "Silsilah"
+
+#. module: farm_breeding
+msgid "Score"
+msgstr "Skor"
+
+#. module: farm_breeding
+msgid "Score (0-10)"
+msgstr "Skor (0-10)"
+
+#. module: farm_breeding
+msgid "Select lots to compare..."
+msgstr "Pilih lot untuk dibandingkan..."
+
+#. module: farm_breeding
+msgid "Sire"
+msgstr "Pejantan"
+
+#. module: farm_breeding
+msgid "Sowing Date"
+msgstr "Tanggal Semai"
+
+#. module: farm_breeding
+msgid "Target Field Area (ha)"
+msgstr "Luas Lahan Target (ha)"
+
+#. module: farm_breeding
+msgid "Target GDD for Transplant"
+msgstr "GDD Target untuk Pindah Tanam"
+
+#. module: farm_breeding
+msgid "Target Germination (%)"
+msgstr "Target Perkecambahan (%)"
+
+#. module: farm_breeding
+msgid "Target Planting Density"
+msgstr "Kerapatan Tanam Target"
+
+#. module: farm_breeding
+msgid "Trait"
+msgstr "Sifat"
+
+#. module: farm_breeding
+msgid "Trait Comparison"
+msgstr "Perbandingan Sifat"
+
+#. module: farm_breeding
+msgid "Trait Comparison Line"
+msgstr "Baris Perbandingan Sifat"
+
+#. module: farm_breeding
+msgid "Trait Name"
+msgstr "Nama Sifat"
+
+#. module: farm_breeding
+msgid "Trait Performance Comparison"
+msgstr "Perbandingan Kinerja Sifat"
+
+#. module: farm_breeding
+msgid "Traits"
+msgstr "Sifat"
+
+#. module: farm_breeding
+msgid "Value"
+msgstr "Nilai"

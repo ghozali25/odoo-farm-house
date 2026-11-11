@@ -1,0 +1,559 @@
+# Translation of Farm Aquaculture (farm_aquaculture) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings (operations, water quality,
+# ISL recipe/task/lot/RAS, LSS, menus and actions).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_aquaculture 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 11:30+0700\n"
+"PO-Revision-Date: 2026-11-10 11:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_aquaculture
+#: model:ir.ui.menu,name:farm_aquaculture.farm_aquaculture_menu_root
+#: model:ir.ui.menu,name:farm_aquaculture.menu_farm_aquaculture_root
+msgid "Aquaculture"
+msgstr "Akuakultur"
+
+#. module: farm_aquaculture
+#: model:ir.ui.menu,name:farm_aquaculture.menu_farm_aquaculture_operations
+msgid "Operations"
+msgstr "Operasi"
+
+#. module: farm_aquaculture
+#: model:ir.actions.act_window,name:farm_aquaculture.action_farm_aquaculture_operations
+msgid "Aquaculture Operations"
+msgstr "Operasi Akuakultur"
+
+#. module: farm_aquaculture
+#: model:ir.actions.act_window,name:farm_aquaculture.action_farm_water_quality_logs
+msgid "Water Quality Logs"
+msgstr "Catatan Kualitas Air"
+
+#. module: farm_aquaculture
+#: model:ir.actions.act_window,name:farm_aquaculture.action_farm_aquaculture_mo_isl
+msgid "Aquaculture Tasks"
+msgstr "Tugas Akuakultur"
+
+#. module: farm_aquaculture
+#: model:ir.actions.act_window,name:farm_aquaculture.action_farm_aquaculture_bom_isl
+msgid "Aquaculture Recipes"
+msgstr "Resep Akuakultur"
+
+#. module: farm_aquaculture
+#: model:ir.model,name:farm_aquaculture.model_farm_aquaculture_operation
+msgid "Farm Aquaculture Operation"
+msgstr "Operasi Akuakultur"
+
+#. module: farm_aquaculture
+#: model:ir.model,name:farm_aquaculture.model_farm_water_quality_log
+msgid "Farm Water Quality Log"
+msgstr "Catatan Kualitas Air"
+
+#. module: farm_aquaculture
+#: model:ir.model,name:farm_aquaculture.model_agri_isl_aquaculture_recipe
+msgid "Aquaculture Stocking Recipe"
+msgstr "Resep Penebaran Akuakultur"
+
+#. module: farm_aquaculture
+#: model:ir.model,name:farm_aquaculture.model_agri_isl_lot_aquaculture
+msgid "Aquaculture Asset Batch"
+msgstr "Batch Aset Akuakultur"
+
+#. module: farm_aquaculture
+#: model:ir.model,name:farm_aquaculture.model_agri_isl_aquaculture_task
+msgid "Aquaculture Growth Task"
+msgstr "Tugas Pertumbuhan Akuakultur"
+
+#. module: farm_aquaculture
+#: model:ir.model,name:farm_aquaculture.model_farm_aquaculture_lss
+msgid "Life Support System Unit"
+msgstr "Unit Sistem Penunjang Kehidupan"
+
+#. module: farm_aquaculture
+#: model:ir.model,name:farm_aquaculture.model_agri_isl_ras_production
+msgid "RAS Culture Order"
+msgstr "Order Budidaya RAS"
+
+#. module: farm_aquaculture
+#: model:ir.model,name:farm_aquaculture.model_farm_aquaculture_bom_line
+msgid "Aquaculture BOM Component (ISL Layer)"
+msgstr "Komponen BOM Akuakultur (Lapisan ISL)"
+
+#. module: farm_aquaculture
+msgid "Aquaculture Information"
+msgstr "Informasi Akuakultur"
+
+#. module: farm_aquaculture
+msgid "Aquaculture Operation"
+msgstr "Operasi Akuakultur"
+
+#. module: farm_aquaculture
+msgid "Aquaculture Growth Order"
+msgstr "Order Pertumbuhan Akuakultur"
+
+#. module: farm_aquaculture
+msgid "Aquaculture Configuration"
+msgstr "Konfigurasi Akuakultur"
+
+#. module: farm_aquaculture
+msgid "Aquaculture Stage"
+msgstr "Tahap Akuakultur"
+
+#. module: farm_aquaculture
+msgid "Aquaculture Standards (ISL)"
+msgstr "Standar Akuakultur (ISL)"
+
+#. module: farm_aquaculture
+msgid "Aquatic Species"
+msgstr "Spesies Akuatik"
+
+#. module: farm_aquaculture
+msgid "Assignees"
+msgstr "Penanggung Jawab"
+
+#. module: farm_aquaculture
+msgid "Base Recipe"
+msgstr "Resep Dasar"
+
+#. module: farm_aquaculture
+msgid "Base Lot"
+msgstr "Lot Dasar"
+
+#. module: farm_aquaculture
+msgid "Base Intervention"
+msgstr "Intervensi Dasar"
+
+#. module: farm_aquaculture
+msgid "Base Order"
+msgstr "Order Dasar"
+
+#. module: farm_aquaculture
+msgid "Base BOM Line"
+msgstr "Baris BOM Dasar"
+
+#. module: farm_aquaculture
+msgid "Pond/Tank"
+msgstr "Kolam/Tangki"
+
+#. module: farm_aquaculture
+msgid "Pond/Tank Information"
+msgstr "Informasi Kolam/Tangki"
+
+#. module: farm_aquaculture
+msgid "Pond Capacity (m³)"
+msgstr "Kapasitas Kolam (m³)"
+
+#. module: farm_aquaculture
+msgid "Capacity of the selected pond"
+msgstr "Kapasitas kolam yang dipilih"
+
+#. module: farm_aquaculture
+msgid "Species name for pond"
+msgstr "Nama spesies untuk kolam"
+
+#. module: farm_aquaculture
+msgid "Initial Stocking Count"
+msgstr "Jumlah Awal Penebaran"
+
+#. module: farm_aquaculture
+msgid "Current Count"
+msgstr "Jumlah Saat Ini"
+
+#. module: farm_aquaculture
+msgid "Water Quality Management"
+msgstr "Manajemen Kualitas Air"
+
+#. module: farm_aquaculture
+msgid "Water Parameters"
+msgstr "Parameter Air"
+
+#. module: farm_aquaculture
+msgid "Water Temperature (°C)"
+msgstr "Suhu Air (°C)"
+
+#. module: farm_aquaculture
+msgid "pH Level"
+msgstr "Tingkat pH"
+
+#. module: farm_aquaculture
+msgid "Dissolved Oxygen (mg/L)"
+msgstr "Oksigen Terlarut (mg/L)"
+
+#. module: farm_aquaculture
+msgid "Ammonia Level (mg/L)"
+msgstr "Kadar Amonia (mg/L)"
+
+#. module: farm_aquaculture
+msgid "Ammonia Level (ppm)"
+msgstr "Kadar Amonia (ppm)"
+
+#. module: farm_aquaculture
+msgid "Nitrite Level (mg/L)"
+msgstr "Kadar Nitrit (mg/L)"
+
+#. module: farm_aquaculture
+msgid "Water Quality Status"
+msgstr "Status Kualitas Air"
+
+#. module: farm_aquaculture
+msgid "Water Chemistry"
+msgstr "Kimia Air"
+
+#. module: farm_aquaculture
+msgid "Feeding Management"
+msgstr "Manajemen Pakan"
+
+#. module: farm_aquaculture
+msgid "Feeding Schedule"
+msgstr "Jadwal Pakan"
+
+#. module: farm_aquaculture
+msgid "Last Feeding Time"
+msgstr "Waktu Pakan Terakhir"
+
+#. module: farm_aquaculture
+msgid "Daily Feeding Rate (%)"
+msgstr "Laju Pakan Harian (%)"
+
+#. module: farm_aquaculture
+msgid "Percentage of body weight fed daily"
+msgstr "Persentase berat badan yang diberi pakan setiap hari"
+
+#. module: farm_aquaculture
+msgid "Growth Tracking"
+msgstr "Pelacakan Pertumbuhan"
+
+#. module: farm_aquaculture
+msgid "Avg Initial Weight (g)"
+msgstr "Berat Rata-rata Awal (g)"
+
+#. module: farm_aquaculture
+msgid "Avg Current Weight (g)"
+msgstr "Berat Rata-rata Saat Ini (g)"
+
+#. module: farm_aquaculture
+msgid "Growth Rate (g/day)"
+msgstr "Laju Pertumbuhan (g/hari)"
+
+#. module: farm_aquaculture
+msgid "Target Weight (g)"
+msgstr "Berat Target (g)"
+
+#. module: farm_aquaculture
+msgid "Harvest Management"
+msgstr "Manajemen Panen"
+
+#. module: farm_aquaculture
+msgid "Harvest Readiness"
+msgstr "Kesiapan Panen"
+
+#. module: farm_aquaculture
+msgid "Planned Harvest Date"
+msgstr "Tanggal Panen yang Direncanakan"
+
+#. module: farm_aquaculture
+msgid "Water Treatment & Circulation"
+msgstr "Perlakuan & Sirkulasi Air"
+
+#. module: farm_aquaculture
+msgid "Water Treatment Method"
+msgstr "Metode Perlakuan Air"
+
+#. module: farm_aquaculture
+msgid "Water Circulation Rate (m³/hour)"
+msgstr "Laju Sirkulasi Air (m³/jam)"
+
+#. module: farm_aquaculture
+msgid "Tank Preparation"
+msgstr "Persiapan Tangki"
+
+#. module: farm_aquaculture
+msgid "Water Conditioning"
+msgstr "Pengondisian Air"
+
+#. module: farm_aquaculture
+msgid "Seed Stocking"
+msgstr "Penebaran Benih"
+
+#. module: farm_aquaculture
+msgid "Growing"
+msgstr "Pembesaran"
+
+#. module: farm_aquaculture
+msgid "Harvesting"
+msgstr "Panen"
+
+#. module: farm_aquaculture
+msgid "Post-Harvest"
+msgstr "Pasca Panen"
+
+#. module: farm_aquaculture
+msgid "Mechanical"
+msgstr "Mekanis"
+
+#. module: farm_aquaculture
+msgid "Biological"
+msgstr "Biologis"
+
+#. module: farm_aquaculture
+msgid "Chemical"
+msgstr "Kimiawi"
+
+#. module: farm_aquaculture
+msgid "UV Sterilization"
+msgstr "Sterilisasi UV"
+
+#. module: farm_aquaculture
+msgid "Ozone Treatment"
+msgstr "Perlakuan Ozon"
+
+#. module: farm_aquaculture
+msgid "Excellent"
+msgstr "Sangat Baik"
+
+#. module: farm_aquaculture
+msgid "Good"
+msgstr "Baik"
+
+#. module: farm_aquaculture
+msgid "Fair"
+msgstr "Cukup"
+
+#. module: farm_aquaculture
+msgid "Poor"
+msgstr "Buruk"
+
+#. module: farm_aquaculture
+msgid "Critical"
+msgstr "Kritis"
+
+#. module: farm_aquaculture
+msgid "Normal"
+msgstr "Normal"
+
+#. module: farm_aquaculture
+msgid "Emergency Mode"
+msgstr "Mode Darurat"
+
+#. module: farm_aquaculture
+msgid "Log Date"
+msgstr "Tanggal Catatan"
+
+#. module: farm_aquaculture
+msgid "Temperature (°C)"
+msgstr "Suhu (°C)"
+
+#. module: farm_aquaculture
+msgid "Turbidity (NTU)"
+msgstr "Kekeruhan (NTU)"
+
+#. module: farm_aquaculture
+msgid "Salinity (ppt)"
+msgstr "Salinitas (ppt)"
+
+#. module: farm_aquaculture
+msgid "Weather Conditions"
+msgstr "Kondisi Cuaca"
+
+#. module: farm_aquaculture
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_aquaculture
+msgid "Additional Parameters"
+msgstr "Parameter Tambahan"
+
+#. module: farm_aquaculture
+msgid "Water Quality Log"
+msgstr "Catatan Kualitas Air"
+
+#. module: farm_aquaculture
+msgid "Core Recipe (Base)"
+msgstr "Resep Inti (Dasar)"
+
+#. module: farm_aquaculture
+msgid "Components (Base)"
+msgstr "Komponen (Dasar)"
+
+#. module: farm_aquaculture
+msgid "Order Info (Base)"
+msgstr "Info Order (Dasar)"
+
+#. module: farm_aquaculture
+msgid "Water Quality (ISL)"
+msgstr "Kualitas Air (ISL)"
+
+#. module: farm_aquaculture
+msgid "Growth Stats (ISL)"
+msgstr "Statistik Pertumbuhan (ISL)"
+
+#. module: farm_aquaculture
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#. module: farm_aquaculture
+msgid "Security & Performance"
+msgstr "Keamanan & Kinerja"
+
+#. module: farm_aquaculture
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#. module: farm_aquaculture
+msgid "Mark as Done"
+msgstr "Tandai Selesai"
+
+#. module: farm_aquaculture
+msgid "JSON-based configuration for aquaculture-specific parameters"
+msgstr "Konfigurasi berbasis JSON untuk parameter khusus akuakultur"
+
+#. module: farm_aquaculture
+msgid "Latest Dissolved Oxygen (mg/L)"
+msgstr "Oksigen Terlarut Terkini (mg/L)"
+
+#. module: farm_aquaculture
+msgid "Latest Temp (℃)"
+msgstr "Suhu Terkini (℃)"
+
+#. module: farm_aquaculture
+msgid "Min Dissolved Oxygen (mg/L)"
+msgstr "Oksigen Terlarut Min (mg/L)"
+
+#. module: farm_aquaculture
+msgid "Optimal Temp Range (℃)"
+msgstr "Rentang Suhu Optimal (℃)"
+
+#. module: farm_aquaculture
+msgid "Max Density (kg/m³)"
+msgstr "Kepadatan Maks (kg/m³)"
+
+#. module: farm_aquaculture
+msgid "Current Density (kg/m³)"
+msgstr "Kepadatan Saat Ini (kg/m³)"
+
+#. module: farm_aquaculture
+msgid "Water Volume (m³)"
+msgstr "Volume Air (m³)"
+
+#. module: farm_aquaculture
+msgid "Dose Rate (ppm)"
+msgstr "Laju Dosis (ppm)"
+
+#. module: farm_aquaculture
+msgid "Application Method"
+msgstr "Metode Aplikasi"
+
+#. module: farm_aquaculture
+msgid "Direct Application"
+msgstr "Aplikasi Langsung"
+
+#. module: farm_aquaculture
+msgid "Dissolved in Water"
+msgstr "Dilarutkan dalam Air"
+
+#. module: farm_aquaculture
+msgid "Mixed with Feed"
+msgstr "Dicampur Pakan"
+
+#. module: farm_aquaculture
+msgid "Topical Application"
+msgstr "Aplikasi Topikal"
+
+#. module: farm_aquaculture
+msgid "Water Condition"
+msgstr "Kondisi Air"
+
+#. module: farm_aquaculture
+msgid "Freshwater"
+msgstr "Air Tawar"
+
+#. module: farm_aquaculture
+msgid "Saltwater"
+msgstr "Air Laut"
+
+#. module: farm_aquaculture
+msgid "Brackish Water"
+msgstr "Air Payau"
+
+#. module: farm_aquaculture
+msgid "Predicted TAN Load (mg/L)"
+msgstr "Perkiraan Beban TAN (mg/L)"
+
+#. module: farm_aquaculture
+msgid "Total Energy Used (kWh)"
+msgstr "Total Energi Terpakai (kWh)"
+
+#. module: farm_aquaculture
+msgid "System Type"
+msgstr "Jenis Sistem"
+
+#. module: farm_aquaculture
+msgid "Biological Filter"
+msgstr "Filter Biologis"
+
+#. module: farm_aquaculture
+msgid "Mechanical Drum Filter"
+msgstr "Filter Drum Mekanis"
+
+#. module: farm_aquaculture
+msgid "Temperature Control Unit"
+msgstr "Unit Pengatur Suhu"
+
+#. module: farm_aquaculture
+msgid "Ozone Generator"
+msgstr "Generator Ozon"
+
+#. module: farm_aquaculture
+msgid "Last Maintenance"
+msgstr "Perawatan Terakhir"
+
+#. module: farm_aquaculture
+msgid "UV Bulb Hours"
+msgstr "Jam Lampu UV"
+
+#. module: farm_aquaculture
+msgid "Backwash Frequency (Daily)"
+msgstr "Frekuensi Backwash (Harian)"
+
+#. module: farm_aquaculture
+msgid "Life Support System"
+msgstr "Sistem Penunjang Kehidupan"
+
+#. module: farm_aquaculture
+msgid "ADDITIONAL STOCK: %s new %s added. Total count now: %s"
+msgstr "STOK TAMBAHAN: %s %s baru ditambahkan. Jumlah total sekarang: %s"
+
+#. module: farm_aquaculture
+msgid "MORTALITY RECORDED: %s %s died. Total count now: %s. Cause: %s"
+msgstr "KEMATIAN TERCATAT: %s %s mati. Jumlah total sekarang: %s. Penyebab: %s"
+
+#. module: farm_aquaculture
+msgid "WATER QUALITY UPDATE:\n"
+msgstr "PEMBARUAN KUALITAS AIR:\n"
+
+#. module: farm_aquaculture
+msgid "Harvest scheduled for %s"
+msgstr "Panen dijadwalkan pada %s"
+
+#. module: farm_aquaculture
+msgid "CRITICAL: Pond %s Dissolved Oxygen dropped to %s mg/L!"
+msgstr "KRITIS: Oksigen terlarut kolam %s turun ke %s mg/L!"
+
+#. module: farm_aquaculture
+msgid "CRITICAL: RAS Unit %s flow dropped below safety limit!"
+msgstr "KRITIS: Aliran unit RAS %s turun di bawah batas aman!"
+
+#. module: farm_aquaculture
+msgid "EMERGENCY LSS ENGAGED: Ammonia spiked to %s ppm!"
+msgstr "LSS DARURAT AKTIF: Amonia melonjak ke %s ppm!"
+
+#. module: farm_aquaculture
+msgid "Aqua: %s, Count: %s"
+msgstr "Aqua: %s, Jumlah: %s"

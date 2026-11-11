@@ -1,0 +1,23 @@
+# B19 (10 Nov 2026) — URUTAN + CONSTRAINTS INSTALL VENV YANG BENAR:
+#   pip install -c constraints.txt amqtt
+#   pip install -r requirements.txt -c constraints.txt
+# Pin pydantic==1.10.13 WAJIB dipertahankan: config/settings.py memakai
+# `from pydantic import BaseSettings` (API pydantic v1). Akar drift TERBUKTI
+# di venv bersih 10 Nov 2026: amqtt menarik `typer 0.29.0`, dan typer 0.29
+# mensyaratkan `pydantic>=2.5.3` -> `pip install amqtt` SESUDAH requirements
+# meng-upgrade pydantic 1.10.13 -> 2.14.3 (venv A) sehingga bridge mati
+# total (PydanticImportError). Urutan amqtt-dulu-lalu-requirements saja
+# memang mengembalikan pydantic ke 1.10.13 (venv B) TAPI menyisakan
+# konflik `pip check` (typer 0.29 vs pydantic 1.10.13); dengan
+# constraints.txt pip memilih typer 0.28.0 yang kompatibel dan `pip check`
+# BERSIH (venv C). Jadi constraints.txt adalah pengaman durable-nya.
+# Verifikasi sesudah install: `pip show pydantic` harus 1.10.13 dan
+# `pip check` tanpa konflik. Broker amqtt sendiri jalan normal dengan
+# pydantic 1.10.13 (terbukti di ronde simulasi B4, PID 13013).
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+paho-mqtt==1.6.1
+httpx==0.25.2
+pydantic==1.10.13
+python-dotenv==1.0.0
+aiosqlite==0.19.0

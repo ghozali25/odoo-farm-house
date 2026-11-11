@@ -1,0 +1,838 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# \t* agri_iot
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 14:00+0700\n"
+"PO-Revision-Date: 2026-11-10 14:00+0700\n"
+"Last-Translator: Muse <muse@hiddenlab.me>\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+
+#. module: agri_iot
+msgid "$.temperature"
+msgstr "$.temperature"
+
+#. module: agri_iot
+msgid "Active"
+msgstr "Aktif"
+
+#. module: agri_iot
+msgid "Applicable device type code"
+msgstr "Kode jenis perangkat yang berlaku"
+
+#. module: agri_iot
+msgid "Associated business entity (equipment/workcenter/location)"
+msgstr "Entitas bisnis terkait (peralatan/workcenter/lokasi)"
+
+#. module: agri_iot
+msgid "Associated communication profile"
+msgstr "Profil komunikasi terkait"
+
+#. module: agri_iot
+msgid "Associated device profile"
+msgstr "Profil perangkat terkait"
+
+#. module: agri_iot
+msgid "Business Ref"
+msgstr "Ref. Bisnis"
+
+#. module: agri_iot
+msgid "Business Reference"
+msgstr "Referensi Bisnis"
+
+#. module: agri_iot
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: agri_iot
+msgid "Checksum"
+msgstr "Checksum"
+
+#. module: agri_iot
+msgid "Chemical Level"
+msgstr "Kadar Bahan Kimia"
+
+#. module: agri_iot
+msgid "Code"
+msgstr "Kode"
+
+#. module: agri_iot
+msgid "Command Template"
+msgstr "Template Perintah"
+
+#. module: agri_iot
+msgid "Command Topic Template"
+msgstr "Template Topik Perintah"
+
+#. module: agri_iot
+msgid "Command message template (Jinja2), e.g. {\"action\": \"{{ action }}\", \"params\": {{ params | tojson }}}"
+msgstr "Template pesan perintah (Jinja2), contoh: {\"action\": \"{{ action }}\", \"params\": {{ params | tojson }}}"
+
+#. module: agri_iot
+msgid "Command template rendering failed: %s"
+msgstr "Gagal merender template perintah: %s"
+
+#. module: agri_iot
+msgid "Command topic template, e.g. cmd/{device}/request"
+msgstr "Template topik perintah, contoh: cmd/{device}/request"
+
+#. module: agri_iot
+msgid "Communication Profile"
+msgstr "Profil Komunikasi"
+
+#. module: agri_iot
+msgid "Config & Topics"
+msgstr "Konfigurasi & Topik"
+
+#. module: agri_iot
+msgid "Config Token"
+msgstr "Token Konfigurasi"
+
+#. module: agri_iot
+msgid "Configuration download token generated"
+msgstr "Token unduhan konfigurasi dibuat"
+
+#. module: agri_iot
+msgid "Connection Status"
+msgstr "Status Koneksi"
+
+#. module: agri_iot
+msgid "Created Date"
+msgstr "Tanggal Dibuat"
+
+#. module: agri_iot
+msgid "Created by"
+msgstr "Dibuat oleh"
+
+#. module: agri_iot
+msgid "Created on"
+msgstr "Dibuat pada"
+
+#. module: agri_iot
+msgid "Current firmware version"
+msgstr "Versi firmware saat ini"
+
+#. module: agri_iot
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: agri_iot
+msgid "Device ID"
+msgstr "ID Perangkat"
+
+#. module: agri_iot
+msgid "Device ID can only contain letters, numbers, underscores and hyphens"
+msgstr "ID perangkat hanya boleh berisi huruf, angka, garis bawah, dan tanda hubung"
+
+#. module: agri_iot
+msgid "Device ID must be unique!"
+msgstr "ID perangkat harus unik!"
+
+#. module: agri_iot
+msgid "Device Management"
+msgstr "Manajemen Perangkat"
+
+#. module: agri_iot
+msgid "Device Type"
+msgstr "Jenis Perangkat"
+
+#. module: agri_iot
+msgid "Device not associated with communication profile"
+msgstr "Perangkat belum dikaitkan dengan profil komunikasi"
+
+#. module: agri_iot
+msgid "Device type code can only contain letters, numbers, underscores and hyphens"
+msgstr "Kode jenis perangkat hanya boleh berisi huruf, angka, garis bawah, dan tanda hubung"
+
+#. module: agri_iot
+msgid "Device type code, e.g. cnc_v1"
+msgstr "Kode jenis perangkat, contoh: cnc_v1"
+
+#. module: agri_iot
+msgid "Display Name"
+msgstr "Nama Tampilan"
+
+#. module: agri_iot
+msgid "Dissolved Oxygen"
+msgstr "Oksigen Terlarut"
+
+#. module: agri_iot
+msgid "Domain to find target records, e.g. [('iot_device_id', '=', '{{ device_id }}')]"
+msgstr "Domain untuk mencari record target, contoh: [('iot_device_id', '=', '{{ device_id }}')]"
+
+#. module: agri_iot
+msgid "Download URL"
+msgstr "URL Unduhan"
+
+#. module: agri_iot
+msgid "Downloading"
+msgstr "Mengunduh"
+
+#. module: agri_iot
+msgid "Drone Battery"
+msgstr "Baterai Drone"
+
+#. module: agri_iot
+msgid "End Time"
+msgstr "Waktu Selesai"
+
+#. module: agri_iot
+msgid "Error"
+msgstr "Error"
+
+#. module: agri_iot
+msgid "Error Message"
+msgstr "Pesan Error"
+
+#. module: agri_iot
+msgid "Error occurred while sending command: %s"
+msgstr "Terjadi kesalahan saat mengirim perintah: %s"
+
+#. module: agri_iot
+msgid "Failed"
+msgstr "Gagal"
+
+#. module: agri_iot
+msgid "Failed to send command: %s"
+msgstr "Gagal mengirim perintah: %s"
+
+#. module: agri_iot
+msgid "Firmware Version"
+msgstr "Versi Firmware"
+
+#. module: agri_iot
+msgid "Firmware Versions"
+msgstr "Versi Firmware"
+
+#. module: agri_iot
+msgid "Firmware download URL"
+msgstr "URL unduhan firmware"
+
+#. module: agri_iot
+msgid "Firmware file checksum"
+msgstr "Checksum file firmware"
+
+#. module: agri_iot
+msgid "Firmware version must be unique for each device type!"
+msgstr "Versi firmware harus unik untuk setiap jenis perangkat!"
+
+#. module: agri_iot
+msgid "Firmware version number"
+msgstr "Nomor versi firmware"
+
+#. module: agri_iot
+msgid "Flight Altitude"
+msgstr "Ketinggian Terbang"
+
+#. module: agri_iot
+msgid "Generate Config Token"
+msgstr "Buat Token Konfigurasi"
+
+#. module: agri_iot
+msgid "HLS/HTTP/RTSP stream URL for the camera"
+msgstr "URL stream HLS/HTTP/RTSP untuk kamera"
+
+#. module: agri_iot
+msgid "Humidity"
+msgstr "Kelembapan"
+
+#. module: agri_iot
+msgid "ID"
+msgstr "ID"
+
+#. module: agri_iot
+msgid "IIoT Device"
+msgstr "Perangkat IIoT"
+
+#. module: agri_iot
+msgid "IIoT Telemetry Data"
+msgstr "Data Telemetri IIoT"
+
+#. module: agri_iot
+msgid "IIoT用户"
+msgstr "Pengguna IIoT"
+
+#. module: agri_iot
+msgid "IIoT管理员"
+msgstr "Administrator IIoT"
+
+#. module: agri_iot
+msgid "IIoT设备"
+msgstr "Perangkat IIoT"
+
+#. module: agri_iot
+msgid "Industrial IoT"
+msgstr "IoT Industri"
+
+#. module: agri_iot
+msgid "Industrial IoT Device"
+msgstr "Perangkat IoT Industri"
+
+#. module: agri_iot
+msgid "Industrial IoT Device Profile"
+msgstr "Profil Perangkat IoT Industri"
+
+#. module: agri_iot
+msgid "Industrial IoT Firmware"
+msgstr "Firmware IoT Industri"
+
+#. module: agri_iot
+msgid "Industrial IoT Firmware Update"
+msgstr "Pembaruan Firmware IoT Industri"
+
+#. module: agri_iot
+msgid "Industrial IoT Telemetry Rule"
+msgstr "Aturan Telemetri IoT Industri"
+
+#. module: agri_iot
+msgid "Installing"
+msgstr "Menginstal"
+
+#. module: agri_iot
+msgid "Invalid JSON Path format: %s"
+msgstr "Format JSON Path tidak valid: %s"
+
+#. module: agri_iot
+msgid "Invalid domain format: %s"
+msgstr "Format domain tidak valid: %s"
+
+#. module: agri_iot
+msgid "Is Camera"
+msgstr "Adalah Kamera"
+
+#. module: agri_iot
+msgid "Is this an active version?"
+msgstr "Apakah ini versi aktif?"
+
+#. module: agri_iot
+msgid "JSON Path"
+msgstr "JSON Path"
+
+#. module: agri_iot
+msgid "Last Command"
+msgstr "Perintah Terakhir"
+
+#. module: agri_iot
+msgid "Last Telemetry"
+msgstr "Telemetri Terakhir"
+
+#. module: agri_iot
+msgid "Last Update"
+msgstr "Pembaruan Terakhir"
+
+#. module: agri_iot
+msgid "Last Updated by"
+msgstr "Terakhir Diperbarui oleh"
+
+#. module: agri_iot
+msgid "Last Updated on"
+msgstr "Terakhir Diperbarui pada"
+
+#. module: agri_iot
+msgid "Latitude"
+msgstr "Lintang"
+
+#. module: agri_iot
+msgid "Live Stream URL"
+msgstr "URL Live Stream"
+
+#. module: agri_iot
+msgid "Logical ID for Topics"
+msgstr "ID logis untuk Topik"
+
+#. module: agri_iot
+msgid "Longitude"
+msgstr "Bujur"
+
+#. module: agri_iot
+msgid "MQTT gateway URL not configured"
+msgstr "URL gateway MQTT belum dikonfigurasi"
+
+#. module: agri_iot
+msgid "Name"
+msgstr "Nama"
+
+#. module: agri_iot
+msgid "OTA Management"
+msgstr "Manajemen OTA"
+
+#. module: agri_iot
+msgid "OTA Notify Topic Template"
+msgstr "Template Topik Notifikasi OTA"
+
+#. module: agri_iot
+msgid "OTA Status Topic Template"
+msgstr "Template Topik Status OTA"
+
+#. module: agri_iot
+msgid "OTA Topic 配置"
+msgstr "Konfigurasi Topik OTA"
+
+#. module: agri_iot
+msgid "OTA Update Logs"
+msgstr "Log Pembaruan OTA"
+
+#. module: agri_iot
+msgid "OTA notify topic template, e.g. ota/{device}/notify"
+msgstr "Template topik notifikasi OTA, contoh: ota/{device}/notify"
+
+#. module: agri_iot
+msgid "OTA status topic template, e.g. ota/{device}/status"
+msgstr "Template topik status OTA, contoh: ota/{device}/status"
+
+#. module: agri_iot
+msgid "OTA更新记录"
+msgstr "Catatan Pembaruan OTA"
+
+#. module: agri_iot
+msgid "Offline"
+msgstr "Offline"
+
+#. module: agri_iot
+msgid "One-time configuration download token"
+msgstr "Token unduhan konfigurasi sekali pakai"
+
+#. module: agri_iot
+msgid "Online"
+msgstr "Online"
+
+#. module: agri_iot
+msgid "Path to extract value from telemetry payload, e.g. $.temperature"
+msgstr "Jalur untuk mengambil nilai dari payload telemetri, contoh: $.temperature"
+
+#. module: agri_iot
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: agri_iot
+msgid "Physical serial number (unique, index=True)"
+msgstr "Nomor seri fisik (unik, index=True)"
+
+#. module: agri_iot
+msgid "Power Off"
+msgstr "Matikan Daya"
+
+#. module: agri_iot
+msgid "Power On"
+msgstr "Nyalakan Daya"
+
+#. module: agri_iot
+msgid "Profile"
+msgstr "Profil"
+
+#. module: agri_iot
+msgid "Progress"
+msgstr "Progres"
+
+#. module: agri_iot
+msgid "Regenerate Token"
+msgstr "Buat Ulang Token"
+
+#. module: agri_iot
+msgid "Remote Control"
+msgstr "Kendali Jarak Jauh"
+
+#. module: agri_iot
+msgid "Reset"
+msgstr "Reset"
+
+#. module: agri_iot
+msgid "Sensor Name"
+msgstr "Nama Sensor"
+
+#. module: agri_iot
+msgid "Sensor Type"
+msgstr "Jenis Sensor"
+
+#. module: agri_iot
+msgid "Sent"
+msgstr "Terkirim"
+
+#. module: agri_iot
+msgid "Sequence"
+msgstr "Urutan"
+
+#. module: agri_iot
+msgid "Serial Number"
+msgstr "Nomor Seri"
+
+#. module: agri_iot
+msgid "Serial number must be unique!"
+msgstr "Nomor seri harus unik!"
+
+#. module: agri_iot
+msgid "Soil Moisture"
+msgstr "Kelembapan Tanah"
+
+#. module: agri_iot
+msgid "Start Time"
+msgstr "Waktu Mulai"
+
+#. module: agri_iot
+msgid "Status"
+msgstr "Status"
+
+#. module: agri_iot
+msgid "Success"
+msgstr "Berhasil"
+
+#. module: agri_iot
+msgid "Target Device"
+msgstr "Perangkat Target"
+
+#. module: agri_iot
+msgid "Target Domain"
+msgstr "Domain Target"
+
+#. module: agri_iot
+msgid "Target Field"
+msgstr "Field Target"
+
+#. module: agri_iot
+msgid "Target Model"
+msgstr "Model Target"
+
+#. module: agri_iot
+msgid "Target field to write to, e.g. x_temperature"
+msgstr "Field target yang akan ditulis, contoh: x_temperature"
+
+#. module: agri_iot
+msgid "Target model, e.g. maintenance.equipment"
+msgstr "Model target, contoh: maintenance.equipment"
+
+#. module: agri_iot
+msgid "Telemetry Management"
+msgstr "Manajemen Telemetri"
+
+#. module: agri_iot
+msgid "Telemetry Rules"
+msgstr "Aturan Telemetri"
+
+#. module: agri_iot
+msgid "Telemetry Topic Template"
+msgstr "Template Topik Telemetri"
+
+#. module: agri_iot
+msgid "Telemetry topic template, e.g. telemetry/{device}/data"
+msgstr "Template topik telemetri, contoh: telemetry/{device}/data"
+
+#. module: agri_iot
+msgid "Temperature"
+msgstr "Suhu"
+
+#. module: agri_iot
+msgid "Timestamp"
+msgstr "Stempel Waktu"
+
+#. module: agri_iot
+msgid "Topic template must contain {device} placeholder"
+msgstr "Template topik harus mengandung placeholder {device}"
+
+#. module: agri_iot
+msgid "URL format is incorrect, please use http://, https:// or ftp:// prefix"
+msgstr "Format URL tidak benar, gunakan awalan http://, https:// atau ftp://"
+
+#. module: agri_iot
+msgid "Update ID"
+msgstr "ID Pembaruan"
+
+#. module: agri_iot
+msgid "Update Name"
+msgstr "Nama Pembaruan"
+
+#. module: agri_iot
+msgid "Update progress percentage (0.0-100.0)"
+msgstr "Persentase progres pembaruan (0.0-100.0)"
+
+#. module: agri_iot
+msgid "Urban Micro-sensor"
+msgstr "Sensor Mikro Perkotaan"
+
+#. module: agri_iot
+msgid "Value"
+msgstr "Nilai"
+
+#. module: agri_iot
+msgid "Version"
+msgstr "Versi"
+
+#. module: agri_iot
+msgid "Version format is incorrect, can only contain letters, numbers, dots, underscores and hyphens"
+msgstr "Format versi tidak benar, hanya boleh berisi huruf, angka, titik, garis bawah, dan tanda hubung"
+
+#. module: agri_iot
+msgid "[('iot_device_id', '=', '{{ device_id }}')]"
+msgstr "[('iot_device_id', '=', '{{ device_id }}')]"
+
+#. module: agri_iot
+msgid "maintenance.equipment"
+msgstr "maintenance.equipment"
+
+#. module: agri_iot
+msgid "pH Level"
+msgstr "Kadar pH"
+
+#. module: agri_iot
+msgid "x_temperature"
+msgstr "x_temperature"
+
+#. module: agri_iot
+msgid "发送重置指令"
+msgstr "Kirim Perintah Reset"
+
+#. module: agri_iot
+msgid "命令模板"
+msgstr "Template Perintah"
+
+#. module: agri_iot
+msgid "固件版本"
+msgstr "Versi Firmware"
+
+#. module: agri_iot
+msgid "工业物联网"
+msgstr "IoT Industri"
+
+#. module: agri_iot
+msgid "时间信息"
+msgstr "Informasi Waktu"
+
+#. module: agri_iot
+msgid "目标配置"
+msgstr "Konfigurasi Target"
+
+#. module: agri_iot
+msgid "设备更新记录"
+msgstr "Catatan Pembaruan Perangkat"
+
+#. module: agri_iot
+msgid "设备配置模板"
+msgstr "Template Konfigurasi Perangkat"
+
+#. module: agri_iot
+msgid "遥测规则"
+msgstr "Aturan Telemetri"
+
+#. module: agri_iot
+msgid "错误信息"
+msgstr "Informasi Error"
+
+#. module: agri_iot
+msgid "Bridge rejected subscription: %s"
+msgstr "Bridge menolak langganan: %s"
+
+#. module: agri_iot
+msgid "Cannot validate JSON Path: the optional Python package 'jsonpath-ng' is not installed. Install it to use telemetry rules."
+msgstr "Tidak dapat memvalidasi JSON Path: paket Python opsional 'jsonpath-ng' belum terinstal. Instal paket tersebut untuk memakai aturan telemetri."
+
+#. module: agri_iot
+msgid "Controller/PLC"
+msgstr "Controller/PLC"
+
+#. module: agri_iot
+msgid "Device Profile"
+msgstr "Profil Perangkat"
+
+#. module: agri_iot
+msgid "Device Profiles"
+msgstr "Profil Perangkat"
+
+#. module: agri_iot
+msgid "Device Shadow"
+msgstr "Device Shadow"
+
+#. module: agri_iot
+msgid "Device Update History"
+msgstr "Riwayat Pembaruan Perangkat"
+
+#. module: agri_iot
+msgid "Error Information"
+msgstr "Informasi Error"
+
+#. module: agri_iot
+msgid "Error occurred while sending command to gateway: %s"
+msgstr "Terjadi kesalahan saat mengirim perintah ke gateway: %s"
+
+#. module: agri_iot
+msgid "Error syncing subscriptions: %s"
+msgstr "Kesalahan sinkronisasi langganan: %s"
+
+#. module: agri_iot
+msgid "Gateway ID"
+msgstr "ID Gateway"
+
+#. module: agri_iot
+msgid "Gateway ID must be unique!"
+msgstr "ID gateway harus unik!"
+
+#. module: agri_iot
+msgid "Gateway Name"
+msgstr "Nama Gateway"
+
+#. module: agri_iot
+msgid "Gateway URL is not configured"
+msgstr "URL gateway belum dikonfigurasi"
+
+#. module: agri_iot
+msgid "Gateway is online (Pong received)"
+msgstr "Gateway online (Pong diterima)"
+
+#. module: agri_iot
+msgid "Gateway is unreachable: %s"
+msgstr "Gateway tidak dapat dijangkau: %s"
+
+#. module: agri_iot
+msgid "Gateway rejected command: %s"
+msgstr "Gateway menolak perintah: %s"
+
+#. module: agri_iot
+msgid "Gateway returned invalid response: %s"
+msgstr "Gateway mengembalikan respons tidak valid: %s"
+
+#. module: agri_iot
+msgid "Gateway/Edge Server"
+msgstr "Gateway/Edge Server"
+
+#. module: agri_iot
+msgid "Gateways"
+msgstr "Gateway"
+
+#. module: agri_iot
+msgid "IIoT Devices"
+msgstr "Perangkat IIoT"
+
+#. module: agri_iot
+msgid "Industrial IoT Gateway/Bridge"
+msgstr "Gateway/Bridge IoT Industri"
+
+#. module: agri_iot
+msgid "Invalid JSON Path format: %s\nError: %s"
+msgstr "Format JSON Path tidak valid: %s\nError: %s"
+
+#. module: agri_iot
+msgid "Invalid domain format: %s\nError: %s"
+msgstr "Format domain tidak valid: %s\nError: %s"
+
+#. module: agri_iot
+msgid "Last Heartbeat"
+msgstr "Heartbeat Terakhir"
+
+#. module: agri_iot
+msgid "Last known state (JSON)"
+msgstr "State terakhir yang diketahui (JSON)"
+
+#. module: agri_iot
+msgid "MQTT Broker Host"
+msgstr "Host Broker MQTT"
+
+#. module: agri_iot
+msgid "MQTT Broker Port"
+msgstr "Port Broker MQTT"
+
+#. module: agri_iot
+msgid "MQTT Password"
+msgstr "Password MQTT"
+
+#. module: agri_iot
+msgid "MQTT Username"
+msgstr "Username MQTT"
+
+#. module: agri_iot
+msgid "Managed Devices"
+msgstr "Perangkat yang Dikelola"
+
+#. module: agri_iot
+msgid "No command action specified"
+msgstr "Tidak ada aksi perintah yang ditentukan"
+
+#. module: agri_iot
+msgid "No online IoT Gateway found to handle this command"
+msgstr "Tidak ada IoT Gateway online untuk menangani perintah ini"
+
+#. module: agri_iot
+msgid "OTA Topic Configuration"
+msgstr "Konfigurasi Topik OTA"
+
+#. module: agri_iot
+msgid "Parent Device"
+msgstr "Perangkat Induk"
+
+#. module: agri_iot
+msgid "Physical Level"
+msgstr "Level Fisik"
+
+#. module: agri_iot
+msgid "Physical Topology"
+msgstr "Topologi Fisik"
+
+#. module: agri_iot
+msgid "Physical upstream gateway or controller"
+msgstr "Gateway atau controller induk fisik"
+
+#. module: agri_iot
+msgid "Ping Gateway"
+msgstr "Ping Gateway"
+
+#. module: agri_iot
+msgid "Public URL"
+msgstr "URL Publik"
+
+#. module: agri_iot
+msgid "Publicly accessible URL of the gateway"
+msgstr "URL gateway yang dapat diakses publik"
+
+#. module: agri_iot
+msgid "Send Reset Command"
+msgstr "Kirim Perintah Reset"
+
+#. module: agri_iot
+msgid "Sensor Node"
+msgstr "Node Sensor"
+
+#. module: agri_iot
+msgid "Shadow Last Update"
+msgstr "Pembaruan Shadow Terakhir"
+
+#. module: agri_iot
+msgid "Sub-devices"
+msgstr "Sub-perangkat"
+
+#. module: agri_iot
+msgid "Sub-sensor/Module"
+msgstr "Sub-sensor/Modul"
+
+#. module: agri_iot
+msgid "Sync Subscriptions"
+msgstr "Sinkronkan Langganan"
+
+#. module: agri_iot
+msgid "Target Configuration"
+msgstr "Konfigurasi Target"
+
+#. module: agri_iot
+msgid "Telemetry Data"
+msgstr "Data Telemetri"
+
+#. module: agri_iot
+msgid "Timing Information"
+msgstr "Informasi Waktu"
+
+#. module: agri_iot
+msgid "Update History"
+msgstr "Riwayat Pembaruan"
+
+#. module: agri_iot
+msgid "Use TLS"
+msgstr "Gunakan TLS"
+
+#. module: agri_iot
+msgid "Webhooks registered on the bridge"
+msgstr "Webhook terdaftar di bridge"

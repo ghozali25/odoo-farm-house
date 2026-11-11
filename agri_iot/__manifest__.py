@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+{
+    "name": "Agri IoT (AIoT) Integration",
+    "summary": "Agricultural IoT integration: device management, telemetry processing, command dispatch and OTA firmware upgrades",
+    "description": """
+Agri IoT (AIoT) Integration
+===============================
+
+This module provides comprehensive Agricultural IoT capabilities including:
+
+- Device management and profiles
+- MQTT-based telemetry data processing
+- Command and control capabilities
+- OTA firmware management
+- Configuration download for devices
+- Integration with business objects through declarative rules
+
+The module follows the architecture of using HTTP webhooks to interface with MQTT brokers,
+avoiding direct MQTT connections from Odoo for better reliability and maintainability.
+    """,
+    "version": "18.0.1.0.2",
+    "category": "Manufacturing/Internet of Things",
+    "author": "genin IT, jeffery <jeffery9@gmail.com>",
+    "website": "http://www.geninit.cn",
+    "depends": [
+        "base",
+        "web",
+        "mail",
+        "http_routing",  # For HTTP routing capabilities
+    ],
+    "data": [
+        "views/iiot_root_menu.xml",
+        "security/iiot_security.xml",
+        "security/ir.model.access.csv",
+        "views/iiot_device_profile_views.xml",
+        "views/iiot_telemetry_views.xml",
+        "views/iiot_telemetry_rule_views.xml",
+        "views/iiot_device_views.xml",
+        "views/iiot_firmware_views.xml",
+        "views/iiot_update_views.xml",
+        "views/iiot_gateway_views.xml",
+        "views/menu.xml",
+    ],
+    "demo": [],
+    "images": ["static/description/main_screenshot.png"],
+    "installable": True,
+    "auto_install": False,
+    "application": True,
+    "price": 0,
+    "currency": "USD",
+    "license": "AGPL-3",
+}

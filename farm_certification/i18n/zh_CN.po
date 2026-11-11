@@ -1,0 +1,70 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_certification
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-05-04 09:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_certification
+#. odoo-python
+#: code:addons/farm_certification/models/partner_certification.py:0
+msgid ""
+"CORE-CLOSURE: 供应商 [%s] agricultural qualification has expired.\n"
+"A todo task has been automatically created for the compliance officer. Please update credentials and try again."
+msgstr ""
+
+#. module: farm_certification
+#. odoo-python
+#: code:addons/farm_certification/models/gap_certification.py:0
+msgid "Check date cannot be in the future."
+msgstr "检查日期不能是将来的日期。"
+
+#. module: farm_certification
+#. odoo-python
+#: code:addons/farm_certification/models/gap_certification.py:0
+msgid "GAP Certificate Expiry Alert"
+msgstr "GAP 证书到期警报"
+
+#. module: farm_certification
+#. odoo-python
+#: code:addons/farm_certification/models/gap_certification.py:0
+msgid "GAP Certificate is expiring on %s. Please renew promptly."
+msgstr "GAP 证书将于 %s 到期。请及时更新。"
+
+#. module: farm_certification
+#. odoo-python
+#: code:addons/farm_certification/models/gap_certification.py:0
+msgid "Issue date cannot be later than expiry date."
+msgstr "签发日期不能晚于到期日期。"
+
+#. module: farm_certification
+#. odoo-python
+#: code:addons/farm_certification/models/gap_certification.py:0
+msgid "Renew GAP Certificate"
+msgstr "更新GAP证书"
+
+#. module: farm_certification
+#. odoo-python
+#: code:addons/farm_certification/models/partner_certification.py:0
+msgid "Supplier Certificate Expired: Completion Required [%s]"
+msgstr "供应商证书已过期：需要完成[%s]"
+
+#. module: farm_certification
+#. odoo-python
+#: code:addons/farm_certification/models/partner_certification.py:0
+msgid ""
+"This order involves core agricultural inputs, but the supplier credentials "
+"have expired.Please update the qualification documents immediately, "
+"otherwise the order cannot proceed."
+msgstr ""

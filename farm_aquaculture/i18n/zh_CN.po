@@ -1,0 +1,59 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_aquaculture
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-05-04 09:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_aquaculture
+#. odoo-python
+#: code:addons/farm_aquaculture/models/aquaculture_operation.py:0
+msgid "ADDITIONAL STOCK: %s new %s added. Total count now: %s"
+msgstr "额外库存：添加了 %s 个新 %s。现在总计数：%s"
+
+#. module: farm_aquaculture
+#. odoo-python
+#: code:addons/farm_aquaculture/models/stock_lot.py:0
+msgid "Aqua: %s, Count: %s"
+msgstr "阿克娅：%s，计数：%s"
+
+#. module: farm_aquaculture
+#. odoo-python
+#: code:addons/farm_aquaculture/models/aquaculture_isl.py:0
+msgid "CRITICAL: Pond %s Dissolved Oxygen dropped to %s mg/L!"
+msgstr "严重：池塘 %s 溶解氧降至 %s mg/L！"
+
+#. module: farm_aquaculture
+#. odoo-python
+#: code:addons/farm_aquaculture/models/ras_isl.py:0
+msgid "CRITICAL: RAS Unit %s flow dropped below safety limit!"
+msgstr "严重：RAS 装置 %s 流量降至安全限值以下！"
+
+#. module: farm_aquaculture
+#. odoo-python
+#: code:addons/farm_aquaculture/models/aquaculture_operation.py:0
+msgid "Harvest scheduled for %s"
+msgstr "预计收获时间为 %s"
+
+#. module: farm_aquaculture
+#. odoo-python
+#: code:addons/farm_aquaculture/models/aquaculture_operation.py:0
+msgid "MORTALITY RECORDED: %s %s died. Total count now: %s. Cause: %s"
+msgstr "记录的死亡率：%s %s 死亡。现在总计数：%s。原因：%s"
+
+#. module: farm_aquaculture
+#. odoo-python
+#: code:addons/farm_aquaculture/models/aquaculture_operation.py:0
+msgid "WATER QUALITY UPDATE:\n"
+msgstr "水质更新：\n"

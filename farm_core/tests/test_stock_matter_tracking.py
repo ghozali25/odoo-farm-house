@@ -1,0 +1,334 @@
+# -*- coding: utf-8 -*-
+from odoo.tests.common import TransactionCase, tagged
+from odoo.exceptions import UserError
+from datetime import datetime, timedelta
+
+@tagged('post_install', '-at_install')
+class TestStockMatterTrackingBase(TransactionCase):
+    @classmethod
+    def setUpClass(cls):
+        super(TestStockMatterTrackingBase, cls).setUpClass()
+        cls.Product = cls.env['product.product']
+        cls.Lot = cls.env['stock.lot']
+        cls.Location = cls.env['stock.location']
+        cls.Tracking = cls.env['stock.matter.tracking']
+        cls.Quant = cls.env['stock.quant']
+        cls.BiologicalAsset = cls.env['agri.biological.asset']
+        
+        # Create test category
+        cls.category_apple = cls.env['product.category'].create({
+            'name': 'Apples',
+            'matter_enforcement_level': 'guidance'
+        })
+        
+        # Create test products
+        cls.product_apple = cls.Product.create({
+            'name': 'Organic Red Apple',
+            'type': 'consu',
+            'is_storable': True,
+            'categ_id': cls.category_apple.id
+        })
+        
+        # Create test lots
+        cls.lot_a = cls.Lot.create({
+            'name': 'LOT-APP-001',
+            'product_id': cls.product_apple.id
+        })
+        
+        # Create test location
+        cls.location_vessel = cls.Location.create({
+            'name': 'Staging Bin A',
+            'usage': 'internal'
+        })
+
+        # Create individual biological asset for tracking
+        cls.biological_asset = cls.BiologicalAsset.create({
+            'name': 'Cow #1204',
+            'agricultural_type': 'animal'
+        })
+
+    def test_01_delegation_creation_and_sequence(self):
+        """ Test that creating a stock.matter.tracking record automatically creates stock.package with sequence name """
+        tracking = self.Tracking.create({
+            'vessel_phase': 'idle'
+        })
+        
+        self.assertTrue(tracking.package_id, "Underlying package must be automatically created via delegation.")
+        self.assertTrue(tracking.name.startswith('MAT-'), "Name should be generated automatically from the sequence.")
+        self.assertEqual(tracking.vessel_phase, 'idle')
+
+    def test_02_gxp_sealing_and_expiration(self):
+        """ Test sealing the vessel starts the GxP clean-hold timer """
+        tracking = self.Tracking.create({
+            'vessel_phase': 'idle'
+        })
+        
+        # Seal vessel
+        tracking.action_seal_vessel()
+        self.assertEqual(tracking.vessel_phase, 'ready')
+        self.assertTrue(tracking.gxp_open_time)
+        self.assertTrue(tracking.gxp_expiry_time)
+        
+        # Check clean-hold 24h duration
+        expected_expiry = tracking.gxp_open_time + timedelta(hours=24)
+        self.assertAlmostEqual(
+            tracking.gxp_expiry_time.timestamp(),
+            expected_expiry.timestamp(),
+            delta=5,
+            msg="GxP clean-hold limit must be exactly 24 hours from opening."
+        )
+
+    def test_03_biological_asset_individual_tracking(self):
+        """ Test linking an individual biological asset for agricultural tracking """
+        tracking = self.Tracking.create({
+            'vessel_phase': 'idle',
+            'biological_asset_id': self.biological_asset.id
+        })
+        
+        self.assertEqual(tracking.biological_asset_id, self.biological_asset)
+
+    def test_04_before_state_snapshot_capture(self):
+        """ Test that changing process phase automatically captures a Before-State snapshot """
+        tracking = self.Tracking.create({
+            'vessel_phase': 'idle',
+            'biological_asset_id': self.biological_asset.id
+        })
+        
+        # Capture first snapshot by changing phase
+        self.assertEqual(len(tracking.snapshot_ids), 0)
+        
+        # Trigger transition
+        tracking.write({'vessel_phase': 'ready'})
+        
+        # A snapshot of the 'idle' phase should have been captured before transitioning to 'ready'
+        self.assertEqual(len(tracking.snapshot_ids), 1, "A snapshot must be automatically captured on state transitions.")
+        snapshot = tracking.snapshot_ids[0]
+        self.assertEqual(snapshot.vessel_phase, 'idle', "The snapshot must capture the BEFORE-state of the vessel.")
+        self.assertEqual(snapshot.biological_asset_id, self.biological_asset, "The snapshot must preserve individual biological asset context.")
+
+    def test_05_dna_ancestry_and_purity(self):
+        """ Test the matter-trinity dna computation """
+        tracking = self.Tracking.create({
+            'vessel_phase': 'idle'
+        })
+        
+        # Place quant inside the package
+        quant = self.Quant.create({
+            'product_id': self.product_apple.id,
+            'lot_id': self.lot_a.id,
+            'quantity': 10.0,
+            'location_id': self.location_vessel.id,
+            'package_id': tracking.package_id.id
+        })
+        
+        # Recompute
+        tracking._compute_lot_ids()
+        
+        # Verify lot ancestry is detected on the tracking record
+        self.assertIn(self.lot_a, tracking.lot_ids, "DNA lot must be propagated and displayed on the Matter Tracking record.")
+
+    def test_06_adaptive_enforcement_computation(self):
+        """ Test that changing a category enforcement level correctly propagates active level """
+        tracking = self.Tracking.create({'vessel_phase': 'idle'})
+        
+        # Base category default is 'guidance'
+        self.assertEqual(tracking.active_enforcement_level, 'guidance')
+        
+        # Update product category to strict
+        self.category_apple.matter_enforcement_level = 'strict'
+        
+        # Link product quant to tracking vessel
+        self.Quant.create({
+            'product_id': self.product_apple.id,
+            'quantity': 5.0,
+            'location_id': self.location_vessel.id,
+            'package_id': tracking.package_id.id
+        })
+        
+        # Trigger dependency compute with cleared cache
+        self.env.flush_all()
+        tracking.invalidate_recordset()
+        
+        tracking._compute_active_enforcement()
+        self.assertEqual(tracking.active_enforcement_level, 'strict', "Active level must resolve to strict if any contained product is high-risk.")
+
+    def test_07_fission_split_math_and_dna_decay(self):
+        """ Test that executing fission generates child records, balances quantities, and applies DNA decay """
+        # Set base tracking record with 100% DNA score
+        parent_tracking = self.Tracking.create({
+            'vessel_phase': 'ready',
+            'dna_integrity_score': 100.0,
+            'location_id': self.location_vessel.id
+        })
+        
+        # Split target data representing carcass division
+        target_splits = [
+            {'product_id': self.product_apple.id, 'quantity': 4.0, 'lot_name': 'SPLIT-1'},
+            {'product_id': self.product_apple.id, 'quantity': 6.0, 'lot_name': 'SPLIT-2'}
+        ]
+        
+        child_records = parent_tracking.action_execute_fission(target_splits)
+        
+        self.assertEqual(len(child_records), 2, "Must create exactly 2 split offspring vessels.")
+        self.assertEqual(parent_tracking.vessel_phase, 'dirty', "Parent vessel must be marked dirty/depleted.")
+        
+        # Verify DNA Integrity score decay (100 * 0.95 = 95.0%)
+        for child in child_records:
+            self.assertAlmostEqual(child.dna_integrity_score, 95.0, delta=0.1, msg="Offspring must inherit decayed DNA integrity score.")
+
+    def test_08_matter_physical_properties_and_geofencing(self):
+        """ Test weight tracking, GPS alignment, and Ray-casting Plot geofencing inside Matter Tracking """
+        tracking = self.Tracking.create({
+            'vessel_phase': 'idle',
+            'current_weight': 450.5,
+            'life_stage': 'growing'
+        })
+        self.assertEqual(tracking.current_weight, 450.5)
+        self.assertEqual(tracking.life_stage, 'growing')
+
+        # Put a quant inside the package to satisfy Odoo 19's non-empty package constraint for location updates
+        self.Quant.create({
+            'product_id': self.product_apple.id,
+            'quantity': 10.0,
+            'location_id': self.location_vessel.id,
+            'package_id': tracking.package_id.id
+        })
+
+        # Create land parcel with geojson polygon
+        import json
+        boundary = {
+            "type": "Polygon",
+            "coordinates": [[
+                [120.0, 30.0],
+                [121.0, 30.0],
+                [121.0, 31.0],
+                [120.0, 31.0],
+                [120.0, 30.0]
+            ]]
+        }
+        plot = self.env['farm.location'].create({
+            'name': 'Greenhouse Poly Block A',
+            'is_land_parcel': True,
+            'boundary_geojson': json.dumps(boundary)
+        })
+
+        # Test GPS outside boundary
+        matched_plot = tracking.action_update_location_by_gps(lat=29.5, lng=120.5)
+        self.assertFalse(matched_plot)
+
+        # Test GPS inside boundary
+        matched_plot = tracking.action_update_location_by_gps(lat=30.5, lng=120.5)
+        self.assertEqual(matched_plot, plot)
+        self.assertEqual(tracking.farm_location_id, plot)
+        self.assertEqual(tracking.last_gps_lat, 30.5)
+
+    def test_09_custom_message_subtypes(self):
+        """ Test registered custom mail message subtypes for Colocation Era chatter """
+        iot_subtype = self.env.ref('farm_core.mt_subtype_iot_telemetry')
+        ai_subtype = self.env.ref('farm_core.mt_subtype_ai_decision')
+        gxp_subtype = self.env.ref('farm_core.mt_subtype_gxp_audit')
+
+        self.assertTrue(iot_subtype)
+        self.assertEqual(iot_subtype.name, 'IoT Telemetry')
+        self.assertEqual(iot_subtype.res_model, 'stock.matter.tracking')
+        self.assertEqual(iot_subtype.description, 'Hardware sensor logs and threshold alerts')
+
+        self.assertTrue(ai_subtype)
+        self.assertEqual(ai_subtype.name, 'AI Decision')
+        self.assertEqual(ai_subtype.res_model, 'stock.matter.tracking')
+        self.assertEqual(ai_subtype.description, 'AI agent ensemble voting and logic outputs')
+
+        self.assertTrue(gxp_subtype)
+        self.assertEqual(gxp_subtype.name, 'GxP Audit')
+        self.assertEqual(gxp_subtype.res_model, 'stock.matter.tracking')
+        self.assertEqual(gxp_subtype.description, 'High-security human sign-offs')
+
+    def test_10_api_posting_logic(self):
+        """ Test the posting API logic for IoT and AI decisions on matter tracking """
+        tracking = self.Tracking.create({
+            'vessel_phase': 'idle'
+        })
+        
+        # Test log_iot_event (level='info')
+        res_iot_info = tracking.log_iot_event(device_name='TempSensor-1', payload='{"temp": 22.5}', level='info')
+        self.assertTrue(res_iot_info)
+        
+        # Test log_iot_event (level='warning')
+        res_iot_warning = tracking.log_iot_event(device_name='TempSensor-1', payload='{"temp": 35.0}', level='warning')
+        self.assertTrue(res_iot_warning)
+
+        # Test log_iot_event (level='critical')
+        res_iot_critical = tracking.log_iot_event(device_name='TempSensor-1', payload='{"temp": 50.0}', level='critical')
+        self.assertTrue(res_iot_critical)
+        
+        # Test log_ai_decision
+        res_ai = tracking.log_ai_decision(agent_name='OptimalHarvestAgent', action='harvest', confidence=95.0, rationale='Optimal maturity index reached.')
+        self.assertTrue(res_ai)
+        
+        # Verify messages are posted on the chatter
+        messages = self.env['mail.message'].search([('model', '=', 'stock.matter.tracking'), ('res_id', '=', tracking.id)])
+
+        # Verify subtypes and contents
+        iot_subtype = self.env.ref('farm_core.mt_subtype_iot_telemetry')
+        ai_subtype = self.env.ref('farm_core.mt_subtype_ai_decision')
+        
+        iot_messages = messages.filtered(lambda m: m.subtype_id == iot_subtype)
+        ai_messages = messages.filtered(lambda m: m.subtype_id == ai_subtype)
+        
+        self.assertEqual(len(iot_messages), 3)
+        self.assertEqual(len(ai_messages), 1)
+        
+        # Check specific details in content
+        # Check warnings/colors
+        # We can inspect message bodies
+        self.assertTrue(any('IoT Telemetry: TempSensor-1' in m.body for m in iot_messages))
+        self.assertTrue(any('border-left: 3px solid gray' in m.body for m in iot_messages))
+        self.assertTrue(any('border-left: 3px solid orange' in m.body for m in iot_messages))
+        self.assertTrue(any('border-left: 3px solid red' in m.body for m in iot_messages))
+        
+        self.assertTrue(any('AI Decision: OptimalHarvestAgent' in m.body for m in ai_messages))
+        self.assertTrue(any('Action:' in m.body and 'harvest' in m.body for m in ai_messages))
+        self.assertTrue(any('Confidence:' in m.body and '95' in m.body for m in ai_messages))
+        self.assertTrue(any('Optimal maturity index reached.' in m.body for m in ai_messages))
+
+    def test_11_nowait_concurrency_lock(self):
+        """ Verify action_lock_for_write aborts immediately with a ValidationError when blocked """
+        # Open parallel database cursor to handle creation, commit, and lock
+        new_cr = self.registry.cursor()
+        
+        # 1. Insert packages and matter tracking via parallel cursor and commit so others can see it
+        new_cr.execute("INSERT INTO stock_package (name) VALUES ('MAT-LOCK-999') RETURNING id")
+        pkg_id = new_cr.fetchone()[0]
+        new_cr.execute(
+            "INSERT INTO stock_matter_tracking (id, package_id, vessel_phase, carrier_state) VALUES (%s, %s, 'idle', 'idle')",
+            (pkg_id, pkg_id)
+        )
+        new_cr.commit()
+
+        # 2. Re-acquire lock on the created row in the parallel cursor
+        new_cr.execute("SELECT id FROM stock_matter_tracking WHERE id = %s FOR UPDATE", (pkg_id,))
+        
+        # 3. Open another parallel cursor representing our active session
+        active_cr = self.registry.cursor()
+        
+        try:
+            # Bind the Environment to active_cr so it can see the committed record and test the model method
+            active_env = self.env(cr=active_cr)
+            tracking = active_env['stock.matter.tracking'].browse(pkg_id)
+            
+            from odoo.exceptions import ValidationError
+            with self.assertRaises(ValidationError) as context:
+                # This must fail instantly because new_cr holds the row lock!
+                tracking.action_lock_for_write()
+            self.assertIn("CARRIER_ROW_LOCKED_TRY_AGAIN", str(context.exception))
+        finally:
+            active_cr.close()
+            # 4. Rollback the lock, delete the row, and commit via the parallel cursor
+            new_cr.rollback()
+            new_cr.execute("DELETE FROM stock_matter_tracking WHERE id = %s", (pkg_id,))
+            new_cr.execute("DELETE FROM stock_package WHERE id = %s", (pkg_id,))
+            new_cr.commit()
+            new_cr.close()
+
+
+

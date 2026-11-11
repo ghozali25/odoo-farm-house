@@ -1,0 +1,161 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_ai_vision
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Batch/Lot"
+msgstr "批次/批次"
+
+msgid "Color Grade"
+msgstr "颜色等级"
+
+msgid "Crop Type"
+msgstr "作物类型"
+
+msgid "Data Isolation Level"
+msgstr "数据隔离级别"
+
+msgid "Defect Severity"
+msgstr "缺陷严重程度"
+
+msgid "Detection Type"
+msgstr "检测类型"
+
+msgid "Estimated percentage of loss if risk materializes"
+msgstr "风险发生时的预计损失百分比"
+
+msgid "Explanation of AI vision analysis process"
+msgstr "AI视觉分析流程讲解"
+
+msgid "Growth Stage"
+msgstr "成长期"
+
+msgid "Heatmap showing areas of highest detection confidence"
+msgstr "显示检测置信度最高区域的热图"
+
+msgid "Industry"
+msgstr "行业"
+
+msgid "Industry to which this detection applies"
+msgstr "本检测适用行业"
+
+msgid "Industry to which this planning applies"
+msgstr "本规划适用行业"
+
+msgid "Industry to which this prediction applies"
+msgstr "该预测适用的行业"
+
+msgid "Industry to which this risk assessment applies"
+msgstr "本风险评估适用的行业"
+
+msgid "Industry to which this sorting applies"
+msgstr "此排序适用的行业"
+
+msgid "Input image for AI vision analysis"
+msgstr "用于AI视觉分析的输入图像"
+
+msgid "JSON data of similar cases for reference"
+msgstr "类似案例的JSON数据可供参考"
+
+msgid "JSON parameters used for image analysis"
+msgstr "用于图像分析的 JSON 参数"
+
+msgid "Land Location"
+msgstr "土地位置"
+
+msgid "Name of the detected pest or disease"
+msgstr "发现的病虫害名称"
+
+msgid "Numerical risk score from 0-100"
+msgstr "数字风险评分从 0 到 100"
+
+msgid "Percentage of area at risk"
+msgstr "面临风险的地区百分比"
+
+msgid "Percentage of plant/leaf affected"
+msgstr "受影响的植物/叶子的百分比"
+
+msgid "Plants per square meter"
+msgstr "每平方米植物数量"
+
+msgid "Predicted yield per unit area"
+msgstr "单位面积预测产量"
+
+msgid "Priority"
+msgstr "优先级"
+
+msgid "Product Type"
+msgstr "产品类型"
+
+msgid "Quality grade assigned by AI vision system"
+msgstr "AI视觉系统赋予质量等级"
+
+msgid "Recommended spacing between plants"
+msgstr "建议植物间距"
+
+msgid "Ripeness Level"
+msgstr "成熟度"
+
+msgid "Risk Level"
+msgstr "风险等级"
+
+msgid "Risk Type"
+msgstr "风险类型"
+
+msgid "Severity Level"
+msgstr "严重程度"
+
+msgid "Size Category"
+msgstr "尺码分类"
+
+msgid "Soil Condition"
+msgstr "土壤状况"
+
+msgid "Sorting Type"
+msgstr "排序类型"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Suggested Crop Type"
+msgstr "建议作物类型"
+
+msgid "Suggested Planting Season"
+msgstr "建议种植季节"
+
+msgid "Suggested bin/destination for this item"
+msgstr "该物品的建议垃圾箱/目的地"
+
+msgid "Treatment Priority"
+msgstr "治疗优先顺序"
+
+msgid "Type of AI vision model used for analysis"
+msgstr "用于分析的 AI 视觉模型类型"
+
+msgid "Type of defect detected by AI vision"
+msgstr "AI视觉检测到的缺陷类型"
+
+msgid "What to do with this item based on classification"
+msgstr "根据分类如何处理该项目"
+
+msgid "Whether this detection accesses ISL models"
+msgstr "此检测是否访问 ISL 模型"
+
+msgid "Whether this planning accesses ISL models"
+msgstr "此规划是否访问 ISL 模型"
+
+msgid "Whether this prediction accesses ISL models"
+msgstr "此预测是否访问 ISL 模型"
+
+msgid "Whether this risk assessment accesses ISL models"
+msgstr "此风险评估是否访问 ISL 模型"
+
+msgid "Whether this sorting accesses ISL models"
+msgstr "此排序是否访问 ISL 模型"
+
+msgid "Yield Unit"
+msgstr "产量单位"
+

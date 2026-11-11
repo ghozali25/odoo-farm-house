@@ -1,0 +1,17 @@
+# Constraints file — B19 (10 Nov 2026).
+# Dipakai bersama install amqtt (broker MQTT untuk simulasi), yang BUKAN
+# bagian dari requirements.txt. Tanpa constraints, urutan install yang salah
+# pernah membuat venv berisi pydantic 2.14.3 (padahal settings.py memakai
+# `from pydantic import BaseSettings`, API pydantic v1) sehingga bridge
+# mati total dengan `PydanticImportError: BaseSettings has been moved to
+# pydantic-settings`. Akar drift TERBUKTI di venv bersih: amqtt menarik
+# `typer 0.29.0` yang mensyaratkan `pydantic>=2.5.3`; dengan constraints
+# ini pip memilih typer 0.28.0 yang kompatibel dan `pip check` bersih.
+#
+# Cara pakai (urutan install yang benar — lihat requirements.txt):
+#   pip install amqtt -c constraints.txt
+#   pip install -r requirements.txt -c constraints.txt
+# Atau gabungkan: pip install amqtt -r requirements.txt -c constraints.txt
+# Verifikasi sesudah install: `pip show pydantic` HARUS 1.10.13 dan
+# `pip check` tanpa broken requirements.
+pydantic==1.10.13

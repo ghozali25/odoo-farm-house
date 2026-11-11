@@ -1,0 +1,916 @@
+# Translation of farm_ai_vision to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_ai_vision 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_ai_vision
+msgid "AI Image Analysis Prediction"
+msgstr "AI Gambar Analisis Prediksi"
+
+#. module: farm_ai_vision
+msgid "AI Image-Based Planning"
+msgstr "AI Image-Based Planning"
+
+#. module: farm_ai_vision
+msgid "AI Pest &amp; Disease Detection"
+msgstr "AI Pest &amp; Disease Detection"
+
+#. module: farm_ai_vision
+msgid "AI Vision Analysis Name"
+msgstr "AI Visi Analisis Nama"
+
+#. module: farm_ai_vision
+msgid "AI Vision Base"
+msgstr "AI Vision Base"
+
+#. module: farm_ai_vision
+msgid "AI Vision Risk Assessment"
+msgstr "AI Visi Risiko Penilaian"
+
+#. module: farm_ai_vision
+msgid "AI Vision System"
+msgstr "AI Vision System"
+
+#. module: farm_ai_vision
+msgid "AI Visual Sorting"
+msgstr "AI Visual Sorting"
+
+#. module: farm_ai_vision
+msgid "Add your first image analysis prediction!"
+msgstr "Add your first image analysis prediction!"
+
+#. module: farm_ai_vision
+msgid "Add your first image-based planning!"
+msgstr "Add your first image-based planning!"
+
+#. module: farm_ai_vision
+msgid "Add your first pest &amp; disease detection!"
+msgstr "Add your first pest &amp; disease detection!"
+
+#. module: farm_ai_vision
+msgid "Add your first vision-based risk assessment!"
+msgstr "Add your first vision-based risk assessment!"
+
+#. module: farm_ai_vision
+msgid "Add your first visual sorting task!"
+msgstr "Add your first visual sorting task!"
+
+#. module: farm_ai_vision
+msgid "Affected Area (%)"
+msgstr "Affected Area (%)"
+
+#. module: farm_ai_vision
+msgid "Analysis Date"
+msgstr "Analisis Tanggal"
+
+#. module: farm_ai_vision
+msgid "Analysis Reasoning"
+msgstr "Analysis Reasoning"
+
+#. module: farm_ai_vision
+msgid "Analysis Result"
+msgstr "Analysis Result"
+
+#. module: farm_ai_vision
+msgid "Autumn"
+msgstr "Autumn"
+
+#. module: farm_ai_vision
+msgid "Classification &amp; Actions"
+msgstr "Classification &amp; Actions"
+
+#. module: farm_ai_vision
+msgid "Classification Result"
+msgstr "Classification Result"
+
+#. module: farm_ai_vision
+msgid "Color Sorting"
+msgstr "Color Sorting"
+
+#. module: farm_ai_vision
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_ai_vision
+msgid "Confidence Map"
+msgstr "Confidence Map"
+
+#. module: farm_ai_vision
+msgid "Critical"
+msgstr "Critical"
+
+#. module: farm_ai_vision
+msgid "Crop Health Risk"
+msgstr "Tanaman Kesehatan Risiko"
+
+#. module: farm_ai_vision
+msgid "Default Vision Model"
+msgstr "Default Vision Model"
+
+#. module: farm_ai_vision
+msgid "Defect Detected"
+msgstr "Defect Detected"
+
+#. module: farm_ai_vision
+msgid "Defect Detection"
+msgstr "Defect Detection"
+
+#. module: farm_ai_vision
+msgid "Defect Type"
+msgstr "Defect Type"
+
+#. module: farm_ai_vision
+msgid "Detected Pest/Disease"
+msgstr "Detected Pest/Disease"
+
+#. module: farm_ai_vision
+msgid "Detection &amp; Diagnosis"
+msgstr "Detection &amp; Diagnosis"
+
+#. module: farm_ai_vision
+msgid "Disease Detection"
+msgstr "Disease Detection"
+
+#. module: farm_ai_vision
+msgid "Disease Spread Risk"
+msgstr "Disease Spread Risk"
+
+#. module: farm_ai_vision
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_ai_vision
+msgid "Dry Season"
+msgstr "Dry Season"
+
+#. module: farm_ai_vision
+msgid "Entity Level"
+msgstr "Entity Level"
+
+#. module: farm_ai_vision
+msgid "Environmental Stress"
+msgstr "Environmental Stress"
+
+#. module: farm_ai_vision
+msgid "Error"
+msgstr "Galat"
+
+#. module: farm_ai_vision
+msgid "Excellent"
+msgstr "Excellent"
+
+#. module: farm_ai_vision
+msgid "Extra Large"
+msgstr "Extra Large"
+
+#. module: farm_ai_vision
+msgid "Extra Small"
+msgstr "Extra Small"
+
+#. module: farm_ai_vision
+msgid "Fair"
+msgstr "Fair"
+
+#. module: farm_ai_vision
+msgid "Fair Color"
+msgstr "Fair Color"
+
+#. module: farm_ai_vision
+msgid "Field Preparation Recommendations"
+msgstr "Field Preparation Recommendations"
+
+#. module: farm_ai_vision
+msgid "Flowering"
+msgstr "Flowering"
+
+#. module: farm_ai_vision
+msgid "Fruiting"
+msgstr "Fruiting"
+
+#. module: farm_ai_vision
+msgid "Germination"
+msgstr "Germination"
+
+#. module: farm_ai_vision
+msgid "Good"
+msgstr "Good"
+
+#. module: farm_ai_vision
+msgid "Good Color"
+msgstr "Good Color"
+
+#. module: farm_ai_vision
+msgid "Grade"
+msgstr "Grade"
+
+#. module: farm_ai_vision
+msgid "Growth Prediction"
+msgstr "Pertumbuhan Prediksi"
+
+#. module: farm_ai_vision
+msgid "High"
+msgstr "High"
+
+#. module: farm_ai_vision
+msgid "High (51-75%)"
+msgstr "High (51-75%)"
+
+#. module: farm_ai_vision
+msgid "High (61-80%)"
+msgstr "High (61-80%)"
+
+#. module: farm_ai_vision
+msgid "ISL Configuration"
+msgstr "ISL Configuration"
+
+#. module: farm_ai_vision
+msgid "Image"
+msgstr "Gambar"
+
+#. module: farm_ai_vision
+msgid "Image Analysis Prediction"
+msgstr "Gambar Analisis Prediksi"
+
+#. module: farm_ai_vision
+msgid "Image Filename"
+msgstr "Image Filename"
+
+#. module: farm_ai_vision
+msgid "Image processed successfully"
+msgstr "Image processed successfully"
+
+#. module: farm_ai_vision
+msgid "Image-Based Planning"
+msgstr "Image-Based Planning"
+
+#. module: farm_ai_vision
+msgid "Image-Based Planting Plan"
+msgstr "Image-Based Planting Plan"
+
+#. module: farm_ai_vision
+msgid "Immediate Action Required"
+msgstr "Immediate Action Required"
+
+#. module: farm_ai_vision
+msgid "Industry Level"
+msgstr "Industry Level"
+
+#. module: farm_ai_vision
+msgid "Input Parameters"
+msgstr "Input Parameters"
+
+#. module: farm_ai_vision
+msgid "Large"
+msgstr "Large"
+
+#. module: farm_ai_vision
+msgid "Low"
+msgstr "Low"
+
+#. module: farm_ai_vision
+msgid "Low (1-25%)"
+msgstr "Low (1-25%)"
+
+#. module: farm_ai_vision
+msgid "Low (21-40%)"
+msgstr "Low (21-40%)"
+
+#. module: farm_ai_vision
+msgid "Major"
+msgstr "Major"
+
+#. module: farm_ai_vision
+msgid "Maturation"
+msgstr "Maturation"
+
+#. module: farm_ai_vision
+msgid "Medium"
+msgstr "Medium"
+
+#. module: farm_ai_vision
+msgid "Medium (26-50%)"
+msgstr "Medium (26-50%)"
+
+#. module: farm_ai_vision
+msgid "Medium (41-60%)"
+msgstr "Medium (41-60%)"
+
+#. module: farm_ai_vision
+msgid "Minor"
+msgstr "Minor"
+
+#. module: farm_ai_vision
+msgid "Mitigation Recommendations"
+msgstr "Mitigation Recommendations"
+
+#. module: farm_ai_vision
+msgid "Mitigation Strategies"
+msgstr "Mitigation Strategies"
+
+#. module: farm_ai_vision
+msgid "Model Type"
+msgstr "Model Type"
+
+#. module: farm_ai_vision
+msgid "Moderate"
+msgstr "Moderate"
+
+#. module: farm_ai_vision
+msgid "Monitor and Reassess"
+msgstr "Monitor and Reassess"
+
+#. module: farm_ai_vision
+msgid "Name"
+msgstr "Nama"
+
+#. module: farm_ai_vision
+msgid "No Isolation"
+msgstr "No Isolation"
+
+#. module: farm_ai_vision
+msgid "No Treatment Needed"
+msgstr "No Treatment Needed"
+
+#. module: farm_ai_vision
+msgid "Nutrient Deficiency"
+msgstr "Nutrient Deficiency"
+
+#. module: farm_ai_vision
+msgid "Optimal Harvest Time"
+msgstr "Optimal Harvest Time"
+
+#. module: farm_ai_vision
+msgid "Optimal Ripeness"
+msgstr "Optimal Ripeness"
+
+#. module: farm_ai_vision
+msgid "Output Data"
+msgstr "Output Data"
+
+#. module: farm_ai_vision
+msgid "Overripe"
+msgstr "Overripe"
+
+#. module: farm_ai_vision
+msgid "Parameters &amp; Results"
+msgstr "Parameters &amp; Results"
+
+#. module: farm_ai_vision
+msgid "Pest &amp; Disease Detection"
+msgstr "Pest &amp; Disease Detection"
+
+#. module: farm_ai_vision
+msgid "Pest Detection"
+msgstr "Pest Detection"
+
+#. module: farm_ai_vision
+msgid "Pest Outbreak Risk"
+msgstr "Pest Outbreak Risk"
+
+#. module: farm_ai_vision
+msgid "Pest/Disease Detection Analysis"
+msgstr "Pest/Disease Detection Analysis"
+
+#. module: farm_ai_vision
+msgid "Planning &amp; Recommendations"
+msgstr "Planning &amp; Recommendations"
+
+#. module: farm_ai_vision
+msgid "Planning Recommendations"
+msgstr "Planning Recommendations"
+
+#. module: farm_ai_vision
+msgid "Poor"
+msgstr "Poor"
+
+#. module: farm_ai_vision
+msgid "Poor Color"
+msgstr "Poor Color"
+
+#. module: farm_ai_vision
+msgid "Potential Issues Predicted"
+msgstr "Potential Issues Predicted"
+
+#. module: farm_ai_vision
+msgid "Potential Loss (%)"
+msgstr "Potential Loss (%)"
+
+#. module: farm_ai_vision
+msgid "Predicted Yield"
+msgstr "Predicted Yield"
+
+#. module: farm_ai_vision
+msgid "Prediction &amp; Analytics"
+msgstr "Prediction &amp; Analytics"
+
+#. module: farm_ai_vision
+msgid "Predictions"
+msgstr "Predictions"
+
+#. module: farm_ai_vision
+msgid "Premium Color"
+msgstr "Premium Color"
+
+#. module: farm_ai_vision
+msgid "Prevention Tips"
+msgstr "Prevention Tips"
+
+#. module: farm_ai_vision
+msgid "Process Image"
+msgstr "Process Image"
+
+#. module: farm_ai_vision
+msgid "Processing"
+msgstr "Processing"
+
+#. module: farm_ai_vision
+msgid "Quality Defect Risk"
+msgstr "Quality Defect Risk"
+
+#. module: farm_ai_vision
+msgid "Quality Grading"
+msgstr "Mutu Grading"
+
+#. module: farm_ai_vision
+msgid "Recommended Action"
+msgstr "Recommended Action"
+
+#. module: farm_ai_vision
+msgid "Recommended Planting Density"
+msgstr "Recommended Planting Density"
+
+#. module: farm_ai_vision
+msgid "Recommended Treatment"
+msgstr "Recommended Treatment"
+
+#. module: farm_ai_vision
+msgid "Results &amp; Parameters"
+msgstr "Results &amp; Parameters"
+
+#. module: farm_ai_vision
+msgid "Ripeness Assessment"
+msgstr "Ripeness Assessment"
+
+#. module: farm_ai_vision
+msgid "Risk Analysis"
+msgstr "Risiko Analisis"
+
+#. module: farm_ai_vision
+msgid "Risk Assessment"
+msgstr "Risiko Penilaian"
+
+#. module: farm_ai_vision
+msgid "Risk Description"
+msgstr "Risiko Deskripsi"
+
+#. module: farm_ai_vision
+msgid "Risk Factors Identified"
+msgstr "Risk Factors Identified"
+
+#. module: farm_ai_vision
+msgid "Risk Monitoring Plan"
+msgstr "Risk Monitoring Plan"
+
+#. module: farm_ai_vision
+msgid "Risk Score"
+msgstr "Risk Score"
+
+#. module: farm_ai_vision
+msgid "Risks &amp; Mitigation"
+msgstr "Risks &amp; Mitigation"
+
+#. module: farm_ai_vision
+msgid "Seedling"
+msgstr "Seedling"
+
+#. module: farm_ai_vision
+msgid "Severe"
+msgstr "Severe"
+
+#. module: farm_ai_vision
+msgid "Should Treat Soon"
+msgstr "Should Treat Soon"
+
+#. module: farm_ai_vision
+msgid "Similar Cases"
+msgstr "Similar Cases"
+
+#. module: farm_ai_vision
+msgid "Size Classification"
+msgstr "Size Classification"
+
+#. module: farm_ai_vision
+msgid "Small"
+msgstr "Small"
+
+#. module: farm_ai_vision
+msgid "Sort Into Bin"
+msgstr "Sort Into Bin"
+
+#. module: farm_ai_vision
+msgid "Sorting &amp; Grading"
+msgstr "Sorting &amp; Grading"
+
+#. module: farm_ai_vision
+msgid "Spacing Recommendation"
+msgstr "Spacing Recommendation"
+
+#. module: farm_ai_vision
+msgid "Special Considerations"
+msgstr "Special Considerations"
+
+#. module: farm_ai_vision
+msgid "Spring"
+msgstr "Spring"
+
+#. module: farm_ai_vision
+msgid "Summer"
+msgstr "Summer"
+
+#. module: farm_ai_vision
+msgid "Treatment &amp; Recommendations"
+msgstr "Treatment &amp; Recommendations"
+
+#. module: farm_ai_vision
+msgid "Underripe"
+msgstr "Underripe"
+
+#. module: farm_ai_vision
+msgid "User Level"
+msgstr "User Level"
+
+#. module: farm_ai_vision
+msgid "Uses ISL Data"
+msgstr "Uses ISL Data"
+
+#. module: farm_ai_vision
+msgid "Variable Ripeness"
+msgstr "Variable Ripeness"
+
+#. module: farm_ai_vision
+msgid "Vegetative"
+msgstr "Vegetative"
+
+#. module: farm_ai_vision
+msgid "Very High (76-100%)"
+msgstr "Very High (76-100%)"
+
+#. module: farm_ai_vision
+msgid "Very High (81-100%)"
+msgstr "Very High (81-100%)"
+
+#. module: farm_ai_vision
+msgid "Very Low (1-20%)"
+msgstr "Very Low (1-20%)"
+
+#. module: farm_ai_vision
+msgid "Vision Risk Assessment"
+msgstr "Visi Risiko Penilaian"
+
+#. module: farm_ai_vision
+msgid "Visual Sorting"
+msgstr "Visual Sorting"
+
+#. module: farm_ai_vision
+msgid "Visual Sorting Analysis"
+msgstr "Visual Sorting Analysis"
+
+#. module: farm_ai_vision
+msgid "Weather Damage Risk"
+msgstr "Weather Damage Risk"
+
+#. module: farm_ai_vision
+msgid "Wet Season"
+msgstr "Wet Season"
+
+#. module: farm_ai_vision
+msgid "Winter"
+msgstr "Winter"
+
+#. module: farm_ai_vision
+msgid "Yield Loss Risk"
+msgstr "Yield Loss Risk"
+
+#. module: farm_ai_vision
+msgid "action_process_image"
+msgstr "action_process_image"
+
+#. module: farm_ai_vision
+msgid "activity_ids"
+msgstr "activity_ids"
+
+#. module: farm_ai_vision
+msgid "affected_area"
+msgstr "affected_area"
+
+#. module: farm_ai_vision
+msgid "affected_area_percentage"
+msgstr "affected_area_percentage"
+
+#. module: farm_ai_vision
+msgid "ai_confidence_score"
+msgstr "ai_confidence_score"
+
+#. module: farm_ai_vision
+msgid "ai_processing_time"
+msgstr "ai_processing_time"
+
+#. module: farm_ai_vision
+msgid "analysis_date"
+msgstr "analysis_date"
+
+#. module: farm_ai_vision
+msgid "analysis_reasoning"
+msgstr "analysis_reasoning"
+
+#. module: farm_ai_vision
+msgid "analysis_result"
+msgstr "analysis_result"
+
+#. module: farm_ai_vision
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_ai_vision
+msgid "batch_id"
+msgstr "batch_id"
+
+#. module: farm_ai_vision
+msgid "classification_result"
+msgstr "classification_result"
+
+#. module: farm_ai_vision
+msgid "color_grade"
+msgstr "color_grade"
+
+#. module: farm_ai_vision
+msgid "crop_health"
+msgstr "crop_health"
+
+#. module: farm_ai_vision
+msgid "crop_id"
+msgstr "crop_id"
+
+#. module: farm_ai_vision
+msgid "crop_type"
+msgstr "crop_type"
+
+#. module: farm_ai_vision
+msgid "data_isolation_level"
+msgstr "data_isolation_level"
+
+#. module: farm_ai_vision
+msgid "defect_detected"
+msgstr "defect_detected"
+
+#. module: farm_ai_vision
+msgid "defect_severity"
+msgstr "defect_severity"
+
+#. module: farm_ai_vision
+msgid "defect_type"
+msgstr "defect_type"
+
+#. module: farm_ai_vision
+msgid "detected_pest_disease"
+msgstr "detected_pest_disease"
+
+#. module: farm_ai_vision
+msgid "detection_confidence_map"
+msgstr "detection_confidence_map"
+
+#. module: farm_ai_vision
+msgid "detection_confidence_map_filename"
+msgstr "detection_confidence_map_filename"
+
+#. module: farm_ai_vision
+msgid "detection_type"
+msgstr "detection_type"
+
+#. module: farm_ai_vision
+msgid "field_preparation_needed"
+msgstr "field_preparation_needed"
+
+#. module: farm_ai_vision
+msgid "grade"
+msgstr "grade"
+
+#. module: farm_ai_vision
+msgid "growth_prediction"
+msgstr "growth_prediction"
+
+#. module: farm_ai_vision
+msgid "growth_stage"
+msgstr "growth_stage"
+
+#. module: farm_ai_vision
+msgid "help"
+msgstr "help"
+
+#. module: farm_ai_vision
+msgid "image"
+msgstr "image"
+
+#. module: farm_ai_vision
+msgid "image_filename"
+msgstr "image_filename"
+
+#. module: farm_ai_vision
+msgid "industry_id"
+msgstr "industry_id"
+
+#. module: farm_ai_vision
+msgid "input_parameters"
+msgstr "input_parameters"
+
+#. module: farm_ai_vision
+msgid "land_location_id"
+msgstr "land_location_id"
+
+#. module: farm_ai_vision
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_ai_vision
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_ai_vision
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_ai_vision
+msgid "mitigation_recommendations"
+msgstr "mitigation_recommendations"
+
+#. module: farm_ai_vision
+msgid "mitigation_strategies"
+msgstr "mitigation_strategies"
+
+#. module: farm_ai_vision
+msgid "model"
+msgstr "model"
+
+#. module: farm_ai_vision
+msgid "name"
+msgstr "name"
+
+#. module: farm_ai_vision
+msgid "optimal_harvest_time"
+msgstr "optimal_harvest_time"
+
+#. module: farm_ai_vision
+msgid "output_data"
+msgstr "output_data"
+
+#. module: farm_ai_vision
+msgid "planting_density"
+msgstr "planting_density"
+
+#. module: farm_ai_vision
+msgid "planting_season"
+msgstr "planting_season"
+
+#. module: farm_ai_vision
+msgid "potential_issues"
+msgstr "potential_issues"
+
+#. module: farm_ai_vision
+msgid "potential_loss"
+msgstr "potential_loss"
+
+#. module: farm_ai_vision
+msgid "predicted_yield"
+msgstr "predicted_yield"
+
+#. module: farm_ai_vision
+msgid "prevention_tips"
+msgstr "prevention_tips"
+
+#. module: farm_ai_vision
+msgid "priority"
+msgstr "priority"
+
+#. module: farm_ai_vision
+msgid "product.template"
+msgstr "product.template"
+
+#. module: farm_ai_vision
+msgid "product_id"
+msgstr "product_id"
+
+#. module: farm_ai_vision
+msgid "recommended_action"
+msgstr "recommended_action"
+
+#. module: farm_ai_vision
+msgid "recommended_treatment"
+msgstr "recommended_treatment"
+
+#. module: farm_ai_vision
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_ai_vision
+msgid "ripeness_level"
+msgstr "ripeness_level"
+
+#. module: farm_ai_vision
+msgid "risk_description"
+msgstr "risk_description"
+
+#. module: farm_ai_vision
+msgid "risk_factors"
+msgstr "risk_factors"
+
+#. module: farm_ai_vision
+msgid "risk_level"
+msgstr "risk_level"
+
+#. module: farm_ai_vision
+msgid "risk_monitoring_plan"
+msgstr "risk_monitoring_plan"
+
+#. module: farm_ai_vision
+msgid "risk_score"
+msgstr "risk_score"
+
+#. module: farm_ai_vision
+msgid "risk_type"
+msgstr "risk_type"
+
+#. module: farm_ai_vision
+msgid "severity_level"
+msgstr "severity_level"
+
+#. module: farm_ai_vision
+msgid "similar_cases"
+msgstr "similar_cases"
+
+#. module: farm_ai_vision
+msgid "size_category"
+msgstr "size_category"
+
+#. module: farm_ai_vision
+msgid "soil_condition"
+msgstr "soil_condition"
+
+#. module: farm_ai_vision
+msgid "sort_into_bin"
+msgstr "sort_into_bin"
+
+#. module: farm_ai_vision
+msgid "sorting_type"
+msgstr "sorting_type"
+
+#. module: farm_ai_vision
+msgid "spacing_recommendation"
+msgstr "spacing_recommendation"
+
+#. module: farm_ai_vision
+msgid "special_considerations"
+msgstr "special_considerations"
+
+#. module: farm_ai_vision
+msgid "status"
+msgstr "status"
+
+#. module: farm_ai_vision
+msgid "treatment_priority"
+msgstr "treatment_priority"
+
+#. module: farm_ai_vision
+msgid "unknown"
+msgstr "unknown"
+
+#. module: farm_ai_vision
+msgid "uom.uom"
+msgstr "uom.uom"
+
+#. module: farm_ai_vision
+msgid "uploaded_image.jpg"
+msgstr "uploaded_image.jpg"
+
+#. module: farm_ai_vision
+msgid "uses_isl_data"
+msgstr "uses_isl_data"
+
+#. module: farm_ai_vision
+msgid "view_mode"
+msgstr "view_mode"
+
+#. module: farm_ai_vision
+msgid "yield_unit"
+msgstr "yield_unit"

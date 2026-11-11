@@ -1,0 +1,1596 @@
+# Translation of farm_apiculture (farm_apiculture) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_apiculture 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_apiculture
+msgid "Access warning"
+msgstr "Peringatan Akses"
+
+#. module: farm_apiculture
+msgid "Action Needed"
+msgstr "Dibutuhkan Aksi"
+
+#. module: farm_apiculture
+msgid "Actions & Follow-up"
+msgstr "Actions & Follow-up"
+
+#. module: farm_apiculture
+msgid "Activities"
+msgstr "Aktivitas"
+
+#. module: farm_apiculture
+msgid "Activity Exception Decoration"
+msgstr "Dekorasi Pengecualian Aktivitas"
+
+#. module: farm_apiculture
+msgid "Activity State"
+msgstr "Status Aktivitas"
+
+#. module: farm_apiculture
+msgid "Activity Type Icon"
+msgstr "Ikon Jenis Aktivitas"
+
+#. module: farm_apiculture
+msgid "Actual Flown Area (mu/ha)"
+msgstr "Actual Flown Area (mu/ha)"
+
+#. module: farm_apiculture
+msgid "Agent Execution Status"
+msgstr "Status Eksekusi Agen"
+
+#. module: farm_apiculture
+msgid "Agri Interventions"
+msgstr "Intervensi Agri"
+
+#. module: farm_apiculture
+msgid "All Move"
+msgstr "Perpindahan Semua"
+
+#. module: farm_apiculture
+msgid "All Move Raw"
+msgstr "Mentah Perpindahan Semua"
+
+#. module: farm_apiculture
+msgid "Allocated Time"
+msgstr "Waktu Dialokasikan"
+
+#. module: farm_apiculture
+msgid "Allow Work Order Dependencies"
+msgstr "Dependensi Pesanan Kerja Izinkan"
+
+#. module: farm_apiculture
+msgid "Allow to create new lot/serial numbers for the components"
+msgstr "Allow to create new lot/serial numbers for the components"
+
+#. module: farm_apiculture
+msgid "Allowed Uom"
+msgstr "Satuan Diizinkan"
+
+#. module: farm_apiculture
+msgid "Allowed to Reserve Production"
+msgstr "Produksi Reservasi ke Diizinkan"
+
+#. module: farm_apiculture
+msgid "Allowed to Unreserve Production"
+msgstr "Produksi Batalkan reservasi ke Diizinkan"
+
+#. module: farm_apiculture
+msgid "Animal Count"
+msgstr "Jumlah Hewan"
+
+#. module: farm_apiculture
+msgid "Apiculture"
+msgstr "Perlebahan"
+
+#. module: farm_apiculture
+msgid "Apiculture Information"
+msgstr "Informasi Perlebahan"
+
+#. module: farm_apiculture
+msgid "Apiculture Management - Bee Colonies, Hive Management, Honey Production, Nectar Source Tracking"
+msgstr "Apiculture Management - Bee Colonies, Hive Management, Honey Production, Nectar Source Tracking"
+
+#. module: farm_apiculture
+msgid "Apiculture Operations"
+msgstr "Operasi Perlebahan"
+
+#. module: farm_apiculture
+msgid "Approval Date"
+msgstr "Tanggal Persetujuan"
+
+#. module: farm_apiculture
+msgid "Approval Status"
+msgstr "Status Persetujuan"
+
+#. module: farm_apiculture
+msgid "Approver"
+msgstr "Penyetuju"
+
+#. module: farm_apiculture
+msgid "Area in sqm/mu or quantity of individuals."
+msgstr "Area in sqm/mu or quantity of individuals."
+
+#. module: farm_apiculture
+msgid "Assignees"
+msgstr "Assignees"
+
+#. module: farm_apiculture
+msgid "Assigning Date"
+msgstr "Assigning Date"
+
+#. module: farm_apiculture
+msgid "Attached GPS logs, IoT sensor data, or site photos."
+msgstr "Attached GPS logs, IoT sensor data, or site photos."
+
+#. module: farm_apiculture
+msgid "Attachment Count"
+msgstr "Jumlah Lampiran"
+
+#. module: farm_apiculture
+msgid "Attachments that don't come from a message"
+msgstr "Attachments that don't come from a message"
+
+#. module: farm_apiculture
+msgid "Attribute Values"
+msgstr "Nilai Atribut"
+
+#. module: farm_apiculture
+msgid "Audit Confidence"
+msgstr "Audit Confidence"
+
+#. module: farm_apiculture
+msgid "Audit Status"
+msgstr "Status Audit"
+
+#. module: farm_apiculture
+msgid "Available Sources"
+msgstr "Available Sources"
+
+#. module: farm_apiculture
+msgid "Average Cost"
+msgstr "Biaya Rata-rata"
+
+#. module: farm_apiculture
+msgid "Average Rating"
+msgstr "Peringkat Rata-rata"
+
+#. module: farm_apiculture
+msgid "Avg Weight (kg)"
+msgstr "Avg Weight (kg)"
+
+#. module: farm_apiculture
+msgid "Backorder Sequence"
+msgstr "Backorder Sequence"
+
+#. module: farm_apiculture
+msgid "Base Lot"
+msgstr "Lot Dasar"
+
+#. module: farm_apiculture
+msgid "Base Order"
+msgstr "Pesanan Dasar"
+
+#. module: farm_apiculture
+msgid "Bee Health Management"
+msgstr "Manajemen Kesehatan Lebah"
+
+#. module: farm_apiculture
+msgid "Bee Hive Asset"
+msgstr "Aset Sarang lebah Lebah"
+
+#. module: farm_apiculture
+msgid "Bee Information"
+msgstr "Informasi Lebah"
+
+#. module: farm_apiculture
+msgid "Bill of Material"
+msgstr "Bill of Material"
+
+#. module: farm_apiculture
+msgid "Biological Asset/Lot"
+msgstr "Biological Asset/Lot"
+
+#. module: farm_apiculture
+msgid "Blocked By"
+msgstr "Blocked By"
+
+#. module: farm_apiculture
+msgid "Breed"
+msgstr "Breed"
+
+#. module: farm_apiculture
+msgid "Breeding & Reproduction"
+msgstr "Breeding & Reproduction"
+
+#. module: farm_apiculture
+msgid "Campaign/Season"
+msgstr "Campaign/Season"
+
+#. module: farm_apiculture
+msgid "Capping"
+msgstr "Capping"
+
+#. module: farm_apiculture
+msgid "Carbon Footprint (kg CO2e/kg)"
+msgstr "Carbon Footprint (kg CO2e/kg)"
+
+#. module: farm_apiculture
+msgid "Certification Expiry"
+msgstr "Kedaluwarsa Sertifikasi"
+
+#. module: farm_apiculture
+msgid "Clearing Status"
+msgstr "Clearing Status"
+
+#. module: farm_apiculture
+msgid "Closed Depending on Tasks"
+msgstr "Closed Depending on Tasks"
+
+#. module: farm_apiculture
+msgid "Closed state"
+msgstr "Status Ditutup"
+
+#. module: farm_apiculture
+msgid "Colony Status"
+msgstr "Status Koloni"
+
+#. module: farm_apiculture
+msgid "Colony Strength"
+msgstr "Colony Strength"
+
+#. module: farm_apiculture
+msgid "Company"
+msgstr "Perusahaan"
+
+#. module: farm_apiculture
+msgid "Company Name"
+msgstr "Nama Perusahaan"
+
+#. module: farm_apiculture
+msgid "Component Status"
+msgstr "Component Status"
+
+#. module: farm_apiculture
+msgid "Components"
+msgstr "Komponen"
+
+#. module: farm_apiculture
+msgid "Components Availability State"
+msgstr "Components Availability State"
+
+#. module: farm_apiculture
+msgid "Components Location"
+msgstr "Lokasi Komponen"
+
+#. module: farm_apiculture
+msgid "Consumption"
+msgstr "Consumption"
+
+#. module: farm_apiculture
+msgid "Contact Number"
+msgstr "Contact Number"
+
+#. module: farm_apiculture
+msgid "Cooperative Purpose Context"
+msgstr "Cooperative Purpose Context"
+
+#. module: farm_apiculture
+msgid "Cost"
+msgstr "Biaya"
+
+#. module: farm_apiculture
+msgid "Count of linked backorder"
+msgstr "Count of linked backorder"
+
+#. module: farm_apiculture
+msgid "Count of serial numbers"
+msgstr "Nomor serial dari Jumlah"
+
+#. module: farm_apiculture
+msgid "Cover Image"
+msgstr "Cover Image"
+
+#. module: farm_apiculture
+msgid "Create New Lots/Serial Numbers for Components"
+msgstr "Create New Lots/Serial Numbers for Components"
+
+#. module: farm_apiculture
+msgid "Created by"
+msgstr "Oleh Dibuat"
+
+#. module: farm_apiculture
+msgid "Created on"
+msgstr "Pada Dibuat"
+
+#. module: farm_apiculture
+msgid "Cryptographic hash of the evidence for tamper-proof auditing."
+msgstr "Cryptographic hash of the evidence for tamper-proof auditing."
+
+#. module: farm_apiculture
+msgid "Cumulative GDD"
+msgstr "Cumulative GDD"
+
+#. module: farm_apiculture
+msgid "Current Location"
+msgstr "Lokasi Saat ini"
+
+#. module: farm_apiculture
+msgid "Current Stage"
+msgstr "Tahap Saat ini"
+
+#. module: farm_apiculture
+msgid "Custom Description"
+msgstr "Deskripsi Kustom"
+
+#. module: farm_apiculture
+msgid "Customer"
+msgstr "Pelanggan"
+
+#. module: farm_apiculture
+msgid "Customer Name"
+msgstr "Nama Pelanggan"
+
+#. module: farm_apiculture
+msgid "Customer Portal URL"
+msgstr "Customer Portal URL"
+
+#. module: farm_apiculture
+msgid "Daily Max Temperature"
+msgstr "Suhu Maks Harian"
+
+#. module: farm_apiculture
+msgid "Daily Min Temperature"
+msgstr "Daily Min Temperature"
+
+#. module: farm_apiculture
+msgid "Date Category"
+msgstr "Kategori Tanggal"
+
+#. module: farm_apiculture
+msgid "Day count since this resource was last updated"
+msgstr "Day count since this resource was last updated"
+
+#. module: farm_apiculture
+msgid "Days Rotting"
+msgstr "Days Rotting"
+
+#. module: farm_apiculture
+msgid "Days to Safety"
+msgstr "Keamanan ke Hari"
+
+#. module: farm_apiculture
+msgid "Deadline"
+msgstr "Tenggat"
+
+#. module: farm_apiculture
+msgid "Deaths Recorded"
+msgstr "Deaths Recorded"
+
+#. module: farm_apiculture
+msgid "Default unit of measure used for all stock operations."
+msgstr "Default unit of measure used for all stock operations."
+
+#. module: farm_apiculture
+msgid "Delay Alert Date"
+msgstr "Delay Alert Date"
+
+#. module: farm_apiculture
+msgid "Delivery Orders"
+msgstr "Pesanan Pengiriman"
+
+#. module: farm_apiculture
+msgid "Delivery order count"
+msgstr "Jumlah pesanan Pengiriman"
+
+#. module: farm_apiculture
+msgid "Depending on Tasks"
+msgstr "Depending on Tasks"
+
+#. module: farm_apiculture
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_apiculture
+msgid "Diseases Found"
+msgstr "Diseases Found"
+
+#. module: farm_apiculture
+msgid "Display Complete"
+msgstr "Display Complete"
+
+#. module: farm_apiculture
+msgid "Display Name"
+msgstr "Nama Tampilan"
+
+#. module: farm_apiculture
+msgid "Display the serial number shortcut on the moves"
+msgstr "Display the serial number shortcut on the moves"
+
+#. module: farm_apiculture
+msgid "Drone Used"
+msgstr "Digunakan Drone"
+
+#. module: farm_apiculture
+msgid "Dynamic ESG score (0-1000) calculated by community impact."
+msgstr "Dynamic ESG score (0-1000) calculated by community impact."
+
+#. module: farm_apiculture
+msgid "ESG Impact Score"
+msgstr "ESG Impact Score"
+
+#. module: farm_apiculture
+msgid "Effective Radius (km)"
+msgstr "Effective Radius (km)"
+
+#. module: farm_apiculture
+msgid "Electricity Consumed (kWh)"
+msgstr "Electricity Consumed (kWh)"
+
+#. module: farm_apiculture
+msgid "Eligible Workers"
+msgstr "Eligible Workers"
+
+#. module: farm_apiculture
+msgid "Email From"
+msgstr "Dari Email"
+
+#. module: farm_apiculture
+msgid "Email cc"
+msgstr "Email cc"
+
+#. module: farm_apiculture
+msgid "End"
+msgstr "Selesai"
+
+#. module: farm_apiculture
+msgid "End Date"
+msgstr "Tanggal Selesai"
+
+#. module: farm_apiculture
+msgid "Ending Date"
+msgstr "Ending Date"
+
+#. module: farm_apiculture
+msgid "Energy/Utility Cost"
+msgstr "Energy/Utility Cost"
+
+#. module: farm_apiculture
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Ensure the traceability of a storable product in your warehouse."
+
+#. module: farm_apiculture
+msgid "Estimated carbon footprint per unit of output."
+msgstr "Estimated carbon footprint per unit of output."
+
+#. module: farm_apiculture
+msgid "Evidence Hash"
+msgstr "Evidence Hash"
+
+#. module: farm_apiculture
+msgid "Evidence Source"
+msgstr "Sumber Bukti"
+
+#. module: farm_apiculture
+msgid "Evidence Verified"
+msgstr "Terverifikasi Bukti"
+
+#. module: farm_apiculture
+msgid "Expected Duration"
+msgstr "Durasi Perkiraan"
+
+#. module: farm_apiculture
+msgid "Expected Yield"
+msgstr "Hasil Perkiraan"
+
+#. module: farm_apiculture
+msgid "Farm Apiculture"
+msgstr "Perlebahan Pertanian"
+
+#. module: farm_apiculture
+msgid "Final Location from procurement"
+msgstr "Final Location from procurement"
+
+#. module: farm_apiculture
+msgid "Finished Product"
+msgstr "Produk Selesai"
+
+#. module: farm_apiculture
+msgid "Finished Products"
+msgstr "Produk Selesai"
+
+#. module: farm_apiculture
+msgid "Finished Products Location"
+msgstr "Lokasi Produk Selesai"
+
+#. module: farm_apiculture
+msgid "Flowering Plants"
+msgstr "Tanaman Berbunga"
+
+#. module: farm_apiculture
+msgid "Followers"
+msgstr "Pengikut"
+
+#. module: farm_apiculture
+msgid "Followers (Partners)"
+msgstr "Followers (Partners)"
+
+#. module: farm_apiculture
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome icon e.g. fa-tasks"
+
+#. module: farm_apiculture
+msgid "Forecasted Issue"
+msgstr "Forecasted Issue"
+
+#. module: farm_apiculture
+msgid "Format: LON,LAT"
+msgstr "Format: LON,LAT"
+
+#. module: farm_apiculture
+msgid "Format: LON,LAT;LON,LAT..."
+msgstr "Format: LON,LAT;LON,LAT..."
+
+#. module: farm_apiculture
+msgid "Fuel Consumed (L)"
+msgstr "Fuel Consumed (L)"
+
+#. module: farm_apiculture
+msgid "Geo Boundaries (Polygon)"
+msgstr "Geo Boundaries (Polygon)"
+
+#. module: farm_apiculture
+msgid "Geo Location (Point)"
+msgstr "Geo Location (Point)"
+
+#. module: farm_apiculture
+msgid "Good"
+msgstr "Good"
+
+#. module: farm_apiculture
+msgid "Government Audit Passed"
+msgstr "Government Audit Passed"
+
+#. module: farm_apiculture
+msgid "Grade A Quantity"
+msgstr "Grade A Quantity"
+
+#. module: farm_apiculture
+msgid "Grade B Quantity"
+msgstr "Grade B Quantity"
+
+#. module: farm_apiculture
+msgid "Grade C Quantity"
+msgstr "Grade C Quantity"
+
+#. module: farm_apiculture
+msgid "Harvest Information"
+msgstr "Informasi Panen"
+
+#. module: farm_apiculture
+msgid "Has Message"
+msgstr "Pesan Memiliki"
+
+#. module: farm_apiculture
+msgid "Health Assessment"
+msgstr "Health Assessment"
+
+#. module: farm_apiculture
+msgid "High"
+msgstr "Tinggi"
+
+#. module: farm_apiculture
+msgid "History data"
+msgstr "Data Riwayat"
+
+#. module: farm_apiculture
+msgid "History metadata"
+msgstr "History metadata"
+
+#. module: farm_apiculture
+msgid "Hive & Colony Management"
+msgstr "Hive & Colony Management"
+
+#. module: farm_apiculture
+msgid "Hive Information"
+msgstr "Informasi Sarang lebah"
+
+#. module: farm_apiculture
+msgid "Hive Inspection"
+msgstr "Inspeksi Sarang lebah"
+
+#. module: farm_apiculture
+msgid "Hive Inspections"
+msgstr "Hive Inspections"
+
+#. module: farm_apiculture
+msgid "Hive Movement"
+msgstr "Hive Movement"
+
+#. module: farm_apiculture
+msgid "Hive to Inspect"
+msgstr "Hive to Inspect"
+
+#. module: farm_apiculture
+msgid "Honey Flow Production"
+msgstr "Honey Flow Production"
+
+#. module: farm_apiculture
+msgid "Honey Production"
+msgstr "Produksi Madu"
+
+#. module: farm_apiculture
+msgid "Honey Production Rate"
+msgstr "Tarif Produksi Madu"
+
+#. module: farm_apiculture
+msgid "Honey Store Level"
+msgstr "Honey Store Level"
+
+#. module: farm_apiculture
+msgid "Humidity"
+msgstr "Kelembapan"
+
+#. module: farm_apiculture
+msgid "ID"
+msgstr "ID"
+
+#. module: farm_apiculture
+msgid "Icon"
+msgstr "Ikon"
+
+#. module: farm_apiculture
+msgid "Icon to indicate an exception activity."
+msgstr "Icon to indicate an exception activity."
+
+#. module: farm_apiculture
+msgid "If checked, new messages require your attention."
+msgstr "If checked, new messages require your attention."
+
+#. module: farm_apiculture
+msgid "If checked, some messages have a delivery error."
+msgstr "If checked, some messages have a delivery error."
+
+#. module: farm_apiculture
+msgid "If checked, the valuation will be specific by Lot/Serial number."
+msgstr "If checked, the valuation will be specific by Lot/Serial number."
+
+#. module: farm_apiculture
+msgid "In Progress"
+msgstr "In Progress"
+
+#. module: farm_apiculture
+msgid "Industry Type"
+msgstr "Industry Type"
+
+#. module: farm_apiculture
+msgid "Input Cost"
+msgstr "Input Cost"
+
+#. module: farm_apiculture
+msgid "Internal Reference"
+msgstr "Referensi Internal"
+
+#. module: farm_apiculture
+msgid "Intervention Type"
+msgstr "Jenis Intervensi"
+
+#. module: farm_apiculture
+msgid "Is Delayed"
+msgstr "Is Delayed"
+
+#. module: farm_apiculture
+msgid "Is Follower"
+msgstr "Pengikut"
+
+#. module: farm_apiculture
+msgid "Is Locked"
+msgstr "Terkunci"
+
+#. module: farm_apiculture
+msgid "Its Operations are Planned"
+msgstr "Its Operations are Planned"
+
+#. module: farm_apiculture
+msgid "JSON data for the popover widget"
+msgstr "JSON data for the popover widget"
+
+#. module: farm_apiculture
+msgid "JSON that maps ids from a many2one field to seconds spent"
+msgstr "JSON that maps ids from a many2one field to seconds spent"
+
+#. module: farm_apiculture
+msgid "K Density (kg/mu)"
+msgstr "K Density (kg/mu)"
+
+#. module: farm_apiculture
+msgid "Labor Cost"
+msgstr "Labor Cost"
+
+#. module: farm_apiculture
+msgid "Labor Worklogs"
+msgstr "Labor Worklogs"
+
+#. module: farm_apiculture
+msgid "Land Parcel/Pond"
+msgstr "Land Parcel/Pond"
+
+#. module: farm_apiculture
+msgid "Last Harvest"
+msgstr "Panen Terakhir"
+
+#. module: farm_apiculture
+msgid "Last Harvest Yield"
+msgstr "Hasil Panen Terakhir"
+
+#. module: farm_apiculture
+msgid "Last Stage Update"
+msgstr "Last Stage Update"
+
+#. module: farm_apiculture
+msgid "Last Updated by"
+msgstr "Oleh Diperbarui Terakhir"
+
+#. module: farm_apiculture
+msgid "Last Updated on"
+msgstr "Pada Diperbarui Terakhir"
+
+#. module: farm_apiculture
+msgid "Latitude"
+msgstr "Latitude"
+
+#. module: farm_apiculture
+msgid "Link this production task to a specific season."
+msgstr "Link this production task to a specific season."
+
+#. module: farm_apiculture
+msgid "Location"
+msgstr "Lokasi"
+
+#. module: farm_apiculture
+msgid "Location where the system will look for components."
+msgstr "Location where the system will look for components."
+
+#. module: farm_apiculture
+msgid "Location where the system will stock the finished products."
+msgstr "Location where the system will stock the finished products."
+
+#. module: farm_apiculture
+msgid "Longitude"
+msgstr "Longitude"
+
+#. module: farm_apiculture
+msgid "Lot/Serial Number"
+msgstr "Nomor Lot/serial"
+
+#. module: farm_apiculture
+msgid "Low"
+msgstr "Rendah"
+
+#. module: farm_apiculture
+msgid "MO Readiness"
+msgstr "MO Readiness"
+
+#. module: farm_apiculture
+msgid "Medium"
+msgstr "Sedang"
+
+#. module: farm_apiculture
+msgid "Message Delivery error"
+msgstr "Kesalahan Pengiriman Pesan"
+
+#. module: farm_apiculture
+msgid "Messages"
+msgstr "Pesan"
+
+#. module: farm_apiculture
+msgid "Migration Schedule"
+msgstr "Migration Schedule"
+
+#. module: farm_apiculture
+msgid "Milestone"
+msgstr "Milestone"
+
+#. module: farm_apiculture
+msgid "Moderate"
+msgstr "Moderate"
+
+#. module: farm_apiculture
+msgid "Mortality Rate (%)"
+msgstr "Mortality Rate (%)"
+
+#. module: farm_apiculture
+msgid "Move Byproduct"
+msgstr "Move Byproduct"
+
+#. module: farm_apiculture
+msgid "My Activity Deadline"
+msgstr "Tenggat Aktivitas Saya"
+
+#. module: farm_apiculture
+msgid "N Density (kg/mu)"
+msgstr "N Density (kg/mu)"
+
+#. module: farm_apiculture
+msgid "Nectar Availability"
+msgstr "Nectar Availability"
+
+#. module: farm_apiculture
+msgid "Nectar Flow"
+msgstr "Nectar Flow"
+
+#. module: farm_apiculture
+msgid "Nectar Source Management"
+msgstr "Manajemen Sumber Nektar"
+
+#. module: farm_apiculture
+msgid "Nectar Sources"
+msgstr "Nectar Sources"
+
+#. module: farm_apiculture
+msgid "Never attribute values"
+msgstr "Never attribute values"
+
+#. module: farm_apiculture
+msgid "New Queen"
+msgstr "Ratu Baru"
+
+#. module: farm_apiculture
+msgid "Next Activity Deadline"
+msgstr "Tenggat Aktivitas Berikutnya"
+
+#. module: farm_apiculture
+msgid "Next Activity Summary"
+msgstr "Ringkasan Aktivitas Berikutnya"
+
+#. module: farm_apiculture
+msgid "Next Activity Type"
+msgstr "Jenis Aktivitas Berikutnya"
+
+#. module: farm_apiculture
+msgid "Nitrogen (N)"
+msgstr "Nitrogen (N)"
+
+#. module: farm_apiculture
+msgid "Number of Actions"
+msgstr "Aksi dari Nomor"
+
+#. module: farm_apiculture
+msgid "Number of Unbuilds"
+msgstr "Number of Unbuilds"
+
+#. module: farm_apiculture
+msgid "Number of errors"
+msgstr "Kesalahan dari Nomor"
+
+#. module: farm_apiculture
+msgid "Number of generated MO"
+msgstr "Number of generated MO"
+
+#. module: farm_apiculture
+msgid "Number of messages requiring action"
+msgstr "Aksi membutuhkan pesan dari Nomor"
+
+#. module: farm_apiculture
+msgid "Number of messages with delivery error"
+msgstr "Kesalahan pengiriman dengan pesan dari Nomor"
+
+#. module: farm_apiculture
+msgid "Number of source MO"
+msgstr "MO sumber dari Nomor"
+
+#. module: farm_apiculture
+msgid "Number of telemetry points outside the parcel."
+msgstr "Number of telemetry points outside the parcel."
+
+#. module: farm_apiculture
+msgid "OOB Point Count"
+msgstr "OOB Point Count"
+
+#. module: farm_apiculture
+msgid "On Hand Quantity"
+msgstr "On Hand Quantity"
+
+#. module: farm_apiculture
+msgid "Operation Type"
+msgstr "Jenis Operasi"
+
+#. module: farm_apiculture
+msgid "Operations"
+msgstr "Operasi"
+
+#. module: farm_apiculture
+msgid "Operator ID Card"
+msgstr "Operator ID Card"
+
+#. module: farm_apiculture
+msgid "Orderpoint"
+msgstr "Orderpoint"
+
+#. module: farm_apiculture
+msgid "Organic Carbon"
+msgstr "Karbon Organik"
+
+#. module: farm_apiculture
+msgid "Outdated BoM"
+msgstr "Outdated BoM"
+
+#. module: farm_apiculture
+msgid "P Density (kg/mu)"
+msgstr "P Density (kg/mu)"
+
+#. module: farm_apiculture
+msgid "Parent Task"
+msgstr "Parent Task"
+
+#. module: farm_apiculture
+msgid "Partner"
+msgstr "Mitra"
+
+#. module: farm_apiculture
+msgid "Personal Stage"
+msgstr "Tahap Pribadi"
+
+#. module: farm_apiculture
+msgid "Personal Stage State"
+msgstr "Status Tahap Pribadi"
+
+#. module: farm_apiculture
+msgid "Pest/Disease Status"
+msgstr "Pest/Disease Status"
+
+#. module: farm_apiculture
+msgid "Pesticide or veterinary product registration number."
+msgstr "Pesticide or veterinary product registration number."
+
+#. module: farm_apiculture
+msgid "Phosphorus (P)"
+msgstr "Phosphorus (P)"
+
+#. module: farm_apiculture
+msgid "Photos, IoT sensor logs, or PDF certificates."
+msgstr "Photos, IoT sensor logs, or PDF certificates."
+
+#. module: farm_apiculture
+msgid "Physical Evidence"
+msgstr "Physical Evidence"
+
+#. module: farm_apiculture
+msgid "Physiology Profile"
+msgstr "Physiology Profile"
+
+#. module: farm_apiculture
+msgid "Picking associated to this manufacturing order"
+msgstr "Picking associated to this manufacturing order"
+
+#. module: farm_apiculture
+msgid "Population"
+msgstr "Population"
+
+#. module: farm_apiculture
+msgid "Portal Access URL"
+msgstr "Portal Access URL"
+
+#. module: farm_apiculture
+msgid "Potassium (K)"
+msgstr "Potassium (K)"
+
+#. module: farm_apiculture
+msgid "Primary Certification"
+msgstr "Primary Certification"
+
+#. module: farm_apiculture
+msgid "Priority"
+msgstr "Prioritas"
+
+#. module: farm_apiculture
+msgid "Procedure/Method"
+msgstr "Procedure/Method"
+
+#. module: farm_apiculture
+msgid "Product"
+msgstr "Produk"
+
+#. module: farm_apiculture
+msgid "Product Registration No."
+msgstr "Product Registration No."
+
+#. module: farm_apiculture
+msgid "Product Template"
+msgstr "Templat Produk"
+
+#. module: farm_apiculture
+msgid "Production Capacity"
+msgstr "Kapasitas Produksi"
+
+#. module: farm_apiculture
+msgid "Production Group"
+msgstr "Grup Produksi"
+
+#. module: farm_apiculture
+msgid "Production Location"
+msgstr "Lokasi Produksi"
+
+#. module: farm_apiculture
+msgid "Production Size"
+msgstr "Production Size"
+
+#. module: farm_apiculture
+msgid "Production Stage"
+msgstr "Tahap Produksi"
+
+#. module: farm_apiculture
+msgid "Production Status"
+msgstr "Status Produksi"
+
+#. module: farm_apiculture
+msgid "Production Task"
+msgstr "Tugas Produksi"
+
+#. module: farm_apiculture
+msgid "Project"
+msgstr "Proyek"
+
+#. module: farm_apiculture
+msgid "Project Roles"
+msgstr "Project Roles"
+
+#. module: farm_apiculture
+msgid "Project Visibility"
+msgstr "Project Visibility"
+
+#. module: farm_apiculture
+msgid "Propagate cancel and split"
+msgstr "Propagate cancel and split"
+
+#. module: farm_apiculture
+msgid "Properties"
+msgstr "Properties"
+
+#. module: farm_apiculture
+msgid "Pure Nitrogen (N) kg"
+msgstr "Pure Nitrogen (N) kg"
+
+#. module: farm_apiculture
+msgid "Pure Phosphorus (P) kg"
+msgstr "Pure Phosphorus (P) kg"
+
+#. module: farm_apiculture
+msgid "Pure Potassium (K) kg"
+msgstr "Pure Potassium (K) kg"
+
+#. module: farm_apiculture
+msgid "Quality Fingerprint"
+msgstr "Quality Fingerprint"
+
+#. module: farm_apiculture
+msgid "Quantity Produced"
+msgstr "Diproduksi Kuantitas"
+
+#. module: farm_apiculture
+msgid "Quantity Producing"
+msgstr "Quantity Producing"
+
+#. module: farm_apiculture
+msgid "Quantity To Produce"
+msgstr "Produksi Ke Kuantitas"
+
+#. module: farm_apiculture
+msgid "Quantity that can be produced with the current stock of components"
+msgstr "Quantity that can be produced with the current stock of components"
+
+#. module: farm_apiculture
+msgid "Quants"
+msgstr "Quants"
+
+#. module: farm_apiculture
+msgid "Queen Age (Months)"
+msgstr "Queen Age (Months)"
+
+#. module: farm_apiculture
+msgid "Queen Status"
+msgstr "Status Ratu"
+
+#. module: farm_apiculture
+msgid "Queenless"
+msgstr "Queenless"
+
+#. module: farm_apiculture
+msgid "Radiation Use Efficiency (RUE)"
+msgstr "Radiation Use Efficiency (RUE)"
+
+#. module: farm_apiculture
+msgid "Rating Avg Text"
+msgstr "Rating Avg Text"
+
+#. module: farm_apiculture
+msgid "Rating Last Feedback"
+msgstr "Rating Last Feedback"
+
+#. module: farm_apiculture
+msgid "Rating Last Image"
+msgstr "Gambar Terakhir Peringkat"
+
+#. module: farm_apiculture
+msgid "Rating Last Value"
+msgstr "Nilai Terakhir Peringkat"
+
+#. module: farm_apiculture
+msgid "Rating Satisfaction"
+msgstr "Rating Satisfaction"
+
+#. module: farm_apiculture
+msgid "Rating Text"
+msgstr "Teks Peringkat"
+
+#. module: farm_apiculture
+msgid "Rating count"
+msgstr "Jumlah Peringkat"
+
+#. module: farm_apiculture
+msgid "Ratings"
+msgstr "Peringkat"
+
+#. module: farm_apiculture
+msgid "Ready for Harvest"
+msgstr "Ready for Harvest"
+
+#. module: farm_apiculture
+msgid "Real Duration"
+msgstr "Real Duration"
+
+#. module: farm_apiculture
+msgid "Recurrence"
+msgstr "Recurrence"
+
+#. module: farm_apiculture
+msgid "Recurrent"
+msgstr "Recurrent"
+
+#. module: farm_apiculture
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: farm_apiculture
+msgid "References"
+msgstr "References"
+
+#. module: farm_apiculture
+msgid "Repeat Every"
+msgstr "Repeat Every"
+
+#. module: farm_apiculture
+msgid "Repeat Unit"
+msgstr "Repeat Unit"
+
+#. module: farm_apiculture
+msgid "Reputation Credit Score"
+msgstr "Reputation Credit Score"
+
+#. module: farm_apiculture
+msgid "Required Skill"
+msgstr "Required Skill"
+
+#. module: farm_apiculture
+msgid "Required for pesticide/veterinary real-name registration."
+msgstr "Required for pesticide/veterinary real-name registration."
+
+#. module: farm_apiculture
+msgid "Resource Intensity"
+msgstr "Resource Intensity"
+
+#. module: farm_apiculture
+msgid "Responsible"
+msgstr "Penanggung Jawab"
+
+#. module: farm_apiculture
+msgid "Responsible Cooperative"
+msgstr "Koperasi Penanggung jawab"
+
+#. module: farm_apiculture
+msgid "Responsible User"
+msgstr "Pengguna Penanggung jawab"
+
+#. module: farm_apiculture
+msgid "Rotting"
+msgstr "Rotting"
+
+#. module: farm_apiculture
+msgid "SMS Delivery error"
+msgstr "Kesalahan Pengiriman SMS"
+
+#. module: farm_apiculture
+msgid "Safe to Harvest"
+msgstr "Safe to Harvest"
+
+#. module: farm_apiculture
+msgid "Scrap Move"
+msgstr "Scrap Move"
+
+#. module: farm_apiculture
+msgid "Scraps"
+msgstr "Scraps"
+
+#. module: farm_apiculture
+msgid "Seasonal Management"
+msgstr "Seasonal Management"
+
+#. module: farm_apiculture
+msgid "Security Token"
+msgstr "Security Token"
+
+#. module: farm_apiculture
+msgid "Show Allocation"
+msgstr "Alokasi Tampilkan"
+
+#. module: farm_apiculture
+msgid "Show Final Lots"
+msgstr "Show Final Lots"
+
+#. module: farm_apiculture
+msgid "Show Generate BOM"
+msgstr "Show Generate BOM"
+
+#. module: farm_apiculture
+msgid "Show Lock/unlock buttons"
+msgstr "Show Lock/unlock buttons"
+
+#. module: farm_apiculture
+msgid "Show Produce"
+msgstr "Produksi Tampilkan"
+
+#. module: farm_apiculture
+msgid "Show Produce All"
+msgstr "Semua Produksi Tampilkan"
+
+#. module: farm_apiculture
+msgid "Simplified State"
+msgstr "Simplified State"
+
+#. module: farm_apiculture
+msgid "Source"
+msgstr "Sumber"
+
+#. module: farm_apiculture
+msgid "Source Sale Order"
+msgstr "Pesanan Penjualan Sumber"
+
+#. module: farm_apiculture
+msgid "Spatial Compliance (%)"
+msgstr "Spatial Compliance (%)"
+
+#. module: farm_apiculture
+msgid "Spatial Grid ID"
+msgstr "Spatial Grid ID"
+
+#. module: farm_apiculture
+msgid "Species"
+msgstr "Spesies"
+
+#. module: farm_apiculture
+msgid "Stage"
+msgstr "Tahap"
+
+#. module: farm_apiculture
+msgid "Stage Rating Status"
+msgstr "Status Peringkat Tahap"
+
+#. module: farm_apiculture
+msgid "Start"
+msgstr "Mulai"
+
+#. module: farm_apiculture
+msgid "State"
+msgstr "Status"
+
+#. module: farm_apiculture
+msgid "Status time"
+msgstr "Waktu Status"
+
+#. module: farm_apiculture
+msgid "Stock Movements of Produced Goods"
+msgstr "Stock Movements of Produced Goods"
+
+#. module: farm_apiculture
+msgid "Stress Index (0-100)"
+msgstr "Stress Index (0-100)"
+
+#. module: farm_apiculture
+msgid "Strong"
+msgstr "Strong"
+
+#. module: farm_apiculture
+msgid "Structured Command (JSON)"
+msgstr "Structured Command (JSON)"
+
+#. module: farm_apiculture
+msgid "Supersedure"
+msgstr "Supersedure"
+
+#. module: farm_apiculture
+msgid "Support Object"
+msgstr "Support Object"
+
+#. module: farm_apiculture
+msgid "Sustainability Block"
+msgstr "Sustainability Block"
+
+#. module: farm_apiculture
+msgid "Sustainability Credits"
+msgstr "Sustainability Credits"
+
+#. module: farm_apiculture
+msgid "Swarm Control Done"
+msgstr "Swarm Control Done"
+
+#. module: farm_apiculture
+msgid "Tags"
+msgstr "Tags"
+
+#. module: farm_apiculture
+msgid "Target Moisture (%)"
+msgstr "Target Moisture (%)"
+
+#. module: farm_apiculture
+msgid "Target Nectar Plant"
+msgstr "Tanaman Nektar Target"
+
+#. module: farm_apiculture
+msgid "Task"
+msgstr "Tugas"
+
+#. module: farm_apiculture
+msgid "Tasks in Recurrence"
+msgstr "Tasks in Recurrence"
+
+#. module: farm_apiculture
+msgid "Technical field to check if produce all button can be shown"
+msgstr "Technical field to check if produce all button can be shown"
+
+#. module: farm_apiculture
+msgid "Technical field to check if produce button can be shown"
+msgstr "Technical field to check if produce button can be shown"
+
+#. module: farm_apiculture
+msgid "Technical field to check when we can reserve quantities"
+msgstr "Technical field to check when we can reserve quantities"
+
+#. module: farm_apiculture
+msgid "Technical field to check when we can unreserve"
+msgstr "Technical field to check when we can unreserve"
+
+#. module: farm_apiculture
+msgid "Temperature"
+msgstr "Suhu"
+
+#. module: farm_apiculture
+msgid "The BoM has been updated since creation of the MO"
+msgstr "The BoM has been updated since creation of the MO"
+
+#. module: farm_apiculture
+msgid "The current user's personal stage."
+msgstr "The current user's personal stage."
+
+#. module: farm_apiculture
+msgid "The current user's personal task stage."
+msgstr "The current user's personal task stage."
+
+#. module: farm_apiculture
+msgid "The land parcel, animal or group this task is performed on."
+msgstr "The land parcel, animal or group this task is performed on."
+
+#. module: farm_apiculture
+msgid "The production season this intervention belongs to."
+msgstr "The production season this intervention belongs to."
+
+#. module: farm_apiculture
+msgid "The specific production task this intervention belongs to."
+msgstr "The specific production task this intervention belongs to."
+
+#. module: farm_apiculture
+msgid "Title"
+msgstr "Judul"
+
+#. module: farm_apiculture
+msgid "Tool/Machinery Cost"
+msgstr "Tool/Machinery Cost"
+
+#. module: farm_apiculture
+msgid "Tools/Machinery"
+msgstr "Tools/Machinery"
+
+#. module: farm_apiculture
+msgid "Total Biomass (kg)"
+msgstr "Total Biomass (kg)"
+
+#. module: farm_apiculture
+msgid "Total Harvested (kg)"
+msgstr "Total Harvested (kg)"
+
+#. module: farm_apiculture
+msgid "Total Intervention Cost"
+msgstr "Biaya Intervensi Total"
+
+#. module: farm_apiculture
+msgid "Total Nitrogen (kg)"
+msgstr "Total Nitrogen (kg)"
+
+#. module: farm_apiculture
+msgid "Total Phosphorus (kg)"
+msgstr "Total Phosphorus (kg)"
+
+#. module: farm_apiculture
+msgid "Total Potassium (kg)"
+msgstr "Total Potassium (kg)"
+
+#. module: farm_apiculture
+msgid "Total Quantity"
+msgstr "Kuantitas Total"
+
+#. module: farm_apiculture
+msgid "Total Value"
+msgstr "Nilai Total"
+
+#. module: farm_apiculture
+msgid "Total expected duration (in minutes)"
+msgstr "Total expected duration (in minutes)"
+
+#. module: farm_apiculture
+msgid "Total real duration (in minutes)"
+msgstr "Total real duration (in minutes)"
+
+#. module: farm_apiculture
+msgid "Traceability Fingerprint"
+msgstr "Traceability Fingerprint"
+
+#. module: farm_apiculture
+msgid "Tracking"
+msgstr "Tracking"
+
+#. module: farm_apiculture
+msgid "Transfers"
+msgstr "Transfers"
+
+#. module: farm_apiculture
+msgid "Treatment Applied"
+msgstr "Treatment Applied"
+
+#. module: farm_apiculture
+msgid "Treatment Date"
+msgstr "Tanggal Perawatan"
+
+#. module: farm_apiculture
+msgid "Type of agricultural industry this task belongs to"
+msgstr "Type of agricultural industry this task belongs to"
+
+#. module: farm_apiculture
+msgid "Type of the exception activity on record."
+msgstr "Type of the exception activity on record."
+
+#. module: farm_apiculture
+msgid "Unbuilds"
+msgstr "Unbuilds"
+
+#. module: farm_apiculture
+msgid "Unique Lot/Serial Number"
+msgstr "Unique Lot/Serial Number"
+
+#. module: farm_apiculture
+msgid "Unit"
+msgstr "Satuan"
+
+#. module: farm_apiculture
+msgid "Until"
+msgstr "Until"
+
+#. module: farm_apiculture
+msgid "Valid Certificate"
+msgstr "Sertifikat Berlaku"
+
+#. module: farm_apiculture
+msgid "Valid Product Attribute Lines"
+msgstr "Baris Atribut Produk Berlaku"
+
+#. module: farm_apiculture
+msgid "Valuation Currency"
+msgstr "Mata uang Valuasi"
+
+#. module: farm_apiculture
+msgid "Valuation by Lot/Serial"
+msgstr "Lot/serial oleh Valuasi"
+
+#. module: farm_apiculture
+msgid "Verification Timestamp"
+msgstr "Verification Timestamp"
+
+#. module: farm_apiculture
+msgid "Verified By"
+msgstr "Oleh Terverifikasi"
+
+#. module: farm_apiculture
+msgid "Very Strong"
+msgstr "Very Strong"
+
+#. module: farm_apiculture
+msgid "Warehouse"
+msgstr "Gudang"
+
+#. module: farm_apiculture
+msgid "Water Consumed (m3)"
+msgstr "Water Consumed (m3)"
+
+#. module: farm_apiculture
+msgid "Water Footprint (L)"
+msgstr "Water Footprint (L)"
+
+#. module: farm_apiculture
+msgid "Water Use Efficiency (WUE)"
+msgstr "Water Use Efficiency (WUE)"
+
+#. module: farm_apiculture
+msgid "Weak"
+msgstr "Weak"
+
+#. module: farm_apiculture
+msgid "Weather Condition"
+msgstr "Weather Condition"
+
+#. module: farm_apiculture
+msgid "Weather Risk"
+msgstr "Weather Risk"
+
+#. module: farm_apiculture
+msgid "Website Messages"
+msgstr "Pesan Situs web"
+
+#. module: farm_apiculture
+msgid "Website communication history"
+msgstr "Riwayat komunikasi Situs web"
+
+#. module: farm_apiculture
+msgid "Work Orders"
+msgstr "Pesanan Kerja"
+
+#. module: farm_apiculture
+msgid "Work Start"
+msgstr "Mulai Kerja"
+
+#. module: farm_apiculture
+msgid "Workcenter"
+msgstr "Workcenter"
+
+#. module: farm_apiculture
+msgid "Working Days to Assign"
+msgstr "Working Days to Assign"
+
+#. module: farm_apiculture
+msgid "Working Days to Close"
+msgstr "Tutup ke Hari Kerja"
+
+#. module: farm_apiculture
+msgid "Working Hours to Assign"
+msgstr "Working Hours to Assign"
+
+#. module: farm_apiculture
+msgid "Working Hours to Close"
+msgstr "Tutup ke Jam Kerja"
+
+#. module: farm_apiculture
+msgid "e.g. Mechanical sowing, manual weeding"
+msgstr "e.g. Mechanical sowing, manual weeding"
+
+#. module: farm_apiculture
+msgid "kg per unit."
+msgstr "kg per unit."

@@ -1,0 +1,495 @@
+# Translation of Farm Core (farm_core) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_core 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 22:00+0700\n"
+"PO-Revision-Date: 2026-11-09 22:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_core
+#: model:ir.ui.menu,name:farm_core.menu_agri_runtime_mobile
+msgid "Mobile Tasks"
+msgstr "Tugas Mobile"
+
+#. module: farm_core
+#: model:ir.ui.menu,name:farm_core.menu_agri_runtime_crop
+msgid "Crop Operations"
+msgstr "Operasi Tanaman"
+
+#. module: farm_core
+#: model:ir.ui.menu,name:farm_core.menu_agri_runtime_livestock
+msgid "Livestock & Fish"
+msgstr "Ternak & Ikan"
+
+#. module: farm_core
+#: model:ir.ui.menu,name:farm_core.menu_agri_runtime_science
+msgid "Sci-Lab & VRA"
+msgstr "Lab Sains & VRA"
+
+#. module: farm_core
+#: model:ir.ui.menu,name:farm_core.stock.menu_stock_root
+msgid "Matter & Stock"
+msgstr "Materi & Stok"
+
+#. module: farm_core
+#: model:ir.ui.menu,name:farm_core.mail.menu_root_discuss
+msgid "Discuss & AI Advisor"
+msgstr "Diskusi & Penasihat AI"
+
+#. module: farm_core
+#: model:ir.ui.menu,name:farm_core.base.menu_administration
+msgid "Console & Setup"
+msgstr "Konsol & Pengaturan"
+
+#. module: farm_core
+#: model:ir.ui.menu,name:farm_core.menu_farm_core_hidden_settings
+msgid "Farm Core Admin"
+msgstr "Admin Inti Farm"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_field_crops
+msgid "Field Crops Management"
+msgstr "Manajemen Tanaman Lahan"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_protected_cultivation
+msgid "Protected Cultivation"
+msgstr "Budidaya Terlindungi"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_orchard_horticulture
+msgid "Orchard Horticulture"
+msgstr "Hortikultura Kebun Buah"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_livestock
+msgid "Livestock Management"
+msgstr "Manajemen Ternak"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_aquaculture
+msgid "Aquaculture Management"
+msgstr "Manajemen Akuakultur"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_medicinal_plants
+msgid "Medicinal Plants"
+msgstr "Tanaman Obat"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_mushroom
+msgid "Mushroom Cultivation"
+msgstr "Budidaya Jamur"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_apiculture
+msgid "Apiculture Management"
+msgstr "Manajemen Lebah"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_agricultural_processing
+msgid "Agricultural Processing"
+msgstr "Pengolahan Hasil Pertanian"
+
+#. module: farm_core
+#: model:res.config.settings,field:module_farm_agritourism
+msgid "Agritourism Management"
+msgstr "Manajemen Agrowisata"
+
+#. module: farm_core
+#: model:res.config.settings,field:group_enable_iot_telemetry
+msgid "Enable Base Farm IoT & Telemetry Center"
+msgstr "Aktifkan IoT Farm Dasar & Pusat Telemetri"
+
+#. module: farm_core
+#: model:res.config.settings,field:group_enable_a2a_netting
+msgid "Enable Cooperative-to-Farmer A2A Bilateral Netting"
+msgstr "Aktifkan Netting Bilateral A2A Koperasi-ke-Petani"
+
+#. module: farm_core
+#: model:res.config.settings,field:group_enable_biological_valuation
+msgid "Enable SVL/AVL Biological Asset Fair Value Ledger"
+msgstr "Aktifkan Buku Besar Nilai Wajar Aset Biologis SVL/AVL"
+
+#. module: farm_core
+#: model:agri.odoo19.performance.security.mixin,field:config_settings
+msgid "Configuration Settings"
+msgstr "Pengaturan Konfigurasi"
+
+#. module: farm_core
+#: model:agri.odoo19.performance.security.mixin,field:performance_metrics
+msgid "Performance Metrics"
+msgstr "Metrik Kinerja"
+
+#. module: farm_core
+#: model:agri.odoo19.performance.security.mixin,field:security_level
+msgid "Security Level"
+msgstr "Tingkat Keamanan"
+
+#. module: farm_core
+#: model:agri.odoo19.performance.security.mixin,field:access_log
+msgid "Access Log"
+msgstr "Log Akses"
+
+#. module: farm_core
+#: model:agri.odoo19.performance.security.mixin,field:industry_access_control
+msgid "Industry Access Control"
+msgstr "Kontrol Akses Industri"
+
+#. module: farm_core
+#: model:agri.odoo19.performance.security.mixin,field:security_level
+#: selection:agri.odoo19.performance.security.mixin,security_level
+msgid "Low"
+msgstr "Rendah"
+
+#. module: farm_core
+#: model:agri.odoo19.performance.security.mixin,field:security_level
+#: selection:agri.odoo19.performance.security.mixin,security_level
+msgid "Medium"
+msgstr "Sedang"
+
+#. module: farm_core
+#: model:agri.odoo19.performance.security.mixin,field:security_level
+#: selection:agri.odoo19.performance.security.mixin,security_level
+msgid "High"
+msgstr "Tinggi"
+
+#. module: farm_core
+#: model:agri.odoo19.performance.security.mixin,field:security_level
+#: selection:agri.odoo19.performance.security.mixin,security_level
+msgid "Critical"
+msgstr "Kritis"
+
+#. module: farm_core
+#: model:agri.treatment.batch,name:agri.treatment.batch
+msgid "Agricultural Treatment Batch / Processing Campaign Run"
+msgstr "Batch Perlakuan Pertanian / Jalur Kampanye Pengolahan"
+
+#. module: farm_core
+#: model:agri.treatment.batch,field:carrier_ids
+msgid "Active Material Carriers"
+msgstr "Pembawa Material Aktif"
+
+#. module: farm_core
+#: model:agri.treatment.batch,field:name
+msgid "Batch Code"
+msgstr "Kode Batch"
+
+#. module: farm_core
+#: model:agri.treatment.batch,field:state
+msgid "Batch State"
+msgstr "Status Batch"
+
+#. module: farm_core
+#: model:agri.treatment.batch,field:treatment_temperature
+msgid "Target Treatment Temp (°C)"
+msgstr "Suhu Perlakuan Target (°C)"
+
+#. module: farm_core
+#: selection:agri.treatment.batch,state
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_core
+#: selection:agri.treatment.batch,state
+msgid "Processing"
+msgstr "Diproses"
+
+#. module: farm_core
+#: selection:agri.treatment.batch,state
+msgid "Done"
+msgstr "Selesai"
+
+#. module: farm_core
+#: selection:agri.treatment.batch,state
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_core
+#: model:stock.location,field:land_nature
+msgid "Land Nature"
+msgstr "Jenis Lahan"
+
+#. module: farm_core
+#: selection:stock.location,land_nature
+msgid "Permanent Basic Farmland"
+msgstr "Lahan Pertanian Dasar Permanen"
+
+#. module: farm_core
+#: selection:stock.location,land_nature
+msgid "General Farmland"
+msgstr "Lahan Pertanian Umum"
+
+#. module: farm_core
+#: selection:stock.location,land_nature
+msgid "Garden Land"
+msgstr "Lahan Kebun"
+
+#. module: farm_core
+#: selection:stock.location,land_nature
+msgid "Forest Land"
+msgstr "Lahan Hutan"
+
+#. module: farm_core
+#: selection:stock.location,land_nature
+msgid "Other Agricultural Land"
+msgstr "Lahan Pertanian Lainnya"
+
+#. module: farm_core
+#: selection:stock.location,land_nature
+msgid "Construction Land"
+msgstr "Lahan Konstruksi"
+
+#. module: farm_core
+#: model:stock.location,field:is_land_parcel
+msgid "Is Land Parcel"
+msgstr "Adalah Petak Lahan"
+
+#. module: farm_core
+#: model:stock.location,field:land_area
+msgid "Area (sqm/mu)"
+msgstr "Luas (m²/mu)"
+
+#. module: farm_core
+#: model:stock.location,field:boundary_geojson
+msgid "Boundary Coordinates (GeoJSON)"
+msgstr "Koordinat Batas (GeoJSON)"
+
+#. module: farm_core
+#: model:stock.location,field:calculated_area_ha
+msgid "Calculated Area (Ha)"
+msgstr "Luas Terhitung (Ha)"
+
+#. module: farm_core
+#: model:product.category,field:matter_enforcement_level
+msgid "Matter Enforcement Level"
+msgstr "Tingkat Penegakan Materi"
+
+#. module: farm_core
+#: selection:product.category,matter_enforcement_level
+msgid "Lightweight Guidance"
+msgstr "Panduan Ringan"
+
+#. module: farm_core
+#: selection:product.category,matter_enforcement_level
+msgid "Strict GxP Enforcement"
+msgstr "Penegakan GxP Ketat"
+
+#. module: farm_core
+#: model:res.partner,field:impact_credits
+msgid "Sustainability Credits"
+msgstr "Kredit Keberlanjutan"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:merkle_state_hash
+msgid "Merkle State Hash"
+msgstr "Hash Status Merkle"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:biological_asset_id
+msgid "Tracked Biological Asset"
+msgstr "Aset Biologis yang Dilacak"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:vessel_phase
+msgid "Vessel/Individual Phase"
+msgstr "Fase Wadah/Individu"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:carrier_state
+msgid "Carrier State"
+msgstr "Status Pembawa"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:treatment_batch_id
+msgid "Treatment Batch"
+msgstr "Batch Perlakuan"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:farm_location_id
+msgid "Agricultural Plot"
+msgstr "Petak Pertanian"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:parent_tracking_id
+msgid "Parent Source Vessel"
+msgstr "Wadah Sumber Induk"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:child_tracking_ids
+msgid "Child Vessels"
+msgstr "Wadah Turunan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,fission_type
+msgid "Division"
+msgstr "Pembagian"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,fission_type
+msgid "Slaughter"
+msgstr "Pemotongan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,vessel_phase
+msgid "Idle"
+msgstr "Menganggur"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,vessel_phase
+msgid "Ready"
+msgstr "Siap"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,vessel_phase
+msgid "Dirty"
+msgstr "Kotor"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,vessel_phase
+msgid "Cleaning"
+msgstr "Dibersihkan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,carrier_state
+msgid "Loading"
+msgstr "Pemuatan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,carrier_state
+msgid "Quality Control"
+msgstr "Kontrol Kualitas"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,carrier_state
+msgid "Consumed"
+msgstr "Terpakai"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,life_stage
+msgid "Juvenile / Seedling"
+msgstr "Muda / Bibit"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,life_stage
+msgid "Growing / Fattening"
+msgstr "Tumbuh / Penggemukan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,life_stage
+msgid "Mature / Breeding"
+msgstr "Dewasa / Pembiakan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking,life_stage
+msgid "Harvested / Culled"
+msgstr "Dipanen / Diafkir"
+
+#. module: farm_core
+#: model:stock.matter.tracking.link,field:link_type
+msgid "Link Type"
+msgstr "Jenis Tautan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking.link,link_type
+msgid "Sequential"
+msgstr "Berurutan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking.link,link_type
+msgid "Split"
+msgstr "Pisah"
+
+#. module: farm_core
+#: selection:stock.matter.tracking.link,link_type
+msgid "Fission"
+msgstr "Fisi"
+
+#. module: farm_core
+#: selection:stock.matter.tracking.link,link_type
+msgid "Blending"
+msgstr "Pencampuran"
+
+#. module: farm_core
+#: model:stock.matter.tracking.link,name:stock.matter.tracking.link
+msgid "SFC Genealogy Directed Graph Link / Edge"
+msgstr "Tautan/Garis Graf Berarah Silsilah SFC"
+
+#. module: farm_core
+#: model:stock.matter.tracking.link,field:parent_id
+msgid "Parent / Ancestor SFC"
+msgstr "SFC Induk / Leluhur"
+
+#. module: farm_core
+#: model:stock.matter.tracking.link,field:child_id
+msgid "Child / Descendant SFC"
+msgstr "SFC Anak / Keturunan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking.link,transition_type
+msgid "Sequential Flow"
+msgstr "Alur Berurutan"
+
+#. module: farm_core
+#: selection:stock.matter.tracking.link,transition_type
+msgid "Fission Split"
+msgstr "Pisah Fisi"
+
+#. module: farm_core
+#: selection:stock.matter.tracking.link,transition_type
+msgid "Consolidation Merge"
+msgstr "Gabung Konsolidasi"
+
+#. module: farm_core
+#: model:stock.matter.tracking.link,field:quantity_transferred
+msgid "Quantity Transferred"
+msgstr "Jumlah yang Dipindahkan"
+
+#. module: farm_core
+#: model:farm.location,field:geom_3d_polygon
+msgid "3D Airspace Polygon WKT"
+msgstr "Poligon Ruang Udara 3D WKT"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:parent_tracking_id
+msgid "Parent Source"
+msgstr "Sumber Induk"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:fission_type
+msgid "Lineage Fission Type"
+msgstr "Jenis Fisi Silsilah"
+
+#. module: farm_core
+#: model:stock.matter.tracking,field:active_enforcement_level
+msgid "Enforcement Mode"
+msgstr "Mode Penegakan"
+
+#. module: farm_core
+msgid "STRICT GXP COMPLIANCE ENFORCED"
+msgstr "PENEGAKAN KEPATUHAN GXP KETAT BERLAKU"
+
+#. module: farm_core
+msgid "Buyer or Seller partner records not found."
+msgstr "Data mitra Pembeli atau Penjual tidak ditemukan."
+
+#. module: farm_core
+msgid "Insufficient credits!"
+msgstr "Kredit tidak mencukupi!"
+
+#. module: farm_core
+msgid "Circular Dependency Detected! You cannot link a child to an upstream parent."
+msgstr "Ketergantungan melingkar terdeteksi! Anda tidak dapat menautkan anak ke induk di hulunya."
+
+#. module: farm_core
+msgid "Link between parent and child must be unique!"
+msgstr "Tautan antara induk dan anak harus unik!"

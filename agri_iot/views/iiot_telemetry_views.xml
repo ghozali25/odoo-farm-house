@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+    <!-- NOTE (Odoo 18 port): upstream defines the iiot.telemetry model and
+         its access rules, but ships NO views, action or menu for it, and no
+         code ever creates records of it (process_telemetry_data only
+         updates the device shadow + applies rules). These minimal
+         list/form views make the recorded telemetry reachable from the UI;
+         the model itself is unchanged. -->
+    <record id="view_iiot_telemetry_list" model="ir.ui.view">
+        <field name="name">iiot.telemetry.list</field>
+        <field name="model">iiot.telemetry</field>
+        <field name="arch" type="xml">
+            <list string="Telemetry Data">
+                <field name="name" />
+                <field name="sensor_type" />
+                <field name="value" />
+                <field name="device_id" />
+                <field name="timestamp" />
+                <field name="gps_lat" />
+                <field name="gps_lng" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_iiot_telemetry_form" model="ir.ui.view">
+        <field name="name">iiot.telemetry.form</field>
+        <field name="model">iiot.telemetry</field>
+        <field name="arch" type="xml">
+            <form string="Telemetry Data">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="sensor_type" />
+                            <field name="value" />
+                            <field name="timestamp" />
+                        </group>
+                        <group>
+                            <field name="device_id" />
+                            <field name="gps_lat" />
+                            <field name="gps_lng" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_iiot_telemetry" model="ir.actions.act_window">
+        <field name="name">Telemetry Data</field>
+        <field name="res_model">iiot.telemetry</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</data>
+</odoo>
