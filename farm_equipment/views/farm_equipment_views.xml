@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="hr_equipment_view_form_inherit_farm" model="ir.ui.view">
+        <field name="name">maintenance.equipment.form.inherit.farm</field>
+        <field name="model">maintenance.equipment</field>
+        <field name="inherit_id" ref="maintenance.hr_equipment_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='category_id']" position="after">
+                <field name="is_agri_machinery" />
+                <field name="is_drone" />
+            </xpath>
+            <xpath expr="//notebook" position="inside">
+                <page string="Drone Specs" invisible="not is_drone">
+                    <group>
+                        <group string="UAV Parameters">
+                            <field name="working_width" />
+                            <field name="payload_capacity" />
+                            <field name="max_flight_time" />
+                            <field name="checklist_id" domain="[('equipment_type', '=', 'drone')]" />
+                        </group>
+                    </group>
+                    <separator string="Battery Packs" />
+                    <field name="battery_ids">
+                        <list>
+                            <field name="name" />
+                            <field name="cycle_count" />
+                            <field name="current_capacity_health" />
+                            <field name="state" widget="badge" decoration-success="state == 'healthy'" decoration-warning="state == 'aging'" />
+                        </list>
+                    </field>
+                </page>
+                <page string="Agri Specs &amp; Logs" invisible="not is_agri_machinery">
+                    <group>
+                        <group string="Technical Specs">
+                            <field name="horsepower" />
+                            <field name="working_width" />
+                            <field name="fuel_type" />
+                            <field name="fuel_tank_capacity" />
+                            <field name="checklist_id" domain="[('equipment_type', '=', 'machinery')]" />
+                        </group>
+                        <group string="Statistics">
+                            <field name="total_engine_hours" />
+                        </group>
+                    </group>
+                    <field name="fuel_log_ids">
+                        <list editable="bottom">
+                            <field name="date" />
+                            <field name="task_id" />
+                            <field name="engine_hours" />
+                            <field name="fuel_consumed" />
+                            <field name="operator_id" />
+                        </list>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    
+    <record id="action_farm_equipment_log" model="ir.actions.act_window">
+        <field name="name">Machinery Logs</field>
+        <field name="res_model">farm.equipment.log</field>
+        <field name="view_mode">list,form,graph</field>
+    </record>
+
+    <menuitem id="menu_farm_machinery_root" name="Machinery" web_icon="farm_equipment,static/description/icon.png" sequence="70" />
+    <menuitem id="menu_farm_equipment" name="Fleet" parent="menu_farm_machinery_root" action="maintenance.hr_equipment_action" sequence="10" />
+    <menuitem id="menu_farm_equipment_logs" name="Usage Logs" parent="menu_farm_machinery_root" action="action_farm_equipment_log" sequence="20" />
+
+    
+    <record id="farm_battery_view_list" model="ir.ui.view">
+        <field name="name">farm.battery.list</field>
+        <field name="model">farm.battery</field>
+        <field name="arch" type="xml">
+            <list string="Drone Batteries">
+                <field name="name" />
+                <field name="drone_id" />
+                <field name="cycle_count" />
+                <field name="current_capacity_health" widget="progressbar" />
+                <field name="state" widget="badge" />
+            </list>
+        </field>
+    </record>
+
+    <record id="farm_battery_view_form" model="ir.ui.view">
+        <field name="name">farm.battery.form</field>
+        <field name="model">farm.battery</field>
+        <field name="arch" type="xml">
+            <form string="Drone Battery">
+                <header>
+                    <button name="action_log_cycle" string="Log Cycle" type="object" class="btn-primary" />
+                    <field name="state" widget="statusbar" />
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name" /></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="drone_id" />
+                            <field name="max_cycles" />
+                        </group>
+                        <group>
+                            <field name="cycle_count" />
+                            <field name="current_capacity_health" />
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" />
+                    <field name="message_ids" />
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_farm_battery" model="ir.actions.act_window">
+        <field name="name">Drone Batteries</field>
+        <field name="res_model">farm.battery</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="menu_farm_battery" name="Batteries" parent="menu_farm_machinery_root" action="action_farm_battery" sequence="30" />
+</data>
+</odoo>

@@ -1,0 +1,305 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_field_crops
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 21:00+0000\n"
+"PO-Revision-Date: 2026-11-09 21:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (Indonesia)\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_field_crops
+msgid "Amount of fertilizer applied per unit area"
+msgstr "Jumlah pupuk yang diaplikasikan per satuan luas"
+
+#. module: farm_field_crops
+msgid "Amount of seeds planted per unit area (e.g., kg/ha or lbs/acre)"
+msgstr "Jumlah benih yang ditanam per satuan luas (cth. kg/ha atau lbs/acre)"
+
+#. module: farm_field_crops
+msgid "Application Rate (per Ha/Liter)"
+msgstr "Dosis Aplikasi (per Ha/Liter)"
+
+#. module: farm_field_crops
+msgid "Autumn"
+msgstr "Musim Gugur"
+
+#. module: farm_field_crops
+msgid "Base BOM Line"
+msgstr "Baris BoM Dasar"
+
+#. module: farm_field_crops
+msgid "Base Intervention"
+msgstr "Intervensi Dasar"
+
+#. module: farm_field_crops
+msgid "Base Lot"
+msgstr "Lot Dasar"
+
+#. module: farm_field_crops
+msgid "Base Recipe"
+msgstr "Resep Dasar"
+
+#. module: farm_field_crops
+msgid "Components (Base)"
+msgstr "Komponen (Dasar)"
+
+#. module: farm_field_crops
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#. module: farm_field_crops
+msgid "Core Recipe (Base)"
+msgstr "Resep Inti (Dasar)"
+
+#. module: farm_field_crops
+msgid "Create your first field crop operation"
+msgstr "Buat operasi tanaman lapangan pertama Anda"
+
+#. module: farm_field_crops
+msgid "Crop BOM Component (ISL Layer)"
+msgstr "Komponen BoM Tanaman (Lapisan ISL)"
+
+#. module: farm_field_crops
+msgid "Crop Farming Recipe"
+msgstr "Resep Budidaya Tanaman"
+
+#. module: farm_field_crops
+msgid "Crop Farming Task"
+msgstr "Tugas Budidaya Tanaman"
+
+#. module: farm_field_crops
+msgid "Crop Field Tasks"
+msgstr "Tugas Lapangan Tanaman"
+
+#. module: farm_field_crops
+msgid "Crop Harvest Batch (ISL Layer)"
+msgstr "Batch Panen Tanaman (Lapisan ISL)"
+
+#. module: farm_field_crops
+msgid "Crop Recipes"
+msgstr "Resep Tanaman"
+
+#. module: farm_field_crops
+msgid "Crop Rotation Sequence"
+msgstr "Urutan Rotasi Tanaman"
+
+#. module: farm_field_crops
+msgid "Crop Standards (ISL)"
+msgstr "Standar Tanaman (ISL)"
+
+#. module: farm_field_crops
+msgid "Crop Type"
+msgstr "Jenis Tanaman"
+
+#. module: farm_field_crops
+msgid "Default Planting Density"
+msgstr "Kerapatan Tanam Default"
+
+#. module: farm_field_crops
+msgid "Default Seeding Rate"
+msgstr "Dosis Benih Default"
+
+#. module: farm_field_crops
+msgid "Default amount of seeds planted per unit area (e.g. kg/ha); copied to new field crop operations."
+msgstr "Jumlah default benih yang ditanam per satuan luas (cth. kg/ha); disalin ke operasi tanaman lapangan baru."
+
+#. module: farm_field_crops
+msgid "Default number of plants per unit area; copied to new field crop operations."
+msgstr "Jumlah default tanaman per satuan luas; disalin ke operasi tanaman lapangan baru."
+
+#. module: farm_field_crops
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_field_crops
+msgid "Enable Variable Rate Application"
+msgstr "Aktifkan Aplikasi Dosis Variabel"
+
+#. module: farm_field_crops
+msgid "Expected Yield"
+msgstr "Hasil yang Diharapkan"
+
+#. module: farm_field_crops
+msgid "Expected yield per unit area"
+msgstr "Hasil yang diharapkan per satuan luas"
+
+#. module: farm_field_crops
+msgid "Fertilizer Application Rate"
+msgstr "Dosis Aplikasi Pupuk"
+
+#. module: farm_field_crops
+msgid "Field Crop Operation"
+msgstr "Operasi Tanaman Lapangan"
+
+#. module: farm_field_crops
+msgid "Field Crop Operations"
+msgstr "Operasi Tanaman Lapangan"
+
+#. module: farm_field_crops
+msgid "Field Crops"
+msgstr "Tanaman Lapangan"
+
+#. module: farm_field_crops
+msgid "Field Crops Specific Data"
+msgstr "Data Khusus Tanaman Lapangan"
+
+#. module: farm_field_crops
+msgid "Field Operations"
+msgstr "Operasi Lapangan"
+
+#. module: farm_field_crops
+msgid "Field Parcel"
+msgstr "Petak Lapangan"
+
+#. module: farm_field_crops
+msgid "Field/Plot"
+msgstr "Lapangan/Petak"
+
+#. module: farm_field_crops
+msgid "Field: %s"
+msgstr "Lapangan: %s"
+
+#. module: farm_field_crops
+msgid "Grain Moisture (%)"
+msgstr "Kadar Air Gabah (%)"
+
+#. module: farm_field_crops
+msgid "Growing Season"
+msgstr "Musim Tanam"
+
+#. module: farm_field_crops
+msgid "Irrigation Schedule"
+msgstr "Jadwal Irigasi"
+
+#. module: farm_field_crops
+msgid "Is Agricultural Product"
+msgstr "Merupakan Produk Pertanian"
+
+#. module: farm_field_crops
+msgid "Mark as Done"
+msgstr "Tandai Selesai"
+
+#. module: farm_field_crops
+msgid "Mark products that are crops / agricultural products so they can be selected as crop types in field crop operations."
+msgstr "Tandai produk yang merupakan tanaman / produk pertanian agar dapat dipilih sebagai jenis tanaman dalam operasi tanaman lapangan."
+
+#. module: farm_field_crops
+msgid "Number of plants per unit area"
+msgstr "Jumlah tanaman per satuan luas"
+
+#. module: farm_field_crops
+msgid "Operation Information"
+msgstr "Informasi Operasi"
+
+#. module: farm_field_crops
+msgid "Operation Task"
+msgstr "Tugas Operasi"
+
+#. module: farm_field_crops
+msgid "Operations"
+msgstr "Operasi"
+
+#. module: farm_field_crops
+msgid "Order Info (Base)"
+msgstr "Info Pesanan (Dasar)"
+
+#. module: farm_field_crops
+msgid "Origin Plot"
+msgstr "Petak Asal"
+
+#. module: farm_field_crops
+msgid "Overcast"
+msgstr "Mendung"
+
+#. module: farm_field_crops
+msgid "Planning"
+msgstr "Perencanaan"
+
+#. module: farm_field_crops
+msgid "Planting Density"
+msgstr "Kerapatan Tanam"
+
+#. module: farm_field_crops
+msgid "Position in the crop rotation sequence"
+msgstr "Posisi dalam urutan rotasi tanaman"
+
+#. module: farm_field_crops
+msgid "Pre-Harvest Interval (PHI) Days"
+msgstr "Interval Pra-Panen (PHI) Hari"
+
+#. module: farm_field_crops
+msgid "Prescription Map (JSON)"
+msgstr "Peta Preskripsi (JSON)"
+
+#. module: farm_field_crops
+msgid "Protein Content (%)"
+msgstr "Kadar Protein (%)"
+
+#. module: farm_field_crops
+msgid "Rain Imminent"
+msgstr "Hujan Segera Turun"
+
+#. module: farm_field_crops
+msgid "Recommended Weather Condition"
+msgstr "Kondisi Cuaca yang Disarankan"
+
+#. module: farm_field_crops
+msgid "Safety Interval (Days)"
+msgstr "Interval Keamanan (Hari)"
+
+#. module: farm_field_crops
+msgid "Schedule for irrigation activities"
+msgstr "Jadwal kegiatan irigasi"
+
+#. module: farm_field_crops
+msgid "Seeding Rate"
+msgstr "Dosis Benih"
+
+#. module: farm_field_crops
+msgid "Specific field parcel for this operation"
+msgstr "Petak lapangan khusus untuk operasi ini"
+
+#. module: farm_field_crops
+msgid "Spray Volume (L/Ha)"
+msgstr "Volume Semprot (L/Ha)"
+
+#. module: farm_field_crops
+msgid "Spring"
+msgstr "Musim Semi"
+
+#. module: farm_field_crops
+msgid "Summer"
+msgstr "Musim Panas"
+
+#. module: farm_field_crops
+msgid "Sunny"
+msgstr "Cerah"
+
+#. module: farm_field_crops
+msgid "Target Yield per Area Unit (kg)"
+msgstr "Hasil Target per Satuan Luas (kg)"
+
+#. module: farm_field_crops
+msgid "Target yield per local area unit (e.g. per hectare). The field keeps its historical technical name (target_yield_mu); the unit itself is no longer hardcoded to mu."
+msgstr "Hasil target per satuan luas setempat (cth. per hektar). Field ini mempertahankan nama teknis historisnya (target_yield_mu); satuannya sendiri tidak lagi di-hardcode ke mu."
+
+#. module: farm_field_crops
+msgid "Type of crop being cultivated"
+msgstr "Jenis tanaman yang dibudidayakan"
+
+#. module: farm_field_crops
+msgid "Windy"
+msgstr "Berangin"
+
+#. module: farm_field_crops
+msgid "Winter"
+msgstr "Musim Dingin"

@@ -1,0 +1,444 @@
+# Translation of farm_equipment (farm_equipment) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_equipment 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_equipment
+msgid "Action Needed"
+msgstr "Dibutuhkan Aksi"
+
+#. module: farm_equipment
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_equipment
+msgid "Activities"
+msgstr "Aktivitas"
+
+#. module: farm_equipment
+msgid "Activity Exception Decoration"
+msgstr "Dekorasi Pengecualian Aktivitas"
+
+#. module: farm_equipment
+msgid "Activity State"
+msgstr "Status Aktivitas"
+
+#. module: farm_equipment
+msgid "Activity Type Icon"
+msgstr "Ikon Jenis Aktivitas"
+
+#. module: farm_equipment
+msgid "Aging"
+msgstr "Penuaan"
+
+#. module: farm_equipment
+msgid "Agri Specs & Logs"
+msgstr "Agri Specs & Logs"
+
+#. module: farm_equipment
+msgid "Agri-Drone Battery"
+msgstr "Agri-Drone Battery"
+
+#. module: farm_equipment
+msgid "Agricultural Machinery Management, Fuel Logs and Usage Tracking"
+msgstr "Agricultural Machinery Management, Fuel Logs and Usage Tracking"
+
+#. module: farm_equipment
+msgid "Applies To"
+msgstr "Ke Berlaku"
+
+#. module: farm_equipment
+msgid "Assigned Drone"
+msgstr "Drone Ditugaskan"
+
+#. module: farm_equipment
+msgid "Associated Batteries"
+msgstr "Baterai Terkait"
+
+#. module: farm_equipment
+msgid "Attachment Count"
+msgstr "Jumlah Lampiran"
+
+#. module: farm_equipment
+msgid "Batteries"
+msgstr "Baterai"
+
+#. module: farm_equipment
+msgid "Battery Packs"
+msgstr "Paket Baterai"
+
+#. module: farm_equipment
+msgid "Battery cycle recorded. New count: %s"
+msgstr "Battery cycle recorded. New count: %s"
+
+#. module: farm_equipment
+msgid "Check Items"
+msgstr "Item Periksa"
+
+#. module: farm_equipment
+msgid "Checklist"
+msgstr "Daftar Periksa"
+
+#. module: farm_equipment
+msgid "Checklist Item"
+msgstr "Item Daftar periksa"
+
+#. module: farm_equipment
+msgid "Checklist Name"
+msgstr "Nama Daftar periksa"
+
+#. module: farm_equipment
+msgid "Created by"
+msgstr "Oleh Dibuat"
+
+#. module: farm_equipment
+msgid "Created on"
+msgstr "Pada Dibuat"
+
+#. module: farm_equipment
+msgid "Cycle Count"
+msgstr "Jumlah Siklus"
+
+#. module: farm_equipment
+msgid "Damaged"
+msgstr "Rusak"
+
+#. module: farm_equipment
+msgid "Date"
+msgstr "Tanggal"
+
+#. module: farm_equipment
+msgid "Design Life (Cycles)"
+msgstr "Design Life (Cycles)"
+
+#. module: farm_equipment
+msgid "Diesel"
+msgstr "Diesel"
+
+#. module: farm_equipment
+msgid "Display Name"
+msgstr "Nama Tampilan"
+
+#. module: farm_equipment
+msgid "Drone (UAV)"
+msgstr "Drone (UAV)"
+
+#. module: farm_equipment
+msgid "Drone Batteries"
+msgstr "Baterai Drone"
+
+#. module: farm_equipment
+msgid "Drone Battery"
+msgstr "Baterai Drone"
+
+#. module: farm_equipment
+msgid "Drone Specs"
+msgstr "Spesifikasi Drone"
+
+#. module: farm_equipment
+msgid "Electric"
+msgstr "Electric"
+
+#. module: farm_equipment
+msgid "Engine Power (HP)"
+msgstr "Engine Power (HP)"
+
+#. module: farm_equipment
+msgid "Equipment Pre-op Checklist"
+msgstr "Equipment Pre-op Checklist"
+
+#. module: farm_equipment
+msgid "Farm Machinery & Equipment"
+msgstr "Farm Machinery & Equipment"
+
+#. module: farm_equipment
+msgid "Fleet"
+msgstr "Fleet"
+
+#. module: farm_equipment
+msgid "Followers"
+msgstr "Pengikut"
+
+#. module: farm_equipment
+msgid "Followers (Partners)"
+msgstr "Followers (Partners)"
+
+#. module: farm_equipment
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome icon e.g. fa-tasks"
+
+#. module: farm_equipment
+msgid "Fuel Consumed (L)"
+msgstr "Fuel Consumed (L)"
+
+#. module: farm_equipment
+msgid "Fuel Tank Capacity (L)"
+msgstr "Fuel Tank Capacity (L)"
+
+#. module: farm_equipment
+msgid "Fuel Type"
+msgstr "Jenis Bahan bakar"
+
+#. module: farm_equipment
+msgid "Gasoline"
+msgstr "Gasoline"
+
+#. module: farm_equipment
+msgid "General Machinery"
+msgstr "Mesin Umum"
+
+#. module: farm_equipment
+msgid "Good"
+msgstr "Good"
+
+#. module: farm_equipment
+msgid "Has Message"
+msgstr "Pesan Memiliki"
+
+#. module: farm_equipment
+msgid "Health (%)"
+msgstr "Health (%)"
+
+#. module: farm_equipment
+msgid "Hours Used"
+msgstr "Digunakan Jam"
+
+#. module: farm_equipment
+msgid "Hybrid"
+msgstr "Hybrid"
+
+#. module: farm_equipment
+msgid "ID"
+msgstr "ID"
+
+#. module: farm_equipment
+msgid "Icon"
+msgstr "Ikon"
+
+#. module: farm_equipment
+msgid "Icon to indicate an exception activity."
+msgstr "Icon to indicate an exception activity."
+
+#. module: farm_equipment
+msgid "If checked, new messages require your attention."
+msgstr "If checked, new messages require your attention."
+
+#. module: farm_equipment
+msgid "If checked, some messages have a delivery error."
+msgstr "If checked, some messages have a delivery error."
+
+#. module: farm_equipment
+msgid "Is Agricultural Machinery"
+msgstr "Is Agricultural Machinery"
+
+#. module: farm_equipment
+msgid "Is Drone"
+msgstr "Drone"
+
+#. module: farm_equipment
+msgid "Is Follower"
+msgstr "Pengikut"
+
+#. module: farm_equipment
+msgid "Last Updated by"
+msgstr "Oleh Diperbarui Terakhir"
+
+#. module: farm_equipment
+msgid "Last Updated on"
+msgstr "Pada Diperbarui Terakhir"
+
+#. module: farm_equipment
+msgid "Log Cycle"
+msgstr "Siklus Log"
+
+#. module: farm_equipment
+msgid "Machinery"
+msgstr "Mesin"
+
+#. module: farm_equipment
+msgid "Machinery Logs"
+msgstr "Log Mesin"
+
+#. module: farm_equipment
+msgid "Machinery Usage & Fuel Log"
+msgstr "Machinery Usage & Fuel Log"
+
+#. module: farm_equipment
+msgid "Maintenance Equipment"
+msgstr "Peralatan Pemeliharaan"
+
+#. module: farm_equipment
+msgid "Mandatory"
+msgstr "Mandatory"
+
+#. module: farm_equipment
+msgid "Max Flight Time (min)"
+msgstr "Max Flight Time (min)"
+
+#. module: farm_equipment
+msgid "Max Payload (kg/L)"
+msgstr "Max Payload (kg/L)"
+
+#. module: farm_equipment
+msgid "Message Delivery error"
+msgstr "Kesalahan Pengiriman Pesan"
+
+#. module: farm_equipment
+msgid "Messages"
+msgstr "Pesan"
+
+#. module: farm_equipment
+msgid "My Activity Deadline"
+msgstr "Tenggat Aktivitas Saya"
+
+#. module: farm_equipment
+msgid "Next Activity Deadline"
+msgstr "Tenggat Aktivitas Berikutnya"
+
+#. module: farm_equipment
+msgid "Next Activity Summary"
+msgstr "Ringkasan Aktivitas Berikutnya"
+
+#. module: farm_equipment
+msgid "Next Activity Type"
+msgstr "Jenis Aktivitas Berikutnya"
+
+#. module: farm_equipment
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_equipment
+msgid "Number of Actions"
+msgstr "Aksi dari Nomor"
+
+#. module: farm_equipment
+msgid "Number of errors"
+msgstr "Kesalahan dari Nomor"
+
+#. module: farm_equipment
+msgid "Number of messages requiring action"
+msgstr "Aksi membutuhkan pesan dari Nomor"
+
+#. module: farm_equipment
+msgid "Number of messages with delivery error"
+msgstr "Kesalahan pengiriman dengan pesan dari Nomor"
+
+#. module: farm_equipment
+msgid "Operating hours for this task"
+msgstr "Operating hours for this task"
+
+#. module: farm_equipment
+msgid "Operator"
+msgstr "Operator"
+
+#. module: farm_equipment
+msgid "Pre-op Checklist"
+msgstr "Pre-op Checklist"
+
+#. module: farm_equipment
+msgid "Ratings"
+msgstr "Peringkat"
+
+#. module: farm_equipment
+msgid "Related Task"
+msgstr "Related Task"
+
+#. module: farm_equipment
+msgid "Require Photo Evidence"
+msgstr "Bukti Foto Membutuhkan"
+
+#. module: farm_equipment
+msgid "Requirement"
+msgstr "Requirement"
+
+#. module: farm_equipment
+msgid "Responsible User"
+msgstr "Pengguna Penanggung jawab"
+
+#. module: farm_equipment
+msgid "Retired"
+msgstr "Retired"
+
+#. module: farm_equipment
+msgid "SMS Delivery error"
+msgstr "Kesalahan Pengiriman SMS"
+
+#. module: farm_equipment
+msgid "Safety Checklist"
+msgstr "Daftar periksa Keamanan"
+
+#. module: farm_equipment
+msgid "Safety Checklists"
+msgstr "Safety Checklists"
+
+#. module: farm_equipment
+msgid "Serial Number"
+msgstr "Nomor Serial"
+
+#. module: farm_equipment
+msgid "Spraying/Working width"
+msgstr "Spraying/Working width"
+
+#. module: farm_equipment
+msgid "Statistics"
+msgstr "Statistik"
+
+#. module: farm_equipment
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_equipment
+msgid "Tank or hopper capacity"
+msgstr "Tank or hopper capacity"
+
+#. module: farm_equipment
+msgid "Technical Specs"
+msgstr "Spesifikasi Teknis"
+
+#. module: farm_equipment
+msgid "Total Engine Hours"
+msgstr "Total Engine Hours"
+
+#. module: farm_equipment
+msgid "Type of the exception activity on record."
+msgstr "Type of the exception activity on record."
+
+#. module: farm_equipment
+msgid "UAV Parameters"
+msgstr "UAV Parameters"
+
+#. module: farm_equipment
+msgid "Usage Logs"
+msgstr "Usage Logs"
+
+#. module: farm_equipment
+msgid "Vehicle"
+msgstr "Kendaraan"
+
+#. module: farm_equipment
+msgid "Website Messages"
+msgstr "Pesan Situs web"
+
+#. module: farm_equipment
+msgid "Website communication history"
+msgstr "Riwayat komunikasi Situs web"
+
+#. module: farm_equipment
+msgid "Working Width (m)"
+msgstr "Working Width (m)"
+
+#. module: farm_equipment
+msgid "e.g. UAV Flight Safety Check"
+msgstr "e.g. UAV Flight Safety Check"

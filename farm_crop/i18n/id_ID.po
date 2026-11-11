@@ -1,0 +1,197 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_crop
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 21:00+0000\n"
+"PO-Revision-Date: 2026-11-09 21:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (Indonesia)\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_crop
+msgid "Archived"
+msgstr "Diarsipkan"
+
+#. module: farm_crop
+msgid "Associated Campaign"
+msgstr "Kampanye Terkait"
+
+#. module: farm_crop
+msgid "Botanical Family"
+msgstr "Famili Botani"
+
+#. module: farm_crop
+msgid "CROP ROTATION BLOCK: Critical continuous cropping risk detected!"
+msgstr "BLOK ROTASI TANAMAN: Terdeteksi risiko penanaman berkelanjutan yang kritis!"
+
+#. module: farm_crop
+msgid "Continuous Cropping Alert"
+msgstr "Peringatan Penanaman Berkelanjutan"
+
+#. module: farm_crop
+msgid "Continuous Cropping Risk Assessment"
+msgstr "Penilaian Risiko Penanaman Berkelanjutan"
+
+#. module: farm_crop
+msgid "Continuous Cropping Risk Score"
+msgstr "Skor Risiko Penanaman Berkelanjutan"
+
+#. module: farm_crop
+msgid "Continuous Cropping Warning"
+msgstr "Peringatan Penanaman Berkelanjutan"
+
+#. module: farm_crop
+msgid "Crop Growth Cycle"
+msgstr "Siklus Pertumbuhan Tanaman"
+
+#. module: farm_crop
+msgid "Crop Planted"
+msgstr "Tanaman yang Ditanam"
+
+#. module: farm_crop
+msgid "Crop Rotation"
+msgstr "Rotasi Tanaman"
+
+#. module: farm_crop
+msgid "Crop Rotation History"
+msgstr "Riwayat Rotasi Tanaman"
+
+#. module: farm_crop
+msgid "Crop Rotation Info"
+msgstr "Info Rotasi Tanaman"
+
+#. module: farm_crop
+msgid "Cycle Name"
+msgstr "Nama Siklus"
+
+#. module: farm_crop
+msgid "Growing Season"
+msgstr "Musim Tanam"
+
+#. module: farm_crop
+msgid "Harvested"
+msgstr "Dipanen"
+
+#. module: farm_crop
+msgid "Harvesting Date"
+msgstr "Tanggal Panen"
+
+#. module: farm_crop
+msgid "History Reference"
+msgstr "Referensi Riwayat"
+
+#. module: farm_crop
+msgid "Indicates if this crop is susceptible to continuous cropping obstacles"
+msgstr "Menunjukkan apakah tanaman ini rentan terhadap kendala penanaman berkelanjutan"
+
+#. module: farm_crop
+msgid "Land Parcel"
+msgstr "Petak Lahan"
+
+#. module: farm_crop
+msgid "Last Crop Planted"
+msgstr "Tanaman Terakhir yang Ditanam"
+
+#. module: farm_crop
+msgid "Last Planting Date"
+msgstr "Tanggal Tanam Terakhir"
+
+#. module: farm_crop
+msgid "Location & Crop"
+msgstr "Lokasi & Tanaman"
+
+#. module: farm_crop
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_crop
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_crop
+msgid "Planted"
+msgstr "Ditanam"
+
+#. module: farm_crop
+msgid "Planting Date"
+msgstr "Tanggal Tanam"
+
+#. module: farm_crop
+msgid "Planting Details"
+msgstr "Detail Penanaman"
+
+#. module: farm_crop
+msgid "Quantity Planted"
+msgstr "Jumlah yang Ditanam"
+
+#. module: farm_crop
+msgid "ROTATION WARNING: %s"
+msgstr "PERINGATAN ROTASI: %s"
+
+#. module: farm_crop
+msgid "Recommended Rotation Interval (years)"
+msgstr "Interval Rotasi yang Disarankan (tahun)"
+
+#. module: farm_crop
+msgid "Recommended time interval before replanting same crop"
+msgstr "Interval waktu yang disarankan sebelum menanam kembali tanaman yang sama"
+
+#. module: farm_crop
+msgid "Risk assessment details..."
+msgstr "Detail penilaian risiko..."
+
+#. module: farm_crop
+msgid "Risk score based on crop type and previous planting history"
+msgstr "Skor risiko berdasarkan jenis tanaman dan riwayat penanaman sebelumnya"
+
+#. module: farm_crop
+msgid "Rotation History"
+msgstr "Riwayat Rotasi"
+
+#. module: farm_crop
+msgid "Rotation Management"
+msgstr "Manajemen Rotasi"
+
+#. module: farm_crop
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_crop
+msgid "Susceptible to Continuous Cropping"
+msgstr "Rentan terhadap Penanaman Berkelanjutan"
+
+#. module: farm_crop
+msgid "Timeline"
+msgstr "Linimasa"
+
+#. module: farm_crop
+msgid "Unit of Measure"
+msgstr "Satuan Ukur"
+
+#. module: farm_crop
+msgid "View Full Rotation History"
+msgstr "Lihat Riwayat Rotasi Lengkap"
+
+#. module: farm_crop
+msgid "View Soil Analysis History"
+msgstr "Lihat Riwayat Analisis Tanah"
+
+#. module: farm_crop
+msgid "Warning Reason"
+msgstr "Alasan Peringatan"
+
+#. module: farm_crop
+msgid "e.g. Spring 2026, Autumn 2025"
+msgstr "cth. Musim Semi 2026, Musim Gugur 2025"
+
+#. module: farm_crop
+msgid "e.g., Solanaceae, Legumes, Brassicas"
+msgstr "cth. Solanaceae, Legumes, Brassicas"

@@ -1,0 +1,244 @@
+# Translation of farm_financial (farm_financial) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings (field labels,
+# selection labels, view/menu/action strings, help texts, _() messages).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_financial 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:30+0700\n"
+"PO-Revision-Date: 2026-11-10 17:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_financial
+msgid "Accounting period for this financial record"
+msgstr "Periode akuntansi untuk catatan keuangan ini"
+
+#. module: farm_financial
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_financial
+msgid "Adjusted Amount"
+msgstr "Jumlah yang Disesuaikan"
+
+#. module: farm_financial
+msgid "Amount"
+msgstr "Jumlah"
+
+#. module: farm_financial
+msgid "Amount cannot be negative"
+msgstr "Jumlah tidak boleh negatif"
+
+#. module: farm_financial
+msgid "Base Amount"
+msgstr "Jumlah Dasar"
+
+#. module: farm_financial
+msgid "Base amount before adjustments"
+msgstr "Jumlah dasar sebelum penyesuaian"
+
+#. module: farm_financial
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_financial
+msgid "Category Code"
+msgstr "Kode Kategori"
+
+#. module: farm_financial
+msgid "Category Name"
+msgstr "Nama Kategori"
+
+#. module: farm_financial
+msgid "Category hierarchy is too deep."
+msgstr "Hierarki kategori terlalu dalam."
+
+#. module: farm_financial
+msgid "Child Categories"
+msgstr "Kategori Anak"
+
+#. module: farm_financial
+msgid "Company"
+msgstr "Perusahaan"
+
+#. module: farm_financial
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#. module: farm_financial
+msgid "Confirmed"
+msgstr "Dikonfirmasi"
+
+#. module: farm_financial
+msgid "Core financial models and utilities for farm management"
+msgstr "Model dan utilitas keuangan inti untuk manajemen pertanian"
+
+#. module: farm_financial
+msgid "Cost Category"
+msgstr "Kategori Biaya"
+
+#. module: farm_financial
+msgid "Cost Center"
+msgstr "Pusat Biaya"
+
+#. module: farm_financial
+msgid "Cost Type"
+msgstr "Jenis Biaya"
+
+#. module: farm_financial
+msgid "Cost per Unit"
+msgstr "Biaya per Unit"
+
+#. module: farm_financial
+msgid "Created By"
+msgstr "Dibuat Oleh"
+
+#. module: farm_financial
+msgid "Created Date"
+msgstr "Tanggal Dibuat"
+
+#. module: farm_financial
+msgid "Currency"
+msgstr "Mata Uang"
+
+#. module: farm_financial
+msgid "Date"
+msgstr "Tanggal"
+
+#. module: farm_financial
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_financial
+msgid "Direct Cost"
+msgstr "Biaya Langsung"
+
+#. module: farm_financial
+msgid "Direct Labor Cost"
+msgstr "Biaya Tenaga Kerja Langsung"
+
+#. module: farm_financial
+msgid "Direct Material Cost"
+msgstr "Biaya Material Langsung"
+
+#. module: farm_financial
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_financial
+msgid "Error creating journal entry: %s"
+msgstr "Gagal membuat jurnal: %s"
+
+#. module: farm_financial
+msgid "Expected Quantity"
+msgstr "Kuantitas yang Diharapkan"
+
+#. module: farm_financial
+msgid "Expected output quantity for cost calculation"
+msgstr "Kuantitas output yang diharapkan untuk perhitungan biaya"
+
+#. module: farm_financial
+msgid "Farm Financial Abstract Model"
+msgstr "Model Abstrak Keuangan Pertanian"
+
+#. module: farm_financial
+msgid "Farm Financial Core"
+msgstr "Inti Keuangan Pertanian"
+
+#. module: farm_financial
+msgid "Farm Financial Cost Category"
+msgstr "Kategori Biaya Keuangan Pertanian"
+
+#. module: farm_financial
+msgid "Farm Financial Cost Template"
+msgstr "Template Biaya Keuangan Pertanian"
+
+#. module: farm_financial
+msgid "Farm Financial Utility Mixin"
+msgstr "Mixin Utilitas Keuangan Pertanian"
+
+#. module: farm_financial
+msgid "Financial Account"
+msgstr "Akun Keuangan"
+
+#. module: farm_financial
+msgid "Financial Core"
+msgstr "Inti Keuangan"
+
+#. module: farm_financial
+msgid "Financial Period"
+msgstr "Periode Keuangan"
+
+#. module: farm_financial
+msgid "Fiscal Year"
+msgstr "Tahun Fiskal"
+
+#. module: farm_financial
+msgid "Fixed Cost"
+msgstr "Biaya Tetap"
+
+#. module: farm_financial
+msgid "Indirect Cost"
+msgstr "Biaya Tidak Langsung"
+
+#. module: farm_financial
+msgid "Last Modified"
+msgstr "Terakhir Diubah"
+
+#. module: farm_financial
+msgid "Last Modified By"
+msgstr "Terakhir Diubah Oleh"
+
+#. module: farm_financial
+msgid "Overhead Cost"
+msgstr "Biaya Overhead"
+
+#. module: farm_financial
+msgid "Parent Category"
+msgstr "Kategori Induk"
+
+#. module: farm_financial
+msgid "Posted"
+msgstr "Diposting"
+
+#. module: farm_financial
+msgid "Project"
+msgstr "Proyek"
+
+#. module: farm_financial
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: farm_financial
+msgid "Sequence"
+msgstr "Urutan"
+
+#. module: farm_financial
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_financial
+msgid "Template Code"
+msgstr "Kode Template"
+
+#. module: farm_financial
+msgid "Template Name"
+msgstr "Nama Template"
+
+#. module: farm_financial
+msgid "Total Cost"
+msgstr "Total Biaya"
+
+#. module: farm_financial
+msgid "Variable Cost"
+msgstr "Biaya Variabel"
+
+#. module: farm_financial
+msgid "Work Center"
+msgstr "Pusat Kerja"

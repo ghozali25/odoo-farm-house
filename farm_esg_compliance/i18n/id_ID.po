@@ -1,0 +1,1123 @@
+# Translation of farm_esg_compliance to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# Translations: hand-written sentences + phrases, single words, and
+# 'Modifier Head' labels reordered to Indonesian order; anything else is
+# left untranslated so Odoo falls back to the English source string.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_esg_compliance 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 16:00+0700\n"
+"PO-Revision-Date: 2026-11-10 16:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_esg_compliance
+msgid "AI Carbon Reduction Strategy"
+msgstr "Strategi Pengurangan Karbon AI"
+
+#. module: farm_esg_compliance
+msgid "AI Carbon Reduction Strategy generated: %s"
+msgstr "Strategi Pengurangan Karbon AI dibuat: %s"
+
+#. module: farm_esg_compliance
+msgid "AI Recommendation"
+msgstr "Rekomendasi AI"
+
+#. module: farm_esg_compliance
+msgid "AI Recommendations"
+msgstr "Rekomendasi AI"
+
+#. module: farm_esg_compliance
+msgid "AI Strategies"
+msgstr "Strategi AI"
+
+#. module: farm_esg_compliance
+msgid "API Endpoint"
+msgstr "Endpoint API"
+
+#. module: farm_esg_compliance
+msgid "Access Level"
+msgstr "Tingkat Akses"
+
+#. module: farm_esg_compliance
+msgid "Achieved reduction cannot be negative."
+msgstr "Pengurangan yang dicapai tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Activate"
+msgstr "Aktifkan"
+
+#. module: farm_esg_compliance
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_esg_compliance
+msgid "Actual Collection Date"
+msgstr "Tanggal Pengumpulan Aktual"
+
+#. module: farm_esg_compliance
+msgid "Actual Delivery Date"
+msgstr "Tanggal Pengiriman Aktual"
+
+#. module: farm_esg_compliance
+msgid "Agricultural Waste"
+msgstr "Limbah Pertanian"
+
+#. module: farm_esg_compliance
+msgid "Agroforestry"
+msgstr "Agroforestri"
+
+#. module: farm_esg_compliance
+msgid "Algae"
+msgstr "Alga"
+
+#. module: farm_esg_compliance
+msgid "Ancestry Information"
+msgstr "Informasi Silsilah"
+
+#. module: farm_esg_compliance
+msgid "Animal Waste"
+msgstr "Limbah Hewan"
+
+#. module: farm_esg_compliance
+msgid "Annual"
+msgstr "Tahunan"
+
+#. module: farm_esg_compliance
+msgid "Annual Savings"
+msgstr "Penghematan Tahunan"
+
+#. module: farm_esg_compliance
+msgid "Annually"
+msgstr "Tahunan"
+
+#. module: farm_esg_compliance
+msgid "Applicable Country"
+msgstr "Negara Berlaku"
+
+#. module: farm_esg_compliance
+msgid "Applicable ESG Standards"
+msgstr "Standar ESG Berlaku"
+
+#. module: farm_esg_compliance
+msgid "Apply"
+msgstr "Terapkan"
+
+#. module: farm_esg_compliance
+msgid "Apply Design Principles"
+msgstr "Terapkan Prinsip Desain"
+
+#. module: farm_esg_compliance
+msgid "Approve Supplier"
+msgstr "Setujui Pemasok"
+
+#. module: farm_esg_compliance
+msgid "Assess Supplier"
+msgstr "Nilai Pemasok"
+
+#. module: farm_esg_compliance
+msgid "Assessment & Certifications"
+msgstr "Penilaian & Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Audit Body"
+msgstr "Badan Audit"
+
+#. module: farm_esg_compliance
+msgid "Audit Frequency"
+msgstr "Frekuensi Audit"
+
+#. module: farm_esg_compliance
+msgid "Available"
+msgstr "Tersedia"
+
+#. module: farm_esg_compliance
+msgid "Available Quantity"
+msgstr "Kuantitas Tersedia"
+
+#. module: farm_esg_compliance
+msgid "Available quantity cannot be negative."
+msgstr "Kuantitas tersedia tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Basic"
+msgstr "Dasar"
+
+#. module: farm_esg_compliance
+msgid "Bio-energy Markets"
+msgstr "Pasar Bio-energi"
+
+#. module: farm_esg_compliance
+msgid "Bio-energy Product"
+msgstr "Produk Bio-energi"
+
+#. module: farm_esg_compliance
+msgid "Bio-energy Product Name"
+msgstr "Nama Produk Bio-energi"
+
+#. module: farm_esg_compliance
+msgid "Bio-energy Product Sustainability Report"
+msgstr "Laporan Keberlanjutan Produk Bio-energi"
+
+#. module: farm_esg_compliance
+msgid "Bio-energy Products"
+msgstr "Produk Bio-energi"
+
+#. module: farm_esg_compliance
+msgid "Biodiversity Monitoring"
+msgstr "Pemantauan Keanekaragaman Hayati"
+
+#. module: farm_esg_compliance
+msgid "CO2 Reduction Percentage (%)"
+msgstr "Persentase Pengurangan CO2 (%)"
+
+#. module: farm_esg_compliance
+msgid "CO2 reduction percentage must be between 0 and 100."
+msgstr "Persentase pengurangan CO2 harus antara 0 dan 100."
+
+#. module: farm_esg_compliance
+msgid "Calculation Standard"
+msgstr "Standar Perhitungan"
+
+#. module: farm_esg_compliance
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_esg_compliance
+msgid "Cannot issue certification: entity is not carbon neutral."
+msgstr "Tidak dapat menerbitkan sertifikasi: entitas belum netral karbon."
+
+#. module: farm_esg_compliance
+msgid "Carbon Certifications"
+msgstr "Sertifikasi Karbon"
+
+#. module: farm_esg_compliance
+msgid "Carbon Credit"
+msgstr "Kredit Karbon"
+
+#. module: farm_esg_compliance
+msgid "Carbon Credit Markets"
+msgstr "Pasar Kredit Karbon"
+
+#. module: farm_esg_compliance
+msgid "Carbon Footprint (tCO2e)"
+msgstr "Jejak Karbon (tCO2e)"
+
+#. module: farm_esg_compliance
+msgid "Carbon Metrics"
+msgstr "Metrik Karbon"
+
+#. module: farm_esg_compliance
+msgid "Carbon Neutral"
+msgstr "Netral Karbon"
+
+#. module: farm_esg_compliance
+msgid "Carbon Neutrality"
+msgstr "Netralitas Karbon"
+
+#. module: farm_esg_compliance
+msgid "Carbon Offset"
+msgstr "Offset Karbon"
+
+#. module: farm_esg_compliance
+msgid "Carbon Reduction Target (%)"
+msgstr "Target Pengurangan Karbon (%)"
+
+#. module: farm_esg_compliance
+msgid "Carbon credits retired for use."
+msgstr "Kredit karbon dipensiunkan untuk dipakai."
+
+#. module: farm_esg_compliance
+msgid "Carbon credits verified by %s on %s"
+msgstr "Kredit karbon diverifikasi oleh %s pada %s"
+
+#. module: farm_esg_compliance
+msgid "Carbon data verified. Awaiting final certification decision."
+msgstr "Data karbon terverifikasi. Menunggu keputusan sertifikasi akhir."
+
+#. module: farm_esg_compliance
+msgid "Carbon data verified. Quality score: %.1f"
+msgstr "Data karbon terverifikasi. Skor kualitas: %.1f"
+
+#. module: farm_esg_compliance
+msgid "Carbon footprint cannot be negative."
+msgstr "Jejak karbon tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Carbon footprint data collection completed. Total emissions: %.2f tCO2e"
+msgstr "Pengumpulan data jejak karbon selesai. Total emisi: %.2f tCO2e"
+
+#. module: farm_esg_compliance
+msgid "Carbon footprint data collection started."
+msgstr "Pengumpulan data jejak karbon dimulai."
+
+#. module: farm_esg_compliance
+msgid "Carbon intensity cannot be negative."
+msgstr "Intensitas karbon tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Carbon neutral goal marked as completed."
+msgstr "Target netral karbon ditandai selesai."
+
+#. module: farm_esg_compliance
+msgid "Carbon neutrality certification application submitted."
+msgstr "Permohonan sertifikasi netralitas karbon diajukan."
+
+#. module: farm_esg_compliance
+msgid "Carbon neutrality certification has expired."
+msgstr "Sertifikasi netralitas karbon telah kedaluwarsa."
+
+#. module: farm_esg_compliance
+msgid "Carbon neutrality certification issued. Number: %s"
+msgstr "Sertifikasi netralitas karbon diterbitkan. Nomor: %s"
+
+#. module: farm_esg_compliance
+msgid "Carbon neutrality certification review started."
+msgstr "Peninjauan sertifikasi netralitas karbon dimulai."
+
+#. module: farm_esg_compliance
+msgid "Carbon reduction strategy implementation completed."
+msgstr "Implementasi strategi pengurangan karbon selesai."
+
+#. module: farm_esg_compliance
+msgid "Carbon reduction strategy implementation started. Expected reduction: %.2f tCO2e"
+msgstr "Implementasi strategi pengurangan karbon dimulai. Perkiraan pengurangan: %.2f tCO2e"
+
+#. module: farm_esg_compliance
+msgid "Carbon reduction target cannot be negative."
+msgstr "Target pengurangan karbon tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Certification Date"
+msgstr "Tanggal Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Certification Name"
+msgstr "Nama Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Certification Number"
+msgstr "Nomor Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Certification Standard"
+msgstr "Standar Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Certification Status"
+msgstr "Status Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Certification Type"
+msgstr "Jenis Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Certifications"
+msgstr "Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Circular Market"
+msgstr "Pasar Sirkular"
+
+#. module: farm_esg_compliance
+msgid "Collection Date"
+msgstr "Tanggal Pengumpulan"
+
+#. module: farm_esg_compliance
+msgid "Collection Status"
+msgstr "Status Pengumpulan"
+
+#. module: farm_esg_compliance
+msgid "Compliance"
+msgstr "Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Compliance & Certification"
+msgstr "Kepatuhan & Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Compliance & Sustainability"
+msgstr "Kepatuhan & Keberlanjutan"
+
+#. module: farm_esg_compliance
+msgid "Compliance Audit Standard"
+msgstr "Standar Audit Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Compliance Date"
+msgstr "Tanggal Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Compliance Market"
+msgstr "Pasar Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Compliance Record"
+msgstr "Catatan Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Compliance Report"
+msgstr "Laporan Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Compliance Standard"
+msgstr "Standar Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Compliance Standards"
+msgstr "Standar Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Compliance Status"
+msgstr "Status Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Compliance audit has been executed successfully."
+msgstr "Audit kepatuhan berhasil dilaksanakan."
+
+#. module: farm_esg_compliance
+msgid "Compliance status updated. Current status: %s"
+msgstr "Status kepatuhan diperbarui. Status saat ini: %s"
+
+#. module: farm_esg_compliance
+msgid "Composting"
+msgstr "Pengomposan"
+
+#. module: farm_esg_compliance
+msgid "Confirm Payment"
+msgstr "Konfirmasi Pembayaran"
+
+#. module: farm_esg_compliance
+msgid "Contamination level must be between 0 and 100%."
+msgstr "Tingkat kontaminasi harus antara 0 dan 100%."
+
+#. module: farm_esg_compliance
+msgid "Cost and savings values cannot be negative."
+msgstr "Nilai biaya dan penghematan tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Create Improvement Plan"
+msgstr "Buat Rencana Peningkatan"
+
+#. module: farm_esg_compliance
+msgid "Credit Code"
+msgstr "Kode Kredit"
+
+#. module: farm_esg_compliance
+msgid "Credit Name"
+msgstr "Nama Kredit"
+
+#. module: farm_esg_compliance
+msgid "Credit Quantity (tCO2e)"
+msgstr "Kuantitas Kredit (tCO2e)"
+
+#. module: farm_esg_compliance
+msgid "Credit quantity must be positive."
+msgstr "Kuantitas kredit harus positif."
+
+#. module: farm_esg_compliance
+msgid "Current Emissions (tCO2e)"
+msgstr "Emisi Saat Ini (tCO2e)"
+
+#. module: farm_esg_compliance
+msgid "Current emissions should be updated from carbon tracking systems."
+msgstr "Emisi saat ini sebaiknya diperbarui dari sistem pelacakan karbon."
+
+#. module: farm_esg_compliance
+msgid "Data Collection Task"
+msgstr "Tugas Pengumpulan Data"
+
+#. module: farm_esg_compliance
+msgid "Data Quality Score (0-100)"
+msgstr "Skor Kualitas Data (0-100)"
+
+#. module: farm_esg_compliance
+msgid "Date"
+msgstr "Tanggal"
+
+#. module: farm_esg_compliance
+msgid "Delivery Location"
+msgstr "Lokasi Pengiriman"
+
+#. module: farm_esg_compliance
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_esg_compliance
+msgid "Design"
+msgstr "Desain"
+
+#. module: farm_esg_compliance
+msgid "Design Principles"
+msgstr "Prinsip Desain"
+
+#. module: farm_esg_compliance
+msgid "Document Name"
+msgstr "Nama Dokumen"
+
+#. module: farm_esg_compliance
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_esg_compliance
+msgid "ESG Certifications"
+msgstr "Sertifikasi ESG"
+
+#. module: farm_esg_compliance
+msgid "ESG Compliance"
+msgstr "Kepatuhan ESG"
+
+#. module: farm_esg_compliance
+msgid "ESG Compliance Status"
+msgstr "Status Kepatuhan ESG"
+
+#. module: farm_esg_compliance
+msgid "Economic Metrics"
+msgstr "Metrik Ekonomi"
+
+#. module: farm_esg_compliance
+msgid "Emissions Data"
+msgstr "Data Emisi"
+
+#. module: farm_esg_compliance
+msgid "Emissions Reduction Target (tCO2e)"
+msgstr "Target Pengurangan Emisi (tCO2e)"
+
+#. module: farm_esg_compliance
+msgid "Emissions values cannot be negative."
+msgstr "Nilai emisi tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "End Date"
+msgstr "Tanggal Akhir"
+
+#. module: farm_esg_compliance
+msgid "Energy Content (MJ/kg or MJ/m3)"
+msgstr "Konten Energi (MJ/kg or MJ/m3)"
+
+#. module: farm_esg_compliance
+msgid "Energy Content (MJ/kg)"
+msgstr "Konten Energi (MJ/kg)"
+
+#. module: farm_esg_compliance
+msgid "Energy Efficiency"
+msgstr "Efisiensi Energi"
+
+#. module: farm_esg_compliance
+msgid "Energy content cannot be negative."
+msgstr "Kandungan energi tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Environmental Impact"
+msgstr "Dampak Lingkungan"
+
+#. module: farm_esg_compliance
+msgid "Environmental Metrics"
+msgstr "Metrik Lingkungan"
+
+#. module: farm_esg_compliance
+msgid "Environmental Score (0-100)"
+msgstr "Skor Lingkungan (0-100)"
+
+#. module: farm_esg_compliance
+msgid "Environmental impact score must be between 0 and 100."
+msgstr "Skor dampak lingkungan harus antara 0 dan 100."
+
+#. module: farm_esg_compliance
+msgid "Export Compliance"
+msgstr "Ekspor Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Farm Location"
+msgstr "Lokasi Lahan"
+
+#. module: farm_esg_compliance
+msgid "Generate AI Recommendation"
+msgstr "Buat Rekomendasi AI"
+
+#. module: farm_esg_compliance
+msgid "Generate Report"
+msgstr "Buat Laporan"
+
+#. module: farm_esg_compliance
+msgid "Generate Technical Dossier"
+msgstr "Buat Dosir Teknis"
+
+#. module: farm_esg_compliance
+msgid "Goal Code"
+msgstr "Kode Target"
+
+#. module: farm_esg_compliance
+msgid "Goal Name"
+msgstr "Nama Target"
+
+#. module: farm_esg_compliance
+msgid "Improvement Plan"
+msgstr "Rencana Peningkatan"
+
+#. module: farm_esg_compliance
+msgid "Improvement plan created for supplier carbon compliance."
+msgstr "Rencana perbaikan dibuat untuk kepatuhan karbon pemasok."
+
+#. module: farm_esg_compliance
+msgid "Incentive programs generated for compliant supplier."
+msgstr "Program insentif dibuat untuk pemasok yang patuh."
+
+#. module: farm_esg_compliance
+msgid "Location"
+msgstr "Lokasi"
+
+#. module: farm_esg_compliance
+msgid "MRL Compliance (Pesticides)"
+msgstr "Kepatuhan MRL (Pesticides)"
+
+#. module: farm_esg_compliance
+msgid "Market Type"
+msgstr "Jenis Pasar"
+
+#. module: farm_esg_compliance
+msgid "Marketplace"
+msgstr "Pasar"
+
+#. module: farm_esg_compliance
+msgid "Metrics"
+msgstr "Metrik"
+
+#. module: farm_esg_compliance
+msgid "Moisture content must be between 0 and 100%."
+msgstr "Kadar air harus antara 0 dan 100%."
+
+#. module: farm_esg_compliance
+msgid "Monitoring Date"
+msgstr "Tanggal Pemantauan"
+
+#. module: farm_esg_compliance
+msgid "Monitoring Frequency"
+msgstr "Frekuensi Pemantauan"
+
+#. module: farm_esg_compliance
+msgid "Monitoring Plan"
+msgstr "Rencana Pemantauan"
+
+#. module: farm_esg_compliance
+msgid "Monthly"
+msgstr "Bulanan"
+
+#. module: farm_esg_compliance
+msgid "Net Amount ($)"
+msgstr "Jumlah Neto ($)"
+
+#. module: farm_esg_compliance
+msgid "Offset Certification Standards"
+msgstr "Standar Sertifikasi Offset"
+
+#. module: farm_esg_compliance
+msgid "Offset Strategy"
+msgstr "Strategi Offset"
+
+#. module: farm_esg_compliance
+msgid "Operation blocked: Sustainability score (%s) is below the minimum threshold (20)."
+msgstr "Operasi diblokir: Skor keberlanjutan (%s) di bawah ambang minimum (20)."
+
+#. module: farm_esg_compliance
+msgid "Partner Credit Score"
+msgstr "Skor Kredit Mitra"
+
+#. module: farm_esg_compliance
+msgid "Payment Confirmed"
+msgstr "Dikonfirmasi Pembayaran"
+
+#. module: farm_esg_compliance
+msgid "Payment Method"
+msgstr "Metode Pembayaran"
+
+#. module: farm_esg_compliance
+msgid "Payment confirmed for trade."
+msgstr "Pembayaran perdagangan dikonfirmasi."
+
+#. module: farm_esg_compliance
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_esg_compliance
+msgid "Pending Assessment"
+msgstr "Penilaian Menunggu"
+
+#. module: farm_esg_compliance
+msgid "Pending Payment"
+msgstr "Pembayaran Menunggu"
+
+#. module: farm_esg_compliance
+msgid "Pending Review"
+msgstr "Peninjauan Menunggu"
+
+#. module: farm_esg_compliance
+msgid "Period Type"
+msgstr "Jenis Periode"
+
+#. module: farm_esg_compliance
+msgid "Planned"
+msgstr "Direncanakan"
+
+#. module: farm_esg_compliance
+msgid "Product"
+msgstr "Produk"
+
+#. module: farm_esg_compliance
+msgid "Product Category"
+msgstr "Kategori Produk"
+
+#. module: farm_esg_compliance
+msgid "Product Code"
+msgstr "Kode Produk"
+
+#. module: farm_esg_compliance
+msgid "Product Details"
+msgstr "Detail Produk"
+
+#. module: farm_esg_compliance
+msgid "Product Level"
+msgstr "Tingkat Produk"
+
+#. module: farm_esg_compliance
+msgid "Product Line"
+msgstr "Garis Produk"
+
+#. module: farm_esg_compliance
+msgid "Product Name"
+msgstr "Nama Produk"
+
+#. module: farm_esg_compliance
+msgid "Product Type"
+msgstr "Jenis Produk"
+
+#. module: farm_esg_compliance
+msgid "Product listed in ESG marketplace."
+msgstr "Produk terdaftar di pasar ESG."
+
+#. module: farm_esg_compliance
+msgid "Product removed from ESG marketplace."
+msgstr "Produk dihapus dari pasar ESG."
+
+#. module: farm_esg_compliance
+msgid "Production"
+msgstr "Produksi"
+
+#. module: farm_esg_compliance
+msgid "Production Ancestry"
+msgstr "Silsilah Produksi"
+
+#. module: farm_esg_compliance
+msgid "Production Capacity"
+msgstr "Kapasitas Produksi"
+
+#. module: farm_esg_compliance
+msgid "Production Location"
+msgstr "Lokasi Produksi"
+
+#. module: farm_esg_compliance
+msgid "Production Unit"
+msgstr "Satuan Produksi"
+
+#. module: farm_esg_compliance
+msgid "Production capacity cannot be negative."
+msgstr "Kapasitas produksi tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Project Description"
+msgstr "Deskripsi Proyek"
+
+#. module: farm_esg_compliance
+msgid "Project Information"
+msgstr "Informasi Proyek"
+
+#. module: farm_esg_compliance
+msgid "Project Location"
+msgstr "Lokasi Proyek"
+
+#. module: farm_esg_compliance
+msgid "Quality & Certifications"
+msgstr "Kualitas & Sertifikasi"
+
+#. module: farm_esg_compliance
+msgid "Quality Certifications"
+msgstr "Sertifikasi Kualitas"
+
+#. module: farm_esg_compliance
+msgid "Quantity"
+msgstr "Kuantitas"
+
+#. module: farm_esg_compliance
+msgid "Quantity Unit"
+msgstr "Satuan Kuantitas"
+
+#. module: farm_esg_compliance
+msgid "Quantity must be positive."
+msgstr "Kuantitas harus positif."
+
+#. module: farm_esg_compliance
+msgid "Quarterly"
+msgstr "Kuartalan"
+
+#. module: farm_esg_compliance
+msgid "Real-time carbon monitoring activated for this data collection task."
+msgstr "Pemantauan karbon waktu nyata diaktifkan untuk tugas pengumpulan data ini."
+
+#. module: farm_esg_compliance
+msgid "Recommendations"
+msgstr "Rekomendasi"
+
+#. module: farm_esg_compliance
+msgid "Recycling"
+msgstr "Daur Ulang"
+
+#. module: farm_esg_compliance
+msgid "Reduction Percentage (%)"
+msgstr "Persentase Pengurangan (%)"
+
+#. module: farm_esg_compliance
+msgid "Reduction Strategy"
+msgstr "Strategi Pengurangan"
+
+#. module: farm_esg_compliance
+msgid "Related Carbon Data"
+msgstr "Data Karbon Terkait"
+
+#. module: farm_esg_compliance
+msgid "Related Data"
+msgstr "Data Terkait"
+
+#. module: farm_esg_compliance
+msgid "Related Products"
+msgstr "Produk Terkait"
+
+#. module: farm_esg_compliance
+msgid "Related Region"
+msgstr "Wilayah Terkait"
+
+#. module: farm_esg_compliance
+msgid "Report Name"
+msgstr "Nama Laporan"
+
+#. module: farm_esg_compliance
+msgid "Resource Efficiency (%)"
+msgstr "Efisiensi Sumber Daya (%)"
+
+#. module: farm_esg_compliance
+msgid "Resource Efficiency Improvement (%)"
+msgstr "Peningkatan Efisiensi Sumber Daya (%)"
+
+#. module: farm_esg_compliance
+msgid "Responsible Person"
+msgstr "Penanggung Jawab"
+
+#. module: farm_esg_compliance
+msgid "Return on Investment (%)"
+msgstr "Tingkat Pengembalian Investasi (%)"
+
+#. module: farm_esg_compliance
+msgid "Revenue"
+msgstr "Pendapatan"
+
+#. module: farm_esg_compliance
+msgid "Run Compliance Audit"
+msgstr "Jalankan Audit Kepatuhan"
+
+#. module: farm_esg_compliance
+msgid "Sales Growth Target (%)"
+msgstr "Target Pertumbuhan Penjualan (%)"
+
+#. module: farm_esg_compliance
+msgid "Social Impact"
+msgstr "Dampak Sosial"
+
+#. module: farm_esg_compliance
+msgid "Social Metrics"
+msgstr "Metrik Sosial"
+
+#. module: farm_esg_compliance
+msgid "Soil Health Index (0-100)"
+msgstr "Indeks Kesehatan Tanah (0-100)"
+
+#. module: farm_esg_compliance
+msgid "Standard"
+msgstr "Standar"
+
+#. module: farm_esg_compliance
+msgid "Standard Code"
+msgstr "Kode Standar"
+
+#. module: farm_esg_compliance
+msgid "Standard Name"
+msgstr "Nama Standar"
+
+#. module: farm_esg_compliance
+msgid "Standards the product meets (e.g., RSB, ISCC)"
+msgstr "Standar yang dipenuhi produk (mis., RSB, ISCC)"
+
+#. module: farm_esg_compliance
+msgid "Start Collection"
+msgstr "Pengumpulan Mulai"
+
+#. module: farm_esg_compliance
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+#. module: farm_esg_compliance
+msgid "Start Review"
+msgstr "Peninjauan Mulai"
+
+#. module: farm_esg_compliance
+msgid "Start date must be before target completion date."
+msgstr "Tanggal mulai harus sebelum tanggal target selesai."
+
+#. module: farm_esg_compliance
+msgid "Strategy Date"
+msgstr "Tanggal Strategi"
+
+#. module: farm_esg_compliance
+msgid "Strategy Type"
+msgstr "Jenis Strategi"
+
+#. module: farm_esg_compliance
+msgid "Supplier"
+msgstr "Pemasok"
+
+#. module: farm_esg_compliance
+msgid "Supplier Carbon Compliance"
+msgstr "Kepatuhan Karbon Pemasok"
+
+#. module: farm_esg_compliance
+msgid "Supplier Carbon Compliance Record"
+msgstr "Catatan Kepatuhan Karbon Pemasok"
+
+#. module: farm_esg_compliance
+msgid "Supplier Carbon Score (0-100)"
+msgstr "Skor Karbon Pemasok (0-100)"
+
+#. module: farm_esg_compliance
+msgid "Supplier Category"
+msgstr "Kategori Pemasok"
+
+#. module: farm_esg_compliance
+msgid "Supplier Compliance"
+msgstr "Kepatuhan Pemasok"
+
+#. module: farm_esg_compliance
+msgid "Supplier approved after A2A protocol Agent-KYC check. Score: %s"
+msgstr "Pemasok disetujui setelah pemeriksaan Agent-KYC protokol A2A. Skor: %s"
+
+#. module: farm_esg_compliance
+msgid "Supplier must have at least one sustainability certification."
+msgstr "Pemasok harus memiliki setidaknya satu sertifikasi keberlanjutan."
+
+#. module: farm_esg_compliance
+msgid "Supplier's A2A Agent Credit Score (%s) is below threshold."
+msgstr "Skor Kredit Agen A2A pemasok (%s) di bawah ambang."
+
+#. module: farm_esg_compliance
+msgid "Supply Chain"
+msgstr "Rantai Pasok"
+
+#. module: farm_esg_compliance
+msgid "Suspended"
+msgstr "Ditangguhkan"
+
+#. module: farm_esg_compliance
+msgid "Sustainability Certification"
+msgstr "Sertifikasi Keberlanjutan"
+
+#. module: farm_esg_compliance
+msgid "Sustainability Certifications"
+msgstr "Sertifikasi Keberlanjutan"
+
+#. module: farm_esg_compliance
+msgid "Sustainability Compliance (%)"
+msgstr "Kepatuhan Keberlanjutan (%)"
+
+#. module: farm_esg_compliance
+msgid "Sustainability Metrics"
+msgstr "Metrik Keberlanjutan"
+
+#. module: farm_esg_compliance
+msgid "Sustainability Notes"
+msgstr "Catatan Keberlanjutan"
+
+#. module: farm_esg_compliance
+msgid "Sustainability Recommendations"
+msgstr "Rekomendasi Keberlanjutan"
+
+#. module: farm_esg_compliance
+msgid "Sustainability Report"
+msgstr "Laporan Keberlanjutan"
+
+#. module: farm_esg_compliance
+msgid "Sustainability Score (0-100)"
+msgstr "Skor Keberlanjutan (0-100)"
+
+#. module: farm_esg_compliance
+msgid "Sustainability Standards"
+msgstr "Standar Keberlanjutan"
+
+#. module: farm_esg_compliance
+msgid "Sustainable Agricultural Products"
+msgstr "Produk Pertanian Berkelanjutan"
+
+#. module: farm_esg_compliance
+msgid "Synchronization with external platform initiated."
+msgstr "Sinkronisasi dengan platform eksternal dimulai."
+
+#. module: farm_esg_compliance
+msgid "Target Country"
+msgstr "Negara Target"
+
+#. module: farm_esg_compliance
+msgid "Target Emissions (tCO2e)"
+msgstr "Emisi Target (tCO2e)"
+
+#. module: farm_esg_compliance
+msgid "Target emissions should be less than or equal to baseline emissions for reduction goals."
+msgstr "Emisi target sebaiknya kurang dari atau sama dengan emisi dasar untuk target pengurangan."
+
+#. module: farm_esg_compliance
+msgid "Technical production dossier is now available in the audit log."
+msgstr "Dosir teknis produksi kini tersedia di log audit."
+
+#. module: farm_esg_compliance
+msgid "Total Amount ($)"
+msgstr "Total Jumlah ($)"
+
+#. module: farm_esg_compliance
+msgid "Total Emissions (tCO2e)"
+msgstr "Total Emisi (tCO2e)"
+
+#. module: farm_esg_compliance
+msgid "Total Value ($)"
+msgstr "Total Nilai ($)"
+
+#. module: farm_esg_compliance
+msgid "Total emissions cannot be negative."
+msgstr "Total emisi tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Total emissions must be specified before verification."
+msgstr "Total emisi harus diisi sebelum verifikasi."
+
+#. module: farm_esg_compliance
+msgid "Total removals cannot be negative."
+msgstr "Total penyerapan tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Trade marked as delivered."
+msgstr "Perdagangan ditandai terkirim."
+
+#. module: farm_esg_compliance
+msgid "Transaction fee percentage must be between 0 and 100."
+msgstr "Persentase biaya transaksi harus antara 0 dan 100."
+
+#. module: farm_esg_compliance
+msgid "Triple Bottom Line Metrics"
+msgstr "Metrik Triple Bottom Line"
+
+#. module: farm_esg_compliance
+msgid "Triple Bottom Line metrics recorded for %s"
+msgstr "Metrik Triple Bottom Line dicatat untuk %s"
+
+#. module: farm_esg_compliance
+msgid "Type"
+msgstr "Jenis"
+
+#. module: farm_esg_compliance
+msgid "Unit Price ($)"
+msgstr "Harga Satuan ($)"
+
+#. module: farm_esg_compliance
+msgid "Unit Price ($/tCO2e)"
+msgstr "Harga Satuan ($/tCO2e)"
+
+#. module: farm_esg_compliance
+msgid "Unit Price ($/unit)"
+msgstr "Harga Satuan ($/unit)"
+
+#. module: farm_esg_compliance
+msgid "Unit price cannot be negative."
+msgstr "Harga satuan tidak boleh negatif."
+
+#. module: farm_esg_compliance
+msgid "Update Current Emissions"
+msgstr "Perbarui Emisi Saat Ini"
+
+#. module: farm_esg_compliance
+msgid "Update Policy"
+msgstr "Perbarui Kebijakan"
+
+#. module: farm_esg_compliance
+msgid "Update Status"
+msgstr "Perbarui Status"
+
+#. module: farm_esg_compliance
+msgid "Vintage year cannot be in the future."
+msgstr "Tahun vintage tidak boleh di masa depan."
+
+#. module: farm_esg_compliance
+msgid "Waste Category"
+msgstr "Kategori Limbah"
+
+#. module: farm_esg_compliance
+msgid "Waste Type"
+msgstr "Jenis Limbah"
+
+#. module: farm_esg_compliance
+msgid "Waste resource contracted with buyer."
+msgstr "Sumber daya limbah dikontrak dengan pembeli."
+
+#. module: farm_esg_compliance
+msgid "Waste resource delivered to destination."
+msgstr "Sumber daya limbah dikirim ke tujuan."
+
+#. module: farm_esg_compliance
+msgid "Waste resource listed for trade."
+msgstr "Sumber daya limbah terdaftar untuk diperdagangkan."
+
+#. module: farm_esg_compliance
+msgid "Waste resource trade completed successfully."
+msgstr "Perdagangan sumber daya limbah berhasil diselesaikan."
+
+#. module: farm_esg_compliance
+msgid "Waste resource trade compliance verified."
+msgstr "Kepatuhan perdagangan sumber daya limbah terverifikasi."
+
+#. module: farm_esg_compliance
+msgid "Weekly"
+msgstr "Mingguan"
+
+#. module: farm_esg_compliance
+msgid "[AI] Biological Twin monitored. Total GDD: %s C. Health Score: %s"
+msgstr "[AI] Kembaran Biologis dipantau. Total GDD: %s C. Skor Kesehatan: %s"
+
+#. module: farm_esg_compliance
+msgid "[ESG] Carbon Intensity: %s kg CO2e / kg"
+msgstr "[ESG] Intensitas Karbon: %s kg CO2e / kg"
+
+#. module: farm_esg_compliance
+msgid "[QC] MRL (Pesticide Residue) compliant with EU/US standards."
+msgstr "[QC] MRL (Residu Pestisida) sesuai standar EU/AS."
+
+#. module: farm_esg_compliance
+msgid "[VRA] Precision Variable Application enabled. Avg Rate: %s kg/ha"
+msgstr "[VRA] Aplikasi Variabel Presisi aktif. Laju Rata-rata: %s kg/ha"
+
+#. module: farm_esg_compliance
+msgid "Farm ESG Compliance"
+msgstr "Kepatuhan ESG Pertanian"
+
+#. module: farm_esg_compliance
+msgid "ESG Compliance Management for Farm Operations (Epic 101)"
+msgstr "Manajemen Kepatuhan ESG untuk Operasi Pertanian (Epic 101)"

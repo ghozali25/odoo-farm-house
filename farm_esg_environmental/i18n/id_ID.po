@@ -1,0 +1,587 @@
+# Translation of farm_esg_environmental to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# Translations: hand-written sentences + phrases, single words, and
+# 'Modifier Head' labels reordered to Indonesian order; anything else is
+# left untranslated so Odoo falls back to the English source string.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_esg_environmental 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 16:00+0700\n"
+"PO-Revision-Date: 2026-11-10 16:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_esg_environmental
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_esg_environmental
+msgid "Active Monitoring"
+msgstr "Pemantauan Aktif"
+
+#. module: farm_esg_environmental
+msgid "Advanced Parameters"
+msgstr "Parameter Lanjutan"
+
+#. module: farm_esg_environmental
+msgid "Agri ESG Red Line Configuration"
+msgstr "Konfigurasi Garis Merah ESG Agri"
+
+#. module: farm_esg_environmental
+msgid "Agri ESG Red Line Monitoring"
+msgstr "Pemantauan Garis Merah ESG Agri"
+
+#. module: farm_esg_environmental
+msgid "Agricultural Carbon Transaction Ledger"
+msgstr "Ledger Transaksi Karbon Pertanian"
+
+#. module: farm_esg_environmental
+msgid "Annually"
+msgstr "Tahunan"
+
+#. module: farm_esg_environmental
+msgid "Are there seasonal limitations on VRA applications?"
+msgstr "Apakah ada batasan musiman pada aplikasi VRA?"
+
+#. module: farm_esg_environmental
+msgid "Assessment Date"
+msgstr "Tanggal Penilaian"
+
+#. module: farm_esg_environmental
+msgid "Assessment Frequency"
+msgstr "Frekuensi Penilaian"
+
+#. module: farm_esg_environmental
+msgid "Assessment Status"
+msgstr "Status Penilaian"
+
+#. module: farm_esg_environmental
+msgid "August"
+msgstr "Agustus"
+
+#. module: farm_esg_environmental
+msgid "Base Saturation - Calcium (%)"
+msgstr "Kejenuhan Basa - Kalsium (%)"
+
+#. module: farm_esg_environmental
+msgid "Base Saturation - Magnesium (%)"
+msgstr "Kejenuhan Basa - Magnesium (%)"
+
+#. module: farm_esg_environmental
+msgid "Base Saturation - Potassium (%)"
+msgstr "Kejenuhan Basa - Kalium (%)"
+
+#. module: farm_esg_environmental
+msgid "Base Saturation - Sodium (%)"
+msgstr "Kejenuhan Basa - Natrium (%)"
+
+#. module: farm_esg_environmental
+msgid "Basic Parameters"
+msgstr "Parameter Dasar"
+
+#. module: farm_esg_environmental
+msgid "Biodiversity Loss"
+msgstr "Kehilangan Keanekaragaman Hayati"
+
+#. module: farm_esg_environmental
+msgid "Biodiversity Risk Score (0-100)"
+msgstr "Skor Risiko Keanekaragaman Hayati (0-100)"
+
+#. module: farm_esg_environmental
+msgid "Biological Buffer Zone"
+msgstr "Zona Penyangga Biologis"
+
+#. module: farm_esg_environmental
+msgid "Buffer Distance (km)"
+msgstr "Jarak Penyangga (km)"
+
+#. module: farm_esg_environmental
+msgid "Buffer Distance (meters)"
+msgstr "Jarak Penyangga (meters)"
+
+#. module: farm_esg_environmental
+msgid "Buffer Type"
+msgstr "Jenis Penyangga"
+
+#. module: farm_esg_environmental
+msgid "Buffer Zone Type"
+msgstr "Jenis Zona Penyangga"
+
+#. module: farm_esg_environmental
+msgid "Buffer distance must be greater than zero."
+msgstr "Jarak penyangga harus lebih besar dari nol."
+
+#. module: farm_esg_environmental
+msgid "CEC cannot be negative."
+msgstr "KTK tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "Calculate Assessment"
+msgstr "Hitung Penilaian"
+
+#. module: farm_esg_environmental
+msgid "Carbon Emission Excess"
+msgstr "Kelebihan Emisi Karbon"
+
+#. module: farm_esg_environmental
+msgid "Carbon Emission Factors"
+msgstr "Faktor Emisi Karbon"
+
+#. module: farm_esg_environmental
+msgid "Carbon Emission Reduction (kg CO2e)"
+msgstr "Pengurangan Emisi Karbon (kg CO2e)"
+
+#. module: farm_esg_environmental
+msgid "Carbon Factor"
+msgstr "Faktor Karbon"
+
+#. module: farm_esg_environmental
+msgid "Carbon Footprint (kg CO2e)"
+msgstr "Jejak Karbon (kg CO2e)"
+
+#. module: farm_esg_environmental
+msgid "Carbon Footprint (tCO2e)"
+msgstr "Jejak Karbon (tCO2e)"
+
+#. module: farm_esg_environmental
+msgid "Carbon Ledger"
+msgstr "Ledger Karbon"
+
+#. module: farm_esg_environmental
+msgid "Carbon Offset (kg Co2e)"
+msgstr "Offset Karbon (kg Co2e)"
+
+#. module: farm_esg_environmental
+msgid "Carbon Reduction (%)"
+msgstr "Pengurangan Karbon (%)"
+
+#. module: farm_esg_environmental
+msgid "Carbon emissions cannot be negative."
+msgstr "Emisi karbon tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "Category"
+msgstr "Kategori"
+
+#. module: farm_esg_environmental
+msgid "Check Date"
+msgstr "Tanggal Pemeriksaan"
+
+#. module: farm_esg_environmental
+msgid "Chemical Buffer Zone"
+msgstr "Zona Penyangga Kimia"
+
+#. module: farm_esg_environmental
+msgid "Compliance History"
+msgstr "Riwayat Kepatuhan"
+
+#. module: farm_esg_environmental
+msgid "Compliance Metrics"
+msgstr "Metrik Kepatuhan"
+
+#. module: farm_esg_environmental
+msgid "Compliance Status"
+msgstr "Status Kepatuhan"
+
+#. module: farm_esg_environmental
+msgid "Create Improvement Plan"
+msgstr "Buat Rencana Peningkatan"
+
+#. module: farm_esg_environmental
+msgid "Current Value"
+msgstr "Nilai Saat Ini"
+
+#. module: farm_esg_environmental
+msgid "Daily"
+msgstr "Harian"
+
+#. module: farm_esg_environmental
+msgid "December"
+msgstr "Desember"
+
+#. module: farm_esg_environmental
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_esg_environmental
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_esg_environmental
+msgid "ESG Compliance"
+msgstr "Kepatuhan ESG"
+
+#. module: farm_esg_environmental
+msgid "ESG Compliance Monitoring"
+msgstr "Pemantauan Kepatuhan ESG"
+
+#. module: farm_esg_environmental
+msgid "ESG Compliance Status"
+msgstr "Status Kepatuhan ESG"
+
+#. module: farm_esg_environmental
+msgid "ESG Environmental"
+msgstr "Lingkungan ESG"
+
+#. module: farm_esg_environmental
+msgid "ESG Environmental Report"
+msgstr "Laporan Lingkungan ESG"
+
+#. module: farm_esg_environmental
+msgid "ESG Environmental Reports"
+msgstr "Laporan Lingkungan ESG"
+
+#. module: farm_esg_environmental
+msgid "ESG Monitoring Records"
+msgstr "Catatan Pemantauan ESG"
+
+#. module: farm_esg_environmental
+msgid "ESG Red Line Configuration (Deprecated - Use agri.esg.red.line.config)"
+msgstr "Konfigurasi Garis Merah ESG (Usang - Gunakan agri.esg.red.line.config)"
+
+#. module: farm_esg_environmental
+msgid "ESG Red Line Monitoring"
+msgstr "Pemantauan Garis Merah ESG"
+
+#. module: farm_esg_environmental
+msgid "ESG Red Line Monitoring (Deprecated - Use agri.esg.red.line.monitoring)"
+msgstr "Pemantauan Garis Merah ESG (Usang - Gunakan agri.esg.red.line.monitoring)"
+
+#. module: farm_esg_environmental
+msgid "Emission Factor (kg CO2e / unit)"
+msgstr "Faktor Emisi (kg CO2e / unit)"
+
+#. module: farm_esg_environmental
+msgid "Enable organic circular waste tracking and management."
+msgstr "Aktifkan pelacakan dan pengelolaan limbah organik sirkular."
+
+#. module: farm_esg_environmental
+msgid "Enable tracking of soil carbon footprint and reduction metrics."
+msgstr "Aktifkan pelacakan jejak karbon tanah dan metrik pengurangannya."
+
+#. module: farm_esg_environmental
+msgid "Environmental Impact"
+msgstr "Dampak Lingkungan"
+
+#. module: farm_esg_environmental
+msgid "Environmental Reports"
+msgstr "Laporan Lingkungan"
+
+#. module: farm_esg_environmental
+msgid "Environmental Risk Level"
+msgstr "Tingkat Risiko Lingkungan"
+
+#. module: farm_esg_environmental
+msgid "Factor Name"
+msgstr "Nama Faktor"
+
+#. module: farm_esg_environmental
+msgid "Farm ESG Environmental"
+msgstr "Lingkungan ESG Lahan"
+
+#. module: farm_esg_environmental
+msgid "Farm Location"
+msgstr "Lokasi Lahan"
+
+#. module: farm_esg_environmental
+msgid "February"
+msgstr "Februari"
+
+#. module: farm_esg_environmental
+msgid "Fuel savings cannot be negative."
+msgstr "Penghematan bahan bakar tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "GPS Coordinates"
+msgstr "Koordinat GPS"
+
+#. module: farm_esg_environmental
+msgid "Generate Report"
+msgstr "Buat Laporan"
+
+#. module: farm_esg_environmental
+msgid "Health Category"
+msgstr "Kategori Kesehatan"
+
+#. module: farm_esg_environmental
+msgid "Improvement Plan"
+msgstr "Rencana Peningkatan"
+
+#. module: farm_esg_environmental
+msgid "Improvement Recommendations"
+msgstr "Rekomendasi Peningkatan"
+
+#. module: farm_esg_environmental
+msgid "Inspection scheduled for %s"
+msgstr "Inspeksi dijadwalkan pada %s"
+
+#. module: farm_esg_environmental
+msgid "January"
+msgstr "Januari"
+
+#. module: farm_esg_environmental
+msgid "July"
+msgstr "Juli"
+
+#. module: farm_esg_environmental
+msgid "June"
+msgstr "Juni"
+
+#. module: farm_esg_environmental
+msgid "Location"
+msgstr "Lokasi"
+
+#. module: farm_esg_environmental
+msgid "March"
+msgstr "Maret"
+
+#. module: farm_esg_environmental
+msgid "Material quantities cannot be negative."
+msgstr "Kuantitas bahan tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "May"
+msgstr "Mei"
+
+#. module: farm_esg_environmental
+msgid "Monitoring"
+msgstr "Pemantauan"
+
+#. module: farm_esg_environmental
+msgid "Monitoring Frequency"
+msgstr "Frekuensi Pemantauan"
+
+#. module: farm_esg_environmental
+msgid "Monitoring Record"
+msgstr "Catatan Pemantauan"
+
+#. module: farm_esg_environmental
+msgid "Monthly"
+msgstr "Bulanan"
+
+#. module: farm_esg_environmental
+msgid "Next soil health assessment scheduled for %s"
+msgstr "Penilaian kesehatan tanah berikutnya dijadwalkan pada %s"
+
+#. module: farm_esg_environmental
+msgid "Nitrogen level cannot be negative."
+msgstr "Kadar nitrogen tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_esg_environmental
+msgid "October"
+msgstr "Oktober"
+
+#. module: farm_esg_environmental
+msgid "Operation Type"
+msgstr "Jenis Operasi"
+
+#. module: farm_esg_environmental
+msgid "Organic Matter Content (%)"
+msgstr "Kandungan Bahan Organik (%)"
+
+#. module: farm_esg_environmental
+msgid "Organic matter content cannot be negative."
+msgstr "Kandungan bahan organik tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_esg_environmental
+msgid "Phosphorus level cannot be negative."
+msgstr "Kadar fosfor tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "Potassium level cannot be negative."
+msgstr "Kadar kalium tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "Product like Diesel, Urea, etc."
+msgstr "Produk seperti Diesel, Urea, dll."
+
+#. module: farm_esg_environmental
+msgid "Production Lot"
+msgstr "Lot Produksi"
+
+#. module: farm_esg_environmental
+msgid "Quarterly"
+msgstr "Kuartalan"
+
+#. module: farm_esg_environmental
+msgid "Record Compliance Check"
+msgstr "Pemeriksaan Kepatuhan Catatan"
+
+#. module: farm_esg_environmental
+msgid "Red Line Configuration"
+msgstr "Konfigurasi Garis Merah"
+
+#. module: farm_esg_environmental
+msgid "Red Line Name"
+msgstr "Nama Garis Merah"
+
+#. module: farm_esg_environmental
+msgid "Red Line Type"
+msgstr "Jenis Garis Merah"
+
+#. module: farm_esg_environmental
+msgid "Related Product"
+msgstr "Produk Terkait"
+
+#. module: farm_esg_environmental
+msgid "Salinity cannot be negative."
+msgstr "Salinitas tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "Savings"
+msgstr "Penghematan"
+
+#. module: farm_esg_environmental
+msgid "Soil Health Assessment"
+msgstr "Penilaian Kesehatan Tanah"
+
+#. module: farm_esg_environmental
+msgid "Soil Health Category"
+msgstr "Kategori Kesehatan Tanah"
+
+#. module: farm_esg_environmental
+msgid "Soil Health Score (0-100)"
+msgstr "Skor Kesehatan Tanah (0-100)"
+
+#. module: farm_esg_environmental
+msgid "Soil carbon sequestration cannot be negative."
+msgstr "Sekuestrasi karbon tanah tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "Soil compaction level cannot be negative."
+msgstr "Tingkat pemadatan tanah tidak boleh negatif."
+
+#. module: farm_esg_environmental
+msgid "Soil health assessment updated. Current score: %.2f"
+msgstr "Penilaian kesehatan tanah diperbarui. Skor saat ini: %.2f"
+
+#. module: farm_esg_environmental
+msgid "Soil health improvement plan created."
+msgstr "Rencana perbaikan kesehatan tanah dibuat."
+
+#. module: farm_esg_environmental
+msgid "Start season cannot be after end season."
+msgstr "Musim mulai tidak boleh setelah musim akhir."
+
+#. module: farm_esg_environmental
+msgid "Threshold Description"
+msgstr "Deskripsi Ambang"
+
+#. module: farm_esg_environmental
+msgid "Threshold Monitoring"
+msgstr "Pemantauan Ambang"
+
+#. module: farm_esg_environmental
+msgid "Threshold Unit"
+msgstr "Satuan Ambang"
+
+#. module: farm_esg_environmental
+msgid "Threshold Value"
+msgstr "Nilai Ambang"
+
+#. module: farm_esg_environmental
+msgid "Transaction Date"
+msgstr "Tanggal Transaksi"
+
+#. module: farm_esg_environmental
+msgid "Unit"
+msgstr "Satuan"
+
+#. module: farm_esg_environmental
+msgid "VRA Carbon Assessment"
+msgstr "Penilaian Karbon VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA Carbon Emission (kg CO2e)"
+msgstr "Emisi Karbon VRA (kg CO2e)"
+
+#. module: farm_esg_environmental
+msgid "VRA Carbon Footprint"
+msgstr "Jejak Karbon VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA Carbon Footprint Report"
+msgstr "Laporan Jejak Karbon VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA Environmental Impact"
+msgstr "Dampak Lingkungan VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA Method"
+msgstr "Metode VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA Recommendations"
+msgstr "Rekomendasi VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA Soil Health"
+msgstr "Kesehatan Tanah VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA Soil Health Monitoring"
+msgstr "Pemantauan Kesehatan Tanah VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA Soil Health Report"
+msgstr "Laporan Kesehatan Tanah VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA Water Protection"
+msgstr "Perlindungan Air VRA"
+
+#. module: farm_esg_environmental
+msgid "VRA carbon footprint assessment completed."
+msgstr "Penilaian jejak karbon VRA selesai."
+
+#. module: farm_esg_environmental
+msgid "VRA carbon footprint assessment verified."
+msgstr "Penilaian jejak karbon VRA terverifikasi."
+
+#. module: farm_esg_environmental
+msgid "Warning"
+msgstr "Peringatan"
+
+#. module: farm_esg_environmental
+msgid "Water Body Name"
+msgstr "Nama Badan Air"
+
+#. module: farm_esg_environmental
+msgid "Weekly"
+msgstr "Mingguan"
+
+#. module: farm_esg_environmental
+msgid "Zone Code"
+msgstr "Kode Zona"
+
+#. module: farm_esg_environmental
+msgid "e.g., IPCC, FAO, Local Research"
+msgstr "mis., IPCC, FAO, Penelitian Lokal"
+
+#. module: farm_esg_environmental
+msgid "pH level must be between 0 and 14."
+msgstr "Kadar pH harus antara 0 dan 14."
+
+#. module: farm_esg_environmental
+msgid "Farm ESG Environmental Assessment"
+msgstr "Penilaian Lingkungan ESG Pertanian"
+
+#. module: farm_esg_environmental
+msgid "ESG environmental assessments using ecological data within ESG governance framework (from farm_esg) - VRA Environmental Impact Assessment (Epic 80)"
+msgstr "Penilaian lingkungan ESG berbasis data ekologi dalam kerangka tata kelola ESG (dari farm_esg) - Penilaian Dampak Lingkungan VRA (Epic 80)"

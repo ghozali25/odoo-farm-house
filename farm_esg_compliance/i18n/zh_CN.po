@@ -1,0 +1,488 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_esg_compliance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:02+0000\n"
+"PO-Revision-Date: 2026-05-04 09:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/export_compliance_engine.py:0
+msgid "--- TECHNICAL PRODUCTION DOSSIER ---"
+msgstr "--- 技术生产档案 ---"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "AI Carbon Reduction Strategy generated: %s"
+msgstr "生成的 AI 碳减排策略：%s"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Achieved reduction cannot be negative."
+msgstr "实现的减少不能为负。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Available quantity cannot be negative."
+msgstr "可用数量不能为负数。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Bio-energy Product Sustainability Report"
+msgstr "生物能源产品可持续发展报告"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "CO2 reduction percentage must be between 0 and 100."
+msgstr "CO2 减排百分比必须介于 0 到 100 之间。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Cannot issue certification: entity is not carbon neutral."
+msgstr "无法颁发认证：实体不是碳中和的。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Carbon Neutral Goal Progress Report"
+msgstr "碳中和目标进度报告"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon Neutrality Compliance Report"
+msgstr "碳中和合规报告"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Carbon credits retired for use."
+msgstr "碳信用额退役使用。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Carbon credits transferred."
+msgstr "碳信用额转移。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Carbon credits verified by %s on %s"
+msgstr "碳信用额已由 %s 在 %s 验证"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon data verified. Awaiting final certification decision."
+msgstr "碳数据已验证。等待最终认证决定。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon data verified. Quality score: %.1f"
+msgstr "碳数据已验证。质量得分：%.1f"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon footprint cannot be negative."
+msgstr "碳足迹不能为负。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid ""
+"Carbon footprint data collection completed. Total emissions: %.2f tCO2e"
+msgstr ""
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon footprint data collection started."
+msgstr "碳足迹数据收集开始。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon intensity cannot be negative."
+msgstr "碳强度不能为负。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Carbon neutral goal marked as completed."
+msgstr "碳中和目标标记为已完成。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon neutrality certification application submitted."
+msgstr "已提交碳中和认证申请。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon neutrality certification has expired."
+msgstr "碳中和认证已过期。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon neutrality certification issued. Number: %s"
+msgstr "颁发碳中和认证。号码：%s"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon neutrality certification review started."
+msgstr "碳中和认证审核启动。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon reduction strategy implementation completed."
+msgstr "减碳战略实施完成。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid ""
+"Carbon reduction strategy implementation started. Expected reduction: %.2f "
+"tCO2e"
+msgstr ""
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Carbon reduction target cannot be negative."
+msgstr "碳减排目标不能为负。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Compliance status updated. Current status: %s"
+msgstr "合规状态已更新。当前状态：%s"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Contamination level must be between 0 and 100%."
+msgstr "污染水平必须在 0 到 100% 之间。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Cost and savings values cannot be negative."
+msgstr "成本和节省值不能为负。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Credit quantity must be positive."
+msgstr "信用数量必须为正。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Current emissions should be updated from carbon tracking systems."
+msgstr "当前的排放量应通过碳追踪系统进行更新。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/export_compliance_engine.py:0
+msgid "Dossier Generated"
+msgstr "档案生成"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Emissions values cannot be negative."
+msgstr "排放值不能为负。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Energy content cannot be negative."
+msgstr "能量含量不能为负。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/agri_sustainability_mixin.py:0
+msgid "Environmental impact score must be between 0 and 100."
+msgstr "环境影响分数必须介于 0 到 100 之间。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Improvement plan created for supplier carbon compliance."
+msgstr "为供应商碳合规制定改进计划。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Incentive programs generated for compliant supplier."
+msgstr "为合规供应商制定激励计划。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Marketplace activated."
+msgstr "市场已激活。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Marketplace deactivated."
+msgstr "市场已停用。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Moisture content must be between 0 and 100%."
+msgstr "水分含量必须在 0 到 100% 之间。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/agri_sustainability_mixin.py:0
+msgid ""
+"Operation blocked: Sustainability score (%s) is below the minimum threshold "
+"(20)."
+msgstr ""
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Payment confirmed for trade."
+msgstr "交易付款已确认。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Product listed in ESG marketplace."
+msgstr "产品在 ESG 市场上列出。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Product removed from ESG marketplace."
+msgstr "产品已从 ESG 市场中删除。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/export_compliance_engine.py:0
+msgid "Product: %s"
+msgstr "产品"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Production capacity cannot be negative."
+msgstr "生产能力不能为负。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Quantity must be positive."
+msgstr "数量必须为正数。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Real-time carbon monitoring activated for this data collection task."
+msgstr "为此数据收集任务激活了实时碳监测。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Start date must be before target completion date."
+msgstr "开始日期必须早于目标完成日期。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/sustainable_supply_chain.py:0
+msgid "Supplier approved after A2A protocol Agent-KYC check. Score: %s"
+msgstr "供应商在 A2A 协议代理 KYC 检查后获得批准。得分：%s"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/sustainable_supply_chain.py:0
+msgid "Supplier must have at least one sustainability certification."
+msgstr "供应商必须拥有至少一项可持续发展认证。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/sustainable_supply_chain.py:0
+msgid "Supplier's A2A Agent Credit Score (%s) is below threshold."
+msgstr "供应商的 A2A 代理信用评分 (%s) 低于阈值。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Synchronization with external platform initiated."
+msgstr "已启动与外部平台的同步。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid ""
+"Target emissions should be less than or equal to baseline emissions for "
+"reduction goals."
+msgstr ""
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/export_compliance_engine.py:0
+msgid "Technical production dossier is now available in the audit log."
+msgstr "技术生产档案现在可在审核日志中找到。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Total emissions cannot be negative."
+msgstr "总排放量不能为负。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Total emissions must be specified before verification."
+msgstr "核查前必须明确总排放量。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/supply_chain_carbon_tracking.py:0
+msgid "Total removals cannot be negative."
+msgstr "总清除量不能为负数。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Trade cancelled."
+msgstr "贸易取消。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Trade completed successfully."
+msgstr "交易成功完成。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Trade compliance verified."
+msgstr "贸易合规性已验证。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Trade marked as delivered."
+msgstr "贸易标记为已交付。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Transaction fee percentage must be between 0 and 100."
+msgstr "交易费用百分比必须介于 0 到 100 之间。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/triple_bottom_line_metrics.py:0
+msgid "Triple Bottom Line Report"
+msgstr "三重底线报告"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/triple_bottom_line_metrics.py:0
+msgid "Triple Bottom Line metrics recorded for %s"
+msgstr "为 %s 记录的三重底线指标"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Unit price cannot be negative."
+msgstr "单价不能为负数。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Unknown Body"
+msgstr "未知尸体"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/carbon_neutral_management.py:0
+msgid "Vintage year cannot be in the future."
+msgstr "年份不可能是未来。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Waste resource contracted with buyer."
+msgstr "与买方签订合同的废物资源。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Waste resource delivered to destination."
+msgstr "废物资源运送到目的地。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Waste resource listed for trade."
+msgstr "列入交易的废物资源。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Waste resource trade completed successfully."
+msgstr "废旧资源交易顺利完成。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/external_esg_marketplace.py:0
+msgid "Waste resource trade compliance verified."
+msgstr "废物资源贸易合规性得到验证。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/export_compliance_engine.py:0
+msgid "[AI] Biological Twin monitored. Total GDD: %s C. Health Score: %s"
+msgstr "[AI] 生物双胞胎被监控。总 GDD：%s C. 健康得分：%s"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/export_compliance_engine.py:0
+msgid "[ESG] Carbon Intensity: %s kg CO2e / kg"
+msgstr "[ESG] 碳强度：%s kg CO2e / kg"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/export_compliance_engine.py:0
+msgid "[QC] MRL (Pesticide Residue) compliant with EU/US standards."
+msgstr "[QC] MRL（农药残留）符合欧盟/美国标准。"
+
+#. module: farm_esg_compliance
+#. odoo-python
+#: code:addons/farm_esg_compliance/models/export_compliance_engine.py:0
+msgid "[VRA] Precision Variable Application enabled. Avg Rate: %s kg/mu"
+msgstr "[VRA] 启用精密变量应用程序。平均率：%s 公斤/亩"

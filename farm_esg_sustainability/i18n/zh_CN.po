@@ -1,0 +1,95 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_esg_sustainability
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:02+0000\n"
+"PO-Revision-Date: 2026-05-04 09:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/sustainability_metric.py:0
+msgid "Initial value setup"
+msgstr "初始值设定"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/sustainability_metric.py:0
+msgid "Sustainability Metrics"
+msgstr "可持续发展指标"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/sustainability_metric.py:0
+msgid "The Metric Code must be unique: %s"
+msgstr "公制代码必须是唯一的：%s"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/sustainability_metric.py:0
+msgid "Update Metric Value"
+msgstr "更新指标值"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/agri_sustainability_dashboard_report.py:0
+msgid "category"
+msgstr "类别"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/agri_sustainability_dashboard_report.py:0
+msgid "status"
+msgstr "地位"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/agri_sustainability_dashboard_report.py:0
+msgid "可持续发展仪表板数据已重新计算"
+msgstr "可持续发展仪表板数据已重新计算"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/agri_sustainability_dashboard_report.py:0
+msgid "循环经济流程"
+msgstr "循环经济流程"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/agri_sustainability_dashboard_report.py:0
+msgid "环境指标"
+msgstr "环境指标"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/agri_sustainability_dashboard_report.py:0
+msgid "碳足迹数据"
+msgstr "碳足迹数据"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/agri_sustainability_dashboard_report.py:0
+msgid "社会指标"
+msgstr "社会指标"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/agri_sustainability_dashboard_report.py:0
+msgid "经济指标"
+msgstr "经济指标"
+
+#. module: farm_esg_sustainability
+#. odoo-python
+#: code:addons/farm_esg_sustainability/models/agri_sustainability_dashboard_report.py:0
+msgid "计算完成"
+msgstr "计算完成"

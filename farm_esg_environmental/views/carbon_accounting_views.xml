@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="view_agri_carbon_factor_tree" model="ir.ui.view">
+        <field name="name">agri.carbon.factor.list</field>
+        <field name="model">agri.carbon.factor</field>
+        <field name="arch" type="xml">
+            <list editable="bottom">
+                <field name="name" />
+                <field name="category" />
+                <field name="emission_factor" />
+            </list>
+        </field>
+    </record>
+
+    <record id="action_agri_carbon_factor" model="ir.actions.act_window">
+        <field name="name">Carbon Emission Factors</field>
+        <field name="res_model">agri.carbon.factor</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</data>
+</odoo>

@@ -1,0 +1,2012 @@
+# Translation of Farm ESG Risk Management (farm_esg_risk) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_esg_risk 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:00+0700\n"
+"PO-Revision-Date: 2026-11-10 17:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_esg_risk
+msgid "API/JSON"
+msgstr "API/JSON"
+
+#. module: farm_esg_risk
+msgid "Access & Recipients"
+msgstr "Akses & Penerima"
+
+#. module: farm_esg_risk
+msgid "Access Control List"
+msgstr "Daftar Kontrol Akses"
+
+#. module: farm_esg_risk
+msgid "Access Level"
+msgstr "Tingkat Akses"
+
+#. module: farm_esg_risk
+msgid "Accuracy Validated"
+msgstr "Akurasi Tervalidasi"
+
+#. module: farm_esg_risk
+msgid "Achievement %"
+msgstr "Pencapaian %"
+
+#. module: farm_esg_risk
+msgid "Action Deadline"
+msgstr "Batas Waktu Tindakan"
+
+#. module: farm_esg_risk
+msgid "Action Items"
+msgstr "Butir Tindakan"
+
+#. module: farm_esg_risk
+msgid "Action Status"
+msgstr "Status Tindakan"
+
+#. module: farm_esg_risk
+msgid "Actions"
+msgstr "Tindakan"
+
+#. module: farm_esg_risk
+msgid "Actions to implement this scenario"
+msgstr "Tindakan untuk menerapkan skenario ini"
+
+#. module: farm_esg_risk
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_esg_risk
+msgid "Additional custom metrics specific to stakeholder needs"
+msgstr "Metrik kustom tambahan khusus untuk kebutuhan pemangku kepentingan"
+
+#. module: farm_esg_risk
+msgid "Agricultural ESG Compliance Monitoring"
+msgstr "Pemantauan Kepatuhan ESG Pertanian"
+
+#. module: farm_esg_risk
+msgid "Agricultural ESG KPI"
+msgstr "KPI ESG Pertanian"
+
+#. module: farm_esg_risk
+msgid "Agricultural ESG Risk Assessment"
+msgstr "Penilaian Risiko ESG Pertanian"
+
+#. module: farm_esg_risk
+msgid "Alert Issued"
+msgstr "Peringatan Diterbitkan"
+
+#. module: farm_esg_risk
+msgid "Allowed Users"
+msgstr "Pengguna yang Diizinkan"
+
+#. module: farm_esg_risk
+msgid "Analysis End Date"
+msgstr "Tanggal Selesai Analisis"
+
+#. module: farm_esg_risk
+msgid "Analysis Results"
+msgstr "Hasil Analisis"
+
+#. module: farm_esg_risk
+msgid "Analysis Start Date"
+msgstr "Tanggal Mulai Analisis"
+
+#. module: farm_esg_risk
+msgid "Analysis Status"
+msgstr "Status Analisis"
+
+#. module: farm_esg_risk
+msgid "Analysis of data patterns and anomalies"
+msgstr "Analisis pola data dan anomali"
+
+#. module: farm_esg_risk
+msgid "Analysis of what would be affected if data is changed"
+msgstr "Analisis tentang apa yang akan terdampak bila data diubah"
+
+#. module: farm_esg_risk
+msgid "Annual"
+msgstr "Tahunan"
+
+#. module: farm_esg_risk
+msgid "Annually"
+msgstr "Tahunan"
+
+#. module: farm_esg_risk
+msgid "Anonymization Applied"
+msgstr "Anonimisasi Diterapkan"
+
+#. module: farm_esg_risk
+msgid "Apply Filters"
+msgstr "Terapkan Filter"
+
+#. module: farm_esg_risk
+msgid "Approve Scenario"
+msgstr "Setujui Skenario"
+
+#. module: farm_esg_risk
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_esg_risk
+msgid "Assessment Criteria"
+msgstr "Kriteria Penilaian"
+
+#. module: farm_esg_risk
+msgid "Assessment Date"
+msgstr "Tanggal Penilaian"
+
+#. module: farm_esg_risk
+msgid "Assessment Method"
+msgstr "Metode Penilaian"
+
+#. module: farm_esg_risk
+msgid "Assessment Name"
+msgstr "Nama Penilaian"
+
+#. module: farm_esg_risk
+msgid "Assessment Period"
+msgstr "Periode Penilaian"
+
+#. module: farm_esg_risk
+msgid "Assessment Type"
+msgstr "Jenis Penilaian"
+
+#. module: farm_esg_risk
+msgid "Assign Data Steward"
+msgstr "Tugaskan Pengelola Data"
+
+#. module: farm_esg_risk
+msgid "Assurance Provider"
+msgstr "Penyedia Asurans"
+
+#. module: farm_esg_risk
+msgid "At Risk"
+msgstr "Beresiko"
+
+#. module: farm_esg_risk
+msgid "Audit Trail Enabled"
+msgstr "Jejak Audit Diaktifkan"
+
+#. module: farm_esg_risk
+msgid "Auto Generation"
+msgstr "Pembuatan Otomatis"
+
+#. module: farm_esg_risk
+msgid "Automated"
+msgstr "Otomatis"
+
+#. module: farm_esg_risk
+msgid "Automated Alerts Enabled"
+msgstr "Peringatan Otomatis Diaktifkan"
+
+#. module: farm_esg_risk
+msgid "Backup Status"
+msgstr "Status Cadangan"
+
+#. module: farm_esg_risk
+msgid "Bahasa Indonesia"
+msgstr "Bahasa Indonesia"
+
+#. module: farm_esg_risk
+msgid "Baseline Biodiversity Score (0-100)"
+msgstr "Skor Keanekaragaman Hayati Dasar (0-100)"
+
+#. module: farm_esg_risk
+msgid "Baseline Carbon Emissions (tCO2e)"
+msgstr "Emisi Karbon Dasar (tCO2e)"
+
+#. module: farm_esg_risk
+msgid "Baseline Data"
+msgstr "Data Dasar"
+
+#. module: farm_esg_risk
+msgid "Baseline Energy Consumption (kWh)"
+msgstr "Konsumsi Energi Dasar (kWh)"
+
+#. module: farm_esg_risk
+msgid "Baseline Value"
+msgstr "Nilai Dasar"
+
+#. module: farm_esg_risk
+msgid "Baseline Waste Generation (tonnes)"
+msgstr "Timbulan Limbah Dasar (ton)"
+
+#. module: farm_esg_risk
+msgid "Baseline Water Usage (m3)"
+msgstr "Penggunaan Air Dasar (m3)"
+
+#. module: farm_esg_risk
+msgid "Baseline Year"
+msgstr "Tahun Dasar"
+
+#. module: farm_esg_risk
+msgid "Basic Information"
+msgstr "Informasi Dasar"
+
+#. module: farm_esg_risk
+msgid "Benchmark Source"
+msgstr "Sumber Tolok Ukur"
+
+#. module: farm_esg_risk
+msgid "Benchmark Value"
+msgstr "Nilai Tolok Ukur"
+
+#. module: farm_esg_risk
+msgid "Biodiversity"
+msgstr "Keanekaragaman Hayati"
+
+#. module: farm_esg_risk
+msgid "Biodiversity Enhancement"
+msgstr "Peningkatan Keanekaragaman Hayati"
+
+#. module: farm_esg_risk
+msgid "Biodiversity Impact Score"
+msgstr "Skor Dampak Keanekaragaman Hayati"
+
+#. module: farm_esg_risk
+msgid "Brand & Design"
+msgstr "Merek & Desain"
+
+#. module: farm_esg_risk
+msgid "Brand Colors"
+msgstr "Warna Merek"
+
+#. module: farm_esg_risk
+msgid "Brand colors for this report (hex codes)"
+msgstr "Warna merek untuk laporan ini (kode hex)"
+
+#. module: farm_esg_risk
+msgid "Business Partners"
+msgstr "Mitra Bisnis"
+
+#. module: farm_esg_risk
+msgid "Calculate Scores Automatically"
+msgstr "Hitung Skor Otomatis"
+
+#. module: farm_esg_risk
+msgid "Calculation"
+msgstr "Perhitungan"
+
+#. module: farm_esg_risk
+msgid "Calculation Method"
+msgstr "Metode Perhitungan"
+
+#. module: farm_esg_risk
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_esg_risk
+msgid "Carbon Emissions"
+msgstr "Emisi Karbon"
+
+#. module: farm_esg_risk
+msgid "Carbon Footprint Reduction"
+msgstr "Pengurangan Jejak Karbon"
+
+#. module: farm_esg_risk
+msgid "Carbon Intensity"
+msgstr "Intensitas Karbon"
+
+#. module: farm_esg_risk
+msgid "Carbon Scenarios"
+msgstr "Skenario Karbon"
+
+#. module: farm_esg_risk
+msgid "Checksum"
+msgstr "Checksum"
+
+#. module: farm_esg_risk
+msgid "Chinese"
+msgstr "Bahasa Mandarin"
+
+#. module: farm_esg_risk
+msgid "Circular Economy Practices"
+msgstr "Praktik Ekonomi Sirkular"
+
+#. module: farm_esg_risk
+msgid "Climate Risk Mitigation"
+msgstr "Mitigasi Risiko Iklim"
+
+#. module: farm_esg_risk
+msgid "Climate Risk Report"
+msgstr "Laporan Risiko Iklim"
+
+#. module: farm_esg_risk
+msgid "Closed"
+msgstr "Ditutup"
+
+#. module: farm_esg_risk
+msgid "Collection Date"
+msgstr "Tanggal Pengumpulan"
+
+#. module: farm_esg_risk
+msgid "Collection Method"
+msgstr "Metode Pengumpulan"
+
+#. module: farm_esg_risk
+msgid "Combined"
+msgstr "Gabungan"
+
+#. module: farm_esg_risk
+msgid "Combined ESG Scenario"
+msgstr "Skenario ESG Gabungan"
+
+#. module: farm_esg_risk
+msgid "Communication Channel"
+msgstr "Saluran Komunikasi"
+
+#. module: farm_esg_risk
+msgid "Community"
+msgstr "Komunitas"
+
+#. module: farm_esg_risk
+msgid "Community Benefit Score (0-100)"
+msgstr "Skor Manfaat Komunitas (0-100)"
+
+#. module: farm_esg_risk
+msgid "Community Investment"
+msgstr "Investasi Komunitas"
+
+#. module: farm_esg_risk
+msgid "Community Relation Score"
+msgstr "Skor Relasi Komunitas"
+
+#. module: farm_esg_risk
+msgid "Complaint"
+msgstr "Keluhan"
+
+#. module: farm_esg_risk
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_esg_risk
+msgid "Compliance"
+msgstr "Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Compliance Check Name"
+msgstr "Nama Pemeriksaan Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Compliance Monitoring"
+msgstr "Pemantauan Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Compliance Rate"
+msgstr "Tingkat Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Compliance Score"
+msgstr "Skor Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Compliance Status"
+msgstr "Status Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Compliance Type"
+msgstr "Jenis Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Compliant"
+msgstr "Patuh"
+
+#. module: farm_esg_risk
+msgid "Confidence Level (%)"
+msgstr "Tingkat Keyakinan (%)"
+
+#. module: farm_esg_risk
+msgid "Confidence in predictions (0-100)"
+msgstr "Keyakinan terhadap prediksi (0-100)"
+
+#. module: farm_esg_risk
+msgid "Confidence level must be between 0 and 100."
+msgstr "Tingkat keyakinan harus antara 0 dan 100."
+
+#. module: farm_esg_risk
+msgid "Confidential"
+msgstr "Rahasia"
+
+#. module: farm_esg_risk
+msgid "Consultation"
+msgstr "Konsultasi"
+
+#. module: farm_esg_risk
+msgid "Content Customization"
+msgstr "Kustomisasi Konten"
+
+#. module: farm_esg_risk
+msgid "Corrective Action Plan"
+msgstr "Rencana Tindakan Korektif"
+
+#. module: farm_esg_risk
+msgid "Corrective Action Required"
+msgstr "Tindakan Korektif Diperlukan"
+
+#. module: farm_esg_risk
+msgid "Corrective Actions Required"
+msgstr "Tindakan Korektif Diperlukan"
+
+#. module: farm_esg_risk
+msgid "Critical"
+msgstr "Kritis"
+
+#. module: farm_esg_risk
+msgid "Critical Issues"
+msgstr "Masalah Kritis"
+
+#. module: farm_esg_risk
+msgid "Critical Risk"
+msgstr "Risiko Kritis"
+
+#. module: farm_esg_risk
+msgid "Current Value"
+msgstr "Nilai Saat Ini"
+
+#. module: farm_esg_risk
+msgid "Current measured value"
+msgstr "Nilai terukur saat ini"
+
+#. module: farm_esg_risk
+msgid "Custom Footer Content"
+msgstr "Konten Footer Kustom"
+
+#. module: farm_esg_risk
+msgid "Custom Header Content"
+msgstr "Konten Header Kustom"
+
+#. module: farm_esg_risk
+msgid "Custom Logo"
+msgstr "Logo Kustom"
+
+#. module: farm_esg_risk
+msgid "Custom Metrics"
+msgstr "Metrik Kustom"
+
+#. module: farm_esg_risk
+msgid "Custom logo for this stakeholder group"
+msgstr "Logo kustom untuk kelompok pemangku kepentingan ini"
+
+#. module: farm_esg_risk
+msgid "Custom metrics must be a valid JSON array or object"
+msgstr "Metrik kustom harus berupa array atau objek JSON yang valid"
+
+#. module: farm_esg_risk
+msgid "Custom metrics must be valid JSON format"
+msgstr "Metrik kustom harus berformat JSON yang valid"
+
+#. module: farm_esg_risk
+msgid "Custom validation rules for this data"
+msgstr "Aturan validasi kustom untuk data ini"
+
+#. module: farm_esg_risk
+msgid "Customer"
+msgstr "Pelanggan"
+
+#. module: farm_esg_risk
+msgid "Customer Transparency"
+msgstr "Transparansi Pelanggan"
+
+#. module: farm_esg_risk
+msgid "Customers"
+msgstr "Pelanggan"
+
+#. module: farm_esg_risk
+msgid "Daily"
+msgstr "Harian"
+
+#. module: farm_esg_risk
+msgid "Dashboard"
+msgstr "Dasbor"
+
+#. module: farm_esg_risk
+msgid "Data Completeness (%)"
+msgstr "Kelengkapan Data (%)"
+
+#. module: farm_esg_risk
+msgid "Data Filters"
+msgstr "Filter Data"
+
+#. module: farm_esg_risk
+msgid "Data Flow Diagram"
+msgstr "Diagram Alur Data"
+
+#. module: farm_esg_risk
+msgid "Data Governance"
+msgstr "Tata Kelola Data"
+
+#. module: farm_esg_risk
+msgid "Data Governance Record"
+msgstr "Catatan Tata Kelola Data"
+
+#. module: farm_esg_risk
+msgid "Data Impact Analysis"
+msgstr "Analisis Dampak Data"
+
+#. module: farm_esg_risk
+msgid "Data Lineage"
+msgstr "Silsilah Data"
+
+#. module: farm_esg_risk
+msgid "Data Profiling Report"
+msgstr "Laporan Profil Data"
+
+#. module: farm_esg_risk
+msgid "Data Quality"
+msgstr "Kualitas Data"
+
+#. module: farm_esg_risk
+msgid "Data Quality Issues"
+msgstr "Masalah Kualitas Data"
+
+#. module: farm_esg_risk
+msgid "Data Quality Score"
+msgstr "Skor Kualitas Data"
+
+#. module: farm_esg_risk
+msgid "Data Retention (Years)"
+msgstr "Retensi Data (Tahun)"
+
+#. module: farm_esg_risk
+msgid "Data Source"
+msgstr "Sumber Data"
+
+#. module: farm_esg_risk
+msgid "Data Type"
+msgstr "Jenis Data"
+
+#. module: farm_esg_risk
+msgid "Data filters must be a valid JSON object"
+msgstr "Filter data harus berupa objek JSON yang valid"
+
+#. module: farm_esg_risk
+msgid "Data filters must be valid JSON format"
+msgstr "Filter data harus berformat JSON yang valid"
+
+#. module: farm_esg_risk
+msgid "Data integrity checksum"
+msgstr "Checksum integritas data"
+
+#. module: farm_esg_risk
+msgid "Dates"
+msgstr "Tanggal"
+
+#. module: farm_esg_risk
+msgid "Decreasing"
+msgstr "Menurun"
+
+#. module: farm_esg_risk
+msgid "Defer Implementation"
+msgstr "Tunda Implementasi"
+
+#. module: farm_esg_risk
+msgid "Description of identified risk factors"
+msgstr "Deskripsi faktor risiko yang teridentifikasi"
+
+#. module: farm_esg_risk
+msgid "Details"
+msgstr "Detail"
+
+#. module: farm_esg_risk
+msgid "Dissatisfied"
+msgstr "Tidak Puas"
+
+#. module: farm_esg_risk
+msgid "Diversity"
+msgstr "Keberagaman"
+
+#. module: farm_esg_risk
+msgid "Downstream Consumers"
+msgstr "Konsumen Hilir"
+
+#. module: farm_esg_risk
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_esg_risk
+msgid "ESG Compliance Monitoring"
+msgstr "Pemantauan Kepatuhan ESG"
+
+#. module: farm_esg_risk
+msgid "ESG Compliance Monitoring (Deprecated - Use agri.esg.compliance.monitoring)"
+msgstr "Pemantauan Kepatuhan ESG (Tidak digunakan lagi — Gunakan agri.esg.compliance.monitoring)"
+
+#. module: farm_esg_risk
+msgid "ESG Data Governance"
+msgstr "Tata Kelola Data ESG"
+
+#. module: farm_esg_risk
+msgid "ESG Data Selection"
+msgstr "Pemilihan Data ESG"
+
+#. module: farm_esg_risk
+msgid "ESG KPI (Deprecated - Use agri.esg.kpi)"
+msgstr "KPI ESG (Tidak digunakan lagi — Gunakan agri.esg.kpi)"
+
+#. module: farm_esg_risk
+msgid "ESG KPIs"
+msgstr "KPI ESG"
+
+#. module: farm_esg_risk
+msgid "ESG Report Customization"
+msgstr "Kustomisasi Laporan ESG"
+
+#. module: farm_esg_risk
+msgid "ESG Report Customization for Stakeholders"
+msgstr "Kustomisasi Laporan ESG untuk Pemangku Kepentingan"
+
+#. module: farm_esg_risk
+msgid "ESG Risk Assessment (Deprecated - Use agri.esg.risk.assessment)"
+msgstr "Penilaian Risiko ESG (Tidak digunakan lagi — Gunakan agri.esg.risk.assessment)"
+
+#. module: farm_esg_risk
+msgid "ESG Risk Assessments"
+msgstr "Penilaian Risiko ESG"
+
+#. module: farm_esg_risk
+msgid "ESG Risk Level"
+msgstr "Tingkat Risiko ESG"
+
+#. module: farm_esg_risk
+msgid "ESG Risk Management"
+msgstr "Manajemen Risiko ESG"
+
+#. module: farm_esg_risk
+msgid "ESG Scenarios Analysis"
+msgstr "Analisis Skenario ESG"
+
+#. module: farm_esg_risk
+msgid "ESG Scenarios Analysis and Prediction"
+msgstr "Analisis dan Prediksi Skenario ESG"
+
+#. module: farm_esg_risk
+msgid "Employee"
+msgstr "Karyawan"
+
+#. module: farm_esg_risk
+msgid "Employee Impact Score (0-100)"
+msgstr "Skor Dampak Karyawan (0-100)"
+
+#. module: farm_esg_risk
+msgid "Employee Safety"
+msgstr "Keselamatan Karyawan"
+
+#. module: farm_esg_risk
+msgid "Employees"
+msgstr "Karyawan"
+
+#. module: farm_esg_risk
+msgid "End date must be after start date."
+msgstr "Tanggal selesai harus setelah tanggal mulai."
+
+#. module: farm_esg_risk
+msgid "Energy Efficiency"
+msgstr "Efisiensi Energi"
+
+#. module: farm_esg_risk
+msgid "Engagement Activity"
+msgstr "Aktivitas Keterlibatan"
+
+#. module: farm_esg_risk
+msgid "Engagement Date"
+msgstr "Tanggal Keterlibatan"
+
+#. module: farm_esg_risk
+msgid "Engagement Score"
+msgstr "Skor Keterlibatan"
+
+#. module: farm_esg_risk
+msgid "Engagement Topic"
+msgstr "Topik Keterlibatan"
+
+#. module: farm_esg_risk
+msgid "Engagement Type"
+msgstr "Jenis Keterlibatan"
+
+#. module: farm_esg_risk
+msgid "English"
+msgstr "Bahasa Inggris"
+
+#. module: farm_esg_risk
+msgid "Environmental"
+msgstr "Lingkungan"
+
+#. module: farm_esg_risk
+msgid "Environmental Factors"
+msgstr "Faktor Lingkungan"
+
+#. module: farm_esg_risk
+msgid "Environmental Impact"
+msgstr "Dampak Lingkungan"
+
+#. module: farm_esg_risk
+msgid "Environmental Score"
+msgstr "Skor Lingkungan"
+
+#. module: farm_esg_risk
+msgid "Environmental Score (0-100)"
+msgstr "Skor Lingkungan (0-100)"
+
+#. module: farm_esg_risk
+msgid "Environmental score must be between 0 and 100."
+msgstr "Skor lingkungan harus antara 0 dan 100."
+
+#. module: farm_esg_risk
+msgid "Español"
+msgstr "Bahasa Spanyol"
+
+#. module: farm_esg_risk
+msgid "Ethics Score"
+msgstr "Skor Etika"
+
+#. module: farm_esg_risk
+msgid "Exceeding"
+msgstr "Melampaui"
+
+#. module: farm_esg_risk
+msgid "Excel"
+msgstr "Excel"
+
+#. module: farm_esg_risk
+msgid "Executive Summary Template"
+msgstr "Templat Ringkasan Eksekutif"
+
+#. module: farm_esg_risk
+msgid "Farm ESG Risk Management"
+msgstr "Manajemen Risiko ESG Pertanian"
+
+#. module: farm_esg_risk
+msgid "Feedback Received"
+msgstr "Umpan Balik Diterima"
+
+#. module: farm_esg_risk
+msgid "Feedback Session"
+msgstr "Sesi Umpan Balik"
+
+#. module: farm_esg_risk
+msgid "Filters to apply to the data for this report"
+msgstr "Filter yang diterapkan pada data untuk laporan ini"
+
+#. module: farm_esg_risk
+msgid "Financial"
+msgstr "Keuangan"
+
+#. module: farm_esg_risk
+msgid "Follow Up Required"
+msgstr "Perlu Tindak Lanjut"
+
+#. module: farm_esg_risk
+msgid "Follow-up"
+msgstr "Tindak Lanjut"
+
+#. module: farm_esg_risk
+msgid "Français"
+msgstr "Bahasa Prancis"
+
+#. module: farm_esg_risk
+msgid "General Public"
+msgstr "Publik Umum"
+
+#. module: farm_esg_risk
+msgid "Generate Checksum"
+msgstr "Buat Checksum"
+
+#. module: farm_esg_risk
+msgid "Generate Report"
+msgstr "Buat Laporan"
+
+#. module: farm_esg_risk
+msgid "Generation Frequency"
+msgstr "Frekuensi Pembuatan"
+
+#. module: farm_esg_risk
+msgid "Governance"
+msgstr "Tata Kelola"
+
+#. module: farm_esg_risk
+msgid "Governance Details"
+msgstr "Detail Tata Kelola"
+
+#. module: farm_esg_risk
+msgid "Governance Factors"
+msgstr "Faktor Tata Kelola"
+
+#. module: farm_esg_risk
+msgid "Governance Improvement"
+msgstr "Peningkatan Tata Kelola"
+
+#. module: farm_esg_risk
+msgid "Governance Report"
+msgstr "Laporan Tata Kelola"
+
+#. module: farm_esg_risk
+msgid "Governance Score"
+msgstr "Skor Tata Kelola"
+
+#. module: farm_esg_risk
+msgid "Governance Score (0-100)"
+msgstr "Skor Tata Kelola (0-100)"
+
+#. module: farm_esg_risk
+msgid "Governance score must be between 0 and 100."
+msgstr "Skor tata kelola harus antara 0 dan 100."
+
+#. module: farm_esg_risk
+msgid "HTML/Web"
+msgstr "HTML/Web"
+
+#. module: farm_esg_risk
+msgid "Health Safety Score"
+msgstr "Skor Kesehatan dan Keselamatan"
+
+#. module: farm_esg_risk
+msgid "High"
+msgstr "Tinggi"
+
+#. module: farm_esg_risk
+msgid "High (30-49)"
+msgstr "Tinggi (30-49)"
+
+#. module: farm_esg_risk
+msgid "High Issues"
+msgstr "Masalah Keparahan Tinggi"
+
+#. module: farm_esg_risk
+msgid "High Risk"
+msgstr "Risiko Tinggi"
+
+#. module: farm_esg_risk
+msgid "Historical accuracy of similar predictions"
+msgstr "Akurasi historis prediksi serupa"
+
+#. module: farm_esg_risk
+msgid "Historical quality scores and issues"
+msgstr "Skor kualitas historis dan masalah"
+
+#. module: farm_esg_risk
+msgid "How often to auto-generate this report"
+msgstr "Seberapa sering laporan ini dibuat otomatis"
+
+#. module: farm_esg_risk
+msgid "Hybrid"
+msgstr "Hibrida"
+
+#. module: farm_esg_risk
+msgid "Implement"
+msgstr "Terapkan"
+
+#. module: farm_esg_risk
+msgid "Implementation Actions"
+msgstr "Tindakan Implementasi"
+
+#. module: farm_esg_risk
+msgid "Implementation Status"
+msgstr "Status Implementasi"
+
+#. module: farm_esg_risk
+msgid "Implementation Timeline (Months)"
+msgstr "Linimasa Implementasi (Bulan)"
+
+#. module: farm_esg_risk
+msgid "Improvement Deadline"
+msgstr "Batas Waktu Perbaikan"
+
+#. module: farm_esg_risk
+msgid "In Person"
+msgstr "Tatap Muka"
+
+#. module: farm_esg_risk
+msgid "In Progress"
+msgstr "Dalam Proses"
+
+#. module: farm_esg_risk
+msgid "Include Compliance Data"
+msgstr "Sertakan Data Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Include Environmental Data"
+msgstr "Sertakan Data Lingkungan"
+
+#. module: farm_esg_risk
+msgid "Include Governance Data"
+msgstr "Sertakan Data Tata Kelola"
+
+#. module: farm_esg_risk
+msgid "Include KPIs"
+msgstr "Sertakan KPI"
+
+#. module: farm_esg_risk
+msgid "Include Social Data"
+msgstr "Sertakan Data Sosial"
+
+#. module: farm_esg_risk
+msgid "Included Sections"
+msgstr "Bagian yang Disertakan"
+
+#. module: farm_esg_risk
+msgid "Increasing"
+msgstr "Meningkat"
+
+#. module: farm_esg_risk
+msgid "Industry Standard"
+msgstr "Standar Industri"
+
+#. module: farm_esg_risk
+msgid "Industry or regional benchmark"
+msgstr "Tolok ukur industri atau regional"
+
+#. module: farm_esg_risk
+msgid "Inquiry"
+msgstr "Pertanyaan"
+
+#. module: farm_esg_risk
+msgid "Integration"
+msgstr "Integrasi"
+
+#. module: farm_esg_risk
+msgid "Integrity & Security"
+msgstr "Integritas & Keamanan"
+
+#. module: farm_esg_risk
+msgid "Internal"
+msgstr "Internal"
+
+#. module: farm_esg_risk
+msgid "Internal Management"
+msgstr "Manajemen Internal"
+
+#. module: farm_esg_risk
+msgid "Internal Only"
+msgstr "Internal Saja"
+
+#. module: farm_esg_risk
+msgid "Invalid Data"
+msgstr "Data Tidak Valid"
+
+#. module: farm_esg_risk
+msgid "Investor"
+msgstr "Investor"
+
+#. module: farm_esg_risk
+msgid "Investor Relations"
+msgstr "Hubungan Investor"
+
+#. module: farm_esg_risk
+msgid "Investor Reports"
+msgstr "Laporan Investor"
+
+#. module: farm_esg_risk
+msgid "Investors"
+msgstr "Investor"
+
+#. module: farm_esg_risk
+msgid "Is Active"
+msgstr "Aktif"
+
+#. module: farm_esg_risk
+msgid "Issue Alert"
+msgstr "Terbitkan Peringatan"
+
+#. module: farm_esg_risk
+msgid "JSON configuration of scenario parameters"
+msgstr "Konfigurasi JSON parameter skenario"
+
+#. module: farm_esg_risk
+msgid "JSON structure defining which ESG sections to include"
+msgstr "Struktur JSON yang menentukan bagian ESG mana yang disertakan"
+
+#. module: farm_esg_risk
+msgid "Japanese"
+msgstr "Bahasa Jepang"
+
+#. module: farm_esg_risk
+msgid "KPI Category"
+msgstr "Kategori KPI"
+
+#. module: farm_esg_risk
+msgid "KPI Name"
+msgstr "Nama KPI"
+
+#. module: farm_esg_risk
+msgid "KPI Tracking Enabled"
+msgstr "Pelacakan KPI Diaktifkan"
+
+#. module: farm_esg_risk
+msgid "KPI Type"
+msgstr "Jenis KPI"
+
+#. module: farm_esg_risk
+msgid "KPIs"
+msgstr "KPI"
+
+#. module: farm_esg_risk
+msgid "Labor Practice Score"
+msgstr "Skor Praktik Tenaga Kerja"
+
+#. module: farm_esg_risk
+msgid "Last Alert Date"
+msgstr "Tanggal Peringatan Terakhir"
+
+#. module: farm_esg_risk
+msgid "Last Check Date"
+msgstr "Tanggal Pemeriksaan Terakhir"
+
+#. module: farm_esg_risk
+msgid "Last Generated"
+msgstr "Terakhir Dibuat"
+
+#. module: farm_esg_risk
+msgid "Last Quality Alert Date"
+msgstr "Tanggal Peringatan Kualitas Terakhir"
+
+#. module: farm_esg_risk
+msgid "Last Updated"
+msgstr "Terakhir Diperbarui"
+
+#. module: farm_esg_risk
+msgid "Linked Assessments"
+msgstr "Penilaian Tertaut"
+
+#. module: farm_esg_risk
+msgid "Linked Compliance Items"
+msgstr "Butir Kepatuhan Tertaut"
+
+#. module: farm_esg_risk
+msgid "Linked KPIs"
+msgstr "KPI Tertaut"
+
+#. module: farm_esg_risk
+msgid "List of rules applied during validation"
+msgstr "Daftar aturan yang diterapkan selama validasi"
+
+#. module: farm_esg_risk
+msgid "List of users/groups with access"
+msgstr "Daftar pengguna/grup yang memiliki akses"
+
+#. module: farm_esg_risk
+msgid "Local Community"
+msgstr "Komunitas Lokal"
+
+#. module: farm_esg_risk
+msgid "Local Procurement"
+msgstr "Pengadaan Lokal"
+
+#. module: farm_esg_risk
+msgid "Log of all data transformations"
+msgstr "Log semua transformasi data"
+
+#. module: farm_esg_risk
+msgid "Low"
+msgstr "Rendah"
+
+#. module: farm_esg_risk
+msgid "Low (70-89)"
+msgstr "Rendah (70-89)"
+
+#. module: farm_esg_risk
+msgid "Low Risk"
+msgstr "Risiko Rendah"
+
+#. module: farm_esg_risk
+msgid "Manage ESG risk assessment, compliance and governance aspects of farming operations"
+msgstr "Mengelola penilaian risiko ESG, kepatuhan, dan aspek tata kelola operasional pertanian"
+
+#. module: farm_esg_risk
+msgid "Manual"
+msgstr "Manual"
+
+#. module: farm_esg_risk
+msgid "Mark Follow Up Required"
+msgstr "Tandai Perlu Tindak Lanjut"
+
+#. module: farm_esg_risk
+msgid "Media"
+msgstr "Media"
+
+#. module: farm_esg_risk
+msgid "Medium"
+msgstr "Sedang"
+
+#. module: farm_esg_risk
+msgid "Medium (50-69)"
+msgstr "Sedang (50-69)"
+
+#. module: farm_esg_risk
+msgid "Medium Risk"
+msgstr "Risiko Sedang"
+
+#. module: farm_esg_risk
+msgid "Meeting"
+msgstr "Rapat"
+
+#. module: farm_esg_risk
+msgid "Mitigation Plan"
+msgstr "Rencana Mitigasi"
+
+#. module: farm_esg_risk
+msgid "Mitigation Strategies"
+msgstr "Strategi Mitigasi"
+
+#. module: farm_esg_risk
+msgid "Modify and Re-analyze"
+msgstr "Ubah dan Analisis Ulang"
+
+#. module: farm_esg_risk
+msgid "Monitoring Frequency"
+msgstr "Frekuensi Pemantauan"
+
+#. module: farm_esg_risk
+msgid "Monthly"
+msgstr "Bulanan"
+
+#. module: farm_esg_risk
+msgid "N/A"
+msgstr "N/A"
+
+#. module: farm_esg_risk
+msgid "NGO"
+msgstr "LSM"
+
+#. module: farm_esg_risk
+msgid "Needs Review"
+msgstr "Perlu Tinjauan"
+
+#. module: farm_esg_risk
+msgid "Neutral"
+msgstr "Netral"
+
+#. module: farm_esg_risk
+msgid "Next Assessment Date"
+msgstr "Tanggal Penilaian Berikutnya"
+
+#. module: farm_esg_risk
+msgid "Next Check Date"
+msgstr "Tanggal Pemeriksaan Berikutnya"
+
+#. module: farm_esg_risk
+msgid "Next Engagement Date"
+msgstr "Tanggal Keterlibatan Berikutnya"
+
+#. module: farm_esg_risk
+msgid "Next Quality Check"
+msgstr "Pemeriksaan Kualitas Berikutnya"
+
+#. module: farm_esg_risk
+msgid "Next Rating Date"
+msgstr "Tanggal Peringkat Berikutnya"
+
+#. module: farm_esg_risk
+msgid "Next Review Date"
+msgstr "Tanggal Tinjauan Berikutnya"
+
+#. module: farm_esg_risk
+msgid "Next Scheduled Generation"
+msgstr "Pembuatan Terjadwal Berikutnya"
+
+#. module: farm_esg_risk
+msgid "No Backup"
+msgstr "Tanpa Cadangan"
+
+#. module: farm_esg_risk
+msgid "Non Compliant"
+msgstr "Tidak Patuh"
+
+#. module: farm_esg_risk
+msgid "Non-Compliant"
+msgstr "Tidak Patuh"
+
+#. module: farm_esg_risk
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_esg_risk
+msgid "Off Track"
+msgstr "Keluar Jalur"
+
+#. module: farm_esg_risk
+msgid "On Track"
+msgstr "Sesuai Jalur"
+
+#. module: farm_esg_risk
+msgid "Online"
+msgstr "Daring"
+
+#. module: farm_esg_risk
+msgid "Open"
+msgstr "Terbuka"
+
+#. module: farm_esg_risk
+msgid "Origin Verified"
+msgstr "Asal Tervalidasi"
+
+#. module: farm_esg_risk
+msgid "Other"
+msgstr "Lainnya"
+
+#. module: farm_esg_risk
+msgid "Outcome Summary"
+msgstr "Ringkasan Hasil"
+
+#. module: farm_esg_risk
+msgid "Outcomes"
+msgstr "Hasil"
+
+#. module: farm_esg_risk
+msgid "Output Format"
+msgstr "Format Keluaran"
+
+#. module: farm_esg_risk
+msgid "Overall ESG Score"
+msgstr "Skor ESG Keseluruhan"
+
+#. module: farm_esg_risk
+msgid "PDF"
+msgstr "PDF"
+
+#. module: farm_esg_risk
+msgid "Partially Compliant"
+msgstr "Patuh Sebagian"
+
+#. module: farm_esg_risk
+msgid "Participants Count"
+msgstr "Jumlah Peserta"
+
+#. module: farm_esg_risk
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_esg_risk
+msgid "Percentage of required fields filled"
+msgstr "Persentase field wajib yang terisi"
+
+#. module: farm_esg_risk
+msgid "Performance"
+msgstr "Kinerja"
+
+#. module: farm_esg_risk
+msgid "Performance Status"
+msgstr "Status Kinerja"
+
+#. module: farm_esg_risk
+msgid "Person responsible for data governance"
+msgstr "Orang yang bertanggung jawab atas tata kelola data"
+
+#. module: farm_esg_risk
+msgid "Plan to address identified risks"
+msgstr "Rencana untuk menangani risiko yang teridentifikasi"
+
+#. module: farm_esg_risk
+msgid "Potential risks associated with this scenario"
+msgstr "Potensi risiko terkait skenario ini"
+
+#. module: farm_esg_risk
+msgid "Predicted Biodiversity Improvement (%)"
+msgstr "Prediksi Peningkatan Keanekaragaman Hayati (%)"
+
+#. module: farm_esg_risk
+msgid "Predicted Carbon Reduction (%)"
+msgstr "Prediksi Pengurangan Karbon (%)"
+
+#. module: farm_esg_risk
+msgid "Predicted Cost Impact"
+msgstr "Prediksi Dampak Biaya"
+
+#. module: farm_esg_risk
+msgid "Predicted Energy Savings (%)"
+msgstr "Prediksi Penghematan Energi (%)"
+
+#. module: farm_esg_risk
+msgid "Predicted Outcomes"
+msgstr "Hasil Prediksi"
+
+#. module: farm_esg_risk
+msgid "Predicted ROI (%)"
+msgstr "Prediksi ROI (%)"
+
+#. module: farm_esg_risk
+msgid "Predicted Water Savings (%)"
+msgstr "Prediksi Penghematan Air (%)"
+
+#. module: farm_esg_risk
+msgid "Prediction Accuracy (%)"
+msgstr "Akurasi Prediksi (%)"
+
+#. module: farm_esg_risk
+msgid "Preferred chart/graph types for this stakeholder"
+msgstr "Jenis bagan/grafik yang diinginkan untuk pemangku kepentingan ini"
+
+#. module: farm_esg_risk
+msgid "Presentation"
+msgstr "Presentasi"
+
+#. module: farm_esg_risk
+msgid "Preview Report"
+msgstr "Pratinjau Laporan"
+
+#. module: farm_esg_risk
+msgid "Privacy Compliance Status"
+msgstr "Status Kepatuhan Privasi"
+
+#. module: farm_esg_risk
+msgid "Privacy compliance status of the data"
+msgstr "Status kepatuhan privasi data"
+
+#. module: farm_esg_risk
+msgid "Public"
+msgstr "Publik"
+
+#. module: farm_esg_risk
+msgid "Public Disclosure"
+msgstr "Pengungkapan Publik"
+
+#. module: farm_esg_risk
+msgid "Public Hearing"
+msgstr "Dengar Pendapat Publik"
+
+#. module: farm_esg_risk
+msgid "Q1"
+msgstr "Q1"
+
+#. module: farm_esg_risk
+msgid "Q2"
+msgstr "Q2"
+
+#. module: farm_esg_risk
+msgid "Q3"
+msgstr "Q3"
+
+#. module: farm_esg_risk
+msgid "Q4"
+msgstr "Q4"
+
+#. module: farm_esg_risk
+msgid "Quality Control"
+msgstr "Pengendalian Kualitas"
+
+#. module: farm_esg_risk
+msgid "Quality History"
+msgstr "Riwayat Kualitas"
+
+#. module: farm_esg_risk
+msgid "Quality Issue Severity"
+msgstr "Tingkat Keparahan Masalah Kualitas"
+
+#. module: farm_esg_risk
+msgid "Quality Monitoring Enabled"
+msgstr "Pemantauan Kualitas Diaktifkan"
+
+#. module: farm_esg_risk
+msgid "Quality Severity"
+msgstr "Tingkat Keparahan Kualitas"
+
+#. module: farm_esg_risk
+msgid "Quality Validation Rules"
+msgstr "Aturan Validasi Kualitas"
+
+#. module: farm_esg_risk
+msgid "Quantitative measure of engagement effectiveness"
+msgstr "Ukuran kuantitatif efektivitas keterlibatan"
+
+#. module: farm_esg_risk
+msgid "Quarterly"
+msgstr "Triwulanan"
+
+#. module: farm_esg_risk
+msgid "Rating Date"
+msgstr "Tanggal Peringkat"
+
+#. module: farm_esg_risk
+msgid "Rating Method"
+msgstr "Metode Peringkat"
+
+#. module: farm_esg_risk
+msgid "Rating Name"
+msgstr "Nama Peringkat"
+
+#. module: farm_esg_risk
+msgid "Rating Notes"
+msgstr "Catatan Peringkat"
+
+#. module: farm_esg_risk
+msgid "Rating Period"
+msgstr "Periode Peringkat"
+
+#. module: farm_esg_risk
+msgid "Rating Valid Until"
+msgstr "Peringkat Berlaku Hingga"
+
+#. module: farm_esg_risk
+msgid "Recommendation"
+msgstr "Rekomendasi"
+
+#. module: farm_esg_risk
+msgid "Regulation Reference"
+msgstr "Referensi Regulasi"
+
+#. module: farm_esg_risk
+msgid "Regulator"
+msgstr "Regulator"
+
+#. module: farm_esg_risk
+msgid "Regulators"
+msgstr "Regulator"
+
+#. module: farm_esg_risk
+msgid "Regulatory Reports"
+msgstr "Laporan Regulasi"
+
+#. module: farm_esg_risk
+msgid "Regulatory/Compliance"
+msgstr "Regulasi/Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Reject Scenario"
+msgstr "Tolak Skenario"
+
+#. module: farm_esg_risk
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_esg_risk
+msgid "Remediation Status"
+msgstr "Status Remediasi"
+
+#. module: farm_esg_risk
+msgid "Report Configuration"
+msgstr "Konfigurasi Laporan"
+
+#. module: farm_esg_risk
+msgid "Report Customization"
+msgstr "Kustomisasi Laporan"
+
+#. module: farm_esg_risk
+msgid "Report Language"
+msgstr "Bahasa Laporan"
+
+#. module: farm_esg_risk
+msgid "Report Recipients"
+msgstr "Penerima Laporan"
+
+#. module: farm_esg_risk
+msgid "Report Template Name"
+msgstr "Nama Templat Laporan"
+
+#. module: farm_esg_risk
+msgid "Report Type"
+msgstr "Jenis Laporan"
+
+#. module: farm_esg_risk
+msgid "Report Year"
+msgstr "Tahun Laporan"
+
+#. module: farm_esg_risk
+msgid "Report sections must be a valid JSON array or object"
+msgstr "Bagian laporan harus berupa array atau objek JSON yang valid"
+
+#. module: farm_esg_risk
+msgid "Report sections must be valid JSON format"
+msgstr "Bagian laporan harus berformat JSON yang valid"
+
+#. module: farm_esg_risk
+msgid "Reporting Period"
+msgstr "Periode Pelaporan"
+
+#. module: farm_esg_risk
+msgid "Requires Review"
+msgstr "Perlu Tinjauan"
+
+#. module: farm_esg_risk
+msgid "Resolved"
+msgstr "Terselesaikan"
+
+#. module: farm_esg_risk
+msgid "Resource Requirements"
+msgstr "Kebutuhan Sumber Daya"
+
+#. module: farm_esg_risk
+msgid "Resources needed for implementation"
+msgstr "Sumber daya yang dibutuhkan untuk implementasi"
+
+#. module: farm_esg_risk
+msgid "Restricted"
+msgstr "Terbatas"
+
+#. module: farm_esg_risk
+msgid "Restricted Access"
+msgstr "Akses Terbatas"
+
+#. module: farm_esg_risk
+msgid "Results of the scenario analysis"
+msgstr "Hasil analisis skenario"
+
+#. module: farm_esg_risk
+msgid "Retention & Compliance"
+msgstr "Retensi & Kepatuhan"
+
+#. module: farm_esg_risk
+msgid "Retention Cleanup Date"
+msgstr "Tanggal Pembersihan Retensi"
+
+#. module: farm_esg_risk
+msgid "Retention Policy Applied"
+msgstr "Kebijakan Retensi Diterapkan"
+
+#. module: farm_esg_risk
+msgid "Reviewed"
+msgstr "Ditinjau"
+
+#. module: farm_esg_risk
+msgid "Risk Assessment"
+msgstr "Penilaian Risiko"
+
+#. module: farm_esg_risk
+msgid "Risk Assessments"
+msgstr "Penilaian Risiko"
+
+#. module: farm_esg_risk
+msgid "Risk Factors"
+msgstr "Faktor Risiko"
+
+#. module: farm_esg_risk
+msgid "Risk Level"
+msgstr "Tingkat Risiko"
+
+#. module: farm_esg_risk
+msgid "Run Analysis"
+msgstr "Jalankan Analisis"
+
+#. module: farm_esg_risk
+msgid "Run Data Profiling"
+msgstr "Jalankan Profil Data"
+
+#. module: farm_esg_risk
+msgid "Satisfaction Rating"
+msgstr "Peringkat Kepuasan"
+
+#. module: farm_esg_risk
+msgid "Satisfied"
+msgstr "Puas"
+
+#. module: farm_esg_risk
+msgid "Scenario Complexity"
+msgstr "Kompleksitas Skenario"
+
+#. module: farm_esg_risk
+msgid "Scenario Description"
+msgstr "Deskripsi Skenario"
+
+#. module: farm_esg_risk
+msgid "Scenario Information"
+msgstr "Informasi Skenario"
+
+#. module: farm_esg_risk
+msgid "Scenario Name"
+msgstr "Nama Skenario"
+
+#. module: farm_esg_risk
+msgid "Scenario Parameters"
+msgstr "Parameter Skenario"
+
+#. module: farm_esg_risk
+msgid "Scenario Risk Level"
+msgstr "Tingkat Risiko Skenario"
+
+#. module: farm_esg_risk
+msgid "Scenario Type"
+msgstr "Jenis Skenario"
+
+#. module: farm_esg_risk
+msgid "Scenarios Analysis"
+msgstr "Analisis Skenario"
+
+#. module: farm_esg_risk
+msgid "Schedule Review"
+msgstr "Jadwalkan Tinjauan"
+
+#. module: farm_esg_risk
+msgid "Scheduling"
+msgstr "Penjadwalan"
+
+#. module: farm_esg_risk
+msgid "Score from 0-100 for data quality"
+msgstr "Skor 0-100 untuk kualitas data"
+
+#. module: farm_esg_risk
+msgid "Score from 0-100 for environmental factors"
+msgstr "Skor 0-100 untuk faktor lingkungan"
+
+#. module: farm_esg_risk
+msgid "Score from 0-100 for governance factors"
+msgstr "Skor 0-100 untuk faktor tata kelola"
+
+#. module: farm_esg_risk
+msgid "Score from 0-100 for social factors"
+msgstr "Skor 0-100 untuk faktor sosial"
+
+#. module: farm_esg_risk
+msgid "Scores"
+msgstr "Skor"
+
+#. module: farm_esg_risk
+msgid "Security Classification"
+msgstr "Klasifikasi Keamanan"
+
+#. module: farm_esg_risk
+msgid "Self Assessment"
+msgstr "Penilaian Mandiri"
+
+#. module: farm_esg_risk
+msgid "Semi-Annually"
+msgstr "Semesteran"
+
+#. module: farm_esg_risk
+msgid "Sensitive Data Identified"
+msgstr "Data Sensitif Teridentifikasi"
+
+#. module: farm_esg_risk
+msgid "Sensor"
+msgstr "Sensor"
+
+#. module: farm_esg_risk
+msgid "Severity level of quality issues"
+msgstr "Tingkat keparahan masalah kualitas"
+
+#. module: farm_esg_risk
+msgid "Social"
+msgstr "Sosial"
+
+#. module: farm_esg_risk
+msgid "Social Factors"
+msgstr "Faktor Sosial"
+
+#. module: farm_esg_risk
+msgid "Social Impact"
+msgstr "Dampak Sosial"
+
+#. module: farm_esg_risk
+msgid "Social Impact Report"
+msgstr "Laporan Dampak Sosial"
+
+#. module: farm_esg_risk
+msgid "Social Score"
+msgstr "Skor Sosial"
+
+#. module: farm_esg_risk
+msgid "Social Score (0-100)"
+msgstr "Skor Sosial (0-100)"
+
+#. module: farm_esg_risk
+msgid "Social score must be between 0 and 100."
+msgstr "Skor sosial harus antara 0 dan 100."
+
+#. module: farm_esg_risk
+msgid "Sources of data that feed into this record"
+msgstr "Sumber data yang mengisi catatan ini"
+
+#. module: farm_esg_risk
+msgid "Stable"
+msgstr "Stabil"
+
+#. module: farm_esg_risk
+msgid "Stakeholder Engagement"
+msgstr "Keterlibatan Pemangku Kepentingan"
+
+#. module: farm_esg_risk
+msgid "Stakeholder Engagements"
+msgstr "Keterlibatan Pemangku Kepentingan"
+
+#. module: farm_esg_risk
+msgid "Stakeholder Group"
+msgstr "Kelompok Pemangku Kepentingan"
+
+#. module: farm_esg_risk
+msgid "Stakeholder Impact"
+msgstr "Dampak Pemangku Kepentingan"
+
+#. module: farm_esg_risk
+msgid "Stakeholder Impact Assessment"
+msgstr "Penilaian Dampak Pemangku Kepentingan"
+
+#. module: farm_esg_risk
+msgid "Stakeholder Type"
+msgstr "Jenis Pemangku Kepentingan"
+
+#. module: farm_esg_risk
+msgid "Standard or regulation being monitored"
+msgstr "Standar atau regulasi yang dipantau"
+
+#. module: farm_esg_risk
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_esg_risk
+msgid "Strategies to mitigate identified risks"
+msgstr "Strategi untuk memitigasi risiko yang teridentifikasi"
+
+#. module: farm_esg_risk
+msgid "Summary"
+msgstr "Ringkasan"
+
+#. module: farm_esg_risk
+msgid "Supplier"
+msgstr "Pemasok"
+
+#. module: farm_esg_risk
+msgid "Suppliers"
+msgstr "Pemasok"
+
+#. module: farm_esg_risk
+msgid "Supply Chain ESG Rating"
+msgstr "Peringkat ESG Rantai Pasok"
+
+#. module: farm_esg_risk
+msgid "Survey"
+msgstr "Survei"
+
+#. module: farm_esg_risk
+msgid "Sustainability"
+msgstr "Keberlanjutan"
+
+#. module: farm_esg_risk
+msgid "Sustainability Report"
+msgstr "Laporan Keberlanjutan"
+
+#. module: farm_esg_risk
+msgid "System or process that generated the data"
+msgstr "Sistem atau proses yang menghasilkan data"
+
+#. module: farm_esg_risk
+msgid "Systems/processes that consume this data"
+msgstr "Sistem/proses yang mengonsumsi data ini"
+
+#. module: farm_esg_risk
+msgid "Target Biodiversity Score (0-100)"
+msgstr "Skor Keanekaragaman Hayati Target (0-100)"
+
+#. module: farm_esg_risk
+msgid "Target Carbon Emissions (tCO2e)"
+msgstr "Emisi Karbon Target (tCO2e)"
+
+#. module: farm_esg_risk
+msgid "Target Data"
+msgstr "Data Target"
+
+#. module: farm_esg_risk
+msgid "Target Energy Consumption (kWh)"
+msgstr "Konsumsi Energi Target (kWh)"
+
+#. module: farm_esg_risk
+msgid "Target Stakeholder Group"
+msgstr "Kelompok Pemangku Kepentingan Sasaran"
+
+#. module: farm_esg_risk
+msgid "Target Value"
+msgstr "Nilai Target"
+
+#. module: farm_esg_risk
+msgid "Target Waste Generation (tonnes)"
+msgstr "Timbulan Limbah Target (ton)"
+
+#. module: farm_esg_risk
+msgid "Target Water Usage (m3)"
+msgstr "Penggunaan Air Target (m3)"
+
+#. module: farm_esg_risk
+msgid "Target carbon emissions must be lower than baseline for carbon footprint scenarios."
+msgstr "Emisi karbon target harus lebih rendah dari dasar untuk skenario jejak karbon."
+
+#. module: farm_esg_risk
+msgid "Target water usage must be lower than baseline for water efficiency scenarios."
+msgstr "Penggunaan air target harus lebih rendah dari dasar untuk skenario efisiensi air."
+
+#. module: farm_esg_risk
+msgid "Targets"
+msgstr "Target"
+
+#. module: farm_esg_risk
+msgid "Third Party"
+msgstr "Pihak Ketiga"
+
+#. module: farm_esg_risk
+msgid "Third Party Audit"
+msgstr "Audit Pihak Ketiga"
+
+#. module: farm_esg_risk
+msgid "Threshold Value"
+msgstr "Nilai Ambang"
+
+#. module: farm_esg_risk
+msgid "Threshold that triggers alert"
+msgstr "Ambang yang memicu peringatan"
+
+#. module: farm_esg_risk
+msgid "Timeline"
+msgstr "Linimasa"
+
+#. module: farm_esg_risk
+msgid "Trace of data transformations"
+msgstr "Jejak transformasi data"
+
+#. module: farm_esg_risk
+msgid "Training Hours"
+msgstr "Jam Pelatihan"
+
+#. module: farm_esg_risk
+msgid "Transformation Log"
+msgstr "Log Transformasi"
+
+#. module: farm_esg_risk
+msgid "Transparency Score"
+msgstr "Skor Transparansi"
+
+#. module: farm_esg_risk
+msgid "Trend Indicator"
+msgstr "Indikator Tren"
+
+#. module: farm_esg_risk
+msgid "Under Analysis"
+msgstr "Dalam Analisis"
+
+#. module: farm_esg_risk
+msgid "Unit of Measurement"
+msgstr "Satuan Pengukuran"
+
+#. module: farm_esg_risk
+msgid "Upstream Data Sources"
+msgstr "Sumber Data Hulu"
+
+#. module: farm_esg_risk
+msgid "Users who can access this report template"
+msgstr "Pengguna yang dapat mengakses templat laporan ini"
+
+#. module: farm_esg_risk
+msgid "Validate Accuracy"
+msgstr "Validasi Akurasi"
+
+#. module: farm_esg_risk
+msgid "Validate Data Quality"
+msgstr "Validasi Kualitas Data"
+
+#. module: farm_esg_risk
+msgid "Validated"
+msgstr "Tervalidasi"
+
+#. module: farm_esg_risk
+msgid "Validation Rules Applied"
+msgstr "Aturan Validasi Diterapkan"
+
+#. module: farm_esg_risk
+msgid "Validation Status"
+msgstr "Status Validasi"
+
+#. module: farm_esg_risk
+msgid "Variance from Target"
+msgstr "Selisih dari Target"
+
+#. module: farm_esg_risk
+msgid "Very Dissatisfied"
+msgstr "Sangat Tidak Puas"
+
+#. module: farm_esg_risk
+msgid "Very High"
+msgstr "Sangat Tinggi"
+
+#. module: farm_esg_risk
+msgid "Very High (0-29)"
+msgstr "Sangat Tinggi (0-29)"
+
+#. module: farm_esg_risk
+msgid "Very Low (90-100)"
+msgstr "Sangat Rendah (90-100)"
+
+#. module: farm_esg_risk
+msgid "Very Satisfied"
+msgstr "Sangat Puas"
+
+#. module: farm_esg_risk
+msgid "Virtual"
+msgstr "Virtual"
+
+#. module: farm_esg_risk
+msgid "Visual representation of data flow"
+msgstr "Representasi visual alur data"
+
+#. module: farm_esg_risk
+msgid "Visualization Types"
+msgstr "Jenis Visualisasi"
+
+#. module: farm_esg_risk
+msgid "Visualize Scenario"
+msgstr "Visualisasikan Skenario"
+
+#. module: farm_esg_risk
+msgid "Warning"
+msgstr "Peringatan"
+
+#. module: farm_esg_risk
+msgid "Waste Generation"
+msgstr "Timbulan Limbah"
+
+#. module: farm_esg_risk
+msgid "Waste Management Score"
+msgstr "Skor Pengelolaan Limbah"
+
+#. module: farm_esg_risk
+msgid "Waste Reduction"
+msgstr "Pengurangan Limbah"
+
+#. module: farm_esg_risk
+msgid "Water Scenarios"
+msgstr "Skenario Air"
+
+#. module: farm_esg_risk
+msgid "Water Usage"
+msgstr "Penggunaan Air"
+
+#. module: farm_esg_risk
+msgid "Water Usage Efficiency"
+msgstr "Efisiensi Penggunaan Air"
+
+#. module: farm_esg_risk
+msgid "Weekly"
+msgstr "Mingguan"
+
+#. module: farm_esg_risk
+msgid "When the data will be automatically cleaned up"
+msgstr "Kapan data akan dibersihkan secara otomatis"
+
+#. module: farm_esg_risk
+msgid "When the last quality alert was raised"
+msgstr "Kapan peringatan kualitas terakhir diterbitkan"
+
+#. module: farm_esg_risk
+msgid "When the report was last generated"
+msgstr "Kapan laporan terakhir dibuat"
+
+#. module: farm_esg_risk
+msgid "When to generate the report next"
+msgstr "Kapan laporan berikutnya dibuat"
+
+#. module: farm_esg_risk
+msgid "When to run the next automated quality check"
+msgstr "Kapan pemeriksaan kualitas otomatis berikutnya dijalankan"
+
+#. module: farm_esg_risk
+msgid "Whether data accuracy has been validated"
+msgstr "Apakah akurasi data telah divalidasi"
+
+#. module: farm_esg_risk
+msgid "Whether data has been anonymized"
+msgstr "Apakah data telah dianonimkan"
+
+#. module: farm_esg_risk
+msgid "Whether data origin has been verified"
+msgstr "Apakah asal data telah diverifikasi"
+
+#. module: farm_esg_risk
+msgid "Whether retention policy has been enforced"
+msgstr "Apakah kebijakan retensi telah ditegakkan"
+
+#. module: farm_esg_risk
+msgid "Whether sensitive data was identified in this record"
+msgstr "Apakah data sensitif teridentifikasi dalam catatan ini"
+
+#. module: farm_esg_risk
+msgid "Whether to auto-generate this report"
+msgstr "Apakah laporan ini dibuat otomatis"
+
+#. module: farm_esg_risk
+msgid "Written"
+msgstr "Tertulis"
+
+#. module: farm_esg_risk
+msgid "Year"
+msgstr "Tahun"

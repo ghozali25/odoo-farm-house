@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="view_sustainability_dashboard_tree" model="ir.ui.view">
+        <field name="name">farm.sustainability.dashboard.tree</field>
+        <field name="model">agri.sustainability.dashboard</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name" />
+                <field name="period_type" />
+                <field name="economic_score" />
+                <field name="environmental_score" />
+                <field name="social_score" />
+                <field name="overall_score" />
+                <field name="is_active" />
+            </list>
+        </field>
+    </record>
+
+    
+    <record id="view_sustainability_dashboard_form" model="ir.ui.view">
+        <field name="name">farm.sustainability.dashboard.form</field>
+        <field name="model">agri.sustainability.dashboard</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_calculate_dashboard" type="object" string="Recalculate Data" class="btn-primary" />
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_view_economic_metrics" type="object" string="Economic Metrics" class="oe_stat_button" icon="fa-line-chart" />
+                        <button name="action_view_environmental_metrics" type="object" string="Environmental Metrics" class="oe_stat_button" icon="fa-leaf" />
+                        <button name="action_view_social_metrics" type="object" string="Social Metrics" class="oe_stat_button" icon="fa-users" />
+                        <button name="action_view_circular_flows" type="object" string="Circular Economy Flows" class="oe_stat_button" icon="fa-recycle" />
+                        <button name="action_view_carbon_footprints" type="object" string="Carbon Footprint" class="oe_stat_button" icon="fa-leaf" />
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="period_type" />
+                            <field name="is_active" />
+                        </group>
+                        <group>
+                            <field name="start_date" />
+                            <field name="end_date" />
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Triple Bottom Line Scores">
+                            <group>
+                                <group string="Scores">
+                                    <field name="economic_score" />
+                                    <field name="environmental_score" />
+                                    <field name="social_score" />
+                                    <field name="overall_score" />
+                                </group>
+                                <group string="Trends">
+                                    <field name="economic_trend" />
+                                    <field name="environmental_trend" />
+                                    <field name="social_trend" />
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Key Metrics">
+                            <group>
+                                <field name="total_circular_flows" />
+                                <field name="total_circular_value" />
+                                <field name="waste_reduced" />
+                                <field name="resource_saved" />
+                                <field name="total_carbon_footprint" />
+                            </group>
+                        </page>
+                    </notebook>
+                    <group>
+                        <field name="description" />
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" />
+                    <field name="activity_ids" />
+                    <field name="message_ids" />
+                </div>
+            </form>
+        </field>
+    </record>
+
+    
+    <record id="view_sustainability_report_tree" model="ir.ui.view">
+        <field name="name">farm.sustainability.report.tree</field>
+        <field name="model">agri.sustainability.report</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name" />
+                <field name="report_date" />
+                <field name="period_start" />
+                <field name="period_end" />
+                <field name="overall_score" />
+                <field name="state" />
+            </list>
+        </field>
+    </record>
+
+    
+    <record id="view_sustainability_report_form" model="ir.ui.view">
+        <field name="name">farm.sustainability.report.form</field>
+        <field name="model">agri.sustainability.report</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_confirm" type="object" string="Confirm" invisible="state != 'draft'" />
+                    <button name="action_approve" type="object" string="Approve" invisible="state != 'confirmed'" />
+                    <button name="action_print_report" type="object" string="Print Report" />
+                    <field name="state" widget="statusbar" />
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="report_date" />
+                        </group>
+                        <group>
+                            <field name="period_start" />
+                            <field name="period_end" />
+                        </group>
+                    </group>
+                    <group string="Triple Bottom Line Scores">
+                        <group>
+                            <field name="economic_score" />
+                            <field name="environmental_score" />
+                            <field name="social_score" />
+                            <field name="overall_score" />
+                        </group>
+                    </group>
+                    <group string="Environmental Metrics">
+                        <group>
+                            <field name="total_carbon_footprint" />
+                        </group>
+                    </group>
+                    <group string="Circular Economy Results">
+                        <group>
+                            <field name="circular_flows_count" />
+                            <field name="circular_value_created" />
+                            <field name="waste_diverted" />
+                            <field name="resource_efficiency_improvement" />
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Executive Summary">
+                            <field name="executive_summary" />
+                        </page>
+                        <page string="Economic Analysis">
+                            <field name="economic_analysis" />
+                        </page>
+                        <page string="Environmental Analysis">
+                            <field name="environmental_analysis" />
+                        </page>
+                        <page string="Social Analysis">
+                            <field name="social_analysis" />
+                        </page>
+                    </notebook>
+                    <group string="Approval Information">
+                        <group>
+                            <field name="author_id" />
+                            <field name="reviewer_id" />
+                        </group>
+                        <group>
+                            <field name="approved_by" />
+                            <field name="approval_date" />
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" />
+                    <field name="activity_ids" />
+                    <field name="message_ids" />
+                </div>
+            </form>
+        </field>
+    </record>
+
+    
+    <record id="action_sustainability_dashboard" model="ir.actions.act_window">
+        <field name="name">Sustainability Dashboard</field>
+        <field name="res_model">agri.sustainability.dashboard</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    
+    <record id="action_sustainability_report" model="ir.actions.act_window">
+        <field name="name">Sustainability Report</field>
+        <field name="res_model">agri.sustainability.report</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</data>
+</odoo>

@@ -1,0 +1,296 @@
+# Translation of farm_disaster_risk to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_disaster_risk 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_disaster_risk
+msgid "A crisis incident is already linked to this disaster."
+msgstr "A crisis incident is already linked to this disaster."
+
+#. module: farm_disaster_risk
+msgid "AI Remediation Strategy"
+msgstr "AI Remediation Strategy"
+
+#. module: farm_disaster_risk
+msgid "AI Services are not installed. Cannot generate strategy."
+msgstr "AI Services are not installed. Cannot generate strategy."
+
+#. module: farm_disaster_risk
+msgid "AI Strategy &amp; Interventions"
+msgstr "AI Strategy &amp; Interventions"
+
+#. module: farm_disaster_risk
+msgid "Affected Areas"
+msgstr "Affected Areas"
+
+#. module: farm_disaster_risk
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_disaster_risk
+msgid "Assessment Date"
+msgstr "Penilaian Tanggal"
+
+#. module: farm_disaster_risk
+msgid "Assessment Ref"
+msgstr "Assessment Ref"
+
+#. module: farm_disaster_risk
+msgid "Create Crisis Incident"
+msgstr "Create Crisis Incident"
+
+#. module: farm_disaster_risk
+msgid "Crisis Integration"
+msgstr "Crisis Integration"
+
+#. module: farm_disaster_risk
+msgid "Description of Damage"
+msgstr "Description of Damage"
+
+#. module: farm_disaster_risk
+msgid "Detailed Loss Description"
+msgstr "Detailed Loss Description"
+
+#. module: farm_disaster_risk
+msgid "Disaster Crisis: %s (%s)"
+msgstr "Disaster Crisis: %s (%s)"
+
+#. module: farm_disaster_risk
+msgid "Disaster Incident"
+msgstr "Insiden Bencana"
+
+#. module: farm_disaster_risk
+msgid "Disaster Incidents"
+msgstr "Disaster Incidents"
+
+#. module: farm_disaster_risk
+msgid "Disaster Risk"
+msgstr "Bencana Risiko"
+
+#. module: farm_disaster_risk
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_disaster_risk
+msgid "Drought"
+msgstr "Drought"
+
+#. module: farm_disaster_risk
+msgid "End Date"
+msgstr "End Date"
+
+#. module: farm_disaster_risk
+msgid "Estimated Loss Amount"
+msgstr "Estimated Loss Amount"
+
+#. module: farm_disaster_risk
+msgid "Flood"
+msgstr "Flood"
+
+#. module: farm_disaster_risk
+msgid "Frost"
+msgstr "Frost"
+
+#. module: farm_disaster_risk
+msgid "Gale/Storm"
+msgstr "Gale/Storm"
+
+#. module: farm_disaster_risk
+msgid "Generate AI Strategy"
+msgstr "Generate AI Strategy"
+
+#. module: farm_disaster_risk
+msgid "Hail"
+msgstr "Hail"
+
+#. module: farm_disaster_risk
+msgid "High Temperature"
+msgstr "High Temperature"
+
+#. module: farm_disaster_risk
+msgid "Incident Ref"
+msgstr "Incident Ref"
+
+#. module: farm_disaster_risk
+msgid "Incidents"
+msgstr "Incidents"
+
+#. module: farm_disaster_risk
+msgid "Linked Crisis Incident"
+msgstr "Linked Crisis Incident"
+
+#. module: farm_disaster_risk
+msgid "Loss Assessments"
+msgstr "Loss Assessments"
+
+#. module: farm_disaster_risk
+msgid "Minor"
+msgstr "Minor"
+
+#. module: farm_disaster_risk
+msgid "Moderate"
+msgstr "Moderate"
+
+#. module: farm_disaster_risk
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_disaster_risk
+msgid "Other"
+msgstr "Other"
+
+#. module: farm_disaster_risk
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_disaster_risk
+msgid "Robot AI Agent generated a strategy and automatically created Intervention Order: %s"
+msgstr "Robot AI Agent generated a strategy and automatically created Intervention Order: %s"
+
+#. module: farm_disaster_risk
+msgid "Severe"
+msgstr "Severe"
+
+#. module: farm_disaster_risk
+msgid "Start Date"
+msgstr "Start Date"
+
+#. module: farm_disaster_risk
+msgid "Submitted to Insurance"
+msgstr "Submitted to Insurance"
+
+#. module: farm_disaster_risk
+msgid "Total Estimated Loss"
+msgstr "Total Estimated Loss"
+
+#. module: farm_disaster_risk
+msgid "Triggered by meteorological disaster incident %s."
+msgstr "Triggered by meteorological disaster incident %s."
+
+#. module: farm_disaster_risk
+msgid "account.move"
+msgstr "account.move"
+
+#. module: farm_disaster_risk
+msgid "action_create_crisis_incident"
+msgstr "action_create_crisis_incident"
+
+#. module: farm_disaster_risk
+msgid "action_request_ai_strategy"
+msgstr "action_request_ai_strategy"
+
+#. module: farm_disaster_risk
+msgid "affected_location_ids"
+msgstr "affected_location_ids"
+
+#. module: farm_disaster_risk
+msgid "affected_parcel_id"
+msgstr "affected_parcel_id"
+
+#. module: farm_disaster_risk
+msgid "ai_strategy_log"
+msgstr "ai_strategy_log"
+
+#. module: farm_disaster_risk
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_disaster_risk
+msgid "assessment_date"
+msgstr "assessment_date"
+
+#. module: farm_disaster_risk
+msgid "crisis_incident_id"
+msgstr "crisis_incident_id"
+
+#. module: farm_disaster_risk
+msgid "crop_id"
+msgstr "crop_id"
+
+#. module: farm_disaster_risk
+msgid "date_end"
+msgstr "date_end"
+
+#. module: farm_disaster_risk
+msgid "date_start"
+msgstr "date_start"
+
+#. module: farm_disaster_risk
+msgid "description"
+msgstr "description"
+
+#. module: farm_disaster_risk
+msgid "disaster_incident_id"
+msgstr "disaster_incident_id"
+
+#. module: farm_disaster_risk
+msgid "disaster_type"
+msgstr "disaster_type"
+
+#. module: farm_disaster_risk
+msgid "estimated_loss_amount"
+msgstr "estimated_loss_amount"
+
+#. module: farm_disaster_risk
+msgid "intensity"
+msgstr "intensity"
+
+#. module: farm_disaster_risk
+msgid "intervention_ids"
+msgstr "intervention_ids"
+
+#. module: farm_disaster_risk
+msgid "intervention_type"
+msgstr "intervention_type"
+
+#. module: farm_disaster_risk
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_disaster_risk
+msgid "loss_assessment_ids"
+msgstr "loss_assessment_ids"
+
+#. module: farm_disaster_risk
+msgid "model"
+msgstr "model"
+
+#. module: farm_disaster_risk
+msgid "name"
+msgstr "name"
+
+#. module: farm_disaster_risk
+msgid "product.product"
+msgstr "product.product"
+
+#. module: farm_disaster_risk
+msgid "protection"
+msgstr "protection"
+
+#. module: farm_disaster_risk
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_disaster_risk
+msgid "state"
+msgstr "state"
+
+#. module: farm_disaster_risk
+msgid "total_estimated_loss"
+msgstr "total_estimated_loss"
+
+#. module: farm_disaster_risk
+msgid "view_mode"
+msgstr "view_mode"

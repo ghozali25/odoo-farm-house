@@ -1,0 +1,688 @@
+# Translation of Farm ESG Reporting (farm_esg_report) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_esg_report 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:00+0700\n"
+"PO-Revision-Date: 2026-11-10 17:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_esg_report
+msgid "Achieved"
+msgstr "Tercapai"
+
+#. module: farm_esg_report
+msgid "Action Plan"
+msgstr "Rencana Tindakan"
+
+#. module: farm_esg_report
+msgid "Annual"
+msgstr "Tahunan"
+
+#. module: farm_esg_report
+msgid "Annually"
+msgstr "Tahunan"
+
+#. module: farm_esg_report
+msgid "Approval Date"
+msgstr "Tanggal Persetujuan"
+
+#. module: farm_esg_report
+msgid "Approve"
+msgstr "Setujui"
+
+#. module: farm_esg_report
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_esg_report
+msgid "Aquaculture"
+msgstr "Akuakultur"
+
+#. module: farm_esg_report
+msgid "Archived"
+msgstr "Diarsipkan"
+
+#. module: farm_esg_report
+msgid "Assurance"
+msgstr "Asurans"
+
+#. module: farm_esg_report
+msgid "Assurance Opinion"
+msgstr "Opini Asurans"
+
+#. module: farm_esg_report
+msgid "Assurance Provider"
+msgstr "Penyedia Asurans"
+
+#. module: farm_esg_report
+msgid "At Risk"
+msgstr "Beresiko"
+
+#. module: farm_esg_report
+msgid "B Corp"
+msgstr "B Corp"
+
+#. module: farm_esg_report
+msgid "Baseline Value"
+msgstr "Nilai Dasar"
+
+#. module: farm_esg_report
+msgid "Baseline Year"
+msgstr "Tahun Dasar"
+
+#. module: farm_esg_report
+msgid "Biodiversity Data"
+msgstr "Data Keanekaragaman Hayati"
+
+#. module: farm_esg_report
+msgid "Board"
+msgstr "Dewan"
+
+#. module: farm_esg_report
+msgid "Board Dashboard"
+msgstr "Dasbor Dewan"
+
+#. module: farm_esg_report
+msgid "Budget Allocated"
+msgstr "Anggaran Dialokasikan"
+
+#. module: farm_esg_report
+msgid "Budget Spent"
+msgstr "Anggaran Terpakai"
+
+#. module: farm_esg_report
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_esg_report
+msgid "Carbon Footprint Data"
+msgstr "Data Jejak Karbon"
+
+#. module: farm_esg_report
+msgid "Chinese"
+msgstr "Bahasa Mandarin"
+
+#. module: farm_esg_report
+msgid "Commitments"
+msgstr "Komitmen"
+
+#. module: farm_esg_report
+msgid "Community Impact Data"
+msgstr "Data Dampak Komunitas"
+
+#. module: farm_esg_report
+msgid "Compliance"
+msgstr "Kepatuhan"
+
+#. module: farm_esg_report
+msgid "Compliance & Risk"
+msgstr "Kepatuhan & Risiko"
+
+#. module: farm_esg_report
+msgid "Compliance Dashboard"
+msgstr "Dasbor Kepatuhan"
+
+#. module: farm_esg_report
+msgid "Compliance Status"
+msgstr "Status Kepatuhan"
+
+#. module: farm_esg_report
+msgid "Content"
+msgstr "Konten"
+
+#. module: farm_esg_report
+msgid "Crop Farming"
+msgstr "Pertanian Tanaman"
+
+#. module: farm_esg_report
+msgid "Current Month"
+msgstr "Bulan Berjalan"
+
+#. module: farm_esg_report
+msgid "Current Quarter"
+msgstr "Triwulan Berjalan"
+
+#. module: farm_esg_report
+msgid "Current Value"
+msgstr "Nilai Saat Ini"
+
+#. module: farm_esg_report
+msgid "Current Year"
+msgstr "Tahun Berjalan"
+
+#. module: farm_esg_report
+msgid "Custom"
+msgstr "Kustom"
+
+#. module: farm_esg_report
+msgid "Custom Period"
+msgstr "Periode Kustom"
+
+#. module: farm_esg_report
+msgid "Daily"
+msgstr "Harian"
+
+#. module: farm_esg_report
+msgid "Dairy"
+msgstr "Susu"
+
+#. module: farm_esg_report
+msgid "Dashboard Name"
+msgstr "Nama Dasbor"
+
+#. module: farm_esg_report
+msgid "Dashboard Type"
+msgstr "Jenis Dasbor"
+
+#. module: farm_esg_report
+msgid "Dashboards"
+msgstr "Dasbor"
+
+#. module: farm_esg_report
+msgid "Data Source Verification"
+msgstr "Verifikasi Sumber Data"
+
+#. module: farm_esg_report
+msgid "Data Sources"
+msgstr "Sumber Data"
+
+#. module: farm_esg_report
+msgid "Dates"
+msgstr "Tanggal"
+
+#. module: farm_esg_report
+msgid "Delayed"
+msgstr "Tertunda"
+
+#. module: farm_esg_report
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_esg_report
+msgid "Display Period"
+msgstr "Periode Tampilan"
+
+#. module: farm_esg_report
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_esg_report
+msgid "ESG Dashboard"
+msgstr "Dasbor ESG"
+
+#. module: farm_esg_report
+msgid "ESG Dashboards"
+msgstr "Dasbor ESG"
+
+#. module: farm_esg_report
+msgid "ESG Report"
+msgstr "Laporan ESG"
+
+#. module: farm_esg_report
+msgid "ESG Reporting"
+msgstr "Pelaporan ESG"
+
+#. module: farm_esg_report
+msgid "ESG Reports"
+msgstr "Laporan ESG"
+
+#. module: farm_esg_report
+msgid "End Date"
+msgstr "Tanggal Selesai"
+
+#. module: farm_esg_report
+msgid "English"
+msgstr "Bahasa Inggris"
+
+#. module: farm_esg_report
+msgid "Environmental"
+msgstr "Lingkungan"
+
+#. module: farm_esg_report
+msgid "Environmental Score"
+msgstr "Skor Lingkungan"
+
+#. module: farm_esg_report
+msgid "Environmental Section"
+msgstr "Bagian Lingkungan"
+
+#. module: farm_esg_report
+msgid "Excel"
+msgstr "Excel"
+
+#. module: farm_esg_report
+msgid "Executive"
+msgstr "Eksekutif"
+
+#. module: farm_esg_report
+msgid "Executive Dashboard"
+msgstr "Dasbor Eksekutif"
+
+#. module: farm_esg_report
+msgid "Executive Summary"
+msgstr "Ringkasan Eksekutif"
+
+#. module: farm_esg_report
+msgid "Farm ESG Reporting"
+msgstr "Pelaporan ESG Pertanian"
+
+#. module: farm_esg_report
+msgid "Forestry"
+msgstr "Kehutanan"
+
+#. module: farm_esg_report
+msgid "French"
+msgstr "Bahasa Prancis"
+
+#. module: farm_esg_report
+msgid "Future Commitments"
+msgstr "Komitmen Masa Depan"
+
+#. module: farm_esg_report
+msgid "GRIS"
+msgstr "GRIS"
+
+#. module: farm_esg_report
+msgid "Generate Content"
+msgstr "Buat Konten"
+
+#. module: farm_esg_report
+msgid "Goal Name"
+msgstr "Nama Tujuan"
+
+#. module: farm_esg_report
+msgid "Goal Status"
+msgstr "Status Tujuan"
+
+#. module: farm_esg_report
+msgid "Goal Type"
+msgstr "Jenis Tujuan"
+
+#. module: farm_esg_report
+msgid "Governance"
+msgstr "Tata Kelola"
+
+#. module: farm_esg_report
+msgid "Governance Metrics"
+msgstr "Metrik Tata Kelola"
+
+#. module: farm_esg_report
+msgid "Governance Score"
+msgstr "Skor Tata Kelola"
+
+#. module: farm_esg_report
+msgid "Governance Section"
+msgstr "Bagian Tata Kelola"
+
+#. module: farm_esg_report
+msgid "Horticulture"
+msgstr "Hortikultura"
+
+#. module: farm_esg_report
+msgid "Hourly"
+msgstr "Per Jam"
+
+#. module: farm_esg_report
+msgid "In Progress"
+msgstr "Dalam Proses"
+
+#. module: farm_esg_report
+msgid "In Review"
+msgstr "Dalam Tinjauan"
+
+#. module: farm_esg_report
+msgid "Industry"
+msgstr "Industri"
+
+#. module: farm_esg_report
+msgid "Industry Sector"
+msgstr "Sektor Industri"
+
+#. module: farm_esg_report
+msgid "Integrated"
+msgstr "Terintegrasi"
+
+#. module: farm_esg_report
+msgid "Investor"
+msgstr "Investor"
+
+#. module: farm_esg_report
+msgid "KPIs & Metrics"
+msgstr "KPI & Metrik"
+
+#. module: farm_esg_report
+msgid "Key Metrics"
+msgstr "Metrik Utama"
+
+#. module: farm_esg_report
+msgid "Key Performance Indicators"
+msgstr "Indikator Kinerja Utama"
+
+#. module: farm_esg_report
+msgid "Language"
+msgstr "Bahasa"
+
+#. module: farm_esg_report
+msgid "Last 12 Months"
+msgstr "12 Bulan Terakhir"
+
+#. module: farm_esg_report
+msgid "Last Review Date"
+msgstr "Tanggal Tinjauan Terakhir"
+
+#. module: farm_esg_report
+msgid "Last Updated"
+msgstr "Terakhir Diperbarui"
+
+#. module: farm_esg_report
+msgid "Livestock"
+msgstr "Peternakan"
+
+#. module: farm_esg_report
+msgid "Manage ESG reporting, dashboard and goal tracking for farming operations"
+msgstr "Mengelola pelaporan ESG, dasbor, dan pelacakan tujuan untuk operasional pertanian"
+
+#. module: farm_esg_report
+msgid "Management"
+msgstr "Manajemen"
+
+#. module: farm_esg_report
+msgid "Manager"
+msgstr "Manajer"
+
+#. module: farm_esg_report
+msgid "Metrics"
+msgstr "Metrik"
+
+#. module: farm_esg_report
+msgid "Mitigation Strategies"
+msgstr "Strategi Mitigasi"
+
+#. module: farm_esg_report
+msgid "Mixed Farming"
+msgstr "Pertanian Campuran"
+
+#. module: farm_esg_report
+msgid "Monitoring Frequency"
+msgstr "Frekuensi Pemantauan"
+
+#. module: farm_esg_report
+msgid "Monthly"
+msgstr "Bulanan"
+
+#. module: farm_esg_report
+msgid "Next Report Due"
+msgstr "Laporan Berikutnya Jatuh Tempo"
+
+#. module: farm_esg_report
+msgid "Next Review Date"
+msgstr "Tanggal Tinjauan Berikutnya"
+
+#. module: farm_esg_report
+msgid "On Track"
+msgstr "Sesuai Jalur"
+
+#. module: farm_esg_report
+msgid "Operational Dashboard"
+msgstr "Dasbor Operasional"
+
+#. module: farm_esg_report
+msgid "Organic"
+msgstr "Organik"
+
+#. module: farm_esg_report
+msgid "Other"
+msgstr "Lainnya"
+
+#. module: farm_esg_report
+msgid "Overall ESG Score"
+msgstr "Skor ESG Keseluruhan"
+
+#. module: farm_esg_report
+msgid "PDF"
+msgstr "PDF"
+
+#. module: farm_esg_report
+msgid "Planning"
+msgstr "Perencanaan"
+
+#. module: farm_esg_report
+msgid "Poultry"
+msgstr "Unggas"
+
+#. module: farm_esg_report
+msgid "Progress %"
+msgstr "Progres %"
+
+#. module: farm_esg_report
+msgid "Publication Date"
+msgstr "Tanggal Publikasi"
+
+#. module: farm_esg_report
+msgid "Publish"
+msgstr "Terbitkan"
+
+#. module: farm_esg_report
+msgid "Published"
+msgstr "Diterbitkan"
+
+#. module: farm_esg_report
+msgid "Q1"
+msgstr "Q1"
+
+#. module: farm_esg_report
+msgid "Q2"
+msgstr "Q2"
+
+#. module: farm_esg_report
+msgid "Q3"
+msgstr "Q3"
+
+#. module: farm_esg_report
+msgid "Q4"
+msgstr "Q4"
+
+#. module: farm_esg_report
+msgid "Quarterly"
+msgstr "Triwulanan"
+
+#. module: farm_esg_report
+msgid "Real Time"
+msgstr "Waktu Nyata"
+
+#. module: farm_esg_report
+msgid "Refresh Dashboard"
+msgstr "Segarkan Dasbor"
+
+#. module: farm_esg_report
+msgid "Refresh Frequency"
+msgstr "Frekuensi Penyegaran"
+
+#. module: farm_esg_report
+msgid "Report File"
+msgstr "Berkas Laporan"
+
+#. module: farm_esg_report
+msgid "Report Filename"
+msgstr "Nama Berkas Laporan"
+
+#. module: farm_esg_report
+msgid "Report Format"
+msgstr "Format Laporan"
+
+#. module: farm_esg_report
+msgid "Report Name"
+msgstr "Nama Laporan"
+
+#. module: farm_esg_report
+msgid "Report Period"
+msgstr "Periode Laporan"
+
+#. module: farm_esg_report
+msgid "Report Status"
+msgstr "Status Laporan"
+
+#. module: farm_esg_report
+msgid "Report Type"
+msgstr "Jenis Laporan"
+
+#. module: farm_esg_report
+msgid "Report Year"
+msgstr "Tahun Laporan"
+
+#. module: farm_esg_report
+msgid "Report must be approved before publishing."
+msgstr "Laporan harus disetujui sebelum diterbitkan."
+
+#. module: farm_esg_report
+msgid "Reports"
+msgstr "Laporan"
+
+#. module: farm_esg_report
+msgid "Risk Assessment Summary"
+msgstr "Ringkasan Penilaian Risiko"
+
+#. module: farm_esg_report
+msgid "Risk Factors"
+msgstr "Faktor Risiko"
+
+#. module: farm_esg_report
+msgid "Risk Indicators"
+msgstr "Indikator Risiko"
+
+#. module: farm_esg_report
+msgid "Risk Management"
+msgstr "Manajemen Risiko"
+
+#. module: farm_esg_report
+msgid "SASB"
+msgstr "SASB"
+
+#. module: farm_esg_report
+msgid "Science Based Targets"
+msgstr "Target Berbasis Sains"
+
+#. module: farm_esg_report
+msgid "Scores"
+msgstr "Skor"
+
+#. module: farm_esg_report
+msgid "Semi Annually"
+msgstr "Semesteran"
+
+#. module: farm_esg_report
+msgid "Social"
+msgstr "Sosial"
+
+#. module: farm_esg_report
+msgid "Social Score"
+msgstr "Skor Sosial"
+
+#. module: farm_esg_report
+msgid "Social Section"
+msgstr "Bagian Sosial"
+
+#. module: farm_esg_report
+msgid "Spanish"
+msgstr "Bahasa Spanyol"
+
+#. module: farm_esg_report
+msgid "Stakeholder"
+msgstr "Pemangku Kepentingan"
+
+#. module: farm_esg_report
+msgid "Stakeholder Dashboard"
+msgstr "Dasbor Pemangku Kepentingan"
+
+#. module: farm_esg_report
+msgid "Stakeholder Distribution List"
+msgstr "Daftar Distribusi Pemangku Kepentingan"
+
+#. module: farm_esg_report
+msgid "Stakeholder Impact"
+msgstr "Dampak Pemangku Kepentingan"
+
+#. module: farm_esg_report
+msgid "Stakeholders"
+msgstr "Pemangku Kepentingan"
+
+#. module: farm_esg_report
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+#. module: farm_esg_report
+msgid "Supporting Initiatives"
+msgstr "Inisiatif Pendukung"
+
+#. module: farm_esg_report
+msgid "Sustainability Framework"
+msgstr "Kerangka Keberlanjutan"
+
+#. module: farm_esg_report
+msgid "Sustainability Goal"
+msgstr "Tujuan Keberlanjutan"
+
+#. module: farm_esg_report
+msgid "Sustainability Goals"
+msgstr "Tujuan Keberlanjutan"
+
+#. module: farm_esg_report
+msgid "TCFD"
+msgstr "TCFD"
+
+#. module: farm_esg_report
+msgid "Target Achievement"
+msgstr "Pencapaian Target"
+
+#. module: farm_esg_report
+msgid "Target Audience"
+msgstr "Target Audiens"
+
+#. module: farm_esg_report
+msgid "Target Value"
+msgstr "Nilai Target"
+
+#. module: farm_esg_report
+msgid "Target Year"
+msgstr "Tahun Target"
+
+#. module: farm_esg_report
+msgid "Targets"
+msgstr "Target"
+
+#. module: farm_esg_report
+msgid "Third-party assurance provider"
+msgstr "Penyedia asurans pihak ketiga"
+
+#. module: farm_esg_report
+msgid "Trend Analysis"
+msgstr "Analisis Tren"
+
+#. module: farm_esg_report
+msgid "UN SDG"
+msgstr "SDG PBB"
+
+#. module: farm_esg_report
+msgid "Update Progress"
+msgstr "Perbarui Progres"
+
+#. module: farm_esg_report
+msgid "Web Report"
+msgstr "Laporan Web"
+
+#. module: farm_esg_report
+msgid "Weekly"
+msgstr "Mingguan"
+
+#. module: farm_esg_report
+msgid "XML"
+msgstr "XML"

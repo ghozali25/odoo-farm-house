@@ -1,0 +1,28 @@
+{
+    "name": "Farm Crop Management",
+    "version": "18.0.1.0.0",
+    "category": "Industries/Agriculture",
+    "summary": "Crop-specific management features: rotation history, variety management, and cultivation protocols",
+    "description": """
+        Crop-focused module that handles:
+        - Crop rotation history and continuous cropping obstacles (US-001-09)
+        - Crop-specific cultivation protocols
+        - Variety management and tracking
+    """,
+    "author": "Odoo Farm Dev Team",
+    "depends": [
+        "farm_core",
+        "product",
+        "farm_operation",
+    ],
+    "data": [
+        "security/ir.model.access.csv",
+        "data/ir_sequence_data.xml",
+        "views/crop_rotation_history_views.xml",
+        "views/menu.xml",
+    ],
+    "images": ["static/description/main_screenshot.png"],
+    "installable": True,
+    "application": False,
+    "license": "AGPL-3",
+}

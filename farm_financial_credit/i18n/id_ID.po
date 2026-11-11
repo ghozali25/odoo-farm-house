@@ -1,0 +1,1328 @@
+# Translation of farm_financial_credit (farm_financial_credit) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings (field labels,
+# selection labels, view/menu/action strings, help texts, _() messages).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_financial_credit 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:30+0700\n"
+"PO-Revision-Date: 2026-11-10 17:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_financial_credit
+msgid "AI Evaluating"
+msgstr "Dievaluasi AI"
+
+#. module: farm_financial_credit
+msgid "Accumulated debt for inputs advanced to member."
+msgstr "Akumulasi utang atas input yang diberikan kepada anggota."
+
+#. module: farm_financial_credit
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_financial_credit
+msgid "Advance Amount"
+msgstr "Jumlah Uang Muka"
+
+#. module: farm_financial_credit
+msgid "Agricultural Loan"
+msgstr "Pinjaman Pertanian"
+
+#. module: farm_financial_credit
+msgid "Agricultural Supply Chain Finance"
+msgstr "Pembiayaan Rantai Pasok Pertanian"
+
+#. module: farm_financial_credit
+msgid "Amount Financed"
+msgstr "Jumlah yang Dibiayai"
+
+#. module: farm_financial_credit
+msgid "Animal Category"
+msgstr "Kategori Hewan"
+
+#. module: farm_financial_credit
+msgid "Animal Count"
+msgstr "Jumlah Hewan"
+
+#. module: farm_financial_credit
+msgid "Animal Valuation"
+msgstr "Valuasi Hewan"
+
+#. module: farm_financial_credit
+msgid "Annual Revenue"
+msgstr "Pendapatan Tahunan"
+
+#. module: farm_financial_credit
+msgid "Application Date"
+msgstr "Tanggal Pengajuan"
+
+#. module: farm_financial_credit
+msgid "Approval Date"
+msgstr "Tanggal Persetujuan"
+
+#. module: farm_financial_credit
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_financial_credit
+msgid "Approved: Stellar digital farming record. Average Trust Score: %.2f"
+msgstr "Disetujui: Catatan pertanian digital sangat baik. Rata-rata Skor Kepercayaan: %.2f"
+
+#. module: farm_financial_credit
+msgid "Aquaculture"
+msgstr "Akuakultur"
+
+#. module: farm_financial_credit
+msgid "Assessment Date"
+msgstr "Tanggal Penilaian"
+
+#. module: farm_financial_credit
+msgid "Assessment Name"
+msgstr "Nama Penilaian"
+
+#. module: farm_financial_credit
+msgid "At Harvest"
+msgstr "Saat Panen"
+
+#. module: farm_financial_credit
+msgid "Auto Evaluate"
+msgstr "Evaluasi Otomatis"
+
+#. module: farm_financial_credit
+msgid "Average Age (months)"
+msgstr "Rata-rata Umur (bulan)"
+
+#. module: farm_financial_credit
+msgid "Average Evidence Trust"
+msgstr "Rata-rata Kepercayaan Bukti"
+
+#. module: farm_financial_credit
+msgid "Average Weight (kg)"
+msgstr "Rata-rata Berat (kg)"
+
+#. module: farm_financial_credit
+msgid "Baseline Emissions (tCO2e)"
+msgstr "Emisi Baseline (tCO2e)"
+
+#. module: farm_financial_credit
+msgid "Bi-weekly"
+msgstr "Dua Mingguan"
+
+#. module: farm_financial_credit
+msgid "Biological Asset Mortgage"
+msgstr "Gadai Aset Biologis"
+
+#. module: farm_financial_credit
+msgid "Breed Type"
+msgstr "Jenis Ras"
+
+#. module: farm_financial_credit
+msgid "Broker"
+msgstr "Broker"
+
+#. module: farm_financial_credit
+msgid "Buyer"
+msgstr "Pembeli"
+
+#. module: farm_financial_credit
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_financial_credit
+msgid "Cannot approve financing for partner with low risk score."
+msgstr "Tidak dapat menyetujui pembiayaan untuk mitra dengan skor risiko rendah."
+
+#. module: farm_financial_credit
+msgid "Cannot approve loan for partner with low credit score."
+msgstr "Tidak dapat menyetujui pinjaman untuk mitra dengan skor kredit rendah."
+
+#. module: farm_financial_credit
+msgid "Carbon Credit Finance"
+msgstr "Pembiayaan Kredit Karbon"
+
+#. module: farm_financial_credit
+msgid "Carbon Finance Reference"
+msgstr "Referensi Pembiayaan Karbon"
+
+#. module: farm_financial_credit
+msgid "Carbon registry where credits are registered"
+msgstr "Registri karbon tempat kredit didaftarkan"
+
+#. module: farm_financial_credit
+msgid "Cattle"
+msgstr "Sapi"
+
+#. module: farm_financial_credit
+msgid "Ceiling Price Protection"
+msgstr "Perlindungan Harga Maksimum"
+
+#. module: farm_financial_credit
+msgid "Certification Body"
+msgstr "Lembaga Sertifikasi"
+
+#. module: farm_financial_credit
+msgid "Citrus Cultivation"
+msgstr "Budidaya Jeruk"
+
+#. module: farm_financial_credit
+msgid "Closed"
+msgstr "Ditutup"
+
+#. module: farm_financial_credit
+msgid "Coffee"
+msgstr "Kopi"
+
+#. module: farm_financial_credit
+msgid "Collar Strategy"
+msgstr "Strategi Collar"
+
+#. module: farm_financial_credit
+msgid "Collateral Assets"
+msgstr "Aset Jaminan"
+
+#. module: farm_financial_credit
+msgid "Collateral Input"
+msgstr "Input Jaminan"
+
+#. module: farm_financial_credit
+msgid "Collateral Valuation"
+msgstr "Valuasi Jaminan"
+
+#. module: farm_financial_credit
+msgid "Collateral Value"
+msgstr "Nilai Jaminan"
+
+#. module: farm_financial_credit
+msgid "Commodity Type"
+msgstr "Jenis Komoditas"
+
+#. module: farm_financial_credit
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_financial_credit
+msgid "Components"
+msgstr "Komponen"
+
+#. module: farm_financial_credit
+msgid "Confirmed"
+msgstr "Dikonfirmasi"
+
+#. module: farm_financial_credit
+msgid "Contract Month"
+msgstr "Bulan Kontrak"
+
+#. module: farm_financial_credit
+msgid "Contract Size (units)"
+msgstr "Ukuran Kontrak (unit)"
+
+#. module: farm_financial_credit
+msgid "Contract Year"
+msgstr "Tahun Kontrak"
+
+#. module: farm_financial_credit
+msgid "Cooperative Member Settlement"
+msgstr "Penyelesaian Anggota Koperasi"
+
+#. module: farm_financial_credit
+msgid "Cooperative Micro-Credit Loan"
+msgstr "Pinjaman Mikro Koperasi"
+
+#. module: farm_financial_credit
+msgid "Cooperative Settlement"
+msgstr "Penyelesaian Koperasi"
+
+#. module: farm_financial_credit
+msgid "Cooperative Settlements"
+msgstr "Penyelesaian Koperasi"
+
+#. module: farm_financial_credit
+msgid "Corn"
+msgstr "Jagung"
+
+#. module: farm_financial_credit
+msgid "Cotton"
+msgstr "Kapas"
+
+#. module: farm_financial_credit
+msgid "Cover Crop"
+msgstr "Tanaman Penutup"
+
+#. module: farm_financial_credit
+msgid "Credit & Risk"
+msgstr "Kredit & Risiko"
+
+#. module: farm_financial_credit
+msgid "Credit History Score (0-100)"
+msgstr "Skor Riwayat Kredit (0-100)"
+
+#. module: farm_financial_credit
+msgid "Credit Quantity (tons CO2e)"
+msgstr "Kuantitas Kredit (ton CO2e)"
+
+#. module: farm_financial_credit
+msgid "Credit Score"
+msgstr "Skor Kredit"
+
+#. module: farm_financial_credit
+msgid "Credit Score Reference"
+msgstr "Referensi Skor Kredit"
+
+#. module: farm_financial_credit
+msgid "Credit Scores"
+msgstr "Skor Kredit"
+
+#. module: farm_financial_credit
+msgid "Credit Type"
+msgstr "Jenis Kredit"
+
+#. module: farm_financial_credit
+msgid "Credit Validity (years)"
+msgstr "Masa Berlaku Kredit (tahun)"
+
+#. module: farm_financial_credit
+msgid "Credit Value per Ton ($)"
+msgstr "Nilai Kredit per Ton ($)"
+
+#. module: farm_financial_credit
+msgid "Credit scoring and risk assessment for agricultural lending"
+msgstr "Penilaian kredit dan penilaian risiko untuk pinjaman pertanian"
+
+#. module: farm_financial_credit
+msgid "Currency"
+msgstr "Mata Uang"
+
+#. module: farm_financial_credit
+msgid "Current Price ($/unit)"
+msgstr "Harga Saat Ini ($/unit)"
+
+#. module: farm_financial_credit
+msgid "Custom Setup"
+msgstr "Pengaturan Kustom"
+
+#. module: farm_financial_credit
+msgid "Daily"
+msgstr "Harian"
+
+#. module: farm_financial_credit
+msgid "Date"
+msgstr "Tanggal"
+
+#. module: farm_financial_credit
+msgid "Debt to Income Ratio"
+msgstr "Rasio Utang terhadap Pendapatan"
+
+#. module: farm_financial_credit
+msgid "December"
+msgstr "Desember"
+
+#. module: farm_financial_credit
+msgid "Defaulted"
+msgstr "Gagal Bayar"
+
+#. module: farm_financial_credit
+msgid "Delivered"
+msgstr "Terkirim"
+
+#. module: farm_financial_credit
+msgid "Delivery Status"
+msgstr "Status Pengiriman"
+
+#. module: farm_financial_credit
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_financial_credit
+msgid "Digital Trust Score (0-100)"
+msgstr "Skor Kepercayaan Digital (0-100)"
+
+#. module: farm_financial_credit
+msgid "Disbursed"
+msgstr "Dicairkan"
+
+#. module: farm_financial_credit
+msgid "Disbursement Settlement"
+msgstr "Penyelesaian Pencairan"
+
+#. module: farm_financial_credit
+msgid "Diversification Score (0-100)"
+msgstr "Skor Diversifikasi (0-100)"
+
+#. module: farm_financial_credit
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_financial_credit
+msgid "Duration (months)"
+msgstr "Durasi (bulan)"
+
+#. module: farm_financial_credit
+msgid "Early Payment Discount (%)"
+msgstr "Diskon Pembayaran Awal (%)"
+
+#. module: farm_financial_credit
+msgid "Efficiency Metrics"
+msgstr "Metrik Efisiensi"
+
+#. module: farm_financial_credit
+msgid "End of Term"
+msgstr "Akhir Jangka Waktu"
+
+#. module: farm_financial_credit
+msgid "Entry Price ($/unit)"
+msgstr "Harga Masuk ($/unit)"
+
+#. module: farm_financial_credit
+msgid "Equipment"
+msgstr "Peralatan"
+
+#. module: farm_financial_credit
+msgid "Evaluation Date"
+msgstr "Tanggal Evaluasi"
+
+#. module: farm_financial_credit
+msgid "Evidence-based trust score (0-100) [US-078-01]"
+msgstr "Skor kepercayaan berbasis bukti (0-100) [US-078-01]"
+
+#. module: farm_financial_credit
+msgid "Excellent"
+msgstr "Sangat Baik"
+
+#. module: farm_financial_credit
+msgid "Excellent (A+)"
+msgstr "Sangat Baik (A+)"
+
+#. module: farm_financial_credit
+msgid "Exchange"
+msgstr "Bursa"
+
+#. module: farm_financial_credit
+msgid "Exit Price ($/unit)"
+msgstr "Harga Keluar ($/unit)"
+
+#. module: farm_financial_credit
+msgid "External reference from broker"
+msgstr "Referensi eksternal dari broker"
+
+#. module: farm_financial_credit
+msgid "External reference from financial institution"
+msgstr "Referensi eksternal dari lembaga keuangan"
+
+#. module: farm_financial_credit
+msgid "Fair"
+msgstr "Cukup"
+
+#. module: farm_financial_credit
+msgid "Fair (B)"
+msgstr "Cukup (B)"
+
+#. module: farm_financial_credit
+msgid "Farm Carbon Credit Finance"
+msgstr "Pembiayaan Kredit Karbon Pertanian"
+
+#. module: farm_financial_credit
+msgid "Farm Financial Credit"
+msgstr "Kredit Keuangan Pertanian"
+
+#. module: farm_financial_credit
+msgid "Farm Futures Hedging"
+msgstr "Lindung Nilai Berjangka Pertanian"
+
+#. module: farm_financial_credit
+msgid "Farm Industry Initialization"
+msgstr "Inisialisasi Industri Pertanian"
+
+#. module: farm_financial_credit
+msgid "Farm Livestock Asset Loan"
+msgstr "Pinjaman Aset Ternak"
+
+#. module: farm_financial_credit
+msgid "Farm Owner: See Own and Subordinate Micro-Loans"
+msgstr "Pemilik Lahan: Hanya Melihat Pinjaman Mikro Milik Sendiri dan Bawahan"
+
+#. module: farm_financial_credit
+msgid "Farm Production Credit Score"
+msgstr "Skor Kredit Produksi Pertanian"
+
+#. module: farm_financial_credit
+msgid "Farm Risk Assessment"
+msgstr "Penilaian Risiko Pertanian"
+
+#. module: farm_financial_credit
+msgid "Farm Size (hectares)"
+msgstr "Luas Lahan (hektare)"
+
+#. module: farm_financial_credit
+msgid "Farm/Partner"
+msgstr "Lahan/Mitra"
+
+#. module: farm_financial_credit
+msgid "Farmer"
+msgstr "Petani"
+
+#. module: farm_financial_credit
+msgid "Farmer/Entity"
+msgstr "Petani/Entitas"
+
+#. module: farm_financial_credit
+msgid "Farmer/Trader"
+msgstr "Petani/Pedagang"
+
+#. module: farm_financial_credit
+msgid "Feed"
+msgstr "Pakan"
+
+#. module: farm_financial_credit
+msgid "Fertilizer"
+msgstr "Pupuk"
+
+#. module: farm_financial_credit
+msgid "Fetch Data"
+msgstr "Ambil Data"
+
+#. module: farm_financial_credit
+msgid "Finance Amount"
+msgstr "Jumlah Pembiayaan"
+
+#. module: farm_financial_credit
+msgid "Finance Reference"
+msgstr "Referensi Pembiayaan"
+
+#. module: farm_financial_credit
+msgid "Finance Type"
+msgstr "Jenis Pembiayaan"
+
+#. module: farm_financial_credit
+msgid "Financing Percentage (%)"
+msgstr "Persentase Pembiayaan (%)"
+
+#. module: farm_financial_credit
+msgid "Financing Reference"
+msgstr "Referensi Pembiayaan"
+
+#. module: farm_financial_credit
+msgid "Financing Structure"
+msgstr "Struktur Pembiayaan"
+
+#. module: farm_financial_credit
+msgid "Fixed Schedule"
+msgstr "Jadwal Tetap"
+
+#. module: farm_financial_credit
+msgid "Floor Price Protection"
+msgstr "Perlindungan Harga Minimum"
+
+#. module: farm_financial_credit
+msgid "Fuel"
+msgstr "Bahan Bakar"
+
+#. module: farm_financial_credit
+msgid "Fully Paid"
+msgstr "Lunas Sepenuhnya"
+
+#. module: farm_financial_credit
+msgid "Futures Hedging"
+msgstr "Lindung Nilai Berjangka"
+
+#. module: farm_financial_credit
+msgid "GAP Compliance (%)"
+msgstr "Kepatuhan GAP (%)"
+
+#. module: farm_financial_credit
+msgid "Goats"
+msgstr "Kambing"
+
+#. module: farm_financial_credit
+msgid "Good"
+msgstr "Baik"
+
+#. module: farm_financial_credit
+msgid "Good (B+)"
+msgstr "Baik (B+)"
+
+#. module: farm_financial_credit
+msgid "Growth Stages Count"
+msgstr "Jumlah Tahap Tumbuh"
+
+#. module: farm_financial_credit
+msgid "Harvest Credit"
+msgstr "Kredit Panen"
+
+#. module: farm_financial_credit
+msgid "Harvest Proceeds"
+msgstr "Hasil Panen"
+
+#. module: farm_financial_credit
+msgid "Has Agricultural UOM"
+msgstr "Memiliki Satuan Ukur Pertanian"
+
+#. module: farm_financial_credit
+msgid "Has Growth Stages"
+msgstr "Memiliki Tahap Tumbuh"
+
+#. module: farm_financial_credit
+msgid "Has Quality Standards"
+msgstr "Memiliki Standar Mutu"
+
+#. module: farm_financial_credit
+msgid "Has Task Templates"
+msgstr "Memiliki Template Tugas"
+
+#. module: farm_financial_credit
+msgid "Has Varieties"
+msgstr "Memiliki Varietas"
+
+#. module: farm_financial_credit
+msgid "Health Status"
+msgstr "Status Kesehatan"
+
+#. module: farm_financial_credit
+msgid "Hedge Effectiveness (%)"
+msgstr "Efektivitas Lindung Nilai (%)"
+
+#. module: farm_financial_credit
+msgid "Hedging Amount"
+msgstr "Jumlah Lindung Nilai"
+
+#. module: farm_financial_credit
+msgid "Hedging Reference"
+msgstr "Referensi Lindung Nilai"
+
+#. module: farm_financial_credit
+msgid "Hedging Type"
+msgstr "Jenis Lindung Nilai"
+
+#. module: farm_financial_credit
+msgid "High Financial Risk"
+msgstr "Risiko Keuangan Tinggi"
+
+#. module: farm_financial_credit
+msgid "High Risk Borrower"
+msgstr "Peminjam Berisiko Tinggi"
+
+#. module: farm_financial_credit
+msgid "Horses"
+msgstr "Kuda"
+
+#. module: farm_financial_credit
+msgid "Hybrid"
+msgstr "Hibrida"
+
+#. module: farm_financial_credit
+msgid "Implementation Status"
+msgstr "Status Implementasi"
+
+#. module: farm_financial_credit
+msgid "In Default"
+msgstr "Gagal Bayar"
+
+#. module: farm_financial_credit
+msgid "In Progress"
+msgstr "Berlangsung"
+
+#. module: farm_financial_credit
+msgid "Include Agricultural UOM"
+msgstr "Sertakan Satuan Ukur Pertanian"
+
+#. module: farm_financial_credit
+msgid "Include Common Varieties"
+msgstr "Sertakan Varietas Umum"
+
+#. module: farm_financial_credit
+msgid "Include Growth Stages"
+msgstr "Sertakan Tahap Tumbuh"
+
+#. module: farm_financial_credit
+msgid "Include Quality Standards"
+msgstr "Sertakan Standar Mutu"
+
+#. module: farm_financial_credit
+msgid "Include Task Templates"
+msgstr "Sertakan Template Tugas"
+
+#. module: farm_financial_credit
+msgid "Industry Code"
+msgstr "Kode Industri"
+
+#. module: farm_financial_credit
+msgid "Industry Initialization Complete"
+msgstr "Inisialisasi Industri Selesai"
+
+#. module: farm_financial_credit
+msgid "Industry Initialization Wizard"
+msgstr "Wizard Inisialisasi Industri"
+
+#. module: farm_financial_credit
+msgid "Industry Type"
+msgstr "Jenis Industri"
+
+#. module: farm_financial_credit
+msgid "Input Debt"
+msgstr "Utang Input"
+
+#. module: farm_financial_credit
+msgid "Input Financing"
+msgstr "Pembiayaan Input"
+
+#. module: farm_financial_credit
+msgid "Input Product"
+msgstr "Produk Input"
+
+#. module: farm_financial_credit
+msgid "Input Reduction (%)"
+msgstr "Pengurangan Input (%)"
+
+#. module: farm_financial_credit
+msgid "Input Type"
+msgstr "Jenis Input"
+
+#. module: farm_financial_credit
+msgid "Input itself serves as collateral"
+msgstr "Input itu sendiri menjadi jaminan"
+
+#. module: farm_financial_credit
+msgid "Insurance Coverage (%)"
+msgstr "Pertanggungan Asuransi (%)"
+
+#. module: farm_financial_credit
+msgid "Insurance Policy Number"
+msgstr "Nomor Polis Asuransi"
+
+#. module: farm_financial_credit
+msgid "Insurance coverage percentage"
+msgstr "Persentase pertanggungan asuransi"
+
+#. module: farm_financial_credit
+msgid "Interest Rate (%)"
+msgstr "Suku Bunga (%)"
+
+#. module: farm_financial_credit
+msgid "Interest Rate Adjustment (+/- %)"
+msgstr "Penyesuaian Suku Bunga (+/- %)"
+
+#. module: farm_financial_credit
+msgid "Invalid"
+msgstr "Tidak Valid"
+
+#. module: farm_financial_credit
+msgid "Invoice"
+msgstr "Faktur"
+
+#. module: farm_financial_credit
+msgid "Irrigation Access Score (0-100)"
+msgstr "Skor Akses Irigasi (0-100)"
+
+#. module: farm_financial_credit
+msgid "Is Active"
+msgstr "Aktif"
+
+#. module: farm_financial_credit
+msgid "Is Broker"
+msgstr "Adalah Broker"
+
+#. module: farm_financial_credit
+msgid "July"
+msgstr "Juli"
+
+#. module: farm_financial_credit
+msgid "Latest Credit Score"
+msgstr "Skor Kredit Terakhir"
+
+#. module: farm_financial_credit
+msgid "Lean Hogs"
+msgstr "Babi Potong"
+
+#. module: farm_financial_credit
+msgid "Lender (Bank/Co-op)"
+msgstr "Pemberi Pinjaman (Bank/Koperasi)"
+
+#. module: farm_financial_credit
+msgid "Likely Fraud"
+msgstr "Diduga Penipuan"
+
+#. module: farm_financial_credit
+msgid "Live Cattle"
+msgstr "Sapi Hidup"
+
+#. module: farm_financial_credit
+msgid "Livestock Asset Loan"
+msgstr "Pinjaman Aset Ternak"
+
+#. module: farm_financial_credit
+msgid "Loan Amount"
+msgstr "Jumlah Pinjaman"
+
+#. module: farm_financial_credit
+msgid "Loan Ref"
+msgstr "Ref. Pinjaman"
+
+#. module: farm_financial_credit
+msgid "Loan Reference"
+msgstr "Referensi Pinjaman"
+
+#. module: farm_financial_credit
+msgid "Loan Type"
+msgstr "Jenis Pinjaman"
+
+#. module: farm_financial_credit
+msgid "Loan must be approved before disbursement."
+msgstr "Pinjaman harus disetujui sebelum pencairan."
+
+#. module: farm_financial_credit
+msgid "Loan-to-Value Ratio (%)"
+msgstr "Rasio Pinjaman terhadap Nilai (%)"
+
+#. module: farm_financial_credit
+msgid "Long (Buy) - Hedge against price increase"
+msgstr "Long (Beli) - Lindung nilai terhadap kenaikan harga"
+
+#. module: farm_financial_credit
+msgid "Manager: See All Micro-Loans"
+msgstr "Manajer: Melihat Semua Pinjaman Mikro"
+
+#. module: farm_financial_credit
+msgid "March"
+msgstr "Maret"
+
+#. module: farm_financial_credit
+msgid "Margin Amount"
+msgstr "Jumlah Margin"
+
+#. module: farm_financial_credit
+msgid "Market Access Score (0-100)"
+msgstr "Skor Akses Pasar (0-100)"
+
+#. module: farm_financial_credit
+msgid "Market Price Volatility Score (0-100)"
+msgstr "Skor Volatilitas Harga Pasar (0-100)"
+
+#. module: farm_financial_credit
+msgid "Maturity Date"
+msgstr "Tanggal Jatuh Tempo"
+
+#. module: farm_financial_credit
+msgid "May"
+msgstr "Mei"
+
+#. module: farm_financial_credit
+msgid "Member"
+msgstr "Anggota"
+
+#. module: farm_financial_credit
+msgid "Methane Capture"
+msgstr "Penangkapan Metana"
+
+#. module: farm_financial_credit
+msgid "Methodology ID"
+msgstr "ID Metodologi"
+
+#. module: farm_financial_credit
+msgid "Monitoring Frequency"
+msgstr "Frekuensi Pemantauan"
+
+#. module: farm_financial_credit
+msgid "Monthly"
+msgstr "Bulanan"
+
+#. module: farm_financial_credit
+msgid "Net Payout"
+msgstr "Pembayaran Bersih"
+
+#. module: farm_financial_credit
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_financial_credit
+msgid "Non-Recourse"
+msgstr "Tanpa Rekurs"
+
+#. module: farm_financial_credit
+msgid "Number of Contracts"
+msgstr "Jumlah Kontrak"
+
+#. module: farm_financial_credit
+msgid "Number of Crop Varieties"
+msgstr "Jumlah Varietas Tanaman"
+
+#. module: farm_financial_credit
+msgid "Number of Livestock Types"
+msgstr "Jumlah Jenis Ternak"
+
+#. module: farm_financial_credit
+msgid "Open"
+msgstr "Terbuka"
+
+#. module: farm_financial_credit
+msgid "Operational"
+msgstr "Operasional"
+
+#. module: farm_financial_credit
+msgid "Ordered"
+msgstr "Dipesan"
+
+#. module: farm_financial_credit
+msgid "Organic Vegetables"
+msgstr "Sayuran Organik"
+
+#. module: farm_financial_credit
+msgid "Overall Risk Rating"
+msgstr "Peringkat Risiko Keseluruhan"
+
+#. module: farm_financial_credit
+msgid "Overall Risk Score (0-100)"
+msgstr "Skor Risiko Keseluruhan (0-100)"
+
+#. module: farm_financial_credit
+msgid "Package Name"
+msgstr "Nama Paket"
+
+#. module: farm_financial_credit
+msgid "Paid"
+msgstr "Lunas"
+
+#. module: farm_financial_credit
+msgid "Partially Closed"
+msgstr "Ditutup Sebagian"
+
+#. module: farm_financial_credit
+msgid "Partner acts as a commodities broker."
+msgstr "Mitra bertindak sebagai broker komoditas."
+
+#. module: farm_financial_credit
+msgid "Pay for Results"
+msgstr "Bayar per Hasil"
+
+#. module: farm_financial_credit
+msgid "Payment Received"
+msgstr "Pembayaran Diterima"
+
+#. module: farm_financial_credit
+msgid "Pending Verification"
+msgstr "Menunggu Verifikasi"
+
+#. module: farm_financial_credit
+msgid "Performance Metrics"
+msgstr "Metrik Kinerja"
+
+#. module: farm_financial_credit
+msgid "Pesticide"
+msgstr "Pestisida"
+
+#. module: farm_financial_credit
+msgid "Pig Farming"
+msgstr "Peternakan Babi"
+
+#. module: farm_financial_credit
+msgid "Planned"
+msgstr "Direncanakan"
+
+#. module: farm_financial_credit
+msgid "Poor"
+msgstr "Buruk"
+
+#. module: farm_financial_credit
+msgid "Poor (C)"
+msgstr "Buruk (C)"
+
+#. module: farm_financial_credit
+msgid "Position Status"
+msgstr "Status Posisi"
+
+#. module: farm_financial_credit
+msgid "Position Type"
+msgstr "Jenis Posisi"
+
+#. module: farm_financial_credit
+msgid "Posted"
+msgstr "Diposting"
+
+#. module: farm_financial_credit
+msgid "Poultry"
+msgstr "Unggas"
+
+#. module: farm_financial_credit
+msgid "Poultry Farming"
+msgstr "Peternakan Unggas"
+
+#. module: farm_financial_credit
+msgid "Previous Losses (3-year avg)"
+msgstr "Kerugian Sebelumnya (rata-rata 3 tahun)"
+
+#. module: farm_financial_credit
+msgid "Principal Amount"
+msgstr "Jumlah Pokok"
+
+#. module: farm_financial_credit
+msgid "Production Credit Rating"
+msgstr "Peringkat Kredit Produksi"
+
+#. module: farm_financial_credit
+msgid "Project Area (hectares)"
+msgstr "Luas Proyek (hektare)"
+
+#. module: farm_financial_credit
+msgid "Project Location"
+msgstr "Lokasi Proyek"
+
+#. module: farm_financial_credit
+msgid "Project Start Date"
+msgstr "Tanggal Mulai Proyek"
+
+#. module: farm_financial_credit
+msgid "Projected Emission Reduction (tCO2e)"
+msgstr "Proyeksi Pengurangan Emisi (tCO2e)"
+
+#. module: farm_financial_credit
+msgid "Projected Interest"
+msgstr "Proyeksi Bunga"
+
+#. module: farm_financial_credit
+msgid "Quantity"
+msgstr "Kuantitas"
+
+#. module: farm_financial_credit
+msgid "Quarterly"
+msgstr "Triwulanan"
+
+#. module: farm_financial_credit
+msgid "Receivable Amount"
+msgstr "Jumlah Piutang"
+
+#. module: farm_financial_credit
+msgid "Recommended Loan Amount"
+msgstr "Jumlah Pinjaman yang Direkomendasikan"
+
+#. module: farm_financial_credit
+msgid "Recourse"
+msgstr "Rekurs"
+
+#. module: farm_financial_credit
+msgid "Recourse Type"
+msgstr "Jenis Rekurs"
+
+#. module: farm_financial_credit
+msgid "Reduced Tillage"
+msgstr "Olah Tanah Minimum"
+
+#. module: farm_financial_credit
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: farm_financial_credit
+msgid "Reforestation"
+msgstr "Reboisasi"
+
+#. module: farm_financial_credit
+msgid "Registry Name"
+msgstr "Nama Registri"
+
+#. module: farm_financial_credit
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_financial_credit
+msgid "Rejected: Insufficient digital farming records."
+msgstr "Ditolak: Catatan pertanian digital tidak mencukupi."
+
+#. module: farm_financial_credit
+msgid "Rejected: Trust Score %.2f is below the 80.0 threshold."
+msgstr "Ditolak: Skor Kepercayaan %.2f di bawah ambang 80.0."
+
+#. module: farm_financial_credit
+msgid "Remaining Balance"
+msgstr "Sisa Saldo"
+
+#. module: farm_financial_credit
+msgid "Repayment Frequency"
+msgstr "Frekuensi Pembayaran"
+
+#. module: farm_financial_credit
+msgid "Repayment Method"
+msgstr "Metode Pembayaran"
+
+#. module: farm_financial_credit
+msgid "Repayment Percentage (%)"
+msgstr "Persentase Pembayaran (%)"
+
+#. module: farm_financial_credit
+msgid "Requested Amount ($)"
+msgstr "Jumlah yang Diminta ($)"
+
+#. module: farm_financial_credit
+msgid "Revenue Sharing"
+msgstr "Bagi Hasil"
+
+#. module: farm_financial_credit
+msgid "Risk Assessment"
+msgstr "Penilaian Risiko"
+
+#. module: farm_financial_credit
+msgid "Risk Score"
+msgstr "Skor Risiko"
+
+#. module: farm_financial_credit
+msgid "Sales Order"
+msgstr "Order Penjualan"
+
+#. module: farm_financial_credit
+msgid "Score Value"
+msgstr "Nilai Skor"
+
+#. module: farm_financial_credit
+msgid "Seed"
+msgstr "Benih"
+
+#. module: farm_financial_credit
+msgid "September"
+msgstr "September"
+
+#. module: farm_financial_credit
+msgid "Service Fees"
+msgstr "Biaya Layanan"
+
+#. module: farm_financial_credit
+msgid "Settle"
+msgstr "Selesaikan"
+
+#. module: farm_financial_credit
+msgid "Settled"
+msgstr "Diselesaikan"
+
+#. module: farm_financial_credit
+msgid "Sheep"
+msgstr "Domba"
+
+#. module: farm_financial_credit
+msgid "Shipped"
+msgstr "Dikirim"
+
+#. module: farm_financial_credit
+msgid "Short (Sell) - Hedge against price decrease"
+msgstr "Short (Jual) - Lindung nilai terhadap penurunan harga"
+
+#. module: farm_financial_credit
+msgid "Size of each contract in commodity units"
+msgstr "Ukuran setiap kontrak dalam satuan komoditas"
+
+#. module: farm_financial_credit
+msgid "Soil Carbon"
+msgstr "Karbon Tanah"
+
+#. module: farm_financial_credit
+msgid "Soil Quality Score (0-100)"
+msgstr "Skor Kualitas Tanah (0-100)"
+
+#. module: farm_financial_credit
+msgid "Soybean"
+msgstr "Kedelai"
+
+#. module: farm_financial_credit
+msgid "Speculation"
+msgstr "Spekulasi"
+
+#. module: farm_financial_credit
+msgid "Standard methodology used for calculation"
+msgstr "Metodologi standar yang digunakan untuk perhitungan"
+
+#. module: farm_financial_credit
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+#. module: farm_financial_credit
+msgid "State"
+msgstr "Status"
+
+#. module: farm_financial_credit
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_financial_credit
+msgid "Stop Loss Price ($/unit)"
+msgstr "Harga Stop Loss ($/unit)"
+
+#. module: farm_financial_credit
+msgid "Strategy Type"
+msgstr "Jenis Strategi"
+
+#. module: farm_financial_credit
+msgid "Submitted"
+msgstr "Diajukan"
+
+#. module: farm_financial_credit
+msgid "Subsidy Finance"
+msgstr "Pembiayaan Subsidi"
+
+#. module: farm_financial_credit
+msgid "Sugar"
+msgstr "Gula"
+
+#. module: farm_financial_credit
+msgid "Supplier"
+msgstr "Pemasok"
+
+#. module: farm_financial_credit
+msgid "Supply Chain Finance"
+msgstr "Pembiayaan Rantai Pasok"
+
+#. module: farm_financial_credit
+msgid "Suspicious"
+msgstr "Mencurigakan"
+
+#. module: farm_financial_credit
+msgid "Swine"
+msgstr "Babi"
+
+#. module: farm_financial_credit
+msgid "Take Profit Price ($/unit)"
+msgstr "Harga Take Profit ($/unit)"
+
+#. module: farm_financial_credit
+msgid "Task Templates Count"
+msgstr "Jumlah Template Tugas"
+
+#. module: farm_financial_credit
+msgid "Tea Plantation"
+msgstr "Perkebunan Teh"
+
+#. module: farm_financial_credit
+msgid "Technology Adoption Score (0-100)"
+msgstr "Skor Adopsi Teknologi (0-100)"
+
+#. module: farm_financial_credit
+msgid "The industry-specific master data package for %s has been successfully installed."
+msgstr "Paket data master khusus industri untuk %s telah berhasil dipasang."
+
+#. module: farm_financial_credit
+msgid "Total Amount"
+msgstr "Jumlah Total"
+
+#. module: farm_financial_credit
+msgid "Total Credit Score"
+msgstr "Total Skor Kredit"
+
+#. module: farm_financial_credit
+msgid "Total Credit Value"
+msgstr "Total Nilai Kredit"
+
+#. module: farm_financial_credit
+msgid "Total Repaid"
+msgstr "Total Terbayar"
+
+#. module: farm_financial_credit
+msgid "Tracking Device ID"
+msgstr "ID Perangkat Pelacak"
+
+#. module: farm_financial_credit
+msgid "Trust Score"
+msgstr "Skor Kepercayaan"
+
+#. module: farm_financial_credit
+msgid "Trust Status"
+msgstr "Status Kepercayaan"
+
+#. module: farm_financial_credit
+msgid "Under Review"
+msgstr "Dalam Peninjauan"
+
+#. module: farm_financial_credit
+msgid "Unique code for industry type"
+msgstr "Kode unik untuk jenis industri"
+
+#. module: farm_financial_credit
+msgid "Unit Price"
+msgstr "Harga Satuan"
+
+#. module: farm_financial_credit
+msgid "Unrealized P&L"
+msgstr "Laba/Rugi Belum Terealisasi"
+
+#. module: farm_financial_credit
+msgid "Upfront Financing"
+msgstr "Pembiayaan di Muka"
+
+#. module: farm_financial_credit
+msgid "Usage Verification"
+msgstr "Verifikasi Penggunaan"
+
+#. module: farm_financial_credit
+msgid "Used"
+msgstr "Terpakai"
+
+#. module: farm_financial_credit
+msgid "Valid"
+msgstr "Valid"
+
+#. module: farm_financial_credit
+msgid "Valuation Date"
+msgstr "Tanggal Valuasi"
+
+#. module: farm_financial_credit
+msgid "Value of harvest delivered by member."
+msgstr "Nilai panen yang diserahkan anggota."
+
+#. module: farm_financial_credit
+msgid "Varieties Count"
+msgstr "Jumlah Varietas"
+
+#. module: farm_financial_credit
+msgid "Verification Date"
+msgstr "Tanggal Verifikasi"
+
+#. module: farm_financial_credit
+msgid "Verified"
+msgstr "Terverifikasi"
+
+#. module: farm_financial_credit
+msgid "Version"
+msgstr "Versi"
+
+#. module: farm_financial_credit
+msgid "Very Good (A)"
+msgstr "Sangat Baik (A)"
+
+#. module: farm_financial_credit
+msgid "Very Poor (D)"
+msgstr "Sangat Buruk (D)"
+
+#. module: farm_financial_credit
+msgid "Veterinary Certificate"
+msgstr "Sertifikat Veteriner"
+
+#. module: farm_financial_credit
+msgid "Weather Risk Score (0-100)"
+msgstr "Skor Risiko Cuaca (0-100)"
+
+#. module: farm_financial_credit
+msgid "Weekly"
+msgstr "Mingguan"
+
+#. module: farm_financial_credit
+msgid "Weight: 20%"
+msgstr "Bobot: 20%"
+
+#. module: farm_financial_credit
+msgid "Weight: 30%"
+msgstr "Bobot: 30%"
+
+#. module: farm_financial_credit
+msgid "Wheat"
+msgstr "Gandum"
+
+#. module: farm_financial_credit
+msgid "Worker: See Own Micro-Loans Only"
+msgstr "Pekerja: Hanya Melihat Pinjaman Mikro Milik Sendiri"
+
+#. module: farm_financial_credit
+msgid "Years in Farming"
+msgstr "Tahun Bertani"
+
+#. module: farm_financial_credit
+msgid "Yield Consistency (%)"
+msgstr "Konsistensi Hasil Panen (%)"

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+    <!-- NOTE (B5-FIX, 10 Nov 2026): split from views/menu.xml.
+         These menuitems carry action= refs to 11 actions defined in
+         the views files, so this file MUST load AFTER all of them
+         (last in the manifest data list). The category menus they
+         hang under (menu_esg_operations / menu_esg_master_data /
+         menu_esg_reporting) stay in views/menu.xml, which loads
+         early — esg_compliance_views.xml also needs them. Upstream
+         had everything in one menu.xml listed twice (3rd AND last):
+         first load failed at menu.xml:58 (action IDs not yet
+         existing), and moving the whole file last broke
+         esg_compliance_views.xml:113 (menu_esg_operations not yet
+         existing). Split resolves the circular load order. -->
+
+    <!-- ========================================== -->
+    <!-- Place Compliance Menus Under Standard L1 Categories -->
+    <!-- ========================================== -->
+
+    <!-- A. Operations -->
+    <menuitem id="menu_sustainable_supply_chain" name="Sustainable Supply Chain" parent="menu_esg_operations" action="action_sustainable_supply_chain" sequence="30" />
+    <menuitem id="menu_sustainable_supplier_evaluation" name="Supplier Evaluations" parent="menu_esg_operations" action="action_sustainable_supplier_evaluation" sequence="40" />
+    <menuitem id="menu_carbon_credits" name="Carbon Credits" parent="menu_esg_operations" action="action_carbon_credit" sequence="50" />
+    <menuitem id="menu_esg_marketplace_trades" name="Marketplace Trades" parent="menu_esg_operations" action="action_esg_marketplace_trade" sequence="60" />
+    <menuitem id="menu_waste_resource_trades" name="Waste Resource Trades" parent="menu_esg_operations" action="action_waste_resource_trade" sequence="70" />
+
+    <!-- B. Master Data -->
+    <menuitem id="menu_sustainable_business_model" name="Sustainable Business Models" parent="menu_esg_master_data" action="action_sustainable_business_model" sequence="30" />
+    <menuitem id="menu_sustainable_product_lifecycle" name="Product Lifecycle Management" parent="menu_esg_master_data" action="action_sustainable_product_lifecycle" sequence="40" />
+    <menuitem id="menu_bio_energy_products" name="Bio-energy Products" parent="menu_esg_master_data" action="action_bio_energy_product" sequence="50" />
+    <menuitem id="menu_esg_marketplaces" name="ESG Marketplaces" parent="menu_esg_master_data" action="action_esg_marketplace" sequence="60" />
+
+    <!-- C. Reporting -->
+    <menuitem id="menu_triple_bottom_line_metrics" name="Triple Bottom Line Metrics" parent="menu_esg_reporting" action="action_triple_bottom_line_metrics" sequence="30" />
+    <menuitem id="menu_carbon_neutral_goals" name="Carbon Neutral Goals" parent="menu_esg_reporting" action="action_carbon_neutral_goal" sequence="40" />
+</data>
+</odoo>

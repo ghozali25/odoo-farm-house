@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="farm_csa_subscription_view_tree" model="ir.ui.view">
+        <field name="name">farm.csa.subscription.list</field>
+        <field name="model">farm.csa.subscription</field>
+        <field name="arch" type="xml">
+            <list string="CSA Subscriptions" decoration-success="state == 'active'">
+                <field name="name" />
+                <field name="partner_id" />
+                <field name="plan_id" />
+                <field name="next_delivery_date" />
+                <field name="state" widget="badge" />
+            </list>
+        </field>
+    </record>
+
+    <record id="farm_csa_subscription_view_form" model="ir.ui.view">
+        <field name="name">farm.csa.subscription.form</field>
+        <field name="model">farm.csa.subscription</field>
+        <field name="arch" type="xml">
+            <form string="CSA Subscription">
+                <header>
+                    <button name="action_activate" string="Activate" type="object" class="btn-primary" invisible="state != 'draft'" />
+                    <field name="state" widget="statusbar" />
+                </header>
+                <sheet>
+                    <h1><field name="name" /></h1>
+                    <group>
+                        <group>
+                            <field name="partner_id" />
+                            <field name="plan_id" />
+                            <field name="sub_type" />
+                            <field name="adopted_lot_id" invisible="sub_type != 'adoption'" />
+                        </group>
+                        <group>
+                            <field name="date_start" />
+                            <field name="next_delivery_date" />
+                            <field name="use_coop_credit" />
+                            <field name="coop_member_id" invisible="not use_coop_credit" required="use_coop_credit" />
+                            <field name="yield_token_balance" />
+                            <field name="credit_held_amount" readonly="1" />
+                            <field name="credit_ledger_line_id" readonly="1" />
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" />
+                    <field name="message_ids" />
+                </div>
+            </form>
+        </field>
+    </record>
+
+    
+    <record id="view_farm_shared_tool_tree" model="ir.ui.view">
+        <field name="name">farm.shared.tool.tree</field>
+        <field name="model">farm.shared.tool</field>
+        <field name="arch" type="xml">
+            <list string="Shared Tools" decoration-info="status == 'available'" decoration-warning="status == 'borrowed'">
+                <field name="name" />
+                <field name="tool_type" />
+                <field name="status" widget="badge" />
+                <field name="current_user_id" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_farm_shared_tool_form" model="ir.ui.view">
+        <field name="name">farm.shared.tool.form</field>
+        <field name="model">farm.shared.tool</field>
+        <field name="arch" type="xml">
+            <form string="Shared Tool">
+                <header>
+                    <button name="action_return" string="Return Tool" type="object" invisible="status != 'borrowed'" />
+                    <field name="status" widget="statusbar" />
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name" placeholder="e.g. Community Rototiller" /></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="tool_type" />
+                            <field name="equipment_id" />
+                        </group>
+                        <group>
+                            <field name="current_user_id" readonly="1" />
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" />
+                    <field name="activity_ids" />
+                    <field name="message_ids" />
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_farm_shared_tool" model="ir.actions.act_window">
+        <field name="name">Shared Tools</field>
+        <field name="res_model">farm.shared.tool</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</data>
+</odoo>

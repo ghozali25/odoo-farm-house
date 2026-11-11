@@ -1,0 +1,399 @@
+# Translation of farm_esg_sustainability to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# Translations: hand-written sentences + phrases, single words, and
+# 'Modifier Head' labels reordered to Indonesian order; anything else is
+# left untranslated so Odoo falls back to the English source string.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_esg_sustainability 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 16:00+0700\n"
+"PO-Revision-Date: 2026-11-10 16:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_esg_sustainability
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_esg_sustainability
+msgid "Agri Sustainability Metric Value"
+msgstr "Nilai Metrik Keberlanjutan Agri"
+
+#. module: farm_esg_sustainability
+msgid "Agricultural Sustainability Dashboard"
+msgstr "Dasbor Keberlanjutan Pertanian"
+
+#. module: farm_esg_sustainability
+msgid "Agricultural Sustainability Metric"
+msgstr "Metrik Keberlanjutan Pertanian"
+
+#. module: farm_esg_sustainability
+msgid "Agricultural Sustainability Report"
+msgstr "Laporan Keberlanjutan Pertanian"
+
+#. module: farm_esg_sustainability
+msgid "Approval Date"
+msgstr "Tanggal Persetujuan"
+
+#. module: farm_esg_sustainability
+msgid "Approval Information"
+msgstr "Informasi Persetujuan"
+
+#. module: farm_esg_sustainability
+msgid "Approve"
+msgstr "Setujui"
+
+#. module: farm_esg_sustainability
+msgid "Calculation Complete"
+msgstr "Perhitungan Selesai"
+
+#. module: farm_esg_sustainability
+msgid "Calculation Formula"
+msgstr "Rumus Perhitungan"
+
+#. module: farm_esg_sustainability
+msgid "Calculation Method"
+msgstr "Metode Perhitungan"
+
+#. module: farm_esg_sustainability
+msgid "Carbon Footprint"
+msgstr "Jejak Karbon"
+
+#. module: farm_esg_sustainability
+msgid "Carbon Footprint Data"
+msgstr "Data Jejak Karbon"
+
+#. module: farm_esg_sustainability
+msgid "Carbon Footprint Data Unavailable"
+msgstr "Data Jejak Karbon Tidak Tersedia"
+
+#. module: farm_esg_sustainability
+msgid "Carbon footprint calculations are not available (model not installed)."
+msgstr "Perhitungan jejak karbon tidak tersedia (model belum terpasang)."
+
+#. module: farm_esg_sustainability
+msgid "Category"
+msgstr "Kategori"
+
+#. module: farm_esg_sustainability
+msgid "Circular Economy Flow Count"
+msgstr "Jumlah Alur Ekonomi Sirkular"
+
+#. module: farm_esg_sustainability
+msgid "Circular Economy Flows"
+msgstr "Alur Ekonomi Sirkular"
+
+#. module: farm_esg_sustainability
+msgid "Circular Economy Results"
+msgstr "Hasil Ekonomi Sirkular"
+
+#. module: farm_esg_sustainability
+msgid "Circular Economy Value Created"
+msgstr "Nilai Ekonomi Sirkular yang Diciptakan"
+
+#. module: farm_esg_sustainability
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#. module: farm_esg_sustainability
+msgid "Confirmed"
+msgstr "Dikonfirmasi"
+
+#. module: farm_esg_sustainability
+msgid "Current Value"
+msgstr "Nilai Saat Ini"
+
+#. module: farm_esg_sustainability
+msgid "Daily"
+msgstr "Harian"
+
+#. module: farm_esg_sustainability
+msgid "Dashboard Name"
+msgstr "Nama Dasbor"
+
+#. module: farm_esg_sustainability
+msgid "Date"
+msgstr "Tanggal"
+
+#. module: farm_esg_sustainability
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_esg_sustainability
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_esg_sustainability
+msgid "Economic Analysis"
+msgstr "Analisis Ekonomi"
+
+#. module: farm_esg_sustainability
+msgid "Economic Metrics"
+msgstr "Metrik Ekonomi"
+
+#. module: farm_esg_sustainability
+msgid "Economic Score"
+msgstr "Skor Ekonomi"
+
+#. module: farm_esg_sustainability
+msgid "Economic Trend %"
+msgstr "Tren Ekonomi %"
+
+#. module: farm_esg_sustainability
+msgid "End Date"
+msgstr "Tanggal Akhir"
+
+#. module: farm_esg_sustainability
+msgid "Environmental"
+msgstr "Lingkungan"
+
+#. module: farm_esg_sustainability
+msgid "Environmental Analysis"
+msgstr "Analisis Lingkungan"
+
+#. module: farm_esg_sustainability
+msgid "Environmental Impact Score"
+msgstr "Skor Dampak Lingkungan"
+
+#. module: farm_esg_sustainability
+msgid "Environmental Metrics"
+msgstr "Metrik Lingkungan"
+
+#. module: farm_esg_sustainability
+msgid "Environmental Score"
+msgstr "Skor Lingkungan"
+
+#. module: farm_esg_sustainability
+msgid "Environmental Trend %"
+msgstr "Tren Lingkungan %"
+
+#. module: farm_esg_sustainability
+msgid "Executive Summary"
+msgstr "Ringkasan Eksekutif"
+
+#. module: farm_esg_sustainability
+msgid "Governance"
+msgstr "Tata Kelola"
+
+#. module: farm_esg_sustainability
+msgid "Impact Dashboard"
+msgstr "Dasbor Dampak"
+
+#. module: farm_esg_sustainability
+msgid "Key Metrics"
+msgstr "Metrik Utama"
+
+#. module: farm_esg_sustainability
+msgid "Last Calculated"
+msgstr "Terakhir Dihitung"
+
+#. module: farm_esg_sustainability
+msgid "Metric"
+msgstr "Metrik"
+
+#. module: farm_esg_sustainability
+msgid "Metric Code"
+msgstr "Kode Metrik"
+
+#. module: farm_esg_sustainability
+msgid "Metric Name"
+msgstr "Nama Metrik"
+
+#. module: farm_esg_sustainability
+msgid "Metric Value History"
+msgstr "Riwayat Nilai Metrik"
+
+#. module: farm_esg_sustainability
+msgid "Monthly"
+msgstr "Bulanan"
+
+#. module: farm_esg_sustainability
+msgid "Note"
+msgstr "Catatan"
+
+#. module: farm_esg_sustainability
+msgid "Overall Score"
+msgstr "Skor Keseluruhan"
+
+#. module: farm_esg_sustainability
+msgid "Period End"
+msgstr "Akhir Periode"
+
+#. module: farm_esg_sustainability
+msgid "Period Start"
+msgstr "Awal Periode"
+
+#. module: farm_esg_sustainability
+msgid "Print Report"
+msgstr "Cetak Laporan"
+
+#. module: farm_esg_sustainability
+msgid "Published"
+msgstr "Diterbitkan"
+
+#. module: farm_esg_sustainability
+msgid "Quarterly"
+msgstr "Kuartalan"
+
+#. module: farm_esg_sustainability
+msgid "Recalculate Data"
+msgstr "Hitung Ulang Data"
+
+#. module: farm_esg_sustainability
+msgid "Record Date"
+msgstr "Tanggal Catatan"
+
+#. module: farm_esg_sustainability
+msgid "Related Attachments"
+msgstr "Berkas Terkait"
+
+#. module: farm_esg_sustainability
+msgid "Report Date"
+msgstr "Tanggal Laporan"
+
+#. module: farm_esg_sustainability
+msgid "Report Name"
+msgstr "Nama Laporan"
+
+#. module: farm_esg_sustainability
+msgid "Resource Efficiency Improvement %"
+msgstr "Peningkatan Efisiensi Sumber Daya %"
+
+#. module: farm_esg_sustainability
+msgid "Resources Saved"
+msgstr "Sumber Daya yang Dihemat"
+
+#. module: farm_esg_sustainability
+msgid "Social Analysis"
+msgstr "Analisis Sosial"
+
+#. module: farm_esg_sustainability
+msgid "Social Impact Score"
+msgstr "Skor Dampak Sosial"
+
+#. module: farm_esg_sustainability
+msgid "Social Metrics"
+msgstr "Metrik Sosial"
+
+#. module: farm_esg_sustainability
+msgid "Social Score"
+msgstr "Skor Sosial"
+
+#. module: farm_esg_sustainability
+msgid "Social Trend %"
+msgstr "Tren Sosial %"
+
+#. module: farm_esg_sustainability
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Dashboard"
+msgstr "Dasbor Keberlanjutan"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Dashboard (Deprecated - Use agri.sustainability.dashboard)"
+msgstr "Dasbor Keberlanjutan (Usang - Gunakan agri.sustainability.dashboard)"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Metric"
+msgstr "Metrik Keberlanjutan"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Metric (Deprecated - Use agri.sustainability.metric)"
+msgstr "Metrik Keberlanjutan (Usang - Gunakan agri.sustainability.metric)"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Metric Value (Deprecated - Use agri.sustainability.metric.value)"
+msgstr "Nilai Metrik Keberlanjutan (Usang - Gunakan agri.sustainability.metric.value)"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Metric Value Update Wizard (Deprecated - Use agri.sustainability.metric.value.wizard)"
+msgstr "Wizard Perbarui Nilai Metrik Keberlanjutan (Usang - Gunakan agri.sustainability.metric.value.wizard)"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Metrics"
+msgstr "Metrik Keberlanjutan"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Report"
+msgstr "Laporan Keberlanjutan"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Report (Deprecated - Use agri.sustainability.report)"
+msgstr "Laporan Keberlanjutan (Usang - Gunakan agri.sustainability.report)"
+
+#. module: farm_esg_sustainability
+msgid "Target Value"
+msgstr "Nilai Target"
+
+#. module: farm_esg_sustainability
+msgid "Targets & Current Values"
+msgstr "Target & Nilai Saat Ini"
+
+#. module: farm_esg_sustainability
+msgid "The Metric Code must be unique: %s"
+msgstr "Kode Metrik harus unik: %s"
+
+#. module: farm_esg_sustainability
+msgid "Total Carbon Footprint"
+msgstr "Total Jejak Karbon"
+
+#. module: farm_esg_sustainability
+msgid "Total Circular Economy Value"
+msgstr "Total Nilai Ekonomi Sirkular"
+
+#. module: farm_esg_sustainability
+msgid "Trends"
+msgstr "Tren"
+
+#. module: farm_esg_sustainability
+msgid "Triple Bottom Line Scores"
+msgstr "Skor Triple Bottom Line"
+
+#. module: farm_esg_sustainability
+msgid "Unit of the metric, e.g., Tons, USD, Percentage"
+msgstr "Satuan metrik, mis., Ton, USD, Persentase"
+
+#. module: farm_esg_sustainability
+msgid "Update Metric Value"
+msgstr "Perbarui Nilai Metrik"
+
+#. module: farm_esg_sustainability
+msgid "Value"
+msgstr "Nilai"
+
+#. module: farm_esg_sustainability
+msgid "Value History"
+msgstr "Riwayat Nilai"
+
+#. module: farm_esg_sustainability
+msgid "Waste Diverted"
+msgstr "Limbah yang Dialihkan"
+
+#. module: farm_esg_sustainability
+msgid "Waste Reduced"
+msgstr "Limbah yang Dikurangi"
+
+#. module: farm_esg_sustainability
+msgid "Weekly"
+msgstr "Mingguan"
+
+#. module: farm_esg_sustainability
+msgid "Yearly"
+msgstr "Tahunan"
+
+#. module: farm_esg_sustainability
+msgid "Farm Sustainability Reporting"
+msgstr "Pelaporan Keberlanjutan Pertanian"
+
+#. module: farm_esg_sustainability
+msgid "Sustainability Dashboards, Reports and Analytics"
+msgstr "Dasbor, Laporan, dan Analitik Keberlanjutan"

@@ -1,0 +1,424 @@
+# Translation of Farm ESG Fair Trade Management (farm_esg_fair_trade) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_esg_fair_trade 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:00+0700\n"
+"PO-Revision-Date: 2026-11-10 17:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_esg_fair_trade
+msgid "Allocate"
+msgstr "Alokasikan"
+
+#. module: farm_esg_fair_trade
+msgid "Allocated"
+msgstr "Dialokasikan"
+
+#. module: farm_esg_fair_trade
+msgid "Allocation Date"
+msgstr "Tanggal Alokasi"
+
+#. module: farm_esg_fair_trade
+msgid "Allocation Reference"
+msgstr "Referensi Alokasi"
+
+#. module: farm_esg_fair_trade
+msgid "Allocation Type"
+msgstr "Jenis Alokasi"
+
+#. module: farm_esg_fair_trade
+msgid "Amount"
+msgstr "Jumlah"
+
+#. module: farm_esg_fair_trade
+msgid "Annual Audit Date"
+msgstr "Tanggal Audit Tahunan"
+
+#. module: farm_esg_fair_trade
+msgid "Annual Recurring"
+msgstr "Berulang Tahunan"
+
+#. module: farm_esg_fair_trade
+msgid "Applied"
+msgstr "Diajukan"
+
+#. module: farm_esg_fair_trade
+msgid "Approval Date"
+msgstr "Tanggal Persetujuan"
+
+#. module: farm_esg_fair_trade
+msgid "Approve"
+msgstr "Setujui"
+
+#. module: farm_esg_fair_trade
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_esg_fair_trade
+msgid "Beneficiaries"
+msgstr "Penerima Manfaat"
+
+#. module: farm_esg_fair_trade
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_esg_fair_trade
+msgid "Certificate Name"
+msgstr "Nama Sertifikat"
+
+#. module: farm_esg_fair_trade
+msgid "Certificate Number"
+msgstr "Nomor Sertifikat"
+
+#. module: farm_esg_fair_trade
+msgid "Certificate Type"
+msgstr "Jenis Sertifikat"
+
+#. module: farm_esg_fair_trade
+msgid "Certification Number"
+msgstr "Nomor Sertifikasi"
+
+#. module: farm_esg_fair_trade
+msgid "Certified"
+msgstr "Tersertifikasi"
+
+#. module: farm_esg_fair_trade
+msgid "Check Expiry Alerts"
+msgstr "Periksa Peringatan Kedaluwarsa"
+
+#. module: farm_esg_fair_trade
+msgid "Community Investment"
+msgstr "Investasi Komunitas"
+
+#. module: farm_esg_fair_trade
+msgid "Community Investments"
+msgstr "Investasi Komunitas"
+
+#. module: farm_esg_fair_trade
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_esg_fair_trade
+msgid "Compliance Score"
+msgstr "Skor Kepatuhan"
+
+#. module: farm_esg_fair_trade
+msgid "Compliance Status"
+msgstr "Status Kepatuhan"
+
+#. module: farm_esg_fair_trade
+msgid "Compliant"
+msgstr "Patuh"
+
+#. module: farm_esg_fair_trade
+msgid "Condition Name"
+msgstr "Nama Kondisi"
+
+#. module: farm_esg_fair_trade
+msgid "Condition Type"
+msgstr "Jenis Kondisi"
+
+#. module: farm_esg_fair_trade
+msgid "Covered Farms"
+msgstr "Pertanian yang Dicakup"
+
+#. module: farm_esg_fair_trade
+msgid "Covered Items"
+msgstr "Butir yang Dicakup"
+
+#. module: farm_esg_fair_trade
+msgid "Covered Products"
+msgstr "Produk yang Dicakup"
+
+#. module: farm_esg_fair_trade
+msgid "Dates"
+msgstr "Tanggal"
+
+#. module: farm_esg_fair_trade
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_esg_fair_trade
+msgid "Details"
+msgstr "Detail"
+
+#. module: farm_esg_fair_trade
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_esg_fair_trade
+msgid "ESG Fair Trade"
+msgstr "Perdagangan Adil ESG"
+
+#. module: farm_esg_fair_trade
+msgid "Education"
+msgstr "Pendidikan"
+
+#. module: farm_esg_fair_trade
+msgid "Employment"
+msgstr "Pekerjaan"
+
+#. module: farm_esg_fair_trade
+msgid "End Date"
+msgstr "Tanggal Selesai"
+
+#. module: farm_esg_fair_trade
+msgid "End date must be after start date."
+msgstr "Tanggal selesai harus setelah tanggal mulai."
+
+#. module: farm_esg_fair_trade
+msgid "Environmental"
+msgstr "Lingkungan"
+
+#. module: farm_esg_fair_trade
+msgid "Evidence"
+msgstr "Bukti"
+
+#. module: farm_esg_fair_trade
+msgid "Evidence Attachments"
+msgstr "Lampiran Bukti"
+
+#. module: farm_esg_fair_trade
+msgid "Expired"
+msgstr "Kedaluwarsa"
+
+#. module: farm_esg_fair_trade
+msgid "Expiry Date"
+msgstr "Tanggal Kedaluwarsa"
+
+#. module: farm_esg_fair_trade
+msgid "Expiry date must be after issue date."
+msgstr "Tanggal kedaluwarsa harus setelah tanggal terbit."
+
+#. module: farm_esg_fair_trade
+msgid "Fair Trade Certificate"
+msgstr "Sertifikat Perdagangan Adil"
+
+#. module: farm_esg_fair_trade
+msgid "Fair Trade Certificates"
+msgstr "Sertifikat Perdagangan Adil"
+
+#. module: farm_esg_fair_trade
+msgid "Fair Trade Premium (%)"
+msgstr "Premi Perdagangan Adil (%)"
+
+#. module: farm_esg_fair_trade
+msgid "Fair Trade Premium Allocation"
+msgstr "Alokasi Premi Perdagangan Adil"
+
+#. module: farm_esg_fair_trade
+msgid "Fair Trade Premium Allocations"
+msgstr "Alokasi Premi Perdagangan Adil"
+
+#. module: farm_esg_fair_trade
+msgid "Fair Trade USA"
+msgstr "Fair Trade USA"
+
+#. module: farm_esg_fair_trade
+msgid "Fair for Life"
+msgstr "Fair for Life"
+
+#. module: farm_esg_fair_trade
+msgid "Fairtrade International"
+msgstr "Fairtrade International"
+
+#. module: farm_esg_fair_trade
+msgid "Farm ESG Fair Trade Management"
+msgstr "Manajemen Perdagangan Adil ESG Pertanian"
+
+#. module: farm_esg_fair_trade
+msgid "Health Cert"
+msgstr "Sertifikat Kesehatan"
+
+#. module: farm_esg_fair_trade
+msgid "Healthcare"
+msgstr "Layanan Kesehatan"
+
+#. module: farm_esg_fair_trade
+msgid "Impact Assessment"
+msgstr "Penilaian Dampak"
+
+#. module: farm_esg_fair_trade
+msgid "Impact Measure"
+msgstr "Ukuran Dampak"
+
+#. module: farm_esg_fair_trade
+msgid "In Progress"
+msgstr "Dalam Proses"
+
+#. module: farm_esg_fair_trade
+msgid "Infrastructure"
+msgstr "Infrastruktur"
+
+#. module: farm_esg_fair_trade
+msgid "Insurance Coverage"
+msgstr "Cakupan Asuransi"
+
+#. module: farm_esg_fair_trade
+msgid "Investment Date"
+msgstr "Tanggal Investasi"
+
+#. module: farm_esg_fair_trade
+msgid "Investment Name"
+msgstr "Nama Investasi"
+
+#. module: farm_esg_fair_trade
+msgid "Investment Type"
+msgstr "Jenis Investasi"
+
+#. module: farm_esg_fair_trade
+msgid "Is Active"
+msgstr "Aktif"
+
+#. module: farm_esg_fair_trade
+msgid "Is Valid"
+msgstr "Valid"
+
+#. module: farm_esg_fair_trade
+msgid "Issue Date"
+msgstr "Tanggal Terbit"
+
+#. module: farm_esg_fair_trade
+msgid "Issuing Body"
+msgstr "Badan Penerbit"
+
+#. module: farm_esg_fair_trade
+msgid "Labor Condition"
+msgstr "Kondisi Tenaga Kerja"
+
+#. module: farm_esg_fair_trade
+msgid "Labor Conditions"
+msgstr "Kondisi Tenaga Kerja"
+
+#. module: farm_esg_fair_trade
+msgid "Last Inspection Date"
+msgstr "Tanggal Inspeksi Terakhir"
+
+#. module: farm_esg_fair_trade
+msgid "Location"
+msgstr "Lokasi"
+
+#. module: farm_esg_fair_trade
+msgid "Manage fair trade certification and community investment aspects of farming ESG"
+msgstr "Mengelola sertifikasi perdagangan adil dan aspek investasi komunitas ESG pertanian"
+
+#. module: farm_esg_fair_trade
+msgid "Next Audit Date"
+msgstr "Tanggal Audit Berikutnya"
+
+#. module: farm_esg_fair_trade
+msgid "Next Inspection Date"
+msgstr "Tanggal Inspeksi Berikutnya"
+
+#. module: farm_esg_fair_trade
+msgid "Non Compliant"
+msgstr "Tidak Patuh"
+
+#. module: farm_esg_fair_trade
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_esg_fair_trade
+msgid "Number of Beneficiaries"
+msgstr "Jumlah Penerima Manfaat"
+
+#. module: farm_esg_fair_trade
+msgid "Other"
+msgstr "Lainnya"
+
+#. module: farm_esg_fair_trade
+msgid "Pending Review"
+msgstr "Menunggu Tinjauan"
+
+#. module: farm_esg_fair_trade
+msgid "Percentage premium paid to producers"
+msgstr "Persentase premi yang dibayarkan kepada produsen"
+
+#. module: farm_esg_fair_trade
+msgid "Planned"
+msgstr "Direncanakan"
+
+#. module: farm_esg_fair_trade
+msgid "Premium Allocations"
+msgstr "Alokasi Premi"
+
+#. module: farm_esg_fair_trade
+msgid "Producer Bonus"
+msgstr "Bonus Produsen"
+
+#. module: farm_esg_fair_trade
+msgid "Project Status"
+msgstr "Status Proyek"
+
+#. module: farm_esg_fair_trade
+msgid "Reject"
+msgstr "Tolak"
+
+#. module: farm_esg_fair_trade
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_esg_fair_trade
+msgid "Revoked"
+msgstr "Dicabut"
+
+#. module: farm_esg_fair_trade
+msgid "Safety Score"
+msgstr "Skor Keselamatan"
+
+#. module: farm_esg_fair_trade
+msgid "Safety Training"
+msgstr "Pelatihan Keselamatan"
+
+#. module: farm_esg_fair_trade
+msgid "Schedule Inspection"
+msgstr "Jadwalkan Inspeksi"
+
+#. module: farm_esg_fair_trade
+msgid "Score based on audit results"
+msgstr "Skor berdasarkan hasil audit"
+
+#. module: farm_esg_fair_trade
+msgid "Social Welfare"
+msgstr "Kesejahteraan Sosial"
+
+#. module: farm_esg_fair_trade
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+#. module: farm_esg_fair_trade
+msgid "State"
+msgstr "Status"
+
+#. module: farm_esg_fair_trade
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_esg_fair_trade
+msgid "Suspended"
+msgstr "Ditangguhkan"
+
+#. module: farm_esg_fair_trade
+msgid "Under Review"
+msgstr "Dalam Tinjauan"
+
+#. module: farm_esg_fair_trade
+msgid "WFTO"
+msgstr "WFTO"
+
+#. module: farm_esg_fair_trade
+msgid "Wage Compliance"
+msgstr "Kepatuhan Upah"
+
+#. module: farm_esg_fair_trade
+msgid "Working Hours"
+msgstr "Jam Kerja"

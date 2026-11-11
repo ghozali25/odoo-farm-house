@@ -1,0 +1,328 @@
+# Translation of farm_csa to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_csa 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_csa
+msgid "ADOPTION: This asset has been adopted by %s."
+msgstr "ADOPTION: This asset has been adopted by %s."
+
+#. module: farm_csa
+msgid "Activate"
+msgstr "Activate"
+
+#. module: farm_csa
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_csa
+msgid "Asset Adoption"
+msgstr "Asset Adoption"
+
+#. module: farm_csa
+msgid "Available"
+msgstr "Available"
+
+#. module: farm_csa
+msgid "Bi-weekly"
+msgstr "Bi-weekly"
+
+#. module: farm_csa
+msgid "CSA"
+msgstr "CSA"
+
+#. module: farm_csa
+msgid "CSA Subscription"
+msgstr "Langganan CSA"
+
+#. module: farm_csa
+msgid "CSA Subscriptions"
+msgstr "CSA Subscriptions"
+
+#. module: farm_csa
+msgid "Credit Held Amount"
+msgstr "Credit Held Amount"
+
+#. module: farm_csa
+msgid "Delivery Picking %s validated. Debited %s tokens and released %s coop credits."
+msgstr "Delivery Picking %s validated. Debited %s tokens and released %s coop credits."
+
+#. module: farm_csa
+msgid "Delivery task %s generated."
+msgstr "Delivery task %s generated."
+
+#. module: farm_csa
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_csa
+msgid "Expired"
+msgstr "Expired"
+
+#. module: farm_csa
+msgid "Farm: Generate CSA Delivery Tasks"
+msgstr "Farm: Generate CSA Delivery Tasks"
+
+#. module: farm_csa
+msgid "Hand Tool"
+msgstr "Hand Tool"
+
+#. module: farm_csa
+msgid "In Use"
+msgstr "In Use"
+
+#. module: farm_csa
+msgid "JIT Harvest Dispatched: %s units of %s needed for %s upcoming deliveries. Intervention: %s"
+msgstr "JIT Harvest Dispatched: %s units of %s needed for %s upcoming deliveries. Intervention: %s"
+
+#. module: farm_csa
+msgid "Monthly"
+msgstr "Monthly"
+
+#. module: farm_csa
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_csa
+msgid "Next Delivery Date"
+msgstr "Next Delivery Date"
+
+#. module: farm_csa
+msgid "Paused"
+msgstr "Paused"
+
+#. module: farm_csa
+msgid "Plan Name"
+msgstr "Plan Name"
+
+#. module: farm_csa
+msgid "Portable Sensor"
+msgstr "Portable Sensor"
+
+#. module: farm_csa
+msgid "Power Tool"
+msgstr "Power Tool"
+
+#. module: farm_csa
+msgid "Price per Delivery"
+msgstr "Price per Delivery"
+
+#. module: farm_csa
+msgid "Provisioned Video Stream: %s and scheduled initial Care Intervention: %s"
+msgstr "Provisioned Video Stream: %s and scheduled initial Care Intervention: %s"
+
+#. module: farm_csa
+msgid "Public Stream URL"
+msgstr "Public Stream URL"
+
+#. module: farm_csa
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: farm_csa
+msgid "Return Tool"
+msgstr "Return Tool"
+
+#. module: farm_csa
+msgid "Shared Tool"
+msgstr "Alat Bersama"
+
+#. module: farm_csa
+msgid "Shared Tools"
+msgstr "Shared Tools"
+
+#. module: farm_csa
+msgid "Start Date"
+msgstr "Start Date"
+
+#. module: farm_csa
+msgid "Tool Name"
+msgstr "Tool Name"
+
+#. module: farm_csa
+msgid "Tool borrowed by customer %s."
+msgstr "Tool borrowed by customer %s."
+
+#. module: farm_csa
+msgid "Tool returned and available for next user."
+msgstr "Tool returned and available for next user."
+
+#. module: farm_csa
+msgid "Under Maintenance"
+msgstr "Under Maintenance"
+
+#. module: farm_csa
+msgid "Use Cooperative Credit"
+msgstr "Use Cooperative Credit"
+
+#. module: farm_csa
+msgid "Weekly"
+msgstr "Weekly"
+
+#. module: farm_csa
+msgid "Weekly Bag"
+msgstr "Weekly Bag"
+
+#. module: farm_csa
+msgid "Yield Token Balance"
+msgstr "Yield Token Balance"
+
+#. module: farm_csa
+msgid "action_activate"
+msgstr "action_activate"
+
+#. module: farm_csa
+msgid "action_return"
+msgstr "action_return"
+
+#. module: farm_csa
+msgid "activity_ids"
+msgstr "activity_ids"
+
+#. module: farm_csa
+msgid "adopted_lot_id"
+msgstr "adopted_lot_id"
+
+#. module: farm_csa
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_csa
+msgid "code"
+msgstr "code"
+
+#. module: farm_csa
+msgid "coop_member_id"
+msgstr "coop_member_id"
+
+#. module: farm_csa
+msgid "cooperative.member"
+msgstr "cooperative.member"
+
+#. module: farm_csa
+msgid "credit_held_amount"
+msgstr "credit_held_amount"
+
+#. module: farm_csa
+msgid "credit_ledger_line_id"
+msgstr "credit_ledger_line_id"
+
+#. module: farm_csa
+msgid "current_user_id"
+msgstr "current_user_id"
+
+#. module: farm_csa
+msgid "date_start"
+msgstr "date_start"
+
+#. module: farm_csa
+msgid "days"
+msgstr "days"
+
+#. module: farm_csa
+msgid "e.g. Community Rototiller"
+msgstr "e.g. Community Rototiller"
+
+#. module: farm_csa
+msgid "equipment_id"
+msgstr "equipment_id"
+
+#. module: farm_csa
+msgid "interval_number"
+msgstr "interval_number"
+
+#. module: farm_csa
+msgid "interval_type"
+msgstr "interval_type"
+
+#. module: farm_csa
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_csa
+msgid "maintenance.equipment"
+msgstr "maintenance.equipment"
+
+#. module: farm_csa
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_csa
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_csa
+msgid "model"
+msgstr "model"
+
+#. module: farm_csa
+msgid "model._generate_delivery_tasks()"
+msgstr "model._generate_delivery_tasks()"
+
+#. module: farm_csa
+msgid "name"
+msgstr "name"
+
+#. module: farm_csa
+msgid "next_delivery_date"
+msgstr "next_delivery_date"
+
+#. module: farm_csa
+msgid "partner_id"
+msgstr "partner_id"
+
+#. module: farm_csa
+msgid "plan_id"
+msgstr "plan_id"
+
+#. module: farm_csa
+msgid "product.product"
+msgstr "product.product"
+
+#. module: farm_csa
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_csa
+msgid "state"
+msgstr "state"
+
+#. module: farm_csa
+msgid "status"
+msgstr "status"
+
+#. module: farm_csa
+msgid "sub_type"
+msgstr "sub_type"
+
+#. module: farm_csa
+msgid "tool_type"
+msgstr "tool_type"
+
+#. module: farm_csa
+msgid "use_coop_credit"
+msgstr "use_coop_credit"
+
+#. module: farm_csa
+msgid "user_id"
+msgstr "user_id"
+
+#. module: farm_csa
+msgid "view_mode"
+msgstr "view_mode"
+
+#. module: farm_csa
+msgid "yield_token_balance"
+msgstr "yield_token_balance"

@@ -1,0 +1,424 @@
+# Translation of farm_financial_insurance (farm_financial_insurance) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings (field labels,
+# selection labels, view/menu/action strings, help texts, _() messages).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_financial_insurance 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:30+0700\n"
+"PO-Revision-Date: 2026-11-10 17:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_financial_insurance
+msgid "Activate"
+msgstr "Aktifkan"
+
+#. module: farm_financial_insurance
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_financial_insurance
+msgid "Agricultural Insurance Claim"
+msgstr "Klaim Asuransi Pertanian"
+
+#. module: farm_financial_insurance
+msgid "Agricultural Insurance Index Trigger"
+msgstr "Pemicu Indeks Asuransi Pertanian"
+
+#. module: farm_financial_insurance
+msgid "Application Date"
+msgstr "Tanggal Pengajuan"
+
+#. module: farm_financial_insurance
+msgid "Approval Date"
+msgstr "Tanggal Persetujuan"
+
+#. module: farm_financial_insurance
+msgid "Approve"
+msgstr "Setujui"
+
+#. module: farm_financial_insurance
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_financial_insurance
+msgid "Approved Amount"
+msgstr "Jumlah yang Disetujui"
+
+#. module: farm_financial_insurance
+msgid "Auto-triggered"
+msgstr "Terpicu Otomatis"
+
+#. module: farm_financial_insurance
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_financial_insurance
+msgid "Check Weather Indices"
+msgstr "Periksa Indeks Cuaca"
+
+#. module: farm_financial_insurance
+msgid "Claim Approved"
+msgstr "Klaim Disetujui"
+
+#. module: farm_financial_insurance
+msgid "Claim Made"
+msgstr "Klaim Diajukan"
+
+#. module: farm_financial_insurance
+msgid "Claim Paid"
+msgstr "Klaim Dibayar"
+
+#. module: farm_financial_insurance
+msgid "Claim Reported"
+msgstr "Klaim Dilaporkan"
+
+#. module: farm_financial_insurance
+msgid "Claim Status"
+msgstr "Status Klaim"
+
+#. module: farm_financial_insurance
+msgid "Claim Type"
+msgstr "Jenis Klaim"
+
+#. module: farm_financial_insurance
+msgid "Claim Verified"
+msgstr "Klaim Terverifikasi"
+
+#. module: farm_financial_insurance
+msgid "Claims"
+msgstr "Klaim"
+
+#. module: farm_financial_insurance
+msgid "Claims Adjuster"
+msgstr "Penilai Klaim"
+
+#. module: farm_financial_insurance
+msgid "Claims Management"
+msgstr "Manajemen Klaim"
+
+#. module: farm_financial_insurance
+msgid "Coverage Area (hectares)"
+msgstr "Luas Pertanggungan (hektare)"
+
+#. module: farm_financial_insurance
+msgid "Coverage Details"
+msgstr "Detail Pertanggungan"
+
+#. module: farm_financial_insurance
+msgid "Coverage Percentage (%)"
+msgstr "Persentase Pertanggungan (%)"
+
+#. module: farm_financial_insurance
+msgid "Coverage Type"
+msgstr "Jenis Pertanggungan"
+
+#. module: farm_financial_insurance
+msgid "Crop Insurance"
+msgstr "Asuransi Tanaman"
+
+#. module: farm_financial_insurance
+msgid "Crop Type"
+msgstr "Jenis Tanaman"
+
+#. module: farm_financial_insurance
+msgid "Crop Yield Insurance"
+msgstr "Asuransi Hasil Panen"
+
+#. module: farm_financial_insurance
+msgid "Currency"
+msgstr "Mata Uang"
+
+#. module: farm_financial_insurance
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_financial_insurance
+msgid "Duration (months)"
+msgstr "Durasi (bulan)"
+
+#. module: farm_financial_insurance
+msgid "Evidence"
+msgstr "Bukti"
+
+#. module: farm_financial_insurance
+msgid "Evidence Summary"
+msgstr "Ringkasan Bukti"
+
+#. module: farm_financial_insurance
+msgid "Expected Yield (tons/ha)"
+msgstr "Hasil Panen yang Diharapkan (ton/ha)"
+
+#. module: farm_financial_insurance
+msgid "External reference from insurance provider"
+msgstr "Referensi eksternal dari penyedia asuransi"
+
+#. module: farm_financial_insurance
+msgid "Extreme Heat"
+msgstr "Panas Ekstrem"
+
+#. module: farm_financial_insurance
+msgid "Farm Crop Yield Insurance"
+msgstr "Asuransi Hasil Panen"
+
+#. module: farm_financial_insurance
+msgid "Farm Financial Insurance"
+msgstr "Asuransi Keuangan Pertanian"
+
+#. module: farm_financial_insurance
+msgid "Farm Location"
+msgstr "Lokasi Lahan"
+
+#. module: farm_financial_insurance
+msgid "Farmer"
+msgstr "Petani"
+
+#. module: farm_financial_insurance
+msgid "Financial Information"
+msgstr "Informasi Keuangan"
+
+#. module: farm_financial_insurance
+msgid "Frost/Cold"
+msgstr "Embun Beku/Dingin"
+
+#. module: farm_financial_insurance
+msgid "High Rainfall (Flood)"
+msgstr "Curah Hujan Tinggi (Banjir)"
+
+#. module: farm_financial_insurance
+msgid "Historical Yield (tons/ha)"
+msgstr "Hasil Panen Historis (ton/ha)"
+
+#. module: farm_financial_insurance
+msgid "Historical yield for this farm"
+msgstr "Hasil panen historis untuk lahan ini"
+
+#. module: farm_financial_insurance
+msgid "Indemnity Base Price"
+msgstr "Harga Dasar Ganti Rugi"
+
+#. module: farm_financial_insurance
+msgid "Index Name"
+msgstr "Nama Indeks"
+
+#. module: farm_financial_insurance
+msgid "Index Type"
+msgstr "Jenis Indeks"
+
+#. module: farm_financial_insurance
+msgid "Insurance"
+msgstr "Asuransi"
+
+#. module: farm_financial_insurance
+msgid "Insurance Claim"
+msgstr "Klaim Asuransi"
+
+#. module: farm_financial_insurance
+msgid "Insurance Claims"
+msgstr "Klaim Asuransi"
+
+#. module: farm_financial_insurance
+msgid "Insurance Coverage Amount"
+msgstr "Jumlah Pertanggungan Asuransi"
+
+#. module: farm_financial_insurance
+msgid "Insurance Index"
+msgstr "Indeks Asuransi"
+
+#. module: farm_financial_insurance
+msgid "Insurance Indices"
+msgstr "Indeks Asuransi"
+
+#. module: farm_financial_insurance
+msgid "Insurance Policy Reference"
+msgstr "Referensi Polis Asuransi"
+
+#. module: farm_financial_insurance
+msgid "Insurance Type"
+msgstr "Jenis Asuransi"
+
+#. module: farm_financial_insurance
+msgid "Insurance products for agricultural operations"
+msgstr "Produk asuransi untuk kegiatan pertanian"
+
+#. module: farm_financial_insurance
+msgid "Low Rainfall (Drought)"
+msgstr "Curah Hujan Rendah (Kekeringan)"
+
+#. module: farm_financial_insurance
+msgid "Maturity Date"
+msgstr "Tanggal Jatuh Tempo"
+
+#. module: farm_financial_insurance
+msgid "Multi-Peril"
+msgstr "Multi-Risiko"
+
+#. module: farm_financial_insurance
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_financial_insurance
+msgid "No Claim"
+msgstr "Tanpa Klaim"
+
+#. module: farm_financial_insurance
+msgid "Operator"
+msgstr "Operator"
+
+#. module: farm_financial_insurance
+msgid "Paid"
+msgstr "Lunas"
+
+#. module: farm_financial_insurance
+msgid "Payout Factor (%)"
+msgstr "Faktor Pembayaran (%)"
+
+#. module: farm_financial_insurance
+msgid "Payout Percentage (%)"
+msgstr "Persentase Pembayaran (%)"
+
+#. module: farm_financial_insurance
+msgid "Percentage of claim approved"
+msgstr "Persentase klaim yang disetujui"
+
+#. module: farm_financial_insurance
+msgid "Percentage of total coverage to pay out if triggered"
+msgstr "Persentase dari total pertanggungan yang dibayarkan bila terpicu"
+
+#. module: farm_financial_insurance
+msgid "Pest/Disease Outbreak"
+msgstr "Wabah Hama/Penyakit"
+
+#. module: farm_financial_insurance
+msgid "Planting Date"
+msgstr "Tanggal Tanam"
+
+#. module: farm_financial_insurance
+msgid "Policy"
+msgstr "Polis"
+
+#. module: farm_financial_insurance
+msgid "Policy Information"
+msgstr "Informasi Polis"
+
+#. module: farm_financial_insurance
+msgid "Premium Amount"
+msgstr "Jumlah Premi"
+
+#. module: farm_financial_insurance
+msgid "Premium Rate (%)"
+msgstr "Tarif Premi (%)"
+
+#. module: farm_financial_insurance
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: farm_financial_insurance
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_financial_insurance
+msgid "Requested Amount"
+msgstr "Jumlah yang Diminta"
+
+#. module: farm_financial_insurance
+msgid "Revenue Protection"
+msgstr "Perlindungan Pendapatan"
+
+#. module: farm_financial_insurance
+msgid "Risk Score"
+msgstr "Skor Risiko"
+
+#. module: farm_financial_insurance
+msgid "Service Fees"
+msgstr "Biaya Layanan"
+
+#. module: farm_financial_insurance
+msgid "Settle"
+msgstr "Selesaikan"
+
+#. module: farm_financial_insurance
+msgid "Settled"
+msgstr "Diselesaikan"
+
+#. module: farm_financial_insurance
+msgid "State"
+msgstr "Status"
+
+#. module: farm_financial_insurance
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_financial_insurance
+msgid "Submit Application"
+msgstr "Ajukan Permohonan"
+
+#. module: farm_financial_insurance
+msgid "Submitted"
+msgstr "Diajukan"
+
+#. module: farm_financial_insurance
+msgid "Threshold Value"
+msgstr "Nilai Ambang"
+
+#. module: farm_financial_insurance
+msgid "Timeline"
+msgstr "Linimasa"
+
+#. module: farm_financial_insurance
+msgid "Total Claim Amount"
+msgstr "Total Jumlah Klaim"
+
+#. module: farm_financial_insurance
+msgid "Triggering Index"
+msgstr "Indeks Pemicu"
+
+#. module: farm_financial_insurance
+msgid "Verified"
+msgstr "Terverifikasi"
+
+#. module: farm_financial_insurance
+msgid "Verify"
+msgstr "Verifikasi"
+
+#. module: farm_financial_insurance
+msgid "Weather Index Based"
+msgstr "Berbasis Indeks Cuaca"
+
+#. module: farm_financial_insurance
+msgid "Weather Index Trigger"
+msgstr "Pemicu Indeks Cuaca"
+
+#. module: farm_financial_insurance
+msgid "Weather Indices"
+msgstr "Indeks Cuaca"
+
+#. module: farm_financial_insurance
+msgid "Weather Monitoring"
+msgstr "Pemantauan Cuaca"
+
+#. module: farm_financial_insurance
+msgid "Weather Trigger Indices"
+msgstr "Indeks Pemicu Cuaca"
+
+#. module: farm_financial_insurance
+msgid "Weather Triggers"
+msgstr "Pemicu Cuaca"
+
+#. module: farm_financial_insurance
+msgid "Yield Loss"
+msgstr "Kehilangan Hasil Panen"
+
+#. module: farm_financial_insurance
+msgid "Yield Only"
+msgstr "Hanya Hasil Panen"
+
+#. module: farm_financial_insurance
+msgid "Yield Parameters"
+msgstr "Parameter Hasil Panen"

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_battery,farm.battery,model_farm_battery,base.group_user,1,1,1,1
+access_farm_equipment_checklist,farm.equipment.checklist,model_farm_equipment_checklist,base.group_user,1,1,1,1
+access_farm_equipment_checklist_line,farm.equipment.checklist.line,model_farm_equipment_checklist_line,base.group_user,1,1,1,1
+access_farm_equipment_log,farm.equipment.log,model_farm_equipment_log,base.group_user,1,1,1,1

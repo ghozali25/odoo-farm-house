@@ -1,0 +1,100 @@
+from odoo import models, fields, api, _
+
+class FarmEmergencyProtocol(models.Model):
+    _name = 'farm.emergency.protocol'
+    _description = 'Emergency Response Protocol (SOP)'
+
+    name = fields.Char("Protocol Name", required=True) # e.g. "Avian Flu Response Level 1"
+    crisis_type = fields.Selection([
+        ('disease', 'Disease Outbreak'),
+        ('pest', 'Pest Infestation'),
+        ('contamination', 'Contamination'),
+        ('disaster', 'Natural Disaster'),
+        ('security', 'Security Breach')
+    ], required=True)
+    
+    steps = fields.Html("Action Steps (SOP)")
+    required_asset_lockdown = fields.Boolean("Requires Asset Lockdown", default=True)
+    notify_authorities = fields.Boolean("Notify Authorities")
+
+class FarmCrisisIncident(models.Model):
+    _name = 'farm.crisis.incident'
+    _description = 'Crisis Incident Record'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
+
+    name = fields.Char("Incident Ref", default=lambda self: _('New'))
+    protocol_id = fields.Many2one('farm.emergency.protocol', string="Active Protocol", required=True)
+    date_start = fields.Datetime("Detected At", default=fields.Datetime.now)
+    date_end = fields.Datetime("Resolved At")
+    
+    affected_location_ids = fields.Many2many('farm.location', 'farm_crisis_incident_farm_loc_rel', 'incident_id', 'location_id', string="Affected Zones", domain=[('is_land_parcel', '=', True)])
+    affected_lot_ids = fields.Many2many('stock.lot', 'farm_crisis_incident_stock_lot_rel_new', 'incident_id', 'lot_id', string="Affected Assets/Batches")
+    
+    state = fields.Selection([
+        ('draft', 'Reported'),
+        ('active', 'Active Crisis'),
+        ('contained', 'Contained'),
+        ('resolved', 'Resolved')
+    ], default='draft', tracking=True)
+
+    @api.model_create_multi
+    def create(self, vals_list):
+        for vals in vals_list:
+            if vals.get('name', _('New')) == _('New'):
+                vals['name'] = self.env['ir.sequence'].next_by_code('farm.crisis.incident') or _('INCIDENT')
+        return super().create(vals_list)
+
+    def action_activate_crisis(self):
+        """ Activate crisis mode：Lock assets and notify personnel """
+        self.ensure_one()
+        self.write({'state': 'active'})
+        
+        if self.protocol_id.required_asset_lockdown:
+            # Lock the linked biological assets or lots
+            reason = _("CRISIS LOCKDOWN: %s") % self.name
+            for lot in self.affected_lot_ids:
+                if hasattr(lot, 'action_quarantine'):
+                    lot.action_quarantine(reason)
+            
+            self.message_post(body=_("CRISIS MODE ACTIVATED: Assets have been quarantined."))
+
+    def action_resolve(self):
+        self.write({'state': 'resolved', 'date_end': fields.Datetime.now()})
+
+class StockLot(models.Model):
+    _inherit = 'stock.lot'
+
+    is_crisis_locked = fields.Boolean("Locked by Crisis", compute='_compute_crisis_lock', search='_search_crisis_locked')
+
+    def _compute_crisis_lock(self):
+        """ Check whether the lot is inside an active crisis zone """
+        for lot in self:
+            active_crisis = self.env['farm.crisis.incident'].search([
+                ('state', '=', 'active'),
+                '|',
+                ('affected_lot_ids', 'in', lot.id),
+                ('affected_location_ids', 'parent_of', lot.location_id.id)
+            ])
+            lot.is_crisis_locked = bool(active_crisis)
+
+    def _search_crisis_locked(self, operator, value):
+        """ Support search and filter by locked status """
+        active_crisis = self.env['farm.crisis.incident'].search([('state', '=', 'active')])
+        lot_ids = active_crisis.mapped('affected_lot_ids').ids
+        location_ids = active_crisis.mapped('affected_location_ids').ids
+        
+        # Find all lots under the child locations of these locations
+        all_affected_locations = self.env['farm.location'].search([('id', 'child_of', location_ids)])
+        
+        return ['|', ('id', 'in', lot_ids), ('location_id', 'in', all_affected_locations.ids)]
+
+class SaleOrder(models.Model):
+    _inherit = 'sale.order'
+
+    def action_confirm(self):
+        """ Before confirming a sales order, force-check whether it contains locked lots """
+        for order in self:
+            for line in order.order_line:
+                if line.lot_id and line.lot_id.is_crisis_locked:
+                    raise UserError(_("SALE BLOCK: Lot '%s' is under CRISIS LOCKDOWN and cannot be sold.") % line.lot_id.name)
+        return super(SaleOrder, self).action_confirm()

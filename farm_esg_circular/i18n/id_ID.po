@@ -1,0 +1,599 @@
+# Translation of farm_esg_circular to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# Translations: hand-written sentences + phrases, single words, and
+# 'Modifier Head' labels reordered to Indonesian order; anything else is
+# left untranslated so Odoo falls back to the English source string.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_esg_circular 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 16:00+0700\n"
+"PO-Revision-Date: 2026-11-10 16:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_esg_circular
+msgid "Activate"
+msgstr "Aktifkan"
+
+#. module: farm_esg_circular
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_esg_circular
+msgid "Agricultural Biogas Production"
+msgstr "Produksi Biogas Pertanian"
+
+#. module: farm_esg_circular
+msgid "Agricultural Circular Flow"
+msgstr "Alur Sirkular Pertanian"
+
+#. module: farm_esg_circular
+msgid "Agricultural Circular Flow Analysis"
+msgstr "Analisis Alur Sirkular Pertanian"
+
+#. module: farm_esg_circular
+msgid "Agricultural Hazardous Waste Record"
+msgstr "Catatan Limbah Berbahaya Pertanian"
+
+#. module: farm_esg_circular
+msgid "Agricultural Sustainability Circular Flow"
+msgstr "Alur Sirkular Keberlanjutan Pertanian"
+
+#. module: farm_esg_circular
+msgid "Analysis Date"
+msgstr "Tanggal Analisis"
+
+#. module: farm_esg_circular
+msgid "Analysis Method"
+msgstr "Metode Analisis"
+
+#. module: farm_esg_circular
+msgid "Analysis Parameters"
+msgstr "Parameter Analisis"
+
+#. module: farm_esg_circular
+msgid "Annually"
+msgstr "Tahunan"
+
+#. module: farm_esg_circular
+msgid "Area Code"
+msgstr "Kode Area"
+
+#. module: farm_esg_circular
+msgid "Area Name"
+msgstr "Nama Area"
+
+#. module: farm_esg_circular
+msgid "Area must be positive."
+msgstr "Luas harus positif."
+
+#. module: farm_esg_circular
+msgid "Audit Frequency"
+msgstr "Frekuensi Audit"
+
+#. module: farm_esg_circular
+msgid "Biogas & Energy Recovery"
+msgstr "Biogas & Pemulihan Energi"
+
+#. module: farm_esg_circular
+msgid "Biogas Production"
+msgstr "Produksi Biogas"
+
+#. module: farm_esg_circular
+msgid "Biogas Production Batch"
+msgstr "Batch Produksi Biogas"
+
+#. module: farm_esg_circular
+msgid "Biogas Production Report"
+msgstr "Laporan Produksi Biogas"
+
+#. module: farm_esg_circular
+msgid "Biogas Volume (m3)"
+msgstr "Volume Biogas (m3)"
+
+#. module: farm_esg_circular
+msgid "Biogas production completed. Energy output: %.2f kWh"
+msgstr "Produksi biogas selesai. Keluaran energi: %.2f kWh"
+
+#. module: farm_esg_circular
+msgid "Biogas volume cannot be negative."
+msgstr "Volume biogas tidak boleh negatif."
+
+#. module: farm_esg_circular
+msgid "Both demand and supply farms must be specified."
+msgstr "Lahan peminta dan pemasok harus diisi keduanya."
+
+#. module: farm_esg_circular
+msgid "By-product to Sale"
+msgstr "Produk Sampingan untuk Dijual"
+
+#. module: farm_esg_circular
+msgid "CO2 Reduction (ton)"
+msgstr "Pengurangan CO2 (ton)"
+
+#. module: farm_esg_circular
+msgid "Calculation Method"
+msgstr "Metode Perhitungan"
+
+#. module: farm_esg_circular
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_esg_circular
+msgid "Carbon impact recorded: %s tons CO2 reduction"
+msgstr "Dampak karbon tercatat: %s ton pengurangan CO2"
+
+#. module: farm_esg_circular
+msgid "Carbon intensity threshold cannot be negative."
+msgstr "Ambang intensitas karbon tidak boleh negatif."
+
+#. module: farm_esg_circular
+msgid "Certificate Name"
+msgstr "Nama Sertifikat"
+
+#. module: farm_esg_circular
+msgid "Chemical"
+msgstr "Kimia"
+
+#. module: farm_esg_circular
+msgid "Circular Economy"
+msgstr "Ekonomi Sirkular"
+
+#. module: farm_esg_circular
+msgid "Circular Economy Flows"
+msgstr "Alur Ekonomi Sirkular"
+
+#. module: farm_esg_circular
+msgid "Circular Flow"
+msgstr "Alur Sirkular"
+
+#. module: farm_esg_circular
+msgid "Circular Flows"
+msgstr "Alur Sirkular"
+
+#. module: farm_esg_circular
+msgid "Circular network implemented. Created circular flows based on spatial optimization."
+msgstr "Jaringan sirkular diterapkan. Alur sirkular dibuat berdasarkan optimasi spasial."
+
+#. module: farm_esg_circular
+msgid "City"
+msgstr "Kota"
+
+#. module: farm_esg_circular
+msgid "Collection Date"
+msgstr "Tanggal Pengumpulan"
+
+#. module: farm_esg_circular
+msgid "Collection Details"
+msgstr "Detail Pengumpulan"
+
+#. module: farm_esg_circular
+msgid "Collection Information"
+msgstr "Informasi Pengumpulan"
+
+#. module: farm_esg_circular
+msgid "Collection Location"
+msgstr "Lokasi Pengumpulan"
+
+#. module: farm_esg_circular
+msgid "Compliance Report"
+msgstr "Laporan Kepatuhan"
+
+#. module: farm_esg_circular
+msgid "Compliance Status"
+msgstr "Status Kepatuhan"
+
+#. module: farm_esg_circular
+msgid "Compliance audit completed. Program marked as compliant."
+msgstr "Audit kepatuhan selesai. Program ditandai patuh."
+
+#. module: farm_esg_circular
+msgid "Composting"
+msgstr "Pengomposan"
+
+#. module: farm_esg_circular
+msgid "Creation Date"
+msgstr "Tanggal Dibuat"
+
+#. module: farm_esg_circular
+msgid "Credit Farm"
+msgstr "Lahan Kredit"
+
+#. module: farm_esg_circular
+msgid "Delivery Date"
+msgstr "Tanggal Pengiriman"
+
+#. module: farm_esg_circular
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_esg_circular
+msgid "Direct emission coefficient cannot be negative."
+msgstr "Koefisien emisi langsung tidak boleh negatif."
+
+#. module: farm_esg_circular
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_esg_circular
+msgid "Duration (Days)"
+msgstr "Durasi (Hari)"
+
+#. module: farm_esg_circular
+msgid "Economic Value"
+msgstr "Nilai Ekonomi"
+
+#. module: farm_esg_circular
+msgid "End Date"
+msgstr "Tanggal Akhir"
+
+#. module: farm_esg_circular
+msgid "Energy Recovery"
+msgstr "Pemulihan Energi"
+
+#. module: farm_esg_circular
+msgid "Energy Report"
+msgstr "Laporan Energi"
+
+#. module: farm_esg_circular
+msgid "Environmental Impact"
+msgstr "Dampak Lingkungan"
+
+#. module: farm_esg_circular
+msgid "Environmental Impact Score"
+msgstr "Skor Dampak Lingkungan"
+
+#. module: farm_esg_circular
+msgid "Failed to record carbon impact: %s"
+msgstr "Gagal mencatat dampak karbon: %s"
+
+#. module: farm_esg_circular
+msgid "Farm Circular Flow (Deprecated - Use agri.sustainability.circular.flow)"
+msgstr "Alur Sirkular Lahan (Usang - Gunakan agri.sustainability.circular.flow)"
+
+#. module: farm_esg_circular
+msgid "Farm Circular Flow Analysis (Deprecated - Use agri.sustainability.circular.flow.analysis)"
+msgstr "Analisis Alur Sirkular Lahan (Usang - Gunakan agri.sustainability.circular.flow.analysis)"
+
+#. module: farm_esg_circular
+msgid "Farm Location"
+msgstr "Lokasi Lahan"
+
+#. module: farm_esg_circular
+msgid "Farm Partner"
+msgstr "Mitra Lahan"
+
+#. module: farm_esg_circular
+msgid "Flow Code"
+msgstr "Kode Alur"
+
+#. module: farm_esg_circular
+msgid "Flow Description"
+msgstr "Deskripsi Alur"
+
+#. module: farm_esg_circular
+msgid "Flow Name"
+msgstr "Nama Alur"
+
+#. module: farm_esg_circular
+msgid "Flow Type"
+msgstr "Jenis Alur"
+
+#. module: farm_esg_circular
+msgid "GIS Circular Network"
+msgstr "Jaringan Sirkular GIS"
+
+#. module: farm_esg_circular
+msgid "GIS Networks"
+msgstr "Jaringan GIS"
+
+#. module: farm_esg_circular
+msgid "Hazardous Records"
+msgstr "Catatan Berbahaya"
+
+#. module: farm_esg_circular
+msgid "Hazardous Waste Compliance Report"
+msgstr "Laporan Kepatuhan Limbah Berbahaya"
+
+#. module: farm_esg_circular
+msgid "Hazardous Waste Record"
+msgstr "Catatan Limbah Berbahaya"
+
+#. module: farm_esg_circular
+msgid "Hazardous Waste Records"
+msgstr "Catatan Limbah Berbahaya"
+
+#. module: farm_esg_circular
+msgid "Hazardous waste properly disposed through %s"
+msgstr "Limbah B3 dibuang dengan benar melalui %s"
+
+#. module: farm_esg_circular
+msgid "Hazardous waste transferred to %s"
+msgstr "Limbah B3 dipindahkan ke %s"
+
+#. module: farm_esg_circular
+msgid "Inactive"
+msgstr "Nonaktif"
+
+#. module: farm_esg_circular
+msgid "Indirect energy coefficient cannot be negative."
+msgstr "Koefisien energi tidak langsung tidak boleh negatif."
+
+#. module: farm_esg_circular
+msgid "Industry Specific Carbon Model (Deprecated - Use agri.sustainability.carbon.model)"
+msgstr "Model Karbon Spesifik Industri (Usang - Gunakan agri.sustainability.carbon.model)"
+
+#. module: farm_esg_circular
+msgid "Input Product"
+msgstr "Produk Masukan"
+
+#. module: farm_esg_circular
+msgid "Input Quantity"
+msgstr "Kuantitas Masukan"
+
+#. module: farm_esg_circular
+msgid "Input quantity must be positive."
+msgstr "Kuantitas masukan harus positif."
+
+#. module: farm_esg_circular
+msgid "Last Modified"
+msgstr "Terakhir Diubah"
+
+#. module: farm_esg_circular
+msgid "Methane content must be between 0 and 100%."
+msgstr "Kandungan metana harus antara 0 dan 100%."
+
+#. module: farm_esg_circular
+msgid "Model Name"
+msgstr "Nama Model"
+
+#. module: farm_esg_circular
+msgid "Model Version"
+msgstr "Versi Model"
+
+#. module: farm_esg_circular
+msgid "Month"
+msgstr "Bulan"
+
+#. module: farm_esg_circular
+msgid "Monthly"
+msgstr "Bulanan"
+
+#. module: farm_esg_circular
+msgid "Net Benefit"
+msgstr "Manfaat Neto"
+
+#. module: farm_esg_circular
+msgid "Net Value"
+msgstr "Nilai Neto"
+
+#. module: farm_esg_circular
+msgid "Network optimization completed. Optimized routes calculated."
+msgstr "Optimasi jaringan selesai. Rute optimal dihitung."
+
+#. module: farm_esg_circular
+msgid "Nutrient heatmap generated for %s. Coverage: %s locations"
+msgstr "Peta panas nutrien dibuat untuk %s. Cakupan: %s lokasi"
+
+#. module: farm_esg_circular
+msgid "Optimize the network first."
+msgstr "Optimalkan jaringan terlebih dahulu."
+
+#. module: farm_esg_circular
+msgid "Output Product"
+msgstr "Produk Keluaran"
+
+#. module: farm_esg_circular
+msgid "Output Quantity"
+msgstr "Kuantitas Keluaran"
+
+#. module: farm_esg_circular
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_esg_circular
+msgid "Planned"
+msgstr "Direncanakan"
+
+#. module: farm_esg_circular
+msgid "Policy Compliance Status"
+msgstr "Status Kepatuhan Kebijakan"
+
+#. module: farm_esg_circular
+msgid "Population cannot be negative."
+msgstr "Populasi tidak boleh negatif."
+
+#. module: farm_esg_circular
+msgid "Processing Cost"
+msgstr "Biaya Pengolahan"
+
+#. module: farm_esg_circular
+msgid "Product Flow"
+msgstr "Alur Produk"
+
+#. module: farm_esg_circular
+msgid "Production Data"
+msgstr "Data Produksi"
+
+#. module: farm_esg_circular
+msgid "Production Date"
+msgstr "Tanggal Produksi"
+
+#. module: farm_esg_circular
+msgid "Production Location"
+msgstr "Lokasi Produksi"
+
+#. module: farm_esg_circular
+msgid "Published"
+msgstr "Diterbitkan"
+
+#. module: farm_esg_circular
+msgid "Quantity"
+msgstr "Kuantitas"
+
+#. module: farm_esg_circular
+msgid "Quantity must be positive."
+msgstr "Kuantitas harus positif."
+
+#. module: farm_esg_circular
+msgid "Quarterly"
+msgstr "Kuartalan"
+
+#. module: farm_esg_circular
+msgid "Radius must be positive."
+msgstr "Radius harus positif."
+
+#. module: farm_esg_circular
+msgid "Recommendations"
+msgstr "Rekomendasi"
+
+#. module: farm_esg_circular
+msgid "Recycling"
+msgstr "Daur Ulang"
+
+#. module: farm_esg_circular
+msgid "Regional Circular Economy Governance"
+msgstr "Tata Kelola Ekonomi Sirkular Regional"
+
+#. module: farm_esg_circular
+msgid "Regional Circular Economy Report"
+msgstr "Laporan Ekonomi Sirkular Regional"
+
+#. module: farm_esg_circular
+msgid "Regional Circular Governance"
+msgstr "Tata Kelola Sirkular Regional"
+
+#. module: farm_esg_circular
+msgid "Regional Governance"
+msgstr "Tata Kelola Regional"
+
+#. module: farm_esg_circular
+msgid "Regional Governance Plan"
+msgstr "Rencana Tata Kelola Regional"
+
+#. module: farm_esg_circular
+msgid "Regional Report"
+msgstr "Laporan Regional"
+
+#. module: farm_esg_circular
+msgid "Regional circular economy governance implemented for %s level: %s"
+msgstr "Tata kelola ekonomi sirkular regional diterapkan untuk tingkat %s: %s"
+
+#. module: farm_esg_circular
+msgid "Related Circular Flow"
+msgstr "Alur Sirkular Terkait"
+
+#. module: farm_esg_circular
+msgid "Related Network"
+msgstr "Jaringan Terkait"
+
+#. module: farm_esg_circular
+msgid "Related Regional Governance"
+msgstr "Tata Kelola Regional Terkait"
+
+#. module: farm_esg_circular
+msgid "Resource Details"
+msgstr "Detail Sumber Daya"
+
+#. module: farm_esg_circular
+msgid "Resource Type"
+msgstr "Jenis Sumber Daya"
+
+#. module: farm_esg_circular
+msgid "Resource Value"
+msgstr "Nilai Sumber Daya"
+
+#. module: farm_esg_circular
+msgid "Resource in transit from %s to %s"
+msgstr "Sumber daya dalam perjalanan dari %s ke %s"
+
+#. module: farm_esg_circular
+msgid "Resource sharing transaction completed. Circular flow created: %s"
+msgstr "Transaksi berbagi sumber daya selesai. Alur sirkular dibuat: %s"
+
+#. module: farm_esg_circular
+msgid "Revenue"
+msgstr "Pendapatan"
+
+#. module: farm_esg_circular
+msgid "Run Analysis"
+msgstr "Jalankan Analisis"
+
+#. module: farm_esg_circular
+msgid "Run spatial analysis first."
+msgstr "Jalankan analisis spasial terlebih dahulu."
+
+#. module: farm_esg_circular
+msgid "Social Impact Score"
+msgstr "Skor Dampak Sosial"
+
+#. module: farm_esg_circular
+msgid "Spatial analysis completed. Found %d nearby nodes within %skm radius. Logistics efficiency: %.2f%%. Potential CO2 reduction: %.2f tons."
+msgstr "Analisis spasial selesai. Ditemukan %d simpul terdekat dalam radius %skm. Efisiensi logistik: %.2f%%. Potensi pengurangan CO2: %.2f ton."
+
+#. module: farm_esg_circular
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+#. module: farm_esg_circular
+msgid "Start Production"
+msgstr "Produksi Mulai"
+
+#. module: farm_esg_circular
+msgid "Supply and demand matched. Netting transaction: %s"
+msgstr "Pasokan dan permintaan cocok. Transaksi netting: %s"
+
+#. module: farm_esg_circular
+msgid "Supply chain coefficient cannot be negative."
+msgstr "Koefisien rantai pasok tidak boleh negatif."
+
+#. module: farm_esg_circular
+msgid "Transaction must be reconciled before settlement."
+msgstr "Transaksi harus direkonsiliasi sebelum penyelesaian."
+
+#. module: farm_esg_circular
+msgid "Transaction reconciled between %s and %s"
+msgstr "Transaksi direkonsiliasi antara %s dan %s"
+
+#. module: farm_esg_circular
+msgid "Transaction settled. Net value: %s"
+msgstr "Transaksi diselesaikan. Nilai neto: %s"
+
+#. module: farm_esg_circular
+msgid "Value Amount"
+msgstr "Jumlah Nilai"
+
+#. module: farm_esg_circular
+msgid "Value Assessment"
+msgstr "Penilaian Nilai"
+
+#. module: farm_esg_circular
+msgid "Waste Description"
+msgstr "Deskripsi Limbah"
+
+#. module: farm_esg_circular
+msgid "Waste Type"
+msgstr "Jenis Limbah"
+
+#. module: farm_esg_circular
+msgid "Waste to Resource"
+msgstr "Limbah menjadi Sumber Daya"
+
+#. module: farm_esg_circular
+msgid "Year"
+msgstr "Tahun"
+
+#. module: farm_esg_circular
+msgid "Farm Circular Economy"
+msgstr "Ekonomi Sirkular Pertanian"
+
+#. module: farm_esg_circular
+msgid "Circular Economy and Resource Flow Models (Epic 27)"
+msgstr "Model Ekonomi Sirkular dan Alur Sumber Daya (Epic 27)"

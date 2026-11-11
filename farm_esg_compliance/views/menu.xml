@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+    <!-- Define standard L1 categories under ESG App -->
+    <menuitem id="menu_esg_operations" name="Operations" parent="farm_esg.menu_esg_root" sequence="20" />
+    <menuitem id="menu_esg_master_data" name="Master Data" parent="farm_esg.menu_esg_root" sequence="30" />
+    <menuitem id="menu_esg_reporting" name="Reporting" parent="farm_esg.menu_esg_root" sequence="40" />
+
+    <!-- Hide native non-standard categories by placing them in hidden settings -->
+    <record id="farm_esg.esg_frameworks_menu" model="ir.ui.menu">
+        <field name="parent_id" ref="farm_core.menu_farm_core_hidden_settings"/>
+    </record>
+    <record id="farm_esg.esg_indicators_menu" model="ir.ui.menu">
+        <field name="parent_id" ref="farm_core.menu_farm_core_hidden_settings"/>
+    </record>
+    <record id="farm_esg.esg_targets_reports_menu" model="ir.ui.menu">
+        <field name="parent_id" ref="farm_core.menu_farm_core_hidden_settings"/>
+    </record>
+
+    <!-- Hide the old non-flat compliance category -->
+    <menuitem id="menu_farm_esg_compliance_root" name="ESG Compliance" parent="farm_core.menu_farm_core_hidden_settings" sequence="99" />
+    <menuitem id="menu_epic_83_carbon_neutral" name="Carbon Neutral Management" parent="farm_core.menu_farm_core_hidden_settings" sequence="99" />
+    <menuitem id="menu_epic_97_external_esg" name="External ESG Marketplace" parent="farm_core.menu_farm_core_hidden_settings" sequence="99" />
+
+    <!-- Reparent native ESG menus to standard categories -->
+    <record id="farm_esg.esg_assessment_menu" model="ir.ui.menu">
+        <field name="parent_id" ref="menu_esg_operations"/>
+        <field name="sequence">10</field>
+    </record>
+    <record id="farm_esg.esg_target_menu" model="ir.ui.menu">
+        <field name="parent_id" ref="menu_esg_operations"/>
+        <field name="sequence">20</field>
+    </record>
+
+    <record id="farm_esg.esg_framework_menu" model="ir.ui.menu">
+        <field name="parent_id" ref="menu_esg_master_data"/>
+        <field name="sequence">10</field>
+    </record>
+    <record id="farm_esg.esg_indicator_menu" model="ir.ui.menu">
+        <field name="parent_id" ref="menu_esg_master_data"/>
+        <field name="sequence">20</field>
+    </record>
+
+    <record id="farm_esg.esg_performance_report_menu" model="ir.ui.menu">
+        <field name="parent_id" ref="menu_esg_reporting"/>
+        <field name="sequence">10</field>
+    </record>
+    <record id="farm_esg.esg_assessment_line_menu" model="ir.ui.menu">
+        <field name="parent_id" ref="menu_esg_reporting"/>
+        <field name="sequence">20</field>
+    </record>
+</data>
+</odoo>

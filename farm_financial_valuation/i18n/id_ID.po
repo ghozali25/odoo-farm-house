@@ -1,0 +1,396 @@
+# Translation of farm_financial_valuation (farm_financial_valuation) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings (field labels,
+# selection labels, view/menu/action strings, help texts, _() messages).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_financial_valuation 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:30+0700\n"
+"PO-Revision-Date: 2026-11-10 17:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_financial_valuation
+msgid "ASSET REVALUATION: Amount %s recorded for %s. Journal entry %s created. Previous: %s, New: %s"
+msgstr "REVALUASI ASET: Jumlah %s dicatat untuk %s. Jurnal %s dibuat. Sebelumnya: %s, Baru: %s"
+
+#. module: farm_financial_valuation
+msgid "Accumulated Depreciation"
+msgstr "Akumulasi Penyusutan"
+
+#. module: farm_financial_valuation
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_financial_valuation
+msgid "Adjustment Factors for Comparables"
+msgstr "Faktor Penyesuaian untuk Pembanding"
+
+#. module: farm_financial_valuation
+msgid "Applicable Asset Types"
+msgstr "Jenis Aset yang Berlaku"
+
+#. module: farm_financial_valuation
+msgid "Asset Type"
+msgstr "Jenis Aset"
+
+#. module: farm_financial_valuation
+msgid "Asset Valuations"
+msgstr "Valuasi Aset"
+
+#. module: farm_financial_valuation
+msgid "Basic Information"
+msgstr "Informasi Dasar"
+
+#. module: farm_financial_valuation
+msgid "Biological Asset"
+msgstr "Aset Biologis"
+
+#. module: farm_financial_valuation
+msgid "Biological asset valuation and financial instruments"
+msgstr "Valuasi aset biologis dan instrumen keuangan"
+
+#. module: farm_financial_valuation
+msgid "Calculated fair value based on selected method"
+msgstr "Nilai wajar terhitung berdasarkan metode yang dipilih"
+
+#. module: farm_financial_valuation
+msgid "Comparable Approach"
+msgstr "Pendekatan Pembanding"
+
+#. module: farm_financial_valuation
+msgid "Comparable Assets"
+msgstr "Aset Pembanding"
+
+#. module: farm_financial_valuation
+msgid "Comparable Sales Approach"
+msgstr "Pendekatan Penjualan Pembanding"
+
+#. module: farm_financial_valuation
+msgid "Compliance"
+msgstr "Kepatuhan"
+
+#. module: farm_financial_valuation
+msgid "Compliance & Notes"
+msgstr "Kepatuhan & Catatan"
+
+#. module: farm_financial_valuation
+msgid "Compliance Requirements"
+msgstr "Persyaratan Kepatuhan"
+
+#. module: farm_financial_valuation
+msgid "Compliance Requirements Template"
+msgstr "Template Persyaratan Kepatuhan"
+
+#. module: farm_financial_valuation
+msgid "Confidence Level (%)"
+msgstr "Tingkat Keyakinan (%)"
+
+#. module: farm_financial_valuation
+msgid "Confidence in the valuation estimate"
+msgstr "Keyakinan atas estimasi valuasi"
+
+#. module: farm_financial_valuation
+msgid "Cost Approach"
+msgstr "Pendekatan Biaya"
+
+#. module: farm_financial_valuation
+msgid "Cost Model"
+msgstr "Model Biaya"
+
+#. module: farm_financial_valuation
+msgid "Create Accounting Entries"
+msgstr "Buat Jurnal Akuntansi"
+
+#. module: farm_financial_valuation
+msgid "Crop Inventory"
+msgstr "Persediaan Tanaman"
+
+#. module: farm_financial_valuation
+msgid "Current"
+msgstr "Terkini"
+
+#. module: farm_financial_valuation
+msgid "Current Financial Valuation"
+msgstr "Valuasi Keuangan Terkini"
+
+#. module: farm_financial_valuation
+msgid "Default Confidence Level (%)"
+msgstr "Tingkat Keyakinan Default (%)"
+
+#. module: farm_financial_valuation
+msgid "Default Discount Rate (%)"
+msgstr "Tingkat Diskonto Default (%)"
+
+#. module: farm_financial_valuation
+msgid "Default Market Adjustment Factor"
+msgstr "Faktor Penyesuaian Pasar Default"
+
+#. module: farm_financial_valuation
+msgid "Default Valuation Method"
+msgstr "Metode Valuasi Default"
+
+#. module: farm_financial_valuation
+msgid "Discount Rate (%)"
+msgstr "Tingkat Diskonto (%)"
+
+#. module: farm_financial_valuation
+msgid "Ecological GEP"
+msgstr "GEP Ekologis"
+
+#. module: farm_financial_valuation
+msgid "Ecological Impact"
+msgstr "Dampak Ekologis"
+
+#. module: farm_financial_valuation
+msgid "Exempt from Regular Valuation"
+msgstr "Dikecualikan dari Valuasi Berkala"
+
+#. module: farm_financial_valuation
+msgid "Factor to adjust market prices for condition, location, etc."
+msgstr "Faktor penyesuaian harga pasar berdasarkan kondisi, lokasi, dst."
+
+#. module: farm_financial_valuation
+msgid "Fair Value"
+msgstr "Nilai Wajar"
+
+#. module: farm_financial_valuation
+msgid "Fair Value - Market Price"
+msgstr "Nilai Wajar - Harga Pasar"
+
+#. module: farm_financial_valuation
+msgid "Farm Financial Valuation"
+msgstr "Valuasi Keuangan Pertanian"
+
+#. module: farm_financial_valuation
+msgid "Financial Asset"
+msgstr "Aset Keuangan"
+
+#. module: farm_financial_valuation
+msgid "Financial Asset Valuation"
+msgstr "Valuasi Aset Keuangan"
+
+#. module: farm_financial_valuation
+msgid "Financial Asset Valuations"
+msgstr "Valuasi Aset Keuangan"
+
+#. module: farm_financial_valuation
+msgid "Financial Valuation"
+msgstr "Valuasi Keuangan"
+
+#. module: farm_financial_valuation
+msgid "Financial Valuation Template"
+msgstr "Template Valuasi Keuangan"
+
+#. module: farm_financial_valuation
+msgid "Financial Valuation Templates"
+msgstr "Template Valuasi Keuangan"
+
+#. module: farm_financial_valuation
+msgid "Financial valuation request created for selected assets"
+msgstr "Permintaan valuasi keuangan dibuat untuk aset yang dipilih"
+
+#. module: farm_financial_valuation
+msgid "GEP Premium Factor"
+msgstr "Faktor Premi GEP"
+
+#. module: farm_financial_valuation
+msgid "Hybrid Model"
+msgstr "Model Hibrida"
+
+#. module: farm_financial_valuation
+msgid "Income Approach"
+msgstr "Pendekatan Pendapatan"
+
+#. module: farm_financial_valuation
+msgid "Income Parameters"
+msgstr "Parameter Pendapatan"
+
+#. module: farm_financial_valuation
+msgid "Investment Assets"
+msgstr "Aset Investasi"
+
+#. module: farm_financial_valuation
+msgid "Land & Property"
+msgstr "Tanah & Properti"
+
+#. module: farm_financial_valuation
+msgid "Last Valuation Date"
+msgstr "Tanggal Valuasi Terakhir"
+
+#. module: farm_financial_valuation
+msgid "Livestock"
+msgstr "Ternak"
+
+#. module: farm_financial_valuation
+msgid "Machinery & Equipment"
+msgstr "Mesin & Peralatan"
+
+#. module: farm_financial_valuation
+msgid "Market Adjustment Factor"
+msgstr "Faktor Penyesuaian Pasar"
+
+#. module: farm_financial_valuation
+msgid "Market Approach"
+msgstr "Pendekatan Pasar"
+
+#. module: farm_financial_valuation
+msgid "Market Price (per unit)"
+msgstr "Harga Pasar (per unit)"
+
+#. module: farm_financial_valuation
+msgid "Market Price Source"
+msgstr "Sumber Harga Pasar"
+
+#. module: farm_financial_valuation
+msgid "Net Book Value"
+msgstr "Nilai Buku Bersih"
+
+#. module: farm_financial_valuation
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_financial_valuation
+msgid "No general journal found."
+msgstr "Tidak ditemukan jurnal umum."
+
+#. module: farm_financial_valuation
+msgid "No revaluation reserve account found."
+msgstr "Tidak ditemukan akun cadangan revaluasi."
+
+#. module: farm_financial_valuation
+msgid "No suitable asset account found for valuation entries."
+msgstr "Tidak ditemukan akun aset yang sesuai untuk jurnal valuasi."
+
+#. module: farm_financial_valuation
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_financial_valuation
+msgid "Original Cost"
+msgstr "Biaya Perolehan"
+
+#. module: farm_financial_valuation
+msgid "Overdue for Revaluation"
+msgstr "Jatuh Tempo Revaluasi"
+
+#. module: farm_financial_valuation
+msgid "Physical location for GEP valuation link"
+msgstr "Lokasi fisik untuk tautan valuasi GEP"
+
+#. module: farm_financial_valuation
+msgid "Previous Valuation"
+msgstr "Valuasi Sebelumnya"
+
+#. module: farm_financial_valuation
+msgid "Primary Location"
+msgstr "Lokasi Utama"
+
+#. module: farm_financial_valuation
+msgid "Professional Details"
+msgstr "Detail Profesional"
+
+#. module: farm_financial_valuation
+msgid "Professional Requirements"
+msgstr "Persyaratan Profesional"
+
+#. module: farm_financial_valuation
+msgid "Professional Valuer"
+msgstr "Penilai Profesional"
+
+#. module: farm_financial_valuation
+msgid "Projected Cash Flows (JSON)"
+msgstr "Proyeksi Arus Kas (JSON)"
+
+#. module: farm_financial_valuation
+msgid "Recalculate"
+msgstr "Hitung Ulang"
+
+#. module: farm_financial_valuation
+msgid "Recommended Valuers"
+msgstr "Penilai yang Direkomendasikan"
+
+#. module: farm_financial_valuation
+msgid "Remaining Useful Life (Years)"
+msgstr "Sisa Umur Manfaat (Tahun)"
+
+#. module: farm_financial_valuation
+msgid "Requires Professional Valuation"
+msgstr "Memerlukan Valuasi Profesional"
+
+#. module: farm_financial_valuation
+msgid "Results"
+msgstr "Hasil"
+
+#. module: farm_financial_valuation
+msgid "Source of the market price data"
+msgstr "Sumber data harga pasar"
+
+#. module: farm_financial_valuation
+msgid "Standard Valuation Notes"
+msgstr "Catatan Valuasi Standar"
+
+#. module: farm_financial_valuation
+msgid "Template Code"
+msgstr "Kode Template"
+
+#. module: farm_financial_valuation
+msgid "Template Information"
+msgstr "Informasi Template"
+
+#. module: farm_financial_valuation
+msgid "Template Name"
+msgstr "Nama Template"
+
+#. module: farm_financial_valuation
+msgid "Valuation Amount"
+msgstr "Jumlah Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation Date"
+msgstr "Tanggal Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation History"
+msgstr "Riwayat Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation Method"
+msgstr "Metode Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation Notes"
+msgstr "Catatan Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation Reference"
+msgstr "Referensi Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation Report Reference"
+msgstr "Referensi Laporan Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation Settings"
+msgstr "Pengaturan Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation Setup"
+msgstr "Pengaturan Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation Status"
+msgstr "Status Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Valuation Templates"
+msgstr "Template Valuasi"
+
+#. module: farm_financial_valuation
+msgid "Variance from Previous"
+msgstr "Selisih dari Sebelumnya"

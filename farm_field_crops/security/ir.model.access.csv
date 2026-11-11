@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_field_crop_operation_user,access_farm_field_crop_operation_user,model_farm_field_crop_operation,base.group_user,1,1,1,1
+access_farm_crop_recipe_user,access_farm_crop_recipe_user,model_farm_crop_recipe,base.group_user,1,1,1,1
+access_farm_crop_task_user,access_farm_crop_task_user,model_farm_crop_task,base.group_user,1,1,1,1
+access_farm_crop_lot_user,access_farm_crop_lot_user,model_farm_crop_lot,base.group_user,1,1,1,1
+access_farm_crop_bom_line_user,access_farm_crop_bom_line_user,model_farm_crop_bom_line,base.group_user,1,1,1,1

@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+from . import field_crop_operation
+from . import crop_isl
+from . import mrp
+from . import stock_lot
+from . import crop_bom_line_isl
+from . import product_template

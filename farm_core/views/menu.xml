@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- 1st-level App: Mobile Tasks (placeholder; farm_mobile is not part of batch 1) -->
+        <menuitem id="menu_agri_runtime_mobile"
+                  name="Mobile Tasks"
+                  web_icon="farm_core,static/description/icon.png"
+                  sequence="1" />
+
+        <!-- 1st-level App: Crop Operations -->
+        <menuitem id="menu_agri_runtime_crop"
+                  name="Crop Operations"
+                  web_icon="farm_crop,static/description/icon.png"
+                  sequence="10" />
+
+        <!-- 1st-level App: Livestock &amp; Fish (placeholder; farm_livestock is not part of batch 1) -->
+        <menuitem id="menu_agri_runtime_livestock"
+                  name="Livestock &amp; Fish"
+                  web_icon="farm_core,static/description/icon.png"
+                  sequence="15" />
+
+        <!-- NOTE (port 19.0 -> 18.0): the "Telemetry Center" top menu was removed.
+             It pointed at agri_iot (web_icon + group farm_core.group_iot_operator
+             gating IoT telemetry), which is not part of batch 1. It will be
+             re-added by the agri_iot port. The IoT operator group itself is kept
+             in security (used by res.config.settings toggles). -->
+
+        <!-- 1st-level App: Science Lab &amp; VRA -->
+        <menuitem id="menu_agri_runtime_science"
+                  name="Sci-Lab &amp; VRA"
+                  web_icon="farm_agri_science,static/description/icon.png"
+                  sequence="30" />
+
+        <!-- ========================================== -->
+        <!-- Odoo CE native App menu takeover &amp; upgrade -->
+        <!-- ========================================== -->
+
+        <!-- A. Take over native [Inventory], upgrade to Matter &amp; Stock Traceability -->
+        <record id="stock.menu_stock_root" model="ir.ui.menu">
+            <field name="name">Matter &amp; Stock</field>
+            <field name="web_icon">farm_core,static/description/icon_sfc.png</field>
+            <field name="sequence">5</field>
+        </record>
+
+        <!-- C. Take over native [Discuss], upgrade to Discuss &amp; AI Advisor -->
+        <record id="mail.menu_root_discuss" model="ir.ui.menu">
+            <field name="name">Discuss &amp; AI Advisor</field>
+            <field name="sequence">60</field>
+        </record>
+
+        <!-- D. Take over native [Settings], rename to Console &amp; Setup -->
+        <record id="base.menu_administration" model="ir.ui.menu">
+            <field name="name">Console &amp; Setup</field>
+            <field name="web_icon">farm_core,static/description/icon_console.png</field>
+            <field name="sequence">999</field>
+        </record>
+
+        <!-- E. Hide legacy system backend menus -->
+        <menuitem id="menu_farm_core_hidden_settings" name="Farm Core Admin" sequence="999" groups="base.group_system" parent="base.menu_administration" />
+    </data>
+</odoo>

@@ -1,0 +1,208 @@
+# Translation of farm_crisis to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_crisis 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_crisis
+msgid "ACTIVATE LOCKDOWN"
+msgstr "ACTIVATE LOCKDOWN"
+
+#. module: farm_crisis
+msgid "Action Steps (SOP)"
+msgstr "Action Steps (SOP)"
+
+#. module: farm_crisis
+msgid "Active Crisis"
+msgstr "Aktif Krisis"
+
+#. module: farm_crisis
+msgid "Affected Scope"
+msgstr "Affected Scope"
+
+#. module: farm_crisis
+msgid "CRISIS LOCKDOWN: %s"
+msgstr "CRISIS LOCKDOWN: %s"
+
+#. module: farm_crisis
+msgid "CRISIS MODE ACTIVATED: Assets have been quarantined."
+msgstr "CRISIS MODE ACTIVATED: Assets have been quarantined."
+
+#. module: farm_crisis
+msgid "Contained"
+msgstr "Contained"
+
+#. module: farm_crisis
+msgid "Contamination"
+msgstr "Contamination"
+
+#. module: farm_crisis
+msgid "Crisis Incident"
+msgstr "Insiden Krisis"
+
+#. module: farm_crisis
+msgid "Crisis Incidents"
+msgstr "Crisis Incidents"
+
+#. module: farm_crisis
+msgid "Crisis Management"
+msgstr "Crisis Management"
+
+#. module: farm_crisis
+msgid "Detected At"
+msgstr "Detected At"
+
+#. module: farm_crisis
+msgid "Disease Outbreak"
+msgstr "Disease Outbreak"
+
+#. module: farm_crisis
+msgid "Emergency Incidents"
+msgstr "Emergency Incidents"
+
+#. module: farm_crisis
+msgid "Emergency Protocols (SOP)"
+msgstr "Emergency Protocols (SOP)"
+
+#. module: farm_crisis
+msgid "INCIDENT"
+msgstr "INCIDENT"
+
+#. module: farm_crisis
+msgid "Incident Ref"
+msgstr "Incident Ref"
+
+#. module: farm_crisis
+msgid "Incidents"
+msgstr "Incidents"
+
+#. module: farm_crisis
+msgid "Locked by Crisis"
+msgstr "Locked by Crisis"
+
+#. module: farm_crisis
+msgid "Mark Resolved"
+msgstr "Mark Resolved"
+
+#. module: farm_crisis
+msgid "Natural Disaster"
+msgstr "Natural Disaster"
+
+#. module: farm_crisis
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_crisis
+msgid "Notify Authorities"
+msgstr "Notify Authorities"
+
+#. module: farm_crisis
+msgid "Pest Infestation"
+msgstr "Pest Infestation"
+
+#. module: farm_crisis
+msgid "Protocol Name"
+msgstr "Protocol Name"
+
+#. module: farm_crisis
+msgid "Protocols (SOP)"
+msgstr "Protocols (SOP)"
+
+#. module: farm_crisis
+msgid "Reported"
+msgstr "Reported"
+
+#. module: farm_crisis
+msgid "Requires Asset Lockdown"
+msgstr "Requires Asset Lockdown"
+
+#. module: farm_crisis
+msgid "Resolved"
+msgstr "Resolved"
+
+#. module: farm_crisis
+msgid "Resolved At"
+msgstr "Resolved At"
+
+#. module: farm_crisis
+msgid "SALE BLOCK: Lot '%s' is under CRISIS LOCKDOWN and cannot be sold."
+msgstr "SALE BLOCK: Lot '%s' is under CRISIS LOCKDOWN and cannot be sold."
+
+#. module: farm_crisis
+msgid "Security Breach"
+msgstr "Security Breach"
+
+#. module: farm_crisis
+msgid "action_activate_crisis"
+msgstr "action_activate_crisis"
+
+#. module: farm_crisis
+msgid "action_resolve"
+msgstr "action_resolve"
+
+#. module: farm_crisis
+msgid "affected_location_ids"
+msgstr "affected_location_ids"
+
+#. module: farm_crisis
+msgid "affected_lot_ids"
+msgstr "affected_lot_ids"
+
+#. module: farm_crisis
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_crisis
+msgid "date_end"
+msgstr "date_end"
+
+#. module: farm_crisis
+msgid "date_start"
+msgstr "date_start"
+
+#. module: farm_crisis
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_crisis
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_crisis
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_crisis
+msgid "model"
+msgstr "model"
+
+#. module: farm_crisis
+msgid "name"
+msgstr "name"
+
+#. module: farm_crisis
+msgid "protocol_id"
+msgstr "protocol_id"
+
+#. module: farm_crisis
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_crisis
+msgid "state"
+msgstr "state"
+
+#. module: farm_crisis
+msgid "view_mode"
+msgstr "view_mode"

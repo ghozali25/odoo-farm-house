@@ -1,0 +1,560 @@
+# Translation of farm_financial_basic (farm_financial_basic) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings (field labels,
+# selection labels, view/menu/action strings, help texts, _() messages).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_financial_basic 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:30+0700\n"
+"PO-Revision-Date: 2026-11-10 17:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_financial_basic
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_financial_basic
+msgid "Agricultural Cost Calculation"
+msgstr "Perhitungan Biaya Pertanian"
+
+#. module: farm_financial_basic
+msgid "Agricultural Cost Calculation Line"
+msgstr "Baris Perhitungan Biaya Pertanian"
+
+#. module: farm_financial_basic
+msgid "Agricultural Cost Template"
+msgstr "Template Biaya Pertanian"
+
+#. module: farm_financial_basic
+msgid "Agricultural Cost Templates"
+msgstr "Template Biaya Pertanian"
+
+#. module: farm_financial_basic
+msgid "Analysis Ref"
+msgstr "Ref. Analisis"
+
+#. module: farm_financial_basic
+msgid "Analytic Account"
+msgstr "Akun Analitik"
+
+#. module: farm_financial_basic
+msgid "Analytic Lines"
+msgstr "Baris Analitik"
+
+#. module: farm_financial_basic
+msgid "Analytic account used to aggregate all costs related to this production task."
+msgstr "Akun analitik yang digunakan untuk mengumpulkan semua biaya terkait tugas produksi ini."
+
+#. module: farm_financial_basic
+msgid "Area Unit"
+msgstr "Satuan Luas"
+
+#. module: farm_financial_basic
+msgid "Area Value"
+msgstr "Nilai Luas"
+
+#. module: farm_financial_basic
+msgid "Area in selected unit (mu, ha, etc.)"
+msgstr "Luas dalam satuan yang dipilih (mu, ha, dst.)"
+
+#. module: farm_financial_basic
+msgid "Basic Financial"
+msgstr "Keuangan Dasar"
+
+#. module: farm_financial_basic
+msgid "Basic financial management for farm operations"
+msgstr "Manajemen keuangan dasar untuk kegiatan pertanian"
+
+#. module: farm_financial_basic
+msgid "Biological Control"
+msgstr "Pengendalian Hayati"
+
+#. module: farm_financial_basic
+msgid "CORE-CLOSURE: Absorbed %s cost from deceased asset [%s]."
+msgstr "CORE-CLOSURE: Menyerap biaya %s dari aset yang mati [%s]."
+
+#. module: farm_financial_basic
+msgid "Calculate"
+msgstr "Hitung"
+
+#. module: farm_financial_basic
+msgid "Calculated"
+msgstr "Terhitung"
+
+#. module: farm_financial_basic
+msgid "Calculation"
+msgstr "Perhitungan"
+
+#. module: farm_financial_basic
+msgid "Cancel"
+msgstr "Batal"
+
+#. module: farm_financial_basic
+msgid "Category Costs"
+msgstr "Biaya per Kategori"
+
+#. module: farm_financial_basic
+msgid "Closed"
+msgstr "Ditutup"
+
+#. module: farm_financial_basic
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#. module: farm_financial_basic
+msgid "Contractor"
+msgstr "Kontraktor"
+
+#. module: farm_financial_basic
+msgid "Cost Calculation"
+msgstr "Perhitungan Biaya"
+
+#. module: farm_financial_basic
+msgid "Cost Calculator"
+msgstr "Kalkulator Biaya"
+
+#. module: farm_financial_basic
+msgid "Cost Category"
+msgstr "Kategori Biaya"
+
+#. module: farm_financial_basic
+msgid "Cost Lines"
+msgstr "Baris Biaya"
+
+#. module: farm_financial_basic
+msgid "Cost Per Parcel Analysis"
+msgstr "Analisis Biaya per Petak"
+
+#. module: farm_financial_basic
+msgid "Cost Template"
+msgstr "Template Biaya"
+
+#. module: farm_financial_basic
+msgid "Cost Templates"
+msgstr "Template Biaya"
+
+#. module: farm_financial_basic
+msgid "Cost per selected unit type"
+msgstr "Biaya per jenis satuan yang dipilih"
+
+#. module: farm_financial_basic
+msgid "Date From"
+msgstr "Tanggal Dari"
+
+#. module: farm_financial_basic
+msgid "Date To"
+msgstr "Tanggal Sampai"
+
+#. module: farm_financial_basic
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_financial_basic
+msgid "Details"
+msgstr "Detail"
+
+#. module: farm_financial_basic
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_financial_basic
+msgid "Electricity Unit Price"
+msgstr "Harga Satuan Listrik"
+
+#. module: farm_financial_basic
+msgid "Farm Financial Basic"
+msgstr "Keuangan Dasar Pertanian"
+
+#. module: farm_financial_basic
+msgid "Farm Task"
+msgstr "Tugas Pertanian"
+
+#. module: farm_financial_basic
+msgid "Fertilizer & Soil Amendment"
+msgstr "Pupuk & Pembenah Tanah"
+
+#. module: farm_financial_basic
+msgid "Fertilizer Type"
+msgstr "Jenis Pupuk"
+
+#. module: farm_financial_basic
+msgid "Fertilizer category must have a fertilizer type specified."
+msgstr "Kategori pupuk harus memiliki jenis pupuk."
+
+#. module: farm_financial_basic
+msgid "Fuel & Energy"
+msgstr "Bahan Bakar & Energi"
+
+#. module: farm_financial_basic
+msgid "Fungicide"
+msgstr "Fungisida"
+
+#. module: farm_financial_basic
+msgid "Gross Profit"
+msgstr "Laba Kotor"
+
+#. module: farm_financial_basic
+msgid "Growth Regulator"
+msgstr "Pengatur Tumbuh"
+
+#. module: farm_financial_basic
+msgid "Harvest Revenue"
+msgstr "Pendapatan Panen"
+
+#. module: farm_financial_basic
+msgid "Harvester"
+msgstr "Mesin Panen"
+
+#. module: farm_financial_basic
+msgid "Hectare"
+msgstr "Hektare"
+
+#. module: farm_financial_basic
+msgid "Herbicide"
+msgstr "Herbisida"
+
+#. module: farm_financial_basic
+msgid "Indirect/Overhead Cost"
+msgstr "Biaya Tidak Langsung/Overhead"
+
+#. module: farm_financial_basic
+msgid "Insecticide"
+msgstr "Insektisida"
+
+#. module: farm_financial_basic
+msgid "Irrigation & Water"
+msgstr "Irigasi & Air"
+
+#. module: farm_financial_basic
+msgid "Irrigation Equipment"
+msgstr "Peralatan Irigasi"
+
+#. module: farm_financial_basic
+msgid "Labor Cost"
+msgstr "Biaya Tenaga Kerja"
+
+#. module: farm_financial_basic
+msgid "Labor Type"
+msgstr "Jenis Tenaga Kerja"
+
+#. module: farm_financial_basic
+msgid "Labor category must have a labor type specified."
+msgstr "Kategori tenaga kerja harus memiliki jenis tenaga kerja."
+
+#. module: farm_financial_basic
+msgid "Land Parcel"
+msgstr "Petak Lahan"
+
+#. module: farm_financial_basic
+msgid "Link this invoice/bill line to a specific agricultural task."
+msgstr "Tautkan baris faktur/tagihan ini ke tugas pertanian tertentu."
+
+#. module: farm_financial_basic
+msgid "Link this invoice/bill to a specific agricultural task for cost/revenue tracking."
+msgstr "Tautkan faktur/tagihan ini ke tugas pertanian tertentu untuk pelacakan biaya/pendapatan."
+
+#. module: farm_financial_basic
+msgid "Machinery & Equipment"
+msgstr "Mesin & Peralatan"
+
+#. module: farm_financial_basic
+msgid "Machinery Type"
+msgstr "Jenis Mesin"
+
+#. module: farm_financial_basic
+msgid "Machinery category must have a machinery type specified."
+msgstr "Kategori mesin harus memiliki jenis mesin."
+
+#. module: farm_financial_basic
+msgid "Machinery/Fuel Cost"
+msgstr "Biaya Mesin/Bahan Bakar"
+
+#. module: farm_financial_basic
+msgid "Margin (%)"
+msgstr "Margin (%)"
+
+#. module: farm_financial_basic
+msgid "Material Cost (Seeds/Fertilizer/Meds)"
+msgstr "Biaya Material (Benih/Pupuk/Obat)"
+
+#. module: farm_financial_basic
+msgid "Mortality Cost Absorption Logic"
+msgstr "Logika Penyerapan Biaya Mortalitas"
+
+#. module: farm_financial_basic
+msgid "Mortality Cost Absorption: %s"
+msgstr "Penyerapan Biaya Mortalitas: %s"
+
+#. module: farm_financial_basic
+msgid "Mu"
+msgstr "Mu"
+
+#. module: farm_financial_basic
+msgid "NPK Compound"
+msgstr "NPK Majemuk"
+
+#. module: farm_financial_basic
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_financial_basic
+msgid "Nitrogen Fertilizer"
+msgstr "Pupuk Nitrogen"
+
+#. module: farm_financial_basic
+msgid "Operations"
+msgstr "Operasional"
+
+#. module: farm_financial_basic
+msgid "Organic Fertilizer"
+msgstr "Pupuk Organik"
+
+#. module: farm_financial_basic
+msgid "Other Indirect Costs (Labor/Depreciation)"
+msgstr "Biaya Tidak Langsung Lain (Tenaga Kerja/Penyusutan)"
+
+#. module: farm_financial_basic
+msgid "Other Machinery"
+msgstr "Mesin Lainnya"
+
+#. module: farm_financial_basic
+msgid "Other Operational Cost"
+msgstr "Biaya Operasional Lainnya"
+
+#. module: farm_financial_basic
+msgid "Packaging & Storage"
+msgstr "Pengemasan & Penyimpanan"
+
+#. module: farm_financial_basic
+msgid "Per Animal"
+msgstr "Per Ekor"
+
+#. module: farm_financial_basic
+msgid "Per Hectare"
+msgstr "Per Hektare"
+
+#. module: farm_financial_basic
+msgid "Per Kg of Yield"
+msgstr "Per Kg Hasil Panen"
+
+#. module: farm_financial_basic
+msgid "Per Mu"
+msgstr "Per Mu"
+
+#. module: farm_financial_basic
+msgid "Per Plant"
+msgstr "Per Tanaman"
+
+#. module: farm_financial_basic
+msgid "Per Square Meter"
+msgstr "Per Meter Persegi"
+
+#. module: farm_financial_basic
+msgid "Per Tree"
+msgstr "Per Pohon"
+
+#. module: farm_financial_basic
+msgid "Per Unit"
+msgstr "Per Unit"
+
+#. module: farm_financial_basic
+msgid "Pesticide & Protection"
+msgstr "Pestisida & Perlindungan"
+
+#. module: farm_financial_basic
+msgid "Pesticide Type"
+msgstr "Jenis Pestisida"
+
+#. module: farm_financial_basic
+msgid "Pesticide category must have a pesticide type specified."
+msgstr "Kategori pestisida harus memiliki jenis pestisida."
+
+#. module: farm_financial_basic
+msgid "Phosphorus Fertilizer"
+msgstr "Pupuk Fosfor"
+
+#. module: farm_financial_basic
+msgid "Potassium Fertilizer"
+msgstr "Pupuk Kalium"
+
+#. module: farm_financial_basic
+msgid "Processing Cost Allocation"
+msgstr "Alokasi Biaya Pengolahan"
+
+#. module: farm_financial_basic
+msgid "Processing Order"
+msgstr "Order Pengolahan"
+
+#. module: farm_financial_basic
+msgid "Processing Overhead: %s"
+msgstr "Overhead Pengolahan: %s"
+
+#. module: farm_financial_basic
+msgid "Production Campaign"
+msgstr "Kampanye Produksi"
+
+#. module: farm_financial_basic
+msgid "Production Task"
+msgstr "Tugas Produksi"
+
+#. module: farm_financial_basic
+msgid "Quantity"
+msgstr "Kuantitas"
+
+#. module: farm_financial_basic
+msgid "Quantity of units to apply"
+msgstr "Jumlah unit yang diterapkan"
+
+#. module: farm_financial_basic
+msgid "Results"
+msgstr "Hasil"
+
+#. module: farm_financial_basic
+msgid "Seasonal Worker"
+msgstr "Pekerja Musiman"
+
+#. module: farm_financial_basic
+msgid "Seedling & Planting Material"
+msgstr "Bibit & Bahan Tanam"
+
+#. module: farm_financial_basic
+msgid "Skilled Labor"
+msgstr "Tenaga Kerja Terampil"
+
+#. module: farm_financial_basic
+msgid "Specific fertilizer classification for fertilizer category"
+msgstr "Klasifikasi pupuk khusus untuk kategori pupuk"
+
+#. module: farm_financial_basic
+msgid "Specific labor classification for labor category"
+msgstr "Klasifikasi tenaga kerja khusus untuk kategori tenaga kerja"
+
+#. module: farm_financial_basic
+msgid "Specific machinery classification for machinery category"
+msgstr "Klasifikasi mesin khusus untuk kategori mesin"
+
+#. module: farm_financial_basic
+msgid "Specific pesticide classification for pesticide category"
+msgstr "Klasifikasi pestisida khusus untuk kategori pestisida"
+
+#. module: farm_financial_basic
+msgid "Sprayer"
+msgstr "Alat Semprot"
+
+#. module: farm_financial_basic
+msgid "Square Meter"
+msgstr "Meter Persegi"
+
+#. module: farm_financial_basic
+msgid "Sum of all analytic lines associated with this task."
+msgstr "Jumlah semua baris analitik yang terkait dengan tugas ini."
+
+#. module: farm_financial_basic
+msgid "Summary"
+msgstr "Ringkasan"
+
+#. module: farm_financial_basic
+msgid "Template Code"
+msgstr "Kode Template"
+
+#. module: farm_financial_basic
+msgid "Template Name"
+msgstr "Nama Template"
+
+#. module: farm_financial_basic
+msgid "Total Calculated Cost"
+msgstr "Total Biaya Terhitung"
+
+#. module: farm_financial_basic
+msgid "Total Cost"
+msgstr "Total Biaya"
+
+#. module: farm_financial_basic
+msgid "Total Costs"
+msgstr "Total Biaya"
+
+#. module: farm_financial_basic
+msgid "Total Electricity Cost"
+msgstr "Total Biaya Listrik"
+
+#. module: farm_financial_basic
+msgid "Total Fertilizer Cost"
+msgstr "Total Biaya Pupuk"
+
+#. module: farm_financial_basic
+msgid "Total Irrigation Cost"
+msgstr "Total Biaya Irigasi"
+
+#. module: farm_financial_basic
+msgid "Total Labor Cost"
+msgstr "Total Biaya Tenaga Kerja"
+
+#. module: farm_financial_basic
+msgid "Total Machinery Cost"
+msgstr "Total Biaya Mesin"
+
+#. module: farm_financial_basic
+msgid "Total Other Cost"
+msgstr "Total Biaya Lainnya"
+
+#. module: farm_financial_basic
+msgid "Total Pesticide Cost"
+msgstr "Total Biaya Pestisida"
+
+#. module: farm_financial_basic
+msgid "Total Processing Cost"
+msgstr "Total Biaya Pengolahan"
+
+#. module: farm_financial_basic
+msgid "Total Production Cost"
+msgstr "Total Biaya Produksi"
+
+#. module: farm_financial_basic
+msgid "Total Seedling Cost"
+msgstr "Total Biaya Bibit"
+
+#. module: farm_financial_basic
+msgid "Total Water Cost"
+msgstr "Total Biaya Air"
+
+#. module: farm_financial_basic
+msgid "Trace Elements"
+msgstr "Unsur Mikro"
+
+#. module: farm_financial_basic
+msgid "Tractor"
+msgstr "Traktor"
+
+#. module: farm_financial_basic
+msgid "Transport Vehicle"
+msgstr "Kendaraan Angkut"
+
+#. module: farm_financial_basic
+msgid "Unit Cost"
+msgstr "Biaya Satuan"
+
+#. module: farm_financial_basic
+msgid "Unit Type"
+msgstr "Jenis Satuan"
+
+#. module: farm_financial_basic
+msgid "Unskilled Labor"
+msgstr "Tenaga Kerja Tidak Terampil"
+
+#. module: farm_financial_basic
+msgid "WIP COST TRANSFERRED: %s total cost absorbed from task %s"
+msgstr "BIAYA WIP DITRANSFER: total biaya %s diserap dari tugas %s"
+
+#. module: farm_financial_basic
+msgid "WIP to Finished Goods Cost Transfer"
+msgstr "Transfer Biaya WIP ke Barang Jadi"
+
+#. module: farm_financial_basic
+msgid "Water Unit Price"
+msgstr "Harga Satuan Air"

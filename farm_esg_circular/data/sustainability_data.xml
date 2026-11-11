@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="circular_flow_example" model="farm.sustainability.circular.flow">
+        <field name="name">Crop Straw Reuse</field>
+        <field name="code">CF-001</field>
+        <field name="flow_type">waste_to_resource</field>
+        <field name="description">Convert crop straw into organic fertilizer</field>
+        <field name="input_quantity">10.0</field>
+        <field name="output_quantity">7.0</field>
+        <field name="processing_cost">500.0</field>
+        <field name="revenue">1000.0</field>
+        <field name="status">completed</field>
+    </record>
+</data>
+</odoo>

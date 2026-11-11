@@ -1,0 +1,59 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_disaster_risk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-05-04 09:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_disaster_risk
+#. odoo-python
+#: code:addons/farm_disaster_risk/models/disaster_risk.py:0
+msgid "A crisis incident is already linked to this disaster."
+msgstr "一场危机事件已经与这场灾难有关。"
+
+#. module: farm_disaster_risk
+#. odoo-python
+#: code:addons/farm_disaster_risk/models/disaster_risk.py:0
+msgid "DI"
+msgstr "DI"
+
+#. module: farm_disaster_risk
+#. odoo-python
+#: code:addons/farm_disaster_risk/models/disaster_risk.py:0
+msgid "Disaster Crisis: %s (%s)"
+msgstr "灾难危机：%s (%s)"
+
+#. module: farm_disaster_risk
+#. odoo-python
+#: code:addons/farm_disaster_risk/models/disaster_risk.py:0
+msgid "LA"
+msgstr "洛杉矶"
+
+#. module: farm_disaster_risk
+#. odoo-python
+#: code:addons/farm_disaster_risk/models/disaster_risk.py:0
+msgid "Linked Crisis Incident"
+msgstr "连锁危机事件"
+
+#. module: farm_disaster_risk
+#. odoo-python
+#: code:addons/farm_disaster_risk/models/disaster_risk.py:0
+msgid "New"
+msgstr "新建"
+
+#. module: farm_disaster_risk
+#. odoo-python
+#: code:addons/farm_disaster_risk/models/disaster_risk.py:0
+msgid "Triggered by meteorological disaster incident %s."
+msgstr "由气象灾害事件%s引发。"

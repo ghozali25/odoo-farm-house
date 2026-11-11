@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="action_farm_cockpit" model="ir.actions.act_window">
+        <field name="name">Farm Cockpit</field>
+        <field name="res_model">project.task</field>
+        <field name="view_mode">kanban,list,graph,pivot</field>
+        <!-- Port fix (batch 7): is_agri_activity lives on project.project,
+             not project.task — the upstream domain raised "Invalid field
+             project.task.is_agri_activity" on every cockpit read. -->
+        <field name="domain">[('project_id.is_agri_activity', '=', True)]</field>
+        <field name="context">{'search_default_my_tasks': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Welcome to the Farm control center.
+            </p>
+        </field>
+    </record>
+
+    
+    <menuitem id="menu_farm_dashboard_root" name="Dashboards" web_icon="farm_dashboard,static/description/icon.png" sequence="5" />
+    <menuitem id="menu_farm_cockpit" name="Operational Cockpit" parent="menu_farm_dashboard_root" action="action_farm_cockpit" sequence="10" />
+
+    
+    <record id="action_winemaking_dashboard" model="ir.actions.act_window">
+        <field name="name">Winemaking Dashboard</field>
+        <field name="res_model">mrp.production</field>
+        <field name="view_mode">list,graph,pivot</field>
+        <field name="domain">[('process_mode', '=', 'fermentation')]</field>
+    </record>
+
+    <menuitem id="menu_wine_dashboard" name="Winemaking Analysis" parent="menu_farm_dashboard_root" action="action_winemaking_dashboard" sequence="20" />
+</data>
+</odoo>

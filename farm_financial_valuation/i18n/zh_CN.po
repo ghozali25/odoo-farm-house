@@ -1,0 +1,61 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_financial_valuation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:02+0000\n"
+"PO-Revision-Date: 2026-05-04 09:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_financial_valuation
+#. odoo-python
+#: code:addons/farm_financial_valuation/models/financial_valuation_models.py:0
+msgid ""
+"ASSET REVALUATION: Amount %s recorded for %s. Journal entry %s created. "
+"Previous: %s, New: %s"
+msgstr ""
+
+#. module: farm_financial_valuation
+#. odoo-python
+#: code:addons/farm_financial_valuation/models/financial_valuation_models.py:0
+msgid "Financial Valuation"
+msgstr "财务估值"
+
+#. module: farm_financial_valuation
+#. odoo-python
+#: code:addons/farm_financial_valuation/models/financial_valuation_models.py:0
+msgid "Financial valuation request created for selected assets"
+msgstr "为选定资产创建财务评估请求"
+
+#. module: farm_financial_valuation
+#. odoo-python
+#: code:addons/farm_financial_valuation/models/financial_valuation_models.py:0
+msgid "New"
+msgstr "新建"
+
+#. module: farm_financial_valuation
+#. odoo-python
+#: code:addons/farm_financial_valuation/models/financial_valuation_models.py:0
+msgid "No general journal found."
+msgstr "没有找到一般期刊。"
+
+#. module: farm_financial_valuation
+#. odoo-python
+#: code:addons/farm_financial_valuation/models/financial_valuation_models.py:0
+msgid "No revaluation reserve account found."
+msgstr "未找到重估储备账户。"
+
+#. module: farm_financial_valuation
+#. odoo-python
+#: code:addons/farm_financial_valuation/models/financial_valuation_models.py:0
+msgid "No suitable asset account found for valuation entries."
+msgstr "未找到适合评估条目的资产帐户。"

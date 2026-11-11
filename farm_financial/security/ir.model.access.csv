@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_financial_cost_category,access_farm_financial_cost_category,model_farm_financial_cost_category,base.group_user,1,1,1,1
+access_farm_financial_cost_template,access_farm_financial_cost_template,model_farm_financial_cost_template,base.group_user,1,1,1,1

@@ -1,0 +1,64 @@
+# Translation of farm_ecology (farm_ecology) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_ecology 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_ecology
+msgid "Associated Operational Parcel"
+msgstr "Associated Operational Parcel"
+
+#. module: farm_ecology
+msgid "Ecological Excellence: GEP Score %s reached."
+msgstr "Ecological Excellence: GEP Score %s reached."
+
+#. module: farm_ecology
+msgid "Farm Ecology & Biodiversity"
+msgstr "Farm Ecology & Biodiversity"
+
+#. module: farm_ecology
+msgid "Impact Category"
+msgstr "Kategori Dampak"
+
+#. module: farm_ecology
+msgid "Indicator Category"
+msgstr "Kategori Indikator"
+
+#. module: farm_ecology
+msgid "Land Parcel/Zone"
+msgstr "Land Parcel/Zone"
+
+#. module: farm_ecology
+msgid "Number of individuals or density observed."
+msgstr "Number of individuals or density observed."
+
+#. module: farm_ecology
+msgid "Physical Container"
+msgstr "Physical Container"
+
+#. module: farm_ecology
+msgid "Scientific Ecological Data Collection & Biodiversity Tracking"
+msgstr "Scientific Ecological Data Collection & Biodiversity Tracking"
+
+#. module: farm_ecology
+msgid "Surface area of the ecological infrastructure."
+msgstr "Surface area of the ecological infrastructure."
+
+#. module: farm_ecology
+msgid "Visual proof of the observation."
+msgstr "Visual proof of the observation."
+
+#. module: farm_ecology
+msgid "Zone Category"
+msgstr "Kategori Zona"

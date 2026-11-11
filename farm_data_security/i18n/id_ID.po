@@ -1,0 +1,256 @@
+# Translation of farm_data_security to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_data_security 18.0.1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_data_security
+msgid "Actuator"
+msgstr "Actuator"
+
+#. module: farm_data_security
+msgid "Authorize Device"
+msgstr "Authorize Device"
+
+#. module: farm_data_security
+msgid "Authorized"
+msgstr "Authorized"
+
+#. module: farm_data_security
+msgid "Check Localization Status"
+msgstr "Check Localization Status"
+
+#. module: farm_data_security
+msgid "China Mainland"
+msgstr "China Mainland"
+
+#. module: farm_data_security
+msgid "Classification Name"
+msgstr "Classification Name"
+
+#. module: farm_data_security
+msgid "Classification Policies"
+msgstr "Classification Policies"
+
+#. module: farm_data_security
+msgid "Critical (IP)"
+msgstr "Critical (IP)"
+
+#. module: farm_data_security
+msgid "Data Classification"
+msgstr "Klasifikasi Data"
+
+#. module: farm_data_security
+msgid "Data Classification Policies"
+msgstr "Data Classification Policies"
+
+#. module: farm_data_security
+msgid "Data Localization Check"
+msgstr "Data Localization Check"
+
+#. module: farm_data_security
+msgid "Data Security"
+msgstr "Keamanan Data"
+
+#. module: farm_data_security
+msgid "Data Security &amp; Compliance (CN)"
+msgstr "Data Security &amp; Compliance (CN)"
+
+#. module: farm_data_security
+msgid "Data localization check passed: Configured for China Mainland deployment."
+msgstr "Data localization check passed: Configured for China Mainland deployment."
+
+#. module: farm_data_security
+msgid "Dengbao Level 3 Compliant"
+msgstr "Dengbao Level 3 Compliant"
+
+#. module: farm_data_security
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_data_security
+msgid "Device Name"
+msgstr "Device Name"
+
+#. module: farm_data_security
+msgid "Encrypted Communication (TLS)"
+msgstr "Encrypted Communication (TLS)"
+
+#. module: farm_data_security
+msgid "Encryption Required"
+msgstr "Encryption Required"
+
+#. module: farm_data_security
+msgid "Firmware Version"
+msgstr "Firmware Version"
+
+#. module: farm_data_security
+msgid "Gateway/Controller"
+msgstr "Gateway/Controller"
+
+#. module: farm_data_security
+msgid "Identity"
+msgstr "Identity"
+
+#. module: farm_data_security
+msgid "Internal"
+msgstr "Internal"
+
+#. module: farm_data_security
+msgid "IoT Device Registry"
+msgstr "Registri Perangkat IoT"
+
+#. module: farm_data_security
+msgid "IoT Device Security"
+msgstr "IoT Device Security"
+
+#. module: farm_data_security
+msgid "Last Security Audit"
+msgstr "Last Security Audit"
+
+#. module: farm_data_security
+msgid "Overseas"
+msgstr "Overseas"
+
+#. module: farm_data_security
+msgid "Pending Authentication"
+msgstr "Pending Authentication"
+
+#. module: farm_data_security
+msgid "Physical UID / MAC"
+msgstr "Physical UID / MAC"
+
+#. module: farm_data_security
+msgid "Public"
+msgstr "Publik"
+
+#. module: farm_data_security
+msgid "Retention Period (Years)"
+msgstr "Retention Period (Years)"
+
+#. module: farm_data_security
+msgid "Revoked/Blocked"
+msgstr "Revoked/Blocked"
+
+#. module: farm_data_security
+msgid "Robotic Unit"
+msgstr "Robotic Unit"
+
+#. module: farm_data_security
+msgid "Security Params"
+msgstr "Security Params"
+
+#. module: farm_data_security
+msgid "Sensitive (PII)"
+msgstr "Sensitive (PII)"
+
+#. module: farm_data_security
+msgid "Sensor"
+msgstr "Sensor"
+
+#. module: farm_data_security
+msgid "TLS"
+msgstr "TLS"
+
+#. module: farm_data_security
+msgid "WARNING: Data is configured for Overseas storage. May not meet China localization requirements."
+msgstr "WARNING: Data is configured for Overseas storage. May not meet China localization requirements."
+
+#. module: farm_data_security
+msgid "action_authorize"
+msgstr "action_authorize"
+
+#. module: farm_data_security
+msgid "action_check_data_localization"
+msgstr "action_check_data_localization"
+
+#. module: farm_data_security
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_data_security
+msgid "auth_status"
+msgstr "auth_status"
+
+#. module: farm_data_security
+msgid "data_storage_region"
+msgstr "data_storage_region"
+
+#. module: farm_data_security
+msgid "device_type"
+msgstr "device_type"
+
+#. module: farm_data_security
+msgid "device_uid"
+msgstr "device_uid"
+
+#. module: farm_data_security
+msgid "encryption_required"
+msgstr "encryption_required"
+
+#. module: farm_data_security
+msgid "firmware_version"
+msgstr "firmware_version"
+
+#. module: farm_data_security
+msgid "inherit_id"
+msgstr "inherit_id"
+
+#. module: farm_data_security
+msgid "integration"
+msgstr "integration"
+
+#. module: farm_data_security
+msgid "is_dengbao_level3_compliant"
+msgstr "is_dengbao_level3_compliant"
+
+#. module: farm_data_security
+msgid "is_encrypted_comm"
+msgstr "is_encrypted_comm"
+
+#. module: farm_data_security
+msgid "last_security_audit"
+msgstr "last_security_audit"
+
+#. module: farm_data_security
+msgid "level"
+msgstr "level"
+
+#. module: farm_data_security
+msgid "list"
+msgstr "list"
+
+#. module: farm_data_security
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_data_security
+msgid "model"
+msgstr "model"
+
+#. module: farm_data_security
+msgid "name"
+msgstr "name"
+
+#. module: farm_data_security
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_data_security
+msgid "retention_period_years"
+msgstr "retention_period_years"
+
+#. module: farm_data_security
+msgid "view_mode"
+msgstr "view_mode"

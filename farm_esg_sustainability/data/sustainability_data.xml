@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="sustainability_metric_economic_target" model="agri.sustainability.metric">
+        <field name="name">Economic Target Achievement Rate</field>
+        <field name="code">ECONOMIC_TARGET_RATE</field>
+        <field name="category">economic</field>
+        <field name="unit">Percent</field>
+        <field name="description">Economic target achievement rate</field>
+        <field name="target_value">95.0</field>
+        <field name="calculation_method">manual</field>
+    </record>
+
+    <record id="sustainability_metric_environmental_score" model="agri.sustainability.metric">
+        <field name="name">Environmental Impact Score</field>
+        <field name="code">ENVIRONMENTAL_SCORE</field>
+        <field name="category">environmental</field>
+        <field name="unit">Points</field>
+        <field name="description">Overall environmental impact score</field>
+        <field name="target_value">80.0</field>
+        <field name="calculation_method">manual</field>
+    </record>
+
+    <record id="sustainability_metric_social_impact" model="agri.sustainability.metric">
+        <field name="name">Social Impact Score</field>
+        <field name="code">SOCIAL_IMPACT_SCORE</field>
+        <field name="category">social</field>
+        <field name="unit">Points</field>
+        <field name="description">Overall social impact score</field>
+        <field name="target_value">75.0</field>
+        <field name="calculation_method">manual</field>
+    </record>
+</data>
+</odoo>

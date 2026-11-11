@@ -1,0 +1,112 @@
+# Translation of Farm ESG Social (farm_esg_social) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_esg_social 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:00+0700\n"
+"PO-Revision-Date: 2026-11-10 17:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_esg_social
+msgid "30-50 Years"
+msgstr "30-50 Tahun"
+
+#. module: farm_esg_social
+msgid "Age Distribution"
+msgstr "Distribusi Usia"
+
+#. module: farm_esg_social
+msgid "Disability Employment Count"
+msgstr "Jumlah Pekerja Disabilitas"
+
+#. module: farm_esg_social
+msgid "Diversity Metrics"
+msgstr "Metrik Keberagaman"
+
+#. module: farm_esg_social
+msgid "ESG Social"
+msgstr "Sosial ESG"
+
+#. module: farm_esg_social
+msgid "Employment Types"
+msgstr "Jenis Pekerjaan"
+
+#. module: farm_esg_social
+msgid "Farm ESG Social"
+msgstr "Sosial ESG Pertanian"
+
+#. module: farm_esg_social
+msgid "Female Count"
+msgstr "Jumlah Wanita"
+
+#. module: farm_esg_social
+msgid "Full Time Count"
+msgstr "Jumlah Penuh Waktu"
+
+#. module: farm_esg_social
+msgid "Gender Balance Ratio"
+msgstr "Rasio Keseimbangan Gender"
+
+#. module: farm_esg_social
+msgid "Gender Distribution"
+msgstr "Distribusi Gender"
+
+#. module: farm_esg_social
+msgid "Local Community Employment"
+msgstr "Pekerjaan Komunitas Lokal"
+
+#. module: farm_esg_social
+msgid "Local Employment Ratio"
+msgstr "Rasio Pekerjaan Lokal"
+
+#. module: farm_esg_social
+msgid "Male Count"
+msgstr "Jumlah Pria"
+
+#. module: farm_esg_social
+msgid "Manage social impact, diversity and stakeholder engagement aspects of farming ESG"
+msgstr "Mengelola dampak sosial, keberagaman, dan aspek keterlibatan pemangku kepentingan ESG pertanian"
+
+#. module: farm_esg_social
+msgid "Metric Name"
+msgstr "Nama Metrik"
+
+#. module: farm_esg_social
+msgid "Other Gender Count"
+msgstr "Jumlah Gender Lain"
+
+#. module: farm_esg_social
+msgid "Over 50 Years"
+msgstr "Di Atas 50 Tahun"
+
+#. module: farm_esg_social
+msgid "Reporting Period"
+msgstr "Periode Pelaporan"
+
+#. module: farm_esg_social
+msgid "Social & Diversity Metrics"
+msgstr "Sosial & Metrik Keberagaman"
+
+#. module: farm_esg_social
+msgid "Social and Diversity Metrics"
+msgstr "Metrik Sosial dan Keberagaman"
+
+#. module: farm_esg_social
+msgid "Temporary Contract Count"
+msgstr "Jumlah Kontrak Sementara"
+
+#. module: farm_esg_social
+msgid "Total Employees"
+msgstr "Total Karyawan"
+
+#. module: farm_esg_social
+msgid "Under 30 Years"
+msgstr "Di Bawah 30 Tahun"
