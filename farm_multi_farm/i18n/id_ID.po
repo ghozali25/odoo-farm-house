@@ -1,0 +1,204 @@
+# Translation of farm_multi_farm (farm_multi_farm) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_multi_farm 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_multi_farm
+msgid "Agreement approved by %s"
+msgstr "Agreement approved by %s"
+
+#. module: farm_multi_farm
+msgid "Agreement cancelled by %s"
+msgstr "Agreement cancelled by %s"
+
+#. module: farm_multi_farm
+msgid "COOP-"
+msgstr "COOP-"
+
+#. module: farm_multi_farm
+msgid "Contract fully settled"
+msgstr "Contract fully settled"
+
+#. module: farm_multi_farm
+msgid "Cooperative Entity Sequence"
+msgstr "Urutan Entitas Koperasi"
+
+#. module: farm_multi_farm
+msgid "Dual Invoices Generated: AP (%s) for %s and AR (%s) for %s"
+msgstr "Dual Invoices Generated: AP (%s) for %s and AR (%s) for %s"
+
+#. module: farm_multi_farm
+msgid "EXCLUSIVITY VIOLATION: This lot is already assigned to cooperative %s. "
+msgstr "EXCLUSIVITY VIOLATION: This lot is already assigned to cooperative %s. "
+
+#. module: farm_multi_farm
+msgid "FE-"
+msgstr "FE-"
+
+#. module: farm_multi_farm
+msgid "FF-"
+msgstr "FF-"
+
+#. module: farm_multi_farm
+msgid "Farm Entity Sequence"
+msgstr "Urutan Entitas Pertanian"
+
+#. module: farm_multi_farm
+msgid "Farm Multi-Entity Collaboration & Cooperative Management"
+msgstr "Farm Multi-Entity Collaboration & Cooperative Management"
+
+#. module: farm_multi_farm
+msgid "Farming started on %s"
+msgstr "Farming started on %s"
+
+#. module: farm_multi_farm
+msgid "Franchise Farm Sequence"
+msgstr "Urutan Pertanian Waralaba"
+
+#. module: farm_multi_farm
+msgid "Green Field Franchise Farm"
+msgstr "Green Field Franchise Farm"
+
+#. module: farm_multi_farm
+msgid "Harvest Agri Cooperative"
+msgstr "Koperasi Agri Panen"
+
+#. module: farm_multi_farm
+msgid "Harvest completed, ready for settlement"
+msgstr "Harvest completed, ready for settlement"
+
+#. module: farm_multi_farm
+msgid "IS-"
+msgstr "IS-"
+
+#. module: farm_multi_farm
+msgid "Internal Settlement (AP): %s"
+msgstr "Internal Settlement (AP): %s"
+
+#. module: farm_multi_farm
+msgid "Internal Settlement (AR): %s"
+msgstr "Internal Settlement (AR): %s"
+
+#. module: farm_multi_farm
+msgid "Internal Settlement Sequence"
+msgstr "Urutan Penyelesaian Internal"
+
+#. module: farm_multi_farm
+msgid "Li Si's Family Farm"
+msgstr "Li Si's Family Farm"
+
+#. module: farm_multi_farm
+msgid "Loan amount must be positive."
+msgstr "Loan amount must be positive."
+
+#. module: farm_multi_farm
+msgid "Multi-Entity Collaboration, Cooperative Management & Cross-Farm Governance"
+msgstr "Multi-Entity Collaboration, Cooperative Management & Cross-Farm Governance"
+
+#. module: farm_multi_farm
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_multi_farm
+msgid "ORG-VEG-001"
+msgstr "ORG-VEG-001"
+
+#. module: farm_multi_farm
+msgid "Organic Vegetable Compliance Check"
+msgstr "Periksa Kepatuhan Sayuran Organik"
+
+#. module: farm_multi_farm
+msgid "Organic Vegetable Planting Standard"
+msgstr "Standar Penanaman Sayuran Organik"
+
+#. module: farm_multi_farm
+msgid "Payment amount exceeds remaining amount"
+msgstr "Payment amount exceeds remaining amount"
+
+#. module: farm_multi_farm
+msgid "Production Data Sharing"
+msgstr "Production Data Sharing"
+
+#. module: farm_multi_farm
+msgid "Settlement processed: %s %s"
+msgstr "Settlement processed: %s %s"
+
+#. module: farm_multi_farm
+msgid "Standardized workflow for organic vegetable planting"
+msgstr "Standardized workflow for organic vegetable planting"
+
+#. module: farm_multi_farm
+msgid "Start date must be earlier than end date."
+msgstr "Start date must be earlier than end date."
+
+#. module: farm_multi_farm
+msgid "Utilized amount cannot exceed credit limit."
+msgstr "Utilized amount cannot exceed credit limit."
+
+#. module: farm_multi_farm
+msgid "You cannot create recursive entity relationships."
+msgstr "You cannot create recursive entity relationships."
+
+#. module: farm_multi_farm
+msgid "Zhang San's Farm"
+msgstr "Zhang San's Farm"
+
+#. module: farm_multi_farm
+msgid "cooperative"
+msgstr "koperasi"
+
+#. module: farm_multi_farm
+msgid "cooperative.entity"
+msgstr "cooperative.entity"
+
+#. module: farm_multi_farm
+msgid "farm"
+msgstr "pertanian"
+
+#. module: farm_multi_farm
+msgid "farm.entity"
+msgstr "farm.entity"
+
+#. module: farm_multi_farm
+msgid "franchise"
+msgstr "waralaba"
+
+#. module: farm_multi_farm
+msgid "franchise.farm"
+msgstr "franchise.farm"
+
+#. module: farm_multi_farm
+msgid "internal.settlement"
+msgstr "internal.settlement"
+
+#. module: farm_multi_farm
+msgid "membership"
+msgstr "membership"
+
+#. module: farm_multi_farm
+msgid "pending"
+msgstr "menunggu"
+
+#. module: farm_multi_farm
+msgid "planting"
+msgstr "penanaman"
+
+#. module: farm_multi_farm
+msgid "production"
+msgstr "produksi"
+
+#. module: farm_multi_farm
+msgid "read"
+msgstr "read"

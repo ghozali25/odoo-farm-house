@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="view_cooperative_treasury_form" model="ir.ui.view">
+        <field name="name">cooperative.treasury.form</field>
+        <field name="model">cooperative.treasury</field>
+        <field name="arch" type="xml">
+            <form string="Cooperative Treasury">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="cooperative_id" />
+                        </group>
+                        <group>
+                            <field name="current_balance" />
+                            <field name="currency_id" />
+                        </group>
+                    </group>
+                    <field name="description" />
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    <!-- NOTE (port 19.0->18.0, batch 6): parent menu_internal_finance does
+         not exist anywhere upstream; re-parented under treasury_governance_menu. -->
+<record id="action_cooperative_treasury_list" model="ir.actions.act_window">
+        <field name="name">Cooperative Treasury</field>
+        <field name="res_model">cooperative.treasury</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="menu_treasury" name="Treasury" parent="treasury_governance_menu" action="action_cooperative_treasury_list" sequence="30" />
+
+    
+</data>
+</odoo>

@@ -1,0 +1,976 @@
+# Translation of farm_marketing to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_marketing 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_marketing
+msgid "/farm/order/calendar"
+msgstr "/farm/order/calendar"
+
+#. module: farm_marketing
+msgid "API Key / Token"
+msgstr "API Key / Token"
+
+#. module: farm_marketing
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_marketing
+msgid "Active Demand"
+msgstr "Aktif Permintaan"
+
+#. module: farm_marketing
+msgid "Aerial Spraying"
+msgstr "Aerial Spraying"
+
+#. module: farm_marketing
+msgid "Agri-Trace"
+msgstr "Agri-Trace"
+
+#. module: farm_marketing
+msgid "Aspect:"
+msgstr "Aspect:"
+
+#. module: farm_marketing
+msgid "Average Growth Temperature (℃)"
+msgstr "Average Growth Temperature (℃)"
+
+#. module: farm_marketing
+msgid "Avg Consumer Rating"
+msgstr "Avg Consumer Rating"
+
+#. module: farm_marketing
+msgid "Batch ID:"
+msgstr "Batch ID:"
+
+#. module: farm_marketing
+msgid "Birth/Planting Date"
+msgstr "Birth/Planting Date"
+
+#. module: farm_marketing
+msgid "Blue"
+msgstr "Blue"
+
+#. module: farm_marketing
+msgid "Brand &amp; Integrity"
+msgstr "Brand &amp; Integrity"
+
+#. module: farm_marketing
+msgid "Brown"
+msgstr "Brown"
+
+#. module: farm_marketing
+msgid "C2M Consumer Feedback"
+msgstr "C2M Konsumen Umpan Balik"
+
+#. module: farm_marketing
+msgid "C2M Sentiment Analysis"
+msgstr "C2M Sentiment Analysis"
+
+#. module: farm_marketing
+msgid "CHANNEL PROTECTION: Lot %s is reserved for premium channels. Customer %s is not in the whitelist!"
+msgstr "CHANNEL PROTECTION: Lot %s is reserved for premium channels. Customer %s is not in the whitelist!"
+
+#. module: farm_marketing
+msgid "Carbon Savings (kg CO2e)"
+msgstr "Carbon Savings (kg CO2e)"
+
+#. module: farm_marketing
+msgid "Certificates"
+msgstr "Certificates"
+
+#. module: farm_marketing
+msgid "Certified:"
+msgstr "Certified:"
+
+#. module: farm_marketing
+msgid "Climate:"
+msgstr "Climate:"
+
+#. module: farm_marketing
+msgid "Closed/Fulfilled"
+msgstr "Closed/Fulfilled"
+
+#. module: farm_marketing
+msgid "Connector Name"
+msgstr "Connector Name"
+
+#. module: farm_marketing
+msgid "Connector Name (e.g. Shopee API)"
+msgstr "Connector Name (e.g. Shopee API)"
+
+#. module: farm_marketing
+msgid "Consumer Comments"
+msgstr "Consumer Comments"
+
+#. module: farm_marketing
+msgid "Consumer Insights (C2M)"
+msgstr "Consumer Insights (C2M)"
+
+#. module: farm_marketing
+msgid "Consumer Region (City/Country)"
+msgstr "Consumer Region (City/Country)"
+
+#. module: farm_marketing
+msgid "Consumer Story"
+msgstr "Consumer Story"
+
+#. module: farm_marketing
+msgid "Content"
+msgstr "Content"
+
+#. module: farm_marketing
+msgid "Crop Protection"
+msgstr "Crop Protection"
+
+#. module: farm_marketing
+msgid "Cultivation Season"
+msgstr "Cultivation Season"
+
+#. module: farm_marketing
+msgid "Custom API"
+msgstr "Custom API"
+
+#. module: farm_marketing
+msgid "Customer:"
+msgstr "Pelanggan:"
+
+#. module: farm_marketing
+msgid "Dark red"
+msgstr "Dark red"
+
+#. module: farm_marketing
+msgid "Demand Ref..."
+msgstr "Demand Ref..."
+
+#. module: farm_marketing
+msgid "Demand Title"
+msgstr "Demand Title"
+
+#. module: farm_marketing
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_marketing
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_marketing
+msgid "E-commerce Platform"
+msgstr "E-commerce Platform"
+
+#. module: farm_marketing
+msgid "EXPORT BLOCK: Order contains products not compliant with %s regulations."
+msgstr "EXPORT BLOCK: Order contains products not compliant with %s regulations."
+
+#. module: farm_marketing
+msgid "Eco-Loyalty: Awarded %s points to customer for saving %.2f kg of food. Calculated carbon offset: %.2f kg CO2e."
+msgstr "Eco-Loyalty: Awarded %s points to customer for saving %.2f kg of food. Calculated carbon offset: %.2f kg CO2e."
+
+#. module: farm_marketing
+msgid "Eco-Points Awarded"
+msgstr "Eco-Points Awarded"
+
+#. module: farm_marketing
+msgid "Error"
+msgstr "Galat"
+
+#. module: farm_marketing
+msgid "Excellent"
+msgstr "Excellent"
+
+#. module: farm_marketing
+msgid "Export Compliant"
+msgstr "Export Compliant"
+
+#. module: farm_marketing
+msgid "External Reference ID"
+msgstr "External Reference ID"
+
+#. module: farm_marketing
+msgid "Fair"
+msgstr "Fair"
+
+#. module: farm_marketing
+msgid "Farm Loyalty Points"
+msgstr "Farm Loyalty Points"
+
+#. module: farm_marketing
+msgid "Farm Operations"
+msgstr "Farm Operations"
+
+#. module: farm_marketing
+msgid "Feedback Date"
+msgstr "Umpan Balik Tanggal"
+
+#. module: farm_marketing
+msgid "Feeding"
+msgstr "Feeding"
+
+#. module: farm_marketing
+msgid "Fertilizing"
+msgstr "Fertilizing"
+
+#. module: farm_marketing
+msgid "Field Operations Calendar"
+msgstr "Field Operations Calendar"
+
+#. module: farm_marketing
+msgid "Freshness Score (1-10)"
+msgstr "Freshness Score (1-10)"
+
+#. module: farm_marketing
+msgid "GI Anti-counterfeit Code"
+msgstr "GI Anti-counterfeit Code"
+
+#. module: farm_marketing
+msgid "GI Anti-counterfeit code generated: %s"
+msgstr "GI Anti-counterfeit code generated: %s"
+
+#. module: farm_marketing
+msgid "GI Code"
+msgstr "GI Code"
+
+#. module: farm_marketing
+msgid "GI Description"
+msgstr "GI Description"
+
+#. module: farm_marketing
+msgid "GI Name"
+msgstr "GI Name"
+
+#. module: farm_marketing
+msgid "GI Registries"
+msgstr "GI Registries"
+
+#. module: farm_marketing
+msgid "GI Registry"
+msgstr "Registri IG"
+
+#. module: farm_marketing
+msgid "GI Secure Code:"
+msgstr "GI Secure Code:"
+
+#. module: farm_marketing
+msgid "Generate GI Code"
+msgstr "Generate GI Code"
+
+#. module: farm_marketing
+msgid "Global Interoperability"
+msgstr "Global Interoperability"
+
+#. module: farm_marketing
+msgid "Good"
+msgstr "Good"
+
+#. module: farm_marketing
+msgid "Government G2B Portal"
+msgstr "Government G2B Portal"
+
+#. module: farm_marketing
+msgid "Great"
+msgstr "Great"
+
+#. module: farm_marketing
+msgid "Green"
+msgstr "Green"
+
+#. module: farm_marketing
+msgid "Grey"
+msgstr "Grey"
+
+#. module: farm_marketing
+msgid "Growth Story Content"
+msgstr "Growth Story Content"
+
+#. module: farm_marketing
+msgid "Growth Story Title"
+msgstr "Growth Story Title"
+
+#. module: farm_marketing
+msgid "Harvest Date"
+msgstr "Panen Tanggal"
+
+#. module: farm_marketing
+msgid "Harvesting"
+msgstr "Harvesting"
+
+#. module: farm_marketing
+msgid "Healthy"
+msgstr "Healthy"
+
+#. module: farm_marketing
+msgid "Integrity Assessment"
+msgstr "Integrity Assessment"
+
+#. module: farm_marketing
+msgid "Integrity Warning: Low Score (%s)"
+msgstr "Integrity Warning: Low Score (%s)"
+
+#. module: farm_marketing
+msgid "Irrigation"
+msgstr "Irigasi"
+
+#. module: farm_marketing
+msgid "Is Locked"
+msgstr "Is Locked"
+
+#. module: farm_marketing
+msgid "Issuing Authority"
+msgstr "Issuing Authority"
+
+#. module: farm_marketing
+msgid "LOYALTY: %s points added to customer."
+msgstr "LOYALTY: %s points added to customer."
+
+#. module: farm_marketing
+msgid "Large Retailer"
+msgstr "Large Retailer"
+
+#. module: farm_marketing
+msgid "Last Synchronization"
+msgstr "Last Synchronization"
+
+#. module: farm_marketing
+msgid "Life Cycle"
+msgstr "Life Cycle"
+
+#. module: farm_marketing
+msgid "Light blue"
+msgstr "Light blue"
+
+#. module: farm_marketing
+msgid "Live View"
+msgstr "Live View"
+
+#. module: farm_marketing
+msgid "Lot %s has an integrity score below 60. Please investigate immediately."
+msgstr "Lot %s has an integrity score below 60. Please investigate immediately."
+
+#. module: farm_marketing
+msgid "Market Connectors"
+msgstr "Market Connectors"
+
+#. module: farm_marketing
+msgid "Market Demand"
+msgstr "Permintaan Pasar"
+
+#. module: farm_marketing
+msgid "Market Demand Matching"
+msgstr "Market Demand Matching"
+
+#. module: farm_marketing
+msgid "Match Production"
+msgstr "Match Production"
+
+#. module: farm_marketing
+msgid "Matched Production Lots"
+msgstr "Matched Production Lots"
+
+#. module: farm_marketing
+msgid "Medical/Prevention"
+msgstr "Medical/Prevention"
+
+#. module: farm_marketing
+msgid "Min Integrity Score Required"
+msgstr "Min Integrity Score Required"
+
+#. module: farm_marketing
+msgid "Near Expiry"
+msgstr "Near Expiry"
+
+#. module: farm_marketing
+msgid "Net Carbon Footprint (kg CO2e)"
+msgstr "Net Carbon Footprint (kg CO2e)"
+
+#. module: farm_marketing
+msgid "No Lot Assigned"
+msgstr "No Lot Assigned"
+
+#. module: farm_marketing
+msgid "Operation:"
+msgstr "Operation:"
+
+#. module: farm_marketing
+msgid "Operations Legend"
+msgstr "Operations Legend"
+
+#. module: farm_marketing
+msgid "Orange"
+msgstr "Orange"
+
+#. module: farm_marketing
+msgid "Order Calendar Template"
+msgstr "Order Calendar Template"
+
+#. module: farm_marketing
+msgid "Order Date:"
+msgstr "Pesanan Tanggal:"
+
+#. module: farm_marketing
+msgid "Order Information"
+msgstr "Pesanan Informasi"
+
+#. module: farm_marketing
+msgid "Order Production Calendar -"
+msgstr "Order Production Calendar -"
+
+#. module: farm_marketing
+msgid "Order Status:"
+msgstr "Pesanan Status:"
+
+#. module: farm_marketing
+msgid "Organic Integrity Score"
+msgstr "Organic Integrity Score"
+
+#. module: farm_marketing
+msgid "Origin"
+msgstr "Asal"
+
+#. module: farm_marketing
+msgid "Our Story"
+msgstr "Our Story"
+
+#. module: farm_marketing
+msgid "Photo Gallery"
+msgstr "Photo Gallery"
+
+#. module: farm_marketing
+msgid "Poor"
+msgstr "Poor"
+
+#. module: farm_marketing
+msgid "Pre-order Reservation"
+msgstr "Pre-order Reservation"
+
+#. module: farm_marketing
+msgid "Premium Brand Lot"
+msgstr "Premium Brand Lot"
+
+#. module: farm_marketing
+msgid "Premium Brand Protection"
+msgstr "Premium Brand Protection"
+
+#. module: farm_marketing
+msgid "Processing from %s"
+msgstr "Processing from %s"
+
+#. module: farm_marketing
+msgid "Product Traceability Portal"
+msgstr "Product Traceability Portal"
+
+#. module: farm_marketing
+msgid "Production Matched"
+msgstr "Production Matched"
+
+#. module: farm_marketing
+msgid "Purple"
+msgstr "Purple"
+
+#. module: farm_marketing
+msgid "QUALITY MISMATCH: Lot %s score (%s) is below required %s."
+msgstr "QUALITY MISMATCH: Lot %s score (%s) is below required %s."
+
+#. module: farm_marketing
+msgid "Quality &amp; Details"
+msgstr "Quality &amp; Details"
+
+#. module: farm_marketing
+msgid "Quality Specifications"
+msgstr "Quality Specifications"
+
+#. module: farm_marketing
+msgid "Quality Trust"
+msgstr "Quality Trust"
+
+#. module: farm_marketing
+msgid "Real-time field operation progress for your order"
+msgstr "Real-time field operation progress for your order"
+
+#. module: farm_marketing
+msgid "Red"
+msgstr "Red"
+
+#. module: farm_marketing
+msgid "Remote Endpoint"
+msgstr "Remote Endpoint"
+
+#. module: farm_marketing
+msgid "Required Date:"
+msgstr "Required Date:"
+
+#. module: farm_marketing
+msgid "Required Delivery Date"
+msgstr "Required Delivery Date"
+
+#. module: farm_marketing
+msgid "Required Integrity"
+msgstr "Required Integrity"
+
+#. module: farm_marketing
+msgid "Requires Organic Cert"
+msgstr "Requires Organic Cert"
+
+#. module: farm_marketing
+msgid "Reservation Expiry"
+msgstr "Reservation Expiry"
+
+#. module: farm_marketing
+msgid "Reserved Lot"
+msgstr "Reserved Lot"
+
+#. module: farm_marketing
+msgid "Slope:"
+msgstr "Slope:"
+
+#. module: farm_marketing
+msgid "Smart Drone Flights"
+msgstr "Smart Drone Flights"
+
+#. module: farm_marketing
+msgid "Soil Preparation (Tillage)"
+msgstr "Soil Preparation (Tillage)"
+
+#. module: farm_marketing
+msgid "Sowing/Planting"
+msgstr "Sowing/Planting"
+
+#. module: farm_marketing
+msgid "Standard factory inspection completed."
+msgstr "Standard factory inspection completed."
+
+#. module: farm_marketing
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_marketing
+msgid "Status:"
+msgstr "Status:"
+
+#. module: farm_marketing
+msgid "Sustainability DNA"
+msgstr "Sustainability DNA"
+
+#. module: farm_marketing
+msgid "Target Price"
+msgstr "Target Price"
+
+#. module: farm_marketing
+msgid "Target Quantity"
+msgstr "Target Quantity"
+
+#. module: farm_marketing
+msgid "Task:"
+msgstr "Task:"
+
+#. module: farm_marketing
+msgid "Taste/Sweetness Score (1-10)"
+msgstr "Taste/Sweetness Score (1-10)"
+
+#. module: farm_marketing
+msgid "Technical Requirements"
+msgstr "Technical Requirements"
+
+#. module: farm_marketing
+msgid "Terroir Profiles"
+msgstr "Terroir Profiles"
+
+#. module: farm_marketing
+msgid "Test Connection"
+msgstr "Test Connection"
+
+#. module: farm_marketing
+msgid "Total Amount:"
+msgstr "Total Amount:"
+
+#. module: farm_marketing
+msgid "Total Interventions"
+msgstr "Total Interventions"
+
+#. module: farm_marketing
+msgid "Traceability"
+msgstr "Ketertelusuran"
+
+#. module: farm_marketing
+msgid "Traceability Passport Data"
+msgstr "Traceability Passport Data"
+
+#. module: farm_marketing
+msgid "Traceability Public Link"
+msgstr "Traceability Public Link"
+
+#. module: farm_marketing
+msgid "Traceability URL"
+msgstr "Traceability URL"
+
+#. module: farm_marketing
+msgid "Traceability is available after delivery confirmation."
+msgstr "Traceability is available after delivery confirmation."
+
+#. module: farm_marketing
+msgid "Track real-time progress of field operations for your order"
+msgstr "Track real-time progress of field operations for your order"
+
+#. module: farm_marketing
+msgid "Type:"
+msgstr "Type:"
+
+#. module: farm_marketing
+msgid "Unknown"
+msgstr "Unknown"
+
+#. module: farm_marketing
+msgid "Water Purity Grade"
+msgstr "Water Purity Grade"
+
+#. module: farm_marketing
+msgid "Water:"
+msgstr "Air:"
+
+#. module: farm_marketing
+msgid "action_generate_gi_code"
+msgstr "action_generate_gi_code"
+
+#. module: farm_marketing
+msgid "action_match_production"
+msgstr "action_match_production"
+
+#. module: farm_marketing
+msgid "action_test_connection"
+msgstr "action_test_connection"
+
+#. module: farm_marketing
+msgid "action_view_traceability"
+msgstr "action_view_traceability"
+
+#. module: farm_marketing
+msgid "active"
+msgstr "active"
+
+#. module: farm_marketing
+msgid "activity_ids"
+msgstr "activity_ids"
+
+#. module: farm_marketing
+msgid "allowed_partner_ids"
+msgstr "allowed_partner_ids"
+
+#. module: farm_marketing
+msgid "api_key"
+msgstr "api_key"
+
+#. module: farm_marketing
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_marketing
+msgid "authority_name"
+msgstr "authority_name"
+
+#. module: farm_marketing
+msgid "brand_integrity"
+msgstr "brand_integrity"
+
+#. module: farm_marketing
+msgid "button_box"
+msgstr "button_box"
+
+#. module: farm_marketing
+msgid "category_id"
+msgstr "category_id"
+
+#. module: farm_marketing
+msgid "certificate_attachment_ids"
+msgstr "certificate_attachment_ids"
+
+#. module: farm_marketing
+msgid "certificates"
+msgstr "certificates"
+
+#. module: farm_marketing
+msgid "code"
+msgstr "code"
+
+#. module: farm_marketing
+msgid "comment"
+msgstr "comment"
+
+#. module: farm_marketing
+msgid "connector_id"
+msgstr "connector_id"
+
+#. module: farm_marketing
+msgid "connector_type"
+msgstr "connector_type"
+
+#. module: farm_marketing
+msgid "consumer_region"
+msgstr "consumer_region"
+
+#. module: farm_marketing
+msgid "create_date"
+msgstr "create_date"
+
+#. module: farm_marketing
+msgid "currency_id"
+msgstr "currency_id"
+
+#. module: farm_marketing
+msgid "delivery_date"
+msgstr "delivery_date"
+
+#. module: farm_marketing
+msgid "description"
+msgstr "description"
+
+#. module: farm_marketing
+msgid "details"
+msgstr "details"
+
+#. module: farm_marketing
+msgid "e.g. West Lake Longjing Tea"
+msgstr "e.g. West Lake Longjing Tea"
+
+#. module: farm_marketing
+msgid "endpoint_url"
+msgstr "endpoint_url"
+
+#. module: farm_marketing
+msgid "entity_audit_status"
+msgstr "entity_audit_status"
+
+#. module: farm_marketing
+msgid "external_id"
+msgstr "external_id"
+
+#. module: farm_marketing
+msgid "freshness_score"
+msgstr "freshness_score"
+
+#. module: farm_marketing
+msgid "gi_registry_id"
+msgstr "gi_registry_id"
+
+#. module: farm_marketing
+msgid "gi_security_code"
+msgstr "gi_security_code"
+
+#. module: farm_marketing
+msgid "inherit_id"
+msgstr "inherit_id"
+
+#. module: farm_marketing
+msgid "integrity_score"
+msgstr "integrity_score"
+
+#. module: farm_marketing
+msgid "is_active"
+msgstr "is_active"
+
+#. module: farm_marketing
+msgid "is_premium_brand"
+msgstr "is_premium_brand"
+
+#. module: farm_marketing
+msgid "is_preorder"
+msgstr "is_preorder"
+
+#. module: farm_marketing
+msgid "is_reserved"
+msgstr "is_reserved"
+
+#. module: farm_marketing
+msgid "last_sync_date"
+msgstr "last_sync_date"
+
+#. module: farm_marketing
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_marketing
+msgid "list,pivot,form"
+msgstr "list,pivot,form"
+
+#. module: farm_marketing
+msgid "lot_id"
+msgstr "lot_id"
+
+#. module: farm_marketing
+msgid "loyalty.program"
+msgstr "loyalty.program"
+
+#. module: farm_marketing
+msgid "loyalty_points"
+msgstr "loyalty_points"
+
+#. module: farm_marketing
+msgid "marketing_image_ids"
+msgstr "marketing_image_ids"
+
+#. module: farm_marketing
+msgid "marketing_story"
+msgstr "marketing_story"
+
+#. module: farm_marketing
+msgid "matched_lot_ids"
+msgstr "matched_lot_ids"
+
+#. module: farm_marketing
+msgid "matched_lots"
+msgstr "matched_lots"
+
+#. module: farm_marketing
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_marketing
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_marketing
+msgid "min_integrity_score"
+msgstr "min_integrity_score"
+
+#. module: farm_marketing
+msgid "model"
+msgstr "model"
+
+#. module: farm_marketing
+msgid "name"
+msgstr "name"
+
+#. module: farm_marketing
+msgid "new"
+msgstr "new"
+
+#. module: farm_marketing
+msgid "order_line"
+msgstr "order_line"
+
+#. module: farm_marketing
+msgid "order_line.product_id"
+msgstr "order_line.product_id"
+
+#. module: farm_marketing
+msgid "partner_id"
+msgstr "partner_id"
+
+#. module: farm_marketing
+msgid "payment_term_id"
+msgstr "payment_term_id"
+
+#. module: farm_marketing
+msgid "product.template"
+msgstr "product.template"
+
+#. module: farm_marketing
+msgid "product_id"
+msgstr "product_id"
+
+#. module: farm_marketing
+msgid "product_template_id"
+msgstr "product_template_id"
+
+#. module: farm_marketing
+msgid "product_uom_qty"
+msgstr "product_uom_qty"
+
+#. module: farm_marketing
+msgid "protection_area_id"
+msgstr "protection_area_id"
+
+#. module: farm_marketing
+msgid "quality_spec"
+msgstr "quality_spec"
+
+#. module: farm_marketing
+msgid "quantity"
+msgstr "quantity"
+
+#. module: farm_marketing
+msgid "quantity_required"
+msgstr "quantity_required"
+
+#. module: farm_marketing
+msgid "rating"
+msgstr "rating"
+
+#. module: farm_marketing
+msgid "ref"
+msgstr "ref"
+
+#. module: farm_marketing
+msgid "required_integrity_score"
+msgstr "required_integrity_score"
+
+#. module: farm_marketing
+msgid "requires_organic"
+msgstr "requires_organic"
+
+#. module: farm_marketing
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_marketing
+msgid "reservation_expiry"
+msgstr "reservation_expiry"
+
+#. module: farm_marketing
+msgid "state"
+msgstr "state"
+
+#. module: farm_marketing
+msgid "story_content"
+msgstr "story_content"
+
+#. module: farm_marketing
+msgid "story_title"
+msgstr "story_title"
+
+#. module: farm_marketing
+msgid "sync_status"
+msgstr "sync_status"
+
+#. module: farm_marketing
+msgid "target"
+msgstr "target"
+
+#. module: farm_marketing
+msgid "target_price"
+msgstr "target_price"
+
+#. module: farm_marketing
+msgid "taste_score"
+msgstr "taste_score"
+
+#. module: farm_marketing
+msgid "traceability_url"
+msgstr "traceability_url"
+
+#. module: farm_marketing
+msgid "uom.uom"
+msgstr "uom.uom"
+
+#. module: farm_marketing
+msgid "uom_id"
+msgstr "uom_id"
+
+#. module: farm_marketing
+msgid "url"
+msgstr "url"
+
+#. module: farm_marketing
+msgid "view_mode"
+msgstr "view_mode"

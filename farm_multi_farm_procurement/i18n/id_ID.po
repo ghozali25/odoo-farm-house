@@ -1,0 +1,1028 @@
+# Translation of farm_multi_farm_procurement to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_multi_farm_procurement 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_multi_farm_procurement
+msgid "Actual Delivery Date"
+msgstr "Actual Delivery Date"
+
+#. module: farm_multi_farm_procurement
+msgid "Aggregated %s micro-demands from members."
+msgstr "Aggregated %s micro-demands from members."
+
+#. module: farm_multi_farm_procurement
+msgid "Agreements"
+msgstr "Agreements"
+
+#. module: farm_multi_farm_procurement
+msgid "Allocated %s %s to Micro-Inventory: %s"
+msgstr "Allocated %s %s to Micro-Inventory: %s"
+
+#. module: farm_multi_farm_procurement
+msgid "Allocation Date"
+msgstr "Allocation Date"
+
+#. module: farm_multi_farm_procurement
+msgid "Amount"
+msgstr "Amount"
+
+#. module: farm_multi_farm_procurement
+msgid "Annual"
+msgstr "Annual"
+
+#. module: farm_multi_farm_procurement
+msgid "Approve Agreement"
+msgstr "Approve Agreement"
+
+#. module: farm_multi_farm_procurement
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_multi_farm_procurement
+msgid "Available From"
+msgstr "Available From"
+
+#. module: farm_multi_farm_procurement
+msgid "Available Until"
+msgstr "Available Until"
+
+#. module: farm_multi_farm_procurement
+msgid "Bi-annual"
+msgstr "Bi-annual"
+
+#. module: farm_multi_farm_procurement
+msgid "Calculate Settlement"
+msgstr "Calculate Settlement"
+
+#. module: farm_multi_farm_procurement
+msgid "Calculated"
+msgstr "Calculated"
+
+#. module: farm_multi_farm_procurement
+msgid "Cancel Agreement"
+msgstr "Cancel Agreement"
+
+#. module: farm_multi_farm_procurement
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_multi_farm_procurement
+msgid "Complete Harvest"
+msgstr "Complete Harvest"
+
+#. module: farm_multi_farm_procurement
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_multi_farm_procurement
+msgid "Confirm"
+msgstr "Confirm"
+
+#. module: farm_multi_farm_procurement
+msgid "Confirm Delivery"
+msgstr "Confirm Delivery"
+
+#. module: farm_multi_farm_procurement
+msgid "Confirmed"
+msgstr "Confirmed"
+
+#. module: farm_multi_farm_procurement
+msgid "Contract Dates"
+msgstr "Contract Dates"
+
+#. module: farm_multi_farm_procurement
+msgid "Contract Farming"
+msgstr "Contract Farming"
+
+#. module: farm_multi_farm_procurement
+msgid "Contract Farming Agreements"
+msgstr "Contract Farming Agreements"
+
+#. module: farm_multi_farm_procurement
+msgid "Contract Parties"
+msgstr "Contract Parties"
+
+#. module: farm_multi_farm_procurement
+msgid "Create Member POs"
+msgstr "Create Member POs"
+
+#. module: farm_multi_farm_procurement
+msgid "Crop and Area Details"
+msgstr "Crop and Area Details"
+
+#. module: farm_multi_farm_procurement
+msgid "Delivered"
+msgstr "Delivered"
+
+#. module: farm_multi_farm_procurement
+msgid "Delivery"
+msgstr "Pengiriman"
+
+#. module: farm_multi_farm_procurement
+msgid "Delivery Confirmed"
+msgstr "Delivery Confirmed"
+
+#. module: farm_multi_farm_procurement
+msgid "Delivery Date"
+msgstr "Pengiriman Tanggal"
+
+#. module: farm_multi_farm_procurement
+msgid "Delivery Notes"
+msgstr "Pengiriman Catatan"
+
+#. module: farm_multi_farm_procurement
+msgid "Demand"
+msgstr "Permintaan"
+
+#. module: farm_multi_farm_procurement
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_multi_farm_procurement
+msgid "Distribution Date"
+msgstr "Distribution Date"
+
+#. module: farm_multi_farm_procurement
+msgid "Distribution Lines"
+msgstr "Distribution Lines"
+
+#. module: farm_multi_farm_procurement
+msgid "Distribution Reference"
+msgstr "Distribution Reference"
+
+#. module: farm_multi_farm_procurement
+msgid "Done"
+msgstr "Selesai"
+
+#. module: farm_multi_farm_procurement
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_multi_farm_procurement
+msgid "Due Date"
+msgstr "Due Date"
+
+#. module: farm_multi_farm_procurement
+msgid "Equipment"
+msgstr "Peralatan"
+
+#. module: farm_multi_farm_procurement
+msgid "Executed"
+msgstr "Executed"
+
+#. module: farm_multi_farm_procurement
+msgid "Expected Delivery Date"
+msgstr "Expected Delivery Date"
+
+#. module: farm_multi_farm_procurement
+msgid "Feed"
+msgstr "Feed"
+
+#. module: farm_multi_farm_procurement
+msgid "Fertilizer"
+msgstr "Fertilizer"
+
+#. module: farm_multi_farm_procurement
+msgid "Financial Breakdown"
+msgstr "Financial Breakdown"
+
+#. module: farm_multi_farm_procurement
+msgid "Financial Summary"
+msgstr "Financial Summary"
+
+#. module: farm_multi_farm_procurement
+msgid "Financial Terms"
+msgstr "Financial Terms"
+
+#. module: farm_multi_farm_procurement
+msgid "From Member"
+msgstr "From Member"
+
+#. module: farm_multi_farm_procurement
+msgid "Hub &amp; Spoke Distributions"
+msgstr "Hub &amp; Spoke Distributions"
+
+#. module: farm_multi_farm_procurement
+msgid "Hub and Spoke Distribution"
+msgstr "Hub and Spoke Distribution"
+
+#. module: farm_multi_farm_procurement
+msgid "Hub and Spoke Distributions"
+msgstr "Hub and Spoke Distributions"
+
+#. module: farm_multi_farm_procurement
+msgid "In Progress"
+msgstr "In Progress"
+
+#. module: farm_multi_farm_procurement
+msgid "In Transit"
+msgstr "In Transit"
+
+#. module: farm_multi_farm_procurement
+msgid "Input Prepayments"
+msgstr "Input Prepayments"
+
+#. module: farm_multi_farm_procurement
+msgid "Internal Marketplace"
+msgstr "Internal Marketplace"
+
+#. module: farm_multi_farm_procurement
+msgid "Is Active"
+msgstr "Is Active"
+
+#. module: farm_multi_farm_procurement
+msgid "Joint Procurement"
+msgstr "Pembelian Bersama"
+
+#. module: farm_multi_farm_procurement
+msgid "Joint Procurement PO"
+msgstr "Joint Procurement PO"
+
+#. module: farm_multi_farm_procurement
+msgid "Joint Procurement POs"
+msgstr "Joint Procurement POs"
+
+#. module: farm_multi_farm_procurement
+msgid "Listing Title"
+msgstr "Listing Title"
+
+#. module: farm_multi_farm_procurement
+msgid "Location"
+msgstr "Lokasi"
+
+#. module: farm_multi_farm_procurement
+msgid "Markup Amount"
+msgstr "Markup Amount"
+
+#. module: farm_multi_farm_procurement
+msgid "Markup Rate (%)"
+msgstr "Markup Rate (%)"
+
+#. module: farm_multi_farm_procurement
+msgid "Match Date"
+msgstr "Match Date"
+
+#. module: farm_multi_farm_procurement
+msgid "Matched"
+msgstr "Matched"
+
+#. module: farm_multi_farm_procurement
+msgid "Member Amount"
+msgstr "Member Amount"
+
+#. module: farm_multi_farm_procurement
+msgid "Member POs"
+msgstr "Member POs"
+
+#. module: farm_multi_farm_procurement
+msgid "Net Amount"
+msgstr "Net Amount"
+
+#. module: farm_multi_farm_procurement
+msgid "Netting Settlement"
+msgstr "Netting Settlement"
+
+#. module: farm_multi_farm_procurement
+msgid "Netting Settlements"
+msgstr "Netting Settlements"
+
+#. module: farm_multi_farm_procurement
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_multi_farm_procurement
+msgid "Open"
+msgstr "Open"
+
+#. module: farm_multi_farm_procurement
+msgid "Other"
+msgstr "Other"
+
+#. module: farm_multi_farm_procurement
+msgid "PO Reference"
+msgstr "PO Reference"
+
+#. module: farm_multi_farm_procurement
+msgid "Payable Amount"
+msgstr "Payable Amount"
+
+#. module: farm_multi_farm_procurement
+msgid "Payable Lines"
+msgstr "Payable Lines"
+
+#. module: farm_multi_farm_procurement
+msgid "Pesticide"
+msgstr "Pesticide"
+
+#. module: farm_multi_farm_procurement
+msgid "Planning &amp; Allocation"
+msgstr "Planning &amp; Allocation"
+
+#. module: farm_multi_farm_procurement
+msgid "Planning Date"
+msgstr "Perencanaan Tanggal"
+
+#. module: farm_multi_farm_procurement
+msgid "Planning Name"
+msgstr "Perencanaan Nama"
+
+#. module: farm_multi_farm_procurement
+msgid "Priority"
+msgstr "Priority"
+
+#. module: farm_multi_farm_procurement
+msgid "Priority Score"
+msgstr "Priority Score"
+
+#. module: farm_multi_farm_procurement
+msgid "Process Settlement"
+msgstr "Process Settlement"
+
+#. module: farm_multi_farm_procurement
+msgid "Processed"
+msgstr "Processed"
+
+#. module: farm_multi_farm_procurement
+msgid "Procurement &amp; Finance"
+msgstr "Procurement &amp; Finance"
+
+#. module: farm_multi_farm_procurement
+msgid "Procurement Date"
+msgstr "Procurement Date"
+
+#. module: farm_multi_farm_procurement
+msgid "Procurement Management"
+msgstr "Procurement Management"
+
+#. module: farm_multi_farm_procurement
+msgid "Procurement Orders"
+msgstr "Procurement Orders"
+
+#. module: farm_multi_farm_procurement
+msgid "Procurement Reference"
+msgstr "Procurement Reference"
+
+#. module: farm_multi_farm_procurement
+msgid "Quality Standards"
+msgstr "Quality Standards"
+
+#. module: farm_multi_farm_procurement
+msgid "Quantity"
+msgstr "Jumlah"
+
+#. module: farm_multi_farm_procurement
+msgid "Quarterly"
+msgstr "Quarterly"
+
+#. module: farm_multi_farm_procurement
+msgid "Receivable Amount"
+msgstr "Receivable Amount"
+
+#. module: farm_multi_farm_procurement
+msgid "Receivable Lines"
+msgstr "Receivable Lines"
+
+#. module: farm_multi_farm_procurement
+msgid "Receiver Signature"
+msgstr "Receiver Signature"
+
+#. module: farm_multi_farm_procurement
+msgid "Remaining Quantity"
+msgstr "Remaining Quantity"
+
+#. module: farm_multi_farm_procurement
+msgid "Repayment"
+msgstr "Repayment"
+
+#. module: farm_multi_farm_procurement
+msgid "Season"
+msgstr "Musim"
+
+#. module: farm_multi_farm_procurement
+msgid "Seeds"
+msgstr "Seeds"
+
+#. module: farm_multi_farm_procurement
+msgid "Sent"
+msgstr "Sent"
+
+#. module: farm_multi_farm_procurement
+msgid "Settle Contract"
+msgstr "Settle Contract"
+
+#. module: farm_multi_farm_procurement
+msgid "Settlement Date"
+msgstr "Settlement Date"
+
+#. module: farm_multi_farm_procurement
+msgid "Settlement Reference"
+msgstr "Settlement Reference"
+
+#. module: farm_multi_farm_procurement
+msgid "Settlements"
+msgstr "Settlements"
+
+#. module: farm_multi_farm_procurement
+msgid "Source Location"
+msgstr "Source Location"
+
+#. module: farm_multi_farm_procurement
+msgid "Start Delivery"
+msgstr "Start Delivery"
+
+#. module: farm_multi_farm_procurement
+msgid "Start Farming"
+msgstr "Start Farming"
+
+#. module: farm_multi_farm_procurement
+msgid "Surplus"
+msgstr "Surplus"
+
+#. module: farm_multi_farm_procurement
+msgid "To Member"
+msgstr "To Member"
+
+#. module: farm_multi_farm_procurement
+msgid "Total Allocated"
+msgstr "Total Allocated"
+
+#. module: farm_multi_farm_procurement
+msgid "Total Amount"
+msgstr "Total Amount"
+
+#. module: farm_multi_farm_procurement
+msgid "Total Available"
+msgstr "Total Available"
+
+#. module: farm_multi_farm_procurement
+msgid "Total Quantity"
+msgstr "Total Jumlah"
+
+#. module: farm_multi_farm_procurement
+msgid "Total Required"
+msgstr "Total Required"
+
+#. module: farm_multi_farm_procurement
+msgid "Unit Price"
+msgstr "Unit Price"
+
+#. module: farm_multi_farm_procurement
+msgid "Yield Commitment"
+msgstr "Yield Commitment"
+
+#. module: farm_multi_farm_procurement
+msgid "Yield Commitments"
+msgstr "Yield Commitments"
+
+#. module: farm_multi_farm_procurement
+msgid "Yield Tracking"
+msgstr "Yield Tracking"
+
+#. module: farm_multi_farm_procurement
+msgid "account.move"
+msgstr "account.move"
+
+#. module: farm_multi_farm_procurement
+msgid "action_approve_agreement"
+msgstr "action_approve_agreement"
+
+#. module: farm_multi_farm_procurement
+msgid "action_calculate_settlement"
+msgstr "action_calculate_settlement"
+
+#. module: farm_multi_farm_procurement
+msgid "action_cancel_agreement"
+msgstr "action_cancel_agreement"
+
+#. module: farm_multi_farm_procurement
+msgid "action_complete_harvest"
+msgstr "action_complete_harvest"
+
+#. module: farm_multi_farm_procurement
+msgid "action_confirm"
+msgstr "action_confirm"
+
+#. module: farm_multi_farm_procurement
+msgid "action_confirm_delivery"
+msgstr "action_confirm_delivery"
+
+#. module: farm_multi_farm_procurement
+msgid "action_create_member_pos"
+msgstr "action_create_member_pos"
+
+#. module: farm_multi_farm_procurement
+msgid "action_process_settlement"
+msgstr "action_process_settlement"
+
+#. module: farm_multi_farm_procurement
+msgid "action_settle_contract"
+msgstr "action_settle_contract"
+
+#. module: farm_multi_farm_procurement
+msgid "action_start_delivery"
+msgstr "action_start_delivery"
+
+#. module: farm_multi_farm_procurement
+msgid "action_start_farming"
+msgstr "action_start_farming"
+
+#. module: farm_multi_farm_procurement
+msgid "activity_ids"
+msgstr "activity_ids"
+
+#. module: farm_multi_farm_procurement
+msgid "actual_revenue"
+msgstr "actual_revenue"
+
+#. module: farm_multi_farm_procurement
+msgid "actual_yield"
+msgstr "actual_yield"
+
+#. module: farm_multi_farm_procurement
+msgid "agreement_id"
+msgstr "agreement_id"
+
+#. module: farm_multi_farm_procurement
+msgid "amount"
+msgstr "amount"
+
+#. module: farm_multi_farm_procurement
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_multi_farm_procurement
+msgid "area"
+msgstr "area"
+
+#. module: farm_multi_farm_procurement
+msgid "button_box"
+msgstr "button_box"
+
+#. module: farm_multi_farm_procurement
+msgid "child_po_ids"
+msgstr "child_po_ids"
+
+#. module: farm_multi_farm_procurement
+msgid "company_id"
+msgstr "company_id"
+
+#. module: farm_multi_farm_procurement
+msgid "contract.farming.agreement"
+msgstr "contract.farming.agreement"
+
+#. module: farm_multi_farm_procurement
+msgid "contract.farming.agreement.form"
+msgstr "contract.farming.agreement.form"
+
+#. module: farm_multi_farm_procurement
+msgid "contract.farming.agreement.tree"
+msgstr "contract.farming.agreement.tree"
+
+#. module: farm_multi_farm_procurement
+msgid "contract.farming.input.prepayment"
+msgstr "contract.farming.input.prepayment"
+
+#. module: farm_multi_farm_procurement
+msgid "contract.farming.input.prepayment.tree"
+msgstr "contract.farming.input.prepayment.tree"
+
+#. module: farm_multi_farm_procurement
+msgid "contract.farming.settlement"
+msgstr "contract.farming.settlement"
+
+#. module: farm_multi_farm_procurement
+msgid "contract.farming.settlement.tree"
+msgstr "contract.farming.settlement.tree"
+
+#. module: farm_multi_farm_procurement
+msgid "contract.farming.yield.commitment"
+msgstr "contract.farming.yield.commitment"
+
+#. module: farm_multi_farm_procurement
+msgid "contract.farming.yield.commitment.tree"
+msgstr "contract.farming.yield.commitment.tree"
+
+#. module: farm_multi_farm_procurement
+msgid "cooperative.entity"
+msgstr "cooperative.entity"
+
+#. module: farm_multi_farm_procurement
+msgid "cooperative.member"
+msgstr "cooperative.member"
+
+#. module: farm_multi_farm_procurement
+msgid "cooperative_id"
+msgstr "cooperative_id"
+
+#. module: farm_multi_farm_procurement
+msgid "cost_plus_margin"
+msgstr "cost_plus_margin"
+
+#. module: farm_multi_farm_procurement
+msgid "crop_type"
+msgstr "crop_type"
+
+#. module: farm_multi_farm_procurement
+msgid "delivered_quantity"
+msgstr "delivered_quantity"
+
+#. module: farm_multi_farm_procurement
+msgid "delivery_confirmed"
+msgstr "delivery_confirmed"
+
+#. module: farm_multi_farm_procurement
+msgid "delivery_date"
+msgstr "delivery_date"
+
+#. module: farm_multi_farm_procurement
+msgid "description"
+msgstr "description"
+
+#. module: farm_multi_farm_procurement
+msgid "destination_member_id"
+msgstr "destination_member_id"
+
+#. module: farm_multi_farm_procurement
+msgid "distribution_date"
+msgstr "distribution_date"
+
+#. module: farm_multi_farm_procurement
+msgid "distribution_lines"
+msgstr "distribution_lines"
+
+#. module: farm_multi_farm_procurement
+msgid "due_date"
+msgstr "due_date"
+
+#. module: farm_multi_farm_procurement
+msgid "end_date"
+msgstr "end_date"
+
+#. module: farm_multi_farm_procurement
+msgid "enterprise_share"
+msgstr "enterprise_share"
+
+#. module: farm_multi_farm_procurement
+msgid "expected_yield"
+msgstr "expected_yield"
+
+#. module: farm_multi_farm_procurement
+msgid "farmer_id"
+msgstr "farmer_id"
+
+#. module: farm_multi_farm_procurement
+msgid "farmer_share"
+msgstr "farmer_share"
+
+#. module: farm_multi_farm_procurement
+msgid "fixed_price"
+msgstr "fixed_price"
+
+#. module: farm_multi_farm_procurement
+msgid "harvest_date"
+msgstr "harvest_date"
+
+#. module: farm_multi_farm_procurement
+msgid "hub.spoke.distribution"
+msgstr "hub.spoke.distribution"
+
+#. module: farm_multi_farm_procurement
+msgid "hub.spoke.distribution.form"
+msgstr "hub.spoke.distribution.form"
+
+#. module: farm_multi_farm_procurement
+msgid "hub.spoke.distribution.line"
+msgstr "hub.spoke.distribution.line"
+
+#. module: farm_multi_farm_procurement
+msgid "hub.spoke.distribution.tree"
+msgstr "hub.spoke.distribution.tree"
+
+#. module: farm_multi_farm_procurement
+msgid "input_prepayment_ids"
+msgstr "input_prepayment_ids"
+
+#. module: farm_multi_farm_procurement
+msgid "input_prepayment_paid"
+msgstr "input_prepayment_paid"
+
+#. module: farm_multi_farm_procurement
+msgid "input_prepayment_remaining"
+msgstr "input_prepayment_remaining"
+
+#. module: farm_multi_farm_procurement
+msgid "input_prepayment_total"
+msgstr "input_prepayment_total"
+
+#. module: farm_multi_farm_procurement
+msgid "input_type"
+msgstr "input_type"
+
+#. module: farm_multi_farm_procurement
+msgid "internal.marketplace"
+msgstr "internal.marketplace"
+
+#. module: farm_multi_farm_procurement
+msgid "internal.marketplace.transaction"
+msgstr "internal.marketplace.transaction"
+
+#. module: farm_multi_farm_procurement
+msgid "internal.settlement"
+msgstr "internal.settlement"
+
+#. module: farm_multi_farm_procurement
+msgid "joint.procurement"
+msgstr "joint.procurement"
+
+#. module: farm_multi_farm_procurement
+msgid "joint.procurement.line"
+msgstr "joint.procurement.line"
+
+#. module: farm_multi_farm_procurement
+msgid "joint.procurement.po"
+msgstr "joint.procurement.po"
+
+#. module: farm_multi_farm_procurement
+msgid "joint.procurement.po.form"
+msgstr "joint.procurement.po.form"
+
+#. module: farm_multi_farm_procurement
+msgid "joint.procurement.po.member"
+msgstr "joint.procurement.po.member"
+
+#. module: farm_multi_farm_procurement
+msgid "joint.procurement.po.tree"
+msgstr "joint.procurement.po.tree"
+
+#. module: farm_multi_farm_procurement
+msgid "lines"
+msgstr "lines"
+
+#. module: farm_multi_farm_procurement
+msgid "list"
+msgstr "list"
+
+#. module: farm_multi_farm_procurement
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_multi_farm_procurement
+msgid "marketplace.demand.match"
+msgstr "marketplace.demand.match"
+
+#. module: farm_multi_farm_procurement
+msgid "member_id"
+msgstr "member_id"
+
+#. module: farm_multi_farm_procurement
+msgid "member_pos"
+msgstr "member_pos"
+
+#. module: farm_multi_farm_procurement
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_multi_farm_procurement
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_multi_farm_procurement
+msgid "model"
+msgstr "model"
+
+#. module: farm_multi_farm_procurement
+msgid "name"
+msgstr "name"
+
+#. module: farm_multi_farm_procurement
+msgid "net_amount"
+msgstr "net_amount"
+
+#. module: farm_multi_farm_procurement
+msgid "netting.payable.line"
+msgstr "netting.payable.line"
+
+#. module: farm_multi_farm_procurement
+msgid "netting.receivable.line"
+msgstr "netting.receivable.line"
+
+#. module: farm_multi_farm_procurement
+msgid "netting.settlement"
+msgstr "netting.settlement"
+
+#. module: farm_multi_farm_procurement
+msgid "netting.settlement.form"
+msgstr "netting.settlement.form"
+
+#. module: farm_multi_farm_procurement
+msgid "netting.settlement.tree"
+msgstr "netting.settlement.tree"
+
+#. module: farm_multi_farm_procurement
+msgid "notes"
+msgstr "notes"
+
+#. module: farm_multi_farm_procurement
+msgid "paid_amount"
+msgstr "paid_amount"
+
+#. module: farm_multi_farm_procurement
+msgid "payable_amount"
+msgstr "payable_amount"
+
+#. module: farm_multi_farm_procurement
+msgid "payable_lines"
+msgstr "payable_lines"
+
+#. module: farm_multi_farm_procurement
+msgid "payables"
+msgstr "payables"
+
+#. module: farm_multi_farm_procurement
+msgid "payment_method"
+msgstr "payment_method"
+
+#. module: farm_multi_farm_procurement
+msgid "performance_rate"
+msgstr "performance_rate"
+
+#. module: farm_multi_farm_procurement
+msgid "planting_area"
+msgstr "planting_area"
+
+#. module: farm_multi_farm_procurement
+msgid "planting_date"
+msgstr "planting_date"
+
+#. module: farm_multi_farm_procurement
+msgid "pricing_method"
+msgstr "pricing_method"
+
+#. module: farm_multi_farm_procurement
+msgid "procurement.allocation.line"
+msgstr "procurement.allocation.line"
+
+#. module: farm_multi_farm_procurement
+msgid "procurement.planning"
+msgstr "procurement.planning"
+
+#. module: farm_multi_farm_procurement
+msgid "procurement.planning.line"
+msgstr "procurement.planning.line"
+
+#. module: farm_multi_farm_procurement
+msgid "procurement_date"
+msgstr "procurement_date"
+
+#. module: farm_multi_farm_procurement
+msgid "product.product"
+msgstr "product.product"
+
+#. module: farm_multi_farm_procurement
+msgid "product_id"
+msgstr "product_id"
+
+#. module: farm_multi_farm_procurement
+msgid "projected_revenue"
+msgstr "projected_revenue"
+
+#. module: farm_multi_farm_procurement
+msgid "quality_compliance"
+msgstr "quality_compliance"
+
+#. module: farm_multi_farm_procurement
+msgid "quality_grade"
+msgstr "quality_grade"
+
+#. module: farm_multi_farm_procurement
+msgid "quality_standards"
+msgstr "quality_standards"
+
+#. module: farm_multi_farm_procurement
+msgid "quantity"
+msgstr "quantity"
+
+#. module: farm_multi_farm_procurement
+msgid "receivable_amount"
+msgstr "receivable_amount"
+
+#. module: farm_multi_farm_procurement
+msgid "receivable_lines"
+msgstr "receivable_lines"
+
+#. module: farm_multi_farm_procurement
+msgid "receivables"
+msgstr "receivables"
+
+#. module: farm_multi_farm_procurement
+msgid "remaining_amount"
+msgstr "remaining_amount"
+
+#. module: farm_multi_farm_procurement
+msgid "repayment_due_date"
+msgstr "repayment_due_date"
+
+#. module: farm_multi_farm_procurement
+msgid "repayment_method"
+msgstr "repayment_method"
+
+#. module: farm_multi_farm_procurement
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_multi_farm_procurement
+msgid "revenue_share_percentage"
+msgstr "revenue_share_percentage"
+
+#. module: farm_multi_farm_procurement
+msgid "settlement_amount"
+msgstr "settlement_amount"
+
+#. module: farm_multi_farm_procurement
+msgid "settlement_date"
+msgstr "settlement_date"
+
+#. module: farm_multi_farm_procurement
+msgid "settlement_direction"
+msgstr "settlement_direction"
+
+#. module: farm_multi_farm_procurement
+msgid "settlement_ids"
+msgstr "settlement_ids"
+
+#. module: farm_multi_farm_procurement
+msgid "source_document"
+msgstr "source_document"
+
+#. module: farm_multi_farm_procurement
+msgid "source_location"
+msgstr "source_location"
+
+#. module: farm_multi_farm_procurement
+msgid "start_date"
+msgstr "start_date"
+
+#. module: farm_multi_farm_procurement
+msgid "state"
+msgstr "state"
+
+#. module: farm_multi_farm_procurement
+msgid "supplier_id"
+msgstr "supplier_id"
+
+#. module: farm_multi_farm_procurement
+msgid "total_allocated"
+msgstr "total_allocated"
+
+#. module: farm_multi_farm_procurement
+msgid "total_amount"
+msgstr "total_amount"
+
+#. module: farm_multi_farm_procurement
+msgid "total_quantity"
+msgstr "total_quantity"
+
+#. module: farm_multi_farm_procurement
+msgid "type"
+msgstr "type"
+
+#. module: farm_multi_farm_procurement
+msgid "unit_price"
+msgstr "unit_price"
+
+#. module: farm_multi_farm_procurement
+msgid "uom.uom"
+msgstr "uom.uom"
+
+#. module: farm_multi_farm_procurement
+msgid "verification_status"
+msgstr "verification_status"
+
+#. module: farm_multi_farm_procurement
+msgid "view_mode"
+msgstr "view_mode"
+
+#. module: farm_multi_farm_procurement
+msgid "yield_commitment"
+msgstr "yield_commitment"
+
+#. module: farm_multi_farm_procurement
+msgid "yield_commitment_ids"
+msgstr "yield_commitment_ids"
+
+#. module: farm_multi_farm_procurement
+msgid "yield_performance"
+msgstr "yield_performance"

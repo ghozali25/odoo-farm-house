@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="farm_mobile.CheckinButton" owl="1">
+        <div class="o_farm_mobile_checkin_container d-flex flex-column gap-2 mb-3">
+            <!-- Offline status indicator [US-007-05] -->
+            <div class="alert alert-warning py-1 mb-2 text-center" t-if="!state.is_online">
+                <i class="fa fa-wifi me-1"/> Working Offline
+            </div>
+
+            <!-- Offline work guide list [US-007-07] -->
+            <div class="offline_kb_section p-2 mb-3 border rounded bg-light" t-if="!state.is_online and state.offline_articles.length > 0">
+                <h6 class="text-primary border-bottom pb-1"><i class="fa fa-book me-1"/> Offline SOPs</h6>
+                <div t-foreach="state.offline_articles" t-as="art" t-key="art.id" class="small mb-2">
+                    <strong t-esc="art.name"/>
+                    <div class="text-muted" style="max-height: 100px; overflow-y: auto;" t-out="art.content"/>
+                </div>
+            </div>
+            
+            <!-- Hidden camera input input -->
+            <input type="file" id="mobile_camera_input" accept="image/*" capture="camera" style="display:none;"/>
+            
+            <button class="btn btn-primary btn-lg p-4" 
+                    t-if="!props.record.data.current_check_in_id"
+                    t-att-disabled="state.is_loading"
+                    t-on-click="onSiteCheckin"
+                    style="font-size: 1.5rem; border-radius: 15px;">
+                <i class="fa fa-map-marker me-2"/>
+                <span t-if="!state.is_loading">🚩 Site Check-in</span>
+                <span t-else="">Processing...</span>
+            </button>
+
+            <button class="btn btn-success btn-lg p-4" 
+                    t-att-disabled="state.is_loading"
+                    t-on-click="onCaptureEvidence"
+                    style="font-size: 1.5rem; border-radius: 15px;">
+                <i class="fa fa-camera me-2"/>
+                <span t-if="!state.is_loading">📸 Capture Evidence</span>
+                <span t-else="">Processing...</span>
+            </button>
+
+            <div t-if="state.gps_info" class="text-center text-muted small">
+                <t t-esc="state.gps_info"/>
+            </div>
+        </div>
+    </t>
+</templates>

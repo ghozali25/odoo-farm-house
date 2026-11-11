@@ -1,0 +1,972 @@
+# Translation of farm_multi_farm_financial (farm_multi_farm_financial) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_multi_farm_financial 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_multi_farm_financial
+msgid "Account Move"
+msgstr "Perpindahan Akun"
+
+#. module: farm_multi_farm_financial
+msgid "Action Needed"
+msgstr "Dibutuhkan Aksi"
+
+#. module: farm_multi_farm_financial
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_multi_farm_financial
+msgid "Activities"
+msgstr "Aktivitas"
+
+#. module: farm_multi_farm_financial
+msgid "Activity Exception Decoration"
+msgstr "Dekorasi Pengecualian Aktivitas"
+
+#. module: farm_multi_farm_financial
+msgid "Activity State"
+msgstr "Status Aktivitas"
+
+#. module: farm_multi_farm_financial
+msgid "Activity Type Icon"
+msgstr "Ikon Jenis Aktivitas"
+
+#. module: farm_multi_farm_financial
+msgid "Actual Majority (%)"
+msgstr "Actual Majority (%)"
+
+#. module: farm_multi_farm_financial
+msgid "Amount"
+msgstr "Jumlah"
+
+#. module: farm_multi_farm_financial
+msgid "Annual"
+msgstr "Tahunan"
+
+#. module: farm_multi_farm_financial
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_multi_farm_financial
+msgid "Asset"
+msgstr "Aset"
+
+#. module: farm_multi_farm_financial
+msgid "Asset Disposal"
+msgstr "Asset Disposal"
+
+#. module: farm_multi_farm_financial
+msgid "Attachment Count"
+msgstr "Jumlah Lampiran"
+
+#. module: farm_multi_farm_financial
+msgid "Attachment Name"
+msgstr "Nama Lampiran"
+
+#. module: farm_multi_farm_financial
+msgid "Attachments"
+msgstr "Lampiran"
+
+#. module: farm_multi_farm_financial
+msgid "Audit Date"
+msgstr "Tanggal Audit"
+
+#. module: farm_multi_farm_financial
+msgid "Audit Notes"
+msgstr "Catatan Audit"
+
+#. module: farm_multi_farm_financial
+msgid "Audit Result"
+msgstr "Hasil Audit"
+
+#. module: farm_multi_farm_financial
+msgid "Authorized"
+msgstr "Diotorisasi"
+
+#. module: farm_multi_farm_financial
+msgid "Available Amount"
+msgstr "Jumlah Tersedia"
+
+#. module: farm_multi_farm_financial
+msgid "Basis for Allocation"
+msgstr "Alokasi untuk Dasar"
+
+#. module: farm_multi_farm_financial
+msgid "Board Meeting"
+msgstr "Rapat Dewan"
+
+#. module: farm_multi_farm_financial
+msgid "Bonus Share"
+msgstr "Saham Bonus"
+
+#. module: farm_multi_farm_financial
+msgid "Borrowed Loans"
+msgstr "Pinjaman Dipinjam"
+
+#. module: farm_multi_farm_financial
+msgid "Borrower Member"
+msgstr "Borrower Member"
+
+#. module: farm_multi_farm_financial
+msgid "Bullet Payment"
+msgstr "Bullet Payment"
+
+#. module: farm_multi_farm_financial
+msgid "Bylaw Change"
+msgstr "Bylaw Change"
+
+#. module: farm_multi_farm_financial
+msgid "Calculated"
+msgstr "Calculated"
+
+#. module: farm_multi_farm_financial
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_multi_farm_financial
+msgid "Cannot close credit with outstanding balance."
+msgstr "Cannot close credit with outstanding balance."
+
+#. module: farm_multi_farm_financial
+msgid "Cash Dividend"
+msgstr "Dividen Kas"
+
+#. module: farm_multi_farm_financial
+msgid "Centralized Sales Revenue Split Executed: Generated %s payouts to contributing farmers."
+msgstr "Centralized Sales Revenue Split Executed: Generated %s payouts to contributing farmers."
+
+#. module: farm_multi_farm_financial
+msgid "Closed"
+msgstr "Ditutup"
+
+#. module: farm_multi_farm_financial
+msgid "Comments"
+msgstr "Comments"
+
+#. module: farm_multi_farm_financial
+msgid "Completed"
+msgstr "Completed"
+
+#. module: farm_multi_farm_financial
+msgid "Compliance Status"
+msgstr "Status Kepatuhan"
+
+#. module: farm_multi_farm_financial
+msgid "Confirmed"
+msgstr "Dikonfirmasi"
+
+#. module: farm_multi_farm_financial
+msgid "Contract"
+msgstr "Contract"
+
+#. module: farm_multi_farm_financial
+msgid "Cooperative"
+msgstr "Koperasi"
+
+#. module: farm_multi_farm_financial
+msgid "Cooperative Decision"
+msgstr "Keputusan Koperasi"
+
+#. module: farm_multi_farm_financial
+msgid "Cooperative Decisions"
+msgstr "Cooperative Decisions"
+
+#. module: farm_multi_farm_financial
+msgid "Cooperative Entity"
+msgstr "Entitas Koperasi"
+
+#. module: farm_multi_farm_financial
+msgid "Cooperative Member"
+msgstr "Anggota Koperasi"
+
+#. module: farm_multi_farm_financial
+msgid "Cooperative Treasury"
+msgstr "Bendahara Koperasi"
+
+#. module: farm_multi_farm_financial
+msgid "Created by"
+msgstr "Oleh Dibuat"
+
+#. module: farm_multi_farm_financial
+msgid "Created on"
+msgstr "Pada Dibuat"
+
+#. module: farm_multi_farm_financial
+msgid "Credit Limit"
+msgstr "Batas Kredit"
+
+#. module: farm_multi_farm_financial
+msgid "Credit Line"
+msgstr "Baris Kredit"
+
+#. module: farm_multi_farm_financial
+msgid "Credit Reference"
+msgstr "Referensi Kredit"
+
+#. module: farm_multi_farm_financial
+msgid "Credit Transaction"
+msgstr "Transaksi Kredit"
+
+#. module: farm_multi_farm_financial
+msgid "Credit Transactions"
+msgstr "Transaksi Kredit"
+
+#. module: farm_multi_farm_financial
+msgid "Credit transaction would exceed limit. Approval required."
+msgstr "Credit transaction would exceed limit. Approval required."
+
+#. module: farm_multi_farm_financial
+msgid "Currency"
+msgstr "Mata Uang"
+
+#. module: farm_multi_farm_financial
+msgid "Current Balance"
+msgstr "Saldo Saat ini"
+
+#. module: farm_multi_farm_financial
+msgid "Decision"
+msgstr "Keputusan"
+
+#. module: farm_multi_farm_financial
+msgid "Decision Audit"
+msgstr "Audit Keputusan"
+
+#. module: farm_multi_farm_financial
+msgid "Decision Description"
+msgstr "Deskripsi Keputusan"
+
+#. module: farm_multi_farm_financial
+msgid "Decision Title"
+msgstr "Judul Keputusan"
+
+#. module: farm_multi_farm_financial
+msgid "Decision Type"
+msgstr "Jenis Keputusan"
+
+#. module: farm_multi_farm_financial
+msgid "Defaulted"
+msgstr "Defaulted"
+
+#. module: farm_multi_farm_financial
+msgid "Delivered"
+msgstr "Delivered"
+
+#. module: farm_multi_farm_financial
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_multi_farm_financial
+msgid "Disbursed"
+msgstr "Disbursed"
+
+#. module: farm_multi_farm_financial
+msgid "Disbursement"
+msgstr "Pencairan"
+
+#. module: farm_multi_farm_financial
+msgid "Disbursement Date"
+msgstr "Tanggal Pencairan"
+
+#. module: farm_multi_farm_financial
+msgid "Disbursement Lines"
+msgstr "Baris Pencairan"
+
+#. module: farm_multi_farm_financial
+msgid "Display Name"
+msgstr "Nama Tampilan"
+
+#. module: farm_multi_farm_financial
+msgid "Distributed"
+msgstr "Distributed"
+
+#. module: farm_multi_farm_financial
+msgid "Distribution"
+msgstr "Distribusi"
+
+#. module: farm_multi_farm_financial
+msgid "Distribution Date"
+msgstr "Tanggal Distribusi"
+
+#. module: farm_multi_farm_financial
+msgid "Distribution Name"
+msgstr "Nama Distribusi"
+
+#. module: farm_multi_farm_financial
+msgid "Distribution Type"
+msgstr "Jenis Distribusi"
+
+#. module: farm_multi_farm_financial
+msgid "Dividend Distribution"
+msgstr "Distribusi Dividen"
+
+#. module: farm_multi_farm_financial
+msgid "Dividend Distribution Line"
+msgstr "Baris Distribusi Dividen"
+
+#. module: farm_multi_farm_financial
+msgid "Dividend Distributions"
+msgstr "Dividend Distributions"
+
+#. module: farm_multi_farm_financial
+msgid "Dividend Lines"
+msgstr "Baris Dividen"
+
+#. module: farm_multi_farm_financial
+msgid "Dividend Management"
+msgstr "Manajemen Dividen"
+
+#. module: farm_multi_farm_financial
+msgid "Dividend per Share"
+msgstr "Saham per Dividen"
+
+#. module: farm_multi_farm_financial
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_multi_farm_financial
+msgid "E.g., certified area, production volume"
+msgstr "E.g., certified area, production volume"
+
+#. module: farm_multi_farm_financial
+msgid "End Date"
+msgstr "Tanggal Selesai"
+
+#. module: farm_multi_farm_financial
+msgid "Executed"
+msgstr "Executed"
+
+#. module: farm_multi_farm_financial
+msgid "Expired"
+msgstr "Kedaluwarsa"
+
+#. module: farm_multi_farm_financial
+msgid "FINANCIAL LOCK: Settlement amount exceeds threshold. A Multi-sign Process (%s) has been initiated. Approval required before confirmation."
+msgstr "FINANCIAL LOCK: Settlement amount exceeds threshold. A Multi-sign Process (%s) has been initiated. Approval required before confirmation."
+
+#. module: farm_multi_farm_financial
+msgid "Financial Management"
+msgstr "Financial Management"
+
+#. module: farm_multi_farm_financial
+msgid "Followers"
+msgstr "Pengikut"
+
+#. module: farm_multi_farm_financial
+msgid "Followers (Partners)"
+msgstr "Followers (Partners)"
+
+#. module: farm_multi_farm_financial
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome icon e.g. fa-tasks"
+
+#. module: farm_multi_farm_financial
+msgid "GOVERNANCE LOCK: Multi-sign process %s is still in status '%s'. Please complete all signatures."
+msgstr "GOVERNANCE LOCK: Multi-sign process %s is still in status '%s'. Please complete all signatures."
+
+#. module: farm_multi_farm_financial
+msgid "General Assembly"
+msgstr "General Assembly"
+
+#. module: farm_multi_farm_financial
+msgid "Grace Period (Days)"
+msgstr "Grace Period (Days)"
+
+#. module: farm_multi_farm_financial
+msgid "Has Message"
+msgstr "Pesan Memiliki"
+
+#. module: farm_multi_farm_financial
+msgid "High-Value Settlement Approval: %s"
+msgstr "High-Value Settlement Approval: %s"
+
+#. module: farm_multi_farm_financial
+msgid "Hybrid (Cash + Stock)"
+msgstr "Hybrid (Cash + Stock)"
+
+#. module: farm_multi_farm_financial
+msgid "ID"
+msgstr "ID"
+
+#. module: farm_multi_farm_financial
+msgid "Icon"
+msgstr "Ikon"
+
+#. module: farm_multi_farm_financial
+msgid "Icon to indicate an exception activity."
+msgstr "Icon to indicate an exception activity."
+
+#. module: farm_multi_farm_financial
+msgid "If checked, new messages require your attention."
+msgstr "If checked, new messages require your attention."
+
+#. module: farm_multi_farm_financial
+msgid "If checked, some messages have a delivery error."
+msgstr "If checked, some messages have a delivery error."
+
+#. module: farm_multi_farm_financial
+msgid "In Progress"
+msgstr "In Progress"
+
+#. module: farm_multi_farm_financial
+msgid "In Transit"
+msgstr "In Transit"
+
+#. module: farm_multi_farm_financial
+msgid "Initiated"
+msgstr "Initiated"
+
+#. module: farm_multi_farm_financial
+msgid "Initiator"
+msgstr "Initiator"
+
+#. module: farm_multi_farm_financial
+msgid "Insufficient shares to redeem/transfer"
+msgstr "Insufficient shares to redeem/transfer"
+
+#. module: farm_multi_farm_financial
+msgid "Interest Charge"
+msgstr "Interest Charge"
+
+#. module: farm_multi_farm_financial
+msgid "Interest Rate (%)"
+msgstr "Interest Rate (%)"
+
+#. module: farm_multi_farm_financial
+msgid "Internal Credit"
+msgstr "Kredit Internal"
+
+#. module: farm_multi_farm_financial
+msgid "Internal Credits"
+msgstr "Internal Credits"
+
+#. module: farm_multi_farm_financial
+msgid "Internal Loan"
+msgstr "Pinjaman Internal"
+
+#. module: farm_multi_farm_financial
+msgid "Internal Loans"
+msgstr "Pinjaman Internal"
+
+#. module: farm_multi_farm_financial
+msgid "Internal Marketplace Transaction"
+msgstr "Internal Marketplace Transaction"
+
+#. module: farm_multi_farm_financial
+msgid "Is Completed"
+msgstr "Is Completed"
+
+#. module: farm_multi_farm_financial
+msgid "Is Follower"
+msgstr "Pengikut"
+
+#. module: farm_multi_farm_financial
+msgid "Journal Entry"
+msgstr "Journal Entry"
+
+#. module: farm_multi_farm_financial
+msgid "Large Purchase"
+msgstr "Large Purchase"
+
+#. module: farm_multi_farm_financial
+msgid "Last Updated by"
+msgstr "Oleh Diperbarui Terakhir"
+
+#. module: farm_multi_farm_financial
+msgid "Last Updated on"
+msgstr "Pada Diperbarui Terakhir"
+
+#. module: farm_multi_farm_financial
+msgid "Lender Member"
+msgstr "Lender Member"
+
+#. module: farm_multi_farm_financial
+msgid "Lent Loans"
+msgstr "Lent Loans"
+
+#. module: farm_multi_farm_financial
+msgid "Loan Amount"
+msgstr "Jumlah Pinjaman"
+
+#. module: farm_multi_farm_financial
+msgid "Loan Date"
+msgstr "Tanggal Pinjaman"
+
+#. module: farm_multi_farm_financial
+msgid "Loan Guarantee"
+msgstr "Loan Guarantee"
+
+#. module: farm_multi_farm_financial
+msgid "Loan Reference"
+msgstr "Referensi Pinjaman"
+
+#. module: farm_multi_farm_financial
+msgid "Loan amount must be positive."
+msgstr "Loan amount must be positive."
+
+#. module: farm_multi_farm_financial
+msgid "Mandatory approval for settlement of %s %s"
+msgstr "Mandatory approval for settlement of %s %s"
+
+#. module: farm_multi_farm_financial
+msgid "Marketplace Transactions (Requester)"
+msgstr "Marketplace Transactions (Requester)"
+
+#. module: farm_multi_farm_financial
+msgid "Marketplace Transactions (Supplier)"
+msgstr "Marketplace Transactions (Supplier)"
+
+#. module: farm_multi_farm_financial
+msgid "Maturity Date"
+msgstr "Tanggal Kematangan"
+
+#. module: farm_multi_farm_financial
+msgid "Meeting Date"
+msgstr "Tanggal Rapat"
+
+#. module: farm_multi_farm_financial
+msgid "Meeting minutes, photos, etc."
+msgstr "Meeting minutes, photos, etc."
+
+#. module: farm_multi_farm_financial
+msgid "Member"
+msgstr "Anggota"
+
+#. module: farm_multi_farm_financial
+msgid "Message Delivery error"
+msgstr "Kesalahan Pengiriman Pesan"
+
+#. module: farm_multi_farm_financial
+msgid "Messages"
+msgstr "Pesan"
+
+#. module: farm_multi_farm_financial
+msgid "Monthly"
+msgstr "Bulanan"
+
+#. module: farm_multi_farm_financial
+msgid "Multi-Entity Financial Management"
+msgstr "Multi-Entity Financial Management"
+
+#. module: farm_multi_farm_financial
+msgid "Multi-Entity Financial Management Module"
+msgstr "Multi-Entity Financial Management Module"
+
+#. module: farm_multi_farm_financial
+msgid "Multi-sign Line"
+msgstr "Multi-sign Line"
+
+#. module: farm_multi_farm_financial
+msgid "Multi-sign Process"
+msgstr "Multi-sign Process"
+
+#. module: farm_multi_farm_financial
+msgid "Multi-sign Processes"
+msgstr "Multi-sign Processes"
+
+#. module: farm_multi_farm_financial
+msgid "My Activity Deadline"
+msgstr "Tenggat Aktivitas Saya"
+
+#. module: farm_multi_farm_financial
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_multi_farm_financial
+msgid "Next Activity Deadline"
+msgstr "Tenggat Aktivitas Berikutnya"
+
+#. module: farm_multi_farm_financial
+msgid "Next Activity Summary"
+msgstr "Ringkasan Aktivitas Berikutnya"
+
+#. module: farm_multi_farm_financial
+msgid "Next Activity Type"
+msgstr "Jenis Aktivitas Berikutnya"
+
+#. module: farm_multi_farm_financial
+msgid "Number of Actions"
+msgstr "Aksi dari Nomor"
+
+#. module: farm_multi_farm_financial
+msgid "Number of Attendees"
+msgstr "Number of Attendees"
+
+#. module: farm_multi_farm_financial
+msgid "Number of errors"
+msgstr "Kesalahan dari Nomor"
+
+#. module: farm_multi_farm_financial
+msgid "Number of messages requiring action"
+msgstr "Aksi membutuhkan pesan dari Nomor"
+
+#. module: farm_multi_farm_financial
+msgid "Number of messages with delivery error"
+msgstr "Kesalahan pengiriman dengan pesan dari Nomor"
+
+#. module: farm_multi_farm_financial
+msgid "Other"
+msgstr "Lainnya"
+
+#. module: farm_multi_farm_financial
+msgid "Paid"
+msgstr "Dibayar"
+
+#. module: farm_multi_farm_financial
+msgid "Paid Amount"
+msgstr "Jumlah Dibayar"
+
+#. module: farm_multi_farm_financial
+msgid "Paid Date"
+msgstr "Tanggal Dibayar"
+
+#. module: farm_multi_farm_financial
+msgid "Passed"
+msgstr "Passed"
+
+#. module: farm_multi_farm_financial
+msgid "Payment amount exceeds total dividend amount"
+msgstr "Jumlah dividen total melebihi jumlah Pembayaran"
+
+#. module: farm_multi_farm_financial
+msgid "Payment amount must be positive"
+msgstr "Payment amount must be positive"
+
+#. module: farm_multi_farm_financial
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_multi_farm_financial
+msgid "Percentage needed for decision to pass"
+msgstr "Percentage needed for decision to pass"
+
+#. module: farm_multi_farm_financial
+msgid "Percentage that voted in favor"
+msgstr "Percentage that voted in favor"
+
+#. module: farm_multi_farm_financial
+msgid "Postponed"
+msgstr "Postponed"
+
+#. module: farm_multi_farm_financial
+msgid "Price per share at transaction time"
+msgstr "Waktu transaksi pada saham per Harga"
+
+#. module: farm_multi_farm_financial
+msgid "Process"
+msgstr "Proses"
+
+#. module: farm_multi_farm_financial
+msgid "Process Description"
+msgstr "Deskripsi Proses"
+
+#. module: farm_multi_farm_financial
+msgid "Process Title"
+msgstr "Judul Proses"
+
+#. module: farm_multi_farm_financial
+msgid "Process Type"
+msgstr "Jenis Proses"
+
+#. module: farm_multi_farm_financial
+msgid "Product"
+msgstr "Produk"
+
+#. module: farm_multi_farm_financial
+msgid "Proportion of dividend based on shares held"
+msgstr "Proportion of dividend based on shares held"
+
+#. module: farm_multi_farm_financial
+msgid "Proportion of dividend based on trading volume"
+msgstr "Proportion of dividend based on trading volume"
+
+#. module: farm_multi_farm_financial
+msgid "Purchase Order"
+msgstr "Pesanan Pembelian"
+
+#. module: farm_multi_farm_financial
+msgid "Quantity"
+msgstr "Kuantitas"
+
+#. module: farm_multi_farm_financial
+msgid "Quarterly"
+msgstr "Quarterly"
+
+#. module: farm_multi_farm_financial
+msgid "Ratings"
+msgstr "Peringkat"
+
+#. module: farm_multi_farm_financial
+msgid "Receipt Confirmed"
+msgstr "Dikonfirmasi Penerimaan"
+
+#. module: farm_multi_farm_financial
+msgid "Receipt Date"
+msgstr "Tanggal Penerimaan"
+
+#. module: farm_multi_farm_financial
+msgid "Redemption"
+msgstr "Redemption"
+
+#. module: farm_multi_farm_financial
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_multi_farm_financial
+msgid "Related Document"
+msgstr "Related Document"
+
+#. module: farm_multi_farm_financial
+msgid "Repaid"
+msgstr "Repaid"
+
+#. module: farm_multi_farm_financial
+msgid "Repayment"
+msgstr "Repayment"
+
+#. module: farm_multi_farm_financial
+msgid "Repayment Schedule"
+msgstr "Repayment Schedule"
+
+#. module: farm_multi_farm_financial
+msgid "Requester Member"
+msgstr "Requester Member"
+
+#. module: farm_multi_farm_financial
+msgid "Required Majority (%)"
+msgstr "Required Majority (%)"
+
+#. module: farm_multi_farm_financial
+msgid "Required Signers"
+msgstr "Required Signers"
+
+#. module: farm_multi_farm_financial
+msgid "Requires Review"
+msgstr "Requires Review"
+
+#. module: farm_multi_farm_financial
+msgid "Resolution Text"
+msgstr "Resolution Text"
+
+#. module: farm_multi_farm_financial
+msgid "Responsible User"
+msgstr "Pengguna Penanggung jawab"
+
+#. module: farm_multi_farm_financial
+msgid "Reversed"
+msgstr "Reversed"
+
+#. module: farm_multi_farm_financial
+msgid "SMS Delivery error"
+msgstr "Kesalahan Pengiriman SMS"
+
+#. module: farm_multi_farm_financial
+msgid "Sale Order"
+msgstr "Pesanan Penjualan"
+
+#. module: farm_multi_farm_financial
+msgid "Settlement"
+msgstr "Penyelesaian"
+
+#. module: farm_multi_farm_financial
+msgid "Share Price"
+msgstr "Harga Saham"
+
+#. module: farm_multi_farm_financial
+msgid "Share Ratio"
+msgstr "Rasio Saham"
+
+#. module: farm_multi_farm_financial
+msgid "Share Transaction"
+msgstr "Transaksi Saham"
+
+#. module: farm_multi_farm_financial
+msgid "Share Transactions"
+msgstr "Transaksi Saham"
+
+#. module: farm_multi_farm_financial
+msgid "Share-based Amount"
+msgstr "Share-based Amount"
+
+#. module: farm_multi_farm_financial
+msgid "Shares Count"
+msgstr "Jumlah Saham"
+
+#. module: farm_multi_farm_financial
+msgid "Sign Lines"
+msgstr "Sign Lines"
+
+#. module: farm_multi_farm_financial
+msgid "Sign Processes"
+msgstr "Sign Processes"
+
+#. module: farm_multi_farm_financial
+msgid "Signature Date"
+msgstr "Signature Date"
+
+#. module: farm_multi_farm_financial
+msgid "Signer"
+msgstr "Signer"
+
+#. module: farm_multi_farm_financial
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+#. module: farm_multi_farm_financial
+msgid "State"
+msgstr "Status"
+
+#. module: farm_multi_farm_financial
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_multi_farm_financial
+msgid "Stock Dividend"
+msgstr "Dividen Stok"
+
+#. module: farm_multi_farm_financial
+msgid "Stock Picking"
+msgstr "Stock Picking"
+
+#. module: farm_multi_farm_financial
+msgid "Subscription"
+msgstr "Subscription"
+
+#. module: farm_multi_farm_financial
+msgid "Subsidy Disbursement"
+msgstr "Pencairan Subsidi"
+
+#. module: farm_multi_farm_financial
+msgid "Subsidy Disbursement Line"
+msgstr "Baris Pencairan Subsidi"
+
+#. module: farm_multi_farm_financial
+msgid "Subsidy Disbursements"
+msgstr "Subsidy Disbursements"
+
+#. module: farm_multi_farm_financial
+msgid "Subsidy Lines"
+msgstr "Baris Subsidi"
+
+#. module: farm_multi_farm_financial
+msgid "Subsidy Name"
+msgstr "Nama Subsidi"
+
+#. module: farm_multi_farm_financial
+msgid "Subsidy Source"
+msgstr "Sumber Subsidi"
+
+#. module: farm_multi_farm_financial
+msgid "Supervisory Committee"
+msgstr "Supervisory Committee"
+
+#. module: farm_multi_farm_financial
+msgid "Supplier Member"
+msgstr "Anggota Pemasok"
+
+#. module: farm_multi_farm_financial
+msgid "Suspended"
+msgstr "Ditangguhkan"
+
+#. module: farm_multi_farm_financial
+msgid "Total Amount"
+msgstr "Jumlah Total"
+
+#. module: farm_multi_farm_financial
+msgid "Total Dividend Amount"
+msgstr "Jumlah Dividen Total"
+
+#. module: farm_multi_farm_financial
+msgid "Total Members"
+msgstr "Anggota Total"
+
+#. module: farm_multi_farm_financial
+msgid "Total Subsidy Amount"
+msgstr "Jumlah Subsidi Total"
+
+#. module: farm_multi_farm_financial
+msgid "Trading Volume Ratio"
+msgstr "Trading Volume Ratio"
+
+#. module: farm_multi_farm_financial
+msgid "Trading-based Amount"
+msgstr "Trading-based Amount"
+
+#. module: farm_multi_farm_financial
+msgid "Transaction Date"
+msgstr "Tanggal Transaksi"
+
+#. module: farm_multi_farm_financial
+msgid "Transaction Reference"
+msgstr "Referensi Transaksi"
+
+#. module: farm_multi_farm_financial
+msgid "Transaction Type"
+msgstr "Jenis Transaksi"
+
+#. module: farm_multi_farm_financial
+msgid "Transfer In"
+msgstr "Transfer In"
+
+#. module: farm_multi_farm_financial
+msgid "Transfer Out"
+msgstr "Transfer Out"
+
+#. module: farm_multi_farm_financial
+msgid "Treasury & Governance"
+msgstr "Treasury & Governance"
+
+#. module: farm_multi_farm_financial
+msgid "Treasury Accounts"
+msgstr "Treasury Accounts"
+
+#. module: farm_multi_farm_financial
+msgid "Treasury Name"
+msgstr "Nama Bendahara"
+
+#. module: farm_multi_farm_financial
+msgid "Type of the exception activity on record."
+msgstr "Type of the exception activity on record."
+
+#. module: farm_multi_farm_financial
+msgid "Unauthorized"
+msgstr "Unauthorized"
+
+#. module: farm_multi_farm_financial
+msgid "Unit Price"
+msgstr "Harga Satuan"
+
+#. module: farm_multi_farm_financial
+msgid "Usage"
+msgstr "Usage"
+
+#. module: farm_multi_farm_financial
+msgid "Utilized Amount"
+msgstr "Utilized Amount"
+
+#. module: farm_multi_farm_financial
+msgid "Utilized amount cannot exceed credit limit."
+msgstr "Utilized amount cannot exceed credit limit."
+
+#. module: farm_multi_farm_financial
+msgid "Voting Result"
+msgstr "Voting Result"
+
+#. module: farm_multi_farm_financial
+msgid "Website Messages"
+msgstr "Pesan Situs web"
+
+#. module: farm_multi_farm_financial
+msgid "Website communication history"
+msgstr "Riwayat komunikasi Situs web"

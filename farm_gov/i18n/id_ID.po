@@ -1,0 +1,384 @@
+# Translation of farm_gov to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_gov 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_gov
+msgid "API Endpoint URL"
+msgstr "API Endpoint URL"
+
+#. module: farm_gov
+msgid "API Key / Secret"
+msgstr "API Key / Secret"
+
+#. module: farm_gov
+msgid "Audit Date"
+msgstr "Audit Tanggal"
+
+#. module: farm_gov
+msgid "Audit Rejected"
+msgstr "Audit Ditolak"
+
+#. module: farm_gov
+msgid "Audit Snapshots"
+msgstr "Audit Snapshots"
+
+#. module: farm_gov
+msgid "Auditor Comments"
+msgstr "Auditor Comments"
+
+#. module: farm_gov
+msgid "Automated Gov Report: Successfully transmitted to %s"
+msgstr "Automated Gov Report: Successfully transmitted to %s"
+
+#. module: farm_gov
+msgid "Automation Settings"
+msgstr "Automation Settings"
+
+#. module: farm_gov
+msgid "Awaiting Review"
+msgstr "Awaiting Review"
+
+#. module: farm_gov
+msgid "CRITICAL: Digital signature mismatch. Data integrity compromised."
+msgstr "CRITICAL: Digital signature mismatch. Data integrity compromised."
+
+#. module: farm_gov
+msgid "Digital Signature (Hash)"
+msgstr "Digital Signature (Hash)"
+
+#. module: farm_gov
+msgid "ESG/Carbon Registry"
+msgstr "ESG/Carbon Registry"
+
+#. module: farm_gov
+msgid "Enable Automated Reporting"
+msgstr "Enable Automated Reporting"
+
+#. module: farm_gov
+msgid "Endpoint Configuration"
+msgstr "Endpoint Configuration"
+
+#. module: farm_gov
+msgid "Flagged for Inspection"
+msgstr "Flagged for Inspection"
+
+#. module: farm_gov
+msgid "Gov Oversight"
+msgstr "Gov Oversight"
+
+#. module: farm_gov
+msgid "Government Audit Snapshots"
+msgstr "Government Audit Snapshots"
+
+#. module: farm_gov
+msgid "Government Platforms"
+msgstr "Government Platforms"
+
+#. module: farm_gov
+msgid "Government Reporting: Push Pending Snapshots"
+msgstr "Government Reporting: Push Pending Snapshots"
+
+#. module: farm_gov
+msgid "Government Review"
+msgstr "Government Review"
+
+#. module: farm_gov
+msgid "Integrity Verified"
+msgstr "Integrity Verified"
+
+#. module: farm_gov
+msgid "Manual Only"
+msgstr "Manual Only"
+
+#. module: farm_gov
+msgid "National Traceability"
+msgstr "National Traceability"
+
+#. module: farm_gov
+msgid "No active government platform configuration found with 'Automated Reporting' enabled."
+msgstr "No active government platform configuration found with 'Automated Reporting' enabled."
+
+#. module: farm_gov
+msgid "On Harvesting Output"
+msgstr "On Harvesting Output"
+
+#. module: farm_gov
+msgid "On Intervention Completion"
+msgstr "On Intervention Completion"
+
+#. module: farm_gov
+msgid "Operator"
+msgstr "Operator"
+
+#. module: farm_gov
+msgid "Platform Config"
+msgstr "Platform Config"
+
+#. module: farm_gov
+msgid "Platform Name"
+msgstr "Platform Name"
+
+#. module: farm_gov
+msgid "Platform Response"
+msgstr "Platform Response"
+
+#. module: farm_gov
+msgid "Provincial Regulation"
+msgstr "Provincial Regulation"
+
+#. module: farm_gov
+msgid "Push to Gov Platform"
+msgstr "Push to Gov Platform"
+
+#. module: farm_gov
+msgid "Raw Evidence Data"
+msgstr "Raw Evidence Data"
+
+#. module: farm_gov
+msgid "Report Timestamp"
+msgstr "Report Timestamp"
+
+#. module: farm_gov
+msgid "Reported"
+msgstr "Reported"
+
+#. module: farm_gov
+msgid "Reported to Gov"
+msgstr "Reported to Gov"
+
+#. module: farm_gov
+msgid "Reporting Status"
+msgstr "Reporting Status"
+
+#. module: farm_gov
+msgid "Snapshot Payload (JSON)"
+msgstr "Snapshot Payload (JSON)"
+
+#. module: farm_gov
+msgid "Snapshot Reference"
+msgstr "Snapshot Reference"
+
+#. module: farm_gov
+msgid "Source ID"
+msgstr "Source ID"
+
+#. module: farm_gov
+msgid "Source Information"
+msgstr "Source Information"
+
+#. module: farm_gov
+msgid "Source Model"
+msgstr "Source Model"
+
+#. module: farm_gov
+msgid "Subsidy Management"
+msgstr "Subsidy Management"
+
+#. module: farm_gov
+msgid "System Integrity"
+msgstr "System Integrity"
+
+#. module: farm_gov
+msgid "Tampering Detected!"
+msgstr "Tampering Detected!"
+
+#. module: farm_gov
+msgid "The audit snapshot is intact and has not been tampered with."
+msgstr "The audit snapshot is intact and has not been tampered with."
+
+#. module: farm_gov
+msgid "Verified by Gov"
+msgstr "Verified by Gov"
+
+#. module: farm_gov
+msgid "Verify Data Integrity"
+msgstr "Verify Data Integrity"
+
+#. module: farm_gov
+msgid "action_push_to_platform"
+msgstr "action_push_to_platform"
+
+#. module: farm_gov
+msgid "action_verify_signature"
+msgstr "action_verify_signature"
+
+#. module: farm_gov
+msgid "active"
+msgstr "active"
+
+#. module: farm_gov
+msgid "api_key"
+msgstr "api_key"
+
+#. module: farm_gov
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_gov
+msgid "auto_report_enabled"
+msgstr "auto_report_enabled"
+
+#. module: farm_gov
+msgid "button_box"
+msgstr "button_box"
+
+#. module: farm_gov
+msgid "code"
+msgstr "code"
+
+#. module: farm_gov
+msgid "create_date"
+msgstr "create_date"
+
+#. module: farm_gov
+msgid "digital_signature"
+msgstr "digital_signature"
+
+#. module: farm_gov
+msgid "e.g. Provincial Agri Platform"
+msgstr "e.g. Provincial Agri Platform"
+
+#. module: farm_gov
+msgid "endpoint_url"
+msgstr "endpoint_url"
+
+#. module: farm_gov
+msgid "farm_id"
+msgstr "farm_id"
+
+#. module: farm_gov
+msgid "gov.audit.snapshot"
+msgstr "gov.audit.snapshot"
+
+#. module: farm_gov
+msgid "gov.audit.snapshot.form"
+msgstr "gov.audit.snapshot.form"
+
+#. module: farm_gov
+msgid "gov.audit.snapshot.list"
+msgstr "gov.audit.snapshot.list"
+
+#. module: farm_gov
+msgid "gov.platform.config"
+msgstr "gov.platform.config"
+
+#. module: farm_gov
+msgid "gov.platform.config.form"
+msgstr "gov.platform.config.form"
+
+#. module: farm_gov
+msgid "gov.platform.config.list"
+msgstr "gov.platform.config.list"
+
+#. module: farm_gov
+msgid "gov_auditor_id"
+msgstr "gov_auditor_id"
+
+#. module: farm_gov
+msgid "gov_comments"
+msgstr "gov_comments"
+
+#. module: farm_gov
+msgid "gov_review_status"
+msgstr "gov_review_status"
+
+#. module: farm_gov
+msgid "hours"
+msgstr "hours"
+
+#. module: farm_gov
+msgid "interval_number"
+msgstr "interval_number"
+
+#. module: farm_gov
+msgid "interval_type"
+msgstr "interval_type"
+
+#. module: farm_gov
+msgid "is_reported"
+msgstr "is_reported"
+
+#. module: farm_gov
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_gov
+msgid "location_id"
+msgstr "location_id"
+
+#. module: farm_gov
+msgid "model"
+msgstr "model"
+
+#. module: farm_gov
+msgid "model._cron_push_pending_reports()"
+msgstr "model._cron_push_pending_reports()"
+
+#. module: farm_gov
+msgid "name"
+msgstr "name"
+
+#. module: farm_gov
+msgid "operator_name"
+msgstr "operator_name"
+
+#. module: farm_gov
+msgid "payload"
+msgstr "payload"
+
+#. module: farm_gov
+msgid "platform_response"
+msgstr "platform_response"
+
+#. module: farm_gov
+msgid "platform_type"
+msgstr "platform_type"
+
+#. module: farm_gov
+msgid "report_date"
+msgstr "report_date"
+
+#. module: farm_gov
+msgid "report_on_event"
+msgstr "report_on_event"
+
+#. module: farm_gov
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_gov
+msgid "review"
+msgstr "review"
+
+#. module: farm_gov
+msgid "snapshot_data"
+msgstr "snapshot_data"
+
+#. module: farm_gov
+msgid "snapshot_ref"
+msgstr "snapshot_ref"
+
+#. module: farm_gov
+msgid "state"
+msgstr "state"
+
+#. module: farm_gov
+msgid "user_id"
+msgstr "user_id"
+
+#. module: farm_gov
+msgid "view_mode"
+msgstr "view_mode"

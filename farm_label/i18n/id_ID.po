@@ -1,0 +1,232 @@
+# Translation of farm_label to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_label 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_label
+msgid "(Agri-Product Certificate of Conformity)"
+msgstr "(Agri-Product Certificate of Conformity)"
+
+#. module: farm_label
+msgid "(Producer Seal)"
+msgstr "(Producer Seal)"
+
+#. module: farm_label
+msgid "Agri-Product Certificate of Conformity"
+msgstr "Agri-Product Certificate of Conformity"
+
+#. module: farm_label
+msgid "Agricultural Labels"
+msgstr "Agricultural Labels"
+
+#. module: farm_label
+msgid "Animal Ear Tags"
+msgstr "Animal Ear Tags"
+
+#. module: farm_label
+msgid "Area:"
+msgstr "Area:"
+
+#. module: farm_label
+msgid "Batch No:"
+msgstr "Batch No:"
+
+#. module: farm_label
+msgid "Commitment:"
+msgstr "Commitment:"
+
+#. module: farm_label
+msgid "Coordinates:"
+msgstr "Coordinates:"
+
+#. module: farm_label
+msgid "Date:"
+msgstr "Tanggal:"
+
+#. module: farm_label
+msgid "Days"
+msgstr "Days"
+
+#. module: farm_label
+msgid "Edible Agricultural Product Compliance Certificate"
+msgstr "Edible Agricultural Product Compliance Certificate"
+
+#. module: farm_label
+msgid "Expiry:"
+msgstr "Expiry:"
+
+#. module: farm_label
+msgid "Grade:"
+msgstr "Grade:"
+
+#. module: farm_label
+msgid "Ingredients:"
+msgstr "Ingredients:"
+
+#. module: farm_label
+msgid "Label Background Image"
+msgstr "Label Background Image"
+
+#. module: farm_label
+msgid "Land Parcel Signage"
+msgstr "Land Parcel Signage"
+
+#. module: farm_label
+msgid "Latest pH:"
+msgstr "Latest pH:"
+
+#. module: farm_label
+msgid "License No:"
+msgstr "License No:"
+
+#. module: farm_label
+msgid "Location ID"
+msgstr "Location ID"
+
+#. module: farm_label
+msgid "Lot:"
+msgstr "Lot:"
+
+#. module: farm_label
+msgid "Net Content:"
+msgstr "Net Content:"
+
+#. module: farm_label
+msgid "Origin:"
+msgstr "Asal:"
+
+#. module: farm_label
+msgid "Parcel Details"
+msgstr "Parcel Details"
+
+#. module: farm_label
+msgid "Phone:"
+msgstr "Phone:"
+
+#. module: farm_label
+msgid "Producer Code:"
+msgstr "Produsen Kode:"
+
+#. module: farm_label
+msgid "Producer:"
+msgstr "Produsen:"
+
+#. module: farm_label
+msgid "Product/Lot Labels"
+msgstr "Product/Lot Labels"
+
+#. module: farm_label
+msgid "Product:"
+msgstr "Produk:"
+
+#. module: farm_label
+msgid "Production Date:"
+msgstr "Production Date:"
+
+#. module: farm_label
+msgid "Quantity:"
+msgstr "Jumlah:"
+
+#. module: farm_label
+msgid "Scan for Story"
+msgstr "Scan for Story"
+
+#. module: farm_label
+msgid "Scan for Traceability:"
+msgstr "Scan for Traceability:"
+
+#. module: farm_label
+msgid "Shelf Life:"
+msgstr "Shelf Life:"
+
+#. module: farm_label
+msgid "Soil:"
+msgstr "Tanah:"
+
+#. module: farm_label
+msgid "Standard Code:"
+msgstr "Standar Kode:"
+
+#. module: farm_label
+msgid "Storage:"
+msgstr "Penyimpanan:"
+
+#. module: farm_label
+msgid "Trace Source"
+msgstr "Trace Source"
+
+#. module: farm_label
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_label
+msgid "binding_model_id"
+msgstr "binding_model_id"
+
+#. module: farm_label
+msgid "binding_type"
+msgstr "binding_type"
+
+#. module: farm_label
+msgid "farm_label.report_agri_lot_label"
+msgstr "farm_label.report_agri_lot_label"
+
+#. module: farm_label
+msgid "farm_label.report_animal_tag"
+msgstr "farm_label.report_animal_tag"
+
+#. module: farm_label
+msgid "farm_label.report_china_agri_certificate"
+msgstr "farm_label.report_china_agri_certificate"
+
+#. module: farm_label
+msgid "farm_label.report_land_parcel_sign"
+msgstr "farm_label.report_land_parcel_sign"
+
+#. module: farm_label
+msgid "inherit_id"
+msgstr "inherit_id"
+
+#. module: farm_label
+msgid "label_background_image"
+msgstr "label_background_image"
+
+#. module: farm_label
+msgid "model"
+msgstr "model"
+
+#. module: farm_label
+msgid "name"
+msgstr "name"
+
+#. module: farm_label
+msgid "qweb-pdf"
+msgstr "qweb-pdf"
+
+#. module: farm_label
+msgid "report"
+msgstr "report"
+
+#. module: farm_label
+msgid "report_file"
+msgstr "report_file"
+
+#. module: farm_label
+msgid "report_name"
+msgstr "report_name"
+
+#. module: farm_label
+msgid "report_type"
+msgstr "report_type"

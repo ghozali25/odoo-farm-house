@@ -1,0 +1,72 @@
+# Translation of farm_greenhouse (farm_greenhouse) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_greenhouse 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_greenhouse
+msgid "API Endpoint is required"
+msgstr "API Endpoint is required"
+
+#. module: farm_greenhouse
+msgid "Automated Greenhouse Environment and Nutrient Control"
+msgstr "Automated Greenhouse Environment and Nutrient Control"
+
+#. module: farm_greenhouse
+msgid "Failed to submit report to government platform: %s"
+msgstr "Failed to submit report to government platform: %s"
+
+#. module: farm_greenhouse
+msgid "Farm Smart Greenhouse Control"
+msgstr "Farm Smart Greenhouse Control"
+
+#. module: farm_greenhouse
+msgid "GDD lagging behind target rate (%.2f < %.2f)"
+msgstr "GDD lagging behind target rate (%.2f < %.2f)"
+
+#. module: farm_greenhouse
+msgid "Government Data Report"
+msgstr "Laporan Data Pemerintah"
+
+#. module: farm_greenhouse
+msgid "L5 AUTONOMOUS: Boosting greenhouse temperature to catch up GDD."
+msgstr "L5 AUTONOMOUS: Boosting greenhouse temperature to catch up GDD."
+
+#. module: farm_greenhouse
+msgid "No data payload prepared. Please prepare data first."
+msgstr "No data payload prepared. Please prepare data first."
+
+#. module: farm_greenhouse
+msgid "Only pending reports can be submitted. Current status: %s"
+msgstr "Only pending reports can be submitted. Current status: %s"
+
+#. module: farm_greenhouse
+msgid "Please select at least one e-commerce platform"
+msgstr "Please select at least one e-commerce platform"
+
+#. module: farm_greenhouse
+msgid "Prepare E-commerce Listing"
+msgstr "Prepare E-commerce Listing"
+
+#. module: farm_greenhouse
+msgid "Submission failed with error: %s"
+msgstr "Submission failed with error: %s"
+
+#. module: farm_greenhouse
+msgid "Submission failed. Status: %s, Response: %s"
+msgstr "Submission failed. Status: %s, Response: %s"
+
+#. module: farm_greenhouse
+msgid "Successfully submitted to government platform. Response: %s"
+msgstr "Successfully submitted to government platform. Response: %s"

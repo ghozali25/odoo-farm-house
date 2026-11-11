@@ -1,0 +1,524 @@
+# Translation of farm_mobile to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_mobile 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_mobile
+msgid "Audio Call"
+msgstr "Audio Call"
+
+#. module: farm_mobile
+msgid "CALL"
+msgstr "CALL"
+
+#. module: farm_mobile
+msgid "CI/%(year)s/"
+msgstr "CI/%(year)s/"
+
+#. module: farm_mobile
+msgid "Call ID"
+msgstr "Call ID"
+
+#. module: farm_mobile
+msgid "Chat/Messages"
+msgstr "Chat/Messages"
+
+#. module: farm_mobile
+msgid "Check-in History"
+msgstr "Check-in History"
+
+#. module: farm_mobile
+msgid "Check-in ID"
+msgstr "Check-in ID"
+
+#. module: farm_mobile
+msgid "Check-in Latitude"
+msgstr "Check-in Latitude"
+
+#. module: farm_mobile
+msgid "Check-in Logs"
+msgstr "Check-in Logs"
+
+#. module: farm_mobile
+msgid "Check-in Longitude"
+msgstr "Check-in Longitude"
+
+#. module: farm_mobile
+msgid "Check-in Time"
+msgstr "Check-in Time"
+
+#. module: farm_mobile
+msgid "Check-in: %s"
+msgstr "Check-in: %s"
+
+#. module: farm_mobile
+msgid "Check-out Time"
+msgstr "Check-out Time"
+
+#. module: farm_mobile
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_mobile
+msgid "Confirmed"
+msgstr "Confirmed"
+
+#. module: farm_mobile
+msgid "Consultation Notes"
+msgstr "Consultation Notes"
+
+#. module: farm_mobile
+msgid "Data Payload (JSON)"
+msgstr "Data Payload (JSON)"
+
+#. module: farm_mobile
+msgid "Detailed notes from the expert..."
+msgstr "Detailed notes from the expert..."
+
+#. module: farm_mobile
+msgid "Distance to Site (m)"
+msgstr "Distance to Site (m)"
+
+#. module: farm_mobile
+msgid "Duration (s)"
+msgstr "Duration (s)"
+
+#. module: farm_mobile
+msgid "Duration (seconds)"
+msgstr "Duration (seconds)"
+
+#. module: farm_mobile
+msgid "EVIDENCE INTEGRITY ALERT: Evidence hash mismatch detected. Data may have been tampered with."
+msgstr "EVIDENCE INTEGRITY ALERT: Evidence hash mismatch detected. Data may have been tampered with."
+
+#. module: farm_mobile
+msgid "End Time"
+msgstr "End Time"
+
+#. module: farm_mobile
+msgid "Error"
+msgstr "Galat"
+
+#. module: farm_mobile
+msgid "Error Details"
+msgstr "Error Details"
+
+#. module: farm_mobile
+msgid "Evidence Hash"
+msgstr "Hash Bukti"
+
+#. module: farm_mobile
+msgid "Evidence Photo"
+msgstr "Foto Bukti"
+
+#. module: farm_mobile
+msgid "Evidence: %s"
+msgstr "Evidence: %s"
+
+#. module: farm_mobile
+msgid "Expert Call"
+msgstr "Panggilan Pakar"
+
+#. module: farm_mobile
+msgid "Expert Calls"
+msgstr "Expert Calls"
+
+#. module: farm_mobile
+msgid "Expert Consultations"
+msgstr "Expert Consultations"
+
+#. module: farm_mobile
+msgid "Fail"
+msgstr "Fail"
+
+#. module: farm_mobile
+msgid "Farm Site Check-in"
+msgstr "Farm Site Check-in"
+
+#. module: farm_mobile
+msgid "Feeding record"
+msgstr "Feeding record"
+
+#. module: farm_mobile
+msgid "Field Mobile Workbench"
+msgstr "Field Mobile Workbench"
+
+#. module: farm_mobile
+msgid "Field Operations"
+msgstr "Field Operations"
+
+#. module: farm_mobile
+msgid "Field Workbench"
+msgstr "Field Workbench"
+
+#. module: farm_mobile
+msgid "Field Worklog"
+msgstr "Field Worklog"
+
+#. module: farm_mobile
+msgid "Harvest record"
+msgstr "Harvest record"
+
+#. module: farm_mobile
+msgid "IOT Status"
+msgstr "IOT Status"
+
+#. module: farm_mobile
+msgid "In Progress"
+msgstr "In Progress"
+
+#. module: farm_mobile
+msgid "Location Verified"
+msgstr "Lokasi Terverifikasi"
+
+#. module: farm_mobile
+msgid "Missed"
+msgstr "Missed"
+
+#. module: farm_mobile
+msgid "Mobile Delivery"
+msgstr "Mobile Pengiriman"
+
+#. module: farm_mobile
+msgid "Mobile Workbench"
+msgstr "Mobile Workbench"
+
+#. module: farm_mobile
+msgid "My Tasks"
+msgstr "My Tasks"
+
+#. module: farm_mobile
+msgid "My Tasks Today"
+msgstr "My Tasks Today"
+
+#. module: farm_mobile
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_mobile
+msgid "No expert calls recorded yet."
+msgstr "No expert calls recorded yet."
+
+#. module: farm_mobile
+msgid "Offline SOPs"
+msgstr "Offline SOPs"
+
+#. module: farm_mobile
+msgid "Offline Sync Queue"
+msgstr "Offline Sync Queue"
+
+#. module: farm_mobile
+msgid "On-site Verified"
+msgstr "On-site Verified"
+
+#. module: farm_mobile
+msgid "Pass"
+msgstr "Pass"
+
+#. module: farm_mobile
+msgid "Pending Sync"
+msgstr "Menunggu Sinkronisasi"
+
+#. module: farm_mobile
+msgid "Photo Proof"
+msgstr "Photo Proof"
+
+#. module: farm_mobile
+msgid "Processing..."
+msgstr "Processing..."
+
+#. module: farm_mobile
+msgid "QC Checks"
+msgstr "QC Checks"
+
+#. module: farm_mobile
+msgid "Quick Feeding"
+msgstr "Quick Feeding"
+
+#. module: farm_mobile
+msgid "Recording Link"
+msgstr "Recording Link"
+
+#. module: farm_mobile
+msgid "SAFETY BLOCK: Please complete the PRE-OP CHECKLIST for %s before starting!"
+msgstr "SAFETY BLOCK: Please complete the PRE-OP CHECKLIST for %s before starting!"
+
+#. module: farm_mobile
+msgid "SUB"
+msgstr "SUB"
+
+#. module: farm_mobile
+msgid "Site Check-in Logs"
+msgstr "Site Check-in Logs"
+
+#. module: farm_mobile
+msgid "Site Evidence"
+msgstr "Site Evidence"
+
+#. module: farm_mobile
+msgid "Site Photo"
+msgstr "Site Photo"
+
+#. module: farm_mobile
+msgid "Start Time"
+msgstr "Start Time"
+
+#. module: farm_mobile
+msgid "Submission ID"
+msgstr "Submission ID"
+
+#. module: farm_mobile
+msgid "Sync Queue"
+msgstr "Antrean Sinkronisasi"
+
+#. module: farm_mobile
+msgid "Synced"
+msgstr "Synced"
+
+#. module: farm_mobile
+msgid "Time"
+msgstr "Time"
+
+#. module: farm_mobile
+msgid "Video Call"
+msgstr "Video Call"
+
+#. module: farm_mobile
+msgid "WARNING: Worker checked in OUTSIDE the parcel boundary!"
+msgstr "WARNING: Worker checked in OUTSIDE the parcel boundary!"
+
+#. module: farm_mobile
+msgid "Welcome,"
+msgstr "Welcome,"
+
+#. module: farm_mobile
+msgid "Working Offline"
+msgstr "Working Offline"
+
+#. module: farm_mobile
+msgid "[('user_ids', 'in', [uid]), ('is_closed', '=', False)]"
+msgstr "[('user_ids', 'in', [uid]), ('is_closed', '=', False)]"
+
+#. module: farm_mobile
+msgid "action_mobile_check_out"
+msgstr "action_mobile_check_out"
+
+#. module: farm_mobile
+msgid "activity_ids"
+msgstr "activity_ids"
+
+#. module: farm_mobile
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_mobile
+msgid "call_type"
+msgstr "call_type"
+
+#. module: farm_mobile
+msgid "check_in_ids"
+msgstr "check_in_ids"
+
+#. module: farm_mobile
+msgid "check_in_time"
+msgstr "check_in_time"
+
+#. module: farm_mobile
+msgid "check_out_time"
+msgstr "check_out_time"
+
+#. module: farm_mobile
+msgid "checkins"
+msgstr "checkins"
+
+#. module: farm_mobile
+msgid "code"
+msgstr "code"
+
+#. module: farm_mobile
+msgid "company_id"
+msgstr "company_id"
+
+#. module: farm_mobile
+msgid "context"
+msgstr "context"
+
+#. module: farm_mobile
+msgid "current_check_in_id"
+msgstr "current_check_in_id"
+
+#. module: farm_mobile
+msgid "domain"
+msgstr "domain"
+
+#. module: farm_mobile
+msgid "duration"
+msgstr "duration"
+
+#. module: farm_mobile
+msgid "end_time"
+msgstr "end_time"
+
+#. module: farm_mobile
+msgid "evidence_ids"
+msgstr "evidence_ids"
+
+#. module: farm_mobile
+msgid "expert_id"
+msgstr "expert_id"
+
+#. module: farm_mobile
+msgid "farm_mobile.CheckinButton"
+msgstr "farm_mobile.CheckinButton"
+
+#. module: farm_mobile
+msgid "farm_mobile_checkin"
+msgstr "farm_mobile_checkin"
+
+#. module: farm_mobile
+msgid "field_evidence"
+msgstr "field_evidence"
+
+#. module: farm_mobile
+msgid "form"
+msgstr "form"
+
+#. module: farm_mobile
+msgid "help"
+msgstr "help"
+
+#. module: farm_mobile
+msgid "hr.employee"
+msgstr "hr.employee"
+
+#. module: farm_mobile
+msgid "inherit_id"
+msgstr "inherit_id"
+
+#. module: farm_mobile
+msgid "intervention_id"
+msgstr "intervention_id"
+
+#. module: farm_mobile
+msgid "is_on_site"
+msgstr "is_on_site"
+
+#. module: farm_mobile
+msgid "kanban,form"
+msgstr "kanban,form"
+
+#. module: farm_mobile
+msgid "kanban-box"
+msgstr "kanban-box"
+
+#. module: farm_mobile
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_mobile
+msgid "main"
+msgstr "main"
+
+#. module: farm_mobile
+msgid "maintenance.equipment"
+msgstr "maintenance.equipment"
+
+#. module: farm_mobile
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_mobile
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_mobile
+msgid "model"
+msgstr "model"
+
+#. module: farm_mobile
+msgid "name"
+msgstr "name"
+
+#. module: farm_mobile
+msgid "new"
+msgstr "new"
+
+#. module: farm_mobile
+msgid "notes"
+msgstr "notes"
+
+#. module: farm_mobile
+msgid "padding"
+msgstr "padding"
+
+#. module: farm_mobile
+msgid "photo"
+msgstr "photo"
+
+#. module: farm_mobile
+msgid "prefix"
+msgstr "prefix"
+
+#. module: farm_mobile
+msgid "project.task"
+msgstr "project.task"
+
+#. module: farm_mobile
+msgid "recording_url"
+msgstr "recording_url"
+
+#. module: farm_mobile
+msgid "res_id"
+msgstr "res_id"
+
+#. module: farm_mobile
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_mobile
+msgid "start_time"
+msgstr "start_time"
+
+#. module: farm_mobile
+msgid "status"
+msgstr "status"
+
+#. module: farm_mobile
+msgid "taken_at"
+msgstr "taken_at"
+
+#. module: farm_mobile
+msgid "target"
+msgstr "target"
+
+#. module: farm_mobile
+msgid "view_mode"
+msgstr "view_mode"
+
+#. module: farm_mobile
+msgid "worker_id"
+msgstr "worker_id"
+
+#. module: farm_mobile
+msgid "🏁 Site Check-out"
+msgstr "🏁 Site Check-out"
+
+#. module: farm_mobile
+msgid "📸 Capture Evidence"
+msgstr "📸 Capture Evidence"
+
+#. module: farm_mobile
+msgid "🚩 Site Check-in"
+msgstr "🚩 Site Check-in"

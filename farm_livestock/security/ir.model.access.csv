@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_livestock_asset,farm.livestock.asset,model_farm_livestock_asset,base.group_user,1,1,1,1
+access_farm_breeding_record,farm.breeding.record,model_farm_breeding_record,base.group_user,1,1,1,1
+access_farm_animal_health_wizard,farm.animal.health.wizard,model_farm_animal_health_wizard,base.group_user,1,1,1,1
+access_farm_livestock_event,farm.livestock.event,model_farm_livestock_event,base.group_user,1,1,1,1
+access_farm_livestock_house_env,farm.livestock.house.env,model_farm_livestock_house_env,base.group_user,1,1,1,1
+access_agri_isl_livestock_recipe,agri.isl.livestock.recipe,model_agri_isl_livestock_recipe,base.group_user,1,1,1,1
+access_agri_isl_lot_livestock,agri.isl.lot.livestock,model_agri_isl_lot_livestock,base.group_user,1,1,1,1
+access_agri_isl_livestock_task,agri.isl.livestock.task,model_agri_isl_livestock_task,base.group_user,1,1,1,1
+access_agri_isl_livestock_bom_line,agri.isl.livestock.bom.line,model_agri_isl_livestock_bom_line,base.group_user,1,1,1,1
+access_livestock_death_report,livestock.death.report,model_livestock_death_report,base.group_user,1,1,1,1

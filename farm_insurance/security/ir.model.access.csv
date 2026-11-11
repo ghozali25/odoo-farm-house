@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_crop_yield_insurance_policy,farm.crop.yield.insurance.policy,model_farm_crop_yield_insurance_policy,base.group_user,1,1,1,1
+access_farm_insurance_claim,farm.insurance.claim,model_farm_insurance_claim,base.group_user,1,1,1,1
+access_farm_yield_prediction,farm.yield.prediction,model_farm_yield_prediction,base.group_user,1,1,1,1

@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_multi_farm_quality
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Cooperative"
+msgstr "合作社"
+
+msgid "Member"
+msgstr "成员"
+
+msgid "Minimum合格率 to pass"
+msgstr "通过的最低合格率"
+
+msgid "Product"
+msgstr "产品"
+
+msgid "Product Category"
+msgstr "产品类别"
+
+msgid "Quality Standard"
+msgstr "质量标准"
+
+msgid "Quality Standards"
+msgstr "质量标准"
+
+msgid "State"
+msgstr "状态"
+

@@ -1,0 +1,32 @@
+# Translation of farm_mushroom (farm_mushroom) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_mushroom 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_mushroom
+msgid "Farm Mushroom Cultivation"
+msgstr "Farm Mushroom Cultivation"
+
+#. module: farm_mushroom
+msgid "Mushroom Cultivation Management - Multi-Batch, Environmental Control, Harvest Records, Multi-Harvest Tracking"
+msgstr "Mushroom Cultivation Management - Multi-Batch, Environmental Control, Harvest Records, Multi-Harvest Tracking"
+
+#. module: farm_mushroom
+msgid "Phase changed to %s. Pushed to PLC: %s"
+msgstr "Phase changed to %s. Pushed to PLC: %s"
+
+#. module: farm_mushroom
+msgid "Room %s CO2 (%s) exceeds threshold."
+msgstr "Room %s CO2 (%s) exceeds threshold."

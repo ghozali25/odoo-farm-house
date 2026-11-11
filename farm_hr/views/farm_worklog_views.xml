@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="farm_worklog_view_tree" model="ir.ui.view">
+        <field name="name">farm.worklog.list</field>
+        <field name="model">farm.worklog</field>
+        <field name="arch" type="xml">
+            <list string="Field Worklogs" editable="bottom">
+                <field name="date" />
+                <field name="employee_id" />
+                <field name="task_id" />
+                <field name="work_type" />
+                <field name="quantity" />
+                <field name="uom_id" />
+            </list>
+        </field>
+    </record>
+
+    <record id="action_farm_worklog" model="ir.actions.act_window">
+        <field name="name">Field Worklogs</field>
+        <field name="res_model">farm.worklog</field>
+        <field name="view_mode">list,form,pivot,graph</field>
+    </record>
+
+    <menuitem id="menu_farm_hr_root" name="Labor &amp; HR" sequence="70" />
+    <menuitem id="menu_farm_worklog" name="Field Worklogs" parent="menu_farm_hr_root" action="action_farm_worklog" sequence="10" />
+
+    <!-- Late-binding View Inheritance to inject skills into core task view -->
+    <record id="view_task_form2_inherit_farm_hr" model="ir.ui.view">
+        <field name="name">project.task.form.inherit.farm.hr</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="farm_operation.view_task_form2_inherit_farm_op" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='campaign_id']" position="after">
+                <field name="required_skill_id" options="{'no_create': True}"/>
+                <field name="eligible_worker_ids" widget="many2many_tags" readonly="1" />
+            </xpath>
+        </field>
+    </record>
+</data>
+</odoo>

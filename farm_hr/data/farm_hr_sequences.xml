@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<!-- Sequences for the reference numbers generated in create().
+     Precedent: farm_processing/data/processing_data.xml defines its
+     own sequence the same way instead of relying on the _('New')
+     fallback in the model. -->
+<record id="seq_farm_labor_payment" model="ir.sequence">
+            <field name="name">Farm Labor Payment</field>
+            <field name="code">farm.labor.payment</field>
+            <field name="prefix">LAB/%(year)s/</field>
+            <field name="padding">5</field>
+            <field name="company_id" eval="False" />
+        </record>
+<record id="seq_farm_time_bank" model="ir.sequence">
+            <field name="name">Farm Time Bank Ledger</field>
+            <field name="code">farm.time.bank</field>
+            <field name="prefix">TB/%(year)s/</field>
+            <field name="padding">5</field>
+            <field name="company_id" eval="False" />
+        </record>
+</data>
+</odoo>

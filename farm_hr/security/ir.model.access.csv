@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_worklog,farm.worklog,model_farm_worklog,base.group_user,1,1,1,1
+access_farm_agri_skill,farm.agri.skill,model_farm_agri_skill,base.group_user,1,1,1,1
+access_farm_employee_certificate,farm.employee.certificate,model_farm_employee_certificate,base.group_user,1,1,1,1
+access_farm_wage_rule,farm.wage.rule,model_farm_wage_rule,base.group_user,1,1,1,1
+access_farm_labor_payment,farm.labor.payment,model_farm_labor_payment,base.group_user,1,1,1,1
+access_farm_labor_payment_line,farm.labor.payment.line,model_farm_labor_payment_line,base.group_user,1,1,1,1
+access_farm_time_bank_ledger,farm.time.bank.ledger,model_farm_time_bank_ledger,base.group_user,1,1,1,1
+access_farm_service_team,farm.service.team,model_farm_service_team,base.group_user,1,1,1,1

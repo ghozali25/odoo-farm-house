@@ -1,0 +1,12 @@
+from . import share_transaction
+from . import dividend_distribution
+from . import internal_credit
+from . import finance_governance_models
+from . import internal_marketplace_transaction
+from . import extension_models
+from . import credit_transaction
+from . import dividend_line
+from . import account_move_extension
+# from . import dividend_automation
+from . import centralized_sales_engine
+from . import cooperative_member_extension  # batch 6: financial links on cooperative.member (see file header)

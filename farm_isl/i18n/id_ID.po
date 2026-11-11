@@ -1,0 +1,887 @@
+# Translation of Farm Industry Specialized Layer (farm_isl) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin (Multi-level Cascade Safeguard messages)
+# and the module's main labels/menus.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_isl 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 09:30+0700\n"
+"PO-Revision-Date: 2026-11-10 09:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_isl
+#: model:ir.ui.menu,name:farm_isl.farm_isl_menu_root
+msgid "ISL Architecture"
+msgstr "Arsitektur ISL"
+
+#. module: farm_isl
+#: model:ir.ui.menu,name:farm_isl.farm_isl_manufacturing_menu
+msgid "Manufacturing ISL"
+msgstr "Manufaktur ISL"
+
+#. module: farm_isl
+#: model:ir.ui.menu,name:farm_isl.farm_isl_inventory_menu
+msgid "Inventory ISL"
+msgstr "Inventaris ISL"
+
+#. module: farm_isl
+#: model:ir.ui.menu,name:farm_isl.farm_isl_sales_purchase_menu
+msgid "Sales & Purchase ISL"
+msgstr "Penjualan & Pembelian ISL"
+
+#. module: farm_isl
+#: model:ir.ui.menu,name:farm_isl.farm_isl_product_menu
+msgid "Product ISL"
+msgstr "Produk ISL"
+
+#. module: farm_isl
+#: model:ir.ui.menu,name:farm_isl.farm_isl_quality_menu
+msgid "Quality ISL"
+msgstr "Mutu ISL"
+
+#. module: farm_isl
+#: model:ir.ui.menu,name:farm_isl.farm_isl_config_menu
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#. module: farm_isl
+#: model:ir.ui.menu,name:farm_isl.menu_isl_farm_extension
+msgid "Farm Extensions"
+msgstr "Ekstensi Farm"
+
+#. module: farm_isl
+#: model:ir.ui.menu,name:farm_isl.menu_isl_migration_utility
+msgid "Data Migration"
+msgstr "Migrasi Data"
+
+#. module: farm_isl
+#: model:ir.actions.act_window,name:farm_isl.action_isl_farm_extension
+msgid "Farm ISL Extensions"
+msgstr "Ekstensi ISL Farm"
+
+#. module: farm_isl
+#: model:ir.actions.act_window,name:farm_isl.action_isl_migration_utility
+msgid "ISL Data Migration"
+msgstr "Migrasi Data ISL"
+
+#. module: farm_isl
+#: model:ir.actions.act_window,name:farm_isl.action_isl_mrp_workorder
+msgid "ISL MRP Work Orders"
+msgstr "Perintah Kerja MRP ISL"
+
+#. module: farm_isl
+#: model:ir.actions.act_window,name:farm_isl.action_isl_stock_picking
+msgid "ISL Stock Pickings"
+msgstr "Pengambilan Stok ISL"
+
+#. module: farm_isl
+#: model:ir.ui.view,arch_db:farm_isl.view_isl_farm_extension_form
+msgid "ISL Industry Extension"
+msgstr "Ekstensi Industri ISL"
+
+#. module: farm_isl
+#: model:ir.ui.view,arch_db:farm_isl.view_isl_migration_utility_form
+msgid "ISL Migration Utility"
+msgstr "Utilitas Migrasi ISL"
+
+#. module: farm_isl
+#: model:ir.ui.view,arch_db:farm_isl.view_isl_mrp_workorder_form
+msgid "ISL MRP Work Order"
+msgstr "Perintah Kerja MRP ISL"
+
+#. module: farm_isl
+#: model:ir.ui.view,arch_db:farm_isl.view_isl_stock_picking_form
+msgid "ISL Stock Picking"
+msgstr "Pengambilan Stok ISL"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Field Crop"
+msgstr "Tanaman Lahan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Livestock"
+msgstr "Peternakan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Aquaculture"
+msgstr "Akuakultur"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "General Agriculture"
+msgstr "Pertanian Umum"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Intervention"
+msgstr "Intervensi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Cultivation Recipe"
+msgstr "Resep Budidaya"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Facility Unit"
+msgstr "Unit Fasilitas"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Stock Lot"
+msgstr "Lot Stok"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Sale Order"
+msgstr "Pesanan Penjualan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Purchase Order"
+msgstr "Pesanan Pembelian"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Product Template"
+msgstr "Templat Produk"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Stock Picking"
+msgstr "Pengambilan Stok"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Operation Phase"
+msgstr "Tahap Operasi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Industry Type"
+msgstr "Jenis Industri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Industry Specialization"
+msgstr "Spesialisasi Industri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Compliance Requirements"
+msgstr "Persyaratan Kepatuhan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Industry Standards"
+msgstr "Standar Industri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Safety Requirements"
+msgstr "Persyaratan Keselamatan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Quality Control Points"
+msgstr "Titik Kendali Mutu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Industry Notes"
+msgstr "Catatan Industri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Industry Attachments"
+msgstr "Lampiran Industri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Is ISL Model"
+msgstr "Model ISL"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Shelf Life Tracking"
+msgstr "Pelacakan Masa Simpan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Batch Tracking"
+msgstr "Pelacakan Batch"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Lot Tracking"
+msgstr "Pelacakan Lot"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Expiry Tracking"
+msgstr "Pelacakan Kedaluwarsa"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Inventory Compliance"
+msgstr "Kepatuhan Inventaris"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Storage Requirements"
+msgstr "Persyaratan Penyimpanan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Temperature Control"
+msgstr "Kendali Suhu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Humidity Control"
+msgstr "Kendali Kelembapan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Light Sensitive"
+msgstr "Sensitif Cahaya"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Industry Certification"
+msgstr "Sertifikasi Industri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Sales Compliance"
+msgstr "Kepatuhan Penjualan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Purchase Compliance"
+msgstr "Kepatuhan Pembelian"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Quality Assurance"
+msgstr "Jaminan Mutu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Industry Category"
+msgstr "Kategori Industri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Safety Data Sheet"
+msgstr "Lembar Data Keselamatan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "SDS Name"
+msgstr "Nama SDS"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Regulatory Compliance"
+msgstr "Kepatuhan Regulasi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Shelf Life (Days)"
+msgstr "Masa Simpan (Hari)"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Storage Temperature (°C)"
+msgstr "Suhu Penyimpanan (°C)"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Storage Humidity (%)"
+msgstr "Kelembapan Penyimpanan (%)"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Quality Standard"
+msgstr "Standar Mutu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Quality Procedures"
+msgstr "Prosedur Mutu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Inspection Frequency"
+msgstr "Frekuensi Inspeksi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Critical Control Points"
+msgstr "Titik Kendali Kritis"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Quality Metrics"
+msgstr "Metrik Mutu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "HACCP Plan"
+msgstr "Rencana HACCP"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Allergen Control"
+msgstr "Kendali Alergen"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Allergen Information"
+msgstr "Informasi Alergen"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Quality Gate Checks"
+msgstr "Pemeriksaan Gerbang Mutu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "CCP Monitoring"
+msgstr "Pemantauan CCP"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "GMP Compliance"
+msgstr "Kepatuhan GMP"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Active Ingredient"
+msgstr "Bahan Aktif"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Sterility Date"
+msgstr "Tanggal Sterilitas"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Kill Date"
+msgstr "Tanggal Kill"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Batch Record"
+msgstr "Catatan Batch"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Pharmacological Class"
+msgstr "Kelas Farmakologi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Safety Procedures"
+msgstr "Prosedur Keselamatan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Water Quality Standard"
+msgstr "Standar Kualitas Air"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Explosion Proof"
+msgstr "Tahan Ledakan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Safety Coefficient"
+msgstr "Koefisien Keselamatan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Hazard Class"
+msgstr "Kelas Bahaya"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Traceability Requirements"
+msgstr "Persyaratan Ketertelusuran"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Chain of Custody"
+msgstr "Rantai Pengawasan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Temperature Log"
+msgstr "Log Suhu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Humidity Log"
+msgstr "Log Kelembapan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_traits.py:0
+msgid "Security Seal"
+msgstr "Segel Keamanan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Vector Embedding (JSON Array)"
+msgstr "Vektor Embedding (Array JSON)"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Intervention"
+msgstr "Intervensi Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Recipe"
+msgstr "Resep Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Facility Unit"
+msgstr "Unit Fasilitas Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Stock Lot"
+msgstr "Lot Stok Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Sale Order"
+msgstr "Pesanan Penjualan Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Purchase Order"
+msgstr "Pesanan Pembelian Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Product Template"
+msgstr "Templat Produk Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Stock Picking"
+msgstr "Pengambilan Stok Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Operation Phase"
+msgstr "Tahap Operasi Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Base Quality Point"
+msgstr "Titik Mutu Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Recipe Validation"
+msgstr "Validasi Resep"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Ingredient Compliance"
+msgstr "Kepatuhan Bahan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "CIP Required"
+msgstr "CIP Diperlukan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Clean Room Class"
+msgstr "Kelas Ruang Bersih"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Capacity Unit of Measure"
+msgstr "Satuan Ukur Kapasitas"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Efficiency Factor"
+msgstr "Faktor Efisiensi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Harvest Date"
+msgstr "Tanggal Panen"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Certificate of Analysis"
+msgstr "Sertifikat Analisis"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "COA Name"
+msgstr "Nama COA"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Stability Data"
+msgstr "Data Stabilitas"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Storage Conditions"
+msgstr "Kondisi Penyimpanan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Delivery Compliance"
+msgstr "Kepatuhan Pengiriman"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Shipping Conditions"
+msgstr "Kondisi Pengiriman"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Certificate Requirements"
+msgstr "Persyaratan Sertifikat"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Temperature Monitoring"
+msgstr "Pemantauan Suhu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Supplier Certification"
+msgstr "Sertifikasi Pemasok"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Incoming Inspection"
+msgstr "Inspeksi Kedatangan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Certificate Verification"
+msgstr "Verifikasi Sertifikat"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Quality Agreement"
+msgstr "Kesepakatan Mutu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Operator Certification"
+msgstr "Sertifikasi Operator"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Equipment Validation"
+msgstr "Validasi Peralatan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "In-Process Inspection"
+msgstr "Inspeksi Dalam Proses"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Compliance Verification"
+msgstr "Verifikasi Kepatuhan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "AQL Sampling"
+msgstr "Pengambilan Sampel AQL"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Testing Procedures"
+msgstr "Prosedur Pengujian"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Acceptance Criteria"
+msgstr "Kriteria Penerimaan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Deviation Handling"
+msgstr "Penanganan Deviasi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_redirection.py:0
+msgid "Extension Name"
+msgstr "Nama Ekstensi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_redirection.py:0
+msgid "Model Name"
+msgstr "Nama Model"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_redirection.py:0
+msgid "Extension Fields (JSON)"
+msgstr "Field Ekstensi (JSON)"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_redirection.py:0
+msgid "Extension Methods"
+msgstr "Metode Ekstensi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Base Model"
+msgstr "Model Dasar"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Confirm Migration"
+msgstr "Konfirmasi Migrasi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/isl_industry_planting.py:0
+msgid "Spec Name"
+msgstr "Nama Spesifikasi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/isl_industry_planting.py:0
+msgid "Global Standard ID"
+msgstr "ID Standar Global"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/isl_industry_planting.py:0
+msgid "Organic Compatible"
+msgstr "Kompatibel Organik"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/isl_industry_planting.py:0
+msgid "Min Buffer Zone (m)"
+msgstr "Zona Penyangga Min (m)"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Field crop industry requires quality control points to be defined"
+msgstr "Industri tanaman lahan mewajibkan titik kendali mutu didefinisikan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_abstract_models.py:0
+msgid "Livestock industry requires industry standards to be defined"
+msgstr "Industri peternakan mewajibkan standar industri didefinisikan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Food processing production requires HACCP plan"
+msgstr "Produksi pengolahan pangan mewajibkan rencana HACCP"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Pharmaceutical production requires GMP compliance"
+msgstr "Produksi farmasi mewajibkan kepatuhan GMP"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Chemical production requires safety procedures"
+msgstr "Produksi kimia mewajibkan prosedur keselamatan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Food BOM with allergens requires allergen control"
+msgstr "BoM pangan yang mengandung alergen mewajibkan kendali alergen"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Pharmaceutical BOM requires active ingredient specification"
+msgstr "BoM farmasi mewajibkan spesifikasi bahan aktif"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Food/pharmaceutical work centers require CIP capability"
+msgstr "Pusat kerja pangan/farmasi mewajibkan kemampuan CIP"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Chemical work centers require explosion-proof equipment"
+msgstr "Pusat kerja kimia mewajibkan peralatan tahan ledakan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Pharmaceutical lots require sterility date"
+msgstr "Lot farmasi mewajibkan tanggal sterilitas"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Food processing lots require kill date"
+msgstr "Lot pengolahan pangan mewajibkan tanggal kill"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Food processing sales require traceability requirements"
+msgstr "Penjualan pengolahan pangan mewajibkan persyaratan ketertelusuran"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Pharmaceutical sales require temperature monitoring"
+msgstr "Penjualan farmasi mewajibkan pemantauan suhu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Pharmaceutical purchases require quality agreement"
+msgstr "Pembelian farmasi mewajibkan kesepakatan mutu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Food processing purchases require certificate verification"
+msgstr "Pembelian pengolahan pangan mewajibkan verifikasi sertifikat"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Food products require allergen information"
+msgstr "Produk pangan mewajibkan informasi alergen"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Pharmaceutical products require pharmacological class"
+msgstr "Produk farmasi mewajibkan kelas farmakologi"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Chemical products require hazard class"
+msgstr "Produk kimia mewajibkan kelas bahaya"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Temperature-controlled transfers require temperature log"
+msgstr "Transfer bersuhu terkendali mewajibkan log suhu"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Pharmaceutical work orders require batch record"
+msgstr "Perintah kerja farmasi mewajibkan catatan batch"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Food/pharmaceutical work orders require in-process inspection"
+msgstr "Perintah kerja pangan/farmasi mewajibkan inspeksi dalam proses"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Food processing quality control requires CCP monitoring"
+msgstr "Kendali mutu pengolahan pangan mewajibkan pemantauan CCP"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Pharmaceutical quality control requires AQL sampling"
+msgstr "Kendali mutu farmasi mewajibkan pengambilan sampel AQL"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Multi-level Cascade Safeguard: Cannot delete ISL Intervention '%s' due to unresolved critical GxP/HACCP violations."
+msgstr "Pengaman Kaskade Bertingkat: Tidak dapat menghapus Intervensi ISL '%s' karena ada pelanggaran kritis GxP/HACCP yang belum diselesaikan."
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Multi-level Cascade Safeguard: Cannot delete ISL Lot '%s' because it is linked to an active dynamic Matter Tracking carrier."
+msgstr "Pengaman Kaskade Bertingkat: Tidak dapat menghapus Lot ISL '%s' karena terhubung ke carrier Pelacakan Material dinamis yang masih aktif."
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Please confirm the migration before proceeding"
+msgstr "Harap konfirmasi migrasi sebelum melanjutkan"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Migration completed. %d records migrated to ISL architecture."
+msgstr "Migrasi selesai. %d record dimigrasikan ke arsitektur ISL."
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Migration Complete"
+msgstr "Migrasi Selesai"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Agricultural Intervention"
+msgstr "Intervensi Pertanian ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Cultivation Recipe"
+msgstr "Resep Budidaya ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Facility Unit"
+msgstr "Unit Fasilitas ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Stock Lot"
+msgstr "Lot Stok ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Sale Order"
+msgstr "Pesanan Penjualan ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Purchase Order"
+msgstr "Pesanan Pembelian ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Product Template"
+msgstr "Templat Produk ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Stock Picking"
+msgstr "Pengambilan Stok ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Operation Phase"
+msgstr "Tahap Operasi ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_concrete_models.py:0
+msgid "Agri ISL Quality Control"
+msgstr "Kendali Mutu ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_redirection.py:0
+msgid "Agri ISL Extension"
+msgstr "Ekstensi ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/agri_isl_migration.py:0
+msgid "Agri ISL Data Migration Utility"
+msgstr "Utilitas Migrasi Data ISL Agri"
+
+#. module: farm_isl
+#: code:addons/farm_isl/models/isl_industry_planting.py:0
+msgid "ISL Planting Specification"
+msgstr "Spesifikasi Penanaman ISL"

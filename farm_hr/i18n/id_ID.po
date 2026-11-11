@@ -1,0 +1,407 @@
+# Translation of farm_hr (farm_hr) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings of this module.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_hr 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 16:00+0700\n"
+"PO-Revision-Date: 2026-11-10 16:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_hr
+msgid "Farm HR & Labor"
+msgstr "HR & Tenaga Kerja Pertanian"
+
+#. module: farm_hr
+msgid "Seasonal Labor, Field Worklogs and Piece-rate Wages"
+msgstr "Tenaga Kerja Musiman, Catatan Kerja Lapangan, dan Upah Borongan"
+
+#. module: farm_hr
+msgid "Agricultural Skill"
+msgstr "Keterampilan Pertanian"
+
+#. module: farm_hr
+msgid "Agricultural Skills"
+msgstr "Keterampilan Pertanian"
+
+#. module: farm_hr
+msgid "Agri-Service Team"
+msgstr "Tim Layanan Pertanian"
+
+#. module: farm_hr
+msgid "Beneficiary (Who was helped)"
+msgstr "Penerima Manfaat (Yang Dibantu)"
+
+#. module: farm_hr
+msgid "Cert No."
+msgstr "No. Sertifikat"
+
+#. module: farm_hr
+msgid "Certificates"
+msgstr "Sertifikat"
+
+#. module: farm_hr
+msgid "Color"
+msgstr "Warna"
+
+#. module: farm_hr
+msgid "Compute Sheet"
+msgstr "Hitung Lembar"
+
+#. module: farm_hr
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#. module: farm_hr
+msgid "Currency"
+msgstr "Mata Uang"
+
+#. module: farm_hr
+msgid "Date"
+msgstr "Tanggal"
+
+#. module: farm_hr
+msgid "Date From"
+msgstr "Tanggal Mulai"
+
+#. module: farm_hr
+msgid "Date To"
+msgstr "Tanggal Selesai"
+
+#. module: farm_hr
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_hr
+msgid "Details"
+msgstr "Rincian"
+
+#. module: farm_hr
+msgid "Dispatched Service Team"
+msgstr "Tim Layanan Terkirim"
+
+#. module: farm_hr
+msgid "Dispatched Service Team '%s' with equipment: %s"
+msgstr "Tim Layanan '%s' dikirim dengan peralatan: %s"
+
+#. module: farm_hr
+msgid "Done Quantity"
+msgstr "Kuantitas Selesai"
+
+#. module: farm_hr
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_hr
+msgid "Confirmed"
+msgstr "Dikonfirmasi"
+
+#. module: farm_hr
+msgid "Paid"
+msgstr "Dibayar"
+
+#. module: farm_hr
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_hr
+msgid "Earned (Helped others)"
+msgstr "Diperoleh (Membantu orang lain)"
+
+#. module: farm_hr
+msgid "Spent (Received help)"
+msgstr "Dipakai (Menerima bantuan)"
+
+#. module: farm_hr
+msgid "Elderly Care Subsidy"
+msgstr "Subsidi Perawatan Lansia"
+
+#. module: farm_hr
+msgid "Eligible Workers"
+msgstr "Pekerja yang Memenuhi Syarat"
+
+#. module: farm_hr
+msgid "Employee"
+msgstr "Karyawan"
+
+#. module: farm_hr
+msgid "Employee Skill Certificate"
+msgstr "Sertifikat Keterampilan Karyawan"
+
+#. module: farm_hr
+msgid "Expired"
+msgstr "Kedaluwarsa"
+
+#. module: farm_hr
+msgid "Expiry Date"
+msgstr "Tanggal Kedaluwarsa"
+
+#. module: farm_hr
+msgid "Farm Field Worklog"
+msgstr "Catatan Kerja Lapangan"
+
+#. module: farm_hr
+msgid "Farm Performance"
+msgstr "Kinerja Pertanian"
+
+#. module: farm_hr
+msgid "Farm Skills & Certs"
+msgstr "Keterampilan & Sertifikat Pertanian"
+
+#. module: farm_hr
+msgid "Farm Task"
+msgstr "Tugas Pertanian"
+
+#. module: farm_hr
+msgid "Feeding"
+msgstr "Pemberian Pakan"
+
+#. module: farm_hr
+msgid "Field Worklogs"
+msgstr "Catatan Kerja Lapangan"
+
+#. module: farm_hr
+msgid "Harvesting"
+msgstr "Panen"
+
+#. module: farm_hr
+msgid "Hourly Cost"
+msgstr "Biaya per Jam"
+
+#. module: farm_hr
+msgid "Identify external or seasonal workers."
+msgstr "Mengidentifikasi pekerja eksternal atau musiman."
+
+#. module: farm_hr
+msgid "Journal"
+msgstr "Jurnal"
+
+#. module: farm_hr
+msgid "Journal Entry"
+msgstr "Entri Jurnal"
+
+#. module: farm_hr
+msgid "<span>Journal Entry</span>"
+msgstr "<span>Entri Jurnal</span>"
+
+#. module: farm_hr
+msgid "Labor & HR"
+msgstr "Tenaga Kerja & SDM"
+
+#. module: farm_hr
+msgid "Labor Credits (Hours)"
+msgstr "Kredit Tenaga Kerja (Jam)"
+
+#. module: farm_hr
+msgid "Labor Payment"
+msgstr "Pembayaran Upah"
+
+#. module: farm_hr
+msgid "Labor Payment Line"
+msgstr "Baris Pembayaran Upah"
+
+#. module: farm_hr
+msgid "Labor Payments"
+msgstr "Pembayaran Upah"
+
+#. module: farm_hr
+msgid "Labor Piece-rate Payment"
+msgstr "Pembayaran Upah Borongan"
+
+#. module: farm_hr
+msgid "Labor Settlement: %s"
+msgstr "Penyelesaian Upah: %s"
+
+#. module: farm_hr
+msgid "Labor Worklogs"
+msgstr "Catatan Kerja Tenaga"
+
+#. module: farm_hr
+msgid "Labor: %s - %s"
+msgstr "Tenaga Kerja: %s - %s"
+
+#. module: farm_hr
+msgid "Labor: %s on %s"
+msgstr "Tenaga Kerja: %s pada %s"
+
+#. module: farm_hr
+msgid "Mutual Aid (Time Bank)"
+msgstr "Gotong Royong (Bank Waktu)"
+
+#. module: farm_hr
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_hr
+msgid "Packaging"
+msgstr "Pengemasan"
+
+#. module: farm_hr
+msgid "Payment"
+msgstr "Pembayaran"
+
+#. module: farm_hr
+msgid "Payment Lines"
+msgstr "Baris Pembayaran"
+
+#. module: farm_hr
+msgid "Period"
+msgstr "Periode"
+
+#. module: farm_hr
+msgid "Piece-rate Wage Rule"
+msgstr "Aturan Upah Borongan"
+
+#. module: farm_hr
+msgid "Please select a Journal before posting."
+msgstr "Silakan pilih Jurnal sebelum memposting."
+
+#. module: farm_hr
+msgid "Post to Accounting"
+msgstr "Posting ke Akuntansi"
+
+#. module: farm_hr
+msgid "Price per Unit"
+msgstr "Harga per Satuan"
+
+#. module: farm_hr
+msgid "Quantity"
+msgstr "Kuantitas"
+
+#. module: farm_hr
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: farm_hr
+msgid "Required Skill"
+msgstr "Keterampilan yang Dibutuhkan"
+
+#. module: farm_hr
+msgid "Requires Certificate"
+msgstr "Membutuhkan Sertifikat"
+
+#. module: farm_hr
+msgid "Rural Time Bank Ledger"
+msgstr "Buku Bank Waktu Pedesaan"
+
+#. module: farm_hr
+msgid "Seasonal Laborer"
+msgstr "Pekerja Musiman"
+
+#. module: farm_hr
+msgid "Skill Name"
+msgstr "Nama Keterampilan"
+
+#. module: farm_hr
+msgid "Skill/Qualification"
+msgstr "Keterampilan/Kualifikasi"
+
+#. module: farm_hr
+msgid "Source Worklog"
+msgstr "Catatan Kerja Sumber"
+
+#. module: farm_hr
+msgid "Sowing"
+msgstr "Penanaman"
+
+#. module: farm_hr
+msgid "Specialized Equipment"
+msgstr "Peralatan Khusus"
+
+#. module: farm_hr
+msgid "State"
+msgstr "Status"
+
+#. module: farm_hr
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_hr
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. module: farm_hr
+msgid "TIME BANK: %s earned %s Labor Credits for helping %s."
+msgstr "BANK WAKTU: %s memperoleh %s Kredit Tenaga Kerja karena membantu %s."
+
+#. module: farm_hr
+msgid "Team Leader"
+msgstr "Ketua Tim"
+
+#. module: farm_hr
+msgid "Team Members"
+msgstr "Anggota Tim"
+
+#. module: farm_hr
+msgid "Team Name"
+msgstr "Nama Tim"
+
+#. module: farm_hr
+msgid "Tillage"
+msgstr "Pengolahan Tanah"
+
+#. module: farm_hr
+msgid "Time Bank Ledger"
+msgstr "Buku Bank Waktu"
+
+#. module: farm_hr
+msgid "Total Amount"
+msgstr "Jumlah Total"
+
+#. module: farm_hr
+msgid "Total Harvested (kg)"
+msgstr "Total Panen (kg)"
+
+#. module: farm_hr
+msgid "Total Piece-rate Performance"
+msgstr "Total Kinerja Borongan"
+
+#. module: farm_hr
+msgid "Transaction Ref"
+msgstr "Ref. Transaksi"
+
+#. module: farm_hr
+msgid "Type"
+msgstr "Jenis"
+
+#. module: farm_hr
+msgid "Unit"
+msgstr "Satuan"
+
+#. module: farm_hr
+msgid "Unit Price"
+msgstr "Harga Satuan"
+
+#. module: farm_hr
+msgid "Valid"
+msgstr "Berlaku"
+
+#. module: farm_hr
+msgid "Villager (Member)"
+msgstr "Warga (Anggota)"
+
+#. module: farm_hr
+msgid "Wage Rules"
+msgstr "Aturan Upah"
+
+#. module: farm_hr
+msgid "Wage per unit of work (e.g. 0.5 per kg)"
+msgstr "Upah per satuan pekerjaan (mis. 0,5 per kg)"
+
+#. module: farm_hr
+msgid "Work Type"
+msgstr "Jenis Pekerjaan"
+
+#. module: farm_hr
+msgid "Worker"
+msgstr "Pekerja"
+
+#. module: farm_hr
+msgid "Worklog"
+msgstr "Catatan Kerja"

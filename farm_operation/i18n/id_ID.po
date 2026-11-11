@@ -1,0 +1,1634 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-11-09 21:00+0700\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention.py:0
+msgid "Accumulated %s GDD from environmental sync."
+msgstr "Terakumulasi %s GDD dari sinkronisasi lingkungan."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__actual_flight_area
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__actual_flight_area
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__actual_flight_area
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__actual_flight_area
+msgid "Actual Flown Area (ha)"
+msgstr "Luas Terbang Aktual (ha)"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__intervention_type__aerial_spraying
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__intervention_type__aerial_spraying
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__intervention_type__aerial_spraying
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__intervention_type__aerial_spraying
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_dispatch_wizard__intervention_type__aerial_spraying
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__intervention_type__aerial_spraying
+msgid "Aerial Spraying"
+msgstr "Penyemprotan Udara"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__agent_status_feedback
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__agent_status_feedback
+msgid "Agent Execution Status"
+msgstr "Status Eksekusi Agen"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_bom_mixin__agri_activity_type
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__agri_activity_type
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_mixin__agri_activity_type
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__agri_activity_type
+msgid "Agri Activity Type"
+msgstr "Jenis Aktivitas Agri"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_agri_bom_line_mixin
+msgid "Agri Agricultural BOM Line Shared Logic"
+msgstr "Logika Bersama Baris BOM Agri Pertanian"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_agri_bom_mixin
+msgid "Agri Agricultural BOM Shared Logic"
+msgstr "Logika Bersama BOM Agri Pertanian"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_agri_agricultural_campaign_mixin
+msgid "Agri Agricultural Campaign Shared Logic"
+msgstr "Logika Bersama Kampanye Agri Pertanian"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_agri_intervention_mixin
+msgid "Agri Agricultural Intervention Shared Logic"
+msgstr "Logika Bersama Intervensi Agri Pertanian"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__intervention_ids
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__intervention_ids
+msgid "Agri Interventions"
+msgstr "Intervensi Agri"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_stock_move__agri_loss_reason
+msgid "Agri Loss Reason"
+msgstr "Alasan Kehilangan Agri"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_tree_view_inherit_farm
+msgid "Agri-Interventions"
+msgstr "Intervensi Agri"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.view_agri_intervention_form_science_inherit
+msgid "Agri-Science Audit"
+msgstr "Audit Agri-Science"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_farm_agricultural_bom
+msgid "Agricultural BOM (ISL Layer)"
+msgstr "BOM Pertanian (Lapisan ISL)"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_farm_agricultural_bom_line
+msgid "Agricultural BOM Line (ISL Layer)"
+msgstr "Baris BOM Pertanian (Lapisan ISL)"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_farm_agricultural_campaign
+msgid "Agricultural Campaign (ISL Layer)"
+msgstr "Kampanye Pertanian (Lapisan ISL)"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_mrp_production
+msgid "Agricultural Intervention (De-industrialized View)"
+msgstr "Intervensi Pertanian (Tampilan De-industrialisasi)"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_agri_intervention
+msgid "Agricultural Intervention (ISL Layer)"
+msgstr "Intervensi Pertanian (Lapisan ISL)"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__agricultural_processing
+msgid "Agricultural Processing"
+msgstr "Pengolahan Hasil Pertanian"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_agricultural_campaign
+msgid "Agricultural Production Season"
+msgstr "Musim Produksi Pertanian"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_farm_dispatch_wizard
+msgid "Agricultural Task Dispatch Wizard"
+msgstr "Wizard Penugasan Tugas Pertanian"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__agritourism
+msgid "Agritourism"
+msgstr "Agrowisata"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__apiculture
+msgid "Apiculture"
+msgstr "Apikultur (Lebah)"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__simplified_state__approval
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__simplified_state__approval
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__simplified_state__approval
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__simplified_state__approval
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__simplified_state__approval
+msgid "Approval"
+msgstr "Persetujuan"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__approval_date
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__approval_date
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__approval_date
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__approval_date
+msgid "Approval Date"
+msgstr "Tanggal Persetujuan"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__approval_state
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__approval_state
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__approval_state
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__approval_state
+msgid "Approval Status"
+msgstr "Status Persetujuan"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Approve"
+msgstr "Setujui"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__approval_state__approved
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__approval_state__approved
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__approval_state__approved
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__approval_state__approved
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__approval_state__approved
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__approver_id
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__approver_id
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__approver_id
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__approver_id
+msgid "Approver"
+msgstr "Pemberi Persetujuan"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__aquaculture
+msgid "Aquaculture"
+msgstr "Akuakultur"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_farm_task__size_value
+#: model:ir.model.fields,help:farm_operation.field_project_task__size_value
+msgid "Area in hectares (or sqm) or quantity of individuals."
+msgstr "Luas dalam hektar (atau m²) atau jumlah individu."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agricultural_campaign__project_task_ids
+#: model_terms:ir.ui.view,arch_db:farm_operation.agricultural_campaign_view_form
+msgid "Associated Tasks"
+msgstr "Tugas Terkait"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__evidence_ids
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__evidence_ids
+msgid "Attached GPS logs, IoT sensor data, or site photos."
+msgstr "Log GPS, data sensor IoT, atau foto lokasi terlampir."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__audit_confidence
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__audit_confidence
+msgid "Audit Confidence"
+msgstr "Keyakinan Audit"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__audit_status
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__audit_status
+msgid "Audit Status"
+msgstr "Status Audit"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Auto-recorded from intervention %s"
+msgstr "Tercatat otomatis dari intervensi %s"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__approval_state__to_approve
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__approval_state__to_approve
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__approval_state__to_approve
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__approval_state__to_approve
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__approval_state__to_approve
+msgid "Awaiting Approval"
+msgstr "Menunggu Persetujuan"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__bom_id
+msgid "Base BOM"
+msgstr "BOM Dasar"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line__bom_line_id
+msgid "Base BOM Line"
+msgstr "Baris BOM Dasar"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__production_id
+msgid "Base Production Order"
+msgstr "Perintah Produksi Dasar"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_agricultural_campaign_mixin__base_temperature
+#: model:ir.model.fields,field_description:farm_operation.field_agricultural_campaign__base_temperature
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign__base_temperature
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_base__base_temperature
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_mixin__base_temperature
+msgid "Base Temp (℃)"
+msgstr "Suhu Dasar (℃)"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.agricultural_campaign_view_form
+msgid "Basic Info"
+msgstr "Info Dasar"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__biological_lot_id
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__biological_lot_id
+msgid "Biological Asset/Lot"
+msgstr "Aset/Lot Biologis"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.view_agri_intervention_form_science_inherit
+msgid "Biological Clock"
+msgstr "Jam Biologis"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Boundary Compliance"
+msgstr "Kepatuhan Batas"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_agricultural_campaign_mixin.py:0
+#: code:addons/farm_operation/models/farm_agricultural_campaign_base.py:0
+msgid "Campaign start date must be before end date."
+msgstr "Tanggal mulai kampanye harus sebelum tanggal akhir."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__campaign_id
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__campaign_id
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__campaign_id
+#: model:ir.model.fields,field_description:farm_operation.field_farm_dispatch_wizard__campaign_id
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__campaign_id
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__campaign_id
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__campaign_id
+msgid "Campaign/Season"
+msgstr "Kampanye/Musim"
+
+#. module: farm_operation
+#: model:ir.ui.menu,name:farm_operation.menu_agricultural_campaigns
+msgid "Campaigns"
+msgstr "Kampanye"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Carbon & Impact"
+msgstr "Karbon & Dampak"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__carbon_intensity
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__carbon_intensity
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__carbon_intensity
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__carbon_intensity
+msgid "Carbon Footprint (kg CO2e/kg)"
+msgstr "Jejak Karbon (kg CO2e/kg)"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_bom_mixin__agri_activity_type
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom__agri_activity_type
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom_mixin__agri_activity_type
+#: model:ir.model.fields,help:farm_operation.field_mrp_bom__agri_activity_type
+msgid "Classify BOM as an agricultural recipe."
+msgstr "Klasifikasikan BOM sebagai resep pertanian."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__clearing_status
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__clearing_status
+msgid "Clearing Status"
+msgstr "Status Kliring"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Community Clearing"
+msgstr "Kliring Komunitas"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__credit_score
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom__credit_score
+#: model:ir.model.fields,help:farm_operation.field_mrp_bom__credit_score
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__credit_score
+msgid ""
+"Community reputation score (0-1000). Derived from confirmed transaction "
+"ledger entries."
+msgstr ""
+"Skor reputasi komunitas (0-1000). Berasal dari entri buku besar transaksi "
+"yang terkonfirmasi."
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__intervention_type__protection
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__intervention_type__protection
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__intervention_type__protection
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__intervention_type__protection
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_dispatch_wizard__intervention_type__protection
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__intervention_type__protection
+msgid "Crop Protection"
+msgstr "Perlindungan Tanaman"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__cumulative_gdd
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__cumulative_gdd
+msgid "Cumulative GDD"
+msgstr "GDD Kumulatif"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Current Application (Pure Nutrient)"
+msgstr "Aplikasi Saat Ini (Nutrisi Murni)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_agricultural_campaign_mixin__accumulated_gdd
+#: model:ir.model.fields,field_description:farm_operation.field_agricultural_campaign__accumulated_gdd
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign__accumulated_gdd
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_base__accumulated_gdd
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_mixin__accumulated_gdd
+msgid "Current GDD"
+msgstr "GDD Saat Ini"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__current_growth_stage_id
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__current_growth_stage_id
+msgid "Current Stage"
+msgstr "Tahap Saat Ini"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/project_task.py:0
+msgid ""
+"DAILY FEED PROPOSAL: Age %s days. Estimated Biomass: %s kg. Suggested Feed: "
+"%s kg."
+msgstr ""
+"USULAN PAKAN HARIAN: Umur %s hari. Estimasi Biomassa: %s kg. Pakan "
+"Disarankan: %s kg."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__daily_temp_max
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__daily_temp_max
+msgid "Daily Max Temperature"
+msgstr "Suhu Maks Harian"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__daily_temp_min
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__daily_temp_min
+msgid "Daily Min Temperature"
+msgstr "Suhu Min Harian"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__days_to_safety
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__days_to_safety
+msgid "Days to Safety"
+msgstr "Hari Menuju Aman"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__stock_move__agri_loss_reason__decay
+msgid "Decay/Rot"
+msgstr "Pembusukan"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_bom_line_mixin__dilution_ratio
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line__dilution_ratio
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line_mixin__dilution_ratio
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom_line__dilution_ratio
+msgid "Dilution Ratio (1:N)"
+msgstr "Rasio Pengenceran (1:N)"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.view_farm_dispatch_wizard_form
+msgid "Dispatch"
+msgstr "Penugasan"
+
+#. module: farm_operation
+#: model:ir.actions.act_window,name:farm_operation.action_farm_dispatch_wizard
+#: model_terms:ir.ui.view,arch_db:farm_operation.view_farm_dispatch_wizard_form
+msgid "Dispatch Tasks"
+msgstr "Tugaskan Tugas"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__drone_id
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__drone_id
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__drone_id
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__drone_id
+msgid "Drone Used"
+msgstr "Drone yang Dipakai"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Drone/Machinery Spatial Audit"
+msgstr "Audit Spasial Drone/Mesin"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__esg_score
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom__esg_score
+#: model:ir.model.fields,help:farm_operation.field_mrp_bom__esg_score
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__esg_score
+msgid "Dynamic ESG score (0-1000) calculated by community impact."
+msgstr "Skor ESG dinamis (0-1000) dihitung dari dampak komunitas."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__esg_score
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__esg_score
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__esg_score
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__esg_score
+msgid "ESG Impact Score"
+msgstr "Skor Dampak ESG"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__electricity_consumed_kwh
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__electricity_consumed_kwh
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__electricity_consumed_kwh
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__electricity_consumed_kwh
+msgid "Electricity Consumed (kWh)"
+msgstr "Listrik Terpakai (kWh)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_agricultural_campaign_mixin__date_end
+#: model:ir.model.fields,field_description:farm_operation.field_agricultural_campaign__date_end
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign__date_end
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_base__date_end
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_mixin__date_end
+msgid "End Date"
+msgstr "Tanggal Akhir"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__energy_cost
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__energy_cost
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__energy_cost
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__energy_cost
+msgid "Energy/Utility Cost"
+msgstr "Biaya Energi/Utilitas"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.view_agri_intervention_form_science_inherit
+msgid "Env Sync"
+msgstr "Sinkron Lingkungan"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_agri_science_sync_wizard
+msgid "Environmental Data Sync Wizard"
+msgstr "Wizard Sinkron Data Lingkungan"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.agricultural_campaign_view_kanban
+msgid "Est. Harvest:"
+msgstr "Est. Panen:"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__carbon_intensity
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom__carbon_intensity
+#: model:ir.model.fields,help:farm_operation.field_mrp_bom__carbon_intensity
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__carbon_intensity
+msgid "Estimated carbon footprint per unit of output."
+msgstr "Perkiraan jejak karbon per satuan output."
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Export Drone Route"
+msgstr "Ekspor Rute Drone"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_farm_agricultural_bom_line_mixin
+msgid ""
+"Farm Agricultural BOM Line Shared Logic (Deprecated - Use "
+"agri.bom.line.mixin)"
+msgstr ""
+"Logika Bersama Baris BOM Pertanian (Usang - Gunakan agri.bom.line.mixin)"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_farm_agricultural_bom_mixin
+msgid "Farm Agricultural BOM Shared Logic (Deprecated - Use agri.bom.mixin)"
+msgstr "Logika Bersama BOM Pertanian (Usang - Gunakan agri.bom.mixin)"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_farm_agricultural_campaign_base
+msgid "Farm Agricultural Campaign Base Logic"
+msgstr "Logika Dasar Kampanye Pertanian"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_farm_agricultural_campaign_mixin
+msgid ""
+"Farm Agricultural Campaign Shared Logic (Deprecated - Use "
+"agri.agricultural.campaign.mixin)"
+msgstr ""
+"Logika Bersama Kampanye Pertanian (Usang - Gunakan "
+"agri.agricultural.campaign.mixin)"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_farm_agricultural_intervention_mixin
+msgid ""
+"Farm Agricultural Intervention Shared Logic (Deprecated - Use "
+"agri.intervention.mixin)"
+msgstr ""
+"Logika Bersama Intervensi Pertanian (Usang - Gunakan "
+"agri.intervention.mixin)"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_bom_mixin__agri_activity_type__feed
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom__agri_activity_type__feed
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom_mixin__agri_activity_type__feed
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_bom__agri_activity_type__feed
+msgid "Feed Formula"
+msgstr "Formula Pakan"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__intervention_type__feeding
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__intervention_type__feeding
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__intervention_type__feeding
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__intervention_type__feeding
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__intervention_type__feeding
+msgid "Feeding"
+msgstr "Pemberian Pakan"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_bom_line_mixin__feeding_ratio
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line__feeding_ratio
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line_mixin__feeding_ratio
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom_line__feeding_ratio
+msgid "Feeding Ratio (%)"
+msgstr "Rasio Pemberian Pakan (%)"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_bom_mixin__agri_activity_type__fertilizer
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom__agri_activity_type__fertilizer
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom_mixin__agri_activity_type__fertilizer
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_bom__agri_activity_type__fertilizer
+msgid "Fertilizer Mix"
+msgstr "Campuran Pupuk"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__intervention_type__fertilizing
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__intervention_type__fertilizing
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__intervention_type__fertilizing
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__intervention_type__fertilizing
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_dispatch_wizard__intervention_type__fertilizing
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__intervention_type__fertilizing
+msgid "Fertilizing"
+msgstr "Pemupukan"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__field_crops
+msgid "Field Crops"
+msgstr "Tanaman Lahan"
+
+#. module: farm_operation
+#: model:ir.ui.menu,name:farm_operation.menu_agri_boms
+msgid "Formulas (BOM)"
+msgstr "Formula (BOM)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__fuel_consumed_l
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__fuel_consumed_l
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__fuel_consumed_l
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__fuel_consumed_l
+msgid "Fuel Consumed (L)"
+msgstr "Bahan Bakar Terpakai (L)"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.agricultural_campaign_view_form
+msgid "GDD Growth Model (US-002-05)"
+msgstr "Model Pertumbuhan GDD (US-002-05)"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.agricultural_campaign_view_kanban
+msgid "GDD Progress:"
+msgstr "Progres GDD:"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_agricultural_campaign_mixin__target_gdd
+#: model:ir.model.fields,help:farm_operation.field_agricultural_campaign__target_gdd
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_campaign__target_gdd
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_campaign_base__target_gdd
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_campaign_mixin__target_gdd
+msgid "GDD required for harvest."
+msgstr "GDD yang dibutuhkan untuk panen."
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__stock_move__quality_grade__grade_a
+msgid "Grade A"
+msgstr "Grade A"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__grade_a_qty
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__grade_a_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__grade_a_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__grade_a_qty
+msgid "Grade A Quantity"
+msgstr "Kuantitas Grade A"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__stock_move__quality_grade__grade_b
+msgid "Grade B"
+msgstr "Grade B"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__grade_b_qty
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__grade_b_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__grade_b_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__grade_b_qty
+msgid "Grade B Quantity"
+msgstr "Kuantitas Grade B"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__stock_move__quality_grade__grade_c
+msgid "Grade C"
+msgstr "Grade C"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__grade_c_qty
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__grade_c_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__grade_c_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__grade_c_qty
+msgid "Grade C Quantity"
+msgstr "Kuantitas Grade C"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Graded quantities cannot be negative."
+msgstr "Kuantitas grading tidak boleh negatif."
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_bom_mixin__application_stage__growing
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom__application_stage__growing
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom_mixin__application_stage__growing
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_bom__application_stage__growing
+msgid "Growing"
+msgstr "Tumbuh"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/project_task.py:0
+msgid ""
+"LAND-USE RESTRICTION: Land parcel '%s' is designated as protected farmland. "
+"Non-crop production activities (such as tourism or livestock) are not "
+"permitted on protected farmland."
+msgstr ""
+"PEMBATASAN PENGGUNAAN LAHAN: Petak lahan '%s' ditetapkan sebagai lahan "
+"pertanian lindung. Aktivitas produksi non-tanaman (seperti wisata atau "
+"peternakan) tidak diizinkan di lahan pertanian lindung."
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__stock_move__agri_loss_reason__handling
+msgid "Handling Damage"
+msgstr "Kerusakan Penanganan"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_bom_mixin__application_stage__harvest
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom__application_stage__harvest
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom_mixin__application_stage__harvest
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_bom__application_stage__harvest
+msgid "Harvest"
+msgstr "Panen"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Harvest Grading"
+msgstr "Grading Panen"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Harvest Output (%s)"
+msgstr "Output Panen (%s)"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Harvest QC: %s"
+msgstr "QC Panen: %s"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Harvest QC: %s for Grade %s"
+msgstr "QC Panen: %s untuk Grade %s"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__intervention_type__harvesting
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__intervention_type__harvesting
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__intervention_type__harvesting
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__intervention_type__harvesting
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_dispatch_wizard__intervention_type__harvesting
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__intervention_type__harvesting
+msgid "Harvesting"
+msgstr "Pemanenan"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_bom_line_mixin__dilution_ratio
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom_line__dilution_ratio
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom_line_mixin__dilution_ratio
+#: model:ir.model.fields,help:farm_operation.field_mrp_bom_line__dilution_ratio
+msgid ""
+"If set, the component quantity will be calculated as (Finished Qty / Ratio)."
+" E.g. 1:500."
+msgstr ""
+"Jika diatur, kuantitas komponen dihitung sebagai (Kuantitas Jadi / Rasio). "
+"Cth. 1:500."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__industry_type
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__industry_type
+msgid "Industry Type"
+msgstr "Jenis Industri"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__input_cost
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__input_cost
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__input_cost
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__input_cost
+msgid "Input Cost"
+msgstr "Biaya Input"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/sale_order.py:0
+msgid ""
+"Insufficient lead-time for product '%s'. Required: %s days, Available: %d "
+"days."
+msgstr ""
+"Waktu tunggu tidak cukup untuk produk '%s'. Dibutuhkan: %s hari, Tersedia: "
+"%d hari."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_science_sync_wizard__intervention_id
+msgid "Intervention"
+msgstr "Intervensi"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_pivot_view_inherit_farm
+msgid "Intervention Analysis"
+msgstr "Analisis Intervensi"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_tree_view_inherit_farm
+msgid "Intervention No."
+msgstr "No. Intervensi"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_calendar_view_inherit_farm
+msgid "Intervention Schedule"
+msgstr "Jadwal Intervensi"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__intervention_type
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__intervention_type
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__intervention_type
+#: model:ir.model.fields,field_description:farm_operation.field_farm_dispatch_wizard__intervention_type
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__intervention_type
+msgid "Intervention Type"
+msgstr "Jenis Intervensi"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Intervention approved by %s"
+msgstr "Intervensi disetujui oleh %s"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Intervention rejected."
+msgstr "Intervensi ditolak."
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Intervention submitted for supervisor approval."
+msgstr "Intervensi diajukan untuk persetujuan supervisor."
+
+#. module: farm_operation
+#: model:ir.ui.menu,name:farm_operation.menu_agri_interventions
+#: model:ir.ui.menu,name:farm_operation.menu_farm_operation_intervention
+msgid "Interventions"
+msgstr "Intervensi"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__intervention_type__irrigation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__intervention_type__irrigation
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__intervention_type__irrigation
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__intervention_type__irrigation
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_dispatch_wizard__intervention_type__irrigation
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__intervention_type__irrigation
+msgid "Irrigation"
+msgstr "Irigasi"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__k_density
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__k_density
+msgid "K Density (kg/ha)"
+msgstr "Kepadatan K (kg/ha)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__doer_cost
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__doer_cost
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__doer_cost
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__doer_cost
+msgid "Labor Cost"
+msgstr "Biaya Tenaga Kerja"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Labor: Work started at %s"
+msgstr "Tenaga kerja: Pekerjaan dimulai pada %s"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "Labor: Work stopped and recorded at %s"
+msgstr "Tenaga kerja: Pekerjaan dihentikan dan dicatat pada %s"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_agricultural_campaign_mixin__land_parcel_id
+#: model:ir.model.fields,field_description:farm_operation.field_agricultural_campaign__land_parcel_id
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign__land_parcel_id
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_base__land_parcel_id
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_mixin__land_parcel_id
+msgid "Land Parcel"
+msgstr "Petak Lahan"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__land_parcel_id
+msgid "Land Parcel/Pond"
+msgstr "Petak Lahan/Kolam"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_farm_task__campaign_id
+#: model:ir.model.fields,help:farm_operation.field_project_task__campaign_id
+msgid "Link this production task to a specific season."
+msgstr "Tautkan tugas produksi ini ke musim tertentu."
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_campaign__farm_location_id
+msgid "Link to standardized farm location model"
+msgstr "Taut ke model lokasi kebun standar"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__livestock
+msgid "Livestock"
+msgstr "Peternakan"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_agricultural_campaign_mixin__base_temperature
+#: model:ir.model.fields,help:farm_operation.field_agricultural_campaign__base_temperature
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_campaign__base_temperature
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_campaign_base__base_temperature
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_campaign_mixin__base_temperature
+msgid "Lower threshold for crop growth."
+msgstr "Ambang bawah untuk pertumbuhan tanaman."
+
+#. module: farm_operation
+#: model:ir.actions.act_window,name:farm_operation.action_agri_science_sync_wizard
+msgid "Manual Env Sync"
+msgstr "Sinkron Lingkungan Manual"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_science_sync_wizard__temp_max
+msgid "Max Temperature"
+msgstr "Suhu Maks"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__intervention_type__medical
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__intervention_type__medical
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__intervention_type__medical
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__intervention_type__medical
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__intervention_type__medical
+msgid "Medical/Prevention"
+msgstr "Medis/Pencegahan"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__medicinal_plants
+msgid "Medicinal Plants"
+msgstr "Tanaman Obat"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_science_sync_wizard__temp_min
+msgid "Min Temperature"
+msgstr "Suhu Min"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__mixed
+msgid "Mixed Operations"
+msgstr "Operasi Campuran"
+
+#. module: farm_operation
+#: model:ir.model,name:farm_operation.model_project_task
+msgid "Multi-Industry Activity Production"
+msgstr "Produksi Aktivitas Multi-Industri"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__mushroom
+msgid "Mushroom Cultivation"
+msgstr "Budidaya Jamur"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__n_density
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__n_density
+msgid "N Density (kg/ha)"
+msgstr "Kepadatan N (kg/ha)"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__stock_move__agri_loss_reason__natural
+msgid "Natural Dehydration"
+msgstr "Dehidrasi Alami"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__nitrogen_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__nitrogen_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line__nitrogen_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__nitrogen_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom_line__nitrogen_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__nitrogen_qty
+msgid "Nitrogen (N)"
+msgstr "Nitrogen (N)"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid "No GIS boundaries defined for the selected land parcel!"
+msgstr "Tidak ada batas GIS untuk petak lahan yang dipilih!"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__out_of_bounds_count
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention_mixin__out_of_bounds_count
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_intervention_mixin__out_of_bounds_count
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__out_of_bounds_count
+msgid "Number of telemetry points outside the parcel."
+msgstr "Jumlah titik telemetri di luar petak."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__out_of_bounds_count
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__out_of_bounds_count
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__out_of_bounds_count
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__out_of_bounds_count
+msgid "OOB Point Count"
+msgstr "Jumlah Titik di Luar Batas"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__operation_ids
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line__allowed_operation_ids
+#: model:ir.ui.menu,name:farm_operation.menu_farm_operation_root
+msgid "Operations"
+msgstr "Operasi"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__operator_id_card
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__operator_id_card
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__operator_id_card
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__operator_id_card
+msgid "Operator ID Card"
+msgstr "Kartu ID Operator"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__orchard_horticulture
+msgid "Orchard Horticulture"
+msgstr "Hortikultura Kebun Buah"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__carbon_content
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__carbon_content
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line__carbon_content
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__carbon_content
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom_line__carbon_content
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__carbon_content
+msgid "Organic Carbon"
+msgstr "Karbon Organik"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__p_density
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__p_density
+msgid "P Density (kg/ha)"
+msgstr "Kepadatan P (kg/ha)"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_bom_line_mixin__feeding_ratio
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom_line__feeding_ratio
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom_line_mixin__feeding_ratio
+#: model:ir.model.fields,help:farm_operation.field_mrp_bom_line__feeding_ratio
+msgid "Percentage of total biomass (Count * Avg Weight) for daily feeding."
+msgstr ""
+"Persentase dari total biomassa (Jumlah * Berat Rata-rata) untuk pemberian "
+"pakan harian."
+
+#. module: farm_operation
+#: model:ir.ui.menu,name:farm_operation.menu_agri_science_performance
+msgid "Performance Board"
+msgstr "Papan Kinerja"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__stock_move__agri_loss_reason__pest_damage
+msgid "Pest/Rodent Damage"
+msgstr "Kerusakan Hama/Tikus"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__product_registration_no
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention_mixin__product_registration_no
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_intervention_mixin__product_registration_no
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__product_registration_no
+msgid "Pesticide or veterinary product registration number."
+msgstr "Nomor registrasi produk pestisida atau veteriner."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__phosphorus_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__phosphorus_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line__phosphorus_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__phosphorus_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom_line__phosphorus_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__phosphorus_qty
+msgid "Phosphorus (P)"
+msgstr "Fosfor (P)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__evidence_ids
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__evidence_ids
+msgid "Physical Evidence"
+msgstr "Bukti Fisik"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Physical Grounding"
+msgstr "Landasan Fisik"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__physiology_profile_id
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__physiology_profile_id
+msgid "Physiology Profile"
+msgstr "Profil Fisiologi"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_bom_mixin__agri_activity_type__planting
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom__agri_activity_type__planting
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom_mixin__agri_activity_type__planting
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_bom__agri_activity_type__planting
+msgid "Planting Scheme"
+msgstr "Skema Penanaman"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__potassium_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__potassium_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line__potassium_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__potassium_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom_line__potassium_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__potassium_qty
+msgid "Potassium (K)"
+msgstr "Kalium (K)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_agricultural_campaign_mixin__predicted_harvest_date
+#: model:ir.model.fields,field_description:farm_operation.field_agricultural_campaign__predicted_harvest_date
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign__predicted_harvest_date
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_base__predicted_harvest_date
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_mixin__predicted_harvest_date
+msgid "Predicted Harvest"
+msgstr "Panen Prediksi"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__procedure_name
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__procedure_name
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__procedure_name
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__procedure_name
+msgid "Procedure/Method"
+msgstr "Prosedur/Metode"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__stock_move__agri_loss_reason__processing
+msgid "Processing Waste"
+msgstr "Limbah Pengolahan"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__product_registration_no
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__product_registration_no
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__product_registration_no
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__product_registration_no
+msgid "Product Registration No."
+msgstr "No. Registrasi Produk"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__production_location_id
+msgid "Production Location"
+msgstr "Lokasi Produksi"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.agricultural_campaign_view_form
+msgid "Production Season"
+msgstr "Musim Produksi"
+
+#. module: farm_operation
+#: model:ir.actions.act_window,name:farm_operation.action_agricultural_campaign
+#: model_terms:ir.ui.view,arch_db:farm_operation.agricultural_campaign_view_tree
+msgid "Production Seasons"
+msgstr "Musim Produksi"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__size_value
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__size_value
+msgid "Production Size"
+msgstr "Ukuran Produksi"
+
+#. module: farm_operation
+#. odoo-python
+#: code:addons/farm_operation/wizard/farm_dispatch_wizard.py:0
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__agri_task_id
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__agri_task_id
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__agri_task_id
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__agri_task_id
+msgid "Production Task"
+msgstr "Tugas Produksi"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__project_task__industry_type__protected_cultivation
+msgid "Protected Cultivation"
+msgstr "Budidaya Terlindung"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_bom_mixin__agri_activity_type__protection
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom__agri_activity_type__protection
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom_mixin__agri_activity_type__protection
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_bom__agri_activity_type__protection
+msgid "Protection Mix"
+msgstr "Campuran Proteksi"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__pure_n_qty
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__pure_n_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__pure_n_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__pure_n_qty
+msgid "Pure Nitrogen (N) kg"
+msgstr "Nitrogen Murni (N) kg"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__pure_p_qty
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__pure_p_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__pure_p_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__pure_p_qty
+msgid "Pure Phosphorus (P) kg"
+msgstr "Fosfor Murni (P) kg"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__pure_k_qty
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__pure_k_qty
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__pure_k_qty
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__pure_k_qty
+msgid "Pure Potassium (K) kg"
+msgstr "Kalium Murni (K) kg"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__quality_fingerprint
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__quality_fingerprint
+msgid "Quality Fingerprint"
+msgstr "Sidik Kualitas"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Quality Fingerprint (Immutable Proof)"
+msgstr "Sidik Kualitas (Bukti Tak Berubah)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_stock_move__quality_grade
+msgid "Quality Grade"
+msgstr "Grade Kualitas"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__rue_actual
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__rue_actual
+msgid "Radiation Use Efficiency (RUE)"
+msgstr "Efisiensi Penggunaan Radiasi (RUE)"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Recipe/Formula"
+msgstr "Resep/Formula"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Reject"
+msgstr "Tolak"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__approval_state__rejected
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__approval_state__rejected
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__approval_state__rejected
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__approval_state__rejected
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__approval_state__rejected
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__credit_score
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__credit_score
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__credit_score
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__credit_score
+msgid "Reputation Credit Score"
+msgstr "Skor Kredit Reputasi"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__operator_id_card
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention_mixin__operator_id_card
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_intervention_mixin__operator_id_card
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__operator_id_card
+msgid ""
+"Operator identity document number, where local regulations require operator "
+"registration for pesticide/veterinary handling."
+msgstr ""
+"Nomor dokumen identitas operator, bila peraturan setempat mewajibkan "
+"registrasi operator untuk penanganan pestisida/veteriner."
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.view_agri_intervention_form_science_inherit
+msgid "Resource Efficiency"
+msgstr "Efisiensi Sumber Daya"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__resource_intensity_score
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__resource_intensity_score
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__resource_intensity_score
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__resource_intensity_score
+msgid "Resource Intensity"
+msgstr "Intensitas Sumber Daya"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__user_id
+msgid "Responsible"
+msgstr "Penanggung Jawab"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__is_safe_to_harvest
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__is_safe_to_harvest
+msgid "Safe to Harvest"
+msgstr "Aman Dipanen"
+
+#. module: farm_operation
+#: model:ir.actions.act_window,name:farm_operation.action_agri_science_performance
+msgid "Scientific Performance"
+msgstr "Kinerja Ilmiah"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.agricultural_campaign_view_pivot
+msgid "Season Analytics"
+msgstr "Analitik Musim"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_agricultural_campaign_mixin__name
+#: model:ir.model.fields,field_description:farm_operation.field_agricultural_campaign__name
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign__name
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_base__name
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_mixin__name
+msgid "Season Name"
+msgstr "Nama Musim"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_bom_mixin__application_stage__seedling
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom__application_stage__seedling
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_bom_mixin__application_stage__seedling
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_bom__application_stage__seedling
+msgid "Seedling/Nursery"
+msgstr "Bibit/Persemaian"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_dispatch_wizard__location_ids
+#: model_terms:ir.ui.view,arch_db:farm_operation.view_farm_dispatch_wizard_form
+msgid "Selected Parcels"
+msgstr "Petak Terpilih"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__simplified_state
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__simplified_state
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__simplified_state
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__simplified_state
+msgid "Simplified State"
+msgstr "Status Sederhana"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Soil Nutrient Balance"
+msgstr "Neraca Nutrisi Tanah"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__intervention_type__tillage
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__intervention_type__tillage
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__intervention_type__tillage
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__intervention_type__tillage
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_dispatch_wizard__intervention_type__tillage
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__intervention_type__tillage
+msgid "Soil Preparation"
+msgstr "Persiapan Tanah"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__sale_order_id
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__sale_order_id
+msgid "Source Sale Order"
+msgstr "Pesanan Penjualan Sumber"
+
+#. module: farm_operation
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention__intervention_type__sowing
+#: model:ir.model.fields.selection,name:farm_operation.selection__agri_intervention_mixin__intervention_type__sowing
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_agricultural_intervention_mixin__intervention_type__sowing
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_apiculture_order__intervention_type__sowing
+#: model:ir.model.fields.selection,name:farm_operation.selection__farm_dispatch_wizard__intervention_type__sowing
+#: model:ir.model.fields.selection,name:farm_operation.selection__mrp_production__intervention_type__sowing
+msgid "Sowing/Planting"
+msgstr "Penaburan/Penanaman"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Spatial & Evidence"
+msgstr "Spasial & Bukti"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__spatial_compliance_rate
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__spatial_compliance_rate
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__spatial_compliance_rate
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__spatial_compliance_rate
+msgid "Spatial Compliance (%)"
+msgstr "Kepatuhan Spasial (%)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__spatial_grid_id
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__spatial_grid_id
+msgid "Spatial Grid ID"
+msgstr "ID Grid Spasial"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_agricultural_campaign_mixin__date_start
+#: model:ir.model.fields,field_description:farm_operation.field_agricultural_campaign__date_start
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign__date_start
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_base__date_start
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_mixin__date_start
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Start Work"
+msgstr "Mulai Kerja"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Stop Work"
+msgstr "Hentikan Kerja"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__biological_stress_index
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__biological_stress_index
+msgid "Stress Index (0-100)"
+msgstr "Indeks Stres (0-100)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__agent_instruction_json
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__agent_instruction_json
+msgid "Structured Command (JSON)"
+msgstr "Perintah Terstruktur (JSON)"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Submit for Approval"
+msgstr "Ajukan Persetujuan"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__support_id
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__support_id
+msgid "Support Object"
+msgstr "Objek Pendukung"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.mrp_production_form_view_inherit_farm_op
+msgid "Sustainability & Value"
+msgstr "Keberlanjutan & Nilai"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__is_eco_blocked
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__is_eco_blocked
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__is_eco_blocked
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__is_eco_blocked
+msgid "Sustainability Block"
+msgstr "Blok Keberlanjutan"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__impact_credits
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__impact_credits
+msgid "Sustainability Credits"
+msgstr "Kredit Keberlanjutan"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.view_agri_science_sync_wizard_form
+msgid "Sync Data"
+msgstr "Sinkron Data"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_agricultural_campaign_mixin__target_gdd
+#: model:ir.model.fields,field_description:farm_operation.field_agricultural_campaign__target_gdd
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign__target_gdd
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_base__target_gdd
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_campaign_mixin__target_gdd
+msgid "Target GDD"
+msgstr "GDD Target"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_dispatch_wizard__product_id
+msgid "Target Product (Crop)"
+msgstr "Produk Target (Tanaman)"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__is_outdated_bom
+msgid "The BoM has been updated since creation of the MO"
+msgstr "BOM telah diperbarui sejak MO dibuat"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_farm_dispatch_wizard__product_id
+msgid "The crop or output product."
+msgstr "Tanaman atau produk output."
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_farm_task__support_id
+#: model:ir.model.fields,help:farm_operation.field_project_task__support_id
+msgid "The land parcel, animal or group this task is performed on."
+msgstr "Petak lahan, hewan, atau kelompok tempat tugas ini dilakukan."
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom_line__operation_id
+msgid ""
+"The operation where the components are consumed, or the finished products "
+"created."
+msgstr "Operasi tempat komponen dikonsumsi, atau produk jadi dibuat."
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__campaign_id
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention_mixin__campaign_id
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_intervention_mixin__campaign_id
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__campaign_id
+msgid "The production season this intervention belongs to."
+msgstr "Musim produksi tempat intervensi ini berada."
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__agri_task_id
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention_mixin__agri_task_id
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_intervention_mixin__agri_task_id
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__agri_task_id
+msgid "The specific production task this intervention belongs to."
+msgstr "Tugas produksi spesifik tempat intervensi ini berada."
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__tool_cost
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__tool_cost
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__tool_cost
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__tool_cost
+msgid "Tool/Machinery Cost"
+msgstr "Biaya Alat/Mesin"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__tool_ids
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__tool_ids
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__tool_ids
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__tool_ids
+msgid "Tools/Machinery"
+msgstr "Alat/Mesin"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_dispatch_wizard__total_area
+msgid "Total Area (ha)"
+msgstr "Total Luas (ha)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__total_agri_cost
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__total_agri_cost
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__total_agri_cost
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__total_agri_cost
+msgid "Total Intervention Cost"
+msgstr "Total Biaya Intervensi"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__total_n
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__total_n
+msgid "Total Nitrogen (kg)"
+msgstr "Total Nitrogen (kg)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__total_p
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__total_p
+msgid "Total Phosphorus (kg)"
+msgstr "Total Fosfor (kg)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_farm_task__total_k
+#: model:ir.model.fields,field_description:farm_operation.field_project_task__total_k
+msgid "Total Potassium (kg)"
+msgstr "Total Kalium (kg)"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_farm_task__industry_type
+#: model:ir.model.fields,help:farm_operation.field_project_task__industry_type
+msgid "Type of agricultural industry this task belongs to"
+msgstr "Jenis industri pertanian tempat tugas ini berada"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__water_consumed_m3
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__water_consumed_m3
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__water_consumed_m3
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__water_consumed_m3
+msgid "Water Consumed (m3)"
+msgstr "Air Terpakai (m3)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__water_footprint
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom__water_footprint
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_bom_line__water_footprint
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom__water_footprint
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_bom_line__water_footprint
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__water_footprint
+msgid "Water Footprint (L)"
+msgstr "Jejak Air (L)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__wue_actual
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__wue_actual
+msgid "Water Use Efficiency (WUE)"
+msgstr "Efisiensi Penggunaan Air (WUE)"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__weather_risk_level
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__weather_risk_level
+msgid "Weather Risk"
+msgstr "Risiko Cuaca"
+
+#. module: farm_operation
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention__work_start_datetime
+#: model:ir.model.fields,field_description:farm_operation.field_agri_intervention_mixin__work_start_datetime
+#: model:ir.model.fields,field_description:farm_operation.field_farm_agricultural_intervention_mixin__work_start_datetime
+#: model:ir.model.fields,field_description:farm_operation.field_mrp_production__work_start_datetime
+msgid "Work Start"
+msgstr "Mulai Kerja"
+
+#. module: farm_operation
+#: model_terms:ir.ui.view,arch_db:farm_operation.agricultural_campaign_view_form
+msgid "e.g. 2026 Spring"
+msgstr "cth. Musim Semi 2026"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__procedure_name
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention_mixin__procedure_name
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_intervention_mixin__procedure_name
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__procedure_name
+msgid "e.g. Mechanical sowing, manual weeding"
+msgstr "cth. Penaburan mekanis, penyiangan manual"
+
+#. module: farm_operation
+#: model:ir.model.fields,help:farm_operation.field_agri_intervention__nitrogen_qty
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom__nitrogen_qty
+#: model:ir.model.fields,help:farm_operation.field_farm_agricultural_bom_line__nitrogen_qty
+#: model:ir.model.fields,help:farm_operation.field_mrp_bom__nitrogen_qty
+#: model:ir.model.fields,help:farm_operation.field_mrp_bom_line__nitrogen_qty
+#: model:ir.model.fields,help:farm_operation.field_mrp_production__nitrogen_qty
+msgid "kg per unit."
+msgstr "kg per satuan."
+
+#. module: farm_operation
+#: code:addons/farm_operation/models/project_task.py:0
+msgid ""
+"IoT telemetry is not available: the farm_iot module is not installed. "
+"Install it to view sensor trends for this task."
+msgstr ""
+"Telemetri IoT tidak tersedia: modul farm_iot belum terpasang. Pasang modul "
+"tersebut untuk melihat tren sensor tugas ini."
+
+#. module: farm_operation
+#: code:addons/farm_operation/models/agri_intervention_mixin.py:0
+msgid ""
+"IoT-based intervention is not available: the farm_iot module is not "
+"installed."
+msgstr ""
+"Intervensi berbasis IoT tidak tersedia: modul farm_iot belum terpasang."

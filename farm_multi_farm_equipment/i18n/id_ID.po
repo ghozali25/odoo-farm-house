@@ -1,0 +1,168 @@
+# Translation of farm_multi_farm_equipment to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_multi_farm_equipment 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_multi_farm_equipment
+msgid "Actual Cost"
+msgstr "Actual Cost"
+
+#. module: farm_multi_farm_equipment
+msgid "Actual End Date"
+msgstr "Actual End Date"
+
+#. module: farm_multi_farm_equipment
+msgid "Area-based"
+msgstr "Area-based"
+
+#. module: farm_multi_farm_equipment
+msgid "Available"
+msgstr "Available"
+
+#. module: farm_multi_farm_equipment
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_multi_farm_equipment
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_multi_farm_equipment
+msgid "Confirmed"
+msgstr "Confirmed"
+
+#. module: farm_multi_farm_equipment
+msgid "Current Location"
+msgstr "Current Location"
+
+#. module: farm_multi_farm_equipment
+msgid "Daily"
+msgstr "Daily"
+
+#. module: farm_multi_farm_equipment
+msgid "Daily Rate"
+msgstr "Daily Rate"
+
+#. module: farm_multi_farm_equipment
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_multi_farm_equipment
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_multi_farm_equipment
+msgid "End Date"
+msgstr "End Date"
+
+#. module: farm_multi_farm_equipment
+msgid "Equipment Management"
+msgstr "Equipment Management"
+
+#. module: farm_multi_farm_equipment
+msgid "Equipment Pool"
+msgstr "Equipment Pool"
+
+#. module: farm_multi_farm_equipment
+msgid "Expected Cost"
+msgstr "Expected Cost"
+
+#. module: farm_multi_farm_equipment
+msgid "Hourly"
+msgstr "Hourly"
+
+#. module: farm_multi_farm_equipment
+msgid "Hourly Rate"
+msgstr "Hourly Rate"
+
+#. module: farm_multi_farm_equipment
+msgid "In Progress"
+msgstr "In Progress"
+
+#. module: farm_multi_farm_equipment
+msgid "In Use"
+msgstr "In Use"
+
+#. module: farm_multi_farm_equipment
+msgid "Is Active"
+msgstr "Is Active"
+
+#. module: farm_multi_farm_equipment
+msgid "Machinery Code"
+msgstr "Mesin Kode"
+
+#. module: farm_multi_farm_equipment
+msgid "Machinery Name"
+msgstr "Mesin Nama"
+
+#. module: farm_multi_farm_equipment
+msgid "Machinery Rental"
+msgstr "Penyewaan Mesin"
+
+#. module: farm_multi_farm_equipment
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_multi_farm_equipment
+msgid "Out of Service"
+msgstr "Out of Service"
+
+#. module: farm_multi_farm_equipment
+msgid "Rental Reference"
+msgstr "Rental Reference"
+
+#. module: farm_multi_farm_equipment
+msgid "Shared Machinery"
+msgstr "Bersama Mesin"
+
+#. module: farm_multi_farm_equipment
+msgid "Start Date"
+msgstr "Start Date"
+
+#. module: farm_multi_farm_equipment
+msgid "Task-based"
+msgstr "Task-based"
+
+#. module: farm_multi_farm_equipment
+msgid "Uber-style sharing completed. Auto-generated settlement %s for $%s."
+msgstr "Uber-style sharing completed. Auto-generated settlement %s for $%s."
+
+#. module: farm_multi_farm_equipment
+msgid "Under Maintenance"
+msgstr "Under Maintenance"
+
+#. module: farm_multi_farm_equipment
+msgid "cooperative.entity"
+msgstr "cooperative.entity"
+
+#. module: farm_multi_farm_equipment
+msgid "cooperative.member"
+msgstr "cooperative.member"
+
+#. module: farm_multi_farm_equipment
+msgid "fleet.vehicle"
+msgstr "fleet.vehicle"
+
+#. module: farm_multi_farm_equipment
+msgid "internal.settlement"
+msgstr "internal.settlement"
+
+#. module: farm_multi_farm_equipment
+msgid "machinery.rental"
+msgstr "machinery.rental"
+
+#. module: farm_multi_farm_equipment
+msgid "shared.machinery.pool"
+msgstr "shared.machinery.pool"

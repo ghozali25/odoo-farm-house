@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_agri_gi_registry,agri.gi.registry,model_agri_gi_registry,base.group_user,1,1,1,1
+access_farm_consumer_feedback,farm.consumer.feedback,model_farm_consumer_feedback,base.group_user,1,1,1,1
+access_farm_market_connector,farm.market.connector,model_farm_market_connector,base.group_user,1,1,1,1
+access_farm_market_demand,farm.market.demand,model_farm_market_demand,base.group_user,1,1,1,1

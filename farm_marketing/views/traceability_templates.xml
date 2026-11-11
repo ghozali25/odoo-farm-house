@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<template id="traceability_portal_template" name="Product Traceability Portal">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty bg-light">
+                <section class="s_text_block pb32 pt32" data-snippet="s_text_block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 offset-lg-2">
+                                
+                                <div class="card shadow-sm mb-4 border-0">
+                                    <div class="card-body text-center bg-success text-white rounded-top">
+                                        <h2 t-field="lot.product_id.name" />
+                                        <p class="mb-0">Batch ID: <span t-field="lot.name" /></p>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row text-center">
+                                            <div class="col-6 border-end">
+                                                <h6>Origin</h6>
+                                                <p t-field="lot.location_id.name" />
+                                            </div>
+                                            <div class="col-6">
+                                                <h6>Status</h6>
+                                                <span class="badge rounded-pill bg-info" t-field="lot.biological_stage" />
+                                            </div>
+                                        </div>
+                                        <t t-if="lot.certification_level and lot.certification_level != 'conventional'">
+                                            <div class="mt-3 text-center">
+                                                <span class="badge bg-warning text-dark p-2 w-100" style="font-size: 1rem;">
+                                                    <i class="fa fa-certificate me-2" />Certified: <span t-field="lot.certification_level" />
+                                                </span>
+                                            </div>
+                                        </t>
+                                        <t t-if="lot.gi_security_code">
+                                            <div class="mt-2 text-center">
+                                                <span class="text-success" style="font-weight: bold;">
+                                                    <i class="fa fa-shield me-1" />GI Secure Code: <span t-field="lot.gi_security_code" />
+                                                </span>
+                                            </div>
+                                        </t>
+                                    </div>
+                                </div>
+
+                                
+                                <h4 class="mb-3"><i class="fa fa-globe text-primary me-2" />Terroir Profiles</h4>
+                                <div class="card shadow-sm mb-4 border-0">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-6 mb-2">
+                                                <strong>Slope:</strong> <span t-field="lot.location_id.slope" />%
+                                            </div>
+                                            <div class="col-6 mb-2">
+                                                <strong>Aspect:</strong> <span t-field="lot.location_id.aspect" />
+                                            </div>
+                                            <div class="col-12 mb-2">
+                                                <strong>Water:</strong> <span t-field="lot.location_id.water_source" />
+                                            </div>
+                                            <t t-if="lot.location_id.micro_climate_notes">
+                                                <div class="col-12 mb-2">
+                                                    <strong>Climate:</strong> <p class="text-muted" t-field="lot.location_id.micro_climate_notes" />
+                                                </div>
+                                            </t>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <h4 class="mb-3"><i class="fa fa-history text-success me-2" />Life Cycle</h4>
+                                <div class="list-group mb-4 shadow-sm">
+                                    <div class="list-group-item">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h6 class="mb-1">Birth/Planting Date</h6>
+                                            <small t-field="lot.create_date" t-options="{&quot;widget&quot;: &quot;date&quot;}" />
+                                        </div>
+                                    </div>
+                                    <t t-if="task">
+                                        <div class="list-group-item">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h6 class="mb-1">Cultivation Season</h6>
+                                                <p class="mb-1" t-field="task.campaign_id.name" />
+                                            </div>
+                                        </div>
+                                    </t>
+                                </div>
+
+                                
+                                <t t-if="video_url">
+                                    <h4 class="mb-3"><i class="fa fa-video-camera text-danger me-2" />Live View</h4>
+                                    <div class="card shadow-sm mb-4 border-0 bg-dark overflow-hidden" style="aspect-ratio: 16/9;">
+                                        <iframe t-att-src="video_url" class="w-100 h-100 border-0" allow="autoplay; encrypted-media" allowfullscreen="True">
+                                        </iframe>
+                                    </div>
+                                </t>
+
+                                
+                                <h4 class="mb-3"><i class="fa fa-certificate text-warning me-2" />Quality Trust</h4>
+                                <div class="card shadow-sm mb-4">
+                                    <div class="card-body">
+                                        <t t-if="qc_checks">
+                                            <div t-foreach="qc_checks" t-as="qc" class="d-flex align-items-center mb-2">
+                                                <i class="fa fa-check-circle text-success me-2" />
+                                                <span t-field="qc.point_id.name" />: 
+                                                <strong class="ms-1" t-field="qc.quality_state" />
+                                            </div>
+                                        </t>
+                                        <t t-else="">
+                                            <p class="text-muted">Standard factory inspection completed.</p>
+                                        </t>
+                                    </div>
+                                </div>
+
+                                
+                                <h4 class="mb-3"><i class="fa fa-leaf text-success me-2" />Our Story</h4>
+                                <div class="card shadow-sm border-0 bg-white p-3 mb-5">
+                                    <p class="mb-0 text-italic" t-out="farm_story" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+
+    
+    <record id="action_view_order_intervention_calendar" model="ir.actions.act_url">
+        <field name="name">Field Operations Calendar</field>
+        <field name="url">/farm/order/calendar</field>
+        <field name="target">new</field>
+    </record>
+</data>
+</odoo>

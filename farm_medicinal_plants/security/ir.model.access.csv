@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_lot_medicinal,farm.lot.medicinal,model_farm_lot_medicinal,base.group_user,1,1,1,1
+access_farm_medicinal_production,farm.medicinal.production,model_farm_medicinal_production,base.group_user,1,1,1,1
+access_farm_medicinal_recipe,farm.medicinal.recipe,model_farm_medicinal_recipe,base.group_user,1,1,1,1

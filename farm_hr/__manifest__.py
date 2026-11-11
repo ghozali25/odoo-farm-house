@@ -1,0 +1,31 @@
+{
+    'name': 'Farm HR & Labor',
+    'version': '18.0.1.0.0',
+    'category': 'Industries/Agriculture',
+    'summary': 'Seasonal Labor, Field Worklogs and Piece-rate Wages',
+    'description': """
+        HR module for Odoo 18 Farm Management System.
+        - Seasonal Labor Management (Contractors/External workers) [US-036-03]
+        - Field Task Worklogs & Piece-rate performance [US-036-04]
+        - Automated labor cost attribution to farm tasks
+    """,
+    'author': 'Jeffery',
+    # NOTE (port 19.0 -> 18.0): 'maintenance' added — service_team.py
+    # links teams to maintenance.equipment, which is not pulled in by
+    # any other depend here. It is a standard Odoo module, always
+    # available (also a depend of the already-installed farm_iot).
+    'depends': ['farm_operation', 'hr', 'hr_attendance', 'account', 'maintenance'],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/farm_hr_sequences.xml',
+        'data/farm_hr_data.xml',
+        'data/farm_wage_rules_data.xml',
+        'views/farm_employee_views.xml',
+        'views/farm_worklog_views.xml',
+        'views/farm_wage_views.xml',
+    ],
+    'images': ['static/description/main_screenshot.png'],
+    'installable': True,
+    'application': False,
+    'license': 'AGPL-3',
+}

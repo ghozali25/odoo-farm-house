@@ -1,0 +1,32 @@
+# Translation of farm_floriculture (farm_floriculture) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_floriculture 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_floriculture
+msgid "COLD CHAIN BREACH: Temperature > 4C for %s mins. Vase life downgraded from %s to %s days. Auto-triggering local rerouting."
+msgstr "COLD CHAIN BREACH: Temperature > 4C for %s mins. Vase life downgraded from %s to %s days. Auto-triggering local rerouting."
+
+#. module: farm_floriculture
+msgid "Floriculture & Ornamental Horticulture"
+msgstr "Floriculture & Ornamental Horticulture"
+
+#. module: farm_floriculture
+msgid "QUALITY BLOCK: Flower Lot %s has insufficient vase-life (%s days) for sale."
+msgstr "QUALITY BLOCK: Flower Lot %s has insufficient vase-life (%s days) for sale."
+
+#. module: farm_floriculture
+msgid "Specialized management for flower production, bloom control, and vase-life tracking."
+msgstr "Specialized management for flower production, bloom control, and vase-life tracking."

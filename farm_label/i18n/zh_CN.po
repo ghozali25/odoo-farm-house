@@ -1,0 +1,14 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_label
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Background image for all agricultural labels."
+msgstr "所有农业标签的背景图像。"
+
+msgid "Label Background Image"
+msgstr "标签背景图像"
+

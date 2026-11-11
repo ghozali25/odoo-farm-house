@@ -1,0 +1,23 @@
+# Translation of Livestock Matter Bridge (farm_livestock_matter) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: the module has a single user-visible string.
+# License: AGPL-3 (same as the farm modules it bridges).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_livestock_matter 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 11:00+0700\n"
+"PO-Revision-Date: 2026-11-10 11:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_livestock_matter
+msgid "Livestock Matter Bridge"
+msgstr "Jembatan Materi Ternak"
+
+#. module: farm_livestock_matter
+msgid "Livestock Biological Asset"
+msgstr "Aset Biologis Ternak"

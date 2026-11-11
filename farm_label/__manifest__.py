@@ -1,0 +1,25 @@
+{
+    'name': 'Farm Labels & Signage',
+    'version': '18.0.1.0.0',
+    'category': 'Industries/Agriculture',
+    'summary': 'Printable labels for products, lots, animals and land parcels',
+    'description': """
+        Labeling module for Odoo 18 Farm Management System.
+        - Consumer Product Labels with Traceability QR [US-008-01]
+        - Internal Batch/Lot Tags
+        - Individual Animal Identification (Ear Tags) [US-001-04]
+        - Land Parcel Signage with GIS/History QR [US-001-03]
+    """,
+    'author': 'Jeffery',
+    'depends': ['farm_core', 'farm_marketing', 'barcodes'],
+    'data': [
+        'security/ir.model.access.csv',
+        'report/farm_label_templates.xml',
+        'report/farm_label_reports.xml',
+        'views/res_config_settings_views.xml',
+    ],
+    'images': ['static/description/main_screenshot.png'],
+    'installable': True,
+    'application': False,
+    'license': 'AGPL-3',
+}

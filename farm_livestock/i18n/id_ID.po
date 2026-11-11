@@ -1,0 +1,892 @@
+# Translation of Farm Livestock (farm_livestock) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_livestock 18.0.1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 11:00+0700\n"
+"PO-Revision-Date: 2026-11-10 11:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_livestock
+msgid "Farm Livestock"
+msgstr "Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Management - Breeding Records, Health Records, Breeding Management, Individual Identification"
+msgstr "Manajemen Ternak - Catatan Pembiakan, Catatan Kesehatan, Manajemen Pembiakan, Identifikasi Individu"
+
+#. module: farm_livestock
+msgid "Active Feeding Recipe"
+msgstr "Resep Pakan Aktif"
+
+#. module: farm_livestock
+msgid "Actual ADG (kg/day)"
+msgstr "ADG Aktual (kg/hari)"
+
+#. module: farm_livestock
+msgid "Actual FCR"
+msgstr "FCR Aktual"
+
+#. module: farm_livestock
+msgid "Additional observations..."
+msgstr "Observasi tambahan..."
+
+#. module: farm_livestock
+msgid "Alert Severity"
+msgstr "Tingkat Keparahan Peringatan"
+
+#. module: farm_livestock
+msgid "Ammonia (ppm)"
+msgstr "Amonia (ppm)"
+
+#. module: farm_livestock
+msgid "Animal"
+msgstr "Hewan"
+
+#. module: farm_livestock
+msgid "Animal Base"
+msgstr "Basis Hewan"
+
+#. module: farm_livestock
+msgid "Animal Batches"
+msgstr "Batch Hewan"
+
+#. module: farm_livestock
+msgid "Animal Count"
+msgstr "Jumlah Hewan"
+
+#. module: farm_livestock
+msgid "Animal Group"
+msgstr "Kelompok Hewan"
+
+#. module: farm_livestock
+msgid "Animal Name"
+msgstr "Nama Hewan"
+
+#. module: farm_livestock
+msgid "Animal/Group"
+msgstr "Hewan/Kelompok"
+
+#. module: farm_livestock
+msgid "Animals"
+msgstr "Hewan"
+
+#. module: farm_livestock
+msgid "Anomaly Detected"
+msgstr "Anomali Terdeteksi"
+
+#. module: farm_livestock
+msgid "Anomaly Flag"
+msgstr "Penanda Anomali"
+
+#. module: farm_livestock
+msgid "Anomaly Tracking"
+msgstr "Pelacakan Anomali"
+
+#. module: farm_livestock
+msgid "Average Daily Gain (kg/day)"
+msgstr "Pertambahan Harian Rata-rata (kg/hari)"
+
+#. module: farm_livestock
+msgid "Average Milk Yield (L/day)"
+msgstr "Rata-rata Hasil Susu (L/hari)"
+
+#. module: farm_livestock
+msgid "Average Weight (kg)"
+msgstr "Berat Rata-rata (kg)"
+
+#. module: farm_livestock
+msgid "Avg Daily Feed (kg)"
+msgstr "Pakan Harian Rata-rata (kg)"
+
+#. module: farm_livestock
+msgid "Base BOM Line"
+msgstr "Baris BoM Dasar"
+
+#. module: farm_livestock
+msgid "Base Intervention"
+msgstr "Intervensi Dasar"
+
+#. module: farm_livestock
+msgid "Base Lot"
+msgstr "Lot Dasar"
+
+#. module: farm_livestock
+msgid "Base Recipe"
+msgstr "Resep Dasar"
+
+#. module: farm_livestock
+msgid "Batches & Groups"
+msgstr "Batch & Kelompok"
+
+#. module: farm_livestock
+msgid "Biological Stage"
+msgstr "Tahap Biologis"
+
+#. module: farm_livestock
+msgid "Birth Date"
+msgstr "Tanggal Lahir"
+
+#. module: farm_livestock
+msgid "Breeding"
+msgstr "Pembiakan"
+
+#. module: farm_livestock
+msgid "Breeding Date"
+msgstr "Tanggal Pembiakan"
+
+#. module: farm_livestock
+msgid "Breeding Management"
+msgstr "Manajemen Pembiakan"
+
+#. module: farm_livestock
+msgid "Breeding Method"
+msgstr "Metode Pembiakan"
+
+#. module: farm_livestock
+msgid "Breeding Notes"
+msgstr "Catatan Pembiakan"
+
+#. module: farm_livestock
+msgid "Breeding Record"
+msgstr "Catatan Pembiakan"
+
+#. module: farm_livestock
+msgid "Breeding Records"
+msgstr "Catatan Pembiakan"
+
+#. module: farm_livestock
+msgid "Breeding Status"
+msgstr "Status Pembiakan"
+
+#. module: farm_livestock
+msgid "Calculate Expected Yield"
+msgstr "Hitung Hasil yang Diharapkan"
+
+#. module: farm_livestock
+msgid "Capture Time"
+msgstr "Waktu Pencatatan"
+
+#. module: farm_livestock
+msgid "Comfort Index"
+msgstr "Indeks Kenyamanan"
+
+#. module: farm_livestock
+msgid "Compatibility Bridge: Computes weight from active matter tracking containers."
+msgstr "Jembatan kompatibilitas: menghitung berat dari kontainer pelacak materi aktif."
+
+#. module: farm_livestock
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#. module: farm_livestock
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#. module: farm_livestock
+msgid "Dam"
+msgstr "Induk Betina"
+
+#. module: farm_livestock
+msgid "Days in Milk"
+msgstr "Hari Laktasi"
+
+#. module: farm_livestock
+msgid "Details"
+msgstr "Detail"
+
+#. module: farm_livestock
+msgid "Dilution Ratio (1:N)"
+msgstr "Rasio Pengenceran (1:N)"
+
+#. module: farm_livestock
+msgid "Dosage"
+msgstr "Dosis"
+
+#. module: farm_livestock
+msgid "Ear Tag Code"
+msgstr "Kode Ear Tag"
+
+#. module: farm_livestock
+msgid "Ear Tag Number"
+msgstr "Nomor Ear Tag"
+
+#. module: farm_livestock
+msgid "Efficiency (ISL)"
+msgstr "Efisiensi (ISL)"
+
+#. module: farm_livestock
+msgid "Egg Production Rate (%)"
+msgstr "Tingkat Produksi Telur (%)"
+
+#. module: farm_livestock
+msgid "Enter medication records..."
+msgstr "Masukkan catatan pengobatan..."
+
+#. module: farm_livestock
+msgid "Enter pedigree information..."
+msgstr "Masukkan informasi silsilah..."
+
+#. module: farm_livestock
+msgid "Enter vaccination schedule..."
+msgstr "Masukkan jadwal vaksinasi..."
+
+#. module: farm_livestock
+msgid "Environment Monitoring"
+msgstr "Pemantauan Lingkungan"
+
+#. module: farm_livestock
+msgid "Event Date"
+msgstr "Tanggal Kejadian"
+
+#. module: farm_livestock
+msgid "Event Details"
+msgstr "Detail Kejadian"
+
+#. module: farm_livestock
+msgid "Event Type"
+msgstr "Jenis Kejadian"
+
+#. module: farm_livestock
+msgid "Expected Farrowing/Calving Date"
+msgstr "Perkiraan Tanggal Beranak/Melahirkan"
+
+#. module: farm_livestock
+msgid "Expected Gestation Days"
+msgstr "Perkiraan Lama Kebuntingan (hari)"
+
+#. module: farm_livestock
+msgid "Expected Growth Days"
+msgstr "Perkiraan Lama Tumbuh (hari)"
+
+#. module: farm_livestock
+msgid "Expected Offspring Count"
+msgstr "Perkiraan Jumlah Anak"
+
+#. module: farm_livestock
+msgid "Farm: Daily Livestock Feed Depletion"
+msgstr "Peternakan: Pengurangan Pakan Ternak Harian"
+
+#. module: farm_livestock
+msgid "Feed Conversion Ratio (FCR)"
+msgstr "Rasio Konversi Pakan (FCR)"
+
+#. module: farm_livestock
+msgid "Feed Formulation"
+msgstr "Formulasi Pakan"
+
+#. module: farm_livestock
+msgid "Feed Purpose"
+msgstr "Tujuan Pakan"
+
+#. module: farm_livestock
+msgid "Feeding"
+msgstr "Pemberian Pakan"
+
+#. module: farm_livestock
+msgid "Feeding Operations"
+msgstr "Operasi Pemberian Pakan"
+
+#. module: farm_livestock
+msgid "Feeding Ratio (%)"
+msgstr "Rasio Pakan (%)"
+
+#. module: farm_livestock
+msgid "Final Total Weight (kg)"
+msgstr "Total Berat Akhir (kg)"
+
+#. module: farm_livestock
+msgid "Gender"
+msgstr "Jenis Kelamin"
+
+#. module: farm_livestock
+msgid "General Process"
+msgstr "Proses Umum"
+
+#. module: farm_livestock
+msgid "Growth Data"
+msgstr "Data Pertumbuhan"
+
+#. module: farm_livestock
+msgid "Health"
+msgstr "Kesehatan"
+
+#. module: farm_livestock
+msgid "Health Index (0-100)"
+msgstr "Indeks Kesehatan (0-100)"
+
+#. module: farm_livestock
+msgid "Health Management"
+msgstr "Manajemen Kesehatan"
+
+#. module: farm_livestock
+msgid "Health Status"
+msgstr "Status Kesehatan"
+
+#. module: farm_livestock
+msgid "House Environment"
+msgstr "Lingkungan Kandang"
+
+#. module: farm_livestock
+msgid "House/Location"
+msgstr "Kandang/Lokasi"
+
+#. module: farm_livestock
+msgid "Humidity (%)"
+msgstr "Kelembapan (%)"
+
+#. module: farm_livestock
+msgid "Husbandry Cycle (ISL)"
+msgstr "Siklus Pemeliharaan (ISL)"
+
+#. module: farm_livestock
+msgid "If set, the component quantity will be calculated as (Finished Qty / Ratio). E.g. 1:500."
+msgstr "Jika diisi, jumlah komponen dihitung sebagai (Jml. Hasil / Rasio). Cth. 1:500."
+
+#. module: farm_livestock
+msgid "Initial Total Weight (kg)"
+msgstr "Total Berat Awal (kg)"
+
+#. module: farm_livestock
+msgid "Initial Weight (kg)"
+msgstr "Berat Awal (kg)"
+
+#. module: farm_livestock
+msgid "Intensive Management"
+msgstr "Manajemen Intensif"
+
+#. module: farm_livestock
+msgid "Intervention Type"
+msgstr "Jenis Intervensi"
+
+#. module: farm_livestock
+msgid "JSON-based configuration for livestock-specific parameters"
+msgstr "Konfigurasi berbasis JSON untuk parameter khusus ternak"
+
+#. module: farm_livestock
+msgid "Lactation Number"
+msgstr "Nomor Laktasi"
+
+#. module: farm_livestock
+msgid "Last Anomaly Time"
+msgstr "Waktu Anomali Terakhir"
+
+#. module: farm_livestock
+msgid "Last Vaccination Date"
+msgstr "Tanggal Vaksinasi Terakhir"
+
+#. module: farm_livestock
+msgid "Last Veterinary Check"
+msgstr "Pemeriksaan Dokter Hewan Terakhir"
+
+#. module: farm_livestock
+msgid "Lifecycle Events"
+msgstr "Kejadian Siklus Hidup"
+
+#. module: farm_livestock
+msgid "Livestock"
+msgstr "Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Analysis"
+msgstr "Analisis Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Biological Asset"
+msgstr "Aset Biologis Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Configuration"
+msgstr "Konfigurasi Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Event"
+msgstr "Kejadian Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Events"
+msgstr "Kejadian Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Growth Tasks"
+msgstr "Tugas Pertumbuhan Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Information"
+msgstr "Informasi Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Recipe"
+msgstr "Resep Ternak"
+
+#. module: farm_livestock
+msgid "Livestock Recipes (ISL)"
+msgstr "Resep Ternak (ISL)"
+
+#. module: farm_livestock
+msgid "Location"
+msgstr "Lokasi"
+
+#. module: farm_livestock
+msgid "Mark as Done"
+msgstr "Tandai Selesai"
+
+#. module: farm_livestock
+msgid "Measured Weight (kg)"
+msgstr "Berat Terukur (kg)"
+
+#. module: farm_livestock
+msgid "Medication Records"
+msgstr "Catatan Pengobatan"
+
+#. module: farm_livestock
+msgid "Medicine/Vaccine"
+msgstr "Obat/Vaksin"
+
+#. module: farm_livestock
+msgid "Milk Production"
+msgstr "Produksi Susu"
+
+#. module: farm_livestock
+msgid "Next Vaccination Date"
+msgstr "Tanggal Vaksinasi Berikutnya"
+
+#. module: farm_livestock
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_livestock
+msgid "Offspring"
+msgstr "Anak"
+
+#. module: farm_livestock
+msgid "Operations"
+msgstr "Operasi"
+
+#. module: farm_livestock
+msgid "Order Info (Base)"
+msgstr "Info Pesanan (Dasar)"
+
+#. module: farm_livestock
+msgid "Pedigree Information"
+msgstr "Informasi Silsilah"
+
+#. module: farm_livestock
+msgid "Percentage of total biomass (Count * Avg Weight) for daily feeding."
+msgstr "Persentase dari total biomassa (Jumlah * Berat Rata-rata) untuk pakan harian."
+
+#. module: farm_livestock
+msgid "Performance & Security"
+msgstr "Kinerja & Keamanan"
+
+#. module: farm_livestock
+msgid "Performance Metrics"
+msgstr "Metrik Kinerja"
+
+#. module: farm_livestock
+msgid "Performance Monitor"
+msgstr "Monitor Kinerja"
+
+#. module: farm_livestock
+msgid "Precision Feeding"
+msgstr "Pemberian Pakan Presisi"
+
+#. module: farm_livestock
+msgid "Predicted Weight (kg)"
+msgstr "Berat Prediksi (kg)"
+
+#. module: farm_livestock
+msgid "Pregnancy Check"
+msgstr "Pemeriksaan Kebuntingan"
+
+#. module: farm_livestock
+msgid "Pregnancy Test Date"
+msgstr "Tanggal Tes Kebuntingan"
+
+#. module: farm_livestock
+msgid "Pregnancy Test Result"
+msgstr "Hasil Tes Kebuntingan"
+
+#. module: farm_livestock
+msgid "Production Data"
+msgstr "Data Produksi"
+
+#. module: farm_livestock
+msgid "Quantity"
+msgstr "Jumlah"
+
+#. module: farm_livestock
+msgid "Reason"
+msgstr "Alasan"
+
+#. module: farm_livestock
+msgid "Recorded ADG (kg/day)"
+msgstr "ADG Tercatat (kg/hari)"
+
+#. module: farm_livestock
+msgid "Reproduction Data"
+msgstr "Data Reproduksi"
+
+#. module: farm_livestock
+msgid "Responsible"
+msgstr "Penanggung Jawab"
+
+#. module: farm_livestock
+msgid "Scan for Anomalies"
+msgstr "Pindai Anomali"
+
+#. module: farm_livestock
+msgid "Security Settings"
+msgstr "Pengaturan Keamanan"
+
+#. module: farm_livestock
+msgid "Sire"
+msgstr "Pejantan"
+
+#. module: farm_livestock
+msgid "Sire Used"
+msgstr "Pejantan yang Dipakai"
+
+#. module: farm_livestock
+msgid "Species"
+msgstr "Spesies"
+
+#. module: farm_livestock
+msgid "Stocking & Space"
+msgstr "Kepadatan & Ruang"
+
+#. module: farm_livestock
+msgid "Stocking Density (heads/sqm)"
+msgstr "Kepadatan (ekor/m²)"
+
+#. module: farm_livestock
+msgid "Temperature (°C)"
+msgstr "Suhu (°C)"
+
+#. module: farm_livestock
+msgid "Total Feed / Total Weight Gain"
+msgstr "Total Pakan / Total Kenaikan Berat"
+
+#. module: farm_livestock
+msgid "Total Feed Consumed (kg)"
+msgstr "Total Pakan Terpakai (kg)"
+
+#. module: farm_livestock
+msgid "Treatment Information"
+msgstr "Informasi Pengobatan"
+
+#. module: farm_livestock
+msgid "Treatment Notes"
+msgstr "Catatan Pengobatan"
+
+#. module: farm_livestock
+msgid "Unit"
+msgstr "Satuan"
+
+#. module: farm_livestock
+msgid "Update Animal Health Status"
+msgstr "Perbarui Status Kesehatan Hewan"
+
+#. module: farm_livestock
+msgid "Update Health Status"
+msgstr "Perbarui Status Kesehatan"
+
+#. module: farm_livestock
+msgid "Update Status"
+msgstr "Perbarui Status"
+
+#. module: farm_livestock
+msgid "Vaccination & Medication"
+msgstr "Vaksinasi & Pengobatan"
+
+#. module: farm_livestock
+msgid "Vaccination Schedule"
+msgstr "Jadwal Vaksinasi"
+
+#. module: farm_livestock
+msgid "Weight (kg)"
+msgstr "Berat (kg)"
+
+#. module: farm_livestock
+msgid "Withdrawal Period"
+msgstr "Masa Henti"
+
+#. module: farm_livestock
+msgid "Withdrawal Period End"
+msgstr "Akhir Masa Henti"
+
+#. module: farm_livestock
+msgid "Withdrawal Period End (Date)"
+msgstr "Akhir Masa Henti (Tanggal)"
+
+#. module: farm_livestock
+msgid "Accident"
+msgstr "Kecelakaan"
+
+#. module: farm_livestock
+msgid "Aerial Spraying"
+msgstr "Penyemprotan Udara"
+
+#. module: farm_livestock
+msgid "Artificial Insemination"
+msgstr "Inseminasi Buatan"
+
+#. module: farm_livestock
+msgid "Birth"
+msgstr "Kelahiran"
+
+#. module: farm_livestock
+msgid "Born/Started"
+msgstr "Lahir/Dimulai"
+
+#. module: farm_livestock
+msgid "Breeding/Insemination"
+msgstr "Pembiakan/Inseminasi"
+
+#. module: farm_livestock
+msgid "Crop Protection"
+msgstr "Perlindungan Tanaman"
+
+#. module: farm_livestock
+msgid "Death/Mortality"
+msgstr "Kematian/Mortalitas"
+
+#. module: farm_livestock
+msgid "Disease"
+msgstr "Penyakit"
+
+#. module: farm_livestock
+msgid "Dry"
+msgstr "Kering"
+
+#. module: farm_livestock
+msgid "Dry Period"
+msgstr "Masa Kering"
+
+#. module: farm_livestock
+msgid "Embryo Transfer"
+msgstr "Transfer Embrio"
+
+#. module: farm_livestock
+msgid "Farrowing/Birth Event"
+msgstr "Kejadian Beranak/Kelahiran"
+
+#. module: farm_livestock
+msgid "Female"
+msgstr "Betina"
+
+#. module: farm_livestock
+msgid "Fertilizing"
+msgstr "Pemupukan"
+
+#. module: farm_livestock
+msgid "Finished"
+msgstr "Selesai"
+
+#. module: farm_livestock
+msgid "Finisher Feed"
+msgstr "Pakan Finisher"
+
+#. module: farm_livestock
+msgid "Group Movement"
+msgstr "Perpindahan Kelompok"
+
+#. module: farm_livestock
+msgid "Grower Feed"
+msgstr "Pakan Grower"
+
+#. module: farm_livestock
+msgid "Growing"
+msgstr "Tumbuh"
+
+#. module: farm_livestock
+msgid "Harvest/Slaughter"
+msgstr "Panen/Pemotongan"
+
+#. module: farm_livestock
+msgid "Harvested"
+msgstr "Dipanen"
+
+#. module: farm_livestock
+msgid "Harvesting"
+msgstr "Panen"
+
+#. module: farm_livestock
+msgid "Healthy"
+msgstr "Sehat"
+
+#. module: farm_livestock
+msgid "High"
+msgstr "Tinggi"
+
+#. module: farm_livestock
+msgid "Immature"
+msgstr "Belum Dewasa"
+
+#. module: farm_livestock
+msgid "In Heat"
+msgstr "Berahi"
+
+#. module: farm_livestock
+msgid "In Quarantine"
+msgstr "Karantina"
+
+#. module: farm_livestock
+msgid "Irrigation"
+msgstr "Irigasi"
+
+#. module: farm_livestock
+msgid "Lactating"
+msgstr "Laktasi"
+
+#. module: farm_livestock
+msgid "Low"
+msgstr "Rendah"
+
+#. module: farm_livestock
+msgid "Male"
+msgstr "Jantan"
+
+#. module: farm_livestock
+msgid "Medical Treatment"
+msgstr "Pengobatan Medis"
+
+#. module: farm_livestock
+msgid "Medical/Prevention"
+msgstr "Medis/Pencegahan"
+
+#. module: farm_livestock
+msgid "Medicated Feed"
+msgstr "Pakan Berobat"
+
+#. module: farm_livestock
+msgid "Medium"
+msgstr "Sedang"
+
+#. module: farm_livestock
+msgid "Natural Disaster"
+msgstr "Bencana Alam"
+
+#. module: farm_livestock
+msgid "Natural Mating"
+msgstr "Kawin Alami"
+
+#. module: farm_livestock
+msgid "Open"
+msgstr "Tidak Bunting"
+
+#. module: farm_livestock
+msgid "Other"
+msgstr "Lainnya"
+
+#. module: farm_livestock
+msgid "Pregnant"
+msgstr "Bunting"
+
+#. module: farm_livestock
+msgid "Sick"
+msgstr "Sakit"
+
+#. module: farm_livestock
+msgid "Soil Preparation"
+msgstr "Persiapan Lahan"
+
+#. module: farm_livestock
+msgid "Sowing/Planting"
+msgstr "Penaburan/Penanaman"
+
+#. module: farm_livestock
+msgid "Starter Feed"
+msgstr "Pakan Starter"
+
+#. module: farm_livestock
+msgid "Treatment"
+msgstr "Pengobatan"
+
+#. module: farm_livestock
+msgid "Under Treatment"
+msgstr "Dalam Pengobatan"
+
+#. module: farm_livestock
+msgid "Vaccination"
+msgstr "Vaksinasi"
+
+#. module: farm_livestock
+msgid "Weaning"
+msgstr "Penyapihan"
+
+#. module: farm_livestock
+msgid "Weight Measurement"
+msgstr "Pengukuran Berat"
+
+#. module: farm_livestock
+msgid "Auto-recorded from Intervention %s"
+msgstr "Tercatat otomatis dari Intervensi %s"
+
+#. module: farm_livestock
+msgid "BIOSECURITY BLOCK: Livestock Lot %s is in PHI until %s."
+msgstr "BLOKIR BIOSEKURITI: Lot Ternak %s masih dalam masa henti sampai %s."
+
+#. module: farm_livestock
+msgid "Breeding Blocked: Animal %s (Age: %d days) has not reached mature breeding age (365 days)."
+msgstr "Pembiakan Diblokir: Hewan %s (Umur: %d hari) belum mencapai umur dewasa pembiakan (365 hari)."
+
+#. module: farm_livestock
+msgid "Cannot merge groups of different products."
+msgstr "Tidak dapat menggabungkan kelompok dengan produk berbeda."
+
+#. module: farm_livestock
+msgid "DEATH RECORDED: %s animals decreased. Reason: %s. Notes: %s"
+msgstr "KEMATIAN TERCATAT: %s ekor berkurang. Alasan: %s. Catatan: %s"
+
+#. module: farm_livestock
+msgid "Feeding Error: Daily feed intake (%s kg) exceeds maximum safe threshold (10.0 kg)."
+msgstr "Kesalahan Pakan: Asupan pakan harian (%s kg) melebihi ambang aman maksimum (10,0 kg)."
+
+#. module: farm_livestock
+msgid "HEALTH ALERT: Growth rate for lot %s is critically low (%s kg/day)!"
+msgstr "PERINGATAN KESEHATAN: Laju pertumbuhan lot %s sangat rendah (%s kg/hari)!"
+
+#. module: farm_livestock
+msgid "HEALTH BLOCK: Cannot start intervention on animals in quarantine!"
+msgstr "BLOKIR KESEHATAN: Tidak dapat memulai intervensi pada hewan yang dikarantina!"
+
+#. module: farm_livestock
+msgid "Health Anomaly: %s"
+msgstr "Anomali Kesehatan: %s"
+
+#. module: farm_livestock
+msgid "Husbandry: %s, Weight: %skg"
+msgstr "Pemeliharaan: %s, Berat: %skg"
+
+#. module: farm_livestock
+msgid "Legacy Write Block: Animal Count is now managed dynamically by Matter Tracking (LPN/Vessel). Please update count on the active Matter Tracking container directly."
+msgstr "Blokir Tulis Lama: Jumlah Hewan kini dikelola dinamis oleh Pelacak Materi (LPN/Wadah). Perbarui jumlah pada kontainer Pelacak Materi aktif secara langsung."
+
+#. module: farm_livestock
+msgid "Legacy Write Block: Biological Stage is now managed dynamically by Matter Tracking (LPN/Vessel). Please update the stage on the active Matter Tracking container directly."
+msgstr "Blokir Tulis Lama: Tahap Biologis kini dikelola dinamis oleh Pelacak Materi (LPN/Wadah). Perbarui tahap pada kontainer Pelacak Materi aktif secara langsung."
+
+#. module: farm_livestock
+msgid "Legacy Write Block: Weight is now managed dynamically by Matter Tracking (LPN/Vessel). Please update the weight on the active Matter Tracking container directly."
+msgstr "Blokir Tulis Lama: Berat kini dikelola dinamis oleh Pelacak Materi (LPN/Wadah). Perbarui berat pada kontainer Pelacak Materi aktif secara langsung."
+
+#. module: farm_livestock
+msgid "Low growth rate detected. Please inspect for disease or environmental stress."
+msgstr "Laju pertumbuhan rendah terdeteksi. Periksa penyakit atau stres lingkungan."
+
+#. module: farm_livestock
+msgid "MERGE: Group %s has been merged into this group."
+msgstr "GABUNG: Kelompok %s telah digabungkan ke kelompok ini."
+
+#. module: farm_livestock
+msgid "Quantity must be positive."
+msgstr "Jumlah harus positif."

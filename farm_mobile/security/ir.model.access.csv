@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_checkin,farm.checkin,model_farm_checkin,base.group_user,1,1,1,1
+access_farm_checklist_submission,farm.checklist.submission,model_farm_checklist_submission,base.group_user,1,1,1,1
+access_farm_checklist_submission_line,farm.checklist.submission.line,model_farm_checklist_submission_line,base.group_user,1,1,1,1
+access_farm_evidence,farm.evidence,model_farm_evidence,base.group_user,1,1,1,1
+access_farm_expert_call,farm.expert.call,model_farm_expert_call,base.group_user,1,1,1,1
+access_farm_sync_queue,farm.sync.queue,model_farm_sync_queue,base.group_user,1,1,1,1

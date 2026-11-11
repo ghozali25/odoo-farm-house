@@ -1,0 +1,849 @@
+# Translation of Farm IoT Management Center (farm_iot) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings (devices, telemetry, digital
+# twin, automation rules, event correlation, mappings, WAL, water valve,
+# storage environment, menus and actions).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_iot 18.0.1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 14:30+0700\n"
+"PO-Revision-Date: 2026-11-10 14:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_iot
+msgid "!="
+msgstr ""
+
+#. module: farm_iot
+msgid "3D Model URL"
+msgstr "URL Model 3D"
+
+#. module: farm_iot
+msgid "3D Scene"
+msgstr "Scene 3D"
+
+#. module: farm_iot
+msgid "3D Scenes"
+msgstr "Scene 3D"
+
+#. module: farm_iot
+msgid ">="
+msgstr ""
+
+#. module: farm_iot
+msgid "ACK Timestamp"
+msgstr "Waktu ACK"
+
+#. module: farm_iot
+msgid "AUTOMATION: Rule '%s' triggered. Command '%s' sent to %s because %s was %s %s."
+msgstr "OTOMATISASI: Aturan '%s' terpicu. Perintah '%s' dikirim ke %s karena %s adalah %s %s."
+
+#. module: farm_iot
+msgid "Action"
+msgstr "Aksi"
+
+#. module: farm_iot
+msgid "Action Configuration"
+msgstr "Konfigurasi Aksi"
+
+#. module: farm_iot
+msgid "Action Device"
+msgstr "Perangkat Aksi"
+
+#. module: farm_iot
+msgid "Action Type"
+msgstr "Jenis Aksi"
+
+#. module: farm_iot
+msgid "Action/Command"
+msgstr "Aksi/Perintah"
+
+#. module: farm_iot
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_iot
+msgid "Active Alerts"
+msgstr "Peringatan Aktif"
+
+#. module: farm_iot
+msgid "Adopted Asset"
+msgstr "Aset Adopsi"
+
+#. module: farm_iot
+msgid "Agri Telemetry Time-Series Partitioned Ledger"
+msgstr "Buku Besar Deret Waktu Telemetri Agri Terpartisi"
+
+#. module: farm_iot
+msgid "Agri-IoT Asynchronous Telemetry WAL Sync Pipeline"
+msgstr "Pipeline Sinkronisasi WAL Telemetri Agri-IoT Asinkron"
+
+#. module: farm_iot
+msgid "Agri-IoT Write-Ahead Log Buffer / Telemetry Pre-write Log Buffer"
+msgstr "Buffer Log Write-Ahead Agri-IoT / Buffer Log Pra-tulis Telemetri"
+
+#. module: farm_iot
+msgid "Agricultural Digital Twin 3D Scene"
+msgstr "Scene 3D Kembaran Digital Pertanian"
+
+#. module: farm_iot
+msgid "Agricultural Digital Twin Device Marker"
+msgstr "Penanda Perangkat Kembaran Digital Pertanian"
+
+#. module: farm_iot
+msgid "Agricultural Telemetry Data"
+msgstr "Data Telemetri Pertanian"
+
+#. module: farm_iot
+msgid "Agricultural Telemetry Data (Deprecated - Use agri.telemetry)"
+msgstr "Data Telemetri Pertanian (Usang - Gunakan agri.telemetry)"
+
+#. module: farm_iot
+msgid "Alert Message"
+msgstr "Pesan Peringatan"
+
+#. module: farm_iot
+msgid "Alert Status"
+msgstr "Status Peringatan"
+
+#. module: farm_iot
+msgid "All Conditions (AND)"
+msgstr "Semua Kondisi (DAN)"
+
+#. module: farm_iot
+msgid "Any Condition (OR)"
+msgstr "Salah Satu Kondisi (ATAU)"
+
+#. module: farm_iot
+msgid "Applied Mapping"
+msgstr "Pemetaan Diterapkan"
+
+#. module: farm_iot
+msgid "Area (Sector/Barn)"
+msgstr "Area (Sektor/Kandang)"
+
+#. module: farm_iot
+msgid "Assigned virtual fence for boundary monitoring."
+msgstr "Pagar virtual yang ditugaskan untuk pemantauan batas."
+
+#. module: farm_iot
+msgid "Automation Rules"
+msgstr "Aturan Otomatisasi"
+
+#. module: farm_iot
+msgid "BOUNDARY BREACH: %s"
+msgstr "PELANGGARAN BATAS: %s"
+
+#. module: farm_iot
+msgid "Base Terrain/Structure Model URL"
+msgstr "URL Model Medan/Struktur Dasar"
+
+#. module: farm_iot
+msgid "CO2 Level (ppm)"
+msgstr "Kadar CO2 (ppm)"
+
+#. module: farm_iot
+msgid "Chemical Level"
+msgstr "Kadar Kimia"
+
+#. module: farm_iot
+msgid "Closed"
+msgstr "Tertutup"
+
+#. module: farm_iot
+msgid "Command %s has been published to %s"
+msgstr "Perintah %s telah diterbitkan ke %s"
+
+#. module: farm_iot
+msgid "Command History"
+msgstr "Riwayat Perintah"
+
+#. module: farm_iot
+msgid "Command Logs"
+msgstr "Log Perintah"
+
+#. module: farm_iot
+msgid "Command Sent"
+msgstr "Perintah Terkirim"
+
+#. module: farm_iot
+msgid "Command Type"
+msgstr "Jenis Perintah"
+
+#. module: farm_iot
+msgid "Command/Action"
+msgstr "Perintah/Aksi"
+
+#. module: farm_iot
+msgid "Conditions"
+msgstr "Kondisi"
+
+#. module: farm_iot
+msgid "Correlation Name"
+msgstr "Nama Korelasi"
+
+#. module: farm_iot
+msgid "Correlation detected: {{ name }}. Current Temp: {{ temperature }}"
+msgstr "Korelasi terdeteksi: {{ name }}. Suhu Saat Ini: {{ temperature }}"
+
+#. module: farm_iot
+msgid "Create Activity"
+msgstr "Buat Aktivitas"
+
+#. module: farm_iot
+msgid "Current Active Record (Context)"
+msgstr "Record Aktif Saat Ini (Konteks)"
+
+#. module: farm_iot
+msgid "Custom JSON"
+msgstr "JSON Kustom"
+
+#. module: farm_iot
+msgid "Custom Parameters (JSON)"
+msgstr "Parameter Kustom (JSON)"
+
+#. module: farm_iot
+msgid "Device Identifier"
+msgstr "Pengenal Perangkat"
+
+#. module: farm_iot
+msgid "Device Markers"
+msgstr "Penanda Perangkat"
+
+#. module: farm_iot
+msgid "Digital Twin"
+msgstr "Kembaran Digital"
+
+#. module: farm_iot
+msgid "Digital Twin 3D Scene (Deprecated - Use agri.digital.twin.scene)"
+msgstr "Scene 3D Kembaran Digital (Usang - Gunakan agri.digital.twin.scene)"
+
+#. module: farm_iot
+msgid "Digital Twin Config"
+msgstr "Konfigurasi Kembaran Digital"
+
+#. module: farm_iot
+msgid "Digital Twin Device Marker (Deprecated - Use agri.digital.twin.marker)"
+msgstr "Penanda Perangkat Kembaran Digital (Usang - Gunakan agri.digital.twin.marker)"
+
+#. module: farm_iot
+msgid "Digital Twin Enabled"
+msgstr "Kembaran Digital Aktif"
+
+#. module: farm_iot
+msgid "Digital Twin Scenes"
+msgstr "Scene Kembaran Digital"
+
+#. module: farm_iot
+msgid "Direct Field Update"
+msgstr "Pembaruan Field Langsung"
+
+#. module: farm_iot
+msgid "Direction"
+msgstr "Arah"
+
+#. module: farm_iot
+msgid "Dispatched to Framework"
+msgstr "Dikirim ke Framework"
+
+#. module: farm_iot
+msgid "Dissolved Oxygen"
+msgstr "Oksigen Terlarut"
+
+#. module: farm_iot
+msgid "Domain Criteria (Match Field)"
+msgstr "Kriteria Domain (Field Pencocokan)"
+
+#. module: farm_iot
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_iot
+msgid "Drone"
+msgstr "Drone"
+
+#. module: farm_iot
+msgid "Drone Battery"
+msgstr "Baterai Drone"
+
+#. module: farm_iot
+msgid "Edge Acknowledged"
+msgstr "Dikonfirmasi Edge"
+
+#. module: farm_iot
+msgid "Emergency Cutoff"
+msgstr "Pemutusan Darurat"
+
+#. module: farm_iot
+msgid "Enterprise (Company)"
+msgstr "Perusahaan (Company)"
+
+#. module: farm_iot
+msgid "Environment HDR URL"
+msgstr "URL HDR Lingkungan"
+
+#. module: farm_iot
+msgid "Error Traceback"
+msgstr "Jejak Error"
+
+#. module: farm_iot
+msgid "Event Correlation"
+msgstr "Korelasi Kejadian"
+
+#. module: farm_iot
+msgid "Event Correlations"
+msgstr "Korelasi Kejadian"
+
+#. module: farm_iot
+msgid "Execute Method"
+msgstr "Jalankan Method"
+
+#. module: farm_iot
+msgid "Execution Failed"
+msgstr "Eksekusi Gagal"
+
+#. module: farm_iot
+msgid "Execution Success"
+msgstr "Eksekusi Berhasil"
+
+#. module: farm_iot
+msgid "External Webhook"
+msgstr "Webhook Eksternal"
+
+#. module: farm_iot
+msgid "Failed"
+msgstr "Gagal"
+
+#. module: farm_iot
+msgid "Failed to send command: %s"
+msgstr "Gagal mengirim perintah: %s"
+
+#. module: farm_iot
+msgid "Farm IOT"
+msgstr "IoT Pertanian"
+
+#. module: farm_iot
+msgid "Farm IOT Automation Rule"
+msgstr "Aturan Otomatisasi IoT Pertanian"
+
+#. module: farm_iot
+msgid "Farm IoT Event Correlation (Business Logic)"
+msgstr "Korelasi Kejadian IoT Pertanian (Logika Bisnis)"
+
+#. module: farm_iot
+msgid "Farm IoT Event Correlation Condition"
+msgstr "Kondisi Korelasi Kejadian IoT Pertanian"
+
+#. module: farm_iot
+msgid "Farm Water Valve"
+msgstr "Katup Air Pertanian"
+
+#. module: farm_iot
+msgid "Field Camera"
+msgstr "Kamera Lapangan"
+
+#. module: farm_iot
+msgid "Field on target model to match device identifier (e.g. device_serial)"
+msgstr "Field pada model target untuk mencocokkan pengenal perangkat (cth. device_serial)"
+
+#. module: farm_iot
+msgid "Flight Altitude"
+msgstr "Ketinggian Terbang"
+
+#. module: farm_iot
+msgid "Functional position in ISA-95 hierarchy"
+msgstr "Posisi fungsional dalam hierarki ISA-95"
+
+#. module: farm_iot
+msgid "GEOFENCE ALERT: Device %s has LEFT the assigned fence '%s' at [%s, %s]!"
+msgstr "PERINGATAN GEOFENCE: Perangkat %s telah MENINGGALKAN pagar '%s' di [%s, %s]!"
+
+#. module: farm_iot
+msgid "Global IoT Command Audit Log"
+msgstr "Log Audit Perintah IoT Global"
+
+#. module: farm_iot
+msgid "Greater Than"
+msgstr "Lebih Besar Dari"
+
+#. module: farm_iot
+msgid "How far back to look for matching events"
+msgstr "Seberapa jauh ke belakang mencari kejadian yang cocok"
+
+#. module: farm_iot
+msgid "Humidity"
+msgstr "Kelembapan"
+
+#. module: farm_iot
+msgid "Humidity (%)"
+msgstr "Kelembapan (%)"
+
+#. module: farm_iot
+msgid "IIoT Device"
+msgstr "Perangkat IIoT"
+
+#. module: farm_iot
+msgid "IOT SYNC: Monitoring activated for %s devices."
+msgstr "SINKRONISASI IOT: Pemantauan diaktifkan untuk %s perangkat."
+
+#. module: farm_iot
+msgid "IOT SYNC: Monitoring deactivated."
+msgstr "SINKRONISASI IOT: Pemantauan dinonaktifkan."
+
+#. module: farm_iot
+msgid "ISA-95 Level"
+msgstr "Level ISA-95"
+
+#. module: farm_iot
+msgid "If the sensor is attached to a specific adopted tree/animal"
+msgstr "Jika sensor terpasang pada pohon/hewan adopsi tertentu"
+
+#. module: farm_iot
+msgid "Inbound (Telemetry)"
+msgstr "Masuk (Telemetri)"
+
+#. module: farm_iot
+msgid "Industry standard functional hierarchy level"
+msgstr "Level hierarki fungsional standar industri"
+
+#. module: farm_iot
+msgid "Internal Notification"
+msgstr "Notifikasi Internal"
+
+#. module: farm_iot
+msgid "IoT Device Mapping"
+msgstr "Pemetaan Perangkat IoT"
+
+#. module: farm_iot
+msgid "IoT Device Mappings"
+msgstr "Pemetaan Perangkat IoT"
+
+#. module: farm_iot
+msgid "IoT Device to Business Field Mapper"
+msgstr "Pemeta Field Bisnis ke Perangkat IoT"
+
+#. module: farm_iot
+msgid "IoT Raw Telemetry Buffer"
+msgstr "Buffer Telemetri Mentah IoT"
+
+#. module: farm_iot
+msgid "Is Alert"
+msgstr "Apakah Peringatan"
+
+#. module: farm_iot
+msgid "Is Drone"
+msgstr "Apakah Drone"
+
+#. module: farm_iot
+msgid "Is Processed"
+msgstr "Sudah Diproses"
+
+#. module: farm_iot
+msgid "JSON Payload"
+msgstr "Payload JSON"
+
+#. module: farm_iot
+msgid "Land Parcel/Pond"
+msgstr "Petak Lahan/Kolam"
+
+#. module: farm_iot
+msgid "Last Telemetry JSON"
+msgstr "JSON Telemetri Terakhir"
+
+#. module: farm_iot
+msgid "Latency (ms)"
+msgstr "Latensi (ms)"
+
+#. module: farm_iot
+msgid "Latitude"
+msgstr "Lintang"
+
+#. module: farm_iot
+msgid "Less Than"
+msgstr "Kurang Dari"
+
+#. module: farm_iot
+msgid "Logic Configuration"
+msgstr "Konfigurasi Logika"
+
+#. module: farm_iot
+msgid "Logic Type"
+msgstr "Jenis Logika"
+
+#. module: farm_iot
+msgid "Logical Location"
+msgstr "Lokasi Logis"
+
+#. module: farm_iot
+msgid "Longitude"
+msgstr "Bujur"
+
+#. module: farm_iot
+msgid "MQTT Topic"
+msgstr "Topik MQTT"
+
+#. module: farm_iot
+msgid "Mapping Name"
+msgstr "Nama Pemetaan"
+
+#. module: farm_iot
+msgid "Mapping Type"
+msgstr "Jenis Pemetaan"
+
+#. module: farm_iot
+msgid "Mark equipment that is a drone, so it can be linked as the drone of a telemetry reading."
+msgstr "Tandai peralatan yang merupakan drone, agar dapat ditautkan sebagai drone dari pembacaan telemetri."
+
+#. module: farm_iot
+msgid "Match Record Field"
+msgstr "Field Pencocokan Record"
+
+#. module: farm_iot
+msgid "Matching Logic"
+msgstr "Logika Pencocokan"
+
+#. module: farm_iot
+msgid "Max Retries"
+msgstr "Maks. Percobaan Ulang"
+
+#. module: farm_iot
+msgid "Message GUID"
+msgstr "GUID Pesan"
+
+#. module: farm_iot
+msgid "Message Template"
+msgstr "Template Pesan"
+
+#. module: farm_iot
+msgid "Method Execution"
+msgstr "Eksekusi Method"
+
+#. module: farm_iot
+msgid "Method Name"
+msgstr "Nama Method"
+
+#. module: farm_iot
+msgid "Method to call on the target record when telemetry arrives."
+msgstr "Method yang dipanggil pada record target saat telemetri tiba."
+
+#. module: farm_iot
+msgid "Open"
+msgstr "Terbuka"
+
+#. module: farm_iot
+msgid "Operating Pressure PSI"
+msgstr "Tekanan Operasi PSI"
+
+#. module: farm_iot
+msgid "Operator"
+msgstr "Operator"
+
+#. module: farm_iot
+msgid "Originating ID"
+msgstr "ID Asal"
+
+#. module: farm_iot
+msgid "Originating Model"
+msgstr "Model Asal"
+
+#. module: farm_iot
+msgid "Outbound (Control/Setpoint)"
+msgstr "Keluar (Kontrol/Setpoint)"
+
+#. module: farm_iot
+msgid "Params (JSON)"
+msgstr "Parameter (JSON)"
+
+#. module: farm_iot
+msgid "Payload (JSON)"
+msgstr "Payload (JSON)"
+
+#. module: farm_iot
+msgid "Payload Template (JSON)"
+msgstr "Template Payload (JSON)"
+
+#. module: farm_iot
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_iot
+msgid "Physical Device"
+msgstr "Perangkat Fisik"
+
+#. module: farm_iot
+msgid "Physical Location"
+msgstr "Lokasi Fisik"
+
+#. module: farm_iot
+msgid "Processed"
+msgstr "Diproses"
+
+#. module: farm_iot
+msgid "Processed On"
+msgstr "Diproses Pada"
+
+#. module: farm_iot
+msgid "Processing Status"
+msgstr "Status Pemrosesan"
+
+#. module: farm_iot
+msgid "Production Line (Pond/Greenhouse)"
+msgstr "Lini Produksi (Kolam/Rumah Kaca)"
+
+#. module: farm_iot
+msgid "Production Task"
+msgstr "Tugas Produksi"
+
+#. module: farm_iot
+msgid "Raw Value"
+msgstr "Nilai Mentah"
+
+#. module: farm_iot
+msgid "Reading Value"
+msgstr "Nilai Pembacaan"
+
+#. module: farm_iot
+msgid "Reboot Device"
+msgstr "Restart Perangkat"
+
+#. module: farm_iot
+msgid "Record Matching Logic"
+msgstr "Logika Pencocokan Record"
+
+#. module: farm_iot
+msgid "Response Timeout"
+msgstr "Timeout Respons"
+
+#. module: farm_iot
+msgid "Retries"
+msgstr "Percobaan Ulang"
+
+#. module: farm_iot
+msgid "Rule Name"
+msgstr "Nama Aturan"
+
+#. module: farm_iot
+msgid "STATUS UPDATE: Your adopted asset %s sent a new reading: %s %s at %s."
+msgstr "PEMBARUAN STATUS: Aset adopsi Anda %s mengirim pembacaan baru: %s %s pada %s."
+
+#. module: farm_iot
+msgid "Safety Geofence"
+msgstr "Geofence Keamanan"
+
+#. module: farm_iot
+msgid "Scene Name"
+msgstr "Nama Scene"
+
+#. module: farm_iot
+msgid "Send Command to Farm Device"
+msgstr "Kirim Perintah ke Perangkat Pertanian"
+
+#. module: farm_iot
+msgid "Sensor Name"
+msgstr "Nama Sensor"
+
+#. module: farm_iot
+msgid "Sensor Type"
+msgstr "Jenis Sensor"
+
+#. module: farm_iot
+msgid "Set Threshold"
+msgstr "Atur Ambang"
+
+#. module: farm_iot
+msgid "Site"
+msgstr "Situs"
+
+#. module: farm_iot
+msgid "Site (Farm)"
+msgstr "Situs (Pertanian)"
+
+#. module: farm_iot
+msgid "Soil Moisture"
+msgstr "Kelembapan Tanah"
+
+#. module: farm_iot
+msgid "Source Config"
+msgstr "Konfigurasi Sumber"
+
+#. module: farm_iot
+msgid "Source Device"
+msgstr "Perangkat Sumber"
+
+#. module: farm_iot
+msgid "Specific 3D model for this device"
+msgstr "Model 3D khusus untuk perangkat ini"
+
+#. module: farm_iot
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_iot
+msgid "Storage Environment Log"
+msgstr "Log Lingkungan Penyimpanan"
+
+#. module: farm_iot
+msgid "Storage Location"
+msgstr "Lokasi Penyimpanan"
+
+#. module: farm_iot
+msgid "Storage Monitoring"
+msgstr "Pemantauan Penyimpanan"
+
+#. module: farm_iot
+msgid "Switch On/Off"
+msgstr "Nyalakan/Matikan"
+
+#. module: farm_iot
+msgid "Target Carrier"
+msgstr "Pembawa Target"
+
+#. module: farm_iot
+msgid "Target Config"
+msgstr "Konfigurasi Target"
+
+#. module: farm_iot
+msgid "Target Device"
+msgstr "Perangkat Target"
+
+#. module: farm_iot
+msgid "Target Field"
+msgstr "Field Target"
+
+#. module: farm_iot
+msgid "Target Model"
+msgstr "Model Target"
+
+#. module: farm_iot
+msgid "Telemetries to Display"
+msgstr "Telemetri yang Ditampilkan"
+
+#. module: farm_iot
+msgid "Telemetry Analysis"
+msgstr "Analisis Telemetri"
+
+#. module: farm_iot
+msgid "Telemetry Data"
+msgstr "Data Telemetri"
+
+#. module: farm_iot
+msgid "Telemetry History"
+msgstr "Riwayat Telemetri"
+
+#. module: farm_iot
+msgid "Telemetry Timestamp"
+msgstr "Waktu Telemetri"
+
+#. module: farm_iot
+msgid "Temperature"
+msgstr "Suhu"
+
+#. module: farm_iot
+msgid "Temperature (℃)"
+msgstr "Suhu (℃)"
+
+#. module: farm_iot
+msgid "The camera assigned to monitor this specific plot or pond."
+msgstr "Kamera yang ditugaskan untuk memantau petak atau kolam ini."
+
+#. module: farm_iot
+msgid "The farm/site this device belongs to"
+msgstr "Pertanian/situs tempat perangkat ini berada"
+
+#. module: farm_iot
+msgid "Threshold"
+msgstr "Ambang"
+
+#. module: farm_iot
+msgid "Time Window (seconds)"
+msgstr "Jendela Waktu (detik)"
+
+#. module: farm_iot
+msgid "Timestamp"
+msgstr "Waktu"
+
+#. module: farm_iot
+msgid "Topic to listen for or publish to."
+msgstr "Topik yang didengarkan atau diterbitkan."
+
+#. module: farm_iot
+msgid "Trigger Sensor"
+msgstr "Sensor Pemicu"
+
+#. module: farm_iot
+msgid "Turn OFF"
+msgstr "Matikan"
+
+#. module: farm_iot
+msgid "Turn ON"
+msgstr "Nyalakan"
+
+#. module: farm_iot
+msgid "URL to GLB/USDZ file"
+msgstr "URL ke file GLB/USDZ"
+
+#. module: farm_iot
+msgid "Unit (Specific Pot/Cage)"
+msgstr "Unit (Pot/Kandang Tertentu)"
+
+#. module: farm_iot
+msgid "Urban Micro-sensor"
+msgstr "Sensor Mikro Perkotaan"
+
+#. module: farm_iot
+msgid "Value"
+msgstr "Nilai"
+
+#. module: farm_iot
+msgid "Valve Name"
+msgstr "Nama Katup"
+
+#. module: farm_iot
+msgid "WATER_PRESSURE_OVERLOAD_BLOCK: Pressure %s PSI exceeds maximum safety threshold (150.0 PSI)."
+msgstr "WATER_PRESSURE_OVERLOAD_BLOCK: Tekanan %s PSI melebihi ambang keamanan maksimum (150,0 PSI)."
+
+#. module: farm_iot
+msgid "Webhook URL"
+msgstr "URL Webhook"
+
+#. module: farm_iot
+msgid "Work Center (Specific Bed/Rack)"
+msgstr "Pusat Kerja (Bed/Rak Tertentu)"
+
+#. module: farm_iot
+msgid "X Position"
+msgstr "Posisi X"
+
+#. module: farm_iot
+msgid "Y Position"
+msgstr "Posisi Y"
+
+#. module: farm_iot
+msgid "Y Rotation"
+msgstr "Rotasi Y"
+
+#. module: farm_iot
+msgid "Z Position"
+msgstr "Posisi Z"
+
+#. module: farm_iot
+msgid "e.g. Electricity Meter to MO Mapper"
+msgstr ""
+
+#. module: farm_iot
+msgid "e.g. Fire Risk Detection"
+msgstr ""
+
+#. module: farm_iot
+msgid "e.g. {'setpoint': {{value}} }"
+msgstr ""
+
+#. module: farm_iot
+msgid "pH Level"
+msgstr "Kadar pH"

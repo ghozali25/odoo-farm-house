@@ -1,0 +1,480 @@
+# Translation of farm_insurance to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_insurance 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_insurance
+msgid "AI Actuarial Analysis"
+msgstr "AI Actuarial Analysis"
+
+#. module: farm_insurance
+msgid "AI Derived Metrics"
+msgstr "AI Derived Metrics"
+
+#. module: farm_insurance
+msgid "AI Model Type"
+msgstr "AI Model Type"
+
+#. module: farm_insurance
+msgid "Activate Policy"
+msgstr "Activate Policy"
+
+#. module: farm_insurance
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_insurance
+msgid "Actual Harvest Yield (kg)"
+msgstr "Actual Harvest Yield (kg)"
+
+#. module: farm_insurance
+msgid "Actuarial Data"
+msgstr "Actuarial Data"
+
+#. module: farm_insurance
+msgid "Actuarial Premium Rate (%)"
+msgstr "Actuarial Premium Rate (%)"
+
+#. module: farm_insurance
+msgid "Actuarial Probability of Loss"
+msgstr "Actuarial Probability of Loss"
+
+#. module: farm_insurance
+msgid "Approve Claim"
+msgstr "Approve Claim"
+
+#. module: farm_insurance
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_insurance
+msgid "Assessed Loss Amount"
+msgstr "Assessed Loss Amount"
+
+#. module: farm_insurance
+msgid "Assessment &amp; Payout"
+msgstr "Assessment &amp; Payout"
+
+#. module: farm_insurance
+msgid "Assessment Report"
+msgstr "Penilaian Laporan"
+
+#. module: farm_insurance
+msgid "Base Yield Trend (kg/ha)"
+msgstr "Base Yield Trend (kg/ha)"
+
+#. module: farm_insurance
+msgid "Based on predictive models and historical data."
+msgstr "Based on predictive models and historical data."
+
+#. module: farm_insurance
+msgid "CLAIM"
+msgstr "CLAIM"
+
+#. module: farm_insurance
+msgid "CLM/%(year)s/"
+msgstr "CLM/%(year)s/"
+
+#. module: farm_insurance
+msgid "Calculate Actuarial Data"
+msgstr "Calculate Actuarial Data"
+
+#. module: farm_insurance
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#. module: farm_insurance
+msgid "Claim Date"
+msgstr "Klaim Tanggal"
+
+#. module: farm_insurance
+msgid "Claim Filed"
+msgstr "Claim Filed"
+
+#. module: farm_insurance
+msgid "Claim Reference"
+msgstr "Klaim Referensi"
+
+#. module: farm_insurance
+msgid "Claims"
+msgstr "Claims"
+
+#. module: farm_insurance
+msgid "Crop Yield Insurance Policies"
+msgstr "Crop Yield Insurance Policies"
+
+#. module: farm_insurance
+msgid "Crop Yield Insurance Policy"
+msgstr "Polis Asuransi Hasil Panen"
+
+#. module: farm_insurance
+msgid "Crop Yield Policies"
+msgstr "Crop Yield Policies"
+
+#. module: farm_insurance
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_insurance
+msgid "Expired"
+msgstr "Expired"
+
+#. module: farm_insurance
+msgid "File New Claim"
+msgstr "File New Claim"
+
+#. module: farm_insurance
+msgid "Filed"
+msgstr "Filed"
+
+#. module: farm_insurance
+msgid "Insurance"
+msgstr "Asuransi"
+
+#. module: farm_insurance
+msgid "Insurance Claim"
+msgstr "Klaim Asuransi"
+
+#. module: farm_insurance
+msgid "Insurance Claims"
+msgstr "Insurance Claims"
+
+#. module: farm_insurance
+msgid "Insurance Policies"
+msgstr "Insurance Policies"
+
+#. module: farm_insurance
+msgid "Insurance Policy"
+msgstr "Polis Asuransi"
+
+#. module: farm_insurance
+msgid "Mark as Paid"
+msgstr "Mark as Paid"
+
+#. module: farm_insurance
+msgid "Model Name"
+msgstr "Model Nama"
+
+#. module: farm_insurance
+msgid "Model Parameters (JSON)"
+msgstr "Model Parameters (JSON)"
+
+#. module: farm_insurance
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_insurance
+msgid "No Claim"
+msgstr "No Claim"
+
+#. module: farm_insurance
+msgid "POL/%(year)s/"
+msgstr "POL/%(year)s/"
+
+#. module: farm_insurance
+msgid "POLICY"
+msgstr "POLICY"
+
+#. module: farm_insurance
+msgid "Paid"
+msgstr "Paid"
+
+#. module: farm_insurance
+msgid "Payout Amount"
+msgstr "Payout Amount"
+
+#. module: farm_insurance
+msgid "Payout Calculation"
+msgstr "Payout Calculation"
+
+#. module: farm_insurance
+msgid "Policy Dates"
+msgstr "Policy Dates"
+
+#. module: farm_insurance
+msgid "Policy End Date"
+msgstr "Policy End Date"
+
+#. module: farm_insurance
+msgid "Policy Holder &amp; Location"
+msgstr "Policy Holder &amp; Location"
+
+#. module: farm_insurance
+msgid "Policy Number"
+msgstr "Policy Number"
+
+#. module: farm_insurance
+msgid "Policy Start Date"
+msgstr "Policy Start Date"
+
+#. module: farm_insurance
+msgid "Predicted Yield (kg)"
+msgstr "Predicted Yield (kg)"
+
+#. module: farm_insurance
+msgid "Prediction Date"
+msgstr "Prediksi Tanggal"
+
+#. module: farm_insurance
+msgid "Premium Amount"
+msgstr "Premium Amount"
+
+#. module: farm_insurance
+msgid "Premium Rate (%)"
+msgstr "Premium Rate (%)"
+
+#. module: farm_insurance
+msgid "Product &amp; Coverage"
+msgstr "Product &amp; Coverage"
+
+#. module: farm_insurance
+msgid "Reject Claim"
+msgstr "Reject Claim"
+
+#. module: farm_insurance
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_insurance
+msgid "Reported Harvest Yield (kg)"
+msgstr "Reported Harvest Yield (kg)"
+
+#. module: farm_insurance
+msgid "Review Claim"
+msgstr "Review Claim"
+
+#. module: farm_insurance
+msgid "Risk Factor"
+msgstr "Risk Factor"
+
+#. module: farm_insurance
+msgid "Sum Insured"
+msgstr "Sum Insured"
+
+#. module: farm_insurance
+msgid "Under Review"
+msgstr "Under Review"
+
+#. module: farm_insurance
+msgid "Yield Deviation (%)"
+msgstr "Yield Deviation (%)"
+
+#. module: farm_insurance
+msgid "Yield Forecast &amp; Actuals"
+msgstr "Yield Forecast &amp; Actuals"
+
+#. module: farm_insurance
+msgid "action_activate_policy"
+msgstr "action_activate_policy"
+
+#. module: farm_insurance
+msgid "action_approve_claim"
+msgstr "action_approve_claim"
+
+#. module: farm_insurance
+msgid "action_calculate_actuarial_data"
+msgstr "action_calculate_actuarial_data"
+
+#. module: farm_insurance
+msgid "action_file_claim"
+msgstr "action_file_claim"
+
+#. module: farm_insurance
+msgid "action_mark_as_paid"
+msgstr "action_mark_as_paid"
+
+#. module: farm_insurance
+msgid "action_reject_claim"
+msgstr "action_reject_claim"
+
+#. module: farm_insurance
+msgid "action_review_claim"
+msgstr "action_review_claim"
+
+#. module: farm_insurance
+msgid "actual_yield_kg"
+msgstr "actual_yield_kg"
+
+#. module: farm_insurance
+msgid "actuarial_data"
+msgstr "actuarial_data"
+
+#. module: farm_insurance
+msgid "actuarial_premium_rate"
+msgstr "actuarial_premium_rate"
+
+#. module: farm_insurance
+msgid "actuarial_probability_loss"
+msgstr "actuarial_probability_loss"
+
+#. module: farm_insurance
+msgid "ai_analysis"
+msgstr "ai_analysis"
+
+#. module: farm_insurance
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_insurance
+msgid "assessed_loss_amount"
+msgstr "assessed_loss_amount"
+
+#. module: farm_insurance
+msgid "assessment"
+msgstr "assessment"
+
+#. module: farm_insurance
+msgid "assessment_report"
+msgstr "assessment_report"
+
+#. module: farm_insurance
+msgid "base_yield_trend"
+msgstr "base_yield_trend"
+
+#. module: farm_insurance
+msgid "claim_date"
+msgstr "claim_date"
+
+#. module: farm_insurance
+msgid "claim_ids"
+msgstr "claim_ids"
+
+#. module: farm_insurance
+msgid "claim_status"
+msgstr "claim_status"
+
+#. module: farm_insurance
+msgid "claims"
+msgstr "claims"
+
+#. module: farm_insurance
+msgid "code"
+msgstr "code"
+
+#. module: farm_insurance
+msgid "company_id"
+msgstr "company_id"
+
+#. module: farm_insurance
+msgid "currency_id"
+msgstr "currency_id"
+
+#. module: farm_insurance
+msgid "farm_entity_id"
+msgstr "farm_entity_id"
+
+#. module: farm_insurance
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_insurance
+msgid "location_id"
+msgstr "location_id"
+
+#. module: farm_insurance
+msgid "model"
+msgstr "model"
+
+#. module: farm_insurance
+msgid "name"
+msgstr "name"
+
+#. module: farm_insurance
+msgid "padding"
+msgstr "padding"
+
+#. module: farm_insurance
+msgid "partner_id"
+msgstr "partner_id"
+
+#. module: farm_insurance
+msgid "payout_amount"
+msgstr "payout_amount"
+
+#. module: farm_insurance
+msgid "payout_calc"
+msgstr "payout_calc"
+
+#. module: farm_insurance
+msgid "policy_end_date"
+msgstr "policy_end_date"
+
+#. module: farm_insurance
+msgid "policy_id"
+msgstr "policy_id"
+
+#. module: farm_insurance
+msgid "policy_start_date"
+msgstr "policy_start_date"
+
+#. module: farm_insurance
+msgid "predicted_yield_kg"
+msgstr "predicted_yield_kg"
+
+#. module: farm_insurance
+msgid "prefix"
+msgstr "prefix"
+
+#. module: farm_insurance
+msgid "premium_amount"
+msgstr "premium_amount"
+
+#. module: farm_insurance
+msgid "premium_rate"
+msgstr "premium_rate"
+
+#. module: farm_insurance
+msgid "product.template"
+msgstr "product.template"
+
+#. module: farm_insurance
+msgid "product_id"
+msgstr "product_id"
+
+#. module: farm_insurance
+msgid "reported_yield_kg"
+msgstr "reported_yield_kg"
+
+#. module: farm_insurance
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_insurance
+msgid "risk_factor"
+msgstr "risk_factor"
+
+#. module: farm_insurance
+msgid "state"
+msgstr "state"
+
+#. module: farm_insurance
+msgid "sum_insured"
+msgstr "sum_insured"
+
+#. module: farm_insurance
+msgid "view_mode"
+msgstr "view_mode"
+
+#. module: farm_insurance
+msgid "yield_data"
+msgstr "yield_data"
+
+#. module: farm_insurance
+msgid "yield_deviation_pct"
+msgstr "yield_deviation_pct"
+
+#. module: farm_insurance
+msgid "yield_prediction_id"
+msgstr "yield_prediction_id"

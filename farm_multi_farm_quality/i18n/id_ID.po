@@ -1,0 +1,552 @@
+# Translation of farm_multi_farm_quality to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_multi_farm_quality 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_multi_farm_quality
+msgid "Agricultural Services"
+msgstr "Agricultural Services"
+
+#. module: farm_multi_farm_quality
+msgid "Approved"
+msgstr "Disetujui"
+
+#. module: farm_multi_farm_quality
+msgid "Certification Code"
+msgstr "Sertifikasi Kode"
+
+#. module: farm_multi_farm_quality
+msgid "Certification Date"
+msgstr "Sertifikasi Tanggal"
+
+#. module: farm_multi_farm_quality
+msgid "Certification Document"
+msgstr "Certification Document"
+
+#. module: farm_multi_farm_quality
+msgid "Certification Management"
+msgstr "Certification Management"
+
+#. module: farm_multi_farm_quality
+msgid "Certification Name"
+msgstr "Sertifikasi Nama"
+
+#. module: farm_multi_farm_quality
+msgid "Certification Required"
+msgstr "Certification Required"
+
+#. module: farm_multi_farm_quality
+msgid "Certification Standard"
+msgstr "Sertifikasi Standar"
+
+#. module: farm_multi_farm_quality
+msgid "Complete"
+msgstr "Complete"
+
+#. module: farm_multi_farm_quality
+msgid "Confirm"
+msgstr "Confirm"
+
+#. module: farm_multi_farm_quality
+msgid "Cooperative Decisions"
+msgstr "Cooperative Decisions"
+
+#. module: farm_multi_farm_quality
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_multi_farm_quality
+msgid "Document Name"
+msgstr "Document Name"
+
+#. module: farm_multi_farm_quality
+msgid "Expired"
+msgstr "Expired"
+
+#. module: farm_multi_farm_quality
+msgid "Expiry Date"
+msgstr "Expiry Date"
+
+#. module: farm_multi_farm_quality
+msgid "Governance"
+msgstr "Governance"
+
+#. module: farm_multi_farm_quality
+msgid "Inspection Criteria"
+msgstr "Inspection Criteria"
+
+#. module: farm_multi_farm_quality
+msgid "Internal Finance"
+msgstr "Internal Finance"
+
+#. module: farm_multi_farm_quality
+msgid "Internal Loans"
+msgstr "Internal Loans"
+
+#. module: farm_multi_farm_quality
+msgid "Internal Marketplace"
+msgstr "Internal Marketplace"
+
+#. module: farm_multi_farm_quality
+msgid "Is Active"
+msgstr "Is Active"
+
+#. module: farm_multi_farm_quality
+msgid "Is Certified"
+msgstr "Is Certified"
+
+#. module: farm_multi_farm_quality
+msgid "Joint Procurement"
+msgstr "Pembelian Bersama"
+
+#. module: farm_multi_farm_quality
+msgid "Joint Procurements"
+msgstr "Joint Procurements"
+
+#. module: farm_multi_farm_quality
+msgid "Multi-sign Processes"
+msgstr "Multi-sign Processes"
+
+#. module: farm_multi_farm_quality
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_multi_farm_quality
+msgid "Procurement Lines"
+msgstr "Procurement Lines"
+
+#. module: farm_multi_farm_quality
+msgid "Procurement Planning"
+msgstr "Procurement Planning"
+
+#. module: farm_multi_farm_quality
+msgid "Product Certifications"
+msgstr "Product Certifications"
+
+#. module: farm_multi_farm_quality
+msgid "Quality &amp; Certification"
+msgstr "Quality &amp; Certification"
+
+#. module: farm_multi_farm_quality
+msgid "Quality Control"
+msgstr "Quality Control"
+
+#. module: farm_multi_farm_quality
+msgid "Quality Control Standard"
+msgstr "Standar Kendali Mutu"
+
+#. module: farm_multi_farm_quality
+msgid "Quality Control Standards"
+msgstr "Quality Control Standards"
+
+#. module: farm_multi_farm_quality
+msgid "Quality Management"
+msgstr "Quality Management"
+
+#. module: farm_multi_farm_quality
+msgid "Quality Score (%)"
+msgstr "Quality Score (%)"
+
+#. module: farm_multi_farm_quality
+msgid "Quality Standards"
+msgstr "Quality Standards"
+
+#. module: farm_multi_farm_quality
+msgid "Quality Threshold (%)"
+msgstr "Quality Threshold (%)"
+
+#. module: farm_multi_farm_quality
+msgid "Rejected"
+msgstr "Ditolak"
+
+#. module: farm_multi_farm_quality
+msgid "Service Catalog"
+msgstr "Service Catalog"
+
+#. module: farm_multi_farm_quality
+msgid "Service Orders"
+msgstr "Service Orders"
+
+#. module: farm_multi_farm_quality
+msgid "Settlement Lines"
+msgstr "Settlement Lines"
+
+#. module: farm_multi_farm_quality
+msgid "Standard Code"
+msgstr "Standar Kode"
+
+#. module: farm_multi_farm_quality
+msgid "Standard Name"
+msgstr "Standar Nama"
+
+#. module: farm_multi_farm_quality
+msgid "Subsidy Disbursements"
+msgstr "Subsidy Disbursements"
+
+#. module: farm_multi_farm_quality
+msgid "action_complete"
+msgstr "action_complete"
+
+#. module: farm_multi_farm_quality
+msgid "action_confirm"
+msgstr "action_confirm"
+
+#. module: farm_multi_farm_quality
+msgid "actual_majority"
+msgstr "actual_majority"
+
+#. module: farm_multi_farm_quality
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_multi_farm_quality
+msgid "available_from"
+msgstr "available_from"
+
+#. module: farm_multi_farm_quality
+msgid "borrower_member_id"
+msgstr "borrower_member_id"
+
+#. module: farm_multi_farm_quality
+msgid "capacity"
+msgstr "capacity"
+
+#. module: farm_multi_farm_quality
+msgid "certification_required"
+msgstr "certification_required"
+
+#. module: farm_multi_farm_quality
+msgid "certification_standard"
+msgstr "certification_standard"
+
+#. module: farm_multi_farm_quality
+msgid "code"
+msgstr "code"
+
+#. module: farm_multi_farm_quality
+msgid "cooperative.decision"
+msgstr "cooperative.decision"
+
+#. module: farm_multi_farm_quality
+msgid "cooperative.decision.tree"
+msgstr "cooperative.decision.tree"
+
+#. module: farm_multi_farm_quality
+msgid "cooperative.entity"
+msgstr "cooperative.entity"
+
+#. module: farm_multi_farm_quality
+msgid "cooperative.member"
+msgstr "cooperative.member"
+
+#. module: farm_multi_farm_quality
+msgid "cooperative_id"
+msgstr "cooperative_id"
+
+#. module: farm_multi_farm_quality
+msgid "decision_type"
+msgstr "decision_type"
+
+#. module: farm_multi_farm_quality
+msgid "description"
+msgstr "description"
+
+#. module: farm_multi_farm_quality
+msgid "disbursement_date"
+msgstr "disbursement_date"
+
+#. module: farm_multi_farm_quality
+msgid "expiry_date"
+msgstr "expiry_date"
+
+#. module: farm_multi_farm_quality
+msgid "initiator_id"
+msgstr "initiator_id"
+
+#. module: farm_multi_farm_quality
+msgid "inspection_criteria"
+msgstr "inspection_criteria"
+
+#. module: farm_multi_farm_quality
+msgid "interest_rate"
+msgstr "interest_rate"
+
+#. module: farm_multi_farm_quality
+msgid "internal.loan"
+msgstr "internal.loan"
+
+#. module: farm_multi_farm_quality
+msgid "internal.loan.tree"
+msgstr "internal.loan.tree"
+
+#. module: farm_multi_farm_quality
+msgid "internal.marketplace"
+msgstr "internal.marketplace"
+
+#. module: farm_multi_farm_quality
+msgid "internal.marketplace.tree"
+msgstr "internal.marketplace.tree"
+
+#. module: farm_multi_farm_quality
+msgid "is_active"
+msgstr "is_active"
+
+#. module: farm_multi_farm_quality
+msgid "is_certified"
+msgstr "is_certified"
+
+#. module: farm_multi_farm_quality
+msgid "joint.procurement"
+msgstr "joint.procurement"
+
+#. module: farm_multi_farm_quality
+msgid "joint.procurement.form"
+msgstr "joint.procurement.form"
+
+#. module: farm_multi_farm_quality
+msgid "joint.procurement.tree"
+msgstr "joint.procurement.tree"
+
+#. module: farm_multi_farm_quality
+msgid "lender_member_id"
+msgstr "lender_member_id"
+
+#. module: farm_multi_farm_quality
+msgid "lines"
+msgstr "lines"
+
+#. module: farm_multi_farm_quality
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_multi_farm_quality
+msgid "listing_type"
+msgstr "listing_type"
+
+#. module: farm_multi_farm_quality
+msgid "loan_amount"
+msgstr "loan_amount"
+
+#. module: farm_multi_farm_quality
+msgid "loan_date"
+msgstr "loan_date"
+
+#. module: farm_multi_farm_quality
+msgid "markup_rate"
+msgstr "markup_rate"
+
+#. module: farm_multi_farm_quality
+msgid "maturity_date"
+msgstr "maturity_date"
+
+#. module: farm_multi_farm_quality
+msgid "meeting_date"
+msgstr "meeting_date"
+
+#. module: farm_multi_farm_quality
+msgid "member_amount"
+msgstr "member_amount"
+
+#. module: farm_multi_farm_quality
+msgid "member_id"
+msgstr "member_id"
+
+#. module: farm_multi_farm_quality
+msgid "model"
+msgstr "model"
+
+#. module: farm_multi_farm_quality
+msgid "multi.sign.process"
+msgstr "multi.sign.process"
+
+#. module: farm_multi_farm_quality
+msgid "multi.sign.process.tree"
+msgstr "multi.sign.process.tree"
+
+#. module: farm_multi_farm_quality
+msgid "name"
+msgstr "name"
+
+#. module: farm_multi_farm_quality
+msgid "planning_date"
+msgstr "planning_date"
+
+#. module: farm_multi_farm_quality
+msgid "planning_period"
+msgstr "planning_period"
+
+#. module: farm_multi_farm_quality
+msgid "process_type"
+msgstr "process_type"
+
+#. module: farm_multi_farm_quality
+msgid "procurement.planning"
+msgstr "procurement.planning"
+
+#. module: farm_multi_farm_quality
+msgid "procurement.planning.tree"
+msgstr "procurement.planning.tree"
+
+#. module: farm_multi_farm_quality
+msgid "procurement_date"
+msgstr "procurement_date"
+
+#. module: farm_multi_farm_quality
+msgid "procurement_lines"
+msgstr "procurement_lines"
+
+#. module: farm_multi_farm_quality
+msgid "procurement_type"
+msgstr "procurement_type"
+
+#. module: farm_multi_farm_quality
+msgid "product.category"
+msgstr "product.category"
+
+#. module: farm_multi_farm_quality
+msgid "product.certification"
+msgstr "product.certification"
+
+#. module: farm_multi_farm_quality
+msgid "product.certification.tree"
+msgstr "product.certification.tree"
+
+#. module: farm_multi_farm_quality
+msgid "product.product"
+msgstr "product.product"
+
+#. module: farm_multi_farm_quality
+msgid "product_category_id"
+msgstr "product_category_id"
+
+#. module: farm_multi_farm_quality
+msgid "product_id"
+msgstr "product_id"
+
+#. module: farm_multi_farm_quality
+msgid "provider_member_id"
+msgstr "provider_member_id"
+
+#. module: farm_multi_farm_quality
+msgid "quality.control.standard"
+msgstr "quality.control.standard"
+
+#. module: farm_multi_farm_quality
+msgid "quality.control.standard.form"
+msgstr "quality.control.standard.form"
+
+#. module: farm_multi_farm_quality
+msgid "quality.control.standard.tree"
+msgstr "quality.control.standard.tree"
+
+#. module: farm_multi_farm_quality
+msgid "quality_score"
+msgstr "quality_score"
+
+#. module: farm_multi_farm_quality
+msgid "quality_threshold"
+msgstr "quality_threshold"
+
+#. module: farm_multi_farm_quality
+msgid "quantity"
+msgstr "quantity"
+
+#. module: farm_multi_farm_quality
+msgid "requester_member_id"
+msgstr "requester_member_id"
+
+#. module: farm_multi_farm_quality
+msgid "required_date"
+msgstr "required_date"
+
+#. module: farm_multi_farm_quality
+msgid "required_signers"
+msgstr "required_signers"
+
+#. module: farm_multi_farm_quality
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_multi_farm_quality
+msgid "season"
+msgstr "season"
+
+#. module: farm_multi_farm_quality
+msgid "service.order"
+msgstr "service.order"
+
+#. module: farm_multi_farm_quality
+msgid "service.order.tree"
+msgstr "service.order.tree"
+
+#. module: farm_multi_farm_quality
+msgid "service_category"
+msgstr "service_category"
+
+#. module: farm_multi_farm_quality
+msgid "service_id"
+msgstr "service_id"
+
+#. module: farm_multi_farm_quality
+msgid "settlement_lines"
+msgstr "settlement_lines"
+
+#. module: farm_multi_farm_quality
+msgid "settlements"
+msgstr "settlements"
+
+#. module: farm_multi_farm_quality
+msgid "state"
+msgstr "state"
+
+#. module: farm_multi_farm_quality
+msgid "subsidy.disbursement"
+msgstr "subsidy.disbursement"
+
+#. module: farm_multi_farm_quality
+msgid "subsidy.disbursement.tree"
+msgstr "subsidy.disbursement.tree"
+
+#. module: farm_multi_farm_quality
+msgid "subsidy_source"
+msgstr "subsidy_source"
+
+#. module: farm_multi_farm_quality
+msgid "supplier_id"
+msgstr "supplier_id"
+
+#. module: farm_multi_farm_quality
+msgid "supplier_member_id"
+msgstr "supplier_member_id"
+
+#. module: farm_multi_farm_quality
+msgid "total_amount"
+msgstr "total_amount"
+
+#. module: farm_multi_farm_quality
+msgid "unit_price"
+msgstr "unit_price"
+
+#. module: farm_multi_farm_quality
+msgid "unit_rate"
+msgstr "unit_rate"
+
+#. module: farm_multi_farm_quality
+msgid "view_mode"
+msgstr "view_mode"
+
+#. module: farm_multi_farm_quality
+msgid "voting_result"
+msgstr "voting_result"

@@ -1,0 +1,44 @@
+# Translation of farm_medicinal_plants (farm_medicinal_plants) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_medicinal_plants 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_medicinal_plants
+msgid "Base BOM"
+msgstr "BoM Dasar"
+
+#. module: farm_medicinal_plants
+msgid "Base Lot"
+msgstr "Lot Dasar"
+
+#. module: farm_medicinal_plants
+msgid "Base Order"
+msgstr "Pesanan Dasar"
+
+#. module: farm_medicinal_plants
+msgid "Cannot generate passport: Lot is not GAP certified. Ensure Daodi verification and valid HPLC lab results."
+msgstr "Cannot generate passport: Lot is not GAP certified. Ensure Daodi verification and valid HPLC lab results."
+
+#. module: farm_medicinal_plants
+msgid "Farm Medicinal Plants"
+msgstr "Tanaman Obat Pertanian"
+
+#. module: farm_medicinal_plants
+msgid "GAP Passport generated successfully. Active Compound Level: %s%%"
+msgstr "GAP Passport generated successfully. Active Compound Level: %s%%"
+
+#. module: farm_medicinal_plants
+msgid "Medicinal Plants Management - GMP Compliance, Active Ingredient Tracking, Certification"
+msgstr "Medicinal Plants Management - GMP Compliance, Active Ingredient Tracking, Certification"

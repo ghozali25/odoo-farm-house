@@ -1,0 +1,117 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * farm_mrp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 12:00+0000\n"
+"PO-Revision-Date: 2026-11-09 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (Indonesia)\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_mrp
+#: model:ir.ui.menu,name:farm_mrp.menu_mrp_stock_matter_tracking
+msgid "Matter Tracking (LPN)"
+msgstr "Pelacakan Material (LPN)"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "Industry Type"
+msgstr "Jenis Industri"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "Food Processing"
+msgstr "Pengolahan Pangan"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "Pharmaceutical"
+msgstr "Farmasi"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "Chemical"
+msgstr "Kimia"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "General Manufacturing"
+msgstr "Manufaktur Umum"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "Standard"
+msgstr "Standar"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "Livestock"
+msgstr "Peternakan"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "Processing"
+msgstr "Pengolahan"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "Aquaculture"
+msgstr "Akuakultur"
+
+#. module: farm_mrp
+#: model:mrp.bom,industry_type:0
+msgid "Crop"
+msgstr "Tanaman"
+
+#. module: farm_mrp
+#: model:mrp.production,industry_type:0
+msgid "Industry Standard"
+msgstr "Standar Industri"
+
+#. module: farm_mrp
+#: model:agri.treatment.batch,workcenter_id:0
+msgid "Processing Workstation / Reactor Equipment"
+msgstr "Stasiun Kerja / Peralatan Reaktor Pengolahan"
+
+#. module: farm_mrp
+#: model:agri.treatment.batch,operation_id:0
+msgid "Process Operation"
+msgstr "Tahap Operasi Proses"
+
+#. module: farm_mrp
+#: model:agri.treatment.batch,bom_id:0
+msgid "Process Recipe"
+msgstr "Resep Proses"
+
+#. module: farm_mrp
+#: model:stock.matter.tracking,current_phase_id:0
+msgid "Current Process Phase"
+msgstr "Fase Proses Saat Ini"
+
+#. module: farm_mrp
+#: model:stock.matter.tracking,is_vessel_locked:0
+msgid "Is Vessel Locked"
+msgstr "Wadah Terkunci"
+
+#. module: farm_mrp
+#: model:stock.matter.tracking,action_lock_vessel:0
+msgid "Lock Vessel"
+msgstr "Kunci Wadah"
+
+#. module: farm_mrp
+#: model:stock.matter.tracking,action_unlock_vessel:0
+msgid "Unlock Vessel"
+msgstr "Buka Kunci Wadah"
+
+#. module: farm_mrp
+#: model:stock.matter.tracking.snapshot,phase_id:0
+msgid "Process Phase"
+msgstr "Fase Proses"

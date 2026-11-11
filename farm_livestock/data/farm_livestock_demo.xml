@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+    <!-- NOTE (18.0 port): the upstream demo records were unloadable.
+         They wrote ``born_at`` (a product.template field, not a stock.lot
+         field) and ``gender`` (a field of agri.isl.lot.livestock, not of
+         stock.lot) to stock.lot, which raises "Invalid field" at demo
+         load. They also set animal_count / average_weight /
+         biological_stage, which are computed non-stored bridge fields
+         whose inverses are no-ops during install — the values would
+         have been silently dropped anyway. The records below only use
+         fields that exist and persist on stock.lot: birth_date and
+         is_animal (farm_core). -->
+
+        <!-- Self-contained demo product: farm_core defines product_variety_cow
+             in ITS demo file (farm_demo_data.xml), but farm_core demo data is
+             not loaded in every database (test18 has 0 farm_core product
+             records), so referencing it here broke demo load with
+             "External ID not found: farm_core.product_variety_cow".
+             The cow variety is defined locally instead. -->
+
+        <record id="product_template_cow_demo" model="product.template">
+            <field name="name">Demo Dairy Cow</field>
+            <field name="type">consu</field>
+            <field name="is_storable">True</field>
+            <field name="tracking">lot</field>
+        </record>
+
+        <record id="lot_cow_01" model="stock.lot">
+            <field name="name">COW-2026-001</field>
+            <!-- product_variant_id = varian tunggal yang dibuat otomatis
+                 saat template dibuat; product.product eksplisit TIDAK boleh
+                 dibuat (melanggar unique constraint kombinasi varian), jadi
+                 varian dicari lewat atribut search. -->
+            <field name="product_id" model="product.product" search="[('product_tmpl_id', '=', ref('product_template_cow_demo'))]" />
+            <field name="company_id" ref="base.main_company" />
+            <field name="is_animal">True</field>
+            <field name="birth_date" eval="(datetime.now() - relativedelta(years=2)).strftime('%Y-%m-%d')" />
+        </record>
+
+        <record id="lot_cow_02" model="stock.lot">
+            <field name="name">COW-2026-002</field>
+            <field name="product_id" model="product.product" search="[('product_tmpl_id', '=', ref('product_template_cow_demo'))]" />
+            <field name="company_id" ref="base.main_company" />
+            <field name="is_animal">True</field>
+            <field name="birth_date" eval="(datetime.now() - relativedelta(years=1)).strftime('%Y-%m-%d')" />
+        </record>
+</data>
+</odoo>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Batch 6: sequences used by create() in this module but never defined
+     upstream (next_by_code fell back to '/'). -->
+<odoo>
+<data>
+    <record id="seq_credit_transaction" model="ir.sequence">
+        <field name="name">Credit Transaction</field>
+        <field name="code">credit.transaction</field>
+        <field name="prefix">CT-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False" />
+    </record>
+    <record id="seq_internal_loan" model="ir.sequence">
+        <field name="name">Internal Loan</field>
+        <field name="code">internal.loan</field>
+        <field name="prefix">IL-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False" />
+    </record>
+    <record id="seq_internal_credit" model="ir.sequence">
+        <field name="name">Internal Credit</field>
+        <field name="code">internal.credit</field>
+        <field name="prefix">IC-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False" />
+    </record>
+    <record id="seq_internal_marketplace_transaction" model="ir.sequence">
+        <field name="name">Internal Marketplace Transaction</field>
+        <field name="code">internal.marketplace.transaction</field>
+        <field name="prefix">IMT-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False" />
+    </record>
+    <record id="seq_share_transaction" model="ir.sequence">
+        <field name="name">Share Transaction</field>
+        <field name="code">share.transaction</field>
+        <field name="prefix">ST-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False" />
+    </record>
+</data>
+</odoo>

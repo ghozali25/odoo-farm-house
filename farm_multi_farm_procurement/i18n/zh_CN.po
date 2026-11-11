@@ -1,0 +1,1276 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_multi_farm_procurement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:02+0000\n"
+"PO-Revision-Date: 2026-05-04 09:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_needaction
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_needaction
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_needaction
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_needaction
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_needaction
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_needaction
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_needaction
+msgid "Action Needed"
+msgstr "需要操作"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__activity_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__activity_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__activity_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__activity_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_exception_decoration
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__activity_exception_decoration
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__activity_exception_decoration
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__activity_exception_decoration
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_exception_decoration
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__activity_exception_decoration
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动异常装饰"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__activity_state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__activity_state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__activity_state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__activity_state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_type_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__activity_type_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__activity_type_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__activity_type_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_type_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__activity_type_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "活动类型图标"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__actual_delivery_date
+msgid "Actual Delivery Date"
+msgstr "实际交货日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__allocation_date
+msgid "Allocation Date"
+msgstr "分配日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__allocation_lines
+msgid "Allocation Lines"
+msgstr "分配线"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__amount
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__amount
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__amount
+msgid "Amount"
+msgstr "金额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__payable_amount
+msgid "Amount member should pay for purchases"
+msgstr "会员应支付的购买金额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__receivable_amount
+msgid "Amount member should receive from sales"
+msgstr "会员应从销售中获得的金额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__procurement_planning__planning_period__annual
+msgid "Annual"
+msgstr "年度的"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po__state__approved
+msgid "Approved"
+msgstr "已批准"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_attachment_count
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_attachment_count
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_attachment_count
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_attachment_count
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_attachment_count
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_attachment_count
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__start_date
+msgid "Available From"
+msgstr "可从"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__end_date
+msgid "Available Until"
+msgstr "可用至"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_allocation_line__priority_score
+msgid "Based on historical contribution or other factors"
+msgstr "基于历史贡献或其他因素"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__procurement_planning__planning_period__bi_annual
+msgid "Bi-annual"
+msgstr "每两年一次"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_payable_line__source_document__account_move
+msgid "Bill"
+msgstr "账单"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_settlement__state__calculated
+msgid "Calculated"
+msgstr "已计算"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__internal_marketplace__state__cancelled
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__state__cancelled
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po__state__cancel
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po_member__state__cancel
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__procurement_planning__state__cancelled
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__hub_spoke_distribution__state__completed
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__internal_marketplace__state__completed
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__state__completed
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_settlement__state__completed
+msgid "Completed"
+msgstr "完全的"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__hub_spoke_distribution__state__confirmed
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__state__confirmed
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po__state__confirmed
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po_member__state__confirmed
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__procurement_planning__state__confirmed
+msgid "Confirmed"
+msgstr "确认的"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.ui.menu,name:farm_multi_farm_procurement.contract_farming_main_menu
+msgid "Contract Farming"
+msgstr "订单农业"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__cooperative_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__cooperative_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__cooperative_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__cooperative_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__cooperative_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__cooperative_id
+msgid "Cooperative"
+msgstr "合作社"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_cooperative_entity
+msgid "Cooperative Entity"
+msgstr "合作单位"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_cooperative_member
+msgid "Cooperative Member"
+msgstr "合作会员"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__create_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__create_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__currency_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__currency_id
+msgid "Currency"
+msgstr "币种"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__hub_spoke_distribution__state__delivered
+msgid "Delivered"
+msgstr "发表"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__delivery_confirmed
+msgid "Delivery Confirmed"
+msgstr "交货已确认"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__delivery_date
+msgid "Delivery Date"
+msgstr "交付日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__delivery_notes
+msgid "Delivery Notes"
+msgstr "交货单"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__internal_marketplace__listing_type__demand
+msgid "Demand"
+msgstr "要求"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__demand_matches
+msgid "Demand Matches"
+msgstr "需求匹配"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__description
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__description
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__description
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__description
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__description
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__description
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__description
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__description
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__description
+msgid "Description"
+msgstr "描述"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__destination_member_id
+msgid "Destination Member"
+msgstr "目的地会员"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_entity__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_member__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_settlement__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__display_name
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__distribution_id
+msgid "Distribution"
+msgstr "分配"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__distribution_date
+msgid "Distribution Date"
+msgstr "分发日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_member__hub_spoke_distribution_line_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__distribution_lines
+msgid "Distribution Lines"
+msgstr "配电线路"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__name
+msgid "Distribution Reference"
+msgstr "分布参考"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po__state__done
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po_member__state__done
+msgid "Done"
+msgstr "完成"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__hub_spoke_distribution__state__draft
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__state__draft
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po__state__draft
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po_member__state__draft
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_settlement__state__draft
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__procurement_planning__state__draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__due_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__due_date
+msgid "Due Date"
+msgstr "到期日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__procurement_type__equipment
+msgid "Equipment"
+msgstr "设备"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__procurement_planning__state__executed
+msgid "Executed"
+msgstr "执行"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__delivery_date
+msgid "Expected Delivery Date"
+msgstr "预计交货日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__procurement_type__feed
+msgid "Feed"
+msgstr "喂养"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__procurement_type__fertilizer
+msgid "Fertilizer"
+msgstr "肥料"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__final_settlement_id
+msgid "Final Settlement"
+msgstr "最终结算"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_follower_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_follower_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_follower_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_follower_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_follower_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_follower_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_partner_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_partner_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_partner_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_partner_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_partner_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_partner_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_type_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__activity_type_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__activity_type_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__activity_type_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_type_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__activity_type_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "字体很棒的图标，例如fa 任务"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_settlement__settlement_direction__from_member
+msgid "From Member"
+msgstr "来自会员"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__has_message
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__has_message
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__has_message
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__has_message
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__has_message
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__has_message
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__has_message
+msgid "Has Message"
+msgstr "有留言"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_hub_spoke_distribution
+msgid "Hub and Spoke Distribution"
+msgstr "轮辐分布"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_hub_spoke_distribution_line
+msgid "Hub and Spoke Distribution Line"
+msgstr "轮辐式配电线"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_entity__hub_spoke_distribution_ids
+msgid "Hub and Spoke Distributions"
+msgstr "轮辐分布"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_entity__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_member__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_settlement__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_exception_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__activity_exception_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__activity_exception_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__activity_exception_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_exception_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__activity_exception_icon
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_exception_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__activity_exception_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__activity_exception_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__activity_exception_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_exception_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__activity_exception_icon
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "指示异常活动的图标。"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__message_needaction
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__message_needaction
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__message_needaction
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__message_needaction
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__message_needaction
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__message_needaction
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则有新消息需要您注意。"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__message_has_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__message_has_sms_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__message_has_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__message_has_sms_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__message_has_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__message_has_sms_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__message_has_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__message_has_sms_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__message_has_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__message_has_sms_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__message_has_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__message_has_sms_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__message_has_error
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果检查，则某些消息存在传送错误。"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__state__in_progress
+msgid "In Progress"
+msgstr "进行中"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__hub_spoke_distribution__state__in_transit
+msgid "In Transit"
+msgstr "在途中"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_payable_line__source_document__input_delivery
+msgid "Input Delivery"
+msgstr "输入交付"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__internal_debt_id
+msgid "Internal Debt"
+msgstr "内债"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_internal_marketplace
+#: model:ir.ui.menu,name:farm_multi_farm_procurement.internal_marketplace_menu
+msgid "Internal Marketplace"
+msgstr "内部市场"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_internal_settlement
+msgid "Internal Settlement"
+msgstr "内部结算"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_receivable_line__source_document__account_move
+msgid "Invoice"
+msgstr "发票"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__is_active
+msgid "Is Active"
+msgstr "处于活动状态"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_is_follower
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_is_follower
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_is_follower
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_is_follower
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_is_follower
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_is_follower
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_is_follower
+msgid "Is Follower"
+msgstr "是追随者"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_settlement__joint_po_member_id
+msgid "Joint PO Member"
+msgstr "联合 PO 成员"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_joint_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_settlement__joint_procurement_id
+#: model:ir.ui.menu,name:farm_multi_farm_procurement.joint_procurement_menu
+msgid "Joint Procurement"
+msgstr "联合采购"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_joint_procurement_line
+msgid "Joint Procurement Line"
+msgstr "联合采购线"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_joint_procurement_po_member
+msgid "Joint Procurement Member PO"
+msgstr "联合采购成员 PO"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_entity__joint_procurement_po_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_member__joint_procurement_po_member_ids
+msgid "Joint Procurement POs"
+msgstr "联合采购 PO"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_joint_procurement_po
+msgid "Joint Procurement Purchase Order"
+msgstr "联合采购采购订单"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_entity__joint_procurement_ids
+msgid "Joint Procurements"
+msgstr "联合采购"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__write_uid
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__write_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__listing_id
+msgid "Listing"
+msgstr "上市"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__name
+msgid "Listing Title"
+msgstr "列表标题"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__listing_type
+msgid "Listing Type"
+msgstr "列表类型"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__location
+msgid "Location"
+msgstr "位置"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_marketplace_demand_match
+msgid "Marketplace Demand Match"
+msgstr "市场需求匹配"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__markup_amount
+msgid "Markup Amount"
+msgstr "加价金额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__markup_rate
+msgid "Markup Rate (%)"
+msgstr "加价率 (%)"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__markup_rate
+msgid "Markup rate applied to members"
+msgstr "适用于会员的加价率"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__match_date
+msgid "Match Date"
+msgstr "比赛日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__internal_marketplace__state__matched
+msgid "Matched"
+msgstr "匹配的"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__member_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__member_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__member_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__member_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__member_id
+msgid "Member"
+msgstr "成员"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__member_amount
+msgid "Member Amount"
+msgstr "会员金额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__child_po_ids
+msgid "Member POs"
+msgstr "会员采购订单"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_has_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_has_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_has_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_has_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_has_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_has_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_has_error
+msgid "Message Delivery error"
+msgstr "消息投递错误"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__my_activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__my_activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__my_activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__my_activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__my_activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__my_activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "我的活动截止日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__net_amount
+msgid "Net Amount"
+msgstr "净额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_netting_payable_line
+msgid "Netting Payable Line"
+msgstr "净额应付行"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_netting_receivable_line
+msgid "Netting Receivable Line"
+msgstr "应收账款净额结算行"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_netting_settlement
+msgid "Netting Settlement"
+msgstr "净额结算"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_entity__netting_settlement_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_member__netting_settlement_ids
+msgid "Netting Settlements"
+msgstr "净额结算"
+
+#. module: farm_multi_farm_procurement
+#. odoo-python
+#: code:addons/farm_multi_farm_procurement/models/advanced_procurement_models.py:0
+#: code:addons/farm_multi_farm_procurement/models/joint_procurement.py:0
+msgid "New"
+msgstr "新建"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__activity_date_deadline
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一个活动截止日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_summary
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__activity_summary
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__activity_summary
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__activity_summary
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_summary
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__activity_summary
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一步活动总结"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_type_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__activity_type_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__activity_type_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__activity_type_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_type_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__activity_type_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_needaction_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_needaction_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_needaction_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_needaction_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_needaction_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_needaction_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_needaction_counter
+msgid "Number of Actions"
+msgstr "动作数量"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_has_error_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_has_error_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_has_error_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_has_error_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_has_error_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_has_error_counter
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__message_needaction_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__message_needaction_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__message_needaction_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__message_needaction_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__message_needaction_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__message_needaction_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "需要采取行动的消息数量"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__message_has_error_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__message_has_error_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__message_has_error_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__message_has_error_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__message_has_error_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__message_has_error_counter
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "发送错误的消息数"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__internal_marketplace__state__open
+msgid "Open"
+msgstr "打开"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__procurement_type__other
+msgid "Other"
+msgstr "其他"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__name
+msgid "PO Reference"
+msgstr "采购订单参考"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__parent_po_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__parent_po_id
+msgid "Parent PO"
+msgstr "父采购订单"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__payable_amount
+msgid "Payable Amount"
+msgstr "应付金额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__payable_lines
+msgid "Payable Lines"
+msgstr "应付行"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__procurement_type__pesticide
+msgid "Pesticide"
+msgstr "农药"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__planning_id
+msgid "Planning"
+msgstr "规划"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.ui.menu,name:farm_multi_farm_procurement.procurement_planning_menu
+msgid "Planning & Allocation"
+msgstr "规划与分配"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__planning_date
+msgid "Planning Date"
+msgstr "计划日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__planning_line_id
+msgid "Planning Line"
+msgstr "规划线路"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__planning_lines
+msgid "Planning Lines"
+msgstr "规划线路"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__name
+msgid "Planning Name"
+msgstr "规划名称"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__planning_period
+msgid "Planning Period"
+msgstr "规划期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__priority
+msgid "Priority"
+msgstr "优先级"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__priority_score
+msgid "Priority Score"
+msgstr "优先分数"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_settlement__state__processed
+msgid "Processed"
+msgstr "已加工"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__procurement_id
+msgid "Procurement"
+msgstr "采购"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_procurement_allocation_line
+msgid "Procurement Allocation Line"
+msgstr "采购分配线"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__procurement_date
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__procurement_date
+msgid "Procurement Date"
+msgstr "采购日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__procurement_lines
+msgid "Procurement Lines"
+msgstr "采购线"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.ui.menu,name:farm_multi_farm_procurement.multi_farm_procurement_menu
+msgid "Procurement Management"
+msgstr "采购管理"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.ui.menu,name:farm_multi_farm_procurement.joint_procurement_main_menu
+msgid "Procurement Orders"
+msgstr "采购订单"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_procurement_planning
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_cooperative_entity__procurement_planning_ids
+msgid "Procurement Planning"
+msgstr "采购计划"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model,name:farm_multi_farm_procurement.model_procurement_planning_line
+msgid "Procurement Planning Line"
+msgstr "采购计划线"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__name
+msgid "Procurement Reference"
+msgstr "采购参考"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__procurement_type
+msgid "Procurement Type"
+msgstr "采购类型"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__product_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__product_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__product_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__product_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__product_id
+msgid "Product"
+msgstr "产品"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_receivable_line__source_document__product_supply
+msgid "Product Supply"
+msgstr "产品供应"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_payable_line__source_document__purchase_order
+msgid "Purchase Order"
+msgstr "采购订单"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__quantity
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__quantity
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__quantity
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__quantity
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_marketplace_demand_match__quantity
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_allocation_line__quantity
+msgid "Quantity"
+msgstr "数量"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__procurement_planning__planning_period__quarterly
+msgid "Quarterly"
+msgstr "季刊"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__rating_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__rating_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__rating_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__rating_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__rating_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__rating_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__rating_ids
+msgid "Ratings"
+msgstr "评级"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__receivable_amount
+msgid "Receivable Amount"
+msgstr "应收金额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__receivable_lines
+msgid "Receivable Lines"
+msgstr "应收行"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution_line__receiver_signature
+msgid "Receiver Signature"
+msgstr "收件人签名"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__remaining_quantity
+msgid "Remaining Quantity"
+msgstr "剩余数量"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_user_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__activity_user_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__activity_user_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__activity_user_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_user_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__activity_user_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__activity_user_id
+msgid "Responsible User"
+msgstr "负责用户"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__message_has_sms_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__message_has_sms_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__message_has_sms_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__message_has_sms_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__message_has_sms_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__message_has_sms_error
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信投递错误"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_receivable_line__source_document__sale_order
+msgid "Sale Order"
+msgstr "销售订单"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__season
+msgid "Season"
+msgstr "季节"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement__procurement_type__seeds
+msgid "Seeds"
+msgstr "种子"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po__state__sent
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__joint_procurement_po_member__state__sent
+msgid "Sent"
+msgstr "已发送"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__settlement_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__settlement_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__settlement_id
+msgid "Settlement"
+msgstr "沉降"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__settlement_date
+msgid "Settlement Date"
+msgstr "结算日期"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__settlement_direction
+msgid "Settlement Direction"
+msgstr "结算方向"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__settlement_lines
+msgid "Settlement Lines"
+msgstr "结算线"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__name
+msgid "Settlement Reference"
+msgstr "结算参考"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_payable_line__source_document
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_receivable_line__source_document
+msgid "Source Document"
+msgstr "源文件"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__source_location
+msgid "Source Location"
+msgstr "源位置"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__state
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__state
+msgid "State"
+msgstr "状态"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_state
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__activity_state
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__activity_state
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__activity_state
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_state
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__activity_state
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__supplier_id
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__supplier_id
+msgid "Supplier"
+msgstr "供应商"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__supplier_member_id
+msgid "Supplier Member"
+msgstr "供应商会员"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__internal_marketplace__listing_type__surplus
+msgid "Surplus"
+msgstr "剩余"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields.selection,name:farm_multi_farm_procurement.selection__netting_settlement__settlement_direction__to_member
+msgid "To Member"
+msgstr "致会员"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__total_allocated
+msgid "Total Allocated"
+msgstr "分配总额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__total_amount
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__total_amount
+msgid "Total Amount"
+msgstr "总金额"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__total_available
+msgid "Total Available"
+msgstr "可用总量"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__total_quantity
+msgid "Total Quantity"
+msgstr "总量"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning_line__total_required
+msgid "Total Required"
+msgstr "所需总计"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__transaction_id
+msgid "Transaction"
+msgstr "交易"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__activity_exception_decoration
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__activity_exception_decoration
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__activity_exception_decoration
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__activity_exception_decoration
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__activity_exception_decoration
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__activity_exception_decoration
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录的异常活动的类型。"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__unified_invoice_id
+msgid "Unified Invoice"
+msgstr "统一发票"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__unit_price
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_line__unit_price
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__unit_price
+msgid "Unit Price"
+msgstr "单价"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__unit_of_measure
+msgid "Unit of Measure"
+msgstr "计量单位"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_hub_spoke_distribution__website_message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_internal_marketplace__website_message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement__website_message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po__website_message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_joint_procurement_po_member__website_message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_netting_settlement__website_message_ids
+#: model:ir.model.fields,field_description:farm_multi_farm_procurement.field_procurement_planning__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: farm_multi_farm_procurement
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_hub_spoke_distribution__website_message_ids
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_internal_marketplace__website_message_ids
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement__website_message_ids
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po__website_message_ids
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_joint_procurement_po_member__website_message_ids
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_netting_settlement__website_message_ids
+#: model:ir.model.fields,help:farm_multi_farm_procurement.field_procurement_planning__website_message_ids
+msgid "Website communication history"
+msgstr "网站沟通历史"

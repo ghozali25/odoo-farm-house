@@ -1,0 +1,85 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_livestock
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-05-04 09:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/livestock_isl.py:0
+msgid "Auto-recorded from Production Order %s"
+msgstr "从生产订单 %s 自动记录"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/livestock_isl.py:0
+msgid "BIOSECURITY BLOCK: Livestock Lot %s is in PHI until %s."
+msgstr "BioSECURITY 块：牲畜批次 %s 一直处于 PHI 中，直到 %s。"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/farm_lot.py:0
+msgid "Cannot merge groups of different products."
+msgstr "无法合并不同产品的组。"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/farm_lot.py:0
+msgid "DEATH RECORDED: %s animals decreased. Reason: %s. Notes: %s"
+msgstr "死亡记录：%s 只动物减少。原因：%s。注释：%s"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/farm_lot.py:0
+msgid "HEALTH ALERT: Growth rate for lot %s is critically low (%s kg/day)!"
+msgstr "健康警报：%s 批次的生长率极低（%s 公斤/天）！"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/farm_lot.py:0
+msgid "Health Anomaly: %s"
+msgstr "健康异常：%s"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/stock_lot.py:0
+msgid "Husbandry: %s, Weight: %skg"
+msgstr "畜牧业：%s，体重：%skg"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/farm_lot.py:0
+msgid ""
+"Low growth rate detected. Please inspect for disease or environmental "
+"stress."
+msgstr ""
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/farm_lot.py:0
+msgid "MERGE: Group %s has been merged into this group."
+msgstr "合并：组 %s 已合并到该组中。"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/stock_lot.py:0
+msgid "N/A"
+msgstr "不适用"
+
+#. module: farm_livestock
+#. odoo-python
+#: code:addons/farm_livestock/models/farm_lot.py:0
+msgid "Quantity must be positive."
+msgstr "数量必须为正数。"

@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_agri_isl_mrp_production,agri.isl.mrp.production,model_agri_isl_mrp_production,base.group_user,1,1,1,1
+access_agri_isl_mrp_bom,agri.isl.mrp.bom,model_agri_isl_mrp_bom,base.group_user,1,1,1,1
+access_agri_isl_mrp_workcenter,agri.isl.mrp.workcenter,model_agri_isl_mrp_workcenter,base.group_user,1,1,1,1
+access_agri_isl_stock_lot,agri.isl.stock.lot,model_agri_isl_stock_lot,base.group_user,1,1,1,1
+access_agri_isl_sale_order,agri.isl.sale.order,model_agri_isl_sale_order,base.group_user,1,1,1,1
+access_agri_isl_purchase_order,agri.isl.purchase.order,model_agri_isl_purchase_order,base.group_user,1,1,1,1
+access_agri_isl_product_template,agri.isl.product.template,model_agri_isl_product_template,base.group_user,1,1,1,1
+access_agri_isl_stock_picking,agri.isl.stock.picking,model_agri_isl_stock_picking,base.group_user,1,1,1,1
+access_agri_isl_mrp_workorder,agri.isl.mrp.workorder,model_agri_isl_mrp_workorder,base.group_user,1,1,1,1
+access_agri_isl_quality_control,agri.isl.quality.control,model_agri_isl_quality_control,base.group_user,1,1,1,1
+access_agri_isl_extension,agri.isl.extension,model_agri_isl_extension,base.group_user,1,1,1,1
+access_agri_isl_migration_utility,agri.isl.migration.utility,model_agri_isl_migration_utility,base.group_user,1,1,1,1
+access_agri_isl_industry_planting,agri.isl.industry.planting,model_agri_isl_industry_planting,base.group_user,1,1,1,1

@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_ecommerce_listing_wizard,farm.ecommerce.listing.wizard,model_farm_ecommerce_listing_wizard,base.group_user,1,1,1,1
+access_farm_ecommerce_platform,farm.ecommerce.platform,model_farm_ecommerce_platform,base.group_user,1,1,1,1
+access_farm_ecommerce_sync_log,farm.ecommerce.sync.log,model_farm_ecommerce_sync_log,base.group_user,1,1,1,1
+access_farm_government_data_report,farm.government.data.report,model_farm_government_data_report,base.group_user,1,1,1,1
+access_farm_government_platform_config,farm.government.platform.config,model_farm_government_platform_config,base.group_user,1,1,1,1
+access_farm_greenhouse_control_action,farm.greenhouse.control.action,model_farm_greenhouse_control_action,base.group_user,1,1,1,1
+access_farm_greenhouse_control_rule,farm.greenhouse.control.rule,model_farm_greenhouse_control_rule,base.group_user,1,1,1,1
+access_farm_greenhouse_energy_log,farm.greenhouse.energy.log,model_farm_greenhouse_energy_log,base.group_user,1,1,1,1

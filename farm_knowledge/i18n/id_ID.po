@@ -1,0 +1,520 @@
+# Translation of farm_knowledge to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_knowledge 18.0.1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_knowledge
+msgid "Affected Crops"
+msgstr "Affected Crops"
+
+#. module: farm_knowledge
+msgid "Aquaculture"
+msgstr "Aquaculture"
+
+#. module: farm_knowledge
+msgid "Autumn"
+msgstr "Autumn"
+
+#. module: farm_knowledge
+msgid "Bakery"
+msgstr "Bakery"
+
+#. module: farm_knowledge
+msgid "Beginner"
+msgstr "Beginner"
+
+#. module: farm_knowledge
+msgid "Best Practice Case"
+msgstr "Best Practice Case"
+
+#. module: farm_knowledge
+msgid "Best Practices"
+msgstr "Best Practices"
+
+#. module: farm_knowledge
+msgid "Compliance Note:"
+msgstr "Kepatuhan Catatan:"
+
+#. module: farm_knowledge
+msgid "Content"
+msgstr "Content"
+
+#. module: farm_knowledge
+msgid "Conventional Treatment"
+msgstr "Conventional Treatment"
+
+#. module: farm_knowledge
+msgid "Crop Varieties"
+msgstr "Crop Varieties"
+
+#. module: farm_knowledge
+msgid "Cultivation Techniques"
+msgstr "Cultivation Techniques"
+
+#. module: farm_knowledge
+msgid "Dairy"
+msgstr "Dairy"
+
+#. module: farm_knowledge
+msgid "Details"
+msgstr "Details"
+
+#. module: farm_knowledge
+msgid "Disease"
+msgstr "Penyakit"
+
+#. module: farm_knowledge
+msgid "Ensure treatment methods comply with your certification standards."
+msgstr "Ensure treatment methods comply with your certification standards."
+
+#. module: farm_knowledge
+msgid "Equipment"
+msgstr "Peralatan"
+
+#. module: farm_knowledge
+msgid "Expert"
+msgstr "Pakar"
+
+#. module: farm_knowledge
+msgid "FAQs"
+msgstr "FAQs"
+
+#. module: farm_knowledge
+msgid "Farm Knowledge"
+msgstr "Pengetahuan Pertanian"
+
+#. module: farm_knowledge
+msgid "Fertilization"
+msgstr "Pemupukan"
+
+#. module: farm_knowledge
+msgid "General"
+msgstr "Umum"
+
+#. module: farm_knowledge
+msgid "General Agriculture"
+msgstr "General Agriculture"
+
+#. module: farm_knowledge
+msgid "Get Conventional Recommendations"
+msgstr "Get Conventional Recommendations"
+
+#. module: farm_knowledge
+msgid "Get Integrated Recommendations"
+msgstr "Get Integrated Recommendations"
+
+#. module: farm_knowledge
+msgid "Get Organic Recommendations"
+msgstr "Get Organic Recommendations"
+
+#. module: farm_knowledge
+msgid "Harvesting"
+msgstr "Harvesting"
+
+#. module: farm_knowledge
+msgid "Helpful"
+msgstr "Helpful"
+
+#. module: farm_knowledge
+msgid "High"
+msgstr "High"
+
+#. module: farm_knowledge
+msgid "Image Name"
+msgstr "Gambar Nama"
+
+#. module: farm_knowledge
+msgid "Integrated Approach"
+msgstr "Integrated Approach"
+
+#. module: farm_knowledge
+msgid "Intermediate"
+msgstr "Intermediate"
+
+#. module: farm_knowledge
+msgid "Irrigation"
+msgstr "Irigasi"
+
+#. module: farm_knowledge
+msgid "Knowledge Analysis"
+msgstr "Pengetahuan Analisis"
+
+#. module: farm_knowledge
+msgid "Knowledge Article"
+msgstr "Knowledge Article"
+
+#. module: farm_knowledge
+msgid "Knowledge Base"
+msgstr "Basis Pengetahuan"
+
+#. module: farm_knowledge
+msgid "Livestock"
+msgstr "Livestock"
+
+#. module: farm_knowledge
+msgid "Low"
+msgstr "Low"
+
+#. module: farm_knowledge
+msgid "Marketing"
+msgstr "Pemasaran"
+
+#. module: farm_knowledge
+msgid "Medium"
+msgstr "Medium"
+
+#. module: farm_knowledge
+msgid "Monitoring Tips"
+msgstr "Monitoring Tips"
+
+#. module: farm_knowledge
+msgid "Organic/Green Treatment"
+msgstr "Organic/Green Treatment"
+
+#. module: farm_knowledge
+msgid "Pest"
+msgstr "Hama"
+
+#. module: farm_knowledge
+msgid "Pest & Disease"
+msgstr "Hama & Penyakit"
+
+#. module: farm_knowledge
+msgid "Pest &amp; Disease Map"
+msgstr "Pest &amp; Disease Map"
+
+#. module: farm_knowledge
+msgid "Photo"
+msgstr "Foto"
+
+#. module: farm_knowledge
+msgid "Planting"
+msgstr "Planting"
+
+#. module: farm_knowledge
+msgid "Prevention &amp; Monitoring"
+msgstr "Prevention &amp; Monitoring"
+
+#. module: farm_knowledge
+msgid "Prevention Methods"
+msgstr "Prevention Methods"
+
+#. module: farm_knowledge
+msgid "Processing"
+msgstr "Processing"
+
+#. module: farm_knowledge
+msgid "Quality"
+msgstr "Mutu"
+
+#. module: farm_knowledge
+msgid "Regulations"
+msgstr "Regulations"
+
+#. module: farm_knowledge
+msgid "Related Data"
+msgstr "Related Data"
+
+#. module: farm_knowledge
+msgid "Safety"
+msgstr "Keamanan"
+
+#. module: farm_knowledge
+msgid "Scientific Name (Latin)"
+msgstr "Scientific Name (Latin)"
+
+#. module: farm_knowledge
+msgid "Spring"
+msgstr "Spring"
+
+#. module: farm_knowledge
+msgid "Standard Operating Procedure"
+msgstr "Standard Operating Procedure"
+
+#. module: farm_knowledge
+msgid "Summer"
+msgstr "Summer"
+
+#. module: farm_knowledge
+msgid "Symptoms &amp; Cause"
+msgstr "Symptoms &amp; Cause"
+
+#. module: farm_knowledge
+msgid "Target Model"
+msgstr "Target Model"
+
+#. module: farm_knowledge
+msgid "Treatment Recommendations"
+msgstr "Treatment Recommendations"
+
+#. module: farm_knowledge
+msgid "Very High"
+msgstr "Very High"
+
+#. module: farm_knowledge
+msgid "View Treatment Plan"
+msgstr "View Treatment Plan"
+
+#. module: farm_knowledge
+msgid "Weed"
+msgstr "Weed"
+
+#. module: farm_knowledge
+msgid "Winemaking"
+msgstr "Winemaking"
+
+#. module: farm_knowledge
+msgid "Winter"
+msgstr "Winter"
+
+#. module: farm_knowledge
+msgid "Year Round"
+msgstr "Year Round"
+
+#. module: farm_knowledge
+msgid "action_mark_helpful"
+msgstr "action_mark_helpful"
+
+#. module: farm_knowledge
+msgid "action_recommend_treatments"
+msgstr "action_recommend_treatments"
+
+#. module: farm_knowledge
+msgid "action_view_treatment"
+msgstr "action_view_treatment"
+
+#. module: farm_knowledge
+msgid "active"
+msgstr "active"
+
+#. module: farm_knowledge
+msgid "activity_ids"
+msgstr "activity_ids"
+
+#. module: farm_knowledge
+msgid "affected_crops"
+msgstr "affected_crops"
+
+#. module: farm_knowledge
+msgid "agricultural.knowledge"
+msgstr "agricultural.knowledge"
+
+#. module: farm_knowledge
+msgid "agricultural.knowledge.form"
+msgstr "agricultural.knowledge.form"
+
+#. module: farm_knowledge
+msgid "agricultural.knowledge.kanban"
+msgstr "agricultural.knowledge.kanban"
+
+#. module: farm_knowledge
+msgid "agricultural.knowledge.pivot"
+msgstr "agricultural.knowledge.pivot"
+
+#. module: farm_knowledge
+msgid "agricultural.knowledge.tree"
+msgstr "agricultural.knowledge.tree"
+
+#. module: farm_knowledge
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_knowledge
+msgid "attachment_ids"
+msgstr "attachment_ids"
+
+#. module: farm_knowledge
+msgid "author_id"
+msgstr "author_id"
+
+#. module: farm_knowledge
+msgid "category"
+msgstr "category"
+
+#. module: farm_knowledge
+msgid "cause"
+msgstr "cause"
+
+#. module: farm_knowledge
+msgid "compliance_standards"
+msgstr "compliance_standards"
+
+#. module: farm_knowledge
+msgid "content"
+msgstr "content"
+
+#. module: farm_knowledge
+msgid "conventional_products"
+msgstr "conventional_products"
+
+#. module: farm_knowledge
+msgid "conventional_treatment"
+msgstr "conventional_treatment"
+
+#. module: farm_knowledge
+msgid "description"
+msgstr "description"
+
+#. module: farm_knowledge
+msgid "difficulty_level"
+msgstr "difficulty_level"
+
+#. module: farm_knowledge
+msgid "e.g. wheat, irrigation, organic"
+msgstr "e.g. wheat, irrigation, organic"
+
+#. module: farm_knowledge
+msgid "faq.entry"
+msgstr "faq.entry"
+
+#. module: farm_knowledge
+msgid "faq.entry.tree"
+msgstr "faq.entry.tree"
+
+#. module: farm_knowledge
+msgid "helpful_count"
+msgstr "helpful_count"
+
+#. module: farm_knowledge
+msgid "industry_specific"
+msgstr "industry_specific"
+
+#. module: farm_knowledge
+msgid "integrated_treatment"
+msgstr "integrated_treatment"
+
+#. module: farm_knowledge
+msgid "kanban,list,form"
+msgstr "kanban,list,form"
+
+#. module: farm_knowledge
+msgid "kanban,list,form,pivot"
+msgstr "kanban,list,form,pivot"
+
+#. module: farm_knowledge
+msgid "kanban-box"
+msgstr "kanban-box"
+
+#. module: farm_knowledge
+msgid "knowledge_type"
+msgstr "knowledge_type"
+
+#. module: farm_knowledge
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_knowledge
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_knowledge
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_knowledge
+msgid "model"
+msgstr "model"
+
+#. module: farm_knowledge
+msgid "monitoring_tips"
+msgstr "monitoring_tips"
+
+#. module: farm_knowledge
+msgid "name"
+msgstr "name"
+
+#. module: farm_knowledge
+msgid "optimal_conditions"
+msgstr "optimal_conditions"
+
+#. module: farm_knowledge
+msgid "organic_products"
+msgstr "organic_products"
+
+#. module: farm_knowledge
+msgid "organic_treatment"
+msgstr "organic_treatment"
+
+#. module: farm_knowledge
+msgid "pest_disease_id"
+msgstr "pest_disease_id"
+
+#. module: farm_knowledge
+msgid "photo"
+msgstr "photo"
+
+#. module: farm_knowledge
+msgid "prevention"
+msgstr "prevention"
+
+#. module: farm_knowledge
+msgid "prevention_methods"
+msgstr "prevention_methods"
+
+#. module: farm_knowledge
+msgid "product.template"
+msgstr "product.template"
+
+#. module: farm_knowledge
+msgid "question"
+msgstr "question"
+
+#. module: farm_knowledge
+msgid "recommended_intervention_id"
+msgstr "recommended_intervention_id"
+
+#. module: farm_knowledge
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_knowledge
+msgid "scientific_name"
+msgstr "scientific_name"
+
+#. module: farm_knowledge
+msgid "seasonality"
+msgstr "seasonality"
+
+#. module: farm_knowledge
+msgid "sequence"
+msgstr "sequence"
+
+#. module: farm_knowledge
+msgid "severity_level"
+msgstr "severity_level"
+
+#. module: farm_knowledge
+msgid "symptoms"
+msgstr "symptoms"
+
+#. module: farm_knowledge
+msgid "tags"
+msgstr "tags"
+
+#. module: farm_knowledge
+msgid "target_model"
+msgstr "target_model"
+
+#. module: farm_knowledge
+msgid "video_url"
+msgstr "video_url"
+
+#. module: farm_knowledge
+msgid "view_count"
+msgstr "view_count"
+
+#. module: farm_knowledge
+msgid "view_mode"
+msgstr "view_mode"

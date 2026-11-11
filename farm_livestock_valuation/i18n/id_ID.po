@@ -1,0 +1,60 @@
+# Translation of farm_livestock_valuation (farm_livestock_valuation) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings (field labels,
+# selection labels, view/menu/action strings, help texts, _() messages).
+# License: LGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_livestock_valuation 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 17:30+0700\n"
+"PO-Revision-Date: 2026-11-10 17:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_livestock_valuation
+msgid "Agri-OS: Livestock Financial Valuation Bridge"
+msgstr "Agri-OS: Jembatan Valuasi Keuangan Ternak"
+
+#. module: farm_livestock_valuation
+msgid "Breed Coefficient"
+msgstr "Koefisien Ras"
+
+#. module: farm_livestock_valuation
+msgid "Farm Livestock"
+msgstr "Ternak"
+
+#. module: farm_livestock_valuation
+msgid "Livestock"
+msgstr "Ternak"
+
+#. module: farm_livestock_valuation
+msgid "Livestock Asset"
+msgstr "Aset Ternak"
+
+#. module: farm_livestock_valuation
+msgid "Livestock Weight Record"
+msgstr "Catatan Berat Ternak"
+
+#. module: farm_livestock_valuation
+msgid "Measured Weight (kg)"
+msgstr "Berat Terukur (kg)"
+
+#. module: farm_livestock_valuation
+msgid "Micro-industry bridge for livestock biomass valuation and dynamic credit lines"
+msgstr "Jembatan mikro-industri untuk valuasi biomassa ternak dan jalur kredit dinamis"
+
+#. module: farm_livestock_valuation
+msgid "Name"
+msgstr "Nama"
+
+#. module: farm_livestock_valuation
+msgid "RFID Tag"
+msgstr "Tag RFID"
+
+#. module: farm_livestock_valuation
+msgid "Telemetry Time"
+msgstr "Waktu Telemetri"

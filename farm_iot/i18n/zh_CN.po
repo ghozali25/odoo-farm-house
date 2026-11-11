@@ -1,0 +1,945 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_iot
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-05-04 09:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_device__digital_twin_model_url
+msgid "3D Model URL"
+msgstr "3D 模型网址"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_location__digital_twin_scene_id
+msgid "3D Scene"
+msgstr "3D场景"
+
+#. module: farm_iot
+#: model:ir.ui.menu,name:farm_iot.menu_farm_digital_twin_scene
+msgid "3D Scenes"
+msgstr "3D场景"
+
+#. module: farm_iot
+#. odoo-python
+#: code:addons/farm_iot/models/farm_automation_rule.py:0
+msgid ""
+"AUTOMATION: Rule '%s' triggered. Command '%s' sent to %s because %s was %s "
+"%s."
+msgstr ""
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__target_device_id
+msgid "Action Device"
+msgstr "动作装置"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_needaction
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_needaction
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_needaction
+msgid "Action Needed"
+msgstr "需要操作"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__command
+msgid "Action/Command"
+msgstr "动作/命令"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__active
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__active
+#: model:ir.model.fields.selection,name:farm_iot.selection__agri_digital_twin_scene__state__active
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_digital_twin_scene__state__active
+msgid "Active"
+msgstr "有效"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_device__active_alert_ids
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_iiot_device_form_inherit_farm_iot
+msgid "Active Alerts"
+msgstr "主动警报"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__activity_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__activity_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__activity_exception_decoration
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__activity_exception_decoration
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动异常装饰"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__activity_state
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__activity_state
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__activity_type_icon
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__activity_type_icon
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "活动类型图标"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_telemetry__adopted_lot_id
+msgid "Adopted Asset"
+msgstr "采用的资产"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_agri_digital_twin_scene
+msgid "Agricultural Digital Twin 3D Scene"
+msgstr "农业数字孪生3D场景"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_agri_digital_twin_marker
+msgid "Agricultural Digital Twin Device Marker"
+msgstr "农业数字孪生设备标记"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__mapping_id
+msgid "Applied Mapping"
+msgstr "应用测绘"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_iiot_device__geofence_id
+msgid "Assigned virtual fence for boundary monitoring."
+msgstr "分配虚拟围栏进行边界监控。"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_attachment_count
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_attachment_count
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: farm_iot
+#: model:ir.actions.act_window,name:farm_iot.action_farm_automation_rule
+#: model:ir.ui.menu,name:farm_iot.menu_farm_automation
+#: model_terms:ir.ui.view,arch_db:farm_iot.farm_automation_rule_view_tree
+msgid "Automation Rules"
+msgstr "自动化规则"
+
+#. module: farm_iot
+#. odoo-python
+#: code:addons/farm_iot/models/agri_telemetry.py:0
+#: code:addons/farm_iot/models/farm_iot_telemetry.py:0
+msgid "BOUNDARY BREACH: %s"
+msgstr "边界突破：%s"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__base_model_url
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__base_model_url
+msgid "Base Terrain/Structure Model URL"
+msgstr "基础地形/结构模型 URL"
+
+#. module: farm_iot
+#. odoo-python
+#: code:addons/farm_iot/wizard/farm_device_command.py:0
+msgid "Command %s has been published to %s"
+msgstr "命令 %s 已发布到 %s"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_device__command_log_ids
+msgid "Command History"
+msgstr "命令历史"
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_iiot_device_form_inherit_farm_iot
+msgid "Command Logs"
+msgstr "命令日志"
+
+#. module: farm_iot
+#. odoo-python
+#: code:addons/farm_iot/wizard/farm_device_command.py:0
+msgid "Command Sent"
+msgstr "命令发送"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__command_to_send
+msgid "Command/Action"
+msgstr "命令/动作"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__create_uid
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__create_uid
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__create_uid
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__create_uid
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__create_uid
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__create_uid
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__create_uid
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__create_date
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__create_date
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__create_date
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__create_date
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__create_date
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__create_date
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__iot_device_mapping__match_record_by__context
+msgid "Current Active Record (Context)"
+msgstr "当前活动记录（上下文）"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__device_marker_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__device_marker_ids
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_farm_digital_twin_scene_form
+msgid "Device Markers"
+msgstr "设备标记"
+
+#. module: farm_iot
+#: model:ir.ui.menu,name:farm_iot.menu_farm_iot_digital_twin
+msgid "Digital Twin"
+msgstr "数字孪生"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_farm_digital_twin_scene
+msgid "Digital Twin 3D Scene (Deprecated - Use agri.digital.twin.scene)"
+msgstr "数字孪生 3D 场景（已弃用 - 使用 agri.digital.twin.scene）"
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_farm_location_form_digital_twin
+msgid "Digital Twin Config"
+msgstr "数字孪生配置"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_farm_digital_twin_marker
+msgid "Digital Twin Device Marker (Deprecated - Use agri.digital.twin.marker)"
+msgstr "数字孪生设备标记（已弃用 - 使用 agri.digital.twin.marker）"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_location__digital_twin_enabled
+msgid "Digital Twin Enabled"
+msgstr "启用数字孪生"
+
+#. module: farm_iot
+#: model:ir.actions.act_window,name:farm_iot.action_farm_digital_twin_scene
+msgid "Digital Twin Scenes"
+msgstr "数字孪生场景"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__iot_device_mapping__mapping_type__field
+msgid "Direct Field Update"
+msgstr "直接现场更新"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__direction
+msgid "Direction"
+msgstr "方向"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_command_log__status__dispatched
+msgid "Dispatched to Framework"
+msgstr "分派到框架"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_farm_location__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_device__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_telemetry__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__display_name
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_automation_rule__sensor_type__dissolved_oxygen
+msgid "Dissolved Oxygen"
+msgstr "溶解氧"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__iot_device_mapping__match_record_by__criteria
+msgid "Domain Criteria (Match Field)"
+msgstr "域标准（匹配字段）"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__agri_digital_twin_scene__state__draft
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_command_log__status__draft
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_digital_twin_scene__state__draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_telemetry__drone_id
+msgid "Drone"
+msgstr "无人机"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_command_log__status__ack
+msgid "Edge Acknowledged"
+msgstr "边缘确认"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__environment_hdr_url
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__environment_hdr_url
+msgid "Environment HDR URL"
+msgstr "环境 HDR URL"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__error_log
+msgid "Error Traceback"
+msgstr "错误回溯"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_command_log__status__failed
+msgid "Execution Failed"
+msgstr "执行失败"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_command_log__status__success
+msgid "Execution Success"
+msgstr "执行成功"
+
+#. module: farm_iot
+#. odoo-python
+#: code:addons/farm_iot/wizard/farm_device_command.py:0
+msgid "Failed to send command: %s"
+msgstr "发送命令失败：%s"
+
+#. module: farm_iot
+#: model:ir.ui.menu,name:farm_iot.menu_farm_iot_root
+msgid "Farm IOT"
+msgstr "农场物联网"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_farm_automation_rule
+msgid "Farm IOT Automation Rule"
+msgstr "农场物联网自动化规则"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_farm_location
+msgid "Farm Location & Land Parcel"
+msgstr "农场位置和地块"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_iot_device_mapping__match_field_id
+msgid "Field on target model to match device identifier (e.g. device_serial)"
+msgstr "目标模型上用于匹配设备标识符的字段（例如 device_serial）"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_follower_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_follower_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_partner_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_partner_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__activity_type_icon
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__activity_type_icon
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "字体很棒的图标，例如fa 任务"
+
+#. module: farm_iot
+#. odoo-python
+#: code:addons/farm_iot/models/agri_telemetry.py:0
+#: code:addons/farm_iot/models/farm_iot_telemetry.py:0
+msgid ""
+"GEOFENCE ALERT: Device %s has LEFT the assigned fence '%s' at [%s, %s]!"
+msgstr ""
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_farm_command_log
+msgid "Global IoT Command Audit Log"
+msgstr "全球物联网命令审核日志"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_automation_rule__operator__>
+msgid "Greater Than"
+msgstr "大于"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__has_message
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__has_message
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__has_message
+msgid "Has Message"
+msgstr "有留言"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__id
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_location__id
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_device__id
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_telemetry__id
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__id
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__id
+msgid "ID"
+msgstr "ID"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_iiot_telemetry
+msgid "IIoT Telemetry Data"
+msgstr "工业物联网遥测数据"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__activity_exception_icon
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__activity_exception_icon
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__activity_exception_icon
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__activity_exception_icon
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "指示异常活动的图标。"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__message_needaction
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__message_needaction
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则有新消息需要您注意。"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__message_has_error
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__message_has_sms_error
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__message_has_error
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__message_has_sms_error
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__message_has_error
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果检查，则某些消息存在传送错误。"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_iiot_telemetry__adopted_lot_id
+msgid "If the sensor is attached to a specific adopted tree/animal"
+msgstr "如果传感器连接到特定的收养树木/动物"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__iot_device_mapping__direction__inbound
+msgid "Inbound (Telemetry)"
+msgstr "入站（遥测）"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_iiot_device
+msgid "Industrial IoT Device"
+msgstr "工业物联网设备"
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_iot_device_mapping_form
+msgid "IoT Device Mapping"
+msgstr "物联网设备映射"
+
+#. module: farm_iot
+#: model:ir.actions.act_window,name:farm_iot.action_iot_device_mapping
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_iot_device_mapping_tree
+msgid "IoT Device Mappings"
+msgstr "物联网设备映射"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_iot_device_mapping
+msgid "IoT Device to Business Field Mapper"
+msgstr "IoT 设备到业务领域映射器"
+
+#. module: farm_iot
+#: model:ir.model,name:farm_iot.model_iot_telemetry_buffer
+msgid "IoT Raw Telemetry Buffer"
+msgstr "IoT 原始遥测缓冲区"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_is_follower
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_is_follower
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_is_follower
+msgid "Is Follower"
+msgstr "是追随者"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__processed
+msgid "Is Processed"
+msgstr "已处理"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_telemetry__land_parcel_id
+msgid "Land Parcel/Pond"
+msgstr "地块/池塘"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_device__last_telemetry_json
+msgid "Last Telemetry JSON"
+msgstr "最后的遥测 JSON"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__write_uid
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__write_uid
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__write_uid
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__write_uid
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__write_uid
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__write_uid
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__write_uid
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__write_date
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__write_date
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__write_date
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__write_date
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__write_date
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__write_date
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__write_date
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__execution_latency
+msgid "Latency (ms)"
+msgstr "延迟（毫秒）"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_automation_rule__operator__<
+msgid "Less Than"
+msgstr "少于"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__mqtt_topic
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__mqtt_topic
+msgid "MQTT Topic"
+msgstr "MQTT 主题"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__name
+msgid "Mapping Name"
+msgstr "映射名称"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__mapping_type
+msgid "Mapping Type"
+msgstr "映射类型"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__match_field_id
+msgid "Match Record Field"
+msgstr "比赛记录字段"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__match_record_by
+msgid "Matching Logic"
+msgstr "匹配逻辑"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_has_error
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_has_error
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_has_error
+msgid "Message Delivery error"
+msgstr "消息投递错误"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__iot_device_mapping__mapping_type__method
+msgid "Method Execution"
+msgstr "方法执行"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__method_name
+msgid "Method Name"
+msgstr "方法名称"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_iot_device_mapping__method_name
+msgid "Method to call on the target record when telemetry arrives."
+msgstr "遥测到达时调用目标记录的方法。"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__my_activity_date_deadline
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__my_activity_date_deadline
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "我的活动截止日期"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__activity_date_deadline
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__activity_date_deadline
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一个活动截止日期"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__activity_summary
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__activity_summary
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一步活动总结"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__activity_type_id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__activity_type_id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_needaction_counter
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_needaction_counter
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_needaction_counter
+msgid "Number of Actions"
+msgstr "动作数量"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_has_error_counter
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_has_error_counter
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__message_needaction_counter
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__message_needaction_counter
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "需要采取行动的消息数量"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__message_has_error_counter
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__message_has_error_counter
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "发送错误的消息数"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__operator
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__user_id
+msgid "Operator"
+msgstr "操作员"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__res_id
+msgid "Originating ID"
+msgstr "始发 ID"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__res_model
+msgid "Originating Model"
+msgstr "原始型号"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__iot_device_mapping__direction__outbound
+msgid "Outbound (Control/Setpoint)"
+msgstr "出站（控制/设定点）"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__command_params
+msgid "Params (JSON)"
+msgstr "参数 (JSON)"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__payload
+msgid "Payload (JSON)"
+msgstr "有效负载（JSON）"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__payload_template
+msgid "Payload Template (JSON)"
+msgstr "负载模板 (JSON)"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__device_id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__device_id
+msgid "Physical Device"
+msgstr "物理设备"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__location_id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__location_id
+msgid "Physical Location"
+msgstr "物理位置"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__processed_date
+msgid "Processed On"
+msgstr "处理于"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_telemetry__production_id
+msgid "Production Task"
+msgstr "生产任务"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__rating_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__rating_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__rating_ids
+msgid "Ratings"
+msgstr "评级"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_telemetry_buffer__raw_value
+msgid "Raw Value"
+msgstr "原始价值"
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_iot_device_mapping_form
+msgid "Record Matching Logic"
+msgstr "记录匹配逻辑"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_command_log__status__timeout
+msgid "Response Timeout"
+msgstr "响应超时"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__activity_user_id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__activity_user_id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__activity_user_id
+msgid "Responsible User"
+msgstr "负责用户"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__name
+msgid "Rule Name"
+msgstr "规则名称"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__message_has_sms_error
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__message_has_sms_error
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信投递错误"
+
+#. module: farm_iot
+#. odoo-python
+#: code:addons/farm_iot/models/agri_telemetry.py:0
+#: code:addons/farm_iot/models/farm_iot_telemetry.py:0
+msgid "STATUS UPDATE: Your adopted asset %s sent a new reading: %s %s at %s."
+msgstr "状态更新：您采用的资产 %s 发送了新读数：%s %s，于 %s。"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iiot_device__geofence_id
+msgid "Safety Geofence"
+msgstr "安全地理围栏"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__scene_id
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__scene_id
+msgid "Scene"
+msgstr "场景"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__name
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__name
+msgid "Scene Name"
+msgstr "场景名称"
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_iot_device_mapping_form
+msgid "Source Config"
+msgstr "源配置"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__device_id
+msgid "Source Device"
+msgstr "源设备"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_iiot_device__digital_twin_model_url
+msgid "Specific 3D model for this device"
+msgstr "该设备的特定 3D 模型"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__state
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__state
+msgid "State"
+msgstr "状态"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__status
+msgid "Status"
+msgstr "状态"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__activity_state
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__activity_state
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_iot_device_mapping_form
+msgid "Target Config"
+msgstr "目标配置"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__device_id
+msgid "Target Device"
+msgstr "目标设备"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__target_field_id
+msgid "Target Field"
+msgstr "目标领域"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_iot_device_mapping__target_model_id
+msgid "Target Model"
+msgstr "目标模型"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__display_telemetry_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__display_telemetry_ids
+msgid "Telemetries to Display"
+msgstr "要显示的遥测数据"
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.farm_telemetry_view_graph
+msgid "Telemetry Analysis"
+msgstr "遥测分析"
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.farm_telemetry_view_tree
+msgid "Telemetry Data"
+msgstr "遥测数据"
+
+#. module: farm_iot
+#: model:ir.actions.act_window,name:farm_iot.action_farm_telemetry
+#: model:ir.ui.menu,name:farm_iot.menu_farm_telemetry_history
+msgid "Telemetry History"
+msgstr "遥测历史"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_automation_rule__sensor_type__temperature
+msgid "Temperature"
+msgstr "温度"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__threshold
+msgid "Threshold"
+msgstr "临界点"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__create_date
+msgid "Timestamp"
+msgstr "时间戳"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_iot_device_mapping__mqtt_topic
+msgid "Topic to listen for or publish to."
+msgstr "要收听或发布的主题。"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_farm_automation_rule__sensor_type
+msgid "Trigger Sensor"
+msgstr "触发传感器"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__activity_exception_decoration
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__activity_exception_decoration
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录的异常活动的类型。"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__base_model_url
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__base_model_url
+msgid "URL to GLB/USDZ file"
+msgstr "GLB/USDZ 文件的 URL"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_scene__website_message_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_command_log__website_message_ids
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_scene__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_agri_digital_twin_scene__website_message_ids
+#: model:ir.model.fields,help:farm_iot.field_farm_command_log__website_message_ids
+#: model:ir.model.fields,help:farm_iot.field_farm_digital_twin_scene__website_message_ids
+msgid "Website communication history"
+msgstr "网站沟通历史"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__pos_x
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__pos_x
+msgid "X Position"
+msgstr "X 位置"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__pos_y
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__pos_y
+msgid "Y Position"
+msgstr "Y 轴位置"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__rotation_y
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__rotation_y
+msgid "Y Rotation"
+msgstr "Y轴旋转"
+
+#. module: farm_iot
+#: model:ir.model.fields,field_description:farm_iot.field_agri_digital_twin_marker__pos_z
+#: model:ir.model.fields,field_description:farm_iot.field_farm_digital_twin_marker__pos_z
+msgid "Z Position"
+msgstr "Z位置"
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_iot_device_mapping_form
+msgid "e.g. Electricity Meter to MO Mapper"
+msgstr "例如电表至 MO 映射器"
+
+#. module: farm_iot
+#: model:ir.model.fields,help:farm_iot.field_iot_device_mapping__payload_template
+msgid "e.g. {'setpoint': {{value}} }"
+msgstr "例如{'设定点'：{{值}} }"
+
+#. module: farm_iot
+#: model_terms:ir.ui.view,arch_db:farm_iot.view_farm_digital_twin_scene_form
+msgid "https://example.com/models/farm.glb"
+msgstr "https://example.com/models/farm.glb"
+
+#. module: farm_iot
+#: model:ir.model.fields.selection,name:farm_iot.selection__farm_automation_rule__sensor_type__ph
+msgid "pH Level"
+msgstr "pH值"

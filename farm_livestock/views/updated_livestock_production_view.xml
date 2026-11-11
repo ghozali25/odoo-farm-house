@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+    <record id="view_farm_livestock_production_form_updated" model="ir.ui.view">
+        <field name="name">agri.isl.livestock.task.form.updated</field>
+        <field name="model">agri.isl.livestock.task</field>
+        <field name="inherit_id" ref="farm_livestock.view_farm_livestock_production_form" />
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Performance &amp; Security" name="perf_security">
+                    <group>
+                        <group string="Performance Metrics">
+                            <field name="fcr" />
+                            <field name="initial_total_weight" />
+                            <field name="final_total_weight" />
+                        </group>
+                        <group string="Security Settings">
+                            <field name="security_level" />
+                        </group>
+                    </group>
+                    <group string="Configuration">
+                        <!-- NOTE (18.0 port): mode 'json' is not a valid CodeEditor mode
+                             in Odoo 18 (only javascript/xml/qweb/scss/python) — same
+                             B6 trap as farm_operation's quality_fingerprint. JSON is a
+                             subset of JS object-literal syntax, so 'javascript' highlights
+                             it correctly. -->
+                        <field name="livestock_config" widget="ace" options="{'mode': 'javascript'}" />
+                    </group>
+                </page>
+            </notebook>
+        </field>
+    </record>
+</data>
+</odoo>
