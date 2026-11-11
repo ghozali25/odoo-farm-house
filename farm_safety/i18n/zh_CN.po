@@ -1,0 +1,67 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_safety
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-05-04 09:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_safety
+#. odoo-python
+#: code:addons/farm_safety/models/prevention_template.py:0
+msgid "BIO-SAFETY ALERT: Asset put into quarantine. Reason: %s"
+msgstr "生物安全警报：资产已被隔离。原因：%s"
+
+#. module: farm_safety
+#. odoo-python
+#: code:addons/farm_safety/models/prevention_template.py:0
+msgid "BIO-SAFETY BLOCK: Lot %s is in QUARANTINE. Movement forbidden!"
+msgstr "生物安全区：批次 %s 处于隔离状态。禁止移动！"
+
+#. module: farm_safety
+#. odoo-python
+#: code:addons/farm_safety/models/prevention_template.py:0
+msgid "BIO-SAFETY: Asset released from quarantine."
+msgstr "生物安全：资产解除隔离。"
+
+#. module: farm_safety
+#. odoo-python
+#: code:addons/farm_safety/models/prevention_template.py:0
+msgid "EPIDEMIC BUFFER: %s"
+msgstr "流行病缓冲区：%s"
+
+#. module: farm_safety
+#. odoo-python
+#: code:addons/farm_safety/models/project_task.py:0
+msgid "Prevention: %s"
+msgstr "预防：%s"
+
+#. module: farm_safety
+#. odoo-python
+#: code:addons/farm_safety/models/prevention_template.py:0
+msgid ""
+"SAFETY BLOCK: Lot %s is within WITHDRAWAL PERIOD (Ends on %s). Cannot "
+"harvest or sell!"
+msgstr ""
+
+#. module: farm_safety
+#. odoo-python
+#: code:addons/farm_safety/models/project_task.py:0
+msgid "SAFETY: Withdrawal period updated to %s due to medication."
+msgstr "安全：由于药物原因，停药期更新为 %s。"
+
+#. module: farm_safety
+#. odoo-python
+#: code:addons/farm_safety/models/biosafety_access.py:0
+msgid "WARNING: Bio-safety entry without confirmed sanitization!"
+msgstr "警告：未经确认消毒即可生物安全进入！"

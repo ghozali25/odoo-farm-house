@@ -1,0 +1,184 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_processing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:02+0000\n"
+"PO-Revision-Date: 2026-05-04 09:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/transformation_wizard.py:0
+msgid "Consume Waste"
+msgstr "消耗废物"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/substitute_wizard.py:0
+msgid "Could not find the original raw material move for product '%s'."
+msgstr "找不到产品“%s”的原始原材料移动。"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid "Crop: Plot %s"
+msgstr "作物：地块 %s"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid "Expired Lot"
+msgstr "过期批次"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid "Expiring Lot"
+msgstr "到期批次"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid "Expiring Lot: %s (%s) expires on %s. Prioritize usage (FEFO)."
+msgstr "到期批次：%s (%s) 于 %s 到期。优先使用 (FEFO)。"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/mrp_production.py:0
+msgid ""
+"HACCP BLOCK: Production cannot be completed. Critical Limit violations "
+"detected in CCP checks: %s"
+msgstr ""
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid ""
+"Land Harvest lots must have an associated Origin Plot for full traceability."
+msgstr ""
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/package_management.py:0
+msgid "New"
+msgstr "新建"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/transformation_wizard.py:0
+msgid "Not enough waste quantity available in the source lot."
+msgstr "源批次中没有足够的可用废物量。"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/recall_wizard.py:0
+msgid "Please select a Lot/Serial Number to simulate recall."
+msgstr "请选择批次/序列号来模拟召回。"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/substitute_wizard.py:0
+msgid "Please select a substitute product."
+msgstr "请选择替代产品。"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/transformation_wizard.py:0
+msgid "Produce Organic Fertilizer"
+msgstr "生产有机肥"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/substitute_wizard.py:0
+msgid "Raw material '%s' substituted with '%s' (Quantity: %s)."
+msgstr "原材料“%s”替换为“%s”（数量：%s）。"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/recall_wizard.py:0
+msgid "Recall Simulation Results"
+msgstr "回忆模拟结果"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid ""
+"The lot '%s' is expired (expired on %s). It cannot be used in operations."
+msgstr ""
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid ""
+"This lot has expired on %s. Immediate action required to quarantine or "
+"dispose of the expired inventory to prevent contamination or compliance "
+"issues."
+msgstr ""
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid ""
+"This lot is expiring soon. Ensure it is used before the expiration date to "
+"avoid waste."
+msgstr ""
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid "URGENT: Expired Lot: %s (%s) expired on %s. Quarantine required."
+msgstr "紧急：过期批次：%s (%s) 已于 %s 过期。需要隔离。"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid "Unknown"
+msgstr "未知"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/transformation_wizard.py:0
+msgid "Waste Transformation: %s"
+msgstr "废物转化：%s"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/transformation_wizard.py:0
+msgid "Waste successfully transformed into valuable assets!"
+msgstr "废物成功变废为宝！"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/mrp_work.py:0
+msgid ""
+"Workorder Material Balance Error: Input quantity (%s) does not match "
+"produced (%s) + scrapped (%s) within allowed tolerance (%s%%)."
+msgstr ""
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/wizards/substitute_wizard.py:0
+msgid "You can only select one substitute product at a time."
+msgstr "您一次只能选择一种替代产品。"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid "date_deadline"
+msgstr "日期_截止日期"
+
+#. module: farm_processing
+#. odoo-python
+#: code:addons/farm_processing/models/stock_lot.py:0
+msgid "state"
+msgstr "状态"

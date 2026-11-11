@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_agri_biological_asset_fair_valuation,agri.biological.asset.fair.valuation,model_agri_biological_asset_fair_valuation,base.group_user,1,1,1,1
+access_farm_market_price,farm.market.price,model_farm_market_price,base.group_user,1,1,1,1

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Batch 6: sequences used by create() in this module but never defined
+     upstream (next_by_code fell back to '/'). -->
+<odoo>
+<data>
+    <record id="seq_joint_procurement_configuration" model="ir.sequence">
+        <field name="name">Joint Procurement Configuration</field>
+        <field name="code">joint.procurement.configuration</field>
+        <field name="prefix">JPC-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False" />
+    </record>
+    <record id="seq_vmi_agreement" model="ir.sequence">
+        <field name="name">VMI Agreement</field>
+        <field name="code">vmi.agreement</field>
+        <field name="prefix">VMI-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False" />
+    </record>
+</data>
+</odoo>

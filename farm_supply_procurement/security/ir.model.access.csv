@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_joint_procurement_configuration,joint.procurement.configuration,model_joint_procurement_configuration,base.group_user,1,1,1,1
+access_joint_procurement_order,joint.procurement.order,model_joint_procurement_order,base.group_user,1,1,1,1
+access_vmi_agreement,vmi.agreement,model_vmi_agreement,base.group_user,1,1,1,1
+access_vmi_stock_monitoring,vmi.stock.monitoring,model_vmi_stock_monitoring,base.group_user,1,1,1,1

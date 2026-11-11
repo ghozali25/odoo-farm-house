@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+from odoo import models, fields, api
+
+class FarmProcessingBom(models.Model):
+    """ Food Processing Recipe [US-037-23] """
+    _name = 'agri.isl.processing.bom'
+    _description = 'Food Processing BOM'
+    _inherits = {'mrp.bom': 'bom_id'}
+    
+    bom_id = fields.Many2one('mrp.bom', required=True, ondelete='cascade')
+    target_moisture_content = fields.Float("Target Moisture (%)")
+    target_temperature = fields.Float("Storage Temp (℃)")
+    allergen_ids = fields.Many2many('farm.allergen', 'agri_isl_processing_bom_farm_allergen_rel', 'bom_id', 'allergen_id', string="Allergens")
+    expected_yield_rate = fields.Float("Expected Yield Rate", default=100.0)
+    industry_type = fields.Selection([
+        ('standard', 'Standard'),
+        ('food_processing', 'Food Processing'),
+        ('pharmaceutical', 'Pharmaceutical'),
+        ('chemical', 'Chemical')
+    ], string="Industry Standard", default='food_processing')
+
+
+class FarmProcessingProduction(models.Model):
+    """
+    Food Processing Production Order with farm-specific features.
+    Linked to a standard manufacturing order (mrp.production) via
+    delegation (_inherits); the former farm_isl parent model
+    (agri.isl.mrp.production) is not part of batch 1, so the link
+    now points directly at mrp.production. The technical model name
+    (agri.isl.processing.production) is kept unchanged to avoid a
+    cascade of renames in farm_agricultural_processing.
+    """
+    _name = 'agri.isl.processing.production'
+    _description = 'Farm Food Processing Order'
+    _inherits = {'mrp.production': 'mrp_production_id'}
+
+    mrp_production_id = fields.Many2one('mrp.production', string='Base Production Order', required=True, ondelete='cascade')
+
+    # Energy Tracking (Processing Specific)
+    energy_reading_start = fields.Float(string='Energy Reading Start', copy=False)
+    energy_reading_end = fields.Float(string='Energy Reading End', copy=False)
+    energy_cost_total = fields.Float(string='Total Energy Cost', compute='_compute_energy_cost_isl')
+    water_consumption = fields.Float("Water Consumption")
+    electricity_consumption = fields.Float("Electricity Consumption")
+    total_energy_cost = fields.Float("Total Energy Cost (Measure)")
+
+    # US-095-02: Artisan Monitoring
+    current_moisture_content = fields.Float("Current Moisture (%)", group_operator="avg")
+    current_weight_loss_ratio = fields.Float("Current Weight Loss (%)")
+    is_ready_for_harvest = fields.Boolean("Ready for Collection", compute='_compute_artisan_readiness', store=True, precompute=True)
+    
+    processing_bom_id = fields.Many2one('agri.isl.processing.bom', string='Processing Recipe', compute='_compute_processing_bom', store=True, precompute=True)
+
+    # Net Vegetable Processing [US-113-01 / Epic 14]
+    raw_material_lot_id = fields.Many2one('stock.lot', string='Raw Material Lot')
+    raw_material_qty = fields.Float("Raw Material Qty")
+    quality_grade = fields.Selection([
+        ('a', 'Grade A'),
+        ('b', 'Grade B'),
+        ('c', 'Grade C')
+    ], string="Quality Grade", default='a')
+    final_output_qty = fields.Float("Final Output Qty")
+    net_vegetable_batch_no = fields.Char("Net Vegetable Batch No")
+    total_loss_qty = fields.Float("Total Loss Qty")
+    moisture_content = fields.Float("Moisture Content (%)")
+    is_haccp_compliant = fields.Boolean("Is HACCP Compliant", default=True)
+    processing_steps = fields.One2many('farm.processing.step', 'production_id', string='Processing Steps')
+
+    @api.depends('bom_id')
+    def _compute_processing_bom(self):
+        for rec in self:
+            if rec.bom_id:
+                # Find the corresponding farm.processing.bom for this farm.mrp.bom
+                farm_bom = self.env['agri.isl.processing.bom'].search([('bom_id', '=', rec.bom_id.id)], limit=1)
+                rec.processing_bom_id = farm_bom
+            else:
+                rec.processing_bom_id = False
+
+    @api.depends('energy_reading_start', 'energy_reading_end')
+    def _compute_energy_cost_isl(self):
+        for rec in self:
+            rec.energy_cost_total = (rec.energy_reading_end - rec.energy_reading_start) * 1.5  # Fixed price (1.5 per energy unit)
+
+    @api.depends('current_moisture_content', 'processing_bom_id.target_moisture_content')
+    def _compute_artisan_readiness(self):
+        """US-095-02: Automated logic to determine if artisan drying is complete"""
+        for rec in self:
+            if rec.processing_bom_id and rec.current_moisture_content <= rec.processing_bom_id.target_moisture_content:
+                rec.is_ready_for_harvest = True
+            else:
+                rec.is_ready_for_harvest = False

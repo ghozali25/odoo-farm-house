@@ -1,0 +1,344 @@
+# Translation of farm_safety to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_safety 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_safety
+msgid "Access Control"
+msgstr "Access Control"
+
+#. module: farm_safety
+msgid "Access Time"
+msgstr "Access Time"
+
+#. module: farm_safety
+msgid "Apply Prevention Plan"
+msgstr "Apply Prevention Plan"
+
+#. module: farm_safety
+msgid "BIO-SAFETY ALERT: Asset put into quarantine. Reason: %s"
+msgstr "BIO-SAFETY ALERT: Asset put into quarantine. Reason: %s"
+
+#. module: farm_safety
+msgid "BIO-SAFETY BLOCK: Lot %s is in QUARANTINE. Movement forbidden!"
+msgstr "BIO-SAFETY BLOCK: Lot %s is in QUARANTINE. Movement forbidden!"
+
+#. module: farm_safety
+msgid "BIO-SAFETY: Asset released from quarantine."
+msgstr "BIO-SAFETY: Asset released from quarantine."
+
+#. module: farm_safety
+msgid "Bio-safety Access"
+msgstr "Bio-safety Access"
+
+#. module: farm_safety
+msgid "Bio-safety Access Control"
+msgstr "Bio-safety Access Control"
+
+#. module: farm_safety
+msgid "Bio-safety Logs"
+msgstr "Bio-safety Logs"
+
+#. module: farm_safety
+msgid "Days Left"
+msgstr "Days Left"
+
+#. module: farm_safety
+msgid "Days until safe harvest"
+msgstr "Days until safe harvest"
+
+#. module: farm_safety
+msgid "Delay Days (T+N)"
+msgstr "Delay Days (T+N)"
+
+#. module: farm_safety
+msgid "Details"
+msgstr "Details"
+
+#. module: farm_safety
+msgid "Disposed"
+msgstr "Disposed"
+
+#. module: farm_safety
+msgid "EPIDEMIC BUFFER: %s"
+msgstr "EPIDEMIC BUFFER: %s"
+
+#. module: farm_safety
+msgid "Entry"
+msgstr "Entry"
+
+#. module: farm_safety
+msgid "Exit"
+msgstr "Exit"
+
+#. module: farm_safety
+msgid "Healthy"
+msgstr "Healthy"
+
+#. module: farm_safety
+msgid "In Quarantine"
+msgstr "In Quarantine"
+
+#. module: farm_safety
+msgid "Operation Name"
+msgstr "Operation Name"
+
+#. module: farm_safety
+msgid "Prevention Plan"
+msgstr "Prevention Plan"
+
+#. module: farm_safety
+msgid "Prevention Plans"
+msgstr "Prevention Plans"
+
+#. module: farm_safety
+msgid "Prevention: %s"
+msgstr "Prevention: %s"
+
+#. module: farm_safety
+msgid "Purpose of Entry"
+msgstr "Purpose of Entry"
+
+#. module: farm_safety
+msgid "Quantity"
+msgstr "Jumlah"
+
+#. module: farm_safety
+msgid "Quarantine"
+msgstr "Quarantine"
+
+#. module: farm_safety
+msgid "Quarantine Period Passed"
+msgstr "Quarantine Period Passed"
+
+#. module: farm_safety
+msgid "Quarantine Reason"
+msgstr "Quarantine Reason"
+
+#. module: farm_safety
+msgid "Quarantine Start"
+msgstr "Quarantine Start"
+
+#. module: farm_safety
+msgid "Restricting"
+msgstr "Restricting"
+
+#. module: farm_safety
+msgid "SAFETY BLOCK: Lot %s is within WITHDRAWAL PERIOD (Ends on %s). Cannot harvest or sell!"
+msgstr "SAFETY BLOCK: Lot %s is within WITHDRAWAL PERIOD (Ends on %s). Cannot harvest or sell!"
+
+#. module: farm_safety
+msgid "SAFETY: Withdrawal period updated to %s due to medication."
+msgstr "SAFETY: Withdrawal period updated to %s due to medication."
+
+#. module: farm_safety
+msgid "Safe"
+msgstr "Safe"
+
+#. module: farm_safety
+msgid "Safe Harvest Countdown"
+msgstr "Safe Harvest Countdown"
+
+#. module: farm_safety
+msgid "Safe to Harvest"
+msgstr "Safe to Harvest"
+
+#. module: farm_safety
+msgid "Safety &amp; Health"
+msgstr "Safety &amp; Health"
+
+#. module: farm_safety
+msgid "Safety Compliance"
+msgstr "Keamanan Kepatuhan"
+
+#. module: farm_safety
+msgid "Sanitization Performed"
+msgstr "Sanitization Performed"
+
+#. module: farm_safety
+msgid "Schedule"
+msgstr "Schedule"
+
+#. module: farm_safety
+msgid "Template Name"
+msgstr "Template Name"
+
+#. module: farm_safety
+msgid "Vehicle Plate"
+msgstr "Vehicle Plate"
+
+#. module: farm_safety
+msgid "WARNING: Bio-safety entry without confirmed sanitization!"
+msgstr "WARNING: Bio-safety entry without confirmed sanitization!"
+
+#. module: farm_safety
+msgid "Withdrawal End"
+msgstr "Withdrawal End"
+
+#. module: farm_safety
+msgid "access_time"
+msgstr "access_time"
+
+#. module: farm_safety
+msgid "access_type"
+msgstr "access_type"
+
+#. module: farm_safety
+msgid "action_apply_prevention_template"
+msgstr "action_apply_prevention_template"
+
+#. module: farm_safety
+msgid "active"
+msgstr "active"
+
+#. module: farm_safety
+msgid "activity_ids"
+msgstr "activity_ids"
+
+#. module: farm_safety
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_safety
+msgid "company_id"
+msgstr "company_id"
+
+#. module: farm_safety
+msgid "delay_days"
+msgstr "delay_days"
+
+#. module: farm_safety
+msgid "e.g. Broiler Vaccination Plan"
+msgstr "e.g. Broiler Vaccination Plan"
+
+#. module: farm_safety
+msgid "employee_id"
+msgstr "employee_id"
+
+#. module: farm_safety
+msgid "hr.employee"
+msgstr "hr.employee"
+
+#. module: farm_safety
+msgid "inherit_id"
+msgstr "inherit_id"
+
+#. module: farm_safety
+msgid "line_ids"
+msgstr "line_ids"
+
+#. module: farm_safety
+msgid "lines"
+msgstr "lines"
+
+#. module: farm_safety
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_safety
+msgid "location_id"
+msgstr "location_id"
+
+#. module: farm_safety
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_safety
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_safety
+msgid "model"
+msgstr "model"
+
+#. module: farm_safety
+msgid "mrp_operation"
+msgstr "mrp_operation"
+
+#. module: farm_safety
+msgid "name"
+msgstr "name"
+
+#. module: farm_safety
+msgid "person_id"
+msgstr "person_id"
+
+#. module: farm_safety
+msgid "prevention_template_id"
+msgstr "prevention_template_id"
+
+#. module: farm_safety
+msgid "product.product"
+msgstr "product.product"
+
+#. module: farm_safety
+msgid "product_id"
+msgstr "product_id"
+
+#. module: farm_safety
+msgid "project.task"
+msgstr "project.task"
+
+#. module: farm_safety
+msgid "project.task.form.farm.safety"
+msgstr "project.task.form.farm.safety"
+
+#. module: farm_safety
+msgid "purpose"
+msgstr "purpose"
+
+#. module: farm_safety
+msgid "qty"
+msgstr "qty"
+
+#. module: farm_safety
+msgid "quarantine_period_passed"
+msgstr "quarantine_period_passed"
+
+#. module: farm_safety
+msgid "ref"
+msgstr "ref"
+
+#. module: farm_safety
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_safety
+msgid "sanitization_confirmed"
+msgstr "sanitization_confirmed"
+
+#. module: farm_safety
+msgid "state"
+msgstr "state"
+
+#. module: farm_safety
+msgid "user_ids"
+msgstr "user_ids"
+
+#. module: farm_safety
+msgid "vehicle_plate"
+msgstr "vehicle_plate"
+
+#. module: farm_safety
+msgid "view_mode"
+msgstr "view_mode"
+
+#. module: farm_safety
+msgid "withdrawal_days_left"
+msgstr "withdrawal_days_left"
+
+#. module: farm_safety
+msgid "withdrawal_end_datetime"
+msgstr "withdrawal_end_datetime"

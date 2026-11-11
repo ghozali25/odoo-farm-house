@@ -1,0 +1,139 @@
+from odoo import models, fields, api, _
+
+class FarmPreventionTemplate(models.Model):
+    _name = 'farm.prevention.template'
+    _description = 'Agri-Prevention Template'
+
+    name = fields.Char("Template Name", required=True)
+    active = fields.Boolean(default=True)
+    line_ids = fields.One2many('farm.prevention.line', 'template_id', string="Operations")
+    company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
+
+class FarmPreventionLine(models.Model):
+    _name = 'farm.prevention.line'
+    _description = 'Prevention Operation Line'
+    _order = 'delay_days asc'
+
+    template_id = fields.Many2one('farm.prevention.template', ondelete='cascade')
+    name = fields.Char("Operation Name", required=True)
+    delay_days = fields.Integer("Delay Days (T+N)", default=0, help="Days after task start to perform this operation.")
+    
+    # Preset inputs
+    product_id = fields.Many2one('product.product', string="Vaccine/Medicine", help="Predefined input for this operation.")
+    qty = fields.Float("Quantity", default=1.0)
+
+class FarmLotQuarantine(models.Model):
+    _inherit = 'stock.lot'
+
+    is_quarantined = fields.Boolean("In Quarantine", default=False, tracking=True)
+    quarantine_reason = fields.Text("Quarantine Reason")
+    quarantine_start_date = fields.Date("Quarantine Start")
+    
+    # Withdrawal-period management [US-031-03]
+    withdrawal_end_datetime = fields.Datetime("Withdrawal End", tracking=True)
+    withdrawal_status = fields.Selection([
+        ('safe', 'Safe'),
+        ('warning', 'Restricting')
+    ], string="Safety Status", compute='_compute_withdrawal_status', store=True, precompute=True)
+    
+    withdrawal_remaining_days = fields.Integer("Safe Harvest Countdown", compute='_compute_withdrawal_remaining')
+    withdrawal_days_left = fields.Integer("Days Left", compute='_compute_withdrawal_days_left')
+    is_safe_to_harvest = fields.Boolean("Safe to Harvest", compute='_compute_is_safe_to_harvest')
+    state = fields.Selection([
+        ('healthy', 'Healthy'),
+        ('quarantine', 'Quarantine'),
+        ('disposed', 'Disposed')
+    ], string="Health State", compute='_compute_lot_state', store=True)
+
+    @api.depends('withdrawal_end_datetime')
+    def _compute_withdrawal_days_left(self):
+        now = fields.Datetime.now()
+        for lot in self:
+            if lot.withdrawal_end_datetime and lot.withdrawal_end_datetime > now:
+                delta = lot.withdrawal_end_datetime - now
+                lot.withdrawal_days_left = delta.days + 1
+            else:
+                lot.withdrawal_days_left = 0
+
+    @api.depends('withdrawal_end_datetime')
+    def _compute_is_safe_to_harvest(self):
+        now = fields.Datetime.now()
+        for lot in self:
+            lot.is_safe_to_harvest = not lot.withdrawal_end_datetime or lot.withdrawal_end_datetime <= now
+
+    @api.depends('is_quarantined')
+    def _compute_lot_state(self):
+        for lot in self:
+            if lot.is_quarantined:
+                lot.state = 'quarantine'
+            else:
+                lot.state = 'healthy'
+
+    @api.depends('withdrawal_end_datetime')
+    def _compute_withdrawal_status(self):
+        now = fields.Datetime.now()
+        for lot in self:
+            if not lot.withdrawal_end_datetime or lot.withdrawal_end_datetime <= now:
+                lot.withdrawal_status = 'safe'
+            else:
+                lot.withdrawal_status = 'warning'
+
+    @api.depends('withdrawal_end_datetime')
+    def _compute_withdrawal_remaining(self):
+        now = fields.Datetime.now()
+        for lot in self:
+            if lot.withdrawal_end_datetime and lot.withdrawal_end_datetime > now:
+                delta = lot.withdrawal_end_datetime - now
+                lot.withdrawal_remaining_days = delta.days + 1
+            else:
+                lot.withdrawal_remaining_days = 0
+
+    def action_quarantine(self, reason, is_epidemic=False):
+        """ Isolate the asset and auto-generate a buffer geofence [US-053-05] """
+        self.write({
+            'is_quarantined': True,
+            'quarantine_reason': reason,
+            'quarantine_start_date': fields.Date.today()
+        })
+        self.message_post(body=_("BIO-SAFETY ALERT: Asset put into quarantine. Reason: %s") % reason)
+        
+        # If it is an epidemic, auto-generate an electronic fence around the parcel [US-053-05]
+        if is_epidemic:
+            # Get the current parcel coordinates of the asset
+            location = self.env['stock.quant'].search([('lot_id', '=', self.id)], limit=1).location_id
+            if location and location.gps_coordinates:
+                self.env['agri.geospatial.geofence'].create({
+                    'name': _("EPIDEMIC BUFFER: %s") % self.name,
+                    'fence_type': 'no_fly',
+                    'target_category': 'drone',
+                    'coordinates': location.gps_coordinates,
+                    'alarm_level': 'critical'
+                })
+
+    def action_release_quarantine(self):
+        self.write({'is_quarantined': False})
+        self.message_post(body=_("BIO-SAFETY: Asset released from quarantine."))
+        # Auto-deactivate the linked epidemic fence
+        fence = self.env['agri.geospatial.geofence'].search([('name', '=', _("EPIDEMIC BUFFER: %s") % self.name)], limit=1)
+        if fence:
+            fence.write({'active': False})
+
+class StockPickingQuarantine(models.Model):
+    _inherit = 'stock.picking'
+
+    def button_validate(self):
+        """ Quarantine blocking and withdrawal-period enforcement logic [US-031-02, US-031-03] """
+        for picking in self:
+            for move in picking.move_ids:
+                for lot in move.lot_ids:
+                    # 1. 1. Quarantine check
+                    if lot.is_quarantined:
+                        from odoo.exceptions import UserError
+                        raise UserError(_("BIO-SAFETY BLOCK: Lot %s is in QUARANTINE. Movement forbidden!") % lot.name)
+                    
+                    # 2. 2. Withdrawal-period check
+                    if picking.picking_type_code in ('outgoing', 'mrp_operation') and lot.withdrawal_status == 'warning':
+                        from odoo.exceptions import UserError
+                        raise UserError(_("SAFETY BLOCK: Lot %s is within WITHDRAWAL PERIOD (Ends on %s). Cannot harvest or sell!") % (lot.name, lot.withdrawal_end_datetime))
+        
+        return super().button_validate()

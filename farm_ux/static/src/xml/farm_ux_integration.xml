@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="FarmUXIntegration">
+        <div class="o_farm_ux_container">
+            <!-- Floating help & collaboration hub button -->
+            <div class="o_farm_help_toggle btn btn-success rounded-circle shadow-lg" 
+                 t-on-click="toggleHelpPanel"
+                 title="Farm Hub: Help &amp; Social"
+                 style="position: fixed; bottom: 20px; right: 20px; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; z-index: 1050; cursor: pointer; border: 3px solid white;">
+                <i class="fa fa-leaf fa-2x"/>
+                <span t-if="state.unreadMessages > 0" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    <t t-esc="state.unreadMessages"/>
+                </span>
+            </div>
+
+            <!-- Side hub panel -->
+            <div t-if="state.showHelpPanel" 
+                 class="o_farm_hub_panel bg-white shadow-lg border-start"
+                 style="position: fixed; top: 0; right: 0; width: 380px; height: 100vh; z-index: 1060; overflow-y: auto; display: flex; flex-direction: column;">
+                
+                <!-- Header -->
+                <div class="p-3 border-bottom d-flex justify-content-between align-items-center bg-light">
+                    <h5 class="mb-0 text-success"><i class="fa fa-map me-2"/>Farm Hub</h5>
+                    <button class="btn-close" t-on-click="toggleHelpPanel"></button>
+                </div>
+
+                <!-- Content area -->
+                <div class="flex-grow-1 p-3">
+                    <!-- Tab switch (help vs social) -->
+                    <ul class="nav nav-pills nav-fill mb-3">
+                        <li class="nav-item">
+                            <a class="nav-link active small" href="#" t-on-click="() => this.state.activeTab = 'knowledge'">Knowledge</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small" href="#" t-on-click="() => this.state.activeTab = 'weather'">Weather</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small" href="#" t-on-click="() => this.state.activeTab = 'social'">Social</a>
+                        </li>
+                    </ul>
+
+                    <!-- 1. Contextual help area -->
+                    <div t-if="state.activeTab === 'knowledge'" class="mb-4">
+                        <h6 class="text-uppercase fw-bold small text-muted mb-3">Contextual Guidance</h6>
+                        <div t-if="state.contextualHelp.length === 0" class="text-center py-4 bg-light rounded">
+                            <small class="text-muted">No specific tips for this view.</small>
+                        </div>
+                        <t t-else="" t-foreach="state.contextualHelp" t-as="help" t-key="help.id">
+                            <div class="alert alert-success border-0 shadow-sm mb-3">
+                                <h6 class="alert-heading fw-bold"><t t-esc="help.name"/></h6>
+                                <div class="small mb-2"><t t-out="help.content"/></div>
+                                <a t-if="help.video_url" t-att-href="help.video_url" target="_blank" class="btn btn-xs btn-link p-0 text-decoration-none">
+                                    <i class="fa fa-play-circle"/> Watch Video
+                                </a>
+                            </div>
+                        </t>
+                    </div>
+
+                    <!-- 2. Weather forecast area -->
+                    <div t-if="state.activeTab === 'weather'" class="mb-4">
+                        <h6 class="text-uppercase fw-bold small text-muted mb-3">Weather Context</h6>
+                        <div t-if="!state.weatherData" class="text-center py-4 bg-light rounded">
+                            <small class="text-muted">No weather data for this location.</small>
+                        </div>
+                        <div t-else="" class="card border-0 shadow-sm bg-info text-white mb-3">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h3 class="mb-0"><t t-esc="Math.round(state.weatherData.temp_max)"/>°C</h3>
+                                        <div class="small"><t t-esc="state.weatherData.condition"/></div>
+                                    </div>
+                                    <div class="display-4">
+                                        <i t-att-class="'fa ' + (state.weatherData.icon || 'fa-sun-o')"/>
+                                    </div>
+                                </div>
+                                <hr class="my-2 border-white opacity-25"/>
+                                <div class="row text-center small">
+                                    <div class="col">
+                                        <i class="fa fa-tint me-1"/><t t-esc="state.weatherData.humidity"/>%
+                                    </div>
+                                    <div class="col">
+                                        <i class="fa fa-flag me-1"/><t t-esc="state.weatherData.wind_speed"/>m/s
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div t-if="state.weatherData &amp;&amp; state.weatherData.is_warning" class="alert alert-danger border-0 shadow-sm">
+                            <h6 class="alert-heading fw-bold"><i class="fa fa-warning me-2"/>Warning: <t t-esc="state.weatherData.warning_type"/></h6>
+                            <div class="small">Operation risks detected. Check safety protocols.</div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Farm social feed (mockup) -->
+                    <div t-if="state.activeTab === 'social'" class="mb-4">
+                        <h6 class="text-uppercase fw-bold small text-muted mb-3">Farm Social</h6>
+                        <div class="list-group list-group-flush small">
+                            <div class="list-group-item px-0">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <strong class="mb-1">Co-op Alert</strong>
+                                    <small>3m ago</small>
+                                </div>
+                                <p class="mb-1 text-muted">Shared harvest equipment available in Zone B.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer: user preference status -->
+                <div class="p-3 bg-light border-top">
+                    <button class="btn btn-outline-success w-100 mb-2" t-on-click="startVoiceControl">
+                        <i class="fa fa-microphone me-2"/>Voice Command
+                    </button>
+                    <div class="d-flex justify-content-between align-items-center small">
+                        <span class="text-muted">UX Mode: <t t-esc="state.workspaceCustomization.theme"/></span>
+                        <span class="text-success"><i class="fa fa-check-circle me-1"/>Accessibility Active</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>

@@ -1,0 +1,31 @@
+{
+    'name': 'Farm Supply Quality & Pricing',
+    'version': '18.0.1.0.0',
+    'category': 'Industries/Agriculture',
+    'summary': 'Quality-based Pricing for Agricultural Procurement',
+    'description': """
+        Supply Quality module for Odoo 18 Farm Management System.
+        - Quality-based Procurement Pricing [US-009-11]
+        - Acquisition Pricing with Multiple Quality Metrics [US-009-19]
+        - Quality grading and adjustment algorithms
+    """,
+    'author': 'genin IT, jeffery <jeffery9@gmail.com>',
+    'website': 'http://www.geninit.cn',
+    'depends': [
+        'base',
+        'mail',
+        'farm_core',
+        'sale',
+        'farm_supply',
+        'farm_supply_procurement',
+        'purchase',
+    ],
+    'data': [
+        'views/menu.xml',
+        'security/ir.model.access.csv',
+    ],
+    'images': ['static/description/main_screenshot.png'],
+    'installable': True,
+    'application': False,
+    'license': 'AGPL-3',
+}

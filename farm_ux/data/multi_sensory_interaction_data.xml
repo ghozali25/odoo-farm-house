@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="msi_voice_input_intervention" model="multi.sensory.interaction">
+        <field name="name">Voice Input for Agricultural Interventions</field>
+        <field name="interaction_type">voice_input</field>
+        <field name="model_name">mrp.production</field>
+        <field name="is_enabled">True</field>
+        <field name="voice_commands">{
+            "id": {
+                "mulai kerja": "action_start_work",
+                "berhenti kerja": "action_stop_work",
+                "catat input": "open_raw_materials",
+                "tambah pekerja": "add_worker",
+                "catat hasil": "record_output"
+            },
+            "en": {
+                "start work": "action_start_work",
+                "stop work": "action_stop_work",
+                "record inputs": "open_raw_materials",
+                "add worker": "add_worker",
+                "record output": "record_output"
+            }
+        }</field>
+        <field name="haptic_feedback">True</field>
+        <field name="audio_notification">True</field>
+        <field name="description">Provides voice input for the agricultural intervention form, for hands-free use during field work</field>
+    </record>
+
+    
+    <record id="msi_haptic_feedback_critical_ops" model="multi.sensory.interaction">
+        <field name="name">Haptic Feedback for Critical Operations</field>
+        <field name="interaction_type">haptic_feedback</field>
+        <field name="model_name">mrp.production</field>
+        <field name="is_enabled">True</field>
+        <field name="haptic_feedback">True</field>
+        <field name="field_name">state</field>
+        <field name="gesture_mappings">{
+            "pattern": [100, 50, 100],
+            "intensity": 0.8
+        }</field>
+        <field name="audio_notification">True</field>
+        <field name="description">Provides haptic feedback confirmation for critical operations (such as finishing work or quality checks)</field>
+    </record>
+
+    
+    <record id="msi_visual_enhancement_large_font" model="multi.sensory.interaction">
+        <field name="name">Visual Enhancement - Large Font Mode</field>
+        <field name="interaction_type">visual_enhancement</field>
+        <field name="is_enabled">True</field>
+        <field name="large_font_support">True</field>
+        <field name="high_contrast_mode">True</field>
+        <field name="screen_reader_compatible">True</field>
+        <field name="keyboard_shortcuts">{
+            "Ctrl+L": "toggle_large_font",
+            "Ctrl+H": "toggle_high_contrast",
+            "F7": "screen_reader_mode"
+        }</field>
+        <field name="description">Provides large-font mode and high-contrast display for users with poor vision</field>
+    </record>
+
+    
+    <record id="msi_large_touch_targets_mobile" model="multi.sensory.interaction">
+        <field name="name">Large Touch Targets for Mobile</field>
+        <field name="interaction_type">large_touch_target</field>
+        <field name="model_name">farm.checkin</field>
+        <field name="is_enabled">True</field>
+        <field name="haptic_feedback">True</field>
+        <field name="visual_enhancement">True</field>
+        <field name="description">Provides large touch targets on mobile, for use while wearing gloves</field>
+    </record>
+
+    
+    <record id="msi_voice_checkin" model="multi.sensory.interaction">
+        <field name="name">Voice Input for Check-in</field>
+        <field name="interaction_type">voice_input</field>
+        <field name="model_name">farm.checkin</field>
+        <field name="is_enabled">True</field>
+        <field name="voice_commands">{
+            "id": {
+                "check-in lapangan": "action_mobile_check_in",
+                "check-out": "action_mobile_check_out",
+                "foto bukti": "capture_evidence",
+                "laporkan masalah": "report_issue"
+            },
+            "en": {
+                "check in": "action_mobile_check_in",
+                "check out": "action_mobile_check_out",
+                "take photo": "capture_evidence",
+                "report issue": "report_issue"
+            }
+        }</field>
+        <field name="haptic_feedback">True</field>
+        <field name="audio_notification">True</field>
+        <field name="description">Provides voice input for on-site check-in</field>
+    </record>
+
+    
+    <record id="msi_voice_quality_check" model="multi.sensory.interaction">
+        <field name="name">Voice Input for Quality Checks</field>
+        <field name="interaction_type">voice_input</field>
+        <field name="model_name">farm.quality.check</field>
+        <field name="is_enabled">True</field>
+        <field name="voice_commands">{
+            "id": {
+                "kualitas lolos": "action_pass",
+                "kualitas gagal": "action_fail",
+                "catat pengukuran": "input_measure",
+                "mulai pemeriksaan": "action_open_quality_alert"
+            },
+            "en": {
+                "quality pass": "action_pass",
+                "quality fail": "action_fail",
+                "input measurement": "input_measure",
+                "start check": "action_open_quality_alert"
+            }
+        }</field>
+        <field name="haptic_feedback">True</field>
+        <field name="audio_notification">True</field>
+        <field name="description">Provides voice input for quality checks</field>
+    </record>
+</data>
+</odoo>

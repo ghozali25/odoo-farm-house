@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<template id="report_manure_ledger">
+        <!-- NOTE (fix B29, 10 Nov 2026): wrapper template (pola standar
+             Odoo). Engine report hanya menyediakan ``docs``; template
+             dokumen memakai ``doc.*`` di top-level, jadi bila
+             report_name menunjuk LANGSUNG ke dokumen, render selalu
+             crash ``KeyError: 'doc'``. Pembungkus ini melakukan
+             foreach atas ``docs`` lalu t-call ke dokumen per record. -->
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <t t-call="farm_waste_mgmt.report_manure_ledger_document" />
+            </t>
+        </t>
+    </template>
+<template id="report_manure_ledger_document">
+        <t t-call="web.external_layout">
+            <!-- NOTE (port 19.0 -> 18.0): upstream set
+                 doc.with_context(lang=doc.lang), but agri.manure.ledger
+                 has no ``lang`` field — rendering the report raised
+                 AttributeError. The t-set was dropped; the layout uses
+                 the ambient language. -->
+            <div class="page">
+                <div class="text-center">
+                    <h2>Livestock and Poultry Manure Utilization Monthly Ledger</h2>
+                </div>
+
+                <table class="table table-sm table-bordered mt32">
+                    <tr>
+                        <td><strong>Ledger No.:</strong></td>
+                        <td><span t-field="doc.ledger_no" /></td>
+                        <td><strong>Year:</strong></td>
+                        <td><span t-field="doc.year" /></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Month:</strong></td>
+                        <td><span t-field="doc.month" /></td>
+                        <td><strong>Total Disposed Qty (kg):</strong></td>
+                        <td><span t-field="doc.total_quantity_disposed" /></td>
+                    </tr>
+                </table>
+
+                <h3 class="mt32">Manure Batch Details:</h3>
+                <table class="table table-sm table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Batch No.</th>
+                            <th>Production Date</th>
+                            <th>Quantity (kg)</th>
+                            <th>Source</th>
+                            <th>Disposal Method</th>
+                            <th>Destination/Recipient</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="doc.batch_ids" t-as="batch">
+                            <tr>
+                                <td><span t-field="batch.batch_no" /></td>
+                                <td><span t-field="batch.production_date" /></td>
+                                <td><span t-field="batch.quantity" /></td>
+                                <td><span t-field="batch.lot_source_ids" /></td>
+                                <td><span t-field="batch.disposal_method" /></td>
+                                <td><t t-if="batch.disposal_method == 'direct_field_use'"><span t-field="batch.destination_location_id" /></t><t t-if="batch.disposal_method == 'transfer_third_party'"><span t-field="batch.recipient_partner_id" /></t></td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+                <div class="mt-5 text-right">
+                    <p><strong>Farm Owner (Signature/Stamp):</strong></p>
+                    <p>____________________</p>
+                    <p>(Date: <span t-esc="datetime.datetime.now().strftime('%Y-%m-%d')" />)</p>
+                </div>
+            </div>
+        </t>
+    </template>
+</data>
+</odoo>

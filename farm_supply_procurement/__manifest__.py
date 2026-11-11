@@ -1,0 +1,35 @@
+{
+    'name': 'Farm Supply Procurement',
+    'version': '18.0.1.0.0',
+    'category': 'Industries/Agriculture',
+    'summary': 'Agricultural Input Management and Procurement',
+    'description': """
+        Supply Procurement module for Odoo 19 Farm Management System.
+        - Agricultural Input Catalog (Seeds, Fertilizers, Pesticides, Feed)
+        - Purchase Order Integration with Safety Checks
+        - Input Usage Forecasting and Stock Alerts
+        - Joint Procurement for Cooperatives [US-009-15]
+        - VMI (Vendor Managed Inventory) Automation [US-009-14]
+    """,
+    'author': 'genin IT, jeffery <jeffery9@gmail.com>',
+    'website': 'http://www.geninit.cn',
+    'depends': [
+        'base',
+        'mail',
+        'farm_core',
+        'farm_supply',
+        'purchase',
+        'sale',
+        'sale',
+        'stock',
+    ],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/ir_sequence.xml',  # batch 6: sequences were missing upstream
+        'views/menu.xml',
+    ],
+    'images': ['static/description/main_screenshot.png'],
+    'installable': True,
+    'application': False,
+    'license': 'AGPL-3',
+}

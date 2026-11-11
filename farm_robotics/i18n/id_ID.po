@@ -1,0 +1,444 @@
+# Translation of farm_robotics to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_robotics 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_robotics
+msgid "Aborted/Emergency Stop"
+msgstr "Aborted/Emergency Stop"
+
+#. module: farm_robotics
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_robotics
+msgid "Active Working"
+msgstr "Active Working"
+
+#. module: farm_robotics
+msgid "Actual Path (GeoJSON)"
+msgstr "Actual Path (GeoJSON)"
+
+#. module: farm_robotics
+msgid "Agent Identifier"
+msgstr "Agent Identifier"
+
+#. module: farm_robotics
+msgid "Battery (%)"
+msgstr "Battery (%)"
+
+#. module: farm_robotics
+msgid "Battery level too low (%f%%) for safe external mission."
+msgstr "Battery level too low (%f%%) for safe external mission."
+
+#. module: farm_robotics
+msgid "Bypass Active"
+msgstr "Bypass Active"
+
+#. module: farm_robotics
+msgid "Canceled"
+msgstr "Canceled"
+
+#. module: farm_robotics
+msgid "Charging"
+msgstr "Charging"
+
+#. module: farm_robotics
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_robotics
+msgid "Coordinates Beta (distance in m)"
+msgstr "Coordinates Beta (distance in m)"
+
+#. module: farm_robotics
+msgid "Degraded"
+msgstr "Degraded"
+
+#. module: farm_robotics
+msgid "Done"
+msgstr "Selesai"
+
+#. module: farm_robotics
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_robotics
+msgid "Emergency Stop"
+msgstr "Emergency Stop"
+
+#. module: farm_robotics
+msgid "Energy scarcity surcharge applied due to medium battery level."
+msgstr "Energy scarcity surcharge applied due to medium battery level."
+
+#. module: farm_robotics
+msgid "Enter Planned Path GeoJSON..."
+msgstr "Enter Planned Path GeoJSON..."
+
+#. module: farm_robotics
+msgid "Evading Obstacle"
+msgstr "Evading Obstacle"
+
+#. module: farm_robotics
+msgid "Execution Efficiency"
+msgstr "Execution Efficiency"
+
+#. module: farm_robotics
+msgid "Expiration Date"
+msgstr "Expiration Date"
+
+#. module: farm_robotics
+msgid "Expired"
+msgstr "Expired"
+
+#. module: farm_robotics
+msgid "Fault/Offline"
+msgstr "Fault/Offline"
+
+#. module: farm_robotics
+msgid "GPS Coordinates / SOM Zone"
+msgstr "GPS Coordinates / SOM Zone"
+
+#. module: farm_robotics
+msgid "Harvesting Robot"
+msgstr "Harvesting Robot"
+
+#. module: farm_robotics
+msgid "Idle/Standby"
+msgstr "Idle/Standby"
+
+#. module: farm_robotics
+msgid "In Progress"
+msgstr "In Progress"
+
+#. module: farm_robotics
+msgid "Is Active"
+msgstr "Is Active"
+
+#. module: farm_robotics
+msgid "Is Clear"
+msgstr "Is Clear"
+
+#. module: farm_robotics
+msgid "Is Solenoid Closed"
+msgstr "Is Solenoid Closed"
+
+#. module: farm_robotics
+msgid "Is Swarm Leader"
+msgstr "Is Swarm Leader"
+
+#. module: farm_robotics
+msgid "LEA"
+msgstr "LEA"
+
+#. module: farm_robotics
+msgid "LEASE-%(year)s%(month)s%(day)s-"
+msgstr "LEASE-%(year)s%(month)s%(day)s-"
+
+#. module: farm_robotics
+msgid "MIS"
+msgstr "MIS"
+
+#. module: farm_robotics
+msgid "Mission Control"
+msgstr "Mission Control"
+
+#. module: farm_robotics
+msgid "Mission Failed"
+msgstr "Misi Gagal"
+
+#. module: farm_robotics
+msgid "Mission ID"
+msgstr "Mission ID"
+
+#. module: farm_robotics
+msgid "Navigating"
+msgstr "Navigating"
+
+#. module: farm_robotics
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_robotics
+msgid "Nozzle Flow Rate (%)"
+msgstr "Nozzle Flow Rate (%)"
+
+#. module: farm_robotics
+msgid "OBSTACLE_DETECTED_MISSION_PAUSED"
+msgstr "OBSTACLE_DETECTED_MISSION_PAUSED"
+
+#. module: farm_robotics
+msgid "Obstacle Distance (m)"
+msgstr "Obstacle Distance (m)"
+
+#. module: farm_robotics
+msgid "Obstacle Proximity (m)"
+msgstr "Obstacle Proximity (m)"
+
+#. module: farm_robotics
+msgid "Offline"
+msgstr "Offline"
+
+#. module: farm_robotics
+msgid "Online"
+msgstr "Online"
+
+#. module: farm_robotics
+msgid "Optimal"
+msgstr "Optimal"
+
+#. module: farm_robotics
+msgid "Path Data"
+msgstr "Path Data"
+
+#. module: farm_robotics
+msgid "Planned Path (GeoJSON)"
+msgstr "Planned Path (GeoJSON)"
+
+#. module: farm_robotics
+msgid "Progress (%)"
+msgstr "Progress (%)"
+
+#. module: farm_robotics
+msgid "Queued"
+msgstr "Queued"
+
+#. module: farm_robotics
+msgid "Ready"
+msgstr "Ready"
+
+#. module: farm_robotics
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: farm_robotics
+msgid "Released"
+msgstr "Released"
+
+#. module: farm_robotics
+msgid "Resource ID"
+msgstr "Resource ID"
+
+#. module: farm_robotics
+msgid "Resource Model"
+msgstr "Sumber Daya Model"
+
+#. module: farm_robotics
+msgid "Robot Fleet"
+msgstr "Robot Fleet"
+
+#. module: farm_robotics
+msgid "Robot Missions"
+msgstr "Robot Missions"
+
+#. module: farm_robotics
+msgid "Robotic Mission Completed. Physical trajectory data packaged as audit evidence."
+msgstr "Robotic Mission Completed. Physical trajectory data packaged as audit evidence."
+
+#. module: farm_robotics
+msgid "Robotics &amp; Automation"
+msgstr "Robotics &amp; Automation"
+
+#. module: farm_robotics
+msgid "Robotics Generic Resource Lease Lock Sequence"
+msgstr "Robotics Generic Resource Lease Lock Sequence"
+
+#. module: farm_robotics
+msgid "Robotics Lease Expiry Checker Scheduler"
+msgstr "Robotics Lease Expiry Checker Scheduler"
+
+#. module: farm_robotics
+msgid "Robots Registry"
+msgstr "Robots Registry"
+
+#. module: farm_robotics
+msgid "Safe Mode"
+msgstr "Safe Mode"
+
+#. module: farm_robotics
+msgid "Scheduled"
+msgstr "Scheduled"
+
+#. module: farm_robotics
+msgid "Scouting/Mapping Drone"
+msgstr "Scouting/Mapping Drone"
+
+#. module: farm_robotics
+msgid "Speed Alpha (mm/s)"
+msgstr "Speed Alpha (mm/s)"
+
+#. module: farm_robotics
+msgid "Spraying Robot"
+msgstr "Spraying Robot"
+
+#. module: farm_robotics
+msgid "Start Date"
+msgstr "Start Date"
+
+#. module: farm_robotics
+msgid "Start Mission"
+msgstr "Start Mission"
+
+#. module: farm_robotics
+msgid "Target Speed (mm/s)"
+msgstr "Target Speed (mm/s)"
+
+#. module: farm_robotics
+msgid "Weeding Robot"
+msgstr "Weeding Robot"
+
+#. module: farm_robotics
+msgid "Wind Limit (m/s)"
+msgstr "Wind Limit (m/s)"
+
+#. module: farm_robotics
+msgid "Wind Speed (m/s)"
+msgstr "Wind Speed (m/s)"
+
+#. module: farm_robotics
+msgid "Wind speed exceeds safety limits for swarm spray mission"
+msgstr "Wind speed exceeds safety limits for swarm spray mission"
+
+#. module: farm_robotics
+msgid "action_emergency_stop"
+msgstr "action_emergency_stop"
+
+#. module: farm_robotics
+msgid "action_start_mission"
+msgstr "action_start_mission"
+
+#. module: farm_robotics
+msgid "active"
+msgstr "active"
+
+#. module: farm_robotics
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_robotics
+msgid "battery_level"
+msgstr "battery_level"
+
+#. module: farm_robotics
+msgid "code"
+msgstr "code"
+
+#. module: farm_robotics
+msgid "company_id"
+msgstr "company_id"
+
+#. module: farm_robotics
+msgid "current_mission_id"
+msgstr "current_mission_id"
+
+#. module: farm_robotics
+msgid "device_id"
+msgstr "device_id"
+
+#. module: farm_robotics
+msgid "iiot.device"
+msgstr "iiot.device"
+
+#. module: farm_robotics
+msgid "interval_number"
+msgstr "interval_number"
+
+#. module: farm_robotics
+msgid "interval_type"
+msgstr "interval_type"
+
+#. module: farm_robotics
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_robotics
+msgid "list,form,kanban"
+msgstr "list,form,kanban"
+
+#. module: farm_robotics
+msgid "location_id"
+msgstr "location_id"
+
+#. module: farm_robotics
+msgid "minutes"
+msgstr "minutes"
+
+#. module: farm_robotics
+msgid "model"
+msgstr "model"
+
+#. module: farm_robotics
+msgid "model._cron_check_expired_leases()"
+msgstr "model._cron_check_expired_leases()"
+
+#. module: farm_robotics
+msgid "name"
+msgstr "name"
+
+#. module: farm_robotics
+msgid "padding"
+msgstr "padding"
+
+#. module: farm_robotics
+msgid "path"
+msgstr "path"
+
+#. module: farm_robotics
+msgid "planned_path_geojson"
+msgstr "planned_path_geojson"
+
+#. module: farm_robotics
+msgid "prefix"
+msgstr "prefix"
+
+#. module: farm_robotics
+msgid "progress"
+msgstr "progress"
+
+#. module: farm_robotics
+msgid "project.task"
+msgstr "project.task"
+
+#. module: farm_robotics
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_robotics
+msgid "robot_id"
+msgstr "robot_id"
+
+#. module: farm_robotics
+msgid "robot_status"
+msgstr "robot_status"
+
+#. module: farm_robotics
+msgid "robot_type"
+msgstr "robot_type"
+
+#. module: farm_robotics
+msgid "state"
+msgstr "state"
+
+#. module: farm_robotics
+msgid "task_id"
+msgstr "task_id"
+
+#. module: farm_robotics
+msgid "user_id"
+msgstr "user_id"
+
+#. module: farm_robotics
+msgid "view_mode"
+msgstr "view_mode"

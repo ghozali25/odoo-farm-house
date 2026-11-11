@@ -1,0 +1,35 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_protected_cultivation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-05-04 09:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_protected_cultivation
+#. odoo-python
+#: code:addons/farm_protected_cultivation/models/protected_cultivation_operation.py:0
+msgid "Please link at least one automation rule before starting!"
+msgstr "开始之前请至少链接一条自动化规则！"
+
+#. module: farm_protected_cultivation
+#. odoo-python
+#: code:addons/farm_protected_cultivation/models/protected_cultivation_operation.py:0
+msgid "SYSTEM: Environmental automation started for this greenhouse batch."
+msgstr "系统：该温室批次开始环境自动化。"
+
+#. module: farm_protected_cultivation
+#. odoo-python
+#: code:addons/farm_protected_cultivation/models/protected_cultivation_operation.py:0
+msgid "SYSTEM: Environmental automation stopped."
+msgstr "系统：环境自动化停止。"

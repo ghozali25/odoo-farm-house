@@ -1,0 +1,36 @@
+# Translation of farm_viticulture (farm_viticulture) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_viticulture 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_viticulture
+msgid "Base Lot"
+msgstr "Lot Dasar"
+
+#. module: farm_viticulture
+msgid "Base Order"
+msgstr "Pesanan Dasar"
+
+#. module: farm_viticulture
+msgid "Specialized management for vineyards, wine grape production, and terroir tracking."
+msgstr "Specialized management for vineyards, wine grape production, and terroir tracking."
+
+#. module: farm_viticulture
+msgid "Trellis System"
+msgstr "Trellis System"
+
+#. module: farm_viticulture
+msgid "Viticulture & Vineyard Management"
+msgstr "Viticulture & Vineyard Management"

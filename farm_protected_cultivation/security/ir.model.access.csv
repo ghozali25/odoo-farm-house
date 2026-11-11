@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_environmental_log,farm.environmental.log,model_farm_environmental_log,base.group_user,1,1,1,1
+access_farm_protected_cultivation_operation,farm.protected.cultivation.operation,model_farm_protected_cultivation_operation,base.group_user,1,1,1,1

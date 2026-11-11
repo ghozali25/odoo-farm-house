@@ -1,0 +1,21 @@
+{
+    'name': 'Farm POS Integration',
+    'version': '18.0.1.0.0',
+    'category': 'Industries/Agriculture',
+    'summary': 'Link Picking Activities to POS Sales',
+    'description': """
+        POS module for Odoo 18 Farm Management System.
+        - Associate POS orders with specific picking plots [US-002-02]
+        - Automated stock deduction from land parcels
+        - Traceability from Receipt to Field
+    """,
+    'author': 'Jeffery',
+    'depends': ['farm_core', 'point_of_sale'],
+    'data': [
+        'security/ir.model.access.csv',
+        ],
+    'images': ['static/description/main_screenshot.png'],
+    'installable': True,
+    'application': False,
+    'license': 'AGPL-3',
+}

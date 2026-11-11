@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_farm_orchard_cycle,farm.orchard.cycle,model_farm_orchard_cycle,base.group_user,1,1,1,1
+access_farm_orchard_operation,farm.orchard.operation,model_farm_orchard_operation,base.group_user,1,1,1,1

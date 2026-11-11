@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="visual_indicator_withdrawal_period" model="visual.status.indicator">
+        <field name="name">Withdrawal Period Status</field>
+        <field name="model_name">stock.lot</field>
+        <field name="field_name">withdrawal_end_datetime</field>
+        <field name="evaluation_logic">lambda record: 'red' if record.withdrawal_status == 'warning' and record.withdrawal_remaining_days &lt;= 3 else 'orange' if record.withdrawal_status == 'warning' else 'green'</field>
+        <field name="icon">fa-hourglass-half</field>
+        <field name="description">Withdrawal period status indicator: red means expiring soon, orange means in withdrawal, green means safe</field>
+        <field name="is_active">True</field>
+        <field name="display_on_mobile">True</field>
+    </record>
+
+    <record id="visual_indicator_gdd_progress" model="visual.status.indicator">
+        <field name="name">GDD Progress Status</field>
+        <field name="model_name">farm.agricultural.campaign</field>
+        <field name="field_name">accumulated_gdd</field>
+        <field name="evaluation_logic">lambda record: 'red' if record.accumulated_gdd and record.target_gdd and record.accumulated_gdd / record.target_gdd * 100 &gt;=gt;= 95 else 'green' if record.accumulated_gdd and record.target_gdd and record.accumulated_gdd / record.target_gdd * 100 &gt;=gt;= 50 else 'orange'</field>
+        <field name="icon">fa-thermometer-half</field>
+        <field name="description">GDD progress indicator: red means close to target, green means good progress, orange means slow progress</field>
+        <field name="is_active">True</field>
+        <field name="display_on_mobile">True</field>
+    </record>
+
+    <record id="visual_indicator_harvest_grade" model="visual.status.indicator">
+        <field name="name">Harvest Grade Status</field>
+        <field name="model_name">mrp.production</field>
+        <field name="field_name">grade_a_qty</field>
+        <field name="evaluation_logic">lambda record: 'green' if record.grade_a_qty and record.grade_a_qty / (record.grade_a_qty + record.grade_b_qty + record.grade_c_qty or 1) &gt;=gt;= 0.7 else 'orange' if record.grade_a_qty and record.grade_a_qty / (record.grade_a_qty + record.grade_b_qty + record.grade_c_qty or 1) &gt;=gt;= 0.4 else 'red'</field>
+        <field name="icon">fa-star</field>
+        <field name="description">Harvest grade indicator: shows quality status based on the share of grade-A output</field>
+        <field name="is_active">True</field>
+        <field name="display_on_mobile">True</field>
+    </record>
+
+    <record id="visual_indicator_adg_trend" model="visual.status.indicator">
+        <field name="name">ADG Trend Status</field>
+        <field name="model_name">stock.lot</field>
+        <field name="field_name">average_daily_gain</field>
+        <field name="evaluation_logic">lambda record: 'green' if record.average_daily_gain and record.average_daily_gain &gt; 1.0 else 'orange' if record.average_daily_gain and record.average_daily_gain &gt; 0.5 else 'red'</field>
+        <field name="icon">fa-line-chart</field>
+        <field name="description">Average daily gain trend indicator: shows livestock health based on average daily gain</field>
+        <field name="is_active">True</field>
+        <field name="display_on_mobile">True</field>
+    </record>
+
+    <record id="visual_indicator_maturity" model="visual.status.indicator">
+        <field name="name">Biological Asset Maturity Status</field>
+        <field name="model_name">stock.lot</field>
+        <field name="field_name">is_mature</field>
+        <field name="evaluation_logic">lambda record: 'green' if record.is_mature else 'orange'</field>
+        <field name="icon">fa-leaf</field>
+        <field name="description">Biological asset maturity indicator: green means mature, orange means growing</field>
+        <field name="is_active">True</field>
+        <field name="display_on_mobile">True</field>
+    </record>
+
+    <record id="visual_indicator_spatial_compliance" model="visual.status.indicator">
+        <field name="name">Spatial Compliance Status</field>
+        <field name="model_name">mrp.production</field>
+        <field name="field_name">spatial_compliance_rate</field>
+        <field name="evaluation_logic">lambda record: 'green' if record.spatial_compliance_rate &gt;=gt;= 95.0 else 'orange' if record.spatial_compliance_rate &gt;=gt;= 80.0 else 'red'</field>
+        <field name="icon">fa-map-marker</field>
+        <field name="description">Spatial compliance indicator: shows how well operations comply with parcel boundaries</field>
+        <field name="is_active">True</field>
+        <field name="display_on_mobile">True</field>
+    </record>
+
+    <record id="visual_indicator_loss_rate" model="visual.status.indicator">
+        <field name="name">Processing Loss Rate Status</field>
+        <field name="model_name">mrp.production</field>
+        <field name="field_name">loss_rate</field>
+        <field name="evaluation_logic">lambda record: 'red' if record.loss_rate and record.bom_id and record.loss_rate &gt; record.bom_id.max_loss_rate else 'green' if record.loss_rate and record.loss_rate &lt;= record.bom_id.max_loss_rate * 0.8 else 'orange'</field>
+        <field name="icon">fa-balance-scale</field>
+        <field name="description">Processing loss rate indicator: red means over the limit, green means good, orange means near the threshold</field>
+        <field name="is_active">True</field>
+        <field name="display_on_mobile">True</field>
+    </record>
+
+    <record id="visual_indicator_quality_status" model="visual.status.indicator">
+        <field name="name">Quality Status Indicator</field>
+        <field name="model_name">stock.lot</field>
+        <field name="field_name">quality_status</field>
+        <field name="evaluation_logic">lambda record: 'red' if record.quality_status == 'failed' else 'green' if record.quality_status == 'passed' else 'orange'</field>
+        <field name="icon">fa-check-circle</field>
+        <field name="description">Quality status indicator: red means failed, green means passed, orange means not tested</field>
+        <field name="is_active">True</field>
+        <field name="display_on_mobile">True</field>
+    </record>
+</data>
+</odoo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="action_report_manure_ledger" model="ir.actions.report">
+        <field name="name">Manure Ledger</field>
+        <field name="model">agri.manure.ledger</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">farm_waste_mgmt.report_manure_ledger</field>
+        <field name="report_file">farm_waste_mgmt.report_manure_ledger</field>
+        <!-- NOTE (port 19.0 -> 18.0): upstream bound the report to the
+             deprecated alias model farm.manure.ledger, so the Print
+             button never appeared on the real ledger form
+             (agri.manure.ledger, used by all views/actions). Bound to
+             the real model instead. -->
+        <field name="binding_model_id" ref="model_agri_manure_ledger" />
+        <field name="binding_type">report</field>
+    </record>
+</data>
+</odoo>

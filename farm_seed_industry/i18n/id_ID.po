@@ -1,0 +1,177 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * farm_seed_industry
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 12:00+0000\n"
+"PO-Revision-Date: 2026-11-09 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (Indonesia)\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_seed_industry
+#: model:ir.ui.menu,name:farm_seed_industry.menu_farm_seed_root
+msgid "Seed & R&D"
+msgstr "Benih & R&D"
+
+#. module: farm_seed_industry
+#: model:ir.ui.menu,name:farm_seed_industry.menu_farm_seed_batches
+msgid "Seed Batches"
+msgstr "Batch Benih"
+
+#. module: farm_seed_industry
+#: model:ir.ui.menu,name:farm_seed_industry.menu_farm_seed_production
+msgid "Propagation Orders"
+msgstr "Order Perbanyakan"
+
+#. module: farm_seed_industry
+#: model:farm.seed.recipe,film_forming_ratio:0
+msgid "Film-forming Ratio (%)"
+msgstr "Rasio Pembentuk Lapisan (%)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.recipe,target_moisture_content:0
+msgid "Target Moisture (%)"
+msgstr "Kadar Air Target (%)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,parent_p1_hash:0
+msgid "P1 (Sire) Hash"
+msgstr "Hash P1 (Jantan)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,parent_p2_hash:0
+msgid "P2 (Dam) Hash"
+msgstr "Hash P2 (Betina)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,germination_rate:0
+msgid "Germination Rate (%)"
+msgstr "Daya Kecambah (%)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,purity_rate:0
+msgid "Purity Rate (%)"
+msgstr "Tingkat Kemurnian (%)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,clarity_rate:0
+msgid "Clarity Rate (%)"
+msgstr "Tingkat Kejernihan (%)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,moisture_content:0
+msgid "Moisture Content (%)"
+msgstr "Kadar Air (%)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,thousand_seed_weight:0
+msgid "Thousand Seed Weight (g)"
+msgstr "Bobot 1000 Benih (g)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,pvp_certificate_id:0
+msgid "PVP Certificate No."
+msgstr "No. Sertifikat PVP"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,is_pvp_compliant:0
+msgid "PVP Status OK"
+msgstr "Status PVP OK"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,action_verify_seed_quality:0
+msgid "Verify Quality"
+msgstr "Verifikasi Mutu"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,view_farm_seed_batch_form:0
+msgid "Seed Batch Details"
+msgstr "Detail Batch Benih"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,view_farm_seed_batch_form:0
+msgid "Four-Testing Metrics"
+msgstr "Metrik Empat Pengujian"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,view_farm_seed_batch_form:0
+msgid "Lineage & Compliance"
+msgstr "Silsilah & Kepatuhan"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,parent_p1_hash:0
+msgid "P1 (Sire) DNA"
+msgstr "DNA P1 (Jantan)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,parent_p2_hash:0
+msgid "P2 (Dam) DNA"
+msgstr "DNA P2 (Betina)"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,view_farm_seed_batch_form:0
+msgid "Traceability Fingerprint"
+msgstr "Sidik Ketertelusuran"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,view_farm_seed_batch_form:0
+msgid "PVP Compliant"
+msgstr "Sesuai PVP"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,view_farm_seed_batch_form:0
+msgid "PVP Expired"
+msgstr "PVP Kedaluwarsa"
+
+#. module: farm_seed_industry
+#: model:farm.seed.batch,view_farm_seed_batch_form:0
+msgid "Batch ID"
+msgstr "ID Batch"
+
+#. module: farm_seed_industry
+#: model:farm.seed.production,view_farm_seed_production_form:0
+msgid "Seed propagation Order"
+msgstr "Order Perbanyakan Benih"
+
+#. module: farm_seed_industry
+#: model:farm.seed.production,view_farm_seed_production_form:0
+msgid "Target Variety"
+msgstr "Varietas Target"
+
+#. module: farm_seed_industry
+#: model:farm.seed.production,product_id:0
+msgid "Target Seed"
+msgstr "Benih Target"
+
+#. module: farm_seed_industry
+#: model:farm.seed.production,bom_id:0
+msgid "Variety Recipe"
+msgstr "Resep Varietas"
+
+#. module: farm_seed_industry
+#: model:farm.seed.production,product_qty:0
+msgid "Expected Quantity"
+msgstr "Kuantitas yang Diharapkan"
+
+#. module: farm_seed_industry
+#: model:farm.seed.production,view_farm_seed_production_form:0
+msgid "Nursery Context"
+msgstr "Konteks Pembibitan"
+
+#. module: farm_seed_industry
+#: model:ir.actions.act_window,name:farm_seed_industry.action_farm_seed_batch
+msgid "Seed Batches"
+msgstr "Batch Benih"
+
+#. module: farm_seed_industry
+#: model:ir.actions.act_window,name:farm_seed_industry.action_farm_seed_production
+msgid "Propagation Orders"
+msgstr "Order Perbanyakan"

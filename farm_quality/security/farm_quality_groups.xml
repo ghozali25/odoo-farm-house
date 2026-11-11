@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Quality Manager group (18.0 port): referenced by the QC Release
+         button in views/stock_lot_views.xml; the group did not exist in
+         the 19.0 source, which would fail install with
+         "External ID not found: farm_quality.group_farm_quality_manager". -->
+    <record id="group_farm_quality_manager" model="res.groups">
+        <field name="name">Farm Quality Manager</field>
+        <field name="category_id" ref="farm_core.module_category_farm_management"/>
+        <field name="implied_ids" eval="[(4, ref('farm_core.group_farm_specialist'))]"/>
+    </record>
+</odoo>

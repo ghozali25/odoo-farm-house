@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="TermMappingHandler">
+        <!-- This is an OWL component that needs no real DOM element; it mainly runs in the background. -->
+        <t t-if="state.loaded">
+            <div class="term-mapping-handler-root" style="display: none;">
+                <!-- Component status indicator -->
+                <span t-esc="state.loaded ? 'Term Mapping Handler Loaded' : 'Loading...'"/>
+            </div>
+        </t>
+    </t>
+</templates>

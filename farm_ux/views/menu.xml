@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- ========================================== -->
+        <!-- Agri-OS: native Odoo main-app menu takeover, deeply woven in -->
+        <!-- ========================================== -->
+
+        <!-- 03. Matter & Stock (sequence 15) -->
+        <record id="stock.menu_stock_root" model="ir.ui.menu">
+            <field name="name">Matter &amp; Stock</field>
+            <field name="sequence">15</field>
+        </record>
+
+        <!-- 06. Processing & Fermentation (sequence 30) -->
+        <record id="mrp.menu_mrp_root" model="ir.ui.menu">
+            <field name="name">Processing &amp; Fermentation</field>
+            <field name="sequence">30</field>
+        </record>
+
+        <!-- 10. Clearing & PO (sequence 50) -->
+        <record id="purchase.menu_purchase_root" model="ir.ui.menu">
+            <field name="name">Clearing &amp; PO</field>
+            <field name="sequence">50</field>
+        </record>
+
+        <!-- 11. Sales Contracts (sequence 55) -->
+        <record id="sale.sale_menu_root" model="ir.ui.menu">
+            <field name="name">Sales Contracts</field>
+            <field name="sequence">55</field>
+        </record>
+
+        <!-- 12. Accounting & Valuation (sequence 60) -->
+        <record id="account.menu_finance" model="ir.ui.menu">
+            <field name="name">Accounting &amp; Val</field>
+            <field name="sequence">60</field>
+        </record>
+
+        <!-- 13. Discuss & AI Advisor (sequence 65) -->
+        <record id="mail.menu_root_discuss" model="ir.ui.menu">
+            <field name="name">Discuss &amp; AI Advisor</field>
+            <field name="sequence">65</field>
+        </record>
+
+        <!-- 18. Console & Setup (sequence 900) -->
+        <record id="base.menu_administration" model="ir.ui.menu">
+            <field name="name">Console &amp; Setup</field>
+            <field name="sequence">900</field>
+        </record>
+
+        <!-- ========================================== -->
+        <!-- Elder-friendly accessibility menu: large-button interactions -->
+        <!-- ========================================== -->
+        <menuitem id="menu_ux_root" 
+                  name="Farm UX" 
+                  parent="base.menu_administration" 
+                  sequence="150" 
+                  groups="base.group_system" />
+    </data>
+</odoo>

@@ -1,0 +1,28 @@
+# Translation of farm_supply (farm_supply) to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 6): labels + common phrases translated;
+# long sentences keep English text (never empty msgstr).
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_supply 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 00:00+0700\n"
+"PO-Revision-Date: 2026-11-11 00:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_supply
+msgid "Core Supply Chain Infrastructure"
+msgstr "Core Supply Chain Infrastructure"
+
+#. module: farm_supply
+msgid "Farm Supply Chain"
+msgstr "Farm Supply Chain"
+
+#. module: farm_supply
+msgid "Module farm_supply"
+msgstr "Module farm_supply"

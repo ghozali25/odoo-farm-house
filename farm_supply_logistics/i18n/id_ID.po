@@ -1,0 +1,440 @@
+# Translation of farm_supply_logistics to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_supply_logistics 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_supply_logistics
+msgid "Actual Cooling Duration (hours)"
+msgstr "Actual Cooling Duration (hours)"
+
+#. module: farm_supply_logistics
+msgid "Actual Transport Temp (℃)"
+msgstr "Actual Transport Temp (℃)"
+
+#. module: farm_supply_logistics
+msgid "Adjusted Demand Forecast"
+msgstr "Adjusted Demand Forecast"
+
+#. module: farm_supply_logistics
+msgid "Alert Reason"
+msgstr "Alert Reason"
+
+#. module: farm_supply_logistics
+msgid "Available"
+msgstr "Available"
+
+#. module: farm_supply_logistics
+msgid "Average Ripeness Index (0-100)"
+msgstr "Average Ripeness Index (0-100)"
+
+#. module: farm_supply_logistics
+msgid "Average Temperature (℃)"
+msgstr "Average Temperature (℃)"
+
+#. module: farm_supply_logistics
+msgid "Avg Humidity (%)"
+msgstr "Avg Humidity (%)"
+
+#. module: farm_supply_logistics
+msgid "Avg Temperature (℃)"
+msgstr "Avg Temperature (℃)"
+
+#. module: farm_supply_logistics
+msgid "Base Demand Forecast"
+msgstr "Base Demand Forecast"
+
+#. module: farm_supply_logistics
+msgid "Base Shelf Life (Days)"
+msgstr "Base Shelf Life (Days)"
+
+#. module: farm_supply_logistics
+msgid "Batch Number"
+msgstr "Batch Number"
+
+#. module: farm_supply_logistics
+msgid "Best Before Date"
+msgstr "Best Before Date"
+
+#. module: farm_supply_logistics
+msgid "Box/Carton"
+msgstr "Box/Carton"
+
+#. module: farm_supply_logistics
+msgid "Capacity (kg)"
+msgstr "Capacity (kg)"
+
+#. module: farm_supply_logistics
+msgid "Capacity (m3)"
+msgstr "Capacity (m3)"
+
+#. module: farm_supply_logistics
+msgid "Cold Chain Required"
+msgstr "Cold Chain Required"
+
+#. module: farm_supply_logistics
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_supply_logistics
+msgid "Cooling Progress (%)"
+msgstr "Cooling Progress (%)"
+
+#. module: farm_supply_logistics
+msgid "Crate"
+msgstr "Crate"
+
+#. module: farm_supply_logistics
+msgid "Current Humidity (%)"
+msgstr "Current Humidity (%)"
+
+#. module: farm_supply_logistics
+msgid "Current Temperature (℃)"
+msgstr "Current Temperature (℃)"
+
+#. module: farm_supply_logistics
+msgid "Current Utilization %"
+msgstr "Current Utilization %"
+
+#. module: farm_supply_logistics
+msgid "Current Volume (m3)"
+msgstr "Current Volume (m3)"
+
+#. module: farm_supply_logistics
+msgid "Current Weight (kg)"
+msgstr "Current Weight (kg)"
+
+#. module: farm_supply_logistics
+msgid "Entry Date"
+msgstr "Entry Date"
+
+#. module: farm_supply_logistics
+msgid "Expired"
+msgstr "Expired"
+
+#. module: farm_supply_logistics
+msgid "Expiry Date"
+msgstr "Expiry Date"
+
+#. module: farm_supply_logistics
+msgid "Export Route (Hardy)"
+msgstr "Export Route (Hardy)"
+
+#. module: farm_supply_logistics
+msgid "FEFO Triggered: High ripeness index. Re-routing to Local Hub."
+msgstr "FEFO Triggered: High ripeness index. Re-routing to Local Hub."
+
+#. module: farm_supply_logistics
+msgid "FEFO Triggered: Low ripeness index. Cleared for 14-day Export Route."
+msgstr "FEFO Triggered: Low ripeness index. Cleared for 14-day Export Route."
+
+#. module: farm_supply_logistics
+msgid "Facility Code"
+msgstr "Fasilitas Kode"
+
+#. module: farm_supply_logistics
+msgid "Facility Name"
+msgstr "Fasilitas Nama"
+
+#. module: farm_supply_logistics
+msgid "Failed"
+msgstr "Gagal"
+
+#. module: farm_supply_logistics
+msgid "Forecast Name"
+msgstr "Prakiraan Nama"
+
+#. module: farm_supply_logistics
+msgid "Harvest Date"
+msgstr "Panen Tanggal"
+
+#. module: farm_supply_logistics
+msgid "Humidity (%)"
+msgstr "Kelembapan (%)"
+
+#. module: farm_supply_logistics
+msgid "In Progress"
+msgstr "In Progress"
+
+#. module: farm_supply_logistics
+msgid "Initial Temperature (℃)"
+msgstr "Initial Temperature (℃)"
+
+#. module: farm_supply_logistics
+msgid "Inventory Reference"
+msgstr "Inventaris Referensi"
+
+#. module: farm_supply_logistics
+msgid "Is Alert"
+msgstr "Is Alert"
+
+#. module: farm_supply_logistics
+msgid "Is Cold Chain Transport"
+msgstr "Is Cold Chain Transport"
+
+#. module: farm_supply_logistics
+msgid "License Plate"
+msgstr "License Plate"
+
+#. module: farm_supply_logistics
+msgid "Local Hub (Fast Ripening)"
+msgstr "Local Hub (Fast Ripening)"
+
+#. module: farm_supply_logistics
+msgid "Location/Milestone"
+msgstr "Location/Milestone"
+
+#. module: farm_supply_logistics
+msgid "Logistics"
+msgstr "Logistik"
+
+#. module: farm_supply_logistics
+msgid "Max Humidity (%)"
+msgstr "Max Humidity (%)"
+
+#. module: farm_supply_logistics
+msgid "Max Payload (kg)"
+msgstr "Max Payload (kg)"
+
+#. module: farm_supply_logistics
+msgid "Max Temp (℃)"
+msgstr "Max Temp (℃)"
+
+#. module: farm_supply_logistics
+msgid "Max Temperature (℃)"
+msgstr "Max Temperature (℃)"
+
+#. module: farm_supply_logistics
+msgid "Min Humidity (%)"
+msgstr "Min Humidity (%)"
+
+#. module: farm_supply_logistics
+msgid "Min Temp (℃)"
+msgstr "Min Temp (℃)"
+
+#. module: farm_supply_logistics
+msgid "Min Temperature (℃)"
+msgstr "Min Temperature (℃)"
+
+#. module: farm_supply_logistics
+msgid "Model"
+msgstr "Model"
+
+#. module: farm_supply_logistics
+msgid "Next 30 Days"
+msgstr "Next 30 Days"
+
+#. module: farm_supply_logistics
+msgid "Next 90 Days"
+msgstr "Next 90 Days"
+
+#. module: farm_supply_logistics
+msgid "Occupied"
+msgstr "Occupied"
+
+#. module: farm_supply_logistics
+msgid "Operational"
+msgstr "Operational"
+
+#. module: farm_supply_logistics
+msgid "Other"
+msgstr "Other"
+
+#. module: farm_supply_logistics
+msgid "Out of Service"
+msgstr "Out of Service"
+
+#. module: farm_supply_logistics
+msgid "Pallet"
+msgstr "Pallet"
+
+#. module: farm_supply_logistics
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_supply_logistics
+msgid "Process Reference"
+msgstr "Process Reference"
+
+#. module: farm_supply_logistics
+msgid "Q1 - Jan-Mar"
+msgstr "Q1 - Jan-Mar"
+
+#. module: farm_supply_logistics
+msgid "Q2 - Apr-Jun"
+msgstr "Q2 - Apr-Jun"
+
+#. module: farm_supply_logistics
+msgid "Q3 - Jul-Sep"
+msgstr "Q3 - Jul-Sep"
+
+#. module: farm_supply_logistics
+msgid "Q4 - Oct-Dec"
+msgstr "Q4 - Oct-Dec"
+
+#. module: farm_supply_logistics
+msgid "Quantity"
+msgstr "Jumlah"
+
+#. module: farm_supply_logistics
+msgid "Quarantined"
+msgstr "Quarantined"
+
+#. module: farm_supply_logistics
+msgid "Recommended Safety Stock"
+msgstr "Recommended Safety Stock"
+
+#. module: farm_supply_logistics
+msgid "Refrigerated Truck"
+msgstr "Refrigerated Truck"
+
+#. module: farm_supply_logistics
+msgid "Released"
+msgstr "Released"
+
+#. module: farm_supply_logistics
+msgid "Reorder Point"
+msgstr "Reorder Point"
+
+#. module: farm_supply_logistics
+msgid "Sensor ID"
+msgstr "Sensor ID"
+
+#. module: farm_supply_logistics
+msgid "Sensor Location within Zone"
+msgstr "Sensor Location within Zone"
+
+#. module: farm_supply_logistics
+msgid "Shelf Life Reduction (Days)"
+msgstr "Shelf Life Reduction (Days)"
+
+#. module: farm_supply_logistics
+msgid "Standard"
+msgstr "Standar"
+
+#. module: farm_supply_logistics
+msgid "Start Pre-cooling"
+msgstr "Start Pre-cooling"
+
+#. module: farm_supply_logistics
+msgid "Stored"
+msgstr "Stored"
+
+#. module: farm_supply_logistics
+msgid "Suggested Order Quantity"
+msgstr "Suggested Order Quantity"
+
+#. module: farm_supply_logistics
+msgid "Target Cooling Duration (hours)"
+msgstr "Target Cooling Duration (hours)"
+
+#. module: farm_supply_logistics
+msgid "Target Humidity (%)"
+msgstr "Target Humidity (%)"
+
+#. module: farm_supply_logistics
+msgid "Target Max Temp (℃)"
+msgstr "Target Max Temp (℃)"
+
+#. module: farm_supply_logistics
+msgid "Target Min Temp (℃)"
+msgstr "Target Min Temp (℃)"
+
+#. module: farm_supply_logistics
+msgid "Target Temperature (℃)"
+msgstr "Target Temperature (℃)"
+
+#. module: farm_supply_logistics
+msgid "Temperature (℃)"
+msgstr "Suhu (℃)"
+
+#. module: farm_supply_logistics
+msgid "Temperature Deviation (±℃)"
+msgstr "Temperature Deviation (±℃)"
+
+#. module: farm_supply_logistics
+msgid "Temperature Impact Factor"
+msgstr "Temperature Impact Factor"
+
+#. module: farm_supply_logistics
+msgid "Temperature-adjusted Shelf Life"
+msgstr "Temperature-adjusted Shelf Life"
+
+#. module: farm_supply_logistics
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#. module: farm_supply_logistics
+msgid "Tractor"
+msgstr "Tractor"
+
+#. module: farm_supply_logistics
+msgid "Under Maintenance"
+msgstr "Under Maintenance"
+
+#. module: farm_supply_logistics
+msgid "Van"
+msgstr "Van"
+
+#. module: farm_supply_logistics
+msgid "Volume (m3)"
+msgstr "Volume (m3)"
+
+#. module: farm_supply_logistics
+msgid "Weight (kg)"
+msgstr "Weight (kg)"
+
+#. module: farm_supply_logistics
+msgid "Zone Code"
+msgstr "Zona Kode"
+
+#. module: farm_supply_logistics
+msgid "Zone Name"
+msgstr "Zona Nama"
+
+#. module: farm_supply_logistics
+msgid "cold.storage.facility"
+msgstr "cold.storage.facility"
+
+#. module: farm_supply_logistics
+msgid "cold.storage.inventory"
+msgstr "cold.storage.inventory"
+
+#. module: farm_supply_logistics
+msgid "cold.storage.temperature.log"
+msgstr "cold.storage.temperature.log"
+
+#. module: farm_supply_logistics
+msgid "cold.storage.zone"
+msgstr "cold.storage.zone"
+
+#. module: farm_supply_logistics
+msgid "product.category"
+msgstr "product.category"
+
+#. module: farm_supply_logistics
+msgid "product.product"
+msgstr "product.product"
+
+#. module: farm_supply_logistics
+msgid "recommended_safety_stock"
+msgstr "recommended_safety_stock"
+
+#. module: farm_supply_logistics
+msgid "target_temperature"
+msgstr "target_temperature"
+
+#. module: farm_supply_logistics
+msgid "temperature_impact_factor"
+msgstr "temperature_impact_factor"

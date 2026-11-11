@@ -1,0 +1,400 @@
+# Translation of farm_training to Indonesian (id_ID).
+# Port 19.0 -> 18.0 (batch 7): semi-automatic — curated dictionary
+# for common terms; strings without a dictionary hit keep English.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_training 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 23:54+0700\n"
+"PO-Revision-Date: 2026-11-10 23:54+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_training
+msgid "ACCESS DENIED: Worker %s does not have a valid '%s' for this %s task."
+msgstr "ACCESS DENIED: Worker %s does not have a valid '%s' for this %s task."
+
+#. module: farm_training
+msgid "Active Certificates"
+msgstr "Active Certificates"
+
+#. module: farm_training
+msgid "Aerial Spraying"
+msgstr "Aerial Spraying"
+
+#. module: farm_training
+msgid "Agricultural Skills &amp; Training"
+msgstr "Agricultural Skills &amp; Training"
+
+#. module: farm_training
+msgid "CERTIFICATE EXPIRING: %s for %s"
+msgstr "CERTIFICATE EXPIRING: %s for %s"
+
+#. module: farm_training
+msgid "Certificate Name"
+msgstr "Sertifikat Nama"
+
+#. module: farm_training
+msgid "Certificate No."
+msgstr "Certificate No."
+
+#. module: farm_training
+msgid "Certificate Types"
+msgstr "Certificate Types"
+
+#. module: farm_training
+msgid "Certificate Types (Setup)"
+msgstr "Certificate Types (Setup)"
+
+#. module: farm_training
+msgid "Certification"
+msgstr "Sertifikasi"
+
+#. module: farm_training
+msgid "Certifications"
+msgstr "Certifications"
+
+#. module: farm_training
+msgid "Code"
+msgstr "Kode"
+
+#. module: farm_training
+msgid "Completed"
+msgstr "Selesai"
+
+#. module: farm_training
+msgid "Content"
+msgstr "Content"
+
+#. module: farm_training
+msgid "Crop Protection"
+msgstr "Crop Protection"
+
+#. module: farm_training
+msgid "Date"
+msgstr "Tanggal"
+
+#. module: farm_training
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_training
+msgid "Duration (Hours)"
+msgstr "Duration (Hours)"
+
+#. module: farm_training
+msgid "Employee Certificates"
+msgstr "Employee Certificates"
+
+#. module: farm_training
+msgid "Expired"
+msgstr "Expired"
+
+#. module: farm_training
+msgid "Expiring Soon"
+msgstr "Expiring Soon"
+
+#. module: farm_training
+msgid "Expiry Date"
+msgstr "Expiry Date"
+
+#. module: farm_training
+msgid "Farm Training"
+msgstr "Pelatihan Pertanian"
+
+#. module: farm_training
+msgid "Farm Training &amp; Certifications"
+msgstr "Farm Training &amp; Certifications"
+
+#. module: farm_training
+msgid "Farm: Certificate Expiry Monitor"
+msgstr "Farm: Certificate Expiry Monitor"
+
+#. module: farm_training
+msgid "Farmer Certificates"
+msgstr "Farmer Certificates"
+
+#. module: farm_training
+msgid "Is Valid"
+msgstr "Is Valid"
+
+#. module: farm_training
+msgid "Issue Date"
+msgstr "Issue Date"
+
+#. module: farm_training
+msgid "Mark as Completed"
+msgstr "Mark as Completed"
+
+#. module: farm_training
+msgid "Mechanical Harvesting"
+msgstr "Mechanical Harvesting"
+
+#. module: farm_training
+msgid "Medical/Prevention"
+msgstr "Medical/Prevention"
+
+#. module: farm_training
+msgid "Pending"
+msgstr "Menunggu"
+
+#. module: farm_training
+msgid "Revoked"
+msgstr "Revoked"
+
+#. module: farm_training
+msgid "Skill"
+msgstr "Keterampilan"
+
+#. module: farm_training
+msgid "Skills"
+msgstr "Skills"
+
+#. module: farm_training
+msgid "Stats"
+msgstr "Stats"
+
+#. module: farm_training
+msgid "The certificate will expire on %s. Please arrange for recertification."
+msgstr "The certificate will expire on %s. Please arrange for recertification."
+
+#. module: farm_training
+msgid "This task (%s) requires certified personnel, but no workers are assigned."
+msgstr "This task (%s) requires certified personnel, but no workers are assigned."
+
+#. module: farm_training
+msgid "Topic"
+msgstr "Topic"
+
+#. module: farm_training
+msgid "Total Training Hours"
+msgstr "Total Training Hours"
+
+#. module: farm_training
+msgid "Trainees"
+msgstr "Trainees"
+
+#. module: farm_training
+msgid "Training &amp; Skills"
+msgstr "Training &amp; Skills"
+
+#. module: farm_training
+msgid "Training Content"
+msgstr "Training Content"
+
+#. module: farm_training
+msgid "Training Record"
+msgstr "Catatan Pelatihan"
+
+#. module: farm_training
+msgid "Training Records"
+msgstr "Training Records"
+
+#. module: farm_training
+msgid "Training Sessions"
+msgstr "Training Sessions"
+
+#. module: farm_training
+msgid "Training Topic"
+msgstr "Training Topic"
+
+#. module: farm_training
+msgid "Training date cannot be after expiration date."
+msgstr "Training date cannot be after expiration date."
+
+#. module: farm_training
+msgid "Valid"
+msgstr "Valid"
+
+#. module: farm_training
+msgid "action_complete"
+msgstr "action_complete"
+
+#. module: farm_training
+msgid "active"
+msgstr "active"
+
+#. module: farm_training
+msgid "agri_training"
+msgstr "agri_training"
+
+#. module: farm_training
+msgid "arch"
+msgstr "arch"
+
+#. module: farm_training
+msgid "certificate_type_id"
+msgstr "certificate_type_id"
+
+#. module: farm_training
+msgid "certification_id"
+msgstr "certification_id"
+
+#. module: farm_training
+msgid "certification_id.validity_period"
+msgstr "certification_id.validity_period"
+
+#. module: farm_training
+msgid "certification_ids"
+msgstr "certification_ids"
+
+#. module: farm_training
+msgid "code"
+msgstr "code"
+
+#. module: farm_training
+msgid "content"
+msgstr "content"
+
+#. module: farm_training
+msgid "date"
+msgstr "date"
+
+#. module: farm_training
+msgid "days"
+msgstr "days"
+
+#. module: farm_training
+msgid "description"
+msgstr "description"
+
+#. module: farm_training
+msgid "employee_id"
+msgstr "employee_id"
+
+#. module: farm_training
+msgid "expiration_date"
+msgstr "expiration_date"
+
+#. module: farm_training
+msgid "expiry_date"
+msgstr "expiry_date"
+
+#. module: farm_training
+msgid "hours"
+msgstr "hours"
+
+#. module: farm_training
+msgid "hr.employee"
+msgstr "hr.employee"
+
+#. module: farm_training
+msgid "hr.employee.form.inherit.farm.training"
+msgstr "hr.employee.form.inherit.farm.training"
+
+#. module: farm_training
+msgid "hr.employee.form.inherit.training"
+msgstr "hr.employee.form.inherit.training"
+
+#. module: farm_training
+msgid "inherit_id"
+msgstr "inherit_id"
+
+#. module: farm_training
+msgid "interval_number"
+msgstr "interval_number"
+
+#. module: farm_training
+msgid "interval_type"
+msgstr "interval_type"
+
+#. module: farm_training
+msgid "is_valid"
+msgstr "is_valid"
+
+#. module: farm_training
+msgid "list,form"
+msgstr "list,form"
+
+#. module: farm_training
+msgid "message_follower_ids"
+msgstr "message_follower_ids"
+
+#. module: farm_training
+msgid "message_ids"
+msgstr "message_ids"
+
+#. module: farm_training
+msgid "model"
+msgstr "model"
+
+#. module: farm_training
+msgid "model._cron_check_certificate_expiry()"
+msgstr "model._cron_check_certificate_expiry()"
+
+#. module: farm_training
+msgid "name"
+msgstr "name"
+
+#. module: farm_training
+msgid "notes"
+msgstr "notes"
+
+#. module: farm_training
+msgid "required_skills_ids"
+msgstr "required_skills_ids"
+
+#. module: farm_training
+msgid "res_model"
+msgstr "res_model"
+
+#. module: farm_training
+msgid "skill_ids"
+msgstr "skill_ids"
+
+#. module: farm_training
+msgid "state"
+msgstr "state"
+
+#. module: farm_training
+msgid "status"
+msgstr "status"
+
+#. module: farm_training
+msgid "total_training_hours"
+msgstr "total_training_hours"
+
+#. module: farm_training
+msgid "trainee_ids"
+msgstr "trainee_ids"
+
+#. module: farm_training
+msgid "trainees"
+msgstr "trainees"
+
+#. module: farm_training
+msgid "trainer_id"
+msgstr "trainer_id"
+
+#. module: farm_training
+msgid "training_certificate_ids"
+msgstr "training_certificate_ids"
+
+#. module: farm_training
+msgid "training_date"
+msgstr "training_date"
+
+#. module: farm_training
+msgid "training_record_ids"
+msgstr "training_record_ids"
+
+#. module: farm_training
+msgid "upcoming_expire"
+msgstr "upcoming_expire"
+
+#. module: farm_training
+msgid "user_id"
+msgstr "user_id"
+
+#. module: farm_training
+msgid "validity_period"
+msgstr "validity_period"
+
+#. module: farm_training
+msgid "view_mode"
+msgstr "view_mode"

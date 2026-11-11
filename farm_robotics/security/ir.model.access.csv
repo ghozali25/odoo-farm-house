@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_agri_robotics_lease,agri.robotics.lease,model_agri_robotics_lease,base.group_user,1,1,1,1
+access_agri_swarm_coord,agri.swarm.coord,model_agri_swarm_coord,base.group_user,1,1,1,1
+access_farm_robot,farm.robot,model_farm_robot,base.group_user,1,1,1,1
+access_farm_robot_mission,farm.robot.mission,model_farm_robot_mission,base.group_user,1,1,1,1

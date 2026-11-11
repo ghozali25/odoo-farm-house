@@ -1,0 +1,1009 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_quality
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 21:00+0000\n"
+"PO-Revision-Date: 2026-11-09 21:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (Indonesia)\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_quality
+msgid "<b>GxP Audit Alert:</b> Record Book locked and sealed with Cryptographic Signature:<br/><code>%s</code>"
+msgstr "<b>Peringatan Audit GxP:</b> Buku catatan dikunci dan disegel dengan Tanda Tangan Kriptografis:<br/><code>%s</code>"
+
+#. module: farm_quality
+msgid "ASCII Run & Control Chart"
+msgstr "Bagan Run & Kendali ASCII"
+
+#. module: farm_quality
+msgid "Acceptable (Process is capable)"
+msgstr "Dapat Diterima (Proses mampu)"
+
+#. module: farm_quality
+msgid "Action Proposed"
+msgstr "Tindakan Diusulkan"
+
+#. module: farm_quality
+msgid "Action Taken"
+msgstr "Tindakan yang Diambil"
+
+#. module: farm_quality
+msgid "Activate Book"
+msgstr "Aktifkan Buku"
+
+#. module: farm_quality
+msgid "Active"
+msgstr "Aktif"
+
+#. module: farm_quality
+msgid "Actual Measure"
+msgstr "Hasil Ukur Aktual"
+
+#. module: farm_quality
+msgid "Agricultural Quality Alert"
+msgstr "Peringatan Mutu Pertanian"
+
+#. module: farm_quality
+msgid "Agricultural Quality Check"
+msgstr "Pemeriksaan Mutu Pertanian"
+
+#. module: farm_quality
+msgid "Agricultural Quality Control Point"
+msgstr "Titik Kendali Mutu Pertanian"
+
+#. module: farm_quality
+msgid "Agricultural Quality Record Book"
+msgstr "Buku Catatan Mutu Pertanian"
+
+#. module: farm_quality
+msgid "Agricultural Quality Record Book Template"
+msgstr "Templat Buku Catatan Mutu Pertanian"
+
+#. module: farm_quality
+msgid "Agricultural Quality Sample"
+msgstr "Sampel Mutu Pertanian"
+
+#. module: farm_quality
+msgid "Alert closed: Asset marked for scrapping."
+msgstr "Peringatan ditutup: Aset ditandai untuk dibuang."
+
+#. module: farm_quality
+msgid "Analysis Filter"
+msgstr "Filter Analisis"
+
+#. module: farm_quality
+msgid "Anonymous reference for blind testing"
+msgstr "Referensi anonim untuk pengujian buta"
+
+#. module: farm_quality
+msgid "Appearance (1-10)"
+msgstr "Penampilan (1-10)"
+
+#. module: farm_quality
+msgid "Aroma (1-10)"
+msgstr "Aroma (1-10)"
+
+#. module: farm_quality
+msgid "Auditing & Integrity"
+msgstr "Audit & Integritas"
+
+#. module: farm_quality
+msgid "Back to ERP"
+msgstr "Kembali ke ERP"
+
+#. module: farm_quality
+msgid "Basic Configuration"
+msgstr "Konfigurasi Dasar"
+
+#. module: farm_quality
+msgid "Blind Sample Batch"
+msgstr "Batch Sampel Buta"
+
+#. module: farm_quality
+msgid "Blind Sample Code"
+msgstr "Kode Sampel Buta"
+
+#. module: farm_quality
+msgid "Blind Sample Product"
+msgstr "Produk Sampel Buta"
+
+#. module: farm_quality
+msgid "Blind Test"
+msgstr "Uji Buta"
+
+#. module: farm_quality
+msgid "Blind Tester"
+msgstr "Penguji Buta"
+
+#. module: farm_quality
+msgid "Blind View"
+msgstr "Tampilan Buta"
+
+#. module: farm_quality
+msgid "Blockchain Hash"
+msgstr "Hash Blockchain"
+
+#. module: farm_quality
+msgid "Brix/Sugar Content"
+msgstr "Kadar Brix/Gula"
+
+#. module: farm_quality
+msgid "CCP VIOLATION: Pasteurization time too short (%s mins)."
+msgstr "PELANGGARAN CCP: Waktu pasteurisasi terlalu singkat (%s menit)."
+
+#. module: farm_quality
+msgid "Capability Evaluation"
+msgstr "Evaluasi Kapabilitas"
+
+#. module: farm_quality
+msgid "Check Ref"
+msgstr "Ref Pemeriksaan"
+
+#. module: farm_quality
+msgid "Close"
+msgstr "Tutup"
+
+#. module: farm_quality
+msgid "Closed"
+msgstr "Ditutup"
+
+#. module: farm_quality
+msgid "Collected By"
+msgstr "Dikumpulkan Oleh"
+
+#. module: farm_quality
+msgid "Collection Date"
+msgstr "Tanggal Pengumpulan"
+
+#. module: farm_quality
+msgid "Company"
+msgstr "Perusahaan"
+
+#. module: farm_quality
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#. module: farm_quality
+msgid "Confirmed"
+msgstr "Dikonfirmasi"
+
+#. module: farm_quality
+msgid "Control Point"
+msgstr "Titik Kendali"
+
+#. module: farm_quality
+msgid "Control Points"
+msgstr "Titik Kendali"
+
+#. module: farm_quality
+msgid "Corrective Actions"
+msgstr "Tindakan Korektif"
+
+#. module: farm_quality
+msgid "Create a new Quality Record Book"
+msgstr "Buat Buku Catatan Mutu baru"
+
+#. module: farm_quality
+msgid "Define a new Quality Record Book Template"
+msgstr "Tentukan Templat Buku Catatan Mutu baru"
+
+#. module: farm_quality
+msgid "Describe the quality issue..."
+msgstr "Jelaskan masalah mutunya..."
+
+#. module: farm_quality
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_quality
+msgid "Description/Objective"
+msgstr "Deskripsi/Tujuan"
+
+#. module: farm_quality
+msgid "Detailed GxP instructions for the inspector during this check."
+msgstr "Instruksi GxP terperinci bagi pemeriksa selama pemeriksaan ini."
+
+#. module: farm_quality
+msgid "Detailed sensory profile notes..."
+msgstr "Catatan profil sensori terperinci..."
+
+#. module: farm_quality
+msgid "Digital Quality Execution Board"
+msgstr "Papan Eksekusi Mutu Digital"
+
+#. module: farm_quality
+msgid "Disposed"
+msgstr "Dibuang"
+
+#. module: farm_quality
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_quality
+msgid "Emergency recall is unavailable: the farm.supply.recall model (farm_supply module) is not installed."
+msgstr "Penarikan darurat tidak tersedia: model farm.supply.recall (modul farm_supply) tidak terpasang."
+
+#. module: farm_quality
+msgid "End Date"
+msgstr "Tanggal Akhir"
+
+#. module: farm_quality
+msgid "Excellent (Process is highly capable)"
+msgstr "Sangat Baik (Proses sangat mampu)"
+
+#. module: farm_quality
+msgid "Export Spreadsheet"
+msgstr "Ekspor Spreadsheet"
+
+#. module: farm_quality
+msgid "Fail"
+msgstr "Gagal"
+
+#. module: farm_quality
+msgid "Failed"
+msgstr "Gagal"
+
+#. module: farm_quality
+msgid "Farm Quality Manager"
+msgstr "Manajer Mutu Pertanian"
+
+#. module: farm_quality
+msgid "Fertilization Log"
+msgstr "Log Pemupukan"
+
+#. module: farm_quality
+msgid "Field Quick Test"
+msgstr "Uji Cepat Lapangan"
+
+#. module: farm_quality
+msgid "Flavor (1-10)"
+msgstr "Rasa (1-10)"
+
+#. module: farm_quality
+msgid "Forbidden Substance"
+msgstr "Zat Terlarang"
+
+#. module: farm_quality
+msgid "Forbidden chemical used during production: %s"
+msgstr "Bahan kimia terlarang digunakan selama produksi: %s"
+
+#. module: farm_quality
+msgid "From Date"
+msgstr "Dari Tanggal"
+
+#. module: farm_quality
+msgid "General Quality Log"
+msgstr "Log Mutu Umum"
+
+#. module: farm_quality
+msgid "Generate Checks from Template"
+msgstr "Buat Pemeriksaan dari Templat"
+
+#. module: farm_quality
+msgid "GxP ANTI-TAMPERING: Locked record books cannot be deleted."
+msgstr "GxP ANTI-TAMPERING: Buku catatan yang terkunci tidak dapat dihapus."
+
+#. module: farm_quality
+msgid "GxP ANTI-TAMPERING: Locked record books cannot be modified."
+msgstr "GxP ANTI-TAMPERING: Buku catatan yang terkunci tidak dapat diubah."
+
+#. module: farm_quality
+msgid "GxP ANTI-TAMPERING: This quality check belongs to a locked Record Book and cannot be deleted."
+msgstr "GxP ANTI-TAMPERING: Pemeriksaan mutu ini termasuk dalam Buku Catatan yang terkunci dan tidak dapat dihapus."
+
+#. module: farm_quality
+msgid "GxP ANTI-TAMPERING: This quality check belongs to a locked Record Book and cannot be modified."
+msgstr "GxP ANTI-TAMPERING: Pemeriksaan mutu ini termasuk dalam Buku Catatan yang terkunci dan tidak dapat diubah."
+
+#. module: farm_quality
+msgid "GxP Cryptographic Signature"
+msgstr "Tanda Tangan Kriptografis GxP"
+
+#. module: farm_quality
+msgid "GxP Standard Operating Procedure"
+msgstr "Prosedur Operasional Standar GxP"
+
+#. module: farm_quality
+msgid "HACCP Monitoring Log"
+msgstr "Log Pemantauan HACCP"
+
+#. module: farm_quality
+msgid "HPLC Lab Test"
+msgstr "Uji Lab HPLC"
+
+#. module: farm_quality
+msgid "High"
+msgstr "Tinggi"
+
+#. module: farm_quality
+msgid "If True, consuming this in an intervention will taint the resulting crop lot."
+msgstr "Jika dicentang, penggunaan bahan ini dalam suatu intervensi akan mencemari lot tanaman yang dihasilkan."
+
+#. module: farm_quality
+msgid "Inspection Instructions"
+msgstr "Instruksi Pemeriksaan"
+
+#. module: farm_quality
+msgid "Inspection Step/Line"
+msgstr "Langkah/Baris Pemeriksaan"
+
+#. module: farm_quality
+msgid "Inspection Target"
+msgstr "Target Pemeriksaan"
+
+#. module: farm_quality
+msgid "Inspection/Filling Instructions"
+msgstr "Instruksi Pemeriksaan/Pengisian"
+
+#. module: farm_quality
+msgid "Instruction Lines"
+msgstr "Baris Instruksi"
+
+#. module: farm_quality
+msgid "Instruction Step/Name"
+msgstr "Langkah/Nama Instruksi"
+
+#. module: farm_quality
+msgid "Instruction Steps"
+msgstr "Langkah Instruksi"
+
+#. module: farm_quality
+msgid "Is Agricultural Chemical"
+msgstr "Merupakan Bahan Kimia Pertanian"
+
+#. module: farm_quality
+msgid "Is Quick Test"
+msgstr "Merupakan Uji Cepat"
+
+#. module: farm_quality
+msgid "LIMS & Traceability"
+msgstr "LIMS & Ketertelusuran"
+
+#. module: farm_quality
+msgid "LIMS Device ID"
+msgstr "ID Perangkat LIMS"
+
+#. module: farm_quality
+msgid "LIMS Integration"
+msgstr "Integrasi LIMS"
+
+#. module: farm_quality
+msgid "LIMS Laboratory Log"
+msgstr "Log Laboratorium LIMS"
+
+#. module: farm_quality
+msgid "LIMS Raw Data"
+msgstr "Data Mentah LIMS"
+
+#. module: farm_quality
+msgid "Link to purchase order line for acquisition quality checks (US-009-19)"
+msgstr "Tautan ke baris pesanan pembelian untuk pemeriksaan mutu penerimaan (US-009-19)"
+
+#. module: farm_quality
+msgid "Linked Sample"
+msgstr "Sampel Terkait"
+
+#. module: farm_quality
+msgid "Locked"
+msgstr "Terkunci"
+
+#. module: farm_quality
+msgid "Locked & Signed (GxP)"
+msgstr "Terkunci & Ditandatangani (GxP)"
+
+#. module: farm_quality
+msgid "Lot/Batch"
+msgstr "Lot/Batch"
+
+#. module: farm_quality
+msgid "Low"
+msgstr "Rendah"
+
+#. module: farm_quality
+msgid "Lower Control Limit (LCL)"
+msgstr "Batas Kendali Bawah (LCL)"
+
+#. module: farm_quality
+msgid "Marginal (Barely capable, monitor closely)"
+msgstr "Marginal (Hampir mampu, pantau dengan ketat)"
+
+#. module: farm_quality
+msgid "Mark Disposed"
+msgstr "Tandai Dibuang"
+
+#. module: farm_quality
+msgid "Mark as Scrapped"
+msgstr "Tandai sebagai Barang Buangan"
+
+#. module: farm_quality
+msgid "Max Limit"
+msgstr "Batas Maks"
+
+#. module: farm_quality
+msgid "Max Tolerance"
+msgstr "Toleransi Maks"
+
+#. module: farm_quality
+msgid "Maximum Value"
+msgstr "Nilai Maksimum"
+
+#. module: farm_quality
+msgid "Measure"
+msgstr "Ukur"
+
+#. module: farm_quality
+msgid "Measured Value"
+msgstr "Nilai Terukur"
+
+#. module: farm_quality
+msgid "Measurement Limits"
+msgstr "Batas Pengukuran"
+
+#. module: farm_quality
+msgid "Merkle Root / Book Signature"
+msgstr "Merkle Root / Tanda Tangan Buku"
+
+#. module: farm_quality
+msgid "Min Limit"
+msgstr "Batas Min"
+
+#. module: farm_quality
+msgid "Min Tolerance"
+msgstr "Toleransi Min"
+
+#. module: farm_quality
+msgid "Minimum Value"
+msgstr "Nilai Minimum"
+
+#. module: farm_quality
+msgid "Moisture Level"
+msgstr "Kadar Air"
+
+#. module: farm_quality
+msgid "N/A - Tolerance Limits Not Defined"
+msgstr "T/A - Batas Toleransi Tidak Ditentukan"
+
+#. module: farm_quality
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_quality
+msgid "Norm"
+msgstr "Norma"
+
+#. module: farm_quality
+msgid "Normal"
+msgstr "Normal"
+
+#. module: farm_quality
+msgid "Not Tested"
+msgstr "Belum Diuji"
+
+#. module: farm_quality
+msgid "Number of days required before harvest."
+msgstr "Jumlah hari yang diperlukan sebelum panen."
+
+#. module: farm_quality
+msgid "Number of measurement replicates required for this check step."
+msgstr "Jumlah ulangan pengukuran yang diperlukan untuk langkah pemeriksaan ini."
+
+#. module: farm_quality
+msgid "Only active record books can be locked and signed."
+msgstr "Hanya buku catatan aktif yang dapat dikunci dan ditandatangani."
+
+#. module: farm_quality
+msgid "Origin Lot"
+msgstr "Lot Asal"
+
+#. module: farm_quality
+msgid "Pass"
+msgstr "Lulus"
+
+#. module: farm_quality
+msgid "Pass - Fail"
+msgstr "Lulus - Gagal"
+
+#. module: farm_quality
+msgid "Passed"
+msgstr "Lulus"
+
+#. module: farm_quality
+msgid "Perform Statistical Process Control (SPC) analysis for this measurement step."
+msgstr "Lakukan analisis Statistical Process Control (SPC) untuk langkah pengukuran ini."
+
+#. module: farm_quality
+msgid "Pesticide Application Log"
+msgstr "Log Aplikasi Pestisida"
+
+#. module: farm_quality
+msgid "Pesticide Residue Test"
+msgstr "Uji Residu Pestisida"
+
+#. module: farm_quality
+msgid "Please select a template first."
+msgstr "Silakan pilih templat terlebih dahulu."
+
+#. module: farm_quality
+msgid "Pre-Harvest Interval (Days)"
+msgstr "Interval Pra-Panen (Hari)"
+
+#. module: farm_quality
+msgid "Process Capability & Metrics"
+msgstr "Kapabilitas Proses & Metrik"
+
+#. module: farm_quality
+msgid "Process Capability (Cp)"
+msgstr "Kapabilitas Proses (Cp)"
+
+#. module: farm_quality
+msgid "Process Capability Index (Cpk)"
+msgstr "Indeks Kapabilitas Proses (Cpk)"
+
+#. module: farm_quality
+msgid "Process Capability Indicators (SPC)"
+msgstr "Indikator Kapabilitas Proses (SPC)"
+
+#. module: farm_quality
+msgid "Process Mean (X-bar)"
+msgstr "Rata-rata Proses (X-bar)"
+
+#. module: farm_quality
+msgid "Product"
+msgstr "Produk"
+
+#. module: farm_quality
+msgid "Product/Variety"
+msgstr "Produk/Varietas"
+
+#. module: farm_quality
+msgid "Production Task"
+msgstr "Tugas Produksi"
+
+#. module: farm_quality
+msgid "Purchase Order Line"
+msgstr "Baris Pesanan Pembelian"
+
+#. module: farm_quality
+msgid "QC LOCKED: Lot %s is pending release and cannot be moved."
+msgstr "QC TERKUNCI: Lot %s menunggu pelepasan dan tidak dapat dipindahkan."
+
+#. module: farm_quality
+msgid "QC Release"
+msgstr "Pelepasan QC"
+
+#. module: farm_quality
+msgid "QC Release Status"
+msgstr "Status Pelepasan QC"
+
+#. module: farm_quality
+msgid "QUALITY ALERT: Lot %s has failed quality inspection."
+msgstr "PERINGATAN MUTU: Lot %s gagal dalam pemeriksaan mutu."
+
+#. module: farm_quality
+msgid "Quality Alert"
+msgstr "Peringatan Mutu"
+
+#. module: farm_quality
+msgid "Quality Alert for %s"
+msgstr "Peringatan Mutu untuk %s"
+
+#. module: farm_quality
+msgid "Quality Alerts"
+msgstr "Peringatan Mutu"
+
+#. module: farm_quality
+msgid "Quality Check"
+msgstr "Pemeriksaan Mutu"
+
+#. module: farm_quality
+msgid "Quality Check Measurement Line"
+msgstr "Baris Pengukuran Pemeriksaan Mutu"
+
+#. module: farm_quality
+msgid "Quality Check Sequence"
+msgstr "Urutan Pemeriksaan Mutu"
+
+#. module: farm_quality
+msgid "Quality Checks"
+msgstr "Pemeriksaan Mutu"
+
+#. module: farm_quality
+msgid "Quality Checks (Spreadsheet View)"
+msgstr "Pemeriksaan Mutu (Tampilan Spreadsheet)"
+
+#. module: farm_quality
+msgid "Quality Control"
+msgstr "Kendali Mutu"
+
+#. module: farm_quality
+msgid "Quality Control Point"
+msgstr "Titik Kendali Mutu"
+
+#. module: farm_quality
+msgid "Quality Control Points"
+msgstr "Titik Kendali Mutu"
+
+#. module: farm_quality
+msgid "Quality Points"
+msgstr "Titik Mutu"
+
+#. module: farm_quality
+msgid "Quality Record Book"
+msgstr "Buku Catatan Mutu"
+
+#. module: farm_quality
+msgid "Quality Record Book Sequence"
+msgstr "Urutan Buku Catatan Mutu"
+
+#. module: farm_quality
+msgid "Quality Record Book Template"
+msgstr "Templat Buku Catatan Mutu"
+
+#. module: farm_quality
+msgid "Quality Record Book Template Line"
+msgstr "Baris Templat Buku Catatan Mutu"
+
+#. module: farm_quality
+msgid "Quality Record Book Templates"
+msgstr "Templat Buku Catatan Mutu"
+
+#. module: farm_quality
+msgid "Quality Record Books"
+msgstr "Buku Catatan Mutu"
+
+#. module: farm_quality
+msgid "Quality Records"
+msgstr "Catatan Mutu"
+
+#. module: farm_quality
+msgid "Quality Sample"
+msgstr "Sampel Mutu"
+
+#. module: farm_quality
+msgid "Quality Sample Sequence"
+msgstr "Urutan Sampel Mutu"
+
+#. module: farm_quality
+msgid "Quality Samples"
+msgstr "Sampel Mutu"
+
+#. module: farm_quality
+msgid "Quality Status"
+msgstr "Status Mutu"
+
+#. module: farm_quality
+msgid "Recalculate Metrics"
+msgstr "Hitung Ulang Metrik"
+
+#. module: farm_quality
+msgid "Record Book Name"
+msgstr "Nama Buku Catatan"
+
+#. module: farm_quality
+msgid "Record Book Template"
+msgstr "Templat Buku Catatan"
+
+#. module: farm_quality
+msgid "Record Book Template Line"
+msgstr "Baris Templat Buku Catatan"
+
+#. module: farm_quality
+msgid "Record Book Templates"
+msgstr "Templat Buku Catatan"
+
+#. module: farm_quality
+msgid "Record Books group quality checks together and seal them cryptographically for regulatory GxP audits."
+msgstr "Buku Catatan mengelompokkan pemeriksaan mutu dan menyegelnya secara kriptografis untuk audit GxP."
+
+#. module: farm_quality
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: farm_quality
+msgid "Reference Code"
+msgstr "Kode Referensi"
+
+#. module: farm_quality
+msgid "Released"
+msgstr "Dilepas"
+
+#. module: farm_quality
+msgid "Replicate Count"
+msgstr "Jumlah Ulangan"
+
+#. module: farm_quality
+msgid "Replicate Measurements"
+msgstr "Pengukuran Ulangan"
+
+#. module: farm_quality
+msgid "Required Replicates"
+msgstr "Ulangan yang Diperlukan"
+
+#. module: farm_quality
+msgid "Responsible"
+msgstr "Penanggung Jawab"
+
+#. module: farm_quality
+msgid "Responsible Inspector"
+msgstr "Pemeriksa Penanggung Jawab"
+
+#. module: farm_quality
+msgid "Retained"
+msgstr "Disimpan"
+
+#. module: farm_quality
+msgid "Retention Expiry"
+msgstr "Kedaluarsa Penyimpanan"
+
+#. module: farm_quality
+msgid "Retention Samples"
+msgstr "Sampel Simpanan"
+
+#. module: farm_quality
+msgid "Root Cause"
+msgstr "Akar Masalah"
+
+#. module: farm_quality
+msgid "Run & Control Chart"
+msgstr "Bagan Run & Kendali"
+
+#. module: farm_quality
+msgid "Run SPC"
+msgstr "Jalankan SPC"
+
+#. module: farm_quality
+msgid "SPC Analysis Results"
+msgstr "Hasil Analisis SPC"
+
+#. module: farm_quality
+msgid "SPC Process Control Analysis"
+msgstr "Analisis Kendali Proses SPC"
+
+#. module: farm_quality
+msgid "SPC Statistical Process Control Wizard"
+msgstr "Wizard Statistical Process Control SPC"
+
+#. module: farm_quality
+msgid "SPC analysis requires at least 2 historical measurement records. Found %s."
+msgstr "Analisis SPC memerlukan minimal 2 catatan pengukuran historis. Ditemukan %s."
+
+#. module: farm_quality
+msgid "Safety Violation: Lot '%s' is tainted!\\nIntervention '%s' consumed forbidden chemical: '%s'."
+msgstr "Pelanggaran Keamanan: Lot '%s' tercemar!\\nIntervensi '%s' menggunakan bahan kimia terlarang: '%s'."
+
+#. module: farm_quality
+msgid "Sample Count (N)"
+msgstr "Jumlah Sampel (N)"
+
+#. module: farm_quality
+msgid "Sample ID"
+msgstr "ID Sampel"
+
+#. module: farm_quality
+msgid "Sample disposed on %s"
+msgstr "Sampel dibuang pada %s"
+
+#. module: farm_quality
+msgid "Save All Local Changes"
+msgstr "Simpan Semua Perubahan Lokal"
+
+#. module: farm_quality
+msgid "Samples"
+msgstr "Sampel"
+
+#. module: farm_quality
+msgid "Seal & Sign (GxP)"
+msgstr "Segel & Tandatangani (GxP)"
+
+#. module: farm_quality
+msgid "Seal and Sign Cryptographically (GxP)"
+msgstr "Segel dan Tandatangani secara Kriptografis (GxP)"
+
+#. module: farm_quality
+msgid "Security Fingerprint"
+msgstr "Sidik Jari Keamanan"
+
+#. module: farm_quality
+msgid "Sensory Evaluation"
+msgstr "Evaluasi Sensori"
+
+#. module: farm_quality
+msgid "Sensory Notes"
+msgstr "Catatan Sensori"
+
+#. module: farm_quality
+msgid "Sequence"
+msgstr "Urutan"
+
+#. module: farm_quality
+msgid "Signature Timestamp"
+msgstr "Stempel Waktu Tanda Tangan"
+
+#. module: farm_quality
+msgid "Source Check"
+msgstr "Pemeriksaan Sumber"
+
+#. module: farm_quality
+msgid "Standard Deviation (Sigma)"
+msgstr "Simpangan Baku (Sigma)"
+
+#. module: farm_quality
+msgid "Start Date"
+msgstr "Tanggal Mulai"
+
+#. module: farm_quality
+msgid "Start Digital Inspection"
+msgstr "Mulai Pemeriksaan Digital"
+
+#. module: farm_quality
+msgid "State"
+msgstr "Status"
+
+#. module: farm_quality
+msgid "Statistical Calculations"
+msgstr "Perhitungan Statistik"
+
+#. module: farm_quality
+msgid "Statistical Process Control (SPC) Analysis"
+msgstr "Analisis Statistical Process Control (SPC)"
+
+#. module: farm_quality
+msgid "Status"
+msgstr "Status"
+
+#. module: farm_quality
+msgid "Storage Location"
+msgstr "Lokasi Penyimpanan"
+
+#. module: farm_quality
+msgid "Sub-Measurements (Replicates)"
+msgstr "Sub-Pengukuran (Ulangan)"
+
+#. module: farm_quality
+msgid "Successfully generated %s quality check records from template: <b>%s</b>"
+msgstr "Berhasil membuat %s catatan pemeriksaan mutu dari templat: <b>%s</b>"
+
+#. module: farm_quality
+msgid "Tainted Lot Alert: %s"
+msgstr "Peringatan Lot Tercemar: %s"
+
+#. module: farm_quality
+msgid "Target Norm"
+msgstr "Norma Target"
+
+#. module: farm_quality
+msgid "Target Quality Point"
+msgstr "Titik Mutu Target"
+
+#. module: farm_quality
+msgid "Template"
+msgstr "Templat"
+
+#. module: farm_quality
+msgid "Template Name"
+msgstr "Nama Templat"
+
+#. module: farm_quality
+msgid "Template objectives, regulatory references..."
+msgstr "Tujuan templat, referensi regulasi..."
+
+#. module: farm_quality
+msgid "Templates let you pre-define standard quality inspection procedures and steps, making GxP checks repeatable and compliant."
+msgstr "Templat memungkinkan Anda menentukan prosedur dan langkah pemeriksaan mutu standar sebelumnya, sehingga pemeriksaan GxP dapat diulang dan patuh."
+
+#. module: farm_quality
+msgid "Test Strip Photo"
+msgstr "Foto Strip Uji"
+
+#. module: farm_quality
+msgid "Test Type"
+msgstr "Jenis Uji"
+
+#. module: farm_quality
+msgid "Texture (1-10)"
+msgstr "Tekstur (1-10)"
+
+#. module: farm_quality
+msgid "The 'openpyxl' library is required to export spreadsheets. Please contact your system administrator."
+msgstr "Pustaka 'openpyxl' diperlukan untuk mengekspor spreadsheet. Silakan hubungi administrator sistem Anda."
+
+#. module: farm_quality
+msgid "The physical sample used for this check."
+msgstr "Sampel fisik yang digunakan untuk pemeriksaan ini."
+
+#. module: farm_quality
+msgid "Title"
+msgstr "Judul"
+
+#. module: farm_quality
+msgid "To Date"
+msgstr "Sampai Tanggal"
+
+#. module: farm_quality
+msgid "To do"
+msgstr "Untuk Dikerjakan"
+
+#. module: farm_quality
+msgid "Type"
+msgstr "Jenis"
+
+#. module: farm_quality
+msgid "Unacceptable (Process is out of control)"
+msgstr "Tidak Dapat Diterima (Proses di luar kendali)"
+
+#. module: farm_quality
+msgid "Undetermined (Sigma is 0)"
+msgstr "Tidak Dapat Ditentukan (Sigma adalah 0)"
+
+#. module: farm_quality
+msgid "Upper Control Limit (UCL)"
+msgstr "Batas Kendali Atas (UCL)"
+
+#. module: farm_quality
+msgid "Used"
+msgstr "Terpakai"
+
+#. module: farm_quality
+msgid "User who should only see blind code, not source details"
+msgstr "Pengguna yang hanya boleh melihat kode buta, bukan detail sumber"
+
+#. module: farm_quality
+msgid "Validate"
+msgstr "Validasi"
+
+#. module: farm_quality
+msgid "Verify CCP"
+msgstr "Verifikasi CCP"
+
+#. module: farm_quality
+msgid "Visual Appearance Check"
+msgstr "Pemeriksaan Penampilan Visual"
+
+#. module: farm_quality
+msgid "When checked, hides source details from testers"
+msgstr "Jika dicentang, menyembunyikan detail sumber dari penguji"
+
+#. module: farm_quality
+msgid "Whether the current user should see masked information"
+msgstr "Apakah pengguna saat ini boleh melihat informasi yang disamarkan"
+
+#. module: farm_quality
+msgid "You can only generate records from a template in Draft state."
+msgstr "Anda hanya dapat membuat catatan dari templat dalam status Draf."
+
+#. module: farm_quality
+msgid "[LSL] Min Tolerance"
+msgstr "[LSL] Toleransi Min"
+
+#. module: farm_quality
+msgid "[USL] Max Tolerance"
+msgstr "[USL] Toleransi Maks"
+
+#. module: farm_quality
+msgid "e.g. Daily Pesticide Inspection Template"
+msgstr "cth. Templat Inspeksi Pestisida Harian"
+
+#. module: farm_quality
+msgid "e.g. Lab Fridge A-01"
+msgstr "cth. Kulkas Lab A-01"
+
+#. module: farm_quality
+msgid "e.g. Pasteurizer Outlet Temperature"
+msgstr "cth. Suhu Outlet Pasteurizer"
+
+#. module: farm_quality
+msgid "e.g., Check pasteurizer safety valve"
+msgstr "cth. Periksa katup pengaman pasteurizer"
+
+#. module: farm_quality
+msgid "e.g., Verify that pressure is <= 150 PSI..."
+msgstr "cth. Pastikan tekanan <= 150 PSI..."

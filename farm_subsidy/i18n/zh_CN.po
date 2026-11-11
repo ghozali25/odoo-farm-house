@@ -1,0 +1,105 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_subsidy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-05-04 09:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid ""
+"\n"
+"\n"
+"Issues found:\n"
+msgstr ""
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid "All evidence records have been successfully verified."
+msgstr "所有证据记录均已成功核实。"
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid "Compliance Evidence"
+msgstr "合规证据"
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid "Compliance Handbook"
+msgstr "合规手册"
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid ""
+"Compliance Handbook generated with %d evidence records. Ready for audit "
+"submission."
+msgstr ""
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid ""
+"Compliance evidence collection completed. Found %d evidence records for this"
+" application."
+msgstr ""
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid "Evidence Integrity Issues"
+msgstr "证据完整性问题"
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid ""
+"Evidence integrity verification completed. %d records verified, %d issues "
+"found."
+msgstr ""
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid "Integrity Verification Complete"
+msgstr "完整性验证完成"
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid "New"
+msgstr "新建"
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid ""
+"No compliance evidence found for this application during fiscal year %s."
+msgstr ""
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid "SUB"
+msgstr "子系统"
+
+#. module: farm_subsidy
+#. odoo-python
+#: code:addons/farm_subsidy/models/subsidy.py:0
+msgid "id"
+msgstr "ID"

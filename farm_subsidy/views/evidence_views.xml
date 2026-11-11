@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Batch 6: minimal views for the concrete agri.evidence model defined in
+     models/agri_evidence.py (upstream farm_subsidy has no views for it —
+     its actions open list,form with auto-generated views). -->
+<odoo>
+<data>
+    <record id="view_agri_evidence_list" model="ir.ui.view">
+        <field name="name">agri.evidence.list</field>
+        <field name="model">agri.evidence</field>
+        <field name="arch" type="xml">
+            <list string="Evidence Records">
+                <field name="name" />
+                <field name="taken_at" />
+                <field name="res_model" />
+                <field name="is_on_site" />
+                <field name="is_hash_verified" />
+                <field name="subsidy_application_id" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_agri_evidence_form" model="ir.ui.view">
+        <field name="name">agri.evidence.form</field>
+        <field name="model">agri.evidence</field>
+        <field name="arch" type="xml">
+            <form string="Evidence Record">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="taken_at" />
+                        <field name="worker_id" />
+                        <field name="res_model" />
+                        <field name="res_id" />
+                        <field name="gps_lat" />
+                        <field name="gps_lng" />
+                        <field name="is_on_site" />
+                        <field name="is_hash_verified" />
+                        <field name="subsidy_application_id" />
+                        <field name="note" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</data>
+</odoo>

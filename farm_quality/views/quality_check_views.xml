@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="farm_quality_check_view_tree" model="ir.ui.view">
+        <field name="name">agri.quality.check.list</field>
+        <field name="model">agri.quality.check</field>
+        <field name="arch" type="xml">
+            <list string="Quality Checks">
+                <field name="name" />
+                <field name="lot_id" />
+                <field name="point_id" />
+                <field name="quality_state" widget="badge" decoration-success="quality_state == 'pass'" decoration-danger="quality_state == 'fail'" />
+            </list>
+        </field>
+    </record>
+
+    <record id="farm_quality_check_view_form" model="ir.ui.view">
+        <field name="name">agri.quality.check.form</field>
+        <field name="model">agri.quality.check</field>
+        <field name="arch" type="xml">
+            <form string="Quality Check">
+                <header>
+                    <button name="action_pass" string="Pass" type="object" class="btn-success" invisible="quality_state != 'none' or test_type == 'measure'" />
+                    <button name="action_fail" string="Fail" type="object" class="btn-danger" invisible="quality_state != 'none' or test_type == 'measure'" />
+                    <button name="action_done" string="Validate" type="object" class="btn-primary" invisible="quality_state != 'none' or test_type != 'measure'" />
+                    <button name="action_check_ccp_violations" string="Verify CCP" type="object" class="btn-info" invisible="quality_state != 'none'" />
+                    
+                    <field name="quality_state" widget="statusbar" />
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name" readonly="1" /></h1>
+                    </div>
+                    <div class="alert alert-info" role="alert" style="margin-bottom:15px;" invisible="not instruction">
+                        <strong>Standard Operating Instructions:</strong> <field name="instruction" readonly="1" />
+                    </div>
+                    <group>
+                        <group>
+                            <field name="point_id" />
+                            <field name="lot_id" invisible="is_blind_view" />
+                            <field name="sample_id" domain="[('lot_id', '=', lot_id)]" />
+                            <field name="task_id" />
+                            <field name="is_blind_view" invisible="1" />
+                        </group>
+                        <group>
+                            <field name="test_type" invisible="1" />
+                            <field name="measure" invisible="test_type != 'measure'" />
+                            <field name="user_id" />
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Sub-Measurements (Replicates)" name="measure_lines" invisible="test_type != 'measure'">
+                            <p class="text-muted mt-2">
+                                For GxP compliance and laboratory standards, enter multiple replicate measurements. The 'Actual Measure' field above is computed automatically as the mathematical average (Mean) of these values.
+                            </p>
+                            <field name="measure_line_ids" readonly="quality_state != 'none'">
+                                <list editable="bottom">
+                                    <field name="sequence" />
+                                    <field name="value" string="Measured Value" />
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Field Quick Test" name="quick_test">
+                            <group>
+                                <field name="is_quick_test" />
+                                <field name="quick_test_photo" widget="image" invisible="not is_quick_test" />
+                            </group>
+                        </page>
+                        <page string="Sensory Evaluation" name="sensory" invisible="test_type != 'sensory'">
+                            <group>
+                                <group>
+                                    <field name="appearance_score" />
+                                    <field name="aroma_score" />
+                                </group>
+                                <group>
+                                    <field name="flavor_score" />
+                                    <field name="texture_score" />
+                                </group>
+                            </group>
+                            <field name="sensory_notes" placeholder="Detailed sensory profile notes..." />
+                        </page>
+                        <page string="LIMS &amp; Traceability" name="lims">
+                            <group>
+                                <group string="LIMS Integration">
+                                    <field name="lims_device_id" />
+                                    <field name="lims_source_data" />
+                                </group>
+                                <group string="Security Fingerprint">
+                                    <field name="blockchain_hash" />
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" />
+                    <field name="message_ids" />
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_farm_quality_check" model="ir.actions.act_window">
+        <field name="name">Quality Checks</field>
+        <field name="res_model">agri.quality.check</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    
+    <menuitem id="menu_quality_check" name="Quality Checks" web_icon="farm_quality,static/description/icon.png" action="action_farm_quality_check" sequence="20" />
+</data>
+</odoo>

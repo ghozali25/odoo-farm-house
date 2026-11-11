@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="hr_employee_view_form_inherit_farm_training" model="ir.ui.view">
+            <field name="name">hr.employee.form.inherit.farm.training</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form" />
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page string="Farm Training &amp; Certifications">
+                        <group>
+                            <field name="farm_skill_ids" widget="many2many_tags" />
+                            <field name="certification_ids" widget="many2many_tags" />
+                            <field name="training_record_ids">
+                                <list editable="bottom">
+                                    <field name="certification_id" />
+                                    <field name="training_date" />
+                                    <field name="expiration_date" />
+                                    <field name="status" />
+                                    <field name="trainer_id" />
+                                    <field name="notes" />
+                                </list>
+                            </field>
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+</data>
+</odoo>

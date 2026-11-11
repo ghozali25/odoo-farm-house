@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<record id="view_task_form2_inherit_farm_op" model="ir.ui.view">
+        <field name="name">project.task.form.farm.op</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_form2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <!-- NOTE (porting): the "Environment" telemetry stat button
+                     was removed — it opened farm_iot.action_farm_telemetry
+                     (farm_iot is batch 2). The action_view_telemetry method
+                     stays, guarded, for when farm_iot is installed. -->
+            </xpath>
+            <xpath expr="//field[@name='user_ids']" position="after">
+                <field name="campaign_id" options="{'no_create': True}"/>
+                <field name="land_parcel_id"/>
+                <field name="biological_lot_id"/>
+                <field name="support_id" groups="base.group_no_one"/>
+                <field name="size_value"/>
+            </xpath>
+            <xpath expr="//group" position="after">
+                <group string="Nutrient Stats" invisible="total_n == 0 and total_p == 0 and total_k == 0">
+                    <group string="Totals (kg)">
+                        <field name="total_n"/>
+                        <field name="total_p"/>
+                        <field name="total_k"/>
+                    </group>
+                    <group string="Density (kg/unit)">
+                        <field name="n_density"/>
+                        <field name="p_density"/>
+                        <field name="k_density"/>
+                    </group>
+                </group>
+                <group string="Safety &amp; Compliance" invisible="not biological_lot_id">
+                    <group>
+                        <field name="is_safe_to_harvest" widget="boolean_toggle"/>
+                        <field name="days_to_safety" invisible="is_safe_to_harvest"/>
+                    </group>
+                </group>
+            </xpath>
+            <xpath expr="//notebook" position="inside">
+                <page string="Agri Interventions" name="agri_interventions">
+                    <field name="intervention_ids" context="{'default_agri_task_id': id}">
+                        <list editable="bottom">
+                            <field name="name"/>
+                            <field name="intervention_type"/>
+                            <field name="product_id"/>
+                            <field name="product_qty"/>
+                            <field name="state"/>
+                        </list>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</data>
+</odoo>

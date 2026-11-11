@@ -1,0 +1,216 @@
+# Translation of Farm Weather Forecast (farm_weather) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_weather 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 14:30+0700\n"
+"PO-Revision-Date: 2026-11-10 14:30+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_weather
+msgid "Farm Weather Forecast"
+msgstr "Prakiraan Cuaca Pertanian"
+
+#. module: farm_weather
+msgid "Weather Forecast Integration for Farm Management"
+msgstr "Integrasi Prakiraan Cuaca untuk Manajemen Pertanian"
+
+#. module: farm_weather
+msgid "Weather module for Odoo 18 Farm Management System."
+msgstr "Modul cuaca untuk Sistem Manajemen Pertanian Odoo 18."
+
+#. module: farm_weather
+msgid "Fetch 7-day weather forecast via external API"
+msgstr "Ambil prakiraan cuaca 7 hari melalui API eksternal"
+
+#. module: farm_weather
+msgid "Link weather to GIS locations (parcels)"
+msgstr "Tautkan cuaca ke lokasi GIS (petak lahan)"
+
+#. module: farm_weather
+msgid "Weather-based alerts (Frost, Storm, High Temp)"
+msgstr "Peringatan berbasis cuaca (Embun Beku, Badai, Suhu Tinggi)"
+
+#. module: farm_weather
+msgid "Agricultural Weather Forecast"
+msgstr "Prakiraan Cuaca Pertanian"
+
+#. module: farm_weather
+msgid "Farm Weather Forecast (Deprecated - Use agri.weather.forecast)"
+msgstr "Prakiraan Cuaca Pertanian (Tidak digunakan lagi - Gunakan agri.weather.forecast)"
+
+#. module: farm_weather
+msgid "Date"
+msgstr "Tanggal"
+
+#. module: farm_weather
+msgid "Farm Location"
+msgstr "Lokasi Pertanian"
+
+#. module: farm_weather
+msgid "Max Temp (°C)"
+msgstr "Suhu Maks (°C)"
+
+#. module: farm_weather
+msgid "Min Temp (°C)"
+msgstr "Suhu Min (°C)"
+
+#. module: farm_weather
+msgid "Precipitation (mm)"
+msgstr "Curah Hujan (mm)"
+
+#. module: farm_weather
+msgid "Condition"
+msgstr "Kondisi"
+
+#. module: farm_weather
+msgid "Icon ID"
+msgstr "ID Ikon"
+
+#. module: farm_weather
+msgid "Humidity (%)"
+msgstr "Kelembapan (%)"
+
+#. module: farm_weather
+msgid "Wind Speed (m/s)"
+msgstr "Kecepatan Angin (m/dtk)"
+
+#. module: farm_weather
+msgid "Weather Warning"
+msgstr "Peringatan Cuaca"
+
+#. module: farm_weather
+msgid "Warning Type"
+msgstr "Jenis Peringatan"
+
+#. module: farm_weather
+msgid "Frost Risk"
+msgstr "Risiko Embun Beku"
+
+#. module: farm_weather
+msgid "Heavy Rain/Storm"
+msgstr "Hujan Lebat/Badai"
+
+#. module: farm_weather
+msgid "Extreme Heat"
+msgstr "Panas Ekstrem"
+
+#. module: farm_weather
+msgid "Strong Wind"
+msgstr "Angin Kencang"
+
+#. module: farm_weather
+msgid "Weather API Key (OpenWeatherMap)"
+msgstr "Kunci API Cuaca (OpenWeatherMap)"
+
+#. module: farm_weather
+msgid "Weather Alert: %s predicted on %s"
+msgstr "Peringatan Cuaca: %s diperkirakan pada %s"
+
+#. module: farm_weather
+msgid "Please check the parcel and activate protection measures if necessary."
+msgstr "Silakan periksa petak lahan dan aktifkan langkah perlindungan bila perlu."
+
+#. module: farm_weather
+msgid "Weather Disaster: %s on %s for %s"
+msgstr "Bencana Cuaca: %s pada %s untuk %s"
+
+#. module: farm_weather
+msgid "Auto-generated from weather forecast: %s predicted."
+msgstr "Dibuat otomatis dari prakiraan cuaca: %s diperkirakan."
+
+#. module: farm_weather
+msgid "Weather Forecast"
+msgstr "Prakiraan Cuaca"
+
+#. module: farm_weather
+msgid "Weather Detail"
+msgstr "Detail Cuaca"
+
+#. module: farm_weather
+msgid "Conditions"
+msgstr "Kondisi"
+
+#. module: farm_weather
+msgid "Metrics"
+msgstr "Metrik"
+
+#. module: farm_weather
+msgid "Weather Warning!"
+msgstr "Peringatan Cuaca!"
+
+#. module: farm_weather
+msgid "Potential"
+msgstr "Potensi"
+
+#. module: farm_weather
+msgid "detected for this date."
+msgstr "terdeteksi untuk tanggal ini."
+
+#. module: farm_weather
+msgid "Weather"
+msgstr "Cuaca"
+
+#. module: farm_weather
+msgid "Forecast"
+msgstr "Prakiraan"
+
+#. module: farm_weather
+msgid "Agricultural Weather"
+msgstr "Cuaca Pertanian"
+
+#. module: farm_weather
+msgid "Integration with OpenWeatherMap API for 5-day forecasts."
+msgstr "Integrasi dengan API OpenWeatherMap untuk prakiraan 5 hari."
+
+#. module: farm_weather
+msgid "Farm: Fetch Weather Forecast"
+msgstr "Pertanian: Ambil Prakiraan Cuaca"
+
+#. module: farm_weather
+msgid "Real-time Sensing"
+msgstr "Penginderaan Real-time"
+
+#. module: farm_weather
+msgid "Strategic Architecture"
+msgstr "Arsitektur Strategis"
+
+#. module: farm_weather
+msgid "Data Foundation"
+msgstr "Fondasi Data"
+
+#. module: farm_weather
+msgid "Standardized agri-data model ensuring semantic alignment."
+msgstr "Model data pertanian terstandardisasi yang memastikan keselarasan semantik antar modul."
+
+#. module: farm_weather
+msgid "Process Loop"
+msgstr "Siklus Proses"
+
+#. module: farm_weather
+msgid "End-to-end automation across the business lifecycle."
+msgstr "Otomatisasi ujung-ke-ujung di seluruh siklus hidup bisnis."
+
+#. module: farm_weather
+msgid "Smart Dispatch"
+msgstr "Penjadwalan Cerdas"
+
+#. module: farm_weather
+msgid "Intelligent resource allocation based on real-time data."
+msgstr "Alokasi sumber daya cerdas berdasarkan data real-time."
+
+#. module: farm_weather
+msgid "Support & Brand"
+msgstr "Dukungan & Merek"
+
+#. module: farm_weather
+msgid "Follow GeninIT Industrial Visual Language (GIVL) Standards."
+msgstr "Mengikuti Standar Bahasa Visual Industri GeninIT (GIVL)."

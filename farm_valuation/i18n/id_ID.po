@@ -1,0 +1,313 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# \t* farm_valuation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 21:00+0000\n"
+"PO-Revision-Date: 2026-11-09 21:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (id_ID)\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+
+#. module: farm_valuation
+#. odoo-python
+#: code:addons/farm_valuation/models/biological_asset_fair_valuation.py:0
+msgid "Fair Valuation"
+msgstr "Penilaian Wajar"
+
+#. module: farm_valuation
+#. odoo-python
+#: code:addons/farm_valuation/models/biological_asset_fair_valuation.py:0
+msgid "Fair valuation process initiated for selected assets"
+msgstr "Proses penilaian wajar dimulai untuk aset yang dipilih"
+
+#. module: farm_valuation
+#. odoo-python
+#: code:addons/farm_valuation/models/biological_asset_fair_valuation.py:0
+#: code:addons/farm_valuation/models/market_price.py:0
+msgid "New"
+msgstr "Baru"
+
+#. module: farm_valuation
+#. odoo-python
+#: code:addons/farm_valuation/models/biological_asset_fair_valuation.py:0
+msgid ""
+"REVALUATION ENTRY: Asset revalued from %s to %s (change: %s). Journal "
+"entry %s created for %s %s."
+msgstr "JURNAL REVALUASI: Aset dinilai ulang dari %s menjadi %s (perubahan: %s). Jurnal %s dibuat sebesar %s %s."
+
+#. module: farm_valuation
+msgid "Valuation"
+msgstr "Penilaian"
+
+#. module: farm_valuation
+msgid "Valuation Reference"
+msgstr "Referensi Penilaian"
+
+#. module: farm_valuation
+msgid "Biological Asset"
+msgstr "Aset Biologis"
+
+#. module: farm_valuation
+msgid "Valuation Date"
+msgstr "Tanggal Penilaian"
+
+#. module: farm_valuation
+msgid "Current Growth Progress %"
+msgstr "Kemajuan Pertumbuhan Saat Ini %"
+
+#. module: farm_valuation
+msgid "Target Yield"
+msgstr "Target Hasil"
+
+#. module: farm_valuation
+msgid "Current Yield Potential"
+msgstr "Potensi Hasil Saat Ini"
+
+#. module: farm_valuation
+msgid "Market Price (per unit)"
+msgstr "Harga Pasar (per unit)"
+
+#. module: farm_valuation
+msgid "Market Price Source"
+msgstr "Sumber Harga Pasar"
+
+#. module: farm_valuation
+msgid "Fair Value"
+msgstr "Nilai Wajar"
+
+#. module: farm_valuation
+msgid "Valuation Method"
+msgstr "Metode Penilaian"
+
+#. module: farm_valuation
+msgid "Market Price"
+msgstr "Harga Pasar"
+
+#. module: farm_valuation
+msgid "Cost Model"
+msgstr "Model Biaya"
+
+#. module: farm_valuation
+msgid "Hybrid Model"
+msgstr "Model Hibrida"
+
+#. module: farm_valuation
+msgid "Previous Valuation"
+msgstr "Penilaian Sebelumnya"
+
+#. module: farm_valuation
+msgid "Revaluation Amount"
+msgstr "Jumlah Revaluasi"
+
+#. module: farm_valuation
+msgid "Revaluation Gain"
+msgstr "Keuntungan Revaluasi"
+
+#. module: farm_valuation
+msgid "Revaluation Loss"
+msgstr "Kerugian Revaluasi"
+
+#. module: farm_valuation
+msgid "Revaluation Type"
+msgstr "Jenis Revaluasi"
+
+#. module: farm_valuation
+msgid "Journal Entry"
+msgstr "Jurnal"
+
+#. module: farm_valuation
+msgid "Accounting Entry Created"
+msgstr "Jurnal Akuntansi Dibuat"
+
+#. module: farm_valuation
+msgid "OPE Score"
+msgstr "Skor OPE"
+
+#. module: farm_valuation
+msgid "Efficiency Multiplier"
+msgstr "Pengali Efisiensi"
+
+#. module: farm_valuation
+msgid "Current Fair Value"
+msgstr "Nilai Wajar Saat Ini"
+
+#. module: farm_valuation
+msgid "Fair Value Date"
+msgstr "Tanggal Nilai Wajar"
+
+#. module: farm_valuation
+msgid "Fair Valuations"
+msgstr "Penilaian Wajar"
+
+#. module: farm_valuation
+msgid "OPE Integration Score"
+msgstr "Skor Integrasi OPE"
+
+#. module: farm_valuation
+msgid "Price Reference"
+msgstr "Referensi Harga"
+
+#. module: farm_valuation
+msgid "Commodity"
+msgstr "Komoditas"
+
+#. module: farm_valuation
+msgid "Price Date"
+msgstr "Tanggal Harga"
+
+#. module: farm_valuation
+msgid "Unit Price"
+msgstr "Harga Satuan"
+
+#. module: farm_valuation
+msgid "Price UOM"
+msgstr "Satuan Harga"
+
+#. module: farm_valuation
+msgid "Source"
+msgstr "Sumber"
+
+#. module: farm_valuation
+msgid "Source of the price data (e.g., Commodity Exchange, Futures)"
+msgstr "Sumber data harga (mis. Bursa Komoditas, Futures)"
+
+#. module: farm_valuation
+msgid "Futures Contract"
+msgstr "Kontrak Futures"
+
+#. module: farm_valuation
+msgid "Specific futures contract identifier (e.g., CBOT Corn Dec26)"
+msgstr "Pengenal kontrak futures tertentu (mis. CBOT Corn Dec26)"
+
+#. module: farm_valuation
+msgid "Futures Price"
+msgstr "Harga Futures"
+
+#. module: farm_valuation
+msgid "Price from futures market if applicable"
+msgstr "Harga dari pasar futures bila ada"
+
+#. module: farm_valuation
+msgid "Volatility Index"
+msgstr "Indeks Volatilitas"
+
+#. module: farm_valuation
+msgid "Price volatility indicator"
+msgstr "Indikator volatilitas harga"
+
+#. module: farm_valuation
+msgid "Data Confidence"
+msgstr "Kepercayaan Data"
+
+#. module: farm_valuation
+msgid "Low"
+msgstr "Rendah"
+
+#. module: farm_valuation
+msgid "Medium"
+msgstr "Sedang"
+
+#. module: farm_valuation
+msgid "High"
+msgstr "Tinggi"
+
+#. module: farm_valuation
+msgid "Market Price Date"
+msgstr "Tanggal Harga Pasar"
+
+#. module: farm_valuation
+msgid "Market Price UOM"
+msgstr "Satuan Harga Pasar"
+
+#. module: farm_valuation
+msgid "Unit of measure for the price"
+msgstr "Satuan ukuran untuk harga"
+
+#. module: farm_valuation
+msgid "Unit of measure for market price"
+msgstr "Satuan ukuran untuk harga pasar"
+
+#. module: farm_valuation
+msgid "Expected Yield per Unit"
+msgstr "Perkiraan Hasil per Unit"
+
+#. module: farm_valuation
+msgid "Expected yield per biological unit (e.g., per head, per plant)"
+msgstr "Perkiraan hasil per unit biologis (mis. per ekor, per tanaman)"
+
+#. module: farm_valuation
+msgid "Market Prices"
+msgstr "Harga Pasar"
+
+#. module: farm_valuation
+msgid "Biological Asset Valuations"
+msgstr "Penilaian Aset Biologis"
+
+#. module: farm_valuation
+msgid "Biological Asset Valuation"
+msgstr "Penilaian Aset Biologis"
+
+#. module: farm_valuation
+msgid "Current physiological progress as percentage (0-100)"
+msgstr "Kemajuan fisiologis saat ini dalam persen (0-100)"
+
+#. module: farm_valuation
+msgid "Expected final yield at maturity"
+msgstr "Perkiraan hasil akhir saat dewasa/panen"
+
+#. module: farm_valuation
+msgid "Current yield potential based on growth progress"
+msgstr "Potensi hasil saat ini berdasarkan kemajuan pertumbuhan"
+
+#. module: farm_valuation
+msgid "Current market price from external sources"
+msgstr "Harga pasar saat ini dari sumber eksternal"
+
+#. module: farm_valuation
+msgid "Source of the market price data"
+msgstr "Sumber data harga pasar"
+
+#. module: farm_valuation
+msgid "Calculated fair value = (current_yield_potential * market_price)"
+msgstr "Nilai wajar dihitung = (potensi hasil saat ini * harga pasar)"
+
+#. module: farm_valuation
+msgid "Difference between current and previous valuation"
+msgstr "Selisih antara penilaian saat ini dan sebelumnya"
+
+#. module: farm_valuation
+msgid "Previous fair value for comparison"
+msgstr "Nilai wajar sebelumnya untuk perbandingan"
+
+#. module: farm_valuation
+msgid "Operational Performance Efficiency score linked to valuation"
+msgstr "Skor Efisiensi Kinerja Operasional yang terkait dengan penilaian"
+
+#. module: farm_valuation
+msgid "Multiplier based on asset efficiency metrics"
+msgstr "Pengali berdasarkan metrik efisiensi aset"
+
+#. module: farm_valuation
+msgid "Current fair value based on market conditions"
+msgstr "Nilai wajar saat ini berdasarkan kondisi pasar"
+
+#. module: farm_valuation
+msgid "Date of last fair value calculation"
+msgstr "Tanggal perhitungan nilai wajar terakhir"
+
+#. module: farm_valuation
+msgid "Link to created journal entry"
+msgstr "Tautan ke jurnal yang dibuat"
+
+#. module: farm_valuation
+msgid "Integration with OPE metrics for valuation"
+msgstr "Integrasi dengan metrik OPE untuk penilaian"

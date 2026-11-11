@@ -1,0 +1,1051 @@
+# Translation of Farm UX (farm_ux) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings, prioritizing the strings
+# that were previously Mandarin and the module's main labels/menus.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_ux 18.0.1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 09:00+0700\n"
+"PO-Revision-Date: 2026-11-10 09:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "3m ago"
+msgstr "3 mnt lalu"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Accessibility Active"
+msgstr "Aksesibilitas Aktif"
+
+#. module: farm_ux
+#: model:ir.actions.act_window,name:farm_ux.action_accessibility_settings
+#: model:ir.ui.menu,name:farm_ux.menu_accessibility_settings
+msgid "Accessibility Settings"
+msgstr "Pengaturan Aksesibilitas"
+
+#. module: farm_ux
+#: model:ir.ui.menu,name:farm_ux.account.menu_finance
+msgid "Accounting & Val"
+msgstr "Akuntansi & Valuasi"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__admin_ids
+msgid "Administrators"
+msgstr "Administrator"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__difficulty_level__advanced
+msgid "Advanced"
+msgstr "Lanjutan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__alternative_input_method
+msgid "Alternative Input"
+msgstr "Input Alternatif"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__animation_effect
+msgid "Animation Effect"
+msgstr "Efek Animasi"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__industry_context__aquaculture
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__industry_type__aquaculture
+#: model:ir.model.fields.selection,name:farm_ux.selection__term_mapping__industry_context__aquaculture
+msgid "Aquaculture"
+msgstr "Akuakultur"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__multi_sensory_interaction__interaction_type__audio_feedback
+msgid "Audio Feedback"
+msgstr "Umpan Balik Audio"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__audio_notification
+msgid "Audio Notification"
+msgstr "Notifikasi Audio"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__visual_status_indicator__status_type__badge
+msgid "Badge / Text"
+msgstr "Lencana / Teks"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__badge_style
+msgid "Badge Style"
+msgstr "Gaya Lencana"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__industry_context__bakery
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__industry_type__bakery
+#: model:ir.model.fields.selection,name:farm_ux.selection__term_mapping__industry_context__bakery
+msgid "Bakery"
+msgstr "Roti"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "Begin recording time and GPS"
+msgstr "Mulai mencatat waktu dan GPS"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__difficulty_level__beginner
+msgid "Beginner"
+msgstr "Pemula"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__view_type__calendar
+msgid "Calendar View"
+msgstr "Tampilan Kalender"
+
+#. module: farm_ux
+#: model:ir.ui.menu,name:farm_ux.purchase.menu_purchase_root
+msgid "Clearing & PO"
+msgstr "Kliring & PO"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Co-op Alert"
+msgstr "Peringatan Koperasi"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__visual_status_indicator__status_type__color
+msgid "Color / Signal"
+msgstr "Warna / Sinyal"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__color_blind_mode
+msgid "Color Blind Mode"
+msgstr "Mode Buta Warna"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__color_code
+msgid "Color Code"
+msgstr "Kode Warna"
+
+#. module: farm_ux
+#: model:ir.ui.menu,name:farm_ux.base.menu_administration
+msgid "Console & Setup"
+msgstr "Konsol & Pengaturan"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Contextual Guidance"
+msgstr "Panduan Kontekstual"
+
+#. module: farm_ux
+#: model:ir.actions.act_window,name:farm_ux.action_contextual_help
+#: model:ir.ui.menu,name:farm_ux.menu_contextual_help
+msgid "Contextual Help"
+msgstr "Bantuan Kontekstual"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__farm_social_network__network_type__coop_members
+msgid "Cooperative Members"
+msgstr "Anggota Koperasi"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__created_by
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__created_by
+msgid "Created By"
+msgstr "Dibuat Oleh"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__created_date
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__created_date
+msgid "Created Date"
+msgstr "Tanggal Dibuat"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__custom_color_scheme
+msgid "Custom Color Scheme"
+msgstr "Skema Warna Kustom"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__name
+msgid "Customization Name"
+msgstr "Nama Kustomisasi"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__industry_context__dairy
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__industry_type__dairy
+#: model:ir.model.fields.selection,name:farm_ux.selection__term_mapping__industry_context__dairy
+msgid "Dairy"
+msgstr "Susu"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__visual_status_indicator__badge_style__danger
+msgid "Danger"
+msgstr "Bahaya"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__workspace_customization__theme_preference__dark
+msgid "Dark Theme"
+msgstr "Tema Gelap"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__dashboard_widgets
+msgid "Dashboard Widgets"
+msgstr "Widget Dashboard"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__description
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__description
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__description
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__description
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__description
+msgid "Description"
+msgstr "Deskripsi"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__difficulty_level
+msgid "Difficulty Level"
+msgstr "Tingkat Kesulitan"
+
+#. module: farm_ux
+#: model:ir.ui.menu,name:farm_ux.mail.menu_root_discuss
+msgid "Discuss & AI Advisor"
+msgstr "Diskusi & Penasihat AI"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__display_on_mobile
+msgid "Display on Mobile"
+msgstr "Tampil di Mobile"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__accessibility_settings__font_family_preference__dyslexic
+msgid "Dyslexia Friendly"
+msgstr "Ramah Disleksia"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__evaluation_logic
+msgid "Evaluation Logic"
+msgstr "Logika Evaluasi"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__example_usage
+msgid "Example Usage"
+msgstr "Contoh Penggunaan"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__workspace_customization__font_size__extra_large
+msgid "Extra Large"
+msgstr "Sangat Besar"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__workspace_customization__theme_preference__eye_care
+msgid "Eye Care Mode"
+msgstr "Mode Perawatan Mata"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__accessibility_settings__alternative_input_method__eye_tracking
+msgid "Eye Tracking"
+msgstr "Pelacakan Mata"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Farm Hub"
+msgstr "Pusat Farm"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Farm Hub: Help & Social"
+msgstr "Pusat Farm: Bantuan & Sosial"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__user_role__farmer
+msgid "Farm Owner"
+msgstr "Pemilik Farm"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Farm Social"
+msgstr "Sosial Farm"
+
+#. module: farm_ux
+#: model:ir.actions.act_window,name:farm_ux.action_farm_social
+#: model:ir.ui.menu,name:farm_ux.menu_farm_social
+msgid "Farm Social Network"
+msgstr "Jejaring Sosial Farm"
+
+#. module: farm_ux
+#: model:ir.ui.menu,name:farm_ux.menu_ux_root
+msgid "Farm UX"
+msgstr "Farm UX"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__user_role__worker
+msgid "Farm Worker"
+msgstr "Pekerja Farm"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__name
+msgid "Feature Name"
+msgstr "Nama Fitur"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__field_name
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__field_name
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__field_name
+msgid "Field Name"
+msgstr "Nama Field"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "Finalize intervention"
+msgstr "Finalisasi intervensi"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__font_family_preference
+msgid "Font Family"
+msgstr "Jenis Font"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__font_scaling
+msgid "Font Scaling Factor"
+msgstr "Faktor Skala Font"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__font_size
+msgid "Font Size"
+msgstr "Ukuran Font"
+
+#. module: farm_ux
+#: code:addons/farm_ux/models/accessibility_settings.py:0
+msgid "Font scaling factor must be between 0.5 and 3.0"
+msgstr "Faktor skala font harus antara 0,5 dan 3,0"
+
+#. module: farm_ux
+#: model:ir.actions.act_window,name:farm_ux.action_form_layouts
+#: model:ir.ui.menu,name:farm_ux.menu_form_layouts
+msgid "Form Layout Templates"
+msgstr "Template Layout Form"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__view_type__form
+msgid "Form View"
+msgstr "Tampilan Form"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__industry_context__general
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__industry_type__general
+#: model:ir.model.fields.selection,name:farm_ux.selection__term_mapping__industry_context__general
+msgid "General Agriculture"
+msgstr "Pertanian Umum"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__multi_sensory_interaction__interaction_type__gesture_control
+msgid "Gesture Control"
+msgstr "Kontrol Gerakan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__gesture_mappings
+msgid "Gesture Mappings"
+msgstr "Pemetaan Gerakan"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__view_type__graph
+msgid "Graph View"
+msgstr "Tampilan Grafik"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__haptic_feedback
+#: model:ir.model.fields.selection,name:farm_ux.selection__multi_sensory_interaction__interaction_type__haptic_feedback
+msgid "Haptic Feedback"
+msgstr "Umpan Balik Haptik"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__help_content
+msgid "Help Content"
+msgstr "Konten Bantuan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__help_image
+msgid "Help Image"
+msgstr "Gambar Bantuan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__name
+msgid "Help Topic"
+msgstr "Topik Bantuan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__hide_advanced_menus
+msgid "Hide Advanced Menus"
+msgstr "Sembunyikan Menu Lanjutan"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__workspace_customization__theme_preference__high_contrast
+msgid "High Contrast"
+msgstr "Kontras Tinggi"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__high_contrast_mode
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__high_contrast_mode
+msgid "High Contrast Mode"
+msgstr "Mode Kontras Tinggi"
+
+#. module: farm_ux
+#: model:ir.ui.view,arch_db:farm_ux.view_stock_lot_form_inherit_holographic
+msgid "Holographic DNA Map"
+msgstr "Peta DNA Holografik"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__icon
+#: model:ir.model.fields.selection,name:farm_ux.selection__visual_status_indicator__status_type__icon
+msgid "Icon"
+msgstr "Ikon"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__image_name
+msgid "Image Name"
+msgstr "Nama Gambar"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__inclusive_mode
+msgid "Inclusive/Elder Mode"
+msgstr "Mode Inklusif/Lansia"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__name
+msgid "Indicator Name"
+msgstr "Nama Indikator"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__status_type
+msgid "Indicator Type"
+msgstr "Jenis Indikator"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__industry_context
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__industry_context
+msgid "Industry Context"
+msgstr "Konteks Industri"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__industry_type
+msgid "Industry Type"
+msgstr "Jenis Industri"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__visual_status_indicator__badge_style__info
+msgid "Info"
+msgstr "Info"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__interaction_type
+msgid "Interaction Type"
+msgstr "Jenis Interaksi"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__difficulty_level__intermediate
+msgid "Intermediate"
+msgstr "Menengah"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__farm_social_network__privacy_level__invite_only
+msgid "Invite Only"
+msgstr "Hanya Undangan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__is_active
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__is_active
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__is_active
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__is_active
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__is_active
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__is_active
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__is_active
+msgid "Is Active"
+msgstr "Aktif"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__is_enabled
+msgid "Is Enabled"
+msgstr "Diaktifkan"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__view_type__kanban
+msgid "Kanban View"
+msgstr "Tampilan Kanban"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__keyboard_navigation
+msgid "Keyboard Navigation"
+msgstr "Navigasi Keyboard"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__keyboard_shortcuts
+msgid "Keyboard Shortcuts"
+msgstr "Pintasan Keyboard"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Knowledge"
+msgstr "Pengetahuan"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__farm_social_network__network_type__knowledge_sharing
+msgid "Knowledge Sharing"
+msgstr "Berbagi Pengetahuan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__language_code
+msgid "Language Code"
+msgstr "Kode Bahasa"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__language_preference
+msgid "Language Preference"
+msgstr "Preferensi Bahasa"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__workspace_customization__font_size__large
+msgid "Large"
+msgstr "Besar"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__large_font_support
+msgid "Large Font Support"
+msgstr "Dukungan Font Besar"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__large_touch_targets
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__large_touch_targets
+#: model:ir.model.fields.selection,name:farm_ux.selection__multi_sensory_interaction__interaction_type__large_touch_target
+msgid "Large Touch Targets"
+msgstr "Target Sentuh Besar"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__last_updated
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__last_updated
+msgid "Last Updated"
+msgstr "Terakhir Diperbarui"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__layout_definition
+msgid "Layout Definition"
+msgstr "Definisi Layout"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__layout_preference
+msgid "Layout Preferences"
+msgstr "Preferensi Layout"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__workspace_customization__theme_preference__light
+msgid "Light Theme"
+msgstr "Tema Terang"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__view_type__list
+msgid "List View"
+msgstr "Tampilan Daftar"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__industry_context__livestock
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__industry_type__livestock
+#: model:ir.model.fields.selection,name:farm_ux.selection__term_mapping__industry_context__livestock
+msgid "Livestock"
+msgstr "Peternakan"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__user_role__manager
+msgid "Manager"
+msgstr "Manajer"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__name
+msgid "Mapping Name"
+msgstr "Nama Pemetaan"
+
+#. module: farm_ux
+#: model:ir.ui.menu,name:farm_ux.stock.menu_stock_root
+msgid "Matter & Stock"
+msgstr "Materi & Stok"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__member_ids
+msgid "Members"
+msgstr "Anggota"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__message_board
+msgid "Message Board"
+msgstr "Papan Pesan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__model_name
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__model_name
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__model_name
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__model_name
+msgid "Model Name"
+msgstr "Nama Model"
+
+#. module: farm_ux
+#: model:ir.actions.act_window,name:farm_ux.action_multi_sensory
+#: model:ir.ui.menu,name:farm_ux.menu_multi_sensory
+msgid "Multi-Sensory Interaction"
+msgstr "Interaksi Multi-Sensor"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__name
+msgid "Network Name"
+msgstr "Nama Jaringan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__network_type
+msgid "Network Type"
+msgstr "Jenis Jaringan"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "No specific tips for this view."
+msgstr "Tidak ada tips khusus untuk tampilan ini."
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "No weather data for this location."
+msgstr "Tidak ada data cuaca untuk lokasi ini."
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__accessibility_settings__alternative_input_method__none
+msgid "None"
+msgstr "Tidak Ada"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__workspace_customization__font_size__normal
+msgid "Normal"
+msgstr "Normal"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__notification_sound
+msgid "Notification Sound"
+msgstr "Suara Notifikasi"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/agri_spatial_gauge.xml:0
+msgid "OOB Points"
+msgstr "Titik di Luar Batas"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Operation risks detected. Check safety protocols."
+msgstr "Risiko operasi terdeteksi. Periksa protokol keselamatan."
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "Pause/Finish recording"
+msgstr "Jeda/Selesaikan pencatatan"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__view_type__pivot
+msgid "Pivot View"
+msgstr "Tampilan Pivot"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__industry_context__planting
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__industry_type__planting
+#: model:ir.model.fields.selection,name:farm_ux.selection__term_mapping__industry_context__planting
+msgid "Planting"
+msgstr "Penanaman"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__visual_status_indicator__badge_style__primary
+msgid "Primary"
+msgstr "Primer"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__priority
+msgid "Priority"
+msgstr "Prioritas"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__privacy_level
+msgid "Privacy Level"
+msgstr "Tingkat Privasi"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__farm_social_network__privacy_level__private
+msgid "Private"
+msgstr "Privat"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__industry_context__processing
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__industry_type__processing
+#: model:ir.model.fields.selection,name:farm_ux.selection__term_mapping__industry_context__processing
+msgid "Processing"
+msgstr "Pengolahan"
+
+#. module: farm_ux
+#: model:ir.ui.menu,name:farm_ux.mrp.menu_mrp_root
+msgid "Processing & Fermentation"
+msgstr "Pengolahan & Fermentasi"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__farm_social_network__privacy_level__public
+msgid "Public"
+msgstr "Publik"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__quick_actions
+msgid "Quick Actions"
+msgstr "Aksi Cepat"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__reduced_motion
+msgid "Reduced Motion"
+msgstr "Kurangi Gerakan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__region_code
+msgid "Region Code"
+msgstr "Kode Wilayah"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__region_specific
+msgid "Region Specific"
+msgstr "Spesifik Wilayah"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__farm_social_network__network_type__regional_farmers
+msgid "Regional Farmers"
+msgstr "Petani Regional"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__farm_social_network__network_type__resource_sharing
+msgid "Resource Sharing"
+msgstr "Berbagi Sumber Daya"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "START WORK"
+msgstr "MULAI KERJA"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "STOP WORK"
+msgstr "BERHENTI KERJA"
+
+#. module: farm_ux
+#: model:ir.ui.menu,name:farm_ux.sale.sale_menu_root
+msgid "Sales Contracts"
+msgstr "Kontrak Penjualan"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__accessibility_settings__font_family_preference__sans-serif
+msgid "Sans-Serif"
+msgstr "Sans-Serif"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__screen_reader_compatible
+msgid "Screen Reader Compatible"
+msgstr "Kompatibel Pembaca Layar"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__screen_reader_enabled
+msgid "Screen Reader Enabled"
+msgstr "Pembaca Layar Aktif"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__visual_status_indicator__badge_style__secondary
+msgid "Secondary"
+msgstr "Sekunder"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__accessibility_settings__font_family_preference__serif
+msgid "Serif"
+msgstr "Serif"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__name
+msgid "Setting Name"
+msgstr "Nama Pengaturan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_social_network__shared_resources
+msgid "Shared Resources"
+msgstr "Sumber Daya Bersama"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Shared harvest equipment available in Zone B."
+msgstr "Peralatan panen bersama tersedia di Zona B."
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__simplified_kanban
+msgid "Simplified Kanban Cards"
+msgstr "Kartu Kanban Sederhana"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__workspace_customization__font_size__small
+msgid "Small"
+msgstr "Kecil"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Social"
+msgstr "Sosial"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__source_term
+msgid "Source Term (Industrial)"
+msgstr "Istilah Sumber (Industri)"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/agri_spatial_gauge.xml:0
+msgid "Spatial Compliance"
+msgstr "Kepatuhan Spasial"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__farm_social_network__network_type__specialty_crops
+msgid "Specialty Crops"
+msgstr "Tanaman Khusus"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_voice_recognition_alias__alias
+msgid "Spoken Alias / Phonetic"
+msgstr "Alias Ucapan / Fonetik"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_farm_voice_recognition_alias__target_term
+msgid "Standard Term"
+msgstr "Istilah Baku"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__status_value
+msgid "Status Value"
+msgstr "Nilai Status"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__visual_status_indicator__badge_style__success
+msgid "Success"
+msgstr "Sukses"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__accessibility_settings__alternative_input_method__switch
+msgid "Switch Access"
+msgstr "Akses Sakelar"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__target_roles
+msgid "Target Roles"
+msgstr "Peran Target"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_term_mapping__target_term
+msgid "Target Term (Agricultural)"
+msgstr "Istilah Target (Pertanian)"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__user_role__technician
+msgid "Technician"
+msgstr "Teknisi"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__name
+msgid "Template Name"
+msgstr "Nama Template"
+
+#. module: farm_ux
+#: model:ir.actions.act_window,name:farm_ux.action_term_mappings
+#: model:ir.ui.menu,name:farm_ux.menu_term_mapping
+msgid "Term Mappings"
+msgstr "Pemetaan Istilah"
+
+#. module: farm_ux
+#: code:addons/farm_ux/models/term_mapping.py:0
+msgid "Term mapping already exists for '%s' in this language/region context"
+msgstr "Pemetaan istilah untuk '%s' sudah ada dalam konteks bahasa/wilayah ini"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__theme_preference
+msgid "Theme Preference"
+msgstr "Preferensi Tema"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__timezone_preference
+msgid "Timezone Preference"
+msgstr "Preferensi Zona Waktu"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "UX Mode:"
+msgstr "Mode UX:"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__user_id
+#: model:ir.model.fields,field_description:farm_ux.field_workspace_customization__user_id
+msgid "User"
+msgstr "Pengguna"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__user_role
+msgid "User Role"
+msgstr "Peran Pengguna"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/agri_spatial_gauge.xml:0
+msgid "Verified via GPS Geofencing"
+msgstr "Terverifikasi via Geofencing GPS"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_form_layout_template__version
+msgid "Version"
+msgstr "Versi"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_visual_status_indicator__vibration_pattern
+msgid "Vibration Pattern"
+msgstr "Pola Getaran"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__help_video_url
+msgid "Video Tutorial URL"
+msgstr "URL Video Tutorial"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_contextual_help__view_type
+msgid "View Type"
+msgstr "Jenis Tampilan"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__visual_enhancement
+#: model:ir.model.fields.selection,name:farm_ux.selection__multi_sensory_interaction__interaction_type__visual_enhancement
+msgid "Visual Enhancement"
+msgstr "Peningkatan Visual"
+
+#. module: farm_ux
+#: model:ir.actions.act_window,name:farm_ux.action_visual_indicators
+#: model:ir.ui.menu,name:farm_ux.menu_visual_indicators
+msgid "Visual Status Indicators"
+msgstr "Indikator Status Visual"
+
+#. module: farm_ux
+#: model:ir.ui.menu,name:farm_ux.menu_voice_recognition_alias
+msgid "Voice Aliases"
+msgstr "Alias Suara"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Voice Command"
+msgstr "Perintah Suara"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_multi_sensory_interaction__voice_commands
+msgid "Voice Commands"
+msgstr "Perintah Suara"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__voice_control_enabled
+msgid "Voice Control Enabled"
+msgstr "Kontrol Suara Aktif"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__multi_sensory_interaction__interaction_type__voice_input
+msgid "Voice Input"
+msgstr "Input Suara"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__voice_navigation
+msgid "Voice Navigation"
+msgstr "Navigasi Suara"
+
+#. module: farm_ux
+#: model:ir.actions.act_window,name:farm_ux.action_voice_recognition_aliases
+msgid "Voice Recognition Aliases"
+msgstr "Alias Pengenalan Suara"
+
+#. module: farm_ux
+#: model:ir.model.fields,field_description:farm_ux.field_accessibility_settings__voice_entry_enabled
+msgid "Voice-First Entry"
+msgstr "Entri Suara Utama"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__visual_status_indicator__badge_style__warning
+msgid "Warning"
+msgstr "Peringatan"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Warning:"
+msgstr "Peringatan:"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Watch Video"
+msgstr "Tonton Video"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Weather"
+msgstr "Cuaca"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Weather Context"
+msgstr "Konteks Cuaca"
+
+#. module: farm_ux
+#: model:ir.model.fields.selection,name:farm_ux.selection__contextual_help__industry_context__winemaking
+#: model:ir.model.fields.selection,name:farm_ux.selection__form_layout_template__industry_type__winemaking
+#: model:ir.model.fields.selection,name:farm_ux.selection__term_mapping__industry_context__winemaking
+msgid "Winemaking"
+msgstr "Pembuatan Anggur"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/agri_spatial_gauge.xml:0
+msgid "Within Boundaries"
+msgstr "Dalam Batas"
+
+#. module: farm_ux
+#: model:ir.actions.act_window,name:farm_ux.action_workspace_customization
+#: model:ir.ui.menu,name:farm_ux.menu_workspace_customization
+msgid "Workspace Customization"
+msgstr "Kustomisasi Workspace"
+
+#. module: farm_ux
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "agricultural intervention"
+msgstr "intervensi pertanian"
+
+#. module: farm_ux
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "cultivation recipe"
+msgstr "resep budidaya"
+
+#. module: farm_ux
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "field task"
+msgstr "tugas lapangan"
+
+#. module: farm_ux
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "insufficient input evidence"
+msgstr "bukti input tidak mencukupi"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "m/s"
+msgstr "m/dtk"
+
+#. module: farm_ux
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "resource registry"
+msgstr "register sumber daya"
+
+#. module: farm_ux
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "°C"
+msgstr "°C"
+
+#. module: farm_ux
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "🌱 %d Agricultural Contributions awaiting verification."
+msgstr "🌱 %d Kontribusi Pertanian menunggu verifikasi."

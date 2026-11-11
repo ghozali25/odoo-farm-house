@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <record id="term_mapping_mrp_production" model="term.mapping">
+            <field name="name">Manufacturing Order - Intervention</field>
+            <field name="source_term">Manufacturing Order</field>
+            <field name="target_term">Agricultural Intervention</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Manufacturing Order to Agricultural Intervention</field>
+            <field name="example_usage">Replaces the Manufacturing Order term in the system with Agricultural Intervention, fitting the agricultural context</field>
+        </record>
+        <record id="term_mapping_mrp_production_short" model="term.mapping">
+            <field name="name">MO - Agri Intervention</field>
+            <field name="source_term">MO</field>
+            <field name="target_term">AI</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <!-- NOTE (porting batch 2): DEACTIVATED — the term engine applies
+                 regex WITHOUT word boundaries, case-insensitive, so "MO"
+                 corrupts any word containing it ("Model"→"AIdel",
+                 "Month"→"AI nth"). The engine itself is upstream logic and
+                 was not rewritten; this single mapping stays off until a
+                 word-boundary fix lands upstream. -->
+            <field name="is_active">False</field>
+            <field name="description">Maps the MO abbreviation to Agricultural Intervention</field>
+            <field name="example_usage">Replaces the MO abbreviation in the system with AI (Agricultural Intervention)</field>
+        </record>
+        <record id="term_mapping_production_plan" model="term.mapping">
+            <field name="name">Production Plan - Farm Plan</field>
+            <field name="source_term">Production Plan</field>
+            <field name="target_term">Farm Plan</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Production Plan to Farm Plan</field>
+            <field name="example_usage">Replaces the Production Plan term in the system with Farm Plan</field>
+        </record>
+        <record id="term_mapping_work_order" model="term.mapping">
+            <field name="name">Work Order - Field Task</field>
+            <field name="source_term">Work Order</field>
+            <field name="target_term">Field Task</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Work Order to Field Task</field>
+            <field name="example_usage">Replaces the Work Order term in the system with Field Task</field>
+        </record>
+        <record id="term_mapping_workorder" model="term.mapping">
+            <field name="name">Workorder - Field Operation</field>
+            <field name="source_term">Workorder</field>
+            <field name="target_term">Field Operation</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Workorder to Field Operation</field>
+            <field name="example_usage">Replaces the Workorder term in the system with Field Operation</field>
+        </record>
+        <record id="term_mapping_bom" model="term.mapping">
+            <field name="name">Bill of Materials - Farm Recipe</field>
+            <field name="source_term">Bill of Materials</field>
+            <field name="target_term">Farm Recipe</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Bill of Materials to Farm Recipe</field>
+            <field name="example_usage">Replaces the Bill of Materials term in the system with Farm Recipe</field>
+        </record>
+        <record id="term_mapping_raw_materials" model="term.mapping">
+            <field name="name">Raw Materials - Farm Inputs</field>
+            <field name="source_term">Raw Materials</field>
+            <field name="target_term">Farm Inputs</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Raw Materials to Farm Inputs</field>
+            <field name="example_usage">Replaces the Raw Materials term in the system with Farm Inputs</field>
+        </record>
+        <record id="term_mapping_finished_product" model="term.mapping">
+            <field name="name">Finished Product - Harvest Output</field>
+            <field name="source_term">Finished Product</field>
+            <field name="target_term">Harvest Output</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Finished Product to Harvest Output</field>
+            <field name="example_usage">Replaces the Finished Product term in the system with Harvest Output</field>
+        </record>
+        <record id="term_mapping_stock_location" model="term.mapping">
+            <field name="name">Stock Location - Farm Location</field>
+            <field name="source_term">Stock Location</field>
+            <field name="target_term">Farm Location</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Stock Location to Farm Location</field>
+            <field name="example_usage">Replaces the Stock Location term in the system with Farm Location</field>
+        </record>
+        <record id="term_mapping_inventory" model="term.mapping">
+            <field name="name">Inventory - Farm Stock</field>
+            <field name="source_term">Inventory</field>
+            <field name="target_term">Farm Stock</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Inventory to Farm Stock</field>
+            <field name="example_usage">Replaces the Inventory term in the system with Farm Stock</field>
+        </record>
+        <record id="term_mapping_seed" model="term.mapping">
+            <field name="name">Seed Material</field>
+            <field name="source_term">Seed</field>
+            <field name="target_term">Seed</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">planting</field>
+            <field name="is_active">True</field>
+            <field name="description">Seed term</field>
+            <field name="example_usage">Uses the seed term in the planting scenario</field>
+        </record>
+        <record id="term_mapping_fertilizer" model="term.mapping">
+            <field name="name">Fertilizer Input</field>
+            <field name="source_term">Fertilizer</field>
+            <field name="target_term">Fertilizer</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">planting</field>
+            <field name="is_active">True</field>
+            <field name="description">Fertilizer input</field>
+            <field name="example_usage">Uses the fertilizer term in the planting scenario</field>
+        </record>
+        <record id="term_mapping_pesticide" model="term.mapping">
+            <field name="name">Pesticide Input</field>
+            <field name="source_term">Pesticide</field>
+            <field name="target_term">Pesticide</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">planting</field>
+            <field name="is_active">True</field>
+            <field name="description">Pesticide input</field>
+            <field name="example_usage">Uses the pesticide term in the planting scenario</field>
+        </record>
+        <record id="term_mapping_harvest" model="term.mapping">
+            <field name="name">Harvest Operation</field>
+            <field name="source_term">Harvest</field>
+            <field name="target_term">Harvest</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">planting</field>
+            <field name="is_active">True</field>
+            <field name="description">Harvest operation</field>
+            <field name="example_usage">Uses the harvest term in the planting scenario</field>
+        </record>
+        <record id="term_mapping_sowing" model="term.mapping">
+            <field name="name">Sowing Operation</field>
+            <field name="source_term">Sowing</field>
+            <field name="target_term">Sowing</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">planting</field>
+            <field name="is_active">True</field>
+            <field name="description">Sowing operation</field>
+            <field name="example_usage">Uses the sowing term in the planting scenario</field>
+        </record>
+        <record id="term_mapping_livestock" model="term.mapping">
+            <field name="name">Livestock - Animals</field>
+            <field name="source_term">Livestock</field>
+            <field name="target_term">Animals</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">livestock</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Livestock to Animals</field>
+            <field name="example_usage">Uses the animals term in the livestock scenario</field>
+        </record>
+        <record id="term_mapping_feed" model="term.mapping">
+            <field name="name">Feed Input</field>
+            <field name="source_term">Feed</field>
+            <field name="target_term">Feed</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">livestock</field>
+            <field name="is_active">True</field>
+            <field name="description">Feed input</field>
+            <field name="example_usage">Uses the feed term in the livestock scenario</field>
+        </record>
+        <record id="term_mapping_feeding" model="term.mapping">
+            <field name="name">Feeding Operation</field>
+            <field name="source_term">Feeding</field>
+            <field name="target_term">Feeding</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">livestock</field>
+            <field name="is_active">True</field>
+            <field name="description">Feeding operation</field>
+            <field name="example_usage">Uses the feeding term in the livestock scenario</field>
+        </record>
+        <record id="term_mapping_breeding" model="term.mapping">
+            <field name="name">Breeding Operation</field>
+            <field name="source_term">Breeding</field>
+            <field name="target_term">Breeding</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">livestock</field>
+            <field name="is_active">True</field>
+            <field name="description">Breeding operation</field>
+            <field name="example_usage">Uses the breeding term in the livestock scenario</field>
+        </record>
+        <record id="term_mapping_processing" model="term.mapping">
+            <field name="name">Processing - Food Processing</field>
+            <field name="source_term">Processing</field>
+            <field name="target_term">Food Processing</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">processing</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Processing to Food Processing</field>
+            <field name="example_usage">Uses the food processing term in the processing scenario</field>
+        </record>
+        <record id="term_mapping_baking" model="term.mapping">
+            <field name="name">Baking - Baking Process</field>
+            <field name="source_term">Baking</field>
+            <field name="target_term">Baking Process</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">processing</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Baking to Baking Process</field>
+            <field name="example_usage">Uses the baking process term in the processing scenario</field>
+        </record>
+        <record id="term_mapping_fermentation" model="term.mapping">
+            <field name="name">Fermentation - Fermentation Process</field>
+            <field name="source_term">Fermentation</field>
+            <field name="target_term">Fermentation Process</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">processing</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Fermentation to Fermentation Process</field>
+            <field name="example_usage">Uses the fermentation process term in the processing scenario</field>
+        </record>
+        <record id="term_mapping_viticulture" model="term.mapping">
+            <field name="name">Viticulture - Grape Growing</field>
+            <field name="source_term">Viticulture</field>
+            <field name="target_term">Grape Growing</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">winemaking</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Viticulture to Grape Growing</field>
+            <field name="example_usage">Uses the grape growing term in the winemaking scenario</field>
+        </record>
+        <record id="term_mapping_crushing" model="term.mapping">
+            <field name="name">Crushing - Grape Crushing</field>
+            <field name="source_term">Crushing</field>
+            <field name="target_term">Grape Crushing</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">winemaking</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Crushing to Grape Crushing</field>
+            <field name="example_usage">Uses the grape crushing term in the winemaking scenario</field>
+        </record>
+        <record id="term_mapping_intervention" model="term.mapping">
+            <field name="name">Intervention - Farm Operation</field>
+            <field name="source_term">Intervention</field>
+            <field name="target_term">Farm Operation</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Intervention to Farm Operation</field>
+            <field name="example_usage">Replaces the Intervention term in the system with Farm Operation</field>
+        </record>
+        <record id="term_mapping_campaign" model="term.mapping">
+            <field name="name">Campaign - Growing Season</field>
+            <field name="source_term">Campaign</field>
+            <field name="target_term">Growing Season</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Campaign to Growing Season</field>
+            <field name="example_usage">Replaces the Campaign term in the system with Growing Season</field>
+        </record>
+        <record id="term_mapping_task" model="term.mapping">
+            <field name="name">Task - Farm Task</field>
+            <field name="source_term">Task</field>
+            <field name="target_term">Farm Task</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Task to Farm Task</field>
+            <field name="example_usage">Replaces the Task term in the system with Farm Task</field>
+        </record>
+        <record id="term_mapping_manufacturing" model="term.mapping">
+            <field name="name">Manufacturing - Farm Operations</field>
+            <field name="source_term">Manufacturing</field>
+            <field name="target_term">Farm Operations</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+            <field name="description">Maps Manufacturing to Farm Operations</field>
+            <field name="example_usage">Replaces the Manufacturing menu with the Farm Operations menu</field>
+        </record>
+        <record id="term_mapping_workcenter" model="term.mapping">
+            <field name="name">Work Center - Facility Unit</field>
+            <field name="source_term">Work Center</field>
+            <field name="target_term">Facility Unit</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+        </record>
+        <record id="term_mapping_mrp_operation" model="term.mapping">
+            <field name="name">MRP Operation - Farm Operation</field>
+            <field name="source_term">MRP Operation</field>
+            <field name="target_term">Farm Operation</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+        </record>
+        <record id="term_mapping_routing" model="term.mapping">
+            <field name="name">Routing - Operational Flow</field>
+            <field name="source_term">Routing</field>
+            <field name="target_term">Operational Flow</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">general</field>
+            <field name="is_active">True</field>
+        </record>
+        <record id="term_mapping_production_label" model="term.mapping">
+            <field name="name">Production - Cultivation</field>
+            <field name="source_term">Production</field>
+            <field name="target_term">Cultivation</field>
+            <field name="language_code">en_US</field>
+            <field name="industry_context">planting</field>
+            <field name="is_active">True</field>
+        </record>
+    </data>
+</odoo>

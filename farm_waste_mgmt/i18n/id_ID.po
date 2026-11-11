@@ -1,0 +1,355 @@
+# Translation of farm_waste_mgmt (farm_waste_mgmt) to Indonesian (id_ID).
+# Port 19.0 -> 18.0: covers user-visible strings of this module.
+# License: AGPL-3 (same as the module).
+msgid ""
+msgstr ""
+"Project-Id-Version: farm_waste_mgmt 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 16:00+0700\n"
+"PO-Revision-Date: 2026-11-10 16:00+0700\n"
+"Language: id\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_waste_mgmt
+msgid "Farm Waste Management"
+msgstr "Manajemen Limbah Pertanian"
+
+#. module: farm_waste_mgmt
+msgid "Livestock/Poultry Manure Management and Utilization Ledger"
+msgstr "Manajemen Pupuk Kandang Ternak/Unggas dan Buku Pemanfaatan"
+
+#. module: farm_waste_mgmt
+msgid "Agricultural Manure Batch Record"
+msgstr "Catatan Batch Pupuk Kandang Pertanian"
+
+#. module: farm_waste_mgmt
+msgid "Agricultural Monthly Manure Resource Utilization Ledger"
+msgstr "Buku Bulanan Pemanfaatan Sumber Daya Pupuk Kandang Pertanian"
+
+#. module: farm_waste_mgmt
+msgid "Batch No."
+msgstr "No. Batch"
+
+#. module: farm_waste_mgmt
+msgid "Conversion MO"
+msgstr "MO Konversi"
+
+#. module: farm_waste_mgmt
+msgid "Convert to Fertilizer"
+msgstr "Ubah menjadi Pupuk"
+
+#. module: farm_waste_mgmt
+msgid "Converted Fertilizer Product"
+msgstr "Produk Pupuk Hasil Konversi"
+
+#. module: farm_waste_mgmt
+msgid "Destination"
+msgstr "Tujuan"
+
+#. module: farm_waste_mgmt
+msgid "Destination Location"
+msgstr "Lokasi Tujuan"
+
+#. module: farm_waste_mgmt
+msgid "Destination/Recipient"
+msgstr "Tujuan/Penerima"
+
+#. module: farm_waste_mgmt
+msgid "Disposal Details"
+msgstr "Rincian Pembuangan"
+
+#. module: farm_waste_mgmt
+msgid "Disposal Method"
+msgstr "Metode Pembuangan"
+
+#. module: farm_waste_mgmt
+msgid "Generate Report"
+msgstr "Buat Laporan"
+
+#. module: farm_waste_mgmt
+msgid "Included Batches"
+msgstr "Batch yang Termasuk"
+
+#. module: farm_waste_mgmt
+msgid "Input Type"
+msgstr "Jenis Input"
+
+#. module: farm_waste_mgmt
+msgid "Seed/Variety"
+msgstr "Benih/Varietas"
+
+#. module: farm_waste_mgmt
+msgid "Fertilizer"
+msgstr "Pupuk"
+
+#. module: farm_waste_mgmt
+msgid "Pesticide"
+msgstr "Pestisida"
+
+#. module: farm_waste_mgmt
+msgid "Feed"
+msgstr "Pakan"
+
+#. module: farm_waste_mgmt
+msgid "Medicine"
+msgstr "Obat"
+
+#. module: farm_waste_mgmt
+msgid "Other Supplies"
+msgstr "Perlengkapan Lain"
+
+#. module: farm_waste_mgmt
+msgid "Ledger No."
+msgstr "No. Buku"
+
+#. module: farm_waste_mgmt
+msgid "Livestock and Poultry Manure Utilization Monthly Ledger"
+msgstr "Buku Bulanan Pemanfaatan Pupuk Kandang Ternak dan Unggas"
+
+#. module: farm_waste_mgmt
+msgid "Manure Batch Record (Deprecated - Use agri.manure.batch)"
+msgstr "Catatan Batch Pupuk Kandang (Usang - Gunakan agri.manure.batch)"
+
+#. module: farm_waste_mgmt
+msgid "Manure Batches"
+msgstr "Batch Pupuk Kandang"
+
+#. module: farm_waste_mgmt
+msgid "Manure Batches Included"
+msgstr "Batch Pupuk Kandang yang Termasuk"
+
+#. module: farm_waste_mgmt
+msgid "Manure Ledger"
+msgstr "Buku Pupuk Kandang"
+
+#. module: farm_waste_mgmt
+msgid "Manure Ledgers"
+msgstr "Buku Pupuk Kandang"
+
+#. module: farm_waste_mgmt
+msgid "Manure Utilization Ledger generated for %s/%s."
+msgstr "Buku Pemanfaatan Pupuk Kandang dibuat untuk %s/%s."
+
+#. module: farm_waste_mgmt
+msgid "Manufacturing Order %s created for manure conversion."
+msgstr "Perintah Produksi %s dibuat untuk konversi pupuk kandang."
+
+#. module: farm_waste_mgmt
+msgid "Month"
+msgstr "Bulan"
+
+#. module: farm_waste_mgmt
+msgid "January"
+msgstr "Januari"
+
+#. module: farm_waste_mgmt
+msgid "February"
+msgstr "Februari"
+
+#. module: farm_waste_mgmt
+msgid "March"
+msgstr "Maret"
+
+#. module: farm_waste_mgmt
+msgid "April"
+msgstr "April"
+
+#. module: farm_waste_mgmt
+msgid "May"
+msgstr "Mei"
+
+#. module: farm_waste_mgmt
+msgid "June"
+msgstr "Juni"
+
+#. module: farm_waste_mgmt
+msgid "July"
+msgstr "Juli"
+
+#. module: farm_waste_mgmt
+msgid "August"
+msgstr "Agustus"
+
+#. module: farm_waste_mgmt
+msgid "September"
+msgstr "September"
+
+#. module: farm_waste_mgmt
+msgid "October"
+msgstr "Oktober"
+
+#. module: farm_waste_mgmt
+msgid "November"
+msgstr "November"
+
+#. module: farm_waste_mgmt
+msgid "December"
+msgstr "Desember"
+
+#. module: farm_waste_mgmt
+msgid "Monthly Manure Resource Utilization Ledger (Deprecated - Use agri.manure.ledger)"
+msgstr "Buku Bulanan Pemanfaatan Sumber Daya Pupuk Kandang (Usang - Gunakan agri.manure.ledger)"
+
+#. module: farm_waste_mgmt
+msgid "Notes"
+msgstr "Catatan"
+
+#. module: farm_waste_mgmt
+msgid "Please select a Converted Fertilizer Product first!"
+msgstr "Silakan pilih Produk Pupuk Hasil Konversi terlebih dahulu!"
+
+#. module: farm_waste_mgmt
+msgid "Processing Order"
+msgstr "Perintah Pengolahan"
+
+#. module: farm_waste_mgmt
+msgid "Processing Waste Management"
+msgstr "Manajemen Limbah Pengolahan"
+
+#. module: farm_waste_mgmt
+msgid "Production Date"
+msgstr "Tanggal Produksi"
+
+#. module: farm_waste_mgmt
+msgid "Pure Nitrogen (kg)"
+msgstr "Nitrogen Murni (kg)"
+
+#. module: farm_waste_mgmt
+msgid "Pure Phosphorus (kg)"
+msgstr "Fosfor Murni (kg)"
+
+#. module: farm_waste_mgmt
+msgid "Pure Potassium (kg)"
+msgstr "Kalium Murni (kg)"
+
+#. module: farm_waste_mgmt
+msgid "Quality Check (Maturity)"
+msgstr "Pemeriksaan Kualitas (Kematangan)"
+
+#. module: farm_waste_mgmt
+msgid "Quantity"
+msgstr "Kuantitas"
+
+#. module: farm_waste_mgmt
+msgid "Quantity (kg)"
+msgstr "Kuantitas (kg)"
+
+#. module: farm_waste_mgmt
+msgid "Recipient (Third Party)"
+msgstr "Penerima (Pihak Ketiga)"
+
+#. module: farm_waste_mgmt
+msgid "SAFETY BLOCK: A passed quality check (Compost Maturity) is required before conversion!"
+msgstr "BLOK KEAMANAN: Pemeriksaan kualitas yang lolos (Kematangan Kompos) diperlukan sebelum konversi!"
+
+#. module: farm_waste_mgmt
+msgid "Source"
+msgstr "Sumber"
+
+#. module: farm_waste_mgmt
+msgid "Source Animal Lots"
+msgstr "Lot Hewan Sumber"
+
+#. module: farm_waste_mgmt
+msgid "Source Location"
+msgstr "Lokasi Sumber"
+
+#. module: farm_waste_mgmt
+msgid "Total Disposed Quantity (kg)"
+msgstr "Total Kuantitas Terbuang (kg)"
+
+#. module: farm_waste_mgmt
+msgid "Unit of Measure"
+msgstr "Satuan Ukur"
+
+#. module: farm_waste_mgmt
+msgid "Waste Management"
+msgstr "Manajemen Limbah"
+
+#. module: farm_waste_mgmt
+msgid "Waste Product"
+msgstr "Produk Limbah"
+
+#. module: farm_waste_mgmt
+msgid "Waste Reference"
+msgstr "Referensi Limbah"
+
+#. module: farm_waste_mgmt
+msgid "Year"
+msgstr "Tahun"
+
+#. module: farm_waste_mgmt
+msgid "Composting"
+msgstr "Pengomposan"
+
+#. module: farm_waste_mgmt
+msgid "Biogas Digestion"
+msgstr "Pencernaan Biogas"
+
+#. module: farm_waste_mgmt
+msgid "Transfer to Third Party"
+msgstr "Transfer ke Pihak Ketiga"
+
+#. module: farm_waste_mgmt
+msgid "Direct Field Use"
+msgstr "Pemakaian Langsung di Lahan"
+
+#. module: farm_waste_mgmt
+msgid "Return to Field (Fertilizer)"
+msgstr "Kembali ke Lahan (Pupuk)"
+
+#. module: farm_waste_mgmt
+msgid "Animal Feed"
+msgstr "Pakan Hewan"
+
+#. module: farm_waste_mgmt
+msgid "Third Party Recycling"
+msgstr "Daur Ulang Pihak Ketiga"
+
+#. module: farm_waste_mgmt
+msgid "Safe Disposal"
+msgstr "Pembuangan Aman"
+
+#. module: farm_waste_mgmt
+msgid "Draft"
+msgstr "Draf"
+
+#. module: farm_waste_mgmt
+msgid "Confirmed"
+msgstr "Dikonfirmasi"
+
+#. module: farm_waste_mgmt
+msgid "Reported"
+msgstr "Dilaporkan"
+
+#. module: farm_waste_mgmt
+msgid "Farm Owner (Signature/Stamp):"
+msgstr "Pemilik Peternakan (Tanda Tangan/Stempel):"
+
+#. module: farm_waste_mgmt
+msgid "Ledger No.:"
+msgstr "No. Buku:"
+
+#. module: farm_waste_mgmt
+msgid "Year:"
+msgstr "Tahun:"
+
+#. module: farm_waste_mgmt
+msgid "Month:"
+msgstr "Bulan:"
+
+#. module: farm_waste_mgmt
+msgid "Total Disposed Qty (kg):"
+msgstr "Total Kuantitas Terbuang (kg):"
+
+#. module: farm_waste_mgmt
+msgid "Manure Batch Details:"
+msgstr "Rincian Batch Pupuk Kandang:"
+
+#. module: farm_waste_mgmt
+msgid "Batch No.:"
+msgstr "No. Batch:"

@@ -1,0 +1,86 @@
+from odoo import models, fields, api, _
+
+class ProductTemplate(models.Model):
+    _inherit = 'product.template'
+
+    input_type = fields.Selection([
+        ('seed', 'Seed/Variety'),
+        ('fertilizer', 'Fertilizer'),
+        ('pesticide', 'Pesticide'),
+        ('feed', 'Feed'),
+        ('medicine', 'Medicine'),
+        ('other', 'Other Supplies')
+    ], string="Input Type")
+
+    # is_safety_approved moved to core mixin
+    active_ingredient = fields.Char("Active Ingredient", help="e.g. Glyphosate, Nitrogen content")
+
+    # Nutrient content [US-001-03]
+    n_content = fields.Float("Nitrogen (%)", help="Nitrogen percentage")
+    p_content = fields.Float("Phosphorus (%)", help="Phosphorus percentage")
+    k_content = fields.Float("Potassium (%)", help="Potassium percentage")
+
+    # Safety withdrawal period [US-009-03]
+    withdrawal_period_days = fields.Integer("Withdrawal Period (Days)", default=0, help="Days to wait before harvest/slaughter after using this input.")
+
+    # Growth cycle [US-003-01]
+    growth_cycle_days = fields.Integer("Growth Cycle (Days)", default=0, help="Typical duration from start to harvest.")
+
+class SaleOrder(models.Model):
+    _inherit = 'sale.order'
+
+    def action_confirm(self):
+        """ Check growth-cycle lead time [US-003-01] """
+        for order in self:
+            for line in order.order_line:
+                product = line.product_id
+                if product.growth_cycle_days > 0:
+                    # Assume the delivery date is commitment_date or expected_date
+                    delivery_date = order.commitment_date or order.expected_date
+                    if delivery_date:
+                        delivery_date = fields.Date.to_date(delivery_date)
+                        min_date = fields.Date.add(fields.Date.today(), days=product.growth_cycle_days)
+                        if delivery_date < min_date:
+                            # Post a warning (message_post is used here because action_confirm should not raise UserError to block confirmation except in severe cases)
+                            order.message_post(body=_("WARNING: Lead time insufficient for product %s. Growth cycle is %s days, but delivery is scheduled in %s days.") % (
+                                product.name, product.growth_cycle_days, (delivery_date - fields.Date.today()).days
+                            ))
+        return super(SaleOrder, self).action_confirm()
+
+class PurchaseOrder(models.Model):
+    _inherit = 'purchase.order'
+
+    # Link to joint procurement for cooperative purchases
+    joint_procurement_order_id = fields.Many2one(
+        'joint.procurement.order',
+        string="Joint Supply Order",
+        help="Link to cooperative/consortium procurement order"
+    )
+
+    agri_task_id = fields.Many2one(
+        'project.task',
+        string="Originating Task",
+        help="The specific intervention task that triggered this supply requirement."
+    )
+
+    @api.model_create_multi
+    def create(self, vals_list):
+        for vals in vals_list:
+            if 'procurement_group_id' in vals and not vals.get('agri_task_id'):
+                group = self.env['procurement.group'].browse(vals['procurement_group_id'])
+                if hasattr(group, 'agri_task_id') and group.agri_task_id:
+                    vals['agri_task_id'] = group.agri_task_id.id
+        return super().create(vals_list)
+
+class PurchaseOrderLine(models.Model):
+    _inherit = 'purchase.order.line'
+
+    is_compliance_warning = fields.Boolean("Compliance Warning", compute='_compute_compliance_warning', store=True, precompute=True)
+
+    @api.depends('product_id')
+    def _compute_compliance_warning(self):
+        for line in self:
+            if line.product_id.is_agri_input and not line.product_id.is_safety_approved:
+                line.is_compliance_warning = True
+            else:
+                line.is_compliance_warning = False

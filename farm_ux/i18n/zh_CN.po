@@ -1,0 +1,245 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_ux
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:02+0000\n"
+"PO-Revision-Date: 2026-05-04 09:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "3m ago"
+msgstr "3 分钟前"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Accessibility Active"
+msgstr "辅助功能活跃"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "Begin recording time and GPS"
+msgstr "开始记录时间和 GPS"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Co-op Alert"
+msgstr "合作警报"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Contextual Guidance"
+msgstr "情境指导"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Farm Hub"
+msgstr "农场中心"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Farm Hub: Help & Social"
+msgstr "农场中心：帮助和社交"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Farm Social"
+msgstr "农场社交"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "Finalize intervention"
+msgstr "完成干预"
+
+#. module: farm_ux
+#. odoo-python
+#: code:addons/farm_ux/models/accessibility_settings.py:0
+msgid "Font scaling factor must be between 0.5 and 3.0"
+msgstr "字体缩放系数必须介于 0.5 和 3.0 之间"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Knowledge"
+msgstr "知识"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "No specific tips for this view."
+msgstr "对于此视图没有具体提示。"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "No weather data for this location."
+msgstr "没有该位置的天气数据。"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/agri_spatial_gauge.xml:0
+msgid "OOB Points"
+msgstr "OOB 积分"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Operation risks detected. Check safety protocols."
+msgstr "发现操作风险。检查安全协议。"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "Pause/Finish recording"
+msgstr "暂停/完成录音"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "START WORK"
+msgstr "动手"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/agri_action_buttons.xml:0
+msgid "STOP WORK"
+msgstr "停工"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Shared harvest equipment available in Zone B."
+msgstr "B 区提供共享收获设备。"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Social"
+msgstr "社会的"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/agri_spatial_gauge.xml:0
+msgid "Spatial Compliance"
+msgstr "空间合规性"
+
+#. module: farm_ux
+#. odoo-python
+#: code:addons/farm_ux/models/term_mapping.py:0
+msgid "Term mapping already exists for '%s' in this language/region context"
+msgstr "此语言/区域上下文中已存在“%s”的术语映射"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "UX Mode:"
+msgstr "用户体验模式："
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/agri_spatial_gauge.xml:0
+msgid "Verified via GPS Geofencing"
+msgstr "通过 GPS 地理围栏验证"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Voice Command"
+msgstr "语音命令"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Warning:"
+msgstr "警告："
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Watch Video"
+msgstr "观看视频"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Weather"
+msgstr "天气"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "Weather Context"
+msgstr "天气背景"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/agri_spatial_gauge.xml:0
+msgid "Within Boundaries"
+msgstr "在边界之内"
+
+#. module: farm_ux
+#. odoo-python
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "agricultural intervention"
+msgstr "农业干预"
+
+#. module: farm_ux
+#. odoo-python
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "cultivation recipe"
+msgstr "栽培配方"
+
+#. module: farm_ux
+#. odoo-python
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "field task"
+msgstr "野外任务"
+
+#. module: farm_ux
+#. odoo-python
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "insufficient input evidence"
+msgstr "输入证据不足"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "m/s"
+msgstr "多发性硬化症"
+
+#. module: farm_ux
+#. odoo-python
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "resource registry"
+msgstr "资源注册表"
+
+#. module: farm_ux
+#. odoo-javascript
+#: code:addons/farm_ux/static/src/xml/farm_ux_integration.xml:0
+msgid "°C"
+msgstr "℃"
+
+#. module: farm_ux
+#. odoo-python
+#: code:addons/farm_ux/models/agri_view_mixin.py:0
+msgid "🌱 %d Agricultural Contributions awaiting verification."
+msgstr "🌱 %d 农业捐款等待验证。"

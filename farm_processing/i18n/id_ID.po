@@ -1,0 +1,417 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * farm_processing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 12:00+0000\n"
+"PO-Revision-Date: 2026-11-09 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian (Indonesia)\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_processing
+#: model:farm.production.license.category,name:0
+msgid "Production License Category"
+msgstr "Kategori Izin Produksi"
+
+#. module: farm_processing
+#: model:farm.production.license.category,license_category_ids:0
+msgid "Production License Categories"
+msgstr "Kategori Izin Produksi"
+
+#. module: farm_processing
+#: model:farm.production.license.category,name:0
+msgid "Category Name"
+msgstr "Nama Kategori"
+
+#. module: farm_processing
+#: model:farm.production.license.category,code:0
+msgid "Category Code"
+msgstr "Kode Kategori"
+
+#. module: farm_processing
+#: model:farm.production.license.category,country_id:0
+msgid "Country"
+msgstr "Negara"
+
+#. module: farm_processing
+#: model:mrp.bom,license_category_id:0
+msgid "Production License Category"
+msgstr "Kategori Izin Produksi"
+
+#. module: farm_processing
+#: model:agri.processing.label.compliance,license_required:0
+msgid "Production License Required"
+msgstr "Izin Produksi Diperlukan"
+
+#. module: farm_processing
+#: model:agri.processing.label.compliance,license_number:0
+msgid "Production License Number"
+msgstr "Nomor Izin Produksi"
+
+#. module: farm_processing
+#: model:agri.processing.label.compliance,is_license_compliant:0
+msgid "Is License Compliant"
+msgstr "Sesuai Izin"
+
+#. module: farm_processing
+#: model:agri.isl.processing.bom,target_moisture_content:0
+msgid "Target Moisture (%)"
+msgstr "Kadar Air Target (%)"
+
+#. module: farm_processing
+#: model:agri.isl.processing.bom,target_temperature:0
+msgid "Storage Temp"
+msgstr "Suhu Simpan"
+
+#. module: farm_processing
+#: model:agri.isl.processing.bom,allergen_ids:0
+msgid "Allergens"
+msgstr "Alergen"
+
+#. module: farm_processing
+#: model:agri.isl.processing.bom,expected_yield_rate:0
+msgid "Expected Yield Rate"
+msgstr "Rendemen yang Diharapkan"
+
+#. module: farm_processing
+#: model:agri.isl.processing.bom,industry_type:0
+msgid "Industry Standard"
+msgstr "Standar Industri"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,energy_reading_start:0
+msgid "Energy Reading Start"
+msgstr "Pembacaan Energi Awal"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,energy_reading_end:0
+msgid "Energy Reading End"
+msgstr "Pembacaan Energi Akhir"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,energy_cost_total:0
+msgid "Total Energy Cost"
+msgstr "Total Biaya Energi"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,water_consumption:0
+msgid "Water Consumption"
+msgstr "Konsumsi Air"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,electricity_consumption:0
+msgid "Electricity Consumption"
+msgstr "Konsumsi Listrik"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,current_moisture_content:0
+msgid "Current Moisture (%)"
+msgstr "Kadar Air Saat Ini (%)"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,is_ready_for_harvest:0
+msgid "Ready for Collection"
+msgstr "Siap Dikumpulkan"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,processing_bom_id:0
+msgid "Processing Recipe"
+msgstr "Resep Pengolahan"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,raw_material_lot_id:0
+msgid "Raw Material Lot"
+msgstr "Lot Bahan Baku"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,raw_material_qty:0
+msgid "Raw Material Qty"
+msgstr "Kuantitas Bahan Baku"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,quality_grade:0
+msgid "Quality Grade"
+msgstr "Grade Mutu"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,final_output_qty:0
+msgid "Final Output Qty"
+msgstr "Kuantitas Output Akhir"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,total_loss_qty:0
+msgid "Total Loss Qty"
+msgstr "Total Kuantitas Susut"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,moisture_content:0
+msgid "Moisture Content (%)"
+msgstr "Kadar Air (%)"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,is_haccp_compliant:0
+msgid "Is HACCP Compliant"
+msgstr "Sesuai HACCP"
+
+#. module: farm_processing
+#: model:agri.isl.processing.production,processing_steps:0
+msgid "Processing Steps"
+msgstr "Tahap Pengolahan"
+
+#. module: farm_processing
+#: model:mrp.bom,processing_type:0
+msgid "Processing Type"
+msgstr "Jenis Pengolahan"
+
+#. module: farm_processing
+#: model:mrp.bom,processing_type:0
+msgid "Primary"
+msgstr "Primer"
+
+#. module: farm_processing
+#: model:mrp.bom,processing_type:0
+msgid "Deep"
+msgstr "Lanjutan"
+
+#. module: farm_processing
+#: model:mrp.bom,processing_type:0
+msgid "Packaging"
+msgstr "Pengemasan"
+
+#. module: farm_processing
+#: model:mrp.bom,target_temp:0
+msgid "Target Temp"
+msgstr "Suhu Target"
+
+#. module: farm_processing
+#: model:mrp.bom,target_ph:0
+msgid "Target pH"
+msgstr "pH Target"
+
+#. module: farm_processing
+#: model:mrp.bom,target_brix:0
+msgid "Target Brix"
+msgstr "Brix Target"
+
+#. module: farm_processing
+#: model:mrp.bom,haccp_instructions:0
+msgid "HACCP Instructions"
+msgstr "Instruksi HACCP"
+
+#. module: farm_processing
+#: model:mrp.bom,mass_balance_tolerance:0
+msgid "Mass Balance Tolerance (%)"
+msgstr "Toleransi Neraca Massa (%)"
+
+#. module: farm_processing
+#: model:mrp.bom,allergen_ids:0
+msgid "Allergens Involved"
+msgstr "Alergen yang Terlibat"
+
+#. module: farm_processing
+#: model:mrp.bom.line,ingredient_role:0
+msgid "Ingredient Role"
+msgstr "Peran Bahan"
+
+#. module: farm_processing
+#: model:product.template,industry_tag:0
+msgid "Agricultural Industry Tag"
+msgstr "Tag Industri Pertanian"
+
+#. module: farm_processing
+#: model:product.template,industry_tag:0
+msgid "Input Material (Seeds/Fertilizer)"
+msgstr "Bahan Input (Benih/Pupuk)"
+
+#. module: farm_processing
+#: model:product.template,industry_tag:0
+msgid "Processed Food"
+msgstr "Pangan Olahan"
+
+#. module: farm_processing
+#: model:product.template,industry_tag:0
+msgid "Live Animal"
+msgstr "Hewan Hidup"
+
+#. module: farm_processing
+#: model:product.template,industry_tag:0
+msgid "Raw Grain / Harvest"
+msgstr "Biji-bijian / Panen"
+
+#. module: farm_processing
+#: model:product.template,n_content:0
+msgid "Nitrogen (N) %"
+msgstr "Nitrogen (N) %"
+
+#. module: farm_processing
+#: model:product.template,p_content:0
+msgid "Phosphorus (P) %"
+msgstr "Fosfor (P) %"
+
+#. module: farm_processing
+#: model:product.template,k_content:0
+msgid "Potassium (K) %"
+msgstr "Kalium (K) %"
+
+#. module: farm_processing
+#: model:product.template,is_agri_material:0
+msgid "Is Agri Material"
+msgstr "Bahan Pertanian"
+
+#. module: farm_processing
+#: model:product.template,is_processed_food:0
+msgid "Is Processed Food"
+msgstr "Pangan Olahan"
+
+#. module: farm_processing
+#: model:product.template,substitute_product_ids:0
+msgid "Substitute Products"
+msgstr "Produk Pengganti"
+
+#. module: farm_processing
+#: model:stock.lot,lot_purpose:0
+msgid "Lot Purpose"
+msgstr "Tujuan Lot"
+
+#. module: farm_processing
+#: model:stock.lot,lot_purpose:0
+msgid "Land Harvest"
+msgstr "Panen Lahan"
+
+#. module: farm_processing
+#: model:stock.lot,lot_purpose:0
+msgid "Manufacturing Output"
+msgstr "Output Manufaktur"
+
+#. module: farm_processing
+#: model:stock.lot,lot_purpose:0
+msgid "Laboratory Sample"
+msgstr "Sampel Laboratorium"
+
+#. module: farm_processing
+#: model:stock.lot,quality_grade:0
+msgid "Grade A"
+msgstr "Grade A"
+
+#. module: farm_processing
+#: model:stock.lot,quality_grade:0
+msgid "Grade B"
+msgstr "Grade B"
+
+#. module: farm_processing
+#: model:stock.lot,quality_grade:0
+msgid "Grade C"
+msgstr "Grade C"
+
+#. module: farm_processing
+#: model:stock.lot,quality_grade:0
+msgid "Not Graded"
+msgstr "Belum Dinilai"
+
+#. module: farm_processing
+#: model:stock.lot,harvest_date:0
+msgid "Harvest Date"
+msgstr "Tanggal Panen"
+
+#. module: farm_processing
+#: model:stock.lot,plot_id:0
+msgid "Origin Plot"
+msgstr "Petak Asal"
+
+#. module: farm_processing
+#: model:stock.lot,is_organic:0
+msgid "Is Organic"
+msgstr "Organik"
+
+#. module: farm_processing
+#: model:stock.lot,is_gmo:0
+msgid "Is GMO"
+msgstr "GMO"
+
+#. module: farm_processing
+#: model:farm.processing.artisan.log,parameter_name:0
+msgid "Artisan Parameter"
+msgstr "Parameter Artisan"
+
+#. module: farm_processing
+#: model:farm.processing.artisan.log,quality_grade:0
+msgid "Masterpiece (Perfect)"
+msgstr "Mahakarya (Sempurna)"
+
+#. module: farm_processing
+#: model:farm.industry.workcenter,facility_type:0
+msgid "Physical Facility Type"
+msgstr "Jenis Fasilitas Fisik"
+
+#. module: farm_processing
+#: model:farm.industry.workcenter,facility_type:0
+msgid "Open Field"
+msgstr "Lahan Terbuka"
+
+#. module: farm_processing
+#: model:farm.industry.workcenter,facility_type:0
+msgid "Greenhouse"
+msgstr "Rumah Kaca"
+
+#. module: farm_processing
+#: model:farm.industry.workcenter,facility_type:0
+msgid "Processing Line"
+msgstr "Lini Pengolahan"
+
+#. module: farm_processing
+#: model:farm.industry.workcenter,facility_type:0
+msgid "Laboratory Bench"
+msgstr "Meja Laboratorium"
+
+#. module: farm_processing
+#: model:farm.industry.workcenter,surface_area:0
+msgid "Surface Area (sqm)"
+msgstr "Luas Permukaan (m2)"
+
+#. module: farm_processing
+#: model:farm.industry.workcenter,volume_capacity:0
+msgid "Volume Capacity (m3)"
+msgstr "Kapasitas Volume (m3)"
+
+#. module: farm_processing
+#: model:farm.industry.workcenter,has_climate_control:0
+msgid "Climate Controlled"
+msgstr "Iklim Terkendali"
+
+#. module: farm_processing
+#: model:mrp.workcenter,energy_type:0
+msgid "Primary Energy Type"
+msgstr "Jenis Energi Utama"
+
+#. module: farm_processing
+#: model:mrp.workcenter,energy_cost_per_hour:0
+msgid "Energy Cost per Hour"
+msgstr "Biaya Energi per Jam"
+
+#. module: farm_processing
+#: model:mrp.workorder,actual_energy_consumption:0
+msgid "Actual Energy Consumption"
+msgstr "Konsumsi Energi Aktual"
+
+#. module: farm_processing
+#: model:ir.ui.menu,name:farm_processing.menu_processing_facility_isl
+msgid "Facilities"
+msgstr "Fasilitas"
+
+#. module: farm_processing
+#: model:ir.ui.menu,name:farm_processing.menu_processing_product_isl
+msgid "Products"
+msgstr "Produk"
+
+#. module: farm_processing
+#: model:ir.ui.menu,name:mrp.menu_mrp_root
+msgid "Processing & Fermentation"
+msgstr "Pengolahan & Fermentasi"

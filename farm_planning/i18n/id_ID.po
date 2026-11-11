@@ -1,0 +1,220 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-11-09 21:00+0700\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: farm_planning
+#. odoo-python
+#: code:addons/farm_planning/models/planning.py:0
+msgid ""
+"Generated from Route: %s\n"
+"Operation: %s"
+msgstr ""
+"Dibuat dari Rute: %s\n"
+"Operasi: %s"
+
+#. module: farm_planning
+#. odoo-python
+#: code:addons/farm_planning/models/planning.py:0
+msgid "[%s] %s"
+msgstr "[%s] %s"
+
+#. module: farm_planning
+#: model:ir.model,name:farm_planning.model_agri_intervention_template
+msgid "Agricultural Intervention Template"
+msgstr "Template Intervensi Pertanian"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_intervention_template__name
+msgid "Operation Name"
+msgstr "Nama Operasi"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_intervention_template__intervention_type
+msgid "Category"
+msgstr "Kategori"
+
+#. module: farm_planning
+#: model:ir.model.fields.selection,name:farm_planning.selection__agri_intervention_template__intervention_type__tillage
+msgid "Soil Preparation"
+msgstr "Persiapan Tanah"
+
+#. module: farm_planning
+#: model:ir.model.fields.selection,name:farm_planning.selection__agri_intervention_template__intervention_type__sowing
+msgid "Sowing/Planting"
+msgstr "Penaburan/Penanaman"
+
+#. module: farm_planning
+#: model:ir.model.fields.selection,name:farm_planning.selection__agri_intervention_template__intervention_type__fertilizing
+msgid "Fertilizing"
+msgstr "Pemupukan"
+
+#. module: farm_planning
+#: model:ir.model.fields.selection,name:farm_planning.selection__agri_intervention_template__intervention_type__protection
+msgid "Crop Protection"
+msgstr "Perlindungan Tanaman"
+
+#. module: farm_planning
+#: model:ir.model.fields.selection,name:farm_planning.selection__agri_intervention_template__intervention_type__harvesting
+msgid "Harvesting"
+msgstr "Pemanenan"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_intervention_template__input_ids
+msgid "Estimated Inputs"
+msgstr "Input Perkiraan"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_intervention_template__estimated_labor_hours
+msgid "Estimated Labor (Hours)"
+msgstr "Tenaga Kerja Perkiraan (Jam)"
+
+#. module: farm_planning
+#: model:ir.model,name:farm_planning.model_agri_intervention_template_input
+msgid "Template Input Requirement"
+msgstr "Kebutuhan Input Template"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_intervention_template_input__product_id
+msgid "Product"
+msgstr "Produk"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_intervention_template_input__quantity
+msgid "Quantity per Unit Area"
+msgstr "Kuantitas per Satuan Luas"
+
+#. module: farm_planning
+#: model:ir.model,name:farm_planning.model_agri_technical_route
+msgid "Technical Route (Cultural Itinerary)"
+msgstr "Rute Teknis (Itinerari Budaya)"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_technical_route__name
+msgid "Route Name"
+msgstr "Nama Rute"
+
+#. module: farm_planning
+#: model:ir.model.fields.selection,name:farm_planning.selection__agri_technical_route__activity_family__planting
+msgid "Planting"
+msgstr "Penanaman"
+
+#. module: farm_planning
+#: model:ir.model.fields.selection,name:farm_planning.selection__agri_technical_route__activity_family__livestock
+msgid "Livestock"
+msgstr "Peternakan"
+
+#. module: farm_planning
+#: model:ir.model.fields.selection,name:farm_planning.selection__agri_technical_route__activity_family__aquaculture
+msgid "Aquaculture"
+msgstr "Akuakultur"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_technical_route__line_ids
+msgid "Intervention Sequence"
+msgstr "Urutan Intervensi"
+
+#. module: farm_planning
+#: model:ir.model,name:farm_planning.model_agri_technical_route_line
+msgid "Route Sequence Line"
+msgstr "Baris Urutan Rute"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_technical_route_line__sequence
+msgid "Sequence"
+msgstr "Urutan"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_technical_route_line__template_id
+msgid "Operation"
+msgstr "Operasi"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_technical_route_line__delay_days
+msgid "Delay from Start (Days)"
+msgstr "Jeda dari Awal (Hari)"
+
+#. module: farm_planning
+#: model:ir.model,name:farm_planning.model_agri_scenario
+msgid "Planning Scenario (Simulation)"
+msgstr "Skenario Perencanaan (Simulasi)"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_scenario__name
+msgid "Scenario Name"
+msgstr "Nama Skenario"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_scenario__route_id
+msgid "Technical Route"
+msgstr "Rute Teknis"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_scenario__planned_area
+msgid "Planned Area (Hectares)"
+msgstr "Luas Rencana (Hektar)"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_scenario__total_labor_forecast
+msgid "Total Labor Forecast (Hours)"
+msgstr "Prakiraan Total Tenaga Kerja (Jam)"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_scenario__input_forecast_ids
+msgid "Input Forecasts"
+msgstr "Prakiraan Input"
+
+#. module: farm_planning
+#: model:ir.model,name:farm_planning.model_agri_scenario_input_forecast
+msgid "Scenario Input Forecast"
+msgstr "Prakiraan Input Skenario"
+
+#. module: farm_planning
+#: model:ir.model.fields,field_description:farm_planning.field_agri_scenario_input_forecast__quantity
+msgid "Forecasted Quantity"
+msgstr "Kuantitas Prakiraan"
+
+#. module: farm_planning
+#: model:ir.actions.act_window,name:farm_planning.action_agri_technical_route
+msgid "Technical Routes"
+msgstr "Rute Teknis"
+
+#. module: farm_planning
+#: model:ir.actions.act_window,name:farm_planning.action_agri_intervention_template
+msgid "Intervention Templates"
+msgstr "Template Intervensi"
+
+#. module: farm_planning
+#: model:ir.ui.view,arch_db:farm_planning.agri_intervention_template_view_form
+msgid "Intervention Template"
+msgstr "Template Intervensi"
+
+#. module: farm_planning
+#: model:ir.actions.act_window,name:farm_planning.action_agri_scenario
+msgid "Planning Scenarios"
+msgstr "Skenario Perencanaan"
+
+#. module: farm_planning
+#: model:ir.ui.menu,name:farm_planning.menu_agri_scenario
+msgid "Scenarios"
+msgstr "Skenario"
+
+#. module: farm_planning
+#: model:ir.ui.menu,name:farm_planning.menu_farm_planning_root
+msgid "Planning"
+msgstr "Perencanaan"
+
+#. module: farm_planning
+#: model:ir.ui.view,arch_db:farm_planning.agri_scenario_view_form
+msgid "Run Simulation"
+msgstr "Jalankan Simulasi"

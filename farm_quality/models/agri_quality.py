@@ -1,0 +1,286 @@
+from odoo import models, fields, api, _
+from odoo.exceptions import UserError
+import hashlib
+import json
+
+class AgriQualityPoint(models.Model):
+    _name = 'agri.quality.point'
+    _description = 'Agricultural Quality Control Point'
+
+    name = fields.Char("Title", required=True)
+    product_id = fields.Many2one('product.product', string="Product/Variety")
+    test_type = fields.Selection([
+        ('pass_fail', 'Pass - Fail'),
+        ('measure', 'Measure'),
+        ('sensory', 'Sensory Evaluation'),
+        ('hplc', 'HPLC Lab Test')
+    ], string="Test Type", default='pass_fail', required=True)
+
+    # Measurement standards
+    norm = fields.Float("Norm")
+    tolerance_min = fields.Float("Min Tolerance")
+    tolerance_max = fields.Float("Max Tolerance")
+    replicate_count = fields.Integer("Replicate Count", default=1, help="Number of measurement replicates required for this check step.")
+
+    active = fields.Boolean(default=True)
+
+class AgriQualityCheck(models.Model):
+    _name = 'agri.quality.check'
+    _description = 'Agricultural Quality Check'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
+
+    name = fields.Char("Reference", required=True, default=lambda self: _('New'))
+    point_id = fields.Many2one('agri.quality.point', string="Control Point")
+    lot_id = fields.Many2one('stock.lot', string="Lot/Batch", required=True)
+    sample_id = fields.Many2one('agri.quality.sample', string="Linked Sample",
+                               help="The physical sample used for this check.")
+    task_id = fields.Many2one('project.task', string="Production Task")
+    purchase_order_line_id = fields.Many2one('purchase.order.line', string="Purchase Order Line",
+                                            help="Link to purchase order line for acquisition quality checks (US-009-19)")
+    record_book_id = fields.Many2one('agri.quality.record.book', string="Quality Record Book", tracking=True)
+    template_line_id = fields.Many2one('agri.quality.record.book.template.line', string="Record Book Template Line")
+    instruction = fields.Text("Inspection Instructions", help="Detailed GxP instructions for the inspector during this check.")
+
+    test_type = fields.Selection(related='point_id.test_type', store=True)
+    replicate_count = fields.Integer(related='point_id.replicate_count', readonly=True, string="Required Replicates")
+    measure = fields.Float(
+        string="Actual Measure",
+        compute="_compute_measure",
+        store=True,
+        readonly=False,
+        tracking=True
+    )
+    measure_line_ids = fields.One2many(
+        'agri.quality.check.measure.line',
+        'check_id',
+        string="Replicate Measurements"
+    )
+    norm = fields.Float(related='point_id.norm', readonly=True, string="Target Norm")
+    tolerance_min = fields.Float(related='point_id.tolerance_min', readonly=True, string="Min Limit")
+    tolerance_max = fields.Float(related='point_id.tolerance_max', readonly=True, string="Max Limit")
+
+    quality_state = fields.Selection([
+        ('none', 'To do'),
+        ('pass', 'Passed'),
+        ('fail', 'Failed')
+    ], string="Status", default='none', tracking=True)
+
+    user_id = fields.Many2one('res.users', string="Responsible", default=lambda self: self.env.user)
+
+    # US-038-07: On-site quick test (Quick-Test)
+    is_quick_test = fields.Boolean("Is Quick Test", default=False)
+    quick_test_photo = fields.Binary("Test Strip Photo", attachment=True)
+
+    # US-038-08: Digital sensory evaluation (Sensory Profile)
+    appearance_score = fields.Integer("Appearance (1-10)", default=5)
+    aroma_score = fields.Integer("Aroma (1-10)", default=5)
+    flavor_score = fields.Integer("Flavor (1-10)", default=5)
+    texture_score = fields.Integer("Texture (1-10)", default=5)
+    sensory_notes = fields.Text("Sensory Notes")
+
+    # US-038-09: Blockchain attestation fingerprint (Blockchain Mock)
+    blockchain_hash = fields.Char("Blockchain Hash", readonly=True)
+
+    # US-038-11: LIMS integration
+    lims_source_data = fields.Text("LIMS Raw Data")
+    lims_device_id = fields.Char("LIMS Device ID")
+
+    # Blind-sample fields [US-038-06] - for tester UI control
+    is_blind_view = fields.Boolean("Blind View", compute='_compute_blind_view', help="Whether the current user should see masked information")
+
+    def _compute_blind_view(self):
+        """ Compute whether the current user should view this as a blind sample [US-038-06] """
+        for record in self:
+            if (record.sample_id and record.sample_id.is_blind_test and
+                record.sample_id.blind_tester_id and
+                record.sample_id.blind_tester_id.id == self.env.uid):
+                record.is_blind_view = True
+            else:
+                record.is_blind_view = False
+
+    @api.model_create_multi
+    def create(self, vals_list):
+        for vals in vals_list:
+            if vals.get('name', _('New')) == _('New'):
+                vals['name'] = self.env['ir.sequence'].next_by_code('agri.quality.check') or _('QC')
+        return super().create(vals_list)
+
+    def action_pass(self):
+        self._generate_blockchain_hash()
+        self.write({'quality_state': 'pass'})
+        self.lot_id.write({'quality_status': 'passed'})
+
+    def action_fail(self):
+        self.write({'quality_state': 'fail'})
+        self.lot_id.write({'quality_status': 'failed'})
+
+    def action_done(self):
+        """ For measurement-type checks, auto-judge from the range """
+        self.ensure_one()
+        if self.test_type == 'measure':
+            if self.point_id.tolerance_min <= self.measure <= self.point_id.tolerance_max:
+                self.action_pass()
+            else:
+                self.action_fail()
+        else:
+            self.action_pass()
+
+    @api.depends('measure_line_ids.value')
+    def _compute_measure(self):
+        for rec in self:
+            if rec.measure_line_ids:
+                vals = rec.measure_line_ids.mapped('value')
+                rec.measure = sum(vals) / len(vals) if vals else 0.0
+            else:
+                if not rec.measure:
+                    rec.measure = 0.0
+
+    @api.onchange('measure_line_ids')
+    def _onchange_measure_lines(self):
+        """ Recalculate average and re-evaluate pass/fail on the fly when editing replicates inside the spreadsheet grid """
+        for rec in self:
+            if rec.measure_line_ids:
+                vals = rec.measure_line_ids.mapped('value')
+                rec.measure = sum(vals) / len(vals) if vals else 0.0
+                if rec.test_type == 'measure' and rec.point_id:
+                    if rec.point_id.tolerance_min <= rec.measure <= rec.point_id.tolerance_max:
+                        rec.quality_state = 'pass'
+                    else:
+                        rec.quality_state = 'fail'
+
+    @api.onchange('measure')
+    def _onchange_measure(self):
+        """ Dynamically auto-evaluate quality_state based on point limits during spreadsheet-like inline editing """
+        for rec in self:
+            if rec.test_type == 'measure' and rec.point_id:
+                if rec.point_id.tolerance_min <= rec.measure <= rec.point_id.tolerance_max:
+                    rec.quality_state = 'pass'
+                else:
+                    rec.quality_state = 'fail'
+
+    def _generate_blockchain_hash(self):
+        """ US-038-09: Generate an immutable hash of the test result """
+        self.ensure_one()
+        data = {
+            'ref': self.name,
+            'lot': self.lot_id.name,
+            'measure': self.measure,
+            'state': 'pass',
+            'user': self.user_id.name,
+            'date': fields.Datetime.now().isoformat()
+        }
+        hash_str = hashlib.sha256(json.dumps(data, sort_keys=True).encode()).hexdigest()
+        self.blockchain_hash = hash_str
+
+    def action_check_ccp_violations(self):
+        """ US-038-10: CCP Hard-Block check based on IoT/Task time """
+        self.ensure_one()
+        if self.task_id and self.task_id.actual_start_date and self.task_id.actual_end_date:
+            duration = (self.task_id.actual_end_date - self.task_id.actual_start_date).total_seconds() / 60
+            # Example: If pasteurization duration is less than 15 mins, fail
+            if "pasteurize" in (self.task_id.name or "").lower() and duration < 15:
+                self.message_post(body=_("CCP VIOLATION: Pasteurization time too short (%s mins).") % duration)
+                self.action_fail()
+                return False
+        return True
+
+    def write(self, vals):
+        for rec in self:
+            if rec.record_book_id and rec.record_book_id.state == 'locked' and any(f not in ['message_follower_ids', 'activity_ids'] for f in vals):
+                raise UserError(_("GxP ANTI-TAMPERING: This quality check belongs to a locked Record Book and cannot be modified."))
+        return super().write(vals)
+
+    def unlink(self):
+        for rec in self:
+            if rec.record_book_id and rec.record_book_id.state == 'locked':
+                raise UserError(_("GxP ANTI-TAMPERING: This quality check belongs to a locked Record Book and cannot be deleted."))
+        return super().unlink()
+
+    def action_open_quality_alert(self):
+        """ Create a quality alert from this check """
+        self.ensure_one()
+        alert = self.env['agri.quality.alert'].create({
+            'name': _('Quality Alert for %s') % self.name,
+            'check_id': self.id,
+            'lot_id': self.lot_id.id,
+            'product_id': self.lot_id.product_id.id,
+        })
+        return alert
+
+class AgriQualityAlert(models.Model):
+    _name = 'agri.quality.alert'
+    _description = 'Agricultural Quality Alert'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
+
+    name = fields.Char("Title", required=True)
+    check_id = fields.Many2one('agri.quality.check', string="Source Check")
+    lot_id = fields.Many2one('stock.lot', string="Lot/Batch", required=True)
+    product_id = fields.Many2one('product.product', string="Product")
+
+    user_id = fields.Many2one('res.users', string="Responsible", default=lambda self: self.env.user)
+    priority = fields.Selection([('0', 'Low'), ('1', 'Normal'), ('2', 'High')], default='1')
+
+    description = fields.Text("Description")
+    cause = fields.Text("Root Cause")
+    action_taken = fields.Text("Action Taken")
+
+    state = fields.Selection([
+        ('new', 'New'),
+        ('confirmed', 'Confirmed'),
+        ('action_proposed', 'Action Proposed'),
+        ('closed', 'Closed'),
+    ], string="Status", default='new', tracking=True)
+
+    def action_confirm(self):
+        self.write({'state': 'confirmed'})
+
+    def action_close_scrapped(self):
+        self.message_post(body=_("Alert closed: Asset marked for scrapping."))
+        self.write({'state': 'closed'})
+
+class StockPicking(models.Model):
+    _inherit = 'stock.picking'
+
+    def button_validate(self):
+        for picking in self:
+            if picking.picking_type_code in ['outgoing', 'internal']:
+                for move in picking.move_ids:
+                    for lot in move.lot_ids:
+                        if lot.quality_status == 'failed':
+                            raise UserError(_("QUALITY ALERT: Lot %s has failed quality inspection.") % lot.name)
+                        if lot.qc_release_state == 'locked':
+                            raise UserError(_("QC LOCKED: Lot %s is pending release and cannot be moved.") % lot.name)
+        return super().button_validate()
+
+class AgriLotQuality(models.Model):
+    _inherit = 'stock.lot'
+
+    quality_status = fields.Selection([
+        ('none', 'Not Tested'),
+        ('passed', 'Passed'),
+        ('failed', 'Failed')
+    ], string="Quality Status", default='none', tracking=True)
+
+    qc_release_state = fields.Selection([
+        ('locked', 'Locked'),
+        ('released', 'Released'),
+    ], string="QC Release Status", default='locked', tracking=True)
+
+    quality_check_ids = fields.One2many('agri.quality.check', 'lot_id', string="Quality Checks")
+
+    def action_qc_release(self):
+        self.ensure_one()
+        self.write({'qc_release_state': 'released'})
+
+    def action_lock(self):
+        self.ensure_one()
+        self.write({'qc_release_state': 'locked'})
+
+class AgriQualityCheckMeasureLine(models.Model):
+    _name = 'agri.quality.check.measure.line'
+    _description = 'Quality Check Measurement Line'
+    _order = 'sequence, id'
+
+    check_id = fields.Many2one('agri.quality.check', string="Quality Check", ondelete='cascade', required=True)
+    sequence = fields.Integer("Sequence", default=10)
+    value = fields.Float("Measured Value", default=0.0)
