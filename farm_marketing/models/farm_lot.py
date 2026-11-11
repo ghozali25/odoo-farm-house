@@ -88,7 +88,13 @@ class FarmSaleOrderLine(models.Model):
         }
 
 class FarmLotMarketing(models.Model):
-    _inherit = 'stock.lot'
+    # quality_status lives on agri.quality.gate.mixin (farm_core); without it
+    # _compute_integrity_score crashes on install when lots exist (demo data).
+    # NOTE: with a list _inherit, Odoo does NOT infer _name from the first
+    # element — it must be set explicitly, or _name becomes the class name
+    # and init fails with "The _name attribute FarmLotMarketing is not valid".
+    _name = 'stock.lot'
+    _inherit = ['stock.lot', 'agri.quality.gate.mixin']
 
     traceability_url = fields.Char("Traceability URL", compute='_compute_traceability_url')
     
