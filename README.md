@@ -181,6 +181,9 @@ Semua tangkapan layar dari simulasi FINAL (Odoo 18, `?debug=1`, 11 Nov 2026).
 ### Prasyarat
 
 - Odoo **18.0** (Community/Enterprise), Python 3.12, PostgreSQL.
+- Ekstensi PostgreSQL **`pgvector`** — wajib untuk `farm_ai_agent` (vector memory).
+  Image `postgres:16` standar tidak menyertakannya; install dulu
+  `postgresql-16-pgvector` di container database sebelum install modul.
 - Modul standar yang ditarik otomatis sebagai dependensi: `stock`, `mrp`, `account`,
   `sale`, `purchase`, `hr`, `project`, `point_of_sale` (untuk `farm_pos`), `mail`.
 
