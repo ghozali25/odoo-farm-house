@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 <data>
-<menuitem id="farm_apiculture_menu_root" name="Apiculture" sequence="26" groups="base.group_user" />
+<menuitem id="farm_apiculture_menu_root" name="Apiculture" web_icon="farm_apiculture,static/description/icon.png" sequence="26" groups="base.group_user" />
 </data>
 </odoo>

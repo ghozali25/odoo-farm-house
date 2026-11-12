@@ -9,8 +9,7 @@
         <field name="context">{'default_intervention_type': 'feeding'}</field>
     </record>
 
-    <menuitem id="menu_livestock_root" name="Livestock" sequence="20" web_icon="farm_livestock,static/description/icon.png" />
-    <menuitem id="menu_livestock_ops" name="Operations" parent="menu_livestock_root" sequence="10" />
+    <menuitem id="menu_livestock_ops" name="Operations" parent="menu_farm_livestock_root" sequence="10" />
     <menuitem id="menu_livestock_feeding" name="Feeding" parent="menu_livestock_ops" action="action_livestock_feeding" sequence="10" />
 </data>
 </odoo>

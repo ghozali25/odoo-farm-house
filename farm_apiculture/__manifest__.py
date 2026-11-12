@@ -1,6 +1,6 @@
 {
     'name': 'Farm Apiculture',
-    'version': '18.0.1.0.0',
+    'version': '18.0.1.0.1',
     'category': 'Industries/Agriculture',
     'summary': 'Apiculture Management - Bee Colonies, Hive Management, Honey Production, Nectar Source Tracking',
     'description': """
@@ -14,6 +14,11 @@
         - Honey production and quality management
         - Bee health and disease management
         - Seasonal beekeeping operations
+
+        Changelog:
+        - 18.0.1.0.1: Merged duplicate "Apiculture" root menu (kept
+          farm_apiculture_menu_root; moved Operations and Hive Inspections
+          under it).
     """,
     'author': 'Jeffery',
     'depends': [

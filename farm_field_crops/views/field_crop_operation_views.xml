@@ -91,8 +91,6 @@
     </record>
 
     
-    <menuitem id="menu_field_crop_operations_root" name="Field Crops" web_icon="farm_field_crops,static/description/icon.png" sequence="20" />
-
-    <menuitem id="menu_field_crop_operations" name="Operations" parent="menu_field_crop_operations_root" action="action_farm_field_crop_operations" sequence="10" />
+    <menuitem id="menu_field_crop_operations" name="Operations" parent="farm_field_crops_menu_root" action="action_farm_field_crop_operations" sequence="10" />
 </data>
 </odoo>

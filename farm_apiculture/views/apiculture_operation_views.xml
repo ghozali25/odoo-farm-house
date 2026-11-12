@@ -148,10 +148,8 @@
     </record>
 
     
-    <menuitem id="menu_farm_apiculture_root" name="Apiculture" web_icon="farm_apiculture,static/description/icon.png" sequence="26" />
+    <menuitem id="menu_farm_apiculture_operations" name="Operations" parent="farm_apiculture_menu_root" action="action_farm_apiculture_operations" sequence="10" />
 
-    <menuitem id="menu_farm_apiculture_operations" name="Operations" parent="menu_farm_apiculture_root" action="action_farm_apiculture_operations" sequence="10" />
-
-    <menuitem id="menu_farm_hive_inspections" name="Hive Inspections" parent="menu_farm_apiculture_root" action="action_farm_hive_inspections" sequence="20" />
+    <menuitem id="menu_farm_hive_inspections" name="Hive Inspections" parent="farm_apiculture_menu_root" action="action_farm_hive_inspections" sequence="20" />
 </data>
 </odoo>

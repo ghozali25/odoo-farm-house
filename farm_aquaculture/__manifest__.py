@@ -1,6 +1,6 @@
 {
     'name': 'Farm Aquaculture',
-    'version': '18.0.1.0.2',
+    'version': '18.0.1.0.3',
     'category': 'Industries/Agriculture',
     'summary': 'Aquaculture Management - Water Quality, Feeding, Growth Tracking, Dissolved Oxygen Monitoring',
     'description': """
@@ -14,6 +14,11 @@
         - Pond/tank management
         - Aquaculture specific harvest management
         - Water treatment and circulation management
+
+        Changelog:
+        - 18.0.1.0.3: Merged duplicate "Aquaculture" root menu (kept
+          farm_aquaculture_menu_root; moved Operations and Water Quality
+          Logs under it).
     """,
     'author': 'Jeffery',
     'depends': [

@@ -1,6 +1,6 @@
 {
     'name': 'Farm Field Crops',
-    'version': '18.0.1.0.0',
+    'version': '18.0.1.0.1',
     'category': 'Industries/Agriculture',
     'summary': 'Field Crops Management - Plots, Sowing, Harvesting, Mechanized Operations',
     'description': """
@@ -14,6 +14,10 @@
         - Fertilizer application planning and tracking
         - Large scale irrigation management
         - Harvest yield tracking and analysis
+
+        Changelog:
+        - 18.0.1.0.1: Merged duplicate "Field Crops" root menu (kept
+          farm_field_crops_menu_root; moved Operations under it).
     """,
     'author': 'Jeffery',
     'depends': [

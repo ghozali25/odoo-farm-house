@@ -1,6 +1,6 @@
 {
     'name': 'Farm Agricultural Processing (Industry Profile)',
-    'version': '18.0.1.1.1',
+    'version': '18.0.1.1.2',
     'category': 'Industries/Agriculture',
     'summary': 'Industry-specific configurations and views for agricultural processing',
     'description': """
@@ -12,6 +12,10 @@
         - Pre-configured menus for Baking, Winemaking, etc.
         - Simplified views tailored for agri-processing workers.
         - Industry dashboards for Yield and Loss analysis.
+
+        Changelog:
+        - 18.0.1.1.2: Merged duplicate "Agri Processing" root menu (kept
+          menu_agri_processing_root; moved Seasonal Recipes under it).
     """,
     'author': 'Jeffery',
     'depends': [

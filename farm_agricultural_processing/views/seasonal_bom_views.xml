@@ -154,7 +154,7 @@
         <field name="view_mode">list,form</field>
     </record>
 
-    <menuitem id="menu_seasonal_recipe_root" name="Seasonal Recipes" parent="farm_agricultural_processing.menu_agricultural_processing_root" sequence="10" />
+    <menuitem id="menu_seasonal_recipe_root" name="Seasonal Recipes" parent="menu_agri_processing_root" sequence="60" />
     <menuitem id="menu_seasonal_recipe" name="Recipe Management" parent="menu_seasonal_recipe_root" action="action_agri_seasonal_recipe_list" sequence="10" />
     <menuitem id="menu_seasonal_recipe_inputs" name="Input Adjustments" parent="menu_seasonal_recipe_root" action="action_agri_seasonal_recipe_input_list" sequence="20" />
     <menuitem id="menu_seasonal_recipe_parameters" name="Parameter Adjustments" parent="menu_seasonal_recipe_root" action="action_agri_seasonal_recipe_parameter_list" sequence="30" />

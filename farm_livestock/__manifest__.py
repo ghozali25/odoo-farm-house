@@ -1,6 +1,6 @@
 {
     'name': 'Farm Livestock',
-    'version': '18.0.1.2.1',
+    'version': '18.0.1.2.2',
     'category': 'Industries/Agriculture',
     'summary': 'Livestock Management - Breeding Records, Health Records, Breeding Management, Individual Identification',
     'description': """
@@ -15,6 +15,10 @@
         - Feeding Plans & Formulas (BOM based) [US-094-03, US-094-09]
         - Group Movements (Merge, Split, Death) [US-005-04]
         - Animal lifecycle and age-based management [US-094-01]
+
+        Changelog:
+        - 18.0.1.2.2: Merged duplicate "Livestock" root menu (kept
+          menu_farm_livestock_root; moved Operations under it).
     """,
     'author': 'Jeffery',
     'depends': ['farm_operation', 'farm_core', 'farm_mrp', 'project', 'mrp', 'stock'],

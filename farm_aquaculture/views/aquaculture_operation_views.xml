@@ -163,10 +163,8 @@
     </record>
 
     
-    <menuitem id="menu_farm_aquaculture_root" name="Aquaculture" web_icon="farm_aquaculture,static/description/icon.png" sequence="23" />
+    <menuitem id="menu_farm_aquaculture_operations" name="Operations" parent="farm_aquaculture_menu_root" action="action_farm_aquaculture_operations" sequence="10" />
 
-    <menuitem id="menu_farm_aquaculture_operations" name="Operations" parent="menu_farm_aquaculture_root" action="action_farm_aquaculture_operations" sequence="10" />
-
-    <menuitem id="menu_farm_water_quality_logs" name="Water Quality Logs" parent="menu_farm_aquaculture_root" action="action_farm_water_quality_logs" sequence="20" />
+    <menuitem id="menu_farm_water_quality_logs" name="Water Quality Logs" parent="farm_aquaculture_menu_root" action="action_farm_water_quality_logs" sequence="30" />
 </data>
 </odoo>

@@ -3,7 +3,7 @@
 <data>
 <menuitem id="menu_farm_livestock_root" name="Livestock" web_icon="farm_livestock,static/description/icon.png" sequence="28" />
 
-    <menuitem id="menu_livestock_animals" name="Animals" parent="menu_farm_livestock_root" sequence="10" />
+    <menuitem id="menu_livestock_animals" name="Animals" parent="menu_farm_livestock_root" sequence="20" />
 
     
 

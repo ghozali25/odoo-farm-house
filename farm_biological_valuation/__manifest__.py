@@ -1,7 +1,7 @@
 {
     "name": "Farm Biological Asset Valuation",
     "summary": "Consolidated biological asset valuation with fair value and cost accounting",
-    "version": "18.0.1.0.1",
+    "version": "18.0.1.0.2",
     "category": "Farming",
     "author": "genin IT, jeffery <jeffery9@gmail.com>",
     "maintainers": ["jeffery"],
@@ -45,5 +45,9 @@
 
     The module provides a single, comprehensive solution for biological asset valuation
     while maintaining compatibility with existing systems.
+
+    Changelog:
+    - 18.0.1.0.2: Removed duplicate "Biological Asset Valuation" leaf menu
+      (same action is already reachable via Valuations > Asset Valuations).
     """,
 }

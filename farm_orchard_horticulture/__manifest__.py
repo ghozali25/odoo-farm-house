@@ -1,6 +1,6 @@
 {
     'name': 'Farm Orchard Horticulture',
-    'version': '18.0.1.0.0',
+    'version': '18.0.1.0.1',
     'category': 'Industries/Agriculture',
     'summary': 'Orchard Horticulture Management - Fruit Trees, Pruning, Lifecycle, Harvest Tracking',
     'description': """
@@ -14,6 +14,11 @@
         - Annual growth cycle tracking
         - Orchard specific crop management
         - Tree lifecycle and age-based management
+
+        Changelog:
+        - 18.0.1.0.1: Removed empty duplicate "Orchard Horticulture" root
+          menu (kept menu_farm_orchard_root with Operations and Yield
+          Analysis).
     """,
     'author': 'Jeffery',
     'depends': [
