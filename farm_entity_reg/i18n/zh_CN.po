@@ -1,0 +1,20 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_entity_reg
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Cooperative"
+msgstr "合作社"
+
+msgid "Electronic Licenses"
+msgstr "电子许可证"
+
+msgid "Entity Type"
+msgstr "实体类型"
+
+msgid "Member Name"
+msgstr "会员姓名"
+
