@@ -1,0 +1,87 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* farm_live_streaming
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260421\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 09:03+0000\n"
+"PO-Revision-Date: 2026-05-04 09:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/douyin_product.py:0
+msgid "Account not authorized!"
+msgstr "账号未授权！"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/douyin_account.py:0
+msgid "Action Required: Douyin Auth"
+msgstr "需要操作：抖音认证"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/douyin_qualification.py:0
+msgid ""
+"Congratulations! Internal pre-audit passed. You are ready to apply on Douyin"
+" Platform."
+msgstr ""
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/douyin_account.py:0
+msgid "Douyin authorization has expired. Integration is suspended."
+msgstr "抖音授权已过期。整合已暂停。"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/douyin_account.py:0
+msgid "Douyin token for %s will expire within 24 hours. Please re-authorize."
+msgstr "%s 的抖音令牌将在 24 小时内过期。请重新授权。"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/douyin_account.py:0
+msgid "Health Check: Connection Successful. Account: %s"
+msgstr "健康检查：连接成功。帐户：%s"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/live_order.py:0
+msgid "Import Exception: %s"
+msgstr "导入异常：%s"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/live_order.py:0
+msgid "Import Failed: Product mapping not found for Item %s"
+msgstr "导入失败：找不到项目 %s 的产品映射"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/douyin_account.py:0
+msgid "Order sync completed: %s downloaded, %s imported."
+msgstr "订单同步已完成：已下载 %s，已导入 %s。"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/douyin_qualification.py:0
+msgid "Pre-audit failed: <br/>"
+msgstr "预审核失败：<br/>"
+
+#. module: farm_live_streaming
+#. odoo-python
+#: code:addons/farm_live_streaming/models/douyin_qualification.py:0
+msgid ""
+"Unified Social Credit Code must be 18 characters (Numbers and Uppercase "
+"letters)."
+msgstr ""
